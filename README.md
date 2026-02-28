@@ -50,8 +50,7 @@ The pipeline consists of numbered Python scripts executed sequentially:
 
 ## Hardware
 
-- NVIDIA DGX Spark GB10 (ARM64, 120GB unified memory)
-- 4TB NVMe + 8TB external storage
+- NVIDIA DGX (ARM64)
 - CUDA for TransE training (~9 hours for 100 epochs)
 
 ## Known Limitations
@@ -82,7 +81,7 @@ results/kg_embeddings/TransE/                # Trained model + embeddings
 
 If you use SexDiffKG, please cite:
 
-> JShaik. SexDiffKG: A Sex-Stratified Knowledge Graph for Drug Safety Pharmacovigilance. ISMB 2026 (submitted).
+> JShaik. SexDiffKG: A Sex-Stratified Knowledge Graph for Drug Safety Pharmacovigilance.
 
 ## License
 
