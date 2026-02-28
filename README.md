@@ -2,7 +2,7 @@
 
 **Author:** JShaik (jshaik@coevolvenetwork.com)  
 **Affiliation:** CoEvolve Network, Independent Researcher, Barcelona, Spain  
-**Status:** Under preparation for ISMB 2026  
+**Status:** Under preparation 
 
 ## Overview
 
