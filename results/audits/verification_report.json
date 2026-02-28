@@ -1,0 +1,99 @@
+{
+  "timestamp": "2026-02-28T00:37:14.480739",
+  "report_version": "1.0",
+  "verification_type": "comprehensive",
+  "sections": {
+    "numeric_counts": {
+      "checks": {
+        "kg_nodes": {
+          "description": "Entity nodes in KG",
+          "expected_min": 120000,
+          "expected_max": 130000,
+          "actual_lines": 127064,
+          "status": "PASS",
+          "message": "Within expected range"
+        },
+        "kg_edges": {
+          "description": "Edges/relations in KG",
+          "expected_min": 5800000,
+          "expected_max": 6000000,
+          "actual_lines": 5839718,
+          "status": "PASS",
+          "message": "Within expected range"
+        },
+        "kg_triples": {
+          "description": "RDF triples in KG",
+          "expected_min": 5800000,
+          "expected_max": 6000000,
+          "actual_lines": 5839717,
+          "status": "PASS",
+          "message": "Within expected range"
+        }
+      },
+      "summary": {
+        "passed": 3,
+        "failed": 0,
+        "warnings": 0,
+        "total": 3
+      }
+    },
+    "file_integrity": {
+      "checks": {
+        "kg_nodes": {
+          "exists": true,
+          "size_mb": 11.235189437866211,
+          "lines": 127063,
+          "header": "id\tname\tcategory\tproperties",
+          "sample_row": "CHEMBL2105664\tTECARFARIN\tDrug\t\"{\"\"chembl_id\"\": \"\"CHEMBL2105664\"\"}\"",
+          "integrity": "OK"
+        },
+        "kg_edges": {
+          "exists": true,
+          "size_mb": 1048.9443645477295,
+          "lines": 5839717,
+          "header": "subject\tpredicate\tobject\tproperties",
+          "sample_row": "CHEMBL2105664\ttargets\tENSG00000167397\t\"{\"\"mechanism_of_action\"\": \"\"INHIBITOR\"\", \"\"action_type\"\": \"\"V",
+          "integrity": "OK"
+        },
+        "kg_triples": {
+          "exists": true,
+          "size_mb": 332.55824756622314,
+          "lines": 5839716,
+          "header": "CHEMBL2105664\ttargets\tENSG00000167397",
+          "sample_row": "CHEMBL712\ttargets\tENSG00000115486",
+          "integrity": "OK"
+        }
+      },
+      "summary": {
+        "passed": 3,
+        "failed": 0,
+        "total": 3
+      }
+    },
+    "data_consistency": {
+      "triples_to_nodes_ratio": {
+        "triples": 5839716,
+        "nodes": 127063,
+        "ratio": 45.96,
+        "expected_range": [
+          40,
+          60
+        ],
+        "status": "OK"
+      },
+      "headers": {
+        "triples_header": "CHEMBL2105664\ttargets\tENSG00000167397",
+        "nodes_header": "id\tname\tcategory\tproperties",
+        "both_present": true
+      }
+    }
+  },
+  "summary": {
+    "status": "PASS",
+    "total_checks": 6,
+    "passed": 6,
+    "warnings": 0,
+    "failed": 0,
+    "timestamp": "2026-02-28T00:37:20.064503"
+  }
+}

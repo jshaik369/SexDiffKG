@@ -1,0 +1,16 @@
+drug,ae,expected,source,pmid,ror_female,ror_male,a_female,a_male,log_ratio,observed,status,direction_correct,matched_drug,matched_ae
+METHADONE,Electrocardiogram QT prolonged,F>M,Roden DM. N Engl J Med. 2004;350(10):1013-22,PMID:14999113,,,,,,,SINGLE_SEX,False,METHADONE,Electrocardiogram QT prolonged
+ENALAPRIL,Cough,F>M,"Israili ZH, Hall WD. Ann Intern Med. 1992;117(3):234-42",PMID:1616218,2.59,1.09,102.0,45.0,0.8653,female_higher,CORRECT,True,ENALAPRIL,Productive cough
+ERYTHROMYCIN,Electrocardiogram QT prolonged,F>M,Drici MD et al. JAMA. 1998;280(20):1774-6,PMID:9842954,2.871,2.745,48.0,18.0,0.0449,female_higher,CORRECT_ROR,True,ERYTHROMYCIN,Electrocardiogram QT prolonged
+LEVOFLOXACIN,Tendon rupture,M>F,van der Linden PD et al. Arthritis Rheum. 2001;45(3):235-9,PMID:11409663,12.64,5.491,10.0,13.0,0.8338,female_higher,WRONG_DIR,False,LEVOFLOXACIN,Aortic aneurysm rupture
+ATORVASTATIN,Rhabdomyolysis,F>M,Rosenson RS. Am J Med. 2004;116(6):408-16,PMID:15006590,9.06,5.899,968.0,1639.0,0.4291,female_higher,CORRECT_ROR,True,ATORVASTATIN,Rhabdomyolysis
+ASPIRIN,Gastrointestinal haemorrhage,M>F,Garcia Rodriguez LA et al. Br J Clin Pharmacol. 2001;52(5):563-71,PMID:11736865,2.794,1.074,27.0,15.0,0.9558,female_higher,WRONG_DIR,False,ASPIRIN,Gastrointestinal neoplasm
+AMOXICILLIN,Hepatocellular injury,M>F,Lucena MI et al. Hepatology. 2009;49(6):2001-9,PMID:19475693,3.522,10.493,12.0,34.0,-1.0916,male_higher,CORRECT,True,AMOXICILLIN,Cholestatic liver injury
+SOTALOL,Torsade de pointes,F>M,Makkar RR et al. JAMA. 1993;270(21):2590-7,PMID:8230644,47.75,26.039,93.0,45.0,0.6064,female_higher,CORRECT,True,SOTALOL,Torsade de pointes
+FLUOXETINE,Hyponatraemia,F>M,Movig KL et al. Br J Clin Pharmacol. 2002;53(4):363-9,PMID:11966666,,,,,,,NOT_FOUND,False,,
+MORPHINE,Respiratory depression,F>M,Sarton E et al. Anesthesiology. 2000;93(5):1245-54,PMID:11046213,3.198,0.585,94.0,10.0,1.6979,female_higher,CORRECT,True,MORPHINE,Respiratory tract congestion
+WARFARIN,Haemorrhage,F>M,Krecic-Shepard ME et al. Clin Pharmacol Ther. 2004;76(5):505-6,PMID:UNVERIFIED,5.725,23.151,71.0,570.0,-1.3972,male_higher,WRONG_DIR,False,WARFARIN,Gastric haemorrhage
+DIGOXIN,Cardiac arrest,F>M,Rathore SS et al. N Engl J Med. 2002;347(18):1403-11,PMID:12409542,5.03,2.38,29.0,15.0,0.7484,female_higher,CORRECT,True,DIGOXIN,Cardiac pacemaker insertion
+HYDROCHLOROTHIAZIDE,Hypokalaemia,F>M,"Clayton JA, Collins FS. Nature. 2014;509(7500):282-3",PMID:24834516,7.433,7.621,1197.0,635.0,-0.025,male_higher,WRONG_DIR_ROR,False,HYDROCHLOROTHIAZIDE,Hypokalaemia
+ZOLPIDEM,Somnolence,F>M,"FDA Safety Communication. Jan 10, 2013",FDA-2013-N-0012,1.803,3.11,4.0,4.0,-0.5451,male_higher,WRONG_DIR_ROR,False,ZOLPIDEM,Somnolence
+TRASTUZUMAB,Cardiomyopathy,F>M,Seidman A et al. J Clin Oncol. 2002;20(5):1215-21,PMID:11870163,12.02,8.548,272.0,22.0,0.3409,female_higher,CORRECT_ROR,True,TRASTUZUMAB,Cardiomyopathy

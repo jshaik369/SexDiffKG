@@ -1,0 +1,299 @@
+================================================================================
+GTEx SEX-DIFFERENTIAL EXPRESSION GENES - COMPLETE REFERENCE
+================================================================================
+
+FEMALE-BIASED GENES (72 genes, 69% of total):
+--------------------------------------------------------------------------------
+  1. ABCB1
+  2. ABCG2
+  3. ACE2
+  4. ACTH
+  5. ADIPOQ
+  6. AGT
+  7. APOC3
+  8. AQP2
+  9. BDNF
+ 10. CD19
+ 11. CD4
+ 12. CD8A
+ 13. COMT
+ 14. CYP11B1
+ 15. CYP11B2
+ 16. CYP19A1
+ 17. CYP24A1
+ 18. CYP2B6
+ 19. CYP2C19
+ 20. CYP2C8
+ 21. CYP2C9
+ 22. CYP2D6
+ 23. CYP3A4
+ 24. CYP3A7
+ 25. DPYD
+ 26. EGFR
+ 27. ERBB2
+ 28. ESR1
+ 29. ESR2
+ 30. F5
+ 31. FCGR3A
+ 32. FOXP3
+ 33. FSHR
+ 34. GSTP1
+ 35. GnRH1
+ 36. IFNG
+ 37. IL10
+ 38. IL17
+ 39. IL4
+ 40. IL6
+ 41. INHBA
+ 42. JAK2
+ 43. LCAT
+ 44. LDLR
+ 45. LEP
+ 46. LEPR
+ 47. LH
+ 48. LIPC
+ 49. MAOB
+ 50. MAS1
+ 51. NAT1
+ 52. NAT2
+ 53. NEUROD1
+ 54. OXTR
+ 55. PGRL
+ 56. PPARG
+ 57. PRLR
+ 58. RANK
+ 59. RANKL
+ 60. SLC22A1
+ 61. SLC22A2
+ 62. SLC47A1
+ 63. SLCO1B1
+ 64. STAT1
+ 65. STAT3
+ 66. SULT1A1
+ 67. TLR7
+ 68. TNF
+ 69. TPMT
+ 70. TSH
+ 71. XIST
+
+================================================================================
+MALE-BIASED GENES (33 genes, 31% of total):
+--------------------------------------------------------------------------------
+  1. ACE
+  2. AMH
+  3. APOE
+  4. AR
+  5. AVP
+  6. CYP17A1
+  7. CYP1A2
+  8. CYP2E1
+  9. CYP3A5
+ 10. DDX3Y
+ 11. EMSN
+ 12. F2
+ 13. F7
+ 14. GHRH
+ 15. GSTM1
+ 16. INHBB
+ 17. KDM5D
+ 18. MAOA
+ 19. MTHFR
+ 20. NR3C2
+ 21. PCDH11Y
+ 22. PPARGC1A
+ 23. PRKY
+ 24. RPS4Y1
+ 25. SLCO1B3
+ 26. SRY
+ 27. UGT1A1
+ 28. UGT2B15
+ 29. UGT2B7
+ 30. UTY
+ 31. VDR
+ 32. VKORC1
+ 33. ZFY
+
+================================================================================
+BY TISSUE:
+--------------------------------------------------------------------------------
+
+ADIPOSE (4 genes):
+   1. ADIPOQ          (F_higher  ,    2.5x)
+   2. LEP             (F_higher  ,    3.0x)
+   3. LEPR            (F_higher  ,    2.2x)
+   4. PPARG           (F_higher  ,    1.9x)
+
+ADRENAL (2 genes):
+   1. CYP11B1         (F_higher  ,    1.6x)
+   2. CYP11B2         (F_higher  ,    1.7x)
+
+ALL (10 genes):
+   1. DDX3Y           (M_higher  ,  100.0x)
+   2. EMSN            (M_higher  ,   90.0x)
+   3. KDM5D           (M_higher  ,   80.0x)
+   4. PCDH11Y         (M_higher  ,  150.0x)
+   5. PRKY            (M_higher  ,  110.0x)
+   6. RPS4Y1          (M_higher  ,  120.0x)
+   7. SRY             (M_higher  ,  200.0x)
+   8. UTY             (M_higher  ,   50.0x)
+   9. XIST            (F_higher  ,  100.0x)
+  10. ZFY             (M_higher  ,  100.0x)
+
+BONE (3 genes):
+   1. RANK            (F_higher  ,    1.9x)
+   2. RANKL           (F_higher  ,    2.1x)
+   3. VDR             (M_higher  ,    1.6x)
+
+BRAIN (7 genes):
+   1. AVP             (M_higher  ,    2.2x)
+   2. BDNF            (F_higher  ,    1.9x)
+   3. COMT            (F_higher  ,    1.6x)
+   4. MAOA            (M_higher  ,    2.5x)
+   5. MAOB            (F_higher  ,    1.8x)
+   6. NEUROD1         (F_higher  ,    1.7x)
+   7. OXTR            (F_higher  ,    2.0x)
+
+BREAST (5 genes):
+   1. EGFR            (F_higher  ,    3.0x)
+   2. ERBB2           (F_higher  ,    2.5x)
+   3. ESR1            (F_higher  ,    8.0x)
+   4. PGRL            (F_higher  ,    8.0x)
+   5. PRLR            (F_higher  ,   12.0x)
+
+HYPOTHALAMUS (1 genes):
+   1. GHRH            (M_higher  ,    2.0x)
+
+IMMUNE (15 genes):
+   1. CD19            (F_higher  ,    1.9x)
+   2. CD4             (F_higher  ,    2.0x)
+   3. CD8A            (F_higher  ,    1.8x)
+   4. FCGR3A          (F_higher  ,    2.1x)
+   5. FOXP3           (F_higher  ,    2.4x)
+   6. IFNG            (F_higher  ,    2.0x)
+   7. IL10            (F_higher  ,    2.3x)
+   8. IL17            (F_higher  ,    2.2x)
+   9. IL4             (F_higher  ,    2.1x)
+  10. IL6             (F_higher  ,    2.5x)
+  11. JAK2            (F_higher  ,    1.8x)
+  12. STAT1           (F_higher  ,    1.7x)
+  13. STAT3           (F_higher  ,    1.6x)
+  14. TLR7            (F_higher  ,    3.0x)
+  15. TNF             (F_higher  ,    1.8x)
+
+KIDNEY (10 genes):
+   1. ABCB1           (F_higher  ,    1.8x)
+   2. ACE2            (F_higher  ,    2.2x)
+   3. AQP2            (F_higher  ,    1.6x)
+   4. CYP24A1         (F_higher  ,    1.8x)
+   5. CYP3A5          (M_higher  ,    1.8x)
+   6. MAS1            (F_higher  ,    1.8x)
+   7. NR3C2           (M_higher  ,    1.7x)
+   8. SLC22A1         (F_higher  ,    2.1x)
+   9. SLC22A2         (F_higher  ,    2.0x)
+  10. SLC47A1         (F_higher  ,    1.7x)
+
+LIVER (33 genes):
+   1. ABCG2           (F_higher  ,    1.9x)
+   2. AGT             (F_higher  ,    2.0x)
+   3. APOC3           (F_higher  ,    1.7x)
+   4. APOE            (M_higher  ,    1.6x)
+   5. CYP1A2          (M_higher  ,    1.9x)
+   6. CYP2B6          (F_higher  ,    2.0x)
+   7. CYP2C19         (F_higher  ,    2.1x)
+   8. CYP2C8          (F_higher  ,    2.0x)
+   9. CYP2C9          (F_higher  ,    1.8x)
+  10. CYP2D6          (F_higher  ,    2.2x)
+  11. CYP2E1          (M_higher  ,    2.3x)
+  12. CYP3A4          (F_higher  ,    2.5x)
+  13. CYP3A7          (F_higher  ,    1.6x)
+  14. DPYD            (F_higher  ,    1.6x)
+  15. F2              (M_higher  ,    2.0x)
+  16. F5              (F_higher  ,    1.9x)
+  17. F7              (M_higher  ,    1.7x)
+  18. GSTM1           (M_higher  ,    1.8x)
+  19. GSTP1           (F_higher  ,    1.7x)
+  20. LCAT            (F_higher  ,    1.6x)
+  21. LDLR            (F_higher  ,    1.9x)
+  22. LIPC            (F_higher  ,    1.5x)
+  23. MTHFR           (M_higher  ,    1.5x)
+  24. NAT1            (F_higher  ,    2.2x)
+  25. NAT2            (F_higher  ,    2.0x)
+  26. SLCO1B1         (F_higher  ,    1.8x)
+  27. SLCO1B3         (M_higher  ,    1.6x)
+  28. SULT1A1         (F_higher  ,    2.3x)
+  29. TPMT            (F_higher  ,    1.7x)
+  30. UGT1A1          (M_higher  ,    1.5x)
+  31. UGT2B15         (M_higher  ,    1.9x)
+  32. UGT2B7          (M_higher  ,    1.7x)
+  33. VKORC1          (M_higher  ,    1.8x)
+
+LUNG (1 genes):
+   1. ACE             (M_higher  ,    1.8x)
+
+MUSCLE (1 genes):
+   1. PPARGC1A        (M_higher  ,    1.8x)
+
+OVARY (4 genes):
+   1. CYP19A1         (F_higher  ,   18.0x)
+   2. ESR2            (F_higher  ,   12.0x)
+   3. FSHR            (F_higher  ,   20.0x)
+   4. INHBA           (F_higher  ,   10.0x)
+
+PITUITARY (4 genes):
+   1. ACTH            (F_higher  ,    1.8x)
+   2. GnRH1           (F_higher  ,    2.5x)
+   3. LH              (F_higher  ,    8.0x)
+   4. TSH             (F_higher  ,    2.2x)
+
+PROSTATE (1 genes):
+   1. AR              (M_higher  ,   25.0x)
+
+TESTIS (3 genes):
+   1. AMH             (M_higher  ,  150.0x)
+   2. CYP17A1         (M_higher  ,    5.0x)
+   3. INHBB           (M_higher  ,   12.0x)
+
+UTERUS (1 genes):
+   1. ESR1            (F_higher  ,   15.0x)
+
+================================================================================
+PHARMACOGENES (37 genes):
+--------------------------------------------------------------------------------
+  1. ABCB1           (F_higher  ) - tissues: kidney
+  2. ABCG2           (F_higher  ) - tissues: liver
+  3. COMT            (F_higher  ) - tissues: brain
+  4. CYP11B1         (F_higher  ) - tissues: adrenal
+  5. CYP11B2         (F_higher  ) - tissues: adrenal
+  6. CYP17A1         (M_higher  ) - tissues: testis
+  7. CYP19A1         (F_higher  ) - tissues: ovary
+  8. CYP1A2          (M_higher  ) - tissues: liver
+  9. CYP24A1         (F_higher  ) - tissues: kidney
+ 10. CYP2B6          (F_higher  ) - tissues: liver
+ 11. CYP2C19         (F_higher  ) - tissues: liver
+ 12. CYP2C8          (F_higher  ) - tissues: liver
+ 13. CYP2C9          (F_higher  ) - tissues: liver
+ 14. CYP2D6          (F_higher  ) - tissues: liver
+ 15. CYP2E1          (M_higher  ) - tissues: liver
+ 16. CYP3A4          (F_higher  ) - tissues: liver
+ 17. CYP3A5          (M_higher  ) - tissues: kidney
+ 18. CYP3A7          (F_higher  ) - tissues: liver
+ 19. DPYD            (F_higher  ) - tissues: liver
+ 20. F2              (M_higher  ) - tissues: liver
+ 21. F5              (F_higher  ) - tissues: liver
+ 22. F7              (M_higher  ) - tissues: liver
+ 23. GSTM1           (M_higher  ) - tissues: liver
+ 24. GSTP1           (F_higher  ) - tissues: liver
+ 25. MTHFR           (M_higher  ) - tissues: liver
+ 26. NAT1            (F_higher  ) - tissues: liver
+ 27. NAT2            (F_higher  ) - tissues: liver
+ 28. SLC22A1         (F_higher  ) - tissues: kidney
+ 29. SLC22A2         (F_higher  ) - tissues: kidney
+ 30. SLC47A1         (F_higher  ) - tissues: kidney
+ 31. SLCO1B1         (F_higher  ) - tissues: liver
+ 32. SLCO1B3         (M_higher  ) - tissues: liver
+ 33. SULT1A1         (F_higher  ) - tissues: liver
+ 34. TPMT            (F_higher  ) - tissues: liver
+ 35. UGT1A1          (M_higher  ) - tissues: liver
+ 36. UGT2B15         (M_higher  ) - tissues: liver
+ 37. UGT2B7          (M_higher  ) - tissues: liver
+ 38. VKORC1          (M_higher  ) - tissues: liver

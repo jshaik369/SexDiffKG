@@ -1,0 +1,26 @@
+# SexDiffKG Pipeline Dependencies
+# Python 3.10+ required
+# Hardware: NVIDIA DGX Spark GB10 (ARM64)
+
+# Core data processing
+pandas>=2.0.0
+pyarrow>=14.0.0
+numpy>=1.24.0
+scipy>=1.11.0
+
+# Database
+duckdb>=0.9.0
+
+# Knowledge graph embeddings
+pykeen==1.11.1
+torch>=2.0.0
+
+# FAERS download
+requests>=2.31.0
+tqdm>=4.65.0
+
+# Molecular layer
+# (ChEMBL accessed via SQLite — no additional package needed)
+
+# Validation
+# (uses pandas + scipy only)

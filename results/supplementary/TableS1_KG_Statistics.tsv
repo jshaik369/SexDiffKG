@@ -1,0 +1,30 @@
+Metric	Value
+Total nodes	127063
+Gene nodes	70607
+Drug nodes	29277
+AdverseEvent nodes	16162
+Protein nodes	8721
+Pathway nodes	2279
+Tissue nodes	17
+Total edges	5839717
+has_adverse_event edges	4640396
+participates_in edges	537605
+interacts_with edges	465390
+sex_differential_adverse_event edges	183539
+targets edges	12682
+sex_differential_expression edges	105
+Total FAERS reports	14536008
+Female reports	8744397
+Male reports	5791611
+All ROR signals	2610331
+Sex-differential signals	183544
+Strong signals (|ln ROR ratio|>1.0, ≥10 reports)	49026
+Female-biased strong	28669
+Male-biased strong	20357
+Unique drugs in strong signals	3441
+Unique AEs in strong signals	5658
+Training triples (after NaN removal)	5489928
+Entities embedded	126575
+Relations	6
+Embedding dimension	200
+Gene targets with sex-bias profile	429

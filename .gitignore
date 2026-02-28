@@ -1,0 +1,48 @@
+# Large binary data files
+*.parquet
+*.pt
+*.pkl
+*.npz
+*.h5
+*.hdf5
+*.bin
+*.gct
+*.gct.gz
+
+# Raw data downloads
+data/raw/
+data/processed/faers/
+data/processed/faers_clean/
+data/processed/molecular/.temp/
+
+# Large KG triple files (>50MB)
+data/kg/triples.tsv
+data/kg/edges.tsv
+data/kg_v2/
+data/kg_v1_backup/
+
+# Old results versions
+results/signals/
+results/signals_v2/
+results/kg_embeddings/TransE/
+results/kg_embeddings/DistMult/model/
+results/kg_embeddings/RotatE/model.pt
+
+# Log files
+logs/
+*.log
+drug_normalization.log
+
+# Python
+__pycache__/
+*.pyc
+.pytest_cache/
+*.egg-info/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Environment
+.env
+.venv/

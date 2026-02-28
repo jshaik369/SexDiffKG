@@ -1,0 +1,17 @@
+{
+  "string_ppi_v12.0": {
+    "timestamp": "2026-02-26T05:13:12.033441",
+    "url": "https://stringdb-downloads.org/download/protein.links.v12.0/9606.protein.links.v12.0.txt.gz",
+    "size": 83164437
+  },
+  "string_aliases_v12.0": {
+    "timestamp": "2026-02-26T05:13:15.558233",
+    "url": "https://stringdb-downloads.org/download/protein.aliases.v12.0/9606.protein.aliases.v12.0.txt.gz",
+    "size": 19777800
+  },
+  "uniprot_idmapping_human": {
+    "timestamp": "2026-02-26T05:13:22.753843",
+    "url": "https://ftp.uniprot.org/pub/databases/uniprot/current_release/knowledgebase/idmapping/by_organism/HUMAN_9606_idmapping.dat.gz",
+    "size": 35316693
+  }
+}

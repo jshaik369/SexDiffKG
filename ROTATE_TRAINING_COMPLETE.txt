@@ -1,0 +1,10 @@
+========================================
+ROTATЕ TRAINING COMPLETED
+========================================
+Time: Sat Feb 28 23:29:09 CET 2026
+Final Epoch: /100
+Final Loss: 0.0242
+
+Check results in:
+  /home/jshaik369/sexdiffkg/results/kg_embeddings/RotatE/
+========================================

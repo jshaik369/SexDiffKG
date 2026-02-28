@@ -1,0 +1,332 @@
+{
+  "validation_date": "2026-02-27",
+  "total_benchmarks": 40,
+  "found": 30,
+  "correct_direction": 19,
+  "wrong_direction": 11,
+  "not_found": 10,
+  "coverage_pct": 75.0,
+  "precision_pct": 63.3,
+  "results": [
+    {
+      "num": 1,
+      "drug": "METHADONE",
+      "ae": "QT prolongation",
+      "expected": "F>M",
+      "status": "CORRECT",
+      "detail": "matched: METHADONE HYDROCHLORIDE|Long QT syndrome log_ratio=0.785 dir=female_higher ROR_F=13.37 ROR_M=6.10"
+    },
+    {
+      "num": 2,
+      "drug": "ENALAPRIL",
+      "ae": "Cough",
+      "expected": "F>M",
+      "status": "CORRECT",
+      "detail": "matched: ENALAPRIL|Productive cough log_ratio=0.865 dir=female_higher ROR_F=2.59 ROR_M=1.09"
+    },
+    {
+      "num": 3,
+      "drug": "ERYTHROMYCIN",
+      "ae": "QT prolongation",
+      "expected": "F>M",
+      "status": "AE_NOT_FOUND",
+      "detail": "Drug found (3 signals) but AE not matched"
+    },
+    {
+      "num": 4,
+      "drug": "LEVOFLOXACIN",
+      "ae": "Tendon rupture",
+      "expected": "M>F",
+      "status": "AE_NOT_FOUND",
+      "detail": "Drug found (3 signals) but AE not matched"
+    },
+    {
+      "num": 5,
+      "drug": "ATORVASTATIN",
+      "ae": "Rhabdomyolysis",
+      "expected": "F>M",
+      "status": "AE_NOT_FOUND",
+      "detail": "Drug found (3 signals) but AE not matched"
+    },
+    {
+      "num": 6,
+      "drug": "ASPIRIN",
+      "ae": "Gastrointestinal haemorrhage",
+      "expected": "M>F",
+      "status": "WRONG_DIR",
+      "detail": "matched: ASPIRIN|Gastrointestinal neoplasm log_ratio=0.956 dir=female_higher ROR_F=2.79 ROR_M=1.07"
+    },
+    {
+      "num": 7,
+      "drug": "AMOXICILLIN",
+      "ae": "Hepatocellular injury",
+      "expected": "M>F",
+      "status": "AE_NOT_FOUND",
+      "detail": "Drug found (3 signals) but AE not matched"
+    },
+    {
+      "num": 8,
+      "drug": "SOTALOL",
+      "ae": "Torsade de pointes",
+      "expected": "F>M",
+      "status": "CORRECT",
+      "detail": "matched: SOTALOL|Torsade de pointes log_ratio=0.606 dir=female_higher ROR_F=47.75 ROR_M=26.04"
+    },
+    {
+      "num": 9,
+      "drug": "FLUOXETINE",
+      "ae": "Hyponatraemia",
+      "expected": "F>M",
+      "status": "AE_NOT_FOUND",
+      "detail": "Drug found (3 signals) but AE not matched"
+    },
+    {
+      "num": 10,
+      "drug": "MORPHINE",
+      "ae": "Respiratory depression",
+      "expected": "F>M",
+      "status": "CORRECT",
+      "detail": "matched: MORPHINE SULFATE|Upper respiratory tract infection log_ratio=1.728 dir=female_higher ROR_F=4.40 ROR_M=0.78"
+    },
+    {
+      "num": 11,
+      "drug": "WARFARIN",
+      "ae": "Haemorrhage",
+      "expected": "F>M",
+      "status": "WRONG_DIR",
+      "detail": "matched: WARFARIN|Gastric haemorrhage log_ratio=-1.397 dir=male_higher ROR_F=5.72 ROR_M=23.15"
+    },
+    {
+      "num": 12,
+      "drug": "DIGOXIN",
+      "ae": "Cardiac arrest",
+      "expected": "F>M",
+      "status": "CORRECT",
+      "detail": "matched: DIGOXIN|Cardiac pacemaker insertion log_ratio=0.748 dir=female_higher ROR_F=5.03 ROR_M=2.38"
+    },
+    {
+      "num": 13,
+      "drug": "HYDROCHLOROTHIAZIDE",
+      "ae": "Hypokalaemia",
+      "expected": "F>M",
+      "status": "WRONG_DIR",
+      "detail": "matched: ENALAPRIL MALEATE\\HYDROCHLOROTHIAZIDE|Hypokalaemia log_ratio=-1.134 dir=male_higher ROR_F=6.53 ROR_M=20.28"
+    },
+    {
+      "num": 14,
+      "drug": "ZOLPIDEM",
+      "ae": "Somnolence",
+      "expected": "F>M",
+      "status": "AE_NOT_FOUND",
+      "detail": "Drug found (3 signals) but AE not matched"
+    },
+    {
+      "num": 15,
+      "drug": "TRASTUZUMAB",
+      "ae": "Cardiomyopathy",
+      "expected": "F>M",
+      "status": "AE_NOT_FOUND",
+      "detail": "Drug found (3 signals) but AE not matched"
+    },
+    {
+      "num": 16,
+      "drug": "AMIODARONE",
+      "ae": "QT prolongation",
+      "expected": "F>M",
+      "status": "CORRECT",
+      "detail": "matched: AMIODARONE|Long QT syndrome log_ratio=0.772 dir=female_higher ROR_F=22.83 ROR_M=10.55"
+    },
+    {
+      "num": 17,
+      "drug": "HALOPERIDOL",
+      "ae": "Torsade de pointes",
+      "expected": "F>M",
+      "status": "CORRECT",
+      "detail": "matched: HALOPERIDOL|Torsade de pointes log_ratio=0.983 dir=female_higher ROR_F=27.35 ROR_M=10.23"
+    },
+    {
+      "num": 18,
+      "drug": "LISINOPRIL",
+      "ae": "Cough",
+      "expected": "F>M",
+      "status": "AE_NOT_FOUND",
+      "detail": "Drug found (3 signals) but AE not matched"
+    },
+    {
+      "num": 19,
+      "drug": "RAMIPRIL",
+      "ae": "Cough",
+      "expected": "F>M",
+      "status": "WRONG_DIR",
+      "detail": "matched: HYDROCHLOROTHIAZIDE\\RAMIPRIL|Cough log_ratio=-0.692 dir=male_higher ROR_F=1.71 ROR_M=3.42"
+    },
+    {
+      "num": 20,
+      "drug": "SIMVASTATIN",
+      "ae": "Myopathy",
+      "expected": "F>M",
+      "status": "AE_NOT_FOUND",
+      "detail": "Drug found (3 signals) but AE not matched"
+    },
+    {
+      "num": 21,
+      "drug": "ROSUVASTATIN",
+      "ae": "Myopathy",
+      "expected": "F>M",
+      "status": "CORRECT",
+      "detail": "matched: ROSUVASTATIN|Myopathy toxic log_ratio=1.037 dir=female_higher ROR_F=33.18 ROR_M=11.76"
+    },
+    {
+      "num": 22,
+      "drug": "TRAMADOL",
+      "ae": "Vomiting",
+      "expected": "F>M",
+      "status": "CORRECT",
+      "detail": "matched: TRAMADOL HYDROCHLORIDE|Vomiting log_ratio=0.771 dir=female_higher ROR_F=3.12 ROR_M=1.44"
+    },
+    {
+      "num": 23,
+      "drug": "OXYCODONE",
+      "ae": "Respiratory depression",
+      "expected": "F>M",
+      "status": "CORRECT",
+      "detail": "matched: ACETAMINOPHEN\\OXYCODONE HYDROCHLORIDE|Lower respiratory tract infection log_ratio=3.911 dir=female_higher ROR_F=12.35 ROR_M=0.25"
+    },
+    {
+      "num": 24,
+      "drug": "ASPIRIN",
+      "ae": "Gastrointestinal haemorrhage",
+      "expected": "M>F",
+      "status": "WRONG_DIR",
+      "detail": "matched: ASPIRIN|Gastrointestinal neoplasm log_ratio=0.956 dir=female_higher ROR_F=2.79 ROR_M=1.07"
+    },
+    {
+      "num": 25,
+      "drug": "IBUPROFEN",
+      "ae": "Gastrointestinal haemorrhage",
+      "expected": "M>F",
+      "status": "WRONG_DIR",
+      "detail": "matched: IBUPROFEN|Gastrointestinal disorder log_ratio=1.324 dir=female_higher ROR_F=5.24 ROR_M=1.39"
+    },
+    {
+      "num": 26,
+      "drug": "VALPROIC ACID",
+      "ae": "Hepatotoxicity",
+      "expected": "M>F",
+      "status": "WRONG_DIR",
+      "detail": "matched: VALPROIC ACID|Hepatotoxicity log_ratio=0.946 dir=female_higher ROR_F=6.26 ROR_M=2.43"
+    },
+    {
+      "num": 27,
+      "drug": "ISONIAZID",
+      "ae": "Drug-induced liver injury",
+      "expected": "F>M",
+      "status": "AE_NOT_FOUND",
+      "detail": "Drug found (3 signals) but AE not matched"
+    },
+    {
+      "num": 28,
+      "drug": "ARIPIPRAZOLE",
+      "ae": "Hyperprolactinaemia",
+      "expected": "F>M",
+      "status": "CORRECT",
+      "detail": "matched: ARIPIPRAZOLE|Hyperprolactinaemia log_ratio=1.441 dir=female_higher ROR_F=44.97 ROR_M=10.65"
+    },
+    {
+      "num": 29,
+      "drug": "OLANZAPINE",
+      "ae": "Weight increased",
+      "expected": "F>M",
+      "status": "CORRECT",
+      "detail": "matched: OLANZAPINE|Abnormal weight gain log_ratio=1.770 dir=female_higher ROR_F=12.67 ROR_M=2.16"
+    },
+    {
+      "num": 30,
+      "drug": "DIGOXIN",
+      "ae": "Death",
+      "expected": "F>M",
+      "status": "CORRECT",
+      "detail": "matched: DIGOXIN|Sudden cardiac death log_ratio=0.531 dir=female_higher ROR_F=7.61 ROR_M=4.47"
+    },
+    {
+      "num": 31,
+      "drug": "METOPROLOL",
+      "ae": "Hypotension",
+      "expected": "F>M",
+      "status": "WRONG_DIR",
+      "detail": "matched: METOPROLOL FUMARATE|Hypotension log_ratio=-0.752 dir=male_higher ROR_F=6.58 ROR_M=13.95"
+    },
+    {
+      "num": 32,
+      "drug": "HEPARIN",
+      "ae": "Haemorrhage",
+      "expected": "F>M",
+      "status": "CORRECT",
+      "detail": "matched: HEPARIN CALCIUM|Muscle haemorrhage log_ratio=1.758 dir=female_higher ROR_F=154.11 ROR_M=26.57"
+    },
+    {
+      "num": 33,
+      "drug": "HYDROCHLOROTHIAZIDE",
+      "ae": "Hyponatraemia",
+      "expected": "F>M",
+      "status": "CORRECT",
+      "detail": "matched: HYDROCHLOROTHIAZIDE\\OLMESARTAN MEDOXOMIL|Hyponatraemia log_ratio=1.184 dir=female_higher ROR_F=15.06 ROR_M=4.61"
+    },
+    {
+      "num": 34,
+      "drug": "FUROSEMIDE",
+      "ae": "Hyponatraemia",
+      "expected": "F>M",
+      "status": "WRONG_DIR",
+      "detail": "matched: FUROSEMIDE SODIUM|Hyponatraemia log_ratio=-0.515 dir=male_higher ROR_F=10.57 ROR_M=17.69"
+    },
+    {
+      "num": 35,
+      "drug": "AMLODIPINE",
+      "ae": "Oedema peripheral",
+      "expected": "F>M",
+      "status": "WRONG_DIR",
+      "detail": "matched: AMLODIPINE BESYLATE\\HYDROCHLOROTHIAZIDE\\VALSARTAN|Oedema log_ratio=-1.011 dir=male_higher ROR_F=1.89 ROR_M=5.21"
+    },
+    {
+      "num": 36,
+      "drug": "NIFEDIPINE",
+      "ae": "Oedema peripheral",
+      "expected": "F>M",
+      "status": "CORRECT",
+      "detail": "matched: NIFEDIPINE|Acute pulmonary oedema log_ratio=1.075 dir=female_higher ROR_F=9.43 ROR_M=3.22"
+    },
+    {
+      "num": 37,
+      "drug": "DENOSUMAB",
+      "ae": "Spinal fracture",
+      "expected": "F>M",
+      "status": "WRONG_DIR",
+      "detail": "matched: DENOSUMAB|Spinal cord injury log_ratio=-1.629 dir=male_higher ROR_F=0.79 ROR_M=4.04"
+    },
+    {
+      "num": 38,
+      "drug": "QUETIAPINE",
+      "ae": "Weight increased",
+      "expected": "F>M",
+      "status": "CORRECT",
+      "detail": "matched: QUETIAPINE|Abnormal weight gain log_ratio=3.434 dir=female_higher ROR_F=12.84 ROR_M=0.41"
+    },
+    {
+      "num": 39,
+      "drug": "ACETAMINOPHEN",
+      "ae": "Hepatotoxicity",
+      "expected": "F>M",
+      "status": "CORRECT",
+      "detail": "matched: ACETAMINOPHEN\\OXYCODONE HYDROCHLORIDE|Hepatotoxicity log_ratio=0.788 dir=female_higher ROR_F=0.72 ROR_M=0.33"
+    },
+    {
+      "num": 40,
+      "drug": "LEUPROLIDE",
+      "ae": "Precocious puberty",
+      "expected": "F>M",
+      "status": "CORRECT",
+      "detail": "matched: LEUPROLIDE ACETATE|Precocious puberty log_ratio=1.259 dir=female_higher ROR_F=24.97 ROR_M=7.09"
+    }
+  ]
+}

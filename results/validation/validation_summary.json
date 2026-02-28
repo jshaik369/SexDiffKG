@@ -1,0 +1,9 @@
+{
+  "total_benchmarks": 15,
+  "correct_direction": 1,
+  "wrong_direction": 3,
+  "in_ror_only": 11,
+  "not_found": 0,
+  "coverage": 0.267,
+  "directional_precision": 0.25
+}

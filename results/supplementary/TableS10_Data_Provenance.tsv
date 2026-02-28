@@ -1,0 +1,6 @@
+Source	Version	Data_Type	Nodes_Contributed	Edges_Contributed	Access_URL
+FDA FAERS	2004Q1-2024Q4	Spontaneous ADR reports	29,277 Drug + 16,162 AE	4,640,396 has_AE + 183,539 sex_diff	https://fis.fda.gov/extensions/FPD-QDE-FAERS/FPD-QDE-FAERS.html
+ChEMBL	v36 (2024)	Drug-target binding	12,682 targets (genes)	12,682 targets	https://www.ebi.ac.uk/chembl/
+STRING	v12.0	Protein-protein interactions	8,721 proteins	465,390 interacts_with	https://string-db.org/
+KEGG	2024	Biological pathways	2,279 pathways	537,605 participates_in	https://www.genome.jp/kegg/
+UniProt	2024_05	Gene-protein encoding	Protein annotation	105 sex_diff_expression	https://www.uniprot.org/

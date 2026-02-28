@@ -1,0 +1,155 @@
+{
+  "timestamp": "2026-02-28T00:36:57.450752",
+  "audit_version": "1.0",
+  "checks": {
+    "input_files": {
+      "faers_downloads": {
+        "exists": true,
+        "count": 88,
+        "sample_files": [
+          "aers_ascii_2011q1.zip",
+          "aers_ascii_2009q1.zip",
+          "faers_ascii_2021q3.zip"
+        ]
+      },
+      "string_dir": {
+        "exists": true,
+        "is_dir": true
+      },
+      "gtex_dir": {
+        "exists": true,
+        "is_dir": true
+      },
+      "chembl_dir": {
+        "exists": true,
+        "is_dir": true
+      },
+      "kegg_dir": {
+        "exists": true,
+        "is_dir": true
+      },
+      "uniprot_dir": {
+        "exists": true,
+        "is_dir": true
+      },
+      "rxnorm_dir": {
+        "exists": true,
+        "is_dir": true
+      }
+    },
+    "output_files": {
+      "kg_nodes": {
+        "exists": true,
+        "size_bytes": 11780950,
+        "size_mb": 11.24,
+        "columns": {
+          "columns": [
+            "id",
+            "name",
+            "category",
+            "properties"
+          ],
+          "count": 4,
+          "header_sample": "id\tname\tcategory\tproperties"
+        }
+      },
+      "kg_edges": {
+        "exists": true,
+        "size_bytes": 1099897886,
+        "size_mb": 1048.94,
+        "columns": {
+          "columns": [
+            "subject",
+            "predicate",
+            "object",
+            "properties"
+          ],
+          "count": 4,
+          "header_sample": "subject\tpredicate\tobject\tproperties"
+        }
+      },
+      "kg_triples": {
+        "exists": true,
+        "size_bytes": 348712597,
+        "size_mb": 332.56,
+        "columns": {
+          "columns": [
+            "CHEMBL2105664",
+            "targets",
+            "ENSG00000167397"
+          ],
+          "count": 3,
+          "header_sample": "CHEMBL2105664\ttargets\tENSG00000167397"
+        }
+      }
+    },
+    "row_counts": {
+      "kg_nodes": {
+        "actual_rows": 127064,
+        "expected_range": [
+          120000,
+          130000
+        ],
+        "in_range": true,
+        "status": "PASS"
+      },
+      "kg_edges": {
+        "actual_rows": 5839718,
+        "expected_range": [
+          5800000,
+          6000000
+        ],
+        "in_range": true,
+        "status": "PASS"
+      },
+      "kg_triples": {
+        "actual_rows": 5839717,
+        "expected_range": [
+          5800000,
+          6000000
+        ],
+        "in_range": true,
+        "status": "PASS"
+      }
+    },
+    "package_versions": {
+      "pandas": {
+        "installed": "2.3.3",
+        "expected": "2.0.0",
+        "match": true
+      },
+      "numpy": {
+        "installed": "2.2.4",
+        "expected": "1.24.0",
+        "match": false
+      },
+      "torch": {
+        "installed": "2.11.0.dev20260207+cu128",
+        "expected": "2.0.0",
+        "match": true
+      },
+      "pykeen": {
+        "installed": "unknown",
+        "expected": "1.9.0",
+        "match": false
+      }
+    },
+    "data_flow": {
+      "FAERS_Download -> KG_Build": {
+        "output_exists": true,
+        "description": "KG nodes created from processed FAERS + molecular data"
+      },
+      "KG_Build -> Embeddings": {
+        "output_exists": true,
+        "description": "Triple file used for embedding training"
+      }
+    }
+  },
+  "summary": {
+    "passed": 11,
+    "failed": 0,
+    "warnings": 2,
+    "total_checks": 13
+  },
+  "issues": []
+}

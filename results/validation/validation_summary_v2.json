@@ -1,0 +1,11 @@
+{
+  "total_benchmarks": 15,
+  "found_with_both_sexes": 13,
+  "correct_direction": 8,
+  "correct_in_sexdiff": 5,
+  "correct_in_ror": 3,
+  "wrong_direction": 5,
+  "not_found_or_single_sex": 2,
+  "coverage": 0.867,
+  "directional_precision": 0.615
+}

@@ -1,0 +1,16 @@
+drug,adverse_event,expected_direction,literature_source,found_in_ror,found_in_sexdiff,observed_direction,log_ror_ratio,ror_male,ror_female,direction_correct,status,matched_drug,matched_ae
+METHADONE,QT PROLONGED,F>M,Roden DM. NEJM 2004; Makkar RR et al. JAMA 1993,True,False,,,,,False,IN_ROR_ONLY,METHADONE,Electrocardiogram QT prolonged
+ENALAPRIL,COUGH,F>M,Israili ZH & Hall WD. Ann Intern Med 1992,False,True,female_higher,0.7828,1.134,2.48,True,CORRECT,ENALAPRIL,Productive cough
+ERYTHROMYCIN,QT PROLONGED,F>M,Drici MD et al. Clin Pharmacol Ther 1998,True,False,,,,,False,IN_ROR_ONLY,ERYTHROMYCIN,Electrocardiogram QT prolonged
+LEVOFLOXACIN,TENDON RUPTURE,M>F,van der Linden PD et al. Arthritis Rheum 2003,True,False,,,,,False,IN_ROR_ONLY,LEVOFLOXACIN,Tendon rupture
+ATORVASTATIN,RHABDOMYOLYSIS,F>M,Rosenson RS. Am J Med 2004,True,False,,,,,False,IN_ROR_ONLY,ATORVASTATIN,Rhabdomyolysis
+ASPIRIN,GASTROINTESTINAL HAEMORRHAGE,M>F,Garcia Rodriguez LA. Lancet 2001,False,True,female_higher,1.0357,1.707,4.809,False,WRONG_DIRECTION,ASPIRIN,Intestinal haemorrhage
+AMOXICILLIN,DRUG-INDUCED LIVER INJURY,M>F,Lucena MI et al. Gastroenterology 2009,False,True,female_higher,0.8875,1.945,4.724,False,WRONG_DIRECTION,AMOXICILLIN,Injury
+SOTALOL,TORSADE DE POINTES,F>M,Makkar RR et al. JAMA 1993,True,False,,,,,False,IN_ROR_ONLY,SOTALOL,Torsade de pointes
+FLUOXETINE,HYPONATRAEMIA,F>M,Movig KL et al. Br J Clin Pharmacol 2002,True,False,,,,,False,IN_ROR_ONLY,FLUOXETINE,Hyponatraemia
+MORPHINE,RESPIRATORY DEPRESSION,F>M,Sarton E et al. Anesthesiology 2000,True,False,,,,,False,IN_ROR_ONLY,MORPHINE,Respiratory depression
+WARFARIN,HAEMORRHAGE,F>M,Krecic-Shepard ME et al. Clin Pharmacol Ther 2004,False,True,male_higher,-1.3873,23.331,5.827,False,WRONG_DIRECTION,WARFARIN,Gastric haemorrhage
+DIGOXIN,CARDIAC ARREST,F>M,Rathore SS et al. NEJM 2002,True,False,,,,,False,IN_ROR_ONLY,DIGOXIN,Cardiac arrest
+HYDROCHLOROTHIAZIDE,HYPOKALAEMIA,F>M,Clayton JA & Collins FS. Nature 2014,True,False,,,,,False,IN_ROR_ONLY,HYDROCHLOROTHIAZIDE,Hypokalaemia
+ZOLPIDEM,SOMNOLENCE,F>M,FDA Safety Communication 2013,True,False,,,,,False,IN_ROR_ONLY,ZOLPIDEM,Somnolence
+TRASTUZUMAB,CARDIOMYOPATHY,F>M,Seidman A et al. J Clin Oncol 2002,True,False,,,,,False,IN_ROR_ONLY,TRASTUZUMAB,Cardiomyopathy

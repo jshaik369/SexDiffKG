@@ -1,0 +1,16 @@
+Drug	Expected_Sex_Bias	Validation_Status	Detail	Known_Mechanism	KG_Direction	KG_Log_ROR_Ratio	KG_AE_Match
+ZOLPIDEM	female_higher	AE_NOT_FOUND	Drug found (283 signals) but no matching AE	Slower metabolism; FDA halved female dose 2013			
+TERFENADINE	female_higher	NOT_FOUND	Drug not in signals	Longer baseline QTc in women			
+CISAPRIDE	female_higher	AE_NOT_FOUND	Drug found (1 signals) but no matching AE	Longer baseline QTc in women			
+LISINOPRIL	female_higher	AE_NOT_FOUND	Drug found (459 signals) but no matching AE	Higher bradykinin sensitivity (ACE inhibitor)			
+ENALAPRIL	female_higher	WEAK_SIGNAL	1 matches, none strong. Top: Productive cough log_ror=0.865 (female_higher)	Higher bradykinin sensitivity (ACE inhibitor)			
+ATORVASTATIN	female_higher	CONFIRMED	3 strong. Top: Stress cardiomyopathy log_ror=1.582	Higher plasma levels (statin)			
+SIMVASTATIN	female_higher	REVERSED	1 strong. Top: Muscle discomfort log_ror=-1.099	Higher plasma levels (statin)			
+DIGOXIN	female_higher	CONFIRMED	2 strong. Top: Tachyarrhythmia log_ror=1.366	Lower P-glycoprotein in women			
+HYDROCHLOROTHIAZIDE	female_higher	AE_NOT_FOUND	Drug found (388 signals) but no matching AE	Lower body water volume (thiazide)			
+METOPROLOL	female_higher	WEAK_SIGNAL	1 matches, none strong. Top: Bradycardia neonatal log_ror=-0.892 (male_higher)	2x higher plasma concentrations (CYP2D6)			
+ASPIRIN	male_higher	CONFIRMED	6 strong. Top: Genital haemorrhage log_ror=-2.858	Sex differences in platelet aggregation			
+FLUOROURACIL	female_higher	WEAK_SIGNAL	5 matches, none strong. Top: Ocular toxicity log_ror=0.986 (female_higher)	Higher drug exposure in women			
+WARFARIN	female_higher	REVERSED	2 strong. Top: Gastric haemorrhage log_ror=-1.399	Women need lower doses			
+DIAZEPAM	female_higher	AE_NOT_FOUND	Drug found (412 signals) but no matching AE	Slower metabolism in women			
+IBUPROFEN	male_higher	REVERSED	5 strong. Top: Gastric infection log_ror=1.345	Men at higher GI risk			

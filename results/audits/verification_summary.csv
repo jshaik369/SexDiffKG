@@ -1,0 +1,4 @@
+File,ActualLines,ExpectedMin,ExpectedMax,Status,Message
+kg_nodes,127064,120000,130000,PASS,"Within expected range"
+kg_edges,5839718,5800000,6000000,PASS,"Within expected range"
+kg_triples,5839717,5800000,6000000,PASS,"Within expected range"

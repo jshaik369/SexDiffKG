@@ -1,0 +1,26 @@
+Parameter	DistMult_v3	RotatE_v3
+Embedding_Dimension	200	200 (400 complex)
+Epochs	100	25
+Batch_Size	512	1024
+Learning_Rate	0.001	0.001
+Loss_Function	SLCWA	SLCWA
+Optimizer	Adam	Adam
+Random_Seed	42	42
+Training_Triples	5,489,928	3,514,835
+Test_Triples	499	390,538
+Entities	126,575	126,575
+Relations	6	6
+Final_Loss	—	0.0241
+MRR	0.04762	0.00010
+Hits@1	0.0225	0.00001
+Hits@3	0.0454	0.00002
+Hits@5	0.0606	0.00004
+Hits@10	0.0885	0.00009
+AMRI	0.981	0.003
+AMR	~1,206	62,350
+Training_Device	GPU (cuda:0)	CPU
+Eval_Device	GPU	GPU (cuda:0)
+Training_Time	~3.5 hours	~7.5 hours
+Eval_Time	—	54.1 minutes
+Model_Size	—	202.5 MB
+Hardware	NVIDIA Grace Blackwell GB10	NVIDIA Grace Blackwell GB10
