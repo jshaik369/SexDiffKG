@@ -1,0 +1,19 @@
+name: sexdiffkg
+channels:
+  - pytorch
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.13
+  - pandas=2.3
+  - pyarrow=23.0
+  - numpy=2.2
+  - scipy=1.16
+  - duckdb=1.4
+  - scikit-learn=1.8
+  - matplotlib=3.10
+  - requests=2.32
+  - tqdm=4.67
+  - pip:
+    - pykeen==1.11.1
+    - torch>=2.0.0
