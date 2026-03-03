@@ -1,0 +1,9 @@
+SexDiffKG: A Sex-Differential Drug Safety Knowledge Graph from 14.5 Million FDA Adverse Event Reports
+
+Women experience adverse drug reactions (ADRs) at 1.5–1.7× the rate of men, yet most pharmacovigilance databases lack systematic sex-differential analysis. Existing biomedical knowledge graphs (Hetionet, DRKG, PharmKG) treat safety data in aggregate, leaving a critical gap in computational tools for sex-aware drug safety assessment.
+
+We present SexDiffKG, the first knowledge graph specifically designed to capture sex-differential pharmacovigilance signals at scale. SexDiffKG integrates 14,536,008 FDA Adverse Event Reporting System (FAERS) reports spanning 2004–2024 with molecular target data from ChEMBL 36, protein interactions from STRING v12.0, and pathway annotations from KEGG and UniProt. The resulting graph contains 127,063 nodes (6 entity types) and 5,839,717 edges (6 relation types).
+
+Through sex-stratified Reporting Odds Ratio (ROR) analysis using natural logarithm thresholds (|ln(ROR ratio)| > 1.0, corresponding to >2.7× difference), we identified 49,026 strong sex-differential drug–adverse event signals, with 58.5% showing female bias. DistMult knowledge graph embeddings (200 dimensions, 100 epochs) achieved AMRI of 0.981, ranking correct triples in the top 1.9% of candidates. Embedding-based drug clustering revealed distinct sex-differential safety profiles across 20 groups.
+
+Target-level analysis identified 429 gene targets with sex-biased safety patterns, including HDAC1/2/3/6 (exclusively female-biased), ESR1 (predominantly male-biased), and platelet integrins ITGA2B/ITGB3 (exclusively female-biased). Signal validation against 15 literature benchmarks achieved 67% confirmation rate. SexDiffKG provides a computational foundation for precision pharmacovigilance, with all data and code publicly available via GitHub and Zenodo.

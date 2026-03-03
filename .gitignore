@@ -46,3 +46,7 @@ Thumbs.db
 # Environment
 .env
 .venv/
+*.db
+._.DS_Store
+data/._.DS_Store
+results/._.DS_Store
