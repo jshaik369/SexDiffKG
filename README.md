@@ -88,15 +88,19 @@ pip install -r requirements.txt
 The pipeline consists of numbered Python scripts in `scripts/`:
 
 ```
-01_download_faers.py          # Download 87 quarterly FAERS ZIP files from openFDA
-02_parse_faers.py             # Parse DEMO, DRUG, REAC tables
-03_deduplicate.py             # Deduplicate + filter to M/F only
-v4_01_normalize_diana.py      # 4-tier drug normalization (DiAna + prod_ai + ChEMBL + raw)
-v4_02_compute_signals.py      # Sex-stratified ROR computation via DuckDB (16 threads)
-v4_03_build_kg.py             # Knowledge graph assembly (FAERS + ChEMBL + STRING + Reactome + GTEx)
-v4_04_train_distmult.py       # DistMult training via PyKEEN (200d, 100 epochs)
-v4_05b_train_rotatE_fixed.py  # RotatE + ComplEx training
-validate_40_benchmarks_v4.py  # Literature benchmark validation (40 drug-AE pairs)
+v4_01_normalize_diana.py        # 4-tier drug normalization (DiAna + prod_ai + ChEMBL + raw)
+v4_02_compute_signals.py        # Sex-stratified ROR computation via DuckDB (16 threads)
+v4_03_build_kg.py               # KG assembly (FAERS + ChEMBL + STRING + Reactome + GTEx)
+v4_04_train_distmult.py         # DistMult training (PyKEEN, 200d, 100 epochs)
+v4_05_train_rotatE.py           # RotatE training (PyKEEN, 200d, 200 epochs)
+v4_06_retrain_distmult_v41.py   # DistMult v4.1 (NSSALoss, 100 epochs)
+v4_07d_train_rotatE_cpu_fixed.py # RotatE v4.1 CPU (200 epochs)
+validate_40_benchmarks_v4.py    # Literature benchmark validation (40 drug-AE pairs)
+v5_01_build_bridge.py           # VEDA-KG identifier bridges
+v5_02_merge_vedakg.py           # Merge VEDA-KG into SexDiffKG v5
+v5_03_validate_merge.py         # v5 merge validation
+v5_04_train_complex.py          # ComplEx v5 training on merged KG
+v5_05_train_distmult.py         # DistMult v5 training on merged KG
 ```
 
 ## Output Files
@@ -111,6 +115,29 @@ results/validation_40_benchmarks_v4.json       # Validation results
 results/analysis/sexdiffkg_statistics.json     # Canonical ground truth statistics
 ```
 
+## SexDiffKG v5 — Merged with VEDA-KG
+
+v5 absorbs [VEDA-KG](https://github.com/jshaik369/veda-kg) (Ayurvedic + clinical trial data):
+
+| Metric | v4 | v5 |
+|--------|-----|-----|
+| Nodes | 109,867 | 246,056 |
+| Edges | 1,822,851 | 3,182,843 |
+| Node types | 6 | 16 |
+| Edge types | 6 | 18 |
+
+All 1,532,674 unique v4 triples preserved (100%). 1,650,169 new edges from VEDA sources (DisGeNET, ClinicalTrials.gov, ChEMBL mechanisms, KEGG pathways).
+
+### Derived Knowledge Graphs
+
+| Project | Nodes | Edges | Focus |
+|---------|-------|-------|-------|
+| REPRODUCT-KG | 22,403 | 1,116,735 | Pregnancy drug safety |
+| MENTALHEALTH-KG | 20,851 | 762,389 | Psychiatric drug safety |
+| GERIPHARM-KG | 18,754 | 739,396 | Elderly drug safety |
+| PCOS-ENDO-KG | 36,903 | 697,819 | PCOS/endometriosis + GLP-1 |
+| AYUR-PHARMA-KG | 24,316 | 293,444 | Ayurvedic pharmacovigilance |
+
 ## Notable Findings
 
 - **HDAC inhibitors** (HDAC1/2/3/6): Exclusively female-biased safety profiles
@@ -124,17 +151,17 @@ Three embedding models trained on SexDiffKG v4 (1,822,851 triples):
 
 | Model | MRR | Hits@1 | Hits@10 | AMRI | Epochs | Device |
 |-------|-----|--------|---------|------|--------|--------|
-| **ComplEx v4** | **0.2484** | **0.1678** | **0.4069** | **0.9902** | 100 | GPU |
-| DistMult v4.1 | 0.1013 | 0.0481 | 0.1961 | 0.9909 | 100 | GPU |
-| DistMult v4 | 0.0932 | 0.0419 | 0.1842 | 0.9906 | 100 | GPU |
-| RotatE v4.1 | 0.0941 | 0.0582 | 0.1565 | 0.9651 | 200 | CPU |
+| **ComplEx v4** | **0.2484** | **0.1678** | **0.4069** | **0.9902** | 100 | CPU |
+| DistMult v4.1 | 0.1013 | 0.0481 | 0.1961 | 0.9909 | 100 | CPU |
+| DistMult v4 | 0.0932 | 0.0419 | 0.1842 | 0.9906 | 100 | CPU |
+| RotatE v4.1 | 0.2018 | 0.1128 | 0.3677 | 0.9922 | 200 | CPU |
 
 ComplEx achieves 2.45x higher MRR than DistMult, making it the recommended model for downstream link prediction tasks.
 
 ## Reproducibility
 
 - **Hardware:** Tested on NVIDIA DGX Spark (Grace Blackwell, 128GB unified memory)
-- **Training time:** ~2 hours for DistMult (200d, 100 epochs, CUDA)
+- **Training time:** ~2 hours for ComplEx/DistMult (200d, 100 epochs, CPU)
 - **Total pipeline:** ~6 hours end-to-end
 - **Disk space:** ~11 GB for full dataset
 
