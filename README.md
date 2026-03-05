@@ -2,7 +2,7 @@
 
 **A Sex-Differential Knowledge Graph for Drug Safety from 14.5 Million FDA Adverse Event Reports**
 
-[![bioRxiv](https://img.shields.io/badge/bioRxiv-2026.709170-b31b1b.svg)](https://doi.org/10.1101/2026.709170)
+[![Preprint](https://img.shields.io/badge/Preprint-In_Preparation-orange.svg)](Publication/manuscript_scidata_COMPLETE.md)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 [![Data: CC-BY 4.0](https://img.shields.io/badge/Data-CC--BY%204.0-green.svg)](https://creativecommons.org/licenses/by/4.0/)
 [![Python 3.13](https://img.shields.io/badge/Python-3.13-3776AB.svg)](https://python.org)
@@ -174,9 +174,9 @@ If you use SexDiffKG in your research, please cite:
   title={SexDiffKG: A Sex-Differential Knowledge Graph for Drug Safety
          from 14.5 Million FDA Adverse Event Reports},
   author={Shaik, Mohammed Javeed Akhtar Abbas},
-  journal={bioRxiv},
+  journal={Preprint},
   year={2026},
-  doi={10.1101/2026.709170}
+  note={Preprint in preparation}
 }
 ```
 
