@@ -191,3 +191,20 @@ If you use SexDiffKG in your research, please cite:
 ORCID: [0009-0002-1748-7516](https://orcid.org/0009-0002-1748-7516)
 Email: jshaik@coevolvenetwork.com
 Affiliation: CoEvolve Network, Independent Researcher, Barcelona, Spain
+
+### SexDiffKG v5.2 — Bridged Merged KG (Current)
+
+v5 had 901 disconnected components because identifier namespaces (gene names vs Ensembl IDs vs STRING protein IDs) did not cross-reference. v5.2 adds **13,167 bridge edges** connecting all three subgraphs:
+
+| Metric | v5 (broken) | v5.2 (bridged) |
+|--------|------------|----------------|
+| LCC nodes | ~120K (54%) | **217,993** (98.7%) |
+| Components | 901 | 1 |
+| v4 preservation | 46.8% | **99.995%** |
+| Bridge edges | 0 | 13,167 |
+
+Bridge types:
+- **same_gene** (1,940): Links `GENE:target_name` → `GENE:ENSG*` using ChEMBL target→gene symbol→Ensembl mapping
+- **encodes** (11,227): Links `GENE:ENSG*` → `PROTEIN:ENSP*` using STRING aliases + UniProt ID mapping
+
+Validation: 14/15 checks PASS. Models training in progress.
