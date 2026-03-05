@@ -255,5 +255,26 @@
       "note": "Fixed in v5 merge (all edge entities appear in nodes.tsv)."
     },
     "v5_fixes": "v5 merge fixed both issues: 0 duplicate edges, 0 dangling entities in v5 KG."
+  },
+  "v4_patched": {
+    "date": "2026-03-05T10:30:22.902922",
+    "nodes_patched": 113155,
+    "nodes_added": 3288,
+    "edges_deduped": 1532674,
+    "duplicates_removed": 290177,
+    "true_entity_count": 113155,
+    "checksums": {
+      "nodes_patched_tsv": "f352e056e8f3ee02509dabbbfa75ba3f",
+      "edges_deduped_tsv": "e90777ee586218bac8a9a376d4e731b5",
+      "triples_deduped_tsv": "52d60ce852f841dd85f8ce528fbd93af"
+    },
+    "category_counts_patched": {
+      "Gene": 77498,
+      "Protein": 16201,
+      "AdverseEvent": 9949,
+      "Drug": 7208,
+      "Pathway": 2279,
+      "Tissue": 20
+    }
   }
 }

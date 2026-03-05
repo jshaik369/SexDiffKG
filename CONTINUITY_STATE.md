@@ -1,84 +1,47 @@
-# CONTINUITY_STATE — SexDiffKG Ecosystem
-**Last Updated:** 2026-03-05 07:15 UTC (Session 12 final)
+# CONTINUITY STATE — SexDiffKG Project
+**Last updated:** 2026-03-05 10:47 UTC (Session 12 continued)
 
-## CURRENT STATUS: All Training & Evaluation COMPLETE
+## Current Status: v5.2 TRAINING IN PROGRESS
 
-### v5 Embedding Results (merged KG: 246,056 nodes, 3,182,843 edges)
-| Model | MRR | Hits@10 | AMRI | Eval Time | Note |
-|-------|-----|---------|------|-----------|------|
-| ComplEx v5 | 0.0247 | 5.8% | 0.929 | 68 min | 50K subset. -90% vs v4 (expected: 2x entities, 3x relations) |
-| DistMult v5 | 0.0413 | 7.8% | 0.9884 | 49 min | 50K subset |
+### What Just Happened
+1. v4 data quality patch COMPLETE — 3,288 missing drugs added, 290,177 dupes removed
+2. v5 repair analysis COMPLETE — found 3 disconnected subgraphs, only 8 name bridges
+3. v5.1 LCC extracted but INADEQUATE — only 46.8% v4 preservation
+4. **v5.2 bridge build COMPLETE** — 13,167 bridge edges (same_gene + encodes) connected all 3 subgraphs
+5. **v5.2 ComplEx training LAUNCHED** — tmux `v52_train`, 5-trial HPO + 500 epoch full training
 
-### v4 Canonical Model Performance
-| Model | MRR | Hits@1 | Hits@10 | AMRI |
-|-------|-----|--------|---------|------|
-| ComplEx v4 | 0.2484 | 16.78% | 40.69% | 0.9902 |
-| RotatE v4.1 | 0.2018 | 11.28% | 36.77% | 0.9922 |
-| DistMult v4.1 | 0.1013 | 4.81% | 19.61% | 0.9909 |
+### v5.2 KG (Current Best Merged)
+- **217,993 nodes** (98.7% of v5 entities)
+- **3,194,017 edges** (18 relation types)
+- **100% v4 preservation** (all 1,532,674 unique v4 triples kept)
+- 13 node types, 18 edge types (2 new: same_gene, encodes)
+- Path: `data/kg_v5.2/`
 
-### Derived KG Embeddings (ALL 5 COMPLETE, DistMult 200d, 100ep)
-| KG | Entities | Triples | MRR | Hits@10 | AMRI | Time |
-|----|----------|---------|-----|---------|------|------|
-| REPRODUCT-KG | 13,208 | 384,985 | 0.1629 | 28.4% | 0.9588 | 10.6 min |
-| GERIPHARM-KG | 18,754 | 739,396 | 0.1438 | 25.5% | 0.9691 | 20.5 min |
-| MENTALHEALTH-KG | 17,555 | 705,561 | 0.1277 | 22.8% | 0.9669 | 19.9 min |
-| AYUR-PHARMA-KG | 24,316 | 293,444 | 0.0887 | 17.6% | 0.9725 | 11.1 min |
-| PCOS-ENDO-KG | 36,903 | 697,819 | 0.0675 | 13.4% | 0.9803 | 25.0 min |
+### Running Processes
+- `tmux v52_train` — ComplEx v5.2 HPO + training (started 10:47 UTC)
+- Log: `results/kg_embeddings_v5.2/training.log`
 
-### Completed (Sessions 11-12, Mar 4-5 2026)
-1. GitHub push blocker FIXED - 1024 files pushed, all under 100MB
-2. README updated: RotatE v4.1 correct metrics, v5 section, derived KGs
-3. ISMB 2026 poster: Publication/ISMB2026_poster.png + .pdf
-4. Scripts cleanup: 57 archived to scripts/archive_old/, Makefile fixed
-5. Vault docs: 14 stale files fixed
-6. Link prediction script ready + 550 v5 predictions generated
-7. Paper merges: 4 merge operations
-8. Manuscript PDF generated
-9. bioRxiv badge fixed to "Preprint: In Preparation"
-10. ALL 5 derived KG embeddings COMPLETE
-11. GROUND_TRUTH.json cleaned - RAID synced (4 copies identical)
-12. Vault consistency audit COMPLETE
-13. Manuscript audit: 9 discrepancies fixed
-14. CITATION.cff created and pushed
-15. Paper draft scan: ALL 29 drafts clean
-16. ComplEx v5 training + evaluation COMPLETE
-17. DistMult v5 training + evaluation COMPLETE
-18. Cross-document audit: 7 issues found and fixed
-19. Model comparison JSON: all versions + derived KGs
-20. Deep-analysis repo: 244 analysis files, 316 figures, pushed
+### What To Do Next
+1. Monitor v5.2 training (`tmux attach -t v52_train` or `tail -f results/kg_embeddings_v5.2/training.log`)
+2. After training completes: compare MRR to v4 baseline (0.2484)
+3. If v5.2 MRR competitive: update GROUND_TRUTH, train DistMult + RotatE
+4. If v5.2 MRR poor: investigate why, consider regularization or loss function changes
+5. Clean up v5.1 directory (superseded by v5.2)
+6. Update deep-analysis repo with v5.2 results
 
-### Phase Status
-| Phase | Status | Key Deliverable |
-|-------|--------|-----------------|
-| 0. Infrastructure | COMPLETE | Drive mount, symlinks, FAERS |
-| 2.1 Bridges | COMPLETE | 5 identifier bridges |
-| 2.2 Merge | COMPLETE | v5: 246,056 nodes, 3,182,843 edges |
-| 2.3 Validate | COMPLETE | 100% v4 preservation, 0 NaN |
-| 2.4 Train | COMPLETE | ComplEx v5 + DistMult v5 evaluated |
-| 3. Swarms | COMPLETE | 31 waves, 108 JSONs, 121 figures |
-| 4. Audit-proof | COMPLETE | FAIR 15/15, repro 97.5%, cascade 91.7% |
-| 5. Derived KGs | COMPLETE | 5 KGs built, all embeddings done |
-| 6. Publication | IN PROGRESS | README pushed, poster done, PDF done, CITATION.cff done |
+### Ground Truth Hierarchy
+- v4 canonical: `data/kg_v4/` — GROUND_TRUTH.json (4 copies)
+- v4 patched: `data/kg_v4/nodes_patched.tsv`, `edges_deduped.tsv`, `triples_deduped.tsv`
+- v5 merged (raw): `data/kg_v5/` — GROUND_TRUTH_v5.json
+- v5.1 LCC (deprecated): `data/kg_v5.1/` — 46.8% v4 preservation, SUPERSEDED
+- **v5.2 bridged LCC**: `data/kg_v5.2/` — 100% v4 preservation, CURRENT BEST
 
-### Next Steps (priority order)
-1. Upload Zenodo v4 deposit (archive ready, needs user login)
-2. Submit medRxiv preprint (manuscript PDF ready, needs user action)
-3. Consider higher-capacity v5 training (400d, 200ep) if v5 MRR improvement desired
-4. Run full-KG evaluation on GPU when available (CPU 50K subset used for now)
-5. Commit remaining results to GitHub repos
-6. Staggered journal submissions (Papers A-L)
-
-### GitHub Repos
-- **Main**: github.com/jshaik369/SexDiffKG (latest: 735f849)
-- **Deep Analysis**: github.com/jshaik369/sexdiffkg-deep-analysis (latest: a8c3093)
-
-### GROUND_TRUTH RAID: All copies verified identical (session 12 audit)
-
-### Recovery Protocol
-If starting a new session, read in order:
-1. This file (CONTINUITY_STATE.md) - both copies
-2. GROUND_TRUTH.json (canonical at sexdiffkg/GROUND_TRUTH.json)
-3. GROUND_TRUTH_v5.json (vault)
-4. Lessons_Learned.md
-5. `tmux ls` on DGX
-6. Latest Session_Log in vault
+### Models
+| Model | KG | MRR | Hits@10 | AMRI | Status |
+|-------|-----|-----|---------|------|--------|
+| ComplEx v4 | v4 | 0.2484 | 0.4069 | 0.9902 | BASELINE |
+| DistMult v4.1 | v4 | 0.1013 | 0.1961 | 0.9909 | Complete |
+| RotatE v4.1 | v4 | 0.2018 | 0.3677 | 0.9922 | Complete |
+| ComplEx v5 | v5 | 0.0247 | 0.058 | — | Bad (disconnected graph) |
+| DistMult v5 | v5 | 0.0413 | 0.100 | — | Bad (disconnected graph) |
+| ComplEx v5.2 | v5.2 | ? | ? | ? | TRAINING |
