@@ -1,0 +1,106 @@
+{
+  "timestamp": "2026-03-05T16:04:44.265087",
+  "checks": {
+    "nodes_no_nan": {
+      "status": "PASS",
+      "detail": "0 NaN values in nodes"
+    },
+    "edges_no_nan": {
+      "status": "PASS",
+      "detail": "0 NaN values in edges"
+    },
+    "all_endpoints_in_nodes": {
+      "status": "PASS",
+      "detail": "0 entities in edges but not nodes"
+    },
+    "no_duplicate_edges": {
+      "status": "PASS",
+      "detail": "0 duplicate edges"
+    },
+    "v4_100pct_preserved": {
+      "status": "FAIL",
+      "detail": "1,532,603/1,532,674 (100.0%)"
+    },
+    "lcc_gt_95pct": {
+      "status": "PASS",
+      "detail": "LCC=217,993 nodes (100.0%), 1 components"
+    },
+    "orphan_count": {
+      "status": "PASS",
+      "detail": "0 orphan nodes (no edges)"
+    },
+    "same_gene_bridges": {
+      "status": "PASS",
+      "detail": "1,940 same_gene edges"
+    },
+    "encodes_bridges": {
+      "status": "PASS",
+      "detail": "11,227 encodes edges"
+    },
+    "total_bridges": {
+      "status": "PASS",
+      "detail": "13,167 total bridge edges"
+    },
+    "node_types": {
+      "status": "PASS",
+      "detail": "13 node types"
+    },
+    "edge_types": {
+      "status": "PASS",
+      "detail": "18 edge types"
+    },
+    "md5_nodes_tsv": {
+      "status": "PASS",
+      "detail": "match"
+    },
+    "md5_edges_tsv": {
+      "status": "PASS",
+      "detail": "match"
+    },
+    "md5_triples_tsv": {
+      "status": "PASS",
+      "detail": "match"
+    }
+  },
+  "pass": false,
+  "node_counts": {
+    "Gene": 90215,
+    "Protein": 30082,
+    "ClinicalTrial": 26695,
+    "Compound": 25778,
+    "Drug": 12843,
+    "Disease": 12679,
+    "AdverseEvent": 10130,
+    "Unknown": 3228,
+    "Symptom": 2639,
+    "Pathway": 2627,
+    "Intervention": 1052,
+    "Tissue": 20,
+    "Herb": 5
+  },
+  "edge_counts": {
+    "interacts_with": 1858942,
+    "has_adverse_event": 614978,
+    "participates_in": 381168,
+    "sex_differential_adverse_event": 96281,
+    "investigates": 67795,
+    "tests_intervention": 47482,
+    "treats": 41184,
+    "binds_to": 35503,
+    "encodes": 11227,
+    "modulates": 10530,
+    "encoded_by": 8402,
+    "associated_with": 7127,
+    "targets": 5744,
+    "causes_adverse_event": 2640,
+    "corresponds_to": 2639,
+    "same_gene": 1940,
+    "sex_differential_expression": 289,
+    "same_as": 146
+  },
+  "summary": {
+    "pass": 14,
+    "fail": 1,
+    "total": 15
+  }
+}

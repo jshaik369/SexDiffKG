@@ -1,0 +1,68 @@
+{
+  "version": "v5.2",
+  "timestamp": "2026-03-05T10:41:53.792004",
+  "description": "SexDiffKG v5 + VEDA-KG merged, identifier bridges added, LCC extracted",
+  "nodes": 217993,
+  "edges": 3194017,
+  "node_types": 13,
+  "edge_types": 18,
+  "node_type_counts": {
+    "Gene": 90215,
+    "Protein": 30082,
+    "ClinicalTrial": 26695,
+    "Compound": 25778,
+    "Drug": 12843,
+    "Disease": 12679,
+    "AdverseEvent": 10130,
+    "Unknown": 3228,
+    "Symptom": 2639,
+    "Pathway": 2627,
+    "Intervention": 1052,
+    "Tissue": 20,
+    "Herb": 5
+  },
+  "edge_type_counts": {
+    "interacts_with": 1858942,
+    "has_adverse_event": 614978,
+    "participates_in": 381168,
+    "sex_differential_adverse_event": 96281,
+    "investigates": 67795,
+    "tests_intervention": 47482,
+    "treats": 41184,
+    "binds_to": 35503,
+    "encodes": 11227,
+    "modulates": 10530,
+    "encoded_by": 8402,
+    "associated_with": 7127,
+    "targets": 5744,
+    "causes_adverse_event": 2640,
+    "corresponds_to": 2639,
+    "same_gene": 1940,
+    "sex_differential_expression": 289,
+    "same_as": 146
+  },
+  "bridges_added": {
+    "same_gene": 1940,
+    "encodes": 11227,
+    "total": 13167
+  },
+  "components_before_lcc": 818,
+  "lcc_fraction": 0.9874,
+  "orphan_nodes_removed": 25271,
+  "v4_preservation": {
+    "v4_deduped_in_v52": 1532674,
+    "v4_deduped_total": 1532674
+  },
+  "checksums": {
+    "nodes_tsv": "e0e8077fc8d5f1b6f46e802ac61f4737",
+    "edges_tsv": "db4c271ccc29f176b26dbee0de21e1fd",
+    "triples_tsv": "8805491fe4be9a3f607210d5f800b457"
+  },
+  "data_sources": [
+    "SexDiffKG v4 (FAERS, STRING, Reactome, ChEMBL, GTEx)",
+    "VEDA-KG v1 (ClinicalTrials.gov, KEGG, DisGeNET, IMPPAT)",
+    "drug_targets.parquet (12,682 bridge rows)",
+    "id_mappings.parquet (166,382 bridge rows)",
+    "STRING 9606.protein.aliases.v12.0 (ENSP\u2192ENSG mapping)"
+  ]
+}
