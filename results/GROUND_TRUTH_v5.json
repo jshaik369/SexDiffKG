@@ -58,5 +58,30 @@
     "nodes.tsv": "3593be9955c17d444aa2e433dc7d1637",
     "edges.tsv": "1c4f88d7111356e02f71d5a1f68ccfe4",
     "triples.tsv": "dbd2059c59ae6c637ec591fd43d093aa"
+  },
+  "models": {
+    "ComplEx_v5": {
+      "status": "COMPLETE",
+      "mrr": 0.0247,
+      "hits_at_1": 0.00274,
+      "hits_at_3": 0.0175,
+      "hits_at_5": 0.03006,
+      "hits_at_10": 0.05807,
+      "amri": 0.9289,
+      "entities": 220785,
+      "relations": 18,
+      "total_test_triples": 636569,
+      "evaluated_triples": 50000,
+      "embedding_dim": 200,
+      "epochs": 100,
+      "device": "cpu",
+      "training_time_min": 162,
+      "eval_time_min": 68,
+      "note": "50K subset evaluation. MRR drop vs v4 expected: 2x entities, 3x relations, same 100 epochs. Consider 200+ epochs or higher embedding dim for v5.",
+      "v4_baseline_mrr": 0.2484,
+      "v4_baseline_hits10": 0.4069,
+      "pct_change_mrr": -90.1,
+      "pct_change_hits10": -85.7
+    }
   }
 }
