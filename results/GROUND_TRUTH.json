@@ -257,7 +257,7 @@
     "v5_fixes": "v5 merge fixed both issues: 0 duplicate edges, 0 dangling entities in v5 KG."
   },
   "v4_patched": {
-    "date": "2026-03-05T10:30:22.903141",
+    "date": "2026-03-05T10:30:22.902514",
     "nodes_patched": 113155,
     "nodes_added": 3288,
     "edges_deduped": 1532674,

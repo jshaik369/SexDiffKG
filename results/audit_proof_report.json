@@ -1,0 +1,401 @@
+{
+  "timestamp": "2026-03-05T16:11:26.690624",
+  "checks": [
+    {
+      "name": "gt_identical:/home/jshaik369/sexdiffkg/data/kg_v4/GROUND_TRUTH.json",
+      "expected": true,
+      "actual": true,
+      "status": "PASS",
+      "context": "RAID consistency"
+    },
+    {
+      "name": "gt_identical:/home/jshaik369/sexdiffkg/results/GROUND_TRUTH.json",
+      "expected": true,
+      "actual": true,
+      "status": "PASS",
+      "context": "RAID consistency"
+    },
+    {
+      "name": "gt_identical:/home/jshaik369/AYURFEM-Vault/projects/sexdiffkg/GROUND_TRUTH.json",
+      "expected": true,
+      "actual": true,
+      "status": "PASS",
+      "context": "RAID consistency"
+    },
+    {
+      "name": "v4_nodes_count",
+      "expected": 109867,
+      "actual": 109867,
+      "status": "PASS",
+      "context": "nodes.tsv row count"
+    },
+    {
+      "name": "v4_edges_count",
+      "expected": 1822851,
+      "actual": 1822851,
+      "status": "PASS",
+      "context": "edges.tsv row count"
+    },
+    {
+      "name": "v4_nodes_columns",
+      "expected": [
+        "id",
+        "name",
+        "category"
+      ],
+      "actual": [
+        "id",
+        "name",
+        "category"
+      ],
+      "status": "PASS",
+      "context": "nodes.tsv columns"
+    },
+    {
+      "name": "v4_edges_columns",
+      "expected": [
+        "subject",
+        "predicate",
+        "object"
+      ],
+      "actual": [
+        "subject",
+        "predicate",
+        "object"
+      ],
+      "status": "PASS",
+      "context": "edges.tsv columns"
+    },
+    {
+      "name": "v4_gene_count",
+      "expected": 77498,
+      "actual": 77498,
+      "status": "PASS",
+      "context": ""
+    },
+    {
+      "name": "v4_protein_count",
+      "expected": 16201,
+      "actual": 16201,
+      "status": "PASS",
+      "context": ""
+    },
+    {
+      "name": "v4_ae_count",
+      "expected": 9949,
+      "actual": 9949,
+      "status": "PASS",
+      "context": ""
+    },
+    {
+      "name": "v4_drug_count",
+      "expected": 3920,
+      "actual": 3920,
+      "status": "PASS",
+      "context": ""
+    },
+    {
+      "name": "v4_pathway_count",
+      "expected": 2279,
+      "actual": 2279,
+      "status": "PASS",
+      "context": ""
+    },
+    {
+      "name": "v4_tissue_count",
+      "expected": 20,
+      "actual": 20,
+      "status": "PASS",
+      "context": ""
+    },
+    {
+      "name": "v4_has_ae_count",
+      "expected": 869142,
+      "actual": 869142,
+      "status": "PASS",
+      "context": ""
+    },
+    {
+      "name": "v4_interacts_count",
+      "expected": 473860,
+      "actual": 473860,
+      "status": "PASS",
+      "context": ""
+    },
+    {
+      "name": "v4_participates_count",
+      "expected": 370597,
+      "actual": 370597,
+      "status": "PASS",
+      "context": ""
+    },
+    {
+      "name": "v4_sex_diff_ae_count",
+      "expected": 96281,
+      "actual": 96281,
+      "status": "PASS",
+      "context": ""
+    },
+    {
+      "name": "v4_targets_count",
+      "expected": 12682,
+      "actual": 12682,
+      "status": "PASS",
+      "context": ""
+    },
+    {
+      "name": "v4_sex_diff_expr_count",
+      "expected": 289,
+      "actual": 289,
+      "status": "PASS",
+      "context": ""
+    },
+    {
+      "name": "v4_unique_triples",
+      "expected": 1532674,
+      "actual": 1532674,
+      "status": "PASS",
+      "context": "unique triple count"
+    },
+    {
+      "name": "v4_md5_nodes.tsv",
+      "expected": "5a7331b1b0e7f11853444eb59e2b9166",
+      "actual": "5a7331b1b0e7f11853444eb59e2b9166",
+      "status": "PASS",
+      "context": ""
+    },
+    {
+      "name": "v4_md5_edges.tsv",
+      "expected": "b8e4890c2063bdf9357c76730881b440",
+      "actual": "b8e4890c2063bdf9357c76730881b440",
+      "status": "PASS",
+      "context": ""
+    },
+    {
+      "name": "v4_md5_triples.tsv",
+      "expected": "2d4e46b1265a9a9bd44bbfc7372a9e44",
+      "actual": "2d4e46b1265a9a9bd44bbfc7372a9e44",
+      "status": "PASS",
+      "context": ""
+    },
+    {
+      "name": "v4_patched_nodes",
+      "expected": 113155,
+      "actual": 113155,
+      "status": "PASS",
+      "context": ""
+    },
+    {
+      "name": "v4_missing_drugs",
+      "expected": 3288,
+      "actual": 3288,
+      "status": "PASS",
+      "context": ""
+    },
+    {
+      "name": "v4_deduped_edges",
+      "expected": 1532674,
+      "actual": 1532674,
+      "status": "PASS",
+      "context": ""
+    },
+    {
+      "name": "v4_duplicates_removed",
+      "expected": 290177,
+      "actual": 290177,
+      "status": "PASS",
+      "context": ""
+    },
+    {
+      "name": "v52_nodes",
+      "expected": 217993,
+      "actual": 217993,
+      "status": "PASS",
+      "context": ""
+    },
+    {
+      "name": "v52_edges",
+      "expected": 3194017,
+      "actual": 3194017,
+      "status": "PASS",
+      "context": ""
+    },
+    {
+      "name": "v52_node_types",
+      "expected": 13,
+      "actual": 13,
+      "status": "PASS",
+      "context": ""
+    },
+    {
+      "name": "v52_edge_types",
+      "expected": 18,
+      "actual": 18,
+      "status": "PASS",
+      "context": ""
+    },
+    {
+      "name": "v52_same_gene_bridges",
+      "expected": 1940,
+      "actual": 1940,
+      "status": "PASS",
+      "context": ""
+    },
+    {
+      "name": "v52_encodes_bridges",
+      "expected": 11227,
+      "actual": 11227,
+      "status": "PASS",
+      "context": ""
+    },
+    {
+      "name": "v52_zero_nan_nodes",
+      "expected": 0,
+      "actual": 0,
+      "status": "PASS",
+      "context": ""
+    },
+    {
+      "name": "v52_zero_nan_edges",
+      "expected": 0,
+      "actual": 0,
+      "status": "PASS",
+      "context": ""
+    },
+    {
+      "name": "v52_zero_dupes",
+      "expected": 0,
+      "actual": 0,
+      "status": "PASS",
+      "context": ""
+    },
+    {
+      "name": "v52_md5_nodes.tsv",
+      "expected": "e0e8077fc8d5f1b6f46e802ac61f4737",
+      "actual": "e0e8077fc8d5f1b6f46e802ac61f4737",
+      "status": "PASS",
+      "context": ""
+    },
+    {
+      "name": "v52_md5_edges.tsv",
+      "expected": "db4c271ccc29f176b26dbee0de21e1fd",
+      "actual": "db4c271ccc29f176b26dbee0de21e1fd",
+      "status": "PASS",
+      "context": ""
+    },
+    {
+      "name": "v52_md5_triples.tsv",
+      "expected": "8805491fe4be9a3f607210d5f800b457",
+      "actual": "8805491fe4be9a3f607210d5f800b457",
+      "status": "PASS",
+      "context": ""
+    },
+    {
+      "name": "readme_faers_count",
+      "expected": true,
+      "actual": true,
+      "status": "PASS",
+      "context": "FAERS report count"
+    },
+    {
+      "name": "readme_female_count",
+      "expected": true,
+      "actual": true,
+      "status": "PASS",
+      "context": "Female report count"
+    },
+    {
+      "name": "readme_male_count",
+      "expected": true,
+      "actual": true,
+      "status": "PASS",
+      "context": "Male report count"
+    },
+    {
+      "name": "readme_nodes",
+      "expected": true,
+      "actual": true,
+      "status": "PASS",
+      "context": "v4 node count"
+    },
+    {
+      "name": "readme_edges",
+      "expected": true,
+      "actual": true,
+      "status": "PASS",
+      "context": "v4 edge count"
+    },
+    {
+      "name": "readme_signals",
+      "expected": true,
+      "actual": true,
+      "status": "PASS",
+      "context": "Sex-differential signals"
+    },
+    {
+      "name": "readme_mrr",
+      "expected": true,
+      "actual": true,
+      "status": "PASS",
+      "context": "ComplEx MRR"
+    },
+    {
+      "name": "readme_validation",
+      "expected": true,
+      "actual": true,
+      "status": "PASS",
+      "context": "Validation precision"
+    },
+    {
+      "name": "readme_no_stale_127,063",
+      "expected": true,
+      "actual": true,
+      "status": "PASS",
+      "context": "Stale v3 number absent"
+    },
+    {
+      "name": "readme_no_stale_126,575",
+      "expected": true,
+      "actual": true,
+      "status": "PASS",
+      "context": "Stale v3 number absent"
+    },
+    {
+      "name": "readme_no_stale_5,839,717",
+      "expected": true,
+      "actual": true,
+      "status": "PASS",
+      "context": "Stale v3 number absent"
+    },
+    {
+      "name": "readme_no_stale_5,489,928",
+      "expected": true,
+      "actual": true,
+      "status": "PASS",
+      "context": "Stale v3 number absent"
+    },
+    {
+      "name": "cff_orcid",
+      "expected": true,
+      "actual": true,
+      "status": "PASS",
+      "context": "ORCID present"
+    },
+    {
+      "name": "cff_name",
+      "expected": true,
+      "actual": true,
+      "status": "PASS",
+      "context": "Author name"
+    },
+    {
+      "name": "cff_email",
+      "expected": true,
+      "actual": true,
+      "status": "PASS",
+      "context": "Email"
+    }
+  ],
+  "pass_count": 54,
+  "fail_count": 0
+}
