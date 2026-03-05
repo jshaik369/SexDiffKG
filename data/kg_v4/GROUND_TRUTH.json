@@ -1,8 +1,8 @@
 {
   "_meta": {
     "description": "SexDiffKG v4 Ground Truth \u2014 ONE absolute source of truth",
-    "last_verified": "2026-03-04T14:00:00+01:00",
-    "verified_by": "Claude Code molecular audit - v4 signal numbers corrected",
+    "last_verified": "2026-03-05T04:35:21.143772",
+    "verified_by": "Session 11 vault audit - RotatE duplicate removed",
     "md5_nodes": "5a7331b1b0e7f11853444eb59e2b9166",
     "md5_edges": "b8e4890c2063bdf9357c76730881b440",
     "md5_triples": "2d4e46b1265a9a9bd44bbfc7372a9e44"
@@ -120,23 +120,6 @@
       "entities_embedded": 113155,
       "note": "Retrained on v4.1 KG with real GTEx sex-differential expression (289 edges)"
     },
-    "RotatE_v41": {
-      "status": "COMPLETE",
-      "mrr": 0.0941423699259758,
-      "hits_at_1": 0.05824112012944646,
-      "hits_at_10": 0.15647428034553854,
-      "amr": 1977.343994140625,
-      "amri": 0.9650510093297637,
-      "epochs": 200,
-      "embedding_dim": 200,
-      "device": "cpu",
-      "loss": "MarginRankingLoss(margin=9.0)",
-      "lr": 5e-05,
-      "batch_size": 512,
-      "training_time_hours": 7.4,
-      "final_loss": 1.1283376842571322,
-      "note": "CPU training (GPU NVRTC SM 12.1 incompatible). DGX 20 cores, 7.4h. Mac Mini reproducibility pending."
-    },
     "RotatE_v4.1": {
       "MRR": 0.2018,
       "Hits_at_1": 0.1128,
@@ -148,7 +131,9 @@
       "epochs": 200,
       "training_time_minutes": 381.7,
       "status": "COMPLETE",
-      "train_device": "cpu"
+      "train_device": "cpu",
+      "device": "cpu",
+      "note": "Best hyperparams: margin=6.0, lr=1e-3, batch=4096, 256d, 200 epochs, CPU training (382 min)"
     }
   },
   "identity": {
@@ -161,7 +146,11 @@
   "archived": {
     "kg_v3_cleaned": "data/archive/kg_v3_cleaned/ (126,575 nodes, 5,489,928 edges)",
     "kg_v3_original": "data/archive/kg_v3_original/ (127,063 nodes, 5,839,717 edges)",
-    "note": "OLD v3 KG \u2014 DO NOT USE. Kept only for historical reference."
+    "note": "OLD v3 KG \u2014 DO NOT USE. Kept only for historical reference.",
+    "RotatE_v41_old_hyperparams": {
+      "mrr": 0.0941423699259758,
+      "note": "Old RotatE with wrong hyperparams (margin=9.0, lr=5e-5, batch=512). Superseded by RotatE_v4.1 (margin=6.0, lr=1e-3, batch=4096, 256d)."
+    }
   },
   "validation": {
     "total_benchmarks": 40,

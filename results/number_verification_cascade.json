@@ -1,0 +1,392 @@
+{
+  "timestamp": "2026-03-05T04:40:50.774435",
+  "checks": [
+    {
+      "name": "nodes.tsv row count",
+      "expected": 109867,
+      "actual": 109867,
+      "source": "data/kg_v4/nodes.tsv",
+      "status": "PASS",
+      "severity": "CRITICAL"
+    },
+    {
+      "name": "nodes.tsv MD5",
+      "expected": "5a7331b1b0e7f11853444eb59e2b9166",
+      "actual": "5a7331b1b0e7f11853444eb59e2b9166",
+      "source": "data/kg_v4/nodes.tsv",
+      "status": "PASS",
+      "severity": "CRITICAL"
+    },
+    {
+      "name": "edges.tsv row count",
+      "expected": 1822851,
+      "actual": 1822851,
+      "source": "data/kg_v4/edges.tsv",
+      "status": "PASS",
+      "severity": "CRITICAL"
+    },
+    {
+      "name": "edges.tsv MD5",
+      "expected": "b8e4890c2063bdf9357c76730881b440",
+      "actual": "b8e4890c2063bdf9357c76730881b440",
+      "source": "data/kg_v4/edges.tsv",
+      "status": "PASS",
+      "severity": "CRITICAL"
+    },
+    {
+      "name": "triples.tsv row count",
+      "expected": 1822851,
+      "actual": 1822850,
+      "source": "data/kg_v4/triples.tsv",
+      "status": "FAIL",
+      "severity": "CRITICAL"
+    },
+    {
+      "name": "triples.tsv MD5",
+      "expected": "2d4e46b1265a9a9bd44bbfc7372a9e44",
+      "actual": "2d4e46b1265a9a9bd44bbfc7372a9e44",
+      "source": "data/kg_v4/triples.tsv",
+      "status": "PASS",
+      "severity": "CRITICAL"
+    },
+    {
+      "name": "Node type Gene",
+      "expected": 77498,
+      "actual": 77498,
+      "source": "data/kg_v4/nodes.tsv",
+      "status": "PASS",
+      "severity": "CRITICAL"
+    },
+    {
+      "name": "Node type Protein",
+      "expected": 16201,
+      "actual": 16201,
+      "source": "data/kg_v4/nodes.tsv",
+      "status": "PASS",
+      "severity": "CRITICAL"
+    },
+    {
+      "name": "Node type AdverseEvent",
+      "expected": 9949,
+      "actual": 9949,
+      "source": "data/kg_v4/nodes.tsv",
+      "status": "PASS",
+      "severity": "CRITICAL"
+    },
+    {
+      "name": "Node type Drug",
+      "expected": 3920,
+      "actual": 3920,
+      "source": "data/kg_v4/nodes.tsv",
+      "status": "PASS",
+      "severity": "CRITICAL"
+    },
+    {
+      "name": "Node type Pathway",
+      "expected": 2279,
+      "actual": 2279,
+      "source": "data/kg_v4/nodes.tsv",
+      "status": "PASS",
+      "severity": "CRITICAL"
+    },
+    {
+      "name": "Node type Tissue",
+      "expected": 20,
+      "actual": 20,
+      "source": "data/kg_v4/nodes.tsv",
+      "status": "PASS",
+      "severity": "CRITICAL"
+    },
+    {
+      "name": "Edge type has_adverse_event",
+      "expected": 869142,
+      "actual": 869142,
+      "source": "data/kg_v4/edges.tsv",
+      "status": "PASS",
+      "severity": "CRITICAL"
+    },
+    {
+      "name": "Edge type interacts_with",
+      "expected": 473860,
+      "actual": 473860,
+      "source": "data/kg_v4/edges.tsv",
+      "status": "PASS",
+      "severity": "CRITICAL"
+    },
+    {
+      "name": "Edge type participates_in",
+      "expected": 370597,
+      "actual": 370597,
+      "source": "data/kg_v4/edges.tsv",
+      "status": "PASS",
+      "severity": "CRITICAL"
+    },
+    {
+      "name": "Edge type sex_differential_adverse_event",
+      "expected": 96281,
+      "actual": 96281,
+      "source": "data/kg_v4/edges.tsv",
+      "status": "PASS",
+      "severity": "CRITICAL"
+    },
+    {
+      "name": "Edge type targets",
+      "expected": 12682,
+      "actual": 12682,
+      "source": "data/kg_v4/edges.tsv",
+      "status": "PASS",
+      "severity": "CRITICAL"
+    },
+    {
+      "name": "Edge type sex_differential_expression",
+      "expected": 289,
+      "actual": 289,
+      "source": "data/kg_v4/edges.tsv",
+      "status": "PASS",
+      "severity": "CRITICAL"
+    },
+    {
+      "name": "Manuscript: total_nodes (109,867)",
+      "expected": true,
+      "actual": true,
+      "source": "manuscript",
+      "status": "PASS",
+      "severity": "MEDIUM"
+    },
+    {
+      "name": "Manuscript: total_edges (1,822,851)",
+      "expected": true,
+      "actual": true,
+      "source": "manuscript",
+      "status": "PASS",
+      "severity": "MEDIUM"
+    },
+    {
+      "name": "Manuscript: Gene nodes (77,498)",
+      "expected": true,
+      "actual": true,
+      "source": "manuscript",
+      "status": "PASS",
+      "severity": "MEDIUM"
+    },
+    {
+      "name": "Manuscript: Protein nodes (16,201)",
+      "expected": true,
+      "actual": true,
+      "source": "manuscript",
+      "status": "PASS",
+      "severity": "MEDIUM"
+    },
+    {
+      "name": "Manuscript: AdverseEvent nodes (9,949)",
+      "expected": true,
+      "actual": true,
+      "source": "manuscript",
+      "status": "PASS",
+      "severity": "MEDIUM"
+    },
+    {
+      "name": "Manuscript: Drug nodes (3,920)",
+      "expected": true,
+      "actual": true,
+      "source": "manuscript",
+      "status": "PASS",
+      "severity": "MEDIUM"
+    },
+    {
+      "name": "Manuscript: Pathway nodes (2,279)",
+      "expected": true,
+      "actual": true,
+      "source": "manuscript",
+      "status": "PASS",
+      "severity": "MEDIUM"
+    },
+    {
+      "name": "Manuscript: has_adverse_event (869,142)",
+      "expected": true,
+      "actual": true,
+      "source": "manuscript",
+      "status": "PASS",
+      "severity": "MEDIUM"
+    },
+    {
+      "name": "Manuscript: interacts_with (473,860)",
+      "expected": true,
+      "actual": true,
+      "source": "manuscript",
+      "status": "PASS",
+      "severity": "MEDIUM"
+    },
+    {
+      "name": "Manuscript: participates_in (370,597)",
+      "expected": true,
+      "actual": true,
+      "source": "manuscript",
+      "status": "PASS",
+      "severity": "MEDIUM"
+    },
+    {
+      "name": "Manuscript: sex_differential (96,281)",
+      "expected": true,
+      "actual": true,
+      "source": "manuscript",
+      "status": "PASS",
+      "severity": "MEDIUM"
+    },
+    {
+      "name": "Manuscript: targets (12,682)",
+      "expected": true,
+      "actual": true,
+      "source": "manuscript",
+      "status": "PASS",
+      "severity": "MEDIUM"
+    },
+    {
+      "name": "Manuscript: FAERS total (14,536,008)",
+      "expected": true,
+      "actual": true,
+      "source": "manuscript",
+      "status": "PASS",
+      "severity": "MEDIUM"
+    },
+    {
+      "name": "Manuscript: FAERS female (8,744,397)",
+      "expected": true,
+      "actual": true,
+      "source": "manuscript",
+      "status": "PASS",
+      "severity": "MEDIUM"
+    },
+    {
+      "name": "Manuscript: FAERS male (5,791,611)",
+      "expected": true,
+      "actual": true,
+      "source": "manuscript",
+      "status": "PASS",
+      "severity": "MEDIUM"
+    },
+    {
+      "name": "Manuscript: ComplEx MRR (0.2484)",
+      "expected": true,
+      "actual": true,
+      "source": "manuscript",
+      "status": "PASS",
+      "severity": "MEDIUM"
+    },
+    {
+      "name": "Manuscript: RotatE uses correct MRR (no 0.0941)",
+      "expected": true,
+      "actual": true,
+      "source": "manuscript",
+      "status": "PASS",
+      "severity": "CRITICAL"
+    },
+    {
+      "name": "Manuscript: RotatE new MRR present",
+      "expected": true,
+      "actual": true,
+      "source": "manuscript",
+      "status": "PASS",
+      "severity": "CRITICAL"
+    },
+    {
+      "name": "README: total nodes (109,867)",
+      "expected": true,
+      "actual": true,
+      "source": "README.md",
+      "status": "PASS",
+      "severity": "MEDIUM"
+    },
+    {
+      "name": "README: total edges (1,822,851)",
+      "expected": true,
+      "actual": true,
+      "source": "README.md",
+      "status": "PASS",
+      "severity": "MEDIUM"
+    },
+    {
+      "name": "README: ComplEx MRR (0.2484)",
+      "expected": true,
+      "actual": true,
+      "source": "README.md",
+      "status": "PASS",
+      "severity": "MEDIUM"
+    },
+    {
+      "name": "README: RotatE MRR (0.2018)",
+      "expected": true,
+      "actual": true,
+      "source": "README.md",
+      "status": "PASS",
+      "severity": "MEDIUM"
+    },
+    {
+      "name": "README: DistMult MRR (0.1013)",
+      "expected": true,
+      "actual": true,
+      "source": "README.md",
+      "status": "PASS",
+      "severity": "MEDIUM"
+    },
+    {
+      "name": "README: FAERS total (14,536,008)",
+      "expected": true,
+      "actual": true,
+      "source": "README.md",
+      "status": "PASS",
+      "severity": "MEDIUM"
+    },
+    {
+      "name": "README: v5 nodes (246,056)",
+      "expected": true,
+      "actual": true,
+      "source": "README.md",
+      "status": "PASS",
+      "severity": "MEDIUM"
+    },
+    {
+      "name": "README: v5 edges (3,182,843)",
+      "expected": true,
+      "actual": true,
+      "source": "README.md",
+      "status": "PASS",
+      "severity": "MEDIUM"
+    },
+    {
+      "name": "GROUND_TRUTH RAID: all 4 identical",
+      "expected": true,
+      "actual": true,
+      "source": "RAID",
+      "status": "PASS",
+      "severity": "CRITICAL"
+    },
+    {
+      "name": "v5 nodes count",
+      "expected": 246056,
+      "actual": 246056,
+      "source": "data/kg_v5/nodes.tsv",
+      "status": "PASS",
+      "severity": "CRITICAL"
+    },
+    {
+      "name": "v5 edges count",
+      "expected": 3182843,
+      "actual": 3182843,
+      "source": "data/kg_v5/edges.tsv",
+      "status": "PASS",
+      "severity": "CRITICAL"
+    },
+    {
+      "name": "v5 preserves v4 nodes",
+      "expected": 109867,
+      "actual": 109867,
+      "source": "GROUND_TRUTH_v5",
+      "status": "PASS",
+      "severity": "CRITICAL"
+    }
+  ],
+  "pass_count": 47,
+  "fail_count": 1,
+  "warn_count": 0
+}
