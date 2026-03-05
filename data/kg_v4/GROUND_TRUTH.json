@@ -203,5 +203,57 @@
     "moderate_bias": 74,
     "exclusively_f_biased": 5,
     "exclusively_m_biased": 5
+  },
+  "data_quality_notes": {
+    "v4_duplicate_edges": {
+      "description": "edges.tsv contains 290,177 duplicate (subject, predicate, object) rows",
+      "total_rows": 1822851,
+      "unique_triples": 1532674,
+      "duplicates": 290177,
+      "by_predicate": {
+        "has_adverse_event": {
+          "rows": 869142,
+          "unique": 614978,
+          "duplicates": 254164
+        },
+        "participates_in": {
+          "rows": 370597,
+          "unique": 341492,
+          "duplicates": 29105
+        },
+        "targets": {
+          "rows": 12682,
+          "unique": 5774,
+          "duplicates": 6908
+        },
+        "interacts_with": {
+          "rows": 473860,
+          "unique": 473860,
+          "duplicates": 0
+        },
+        "sex_differential_adverse_event": {
+          "rows": 96281,
+          "unique": 96281,
+          "duplicates": 0
+        },
+        "sex_differential_expression": {
+          "rows": 289,
+          "unique": 289,
+          "duplicates": 0
+        }
+      },
+      "note": "PyKEEN deduplicates internally during TriplesFactory loading. Model training used 1,532,674 unique triples. Fixed in v5 merge."
+    },
+    "v4_missing_drug_nodes": {
+      "description": "3,288 DRUG entities appear in targets edges but are missing from nodes.tsv",
+      "missing_count": 3288,
+      "all_type": "DRUG",
+      "source": "ChEMBL 36 drug-target binding edges",
+      "impact": "PyKEEN creates entity embeddings from triples, so these drugs DO get embeddings. Nodes.tsv undercounts drugs by 3,288.",
+      "true_entity_count": 113155,
+      "reported_node_count": 109867,
+      "note": "Fixed in v5 merge (all edge entities appear in nodes.tsv)."
+    },
+    "v5_fixes": "v5 merge fixed both issues: 0 duplicate edges, 0 dangling entities in v5 KG."
   }
 }

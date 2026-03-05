@@ -152,8 +152,8 @@ Three embedding models trained on SexDiffKG v4 (1,822,851 triples):
 | Model | MRR | Hits@1 | Hits@10 | AMRI | Epochs | Device |
 |-------|-----|--------|---------|------|--------|--------|
 | **ComplEx v4** | **0.2484** | **0.1678** | **0.4069** | **0.9902** | 100 | GPU |
-| DistMult v4.1 | 0.1013 | 0.0481 | 0.1961 | 0.9909 | 100 | CPU |
-| DistMult v4 | 0.0932 | 0.0419 | 0.1842 | 0.9906 | 100 | CPU |
+| DistMult v4.1 | 0.1013 | 0.0481 | 0.1961 | 0.9909 | 100 | GPU |
+| DistMult v4 | 0.0932 | 0.0419 | 0.1842 | 0.9906 | 100 | GPU |
 | RotatE v4.1 | 0.2018 | 0.1128 | 0.3677 | 0.9922 | 200 | CPU |
 
 ComplEx achieves 2.45x higher MRR than DistMult, making it the recommended model for downstream link prediction tasks.

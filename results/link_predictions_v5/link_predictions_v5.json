@@ -3960,5 +3960,9 @@
         }
       ]
     }
-  }
+  },
+  "WARNING": "UNRELIABLE PREDICTIONS. Generated from ComplEx v5 model with MRR 0.025 (Hits@1 = 0.27%). These predictions have approximately 99.7% false positive rate at top-1 ranking. DO NOT use for scientific claims. Included for exploratory/methodological purposes only.",
+  "model_mrr": 0.0247,
+  "model_hits_at_1": 0.00274,
+  "reliability": "LOW - model performs near-random for top predictions"
 }

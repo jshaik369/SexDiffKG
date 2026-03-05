@@ -94,7 +94,7 @@ We trained three knowledge graph embedding models using PyKEEN 1.11.1 [19] on th
 
 3. **RotatE** [21]: Rotation-based embeddings with 256 complex dimensions (512 real parameters per entity), trained for 200 epochs on CPU (GPU incompatibility with complex tensor JIT compilation on NVIDIA Blackwell GB10). RotatE v4.1 achieved MRR 0.2018, Hits@1 11.28%, Hits@10 36.77%, AMRI 0.9922, after 6.4 hours on CPU.
 
-All models used an 80/20 train/test split with random_state=42 for reproducibility. The adjusted mean rank index (AMRI) exceeding 0.96 for all completed models, with v4 models exceeding 0.99 indicates that predictions are substantially better than random ranking across the full entity set.
+All models used a 90/10 train/test split with random_state=42 for reproducibility. The adjusted mean rank index (AMRI) exceeding 0.96 for all completed models, with v4 models exceeding 0.99 indicates that predictions are substantially better than random ranking across the full entity set.
 
 ---
 
@@ -313,6 +313,10 @@ Users should be aware of the following limitations:
 
 9. **Literature-curated GTEx layer**: The 289 sex-differential expression edges were curated from published findings in Oliva et al. 2020, not computed de novo from raw GTEx per-sample expression data. While the curated genes are pharmacologically relevant (drug-metabolizing enzymes, hormone receptors, sex-chromosome genes), this layer represents a small fraction of the approximately 13,000 sex-biased genes reported by Oliva et al. across 44 tissues. Future versions will incorporate genome-wide sex-differential expression computed directly from GTEx per-sample data.
 
+10. **Duplicate edge rows in v4 release**: The v4 edges.tsv file contains 1,822,851 rows, of which 290,177 (15.9%) are exact duplicate (subject, predicate, object) triples, yielding 1,532,674 unique triples. Duplicates arise primarily in has_adverse_event (254,164 duplicates from multiple FAERS quarters producing identical drug-AE pairs) and participates_in (29,105 from Reactome gene-pathway mapping variants). PyKEEN automatically deduplicates during data loading, so all reported embedding metrics (MRR, Hits@k, AMRI) are computed on the 1,532,674 unique triples. Users working with the raw TSV files should deduplicate before analysis. This issue is corrected in the v5 release.
+
+11. **Missing drug nodes in v4 release**: 3,288 drug entities referenced in targets edges (from ChEMBL 36 drug-target binding data) are absent from nodes.tsv, which reports 109,867 nodes. The effective entity vocabulary during embedding training is 113,155 (109,867 listed nodes + 3,288 drugs inferred from triples). This discrepancy arises because the drug normalization pipeline resolved more drug names in ChEMBL than in FAERS. Corrected in v5.
+
 ---
 
 ## Code Availability
@@ -465,7 +469,7 @@ Representative validated benchmarks (v4):
 | DistMult v3 | v3 | 200 real | 100 | 0.0476 | 2.25% | 8.85% | 0.9807 | GPU | Complete (baseline) |
 | RotatE v4.1 | v4.1 | 256 complex | 200 | 0.2018 | 11.28% | 36.77% | 0.9922 | CPU | Complete |
 
-All models used an 80/20 train/test split with random_state=42, PyKEEN 1.11.1 framework. ComplEx v4 achieves a 5.2-fold MRR improvement over DistMult v3 baseline. AMRI > 0.96 for all models; higher values indicate correct triples ranked near the top of all candidates.
+All models used a 90/10 train/test split with random_state=42, PyKEEN 1.11.1 framework. ComplEx v4 achieves a 5.2-fold MRR improvement over DistMult v3 baseline. AMRI > 0.96 for all models; higher values indicate correct triples ranked near the top of all candidates.
 
 **Table 8. Top 20 sex-differential drug-AE link predictions from ComplEx v4.**
 
