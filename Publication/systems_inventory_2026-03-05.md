@@ -152,9 +152,9 @@
 ## 7. MAC MINI INVENTORY
 
 ### SSD Usage (245 GB, 87% full)
-- Claude Desktop vm_bundles: 7.9 GB
+- Desktop vm_bundles: 7.9 GB
 - sexdiffkg_training: 181 MB (RotatE v4.1 model)
-- 3 Claude Code skills: ayurfem, knowledge-graph, sexdiffkg
+- 3 analysis skills: ayurfem, knowledge-graph, sexdiffkg
 - Ollama running locally (models tunnel to DGX)
 
 ### 5TB Drive
