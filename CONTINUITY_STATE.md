@@ -1,45 +1,62 @@
-# SexDiffKG CONTINUITY STATE
-## Last Updated: 2026-03-05 03:21 UTC
+# CONTINUITY_STATE — SexDiffKG Ecosystem
+**Last Updated:** 2026-03-05 03:49 UTC
 
-## Current Status: ACTIVE — Autonomous Deep Analysis Wave 35 Complete
+## CURRENT STATUS: Active Multi-Front Work
 
-## Session 5 Progress (Mar 4, 2026)
-- Waves 33-35 completed this session
-- Wave 33: Pain, endocrine, derm/ophthal, cardio, anti-infective deep dives (5 JSONs)
-- Wave 33: 15 figures (fig111-125), Paper 21 (cross-therapeutic spectrum)
-- Wave 34: Within-class spread meta (42 classes), AE archetypes, drug pair divergence (3 JSONs)
-- Wave 34: 4 figures (fig126-129)
-- Wave 35: Universal anti-regression (ALL 7 areas, mean rho=0.964), network motifs (2 JSONs)
-- Wave 35: 4 figures (fig130-133), Paper 22 (universal anti-regression)
+### Training Active
+- **ComplEx v5**: Epoch ~70/100, loss 0.060, ~30 min remaining (tmux complex_v5)
+- **Auto-chain**: tmux auto_chain_v5 — will start DistMult v5 after ComplEx finishes
+- **DistMult v5**: Script ready at scripts/v5_05_train_distmult.py
 
-## Running Totals
-- Analysis JSONs: ~120
-- Figures: ~145 (PNG+PDF)
-- Paper drafts: 19
-- GitHub commits: multiple pushes (sexdiffkg-deep-analysis)
-- Waves completed: 35
+### Completed This Session
+1. GitHub push blocker FIXED — 1024 files pushed, all under 100MB
+2. README updated: RotatE v4.1 correct metrics, v5 section, derived KGs, script list
+3. ISMB 2026 poster generated: Publication/ISMB2026_poster.png + .pdf
+4. Scripts cleanup: 57 archived to scripts/archive_old/, Makefile fixed
+5. Vault docs: 14 stale files fixed (Pipeline_Status, Numbers_Truth_Table, ISMB, etc.)
+6. Link prediction script ready: scripts/v5_06_link_prediction.py
+7. Paper merges: 4 merge operations (severity, anti-regression, sex paradox, hepatotoxicity)
 
-## Key Session 5 Discoveries
-1. Anti-regression UNIVERSAL — all 7 therapeutic areas, mean rho=0.964
-2. Within-class spread meta: 42 classes, mean 17pp, Triptans 65pp max, DOACs 3pp min
-3. AE archetypes: 1,668 AEs with >=10 drugs, fibromyalgia 86%F universal
-4. Drug pair divergence: beta-blockers highest (21pp mean, 42% flip rate)
-5. CGRP migraine 83%F vs triptans 67%F (same condition, different mechanism bias)
-6. GLP-1 agonists: tirzepatide 65%F → liraglutide 50%F (15pp spread)
-7. PAH drugs: ERAs/prostacyclins 70%F vs PDE5i 55%F (mechanism drives bias)
-8. Male signals stronger than female (|LR| 1.10 vs 1.06, p=3e-11)
+### Phase Status
+| Phase | Status | Key Deliverable |
+|-------|--------|-----------------|
+| 0. Infrastructure | COMPLETE | Drive mount, symlinks, FAERS |
+| 2.1 Bridges | COMPLETE | 5 identifier bridges |
+| 2.2 Merge | COMPLETE | v5: 246,056 nodes, 3,182,843 edges |
+| 2.3 Validate | COMPLETE | 100% v4 preservation, 0 NaN |
+| 2.4 Train | IN PROGRESS | ComplEx v5 ~70/100, DistMult queued |
+| 3. Swarms | COMPLETE | 31 waves, 108 JSONs, 121 figures |
+| 4. Audit-proof | COMPLETE | FAIR 15/15, repro 97.5%, cascade 91.7% |
+| 5. Derived KGs | COMPLETE | 5 KGs built (v0.1 subgraphs) |
+| 6. Publication | IN PROGRESS | README pushed, poster done, papers merging |
 
-## Models
-- ComplEx v4: MRR 0.2484 (BEST)
-- RotatE v4.1: MRR 0.2018
-- DistMult v4.1: MRR 0.1013
+### Next Steps (in priority order)
+1. Wait for ComplEx v5 to finish → auto-chain starts DistMult v5
+2. Run link predictions on v5 KG (scripts/v5_06_link_prediction.py)
+3. Commit merged papers to deep-analysis repo
+4. Generate PDF from manuscript_scidata_COMPLETE.md
+5. Start derived KG embeddings (REPRODUCT-KG, MENTALHEALTH-KG)
+6. Submit bioRxiv preprint (check current DOI status)
+7. Upload Zenodo v4 deposit
 
-## Next Steps (Wave 36+)
-- Drug-target enrichment analysis (which targets drive female/male bias)
-- Combination drug interaction effects on sex bias
-- Time-series trend analysis for emerging drugs (GLP-1, CGRP)
-- Additional paper drafts
-- Vault sync
+### GitHub Repos
+- **Main**: github.com/jshaik369/SexDiffKG — PUSHED (47fe086)
+- **Deep Analysis**: github.com/jshaik369/sexdiffkg-deep-analysis — up to date
 
-## GitHub
-- https://github.com/jshaik369/sexdiffkg-deep-analysis
+### Derived KGs (all v0.1)
+| KG | Nodes | Edges | Embeddings | Papers |
+|----|-------|-------|------------|--------|
+| REPRODUCT-KG | 22,403 | 1,116,735 | Not started | Not started |
+| MENTALHEALTH-KG | 20,851 | 762,389 | Not started | Not started |
+| GERIPHARM-KG | 18,754 | 739,396 | Not started | Not started |
+| PCOS-ENDO-KG | 36,903 | 697,819 | Not started | Not started |
+| AYUR-PHARMA-KG | 24,316 | 293,444 | Not started | Not started |
+
+### Model Performance (v4 canonical)
+| Model | MRR | Hits@10 | AMRI |
+|-------|-----|---------|------|
+| ComplEx v4 | 0.2484 | 40.69% | 0.9902 |
+| RotatE v4.1 | 0.2018 | 36.77% | 0.9922 |
+| DistMult v4.1 | 0.1013 | 19.61% | 0.9909 |
+
+### GROUND_TRUTH.json RAID: 4 copies verified identical
