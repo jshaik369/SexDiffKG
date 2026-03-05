@@ -1,0 +1,9 @@
+data/kg_v4/edges.tsv filter=lfs diff=lfs merge=lfs -text
+data/kg_v4/triples.tsv filter=lfs diff=lfs merge=lfs -text
+data/kg_v4/edges_deduped.tsv filter=lfs diff=lfs merge=lfs -text
+data/kg_v4/triples_deduped.tsv filter=lfs diff=lfs merge=lfs -text
+data/kg_v5/edges.tsv filter=lfs diff=lfs merge=lfs -text
+data/kg_v5/triples.tsv filter=lfs diff=lfs merge=lfs -text
+data/kg_v5.2/edges.tsv filter=lfs diff=lfs merge=lfs -text
+data/kg_v5.2/triples.tsv filter=lfs diff=lfs merge=lfs -text
+*.parquet filter=lfs diff=lfs merge=lfs -text
