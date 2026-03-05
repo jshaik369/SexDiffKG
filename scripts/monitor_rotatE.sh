@@ -1,33 +1,27 @@
 #!/bin/bash
-# RotatE Training Completion Monitor
-LOG="/home/jshaik369/sexdiffkg/results/kg_embeddings/RotatE/rotatE_v3_cpu.log"
-NOTIFY="/home/jshaik369/sexdiffkg/ROTATE_TRAINING_COMPLETE.txt"
+# Monitor RotatE training and capture completion
+LOG=/home/jshaik369/sexdiffkg/results/rotatE_v41_cpu_fixed_training.log
+METRICS=/home/jshaik369/sexdiffkg/results/kg_embeddings/rotatE_v41_cpu_metrics.json
+VAULT=/home/jshaik369/AYURFEM-Vault/projects/sexdiffkg
+MONITOR_LOG=/home/jshaik369/sexdiffkg/results/rotatE_monitor.log
+
+echo "=== Monitor started $(date) ===" >> $MONITOR_LOG
 
 while true; do
-    # Check if training process is still running
-    if ! pgrep -f "11c_train_rotatE_v3_cpu.py" > /dev/null; then
-        # Training stopped - check if completed or failed
-        FINAL_LOSS=$(grep -oP "loss=\K[0-9.]+" "$LOG" | tail -1)
-        FINAL_EPOCH=$(grep -oP "\d+(?=/100.*epoch)" "$LOG" | tail -1)
-        
-        echo "========================================" > "$NOTIFY"
-        echo "ROTATЕ TRAINING COMPLETED" >> "$NOTIFY"
-        echo "========================================" >> "$NOTIFY"
-        echo "Time: $(date)" >> "$NOTIFY"
-        echo "Final Epoch: $FINAL_EPOCH/100" >> "$NOTIFY"
-        echo "Final Loss: $FINAL_LOSS" >> "$NOTIFY"
-        echo "" >> "$NOTIFY"
-        echo "Check results in:" >> "$NOTIFY"
-        echo "  /home/jshaik369/sexdiffkg/results/kg_embeddings/RotatE/" >> "$NOTIFY"
-        echo "========================================" >> "$NOTIFY"
-        
-        # Also log to main results
-        cp "$NOTIFY" /home/jshaik369/sexdiffkg/results/
-        
-        echo "Training complete notification written to $NOTIFY"
-        exit 0
+    # Check if metrics file exists (training + eval complete)
+    if [ -f "$METRICS" ]; then
+        echo "=== TRAINING COMPLETE $(date) ===" >> $MONITOR_LOG
+        cat $METRICS >> $MONITOR_LOG
+        # Copy metrics to vault
+        cp $METRICS $VAULT/RotatE_v41_DGX_metrics.json
+        echo "Metrics copied to vault" >> $MONITOR_LOG
+        break
     fi
     
-    # Still running - sleep 10 minutes before next check
-    sleep 600
+    # Extract last epoch info from training log
+    LAST_EPOCH=$(grep -oP 'loss=[\d.]+' $LOG 2>/dev/null | tail -1)
+    PROGRESS=$(grep -oP '\d+/200' $LOG 2>/dev/null | tail -1)
+    echo "[$(date '+%H:%M')] Epoch $PROGRESS $LAST_EPOCH" >> $MONITOR_LOG
+    
+    sleep 1800  # Check every 30 min
 done

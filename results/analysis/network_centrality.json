@@ -1,0 +1,117 @@
+{
+  "wave": "30_network_centrality",
+  "drug_degree_vs_sex": {
+    "r": 0.0887,
+    "p": 3.3971852901946996e-05
+  },
+  "ae_degree_vs_sex": {
+    "r": 0.0459,
+    "p": 0.0010915046552174203
+  },
+  "top_degree_drugs": [
+    {
+      "drug": "ADALIMUMAB",
+      "degree": 8203,
+      "f_frac": 0.38166047087980176
+    },
+    {
+      "drug": "METHOTREXATE",
+      "degree": 6611,
+      "f_frac": 0.4854260089686099
+    },
+    {
+      "drug": "PREDNISONE",
+      "degree": 6339,
+      "f_frac": 0.7019438444924406
+    },
+    {
+      "drug": "ETANERCEPT",
+      "degree": 5281,
+      "f_frac": 0.4255663430420712
+    },
+    {
+      "drug": "RITUXIMAB",
+      "degree": 5176,
+      "f_frac": 0.6662251655629139
+    },
+    {
+      "drug": "INFLIXIMAB",
+      "degree": 4543,
+      "f_frac": 0.5040128410914928
+    },
+    {
+      "drug": "TACROLIMUS",
+      "degree": 4529,
+      "f_frac": 0.7587412587412588
+    },
+    {
+      "drug": "PREDNISOLONE",
+      "degree": 4299,
+      "f_frac": 0.8247232472324724
+    },
+    {
+      "drug": "DEXAMETHASONE",
+      "degree": 4257,
+      "f_frac": 0.8026070763500931
+    },
+    {
+      "drug": "CYCLOPHOSPHAMIDE",
+      "degree": 4171,
+      "f_frac": 0.6465863453815262
+    },
+    {
+      "drug": "MYCOPHENOLIC ACID",
+      "degree": 3950,
+      "f_frac": 0.7633136094674556
+    },
+    {
+      "drug": "METHYLPREDNISOLONE",
+      "degree": 3832,
+      "f_frac": 0.7715930902111324
+    },
+    {
+      "drug": "LENALIDOMIDE",
+      "degree": 3788,
+      "f_frac": 0.5958904109589042
+    },
+    {
+      "drug": "INSULIN",
+      "degree": 3653,
+      "f_frac": 0.3952802359882006
+    },
+    {
+      "drug": "ACETYLSALICYLIC ACID",
+      "degree": 3521,
+      "f_frac": 0.7297921478060047
+    },
+    {
+      "drug": "SECUKINUMAB",
+      "degree": 3521,
+      "f_frac": 0.5219298245614035
+    },
+    {
+      "drug": "PARACETAMOL",
+      "degree": 3506,
+      "f_frac": 0.5687885010266941
+    },
+    {
+      "drug": "PREGABALIN",
+      "degree": 3475,
+      "f_frac": 0.5394088669950738
+    },
+    {
+      "drug": "PANTOPRAZOLE",
+      "degree": 3438,
+      "f_frac": 0.6027944111776448
+    },
+    {
+      "drug": "TOCILIZUMAB",
+      "degree": 3396,
+      "f_frac": 0.4940944881889764
+    }
+  ],
+  "bridging_proteins": 0,
+  "network_density": 0.008721,
+  "aes_per_drug_mean": 44.2,
+  "drugs_per_ae_mean": 19.0
+}

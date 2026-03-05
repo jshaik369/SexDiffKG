@@ -1,0 +1,52 @@
+{
+  "oxycodone": {
+    "Female": 168031,
+    "Male": 163919,
+    "Unknown": 534
+  },
+  "risperidone": {
+    "Male": 74272,
+    "Female": 41447,
+    "Unknown": 541
+  },
+  "nivolumab": {
+    "Male": 52175,
+    "Female": 27931,
+    "Unknown": 6
+  },
+  "pembrolizumab": {
+    "Female": 45405,
+    "Male": 45015,
+    "Unknown": 6
+  },
+  "prednisone": {
+    "Female": 257456,
+    "Male": 169780,
+    "Unknown": 2032
+  },
+  "metformin": {
+    "Female": 213638,
+    "Male": 182725,
+    "Unknown": 1428
+  },
+  "warfarin": {
+    "Male": 58070,
+    "Female": 56874,
+    "Unknown": 342
+  },
+  "atorvastatin": {
+    "Female": 123112,
+    "Male": 104143,
+    "Unknown": 2305
+  },
+  "methotrexate": {
+    "Female": 307880,
+    "Male": 124888,
+    "Unknown": 1402
+  },
+  "tramadol": {
+    "Female": 19570,
+    "Male": 12762,
+    "Unknown": 91
+  }
+}

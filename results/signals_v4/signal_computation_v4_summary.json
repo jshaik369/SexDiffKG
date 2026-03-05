@@ -1,0 +1,22 @@
+{
+  "version": "v4_diana",
+  "timestamp": "2026-03-03 07:01:29",
+  "parameters": {
+    "min_reports_per_sex": 10,
+    "log_ratio_threshold": 0.5
+  },
+  "results": {
+    "total_ror_computed": 869142,
+    "total_sex_differential_signals": 96281,
+    "female_higher": 51771,
+    "male_higher": 44510,
+    "strong_signals_abs_gt_1": 32244,
+    "unique_drugs": 2178,
+    "unique_adverse_events": 5069
+  },
+  "faers_totals": {
+    "M": 5791611,
+    "F": 8744397
+  },
+  "elapsed_seconds": 7.3
+}

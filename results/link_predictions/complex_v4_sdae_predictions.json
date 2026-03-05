@@ -1,0 +1,4002 @@
+[
+  {
+    "drug":"DRUG:TAS-106",
+    "adverse_event":"AE:Brain natriuretic peptide decreased",
+    "score":15.073018,
+    "has_adverse_event_edge":false,
+    "drug_name_clean":"TAS-106",
+    "ae_name_clean":"Brain natriuretic peptide decreased"
+  },
+  {
+    "drug":"DRUG:CODEINE;PROMETHAZINE",
+    "adverse_event":"AE:Lung carcinoma cell type unspecified stage IV",
+    "score":14.14317,
+    "has_adverse_event_edge":false,
+    "drug_name_clean":"CODEINE;PROMETHAZINE",
+    "ae_name_clean":"Lung carcinoma cell type unspecified stage IV"
+  },
+  {
+    "drug":"DRUG:TALC",
+    "adverse_event":"AE:Infective exacerbation of bronchiectasis",
+    "score":14.116512,
+    "has_adverse_event_edge":false,
+    "drug_name_clean":"TALC",
+    "ae_name_clean":"Infective exacerbation of bronchiectasis"
+  },
+  {
+    "drug":"DRUG:GATAPARSEN",
+    "adverse_event":"AE:Blood calcitonin increased",
+    "score":13.663384,
+    "has_adverse_event_edge":false,
+    "drug_name_clean":"GATAPARSEN",
+    "ae_name_clean":"Blood calcitonin increased"
+  },
+  {
+    "drug":"DRUG:TALC",
+    "adverse_event":"AE:Breech presentation",
+    "score":13.363309,
+    "has_adverse_event_edge":false,
+    "drug_name_clean":"TALC",
+    "ae_name_clean":"Breech presentation"
+  },
+  {
+    "drug":"DRUG:DAGLUTRIL",
+    "adverse_event":"AE:Brain natriuretic peptide decreased",
+    "score":12.915545,
+    "has_adverse_event_edge":false,
+    "drug_name_clean":"DAGLUTRIL",
+    "ae_name_clean":"Brain natriuretic peptide decreased"
+  },
+  {
+    "drug":"DRUG:BHQ-880",
+    "adverse_event":"AE:Blood calcitonin increased",
+    "score":12.817335,
+    "has_adverse_event_edge":false,
+    "drug_name_clean":"BHQ-880",
+    "ae_name_clean":"Blood calcitonin increased"
+  },
+  {
+    "drug":"DRUG:TALC",
+    "adverse_event":"AE:Dependence",
+    "score":12.755366,
+    "has_adverse_event_edge":false,
+    "drug_name_clean":"TALC",
+    "ae_name_clean":"Dependence"
+  },
+  {
+    "drug":"DRUG:SELONSERTIB",
+    "adverse_event":"AE:Application site haematoma",
+    "score":12.709089,
+    "has_adverse_event_edge":false,
+    "drug_name_clean":"SELONSERTIB",
+    "ae_name_clean":"Application site haematoma"
+  },
+  {
+    "drug":"DRUG:HISTRELIN",
+    "adverse_event":"AE:Lactation disorder",
+    "score":12.609468,
+    "has_adverse_event_edge":false,
+    "drug_name_clean":"HISTRELIN",
+    "ae_name_clean":"Lactation disorder"
+  },
+  {
+    "drug":"DRUG:SODIUM DICHLOROACETATE",
+    "adverse_event":"AE:Blood calcitonin increased",
+    "score":12.493669,
+    "has_adverse_event_edge":false,
+    "drug_name_clean":"SODIUM DICHLOROACETATE",
+    "ae_name_clean":"Blood calcitonin increased"
+  },
+  {
+    "drug":"DRUG:TAS-106",
+    "adverse_event":"AE:Precipitate labour",
+    "score":12.47492,
+    "has_adverse_event_edge":false,
+    "drug_name_clean":"TAS-106",
+    "ae_name_clean":"Precipitate labour"
+  },
+  {
+    "drug":"DRUG:TAS-106",
+    "adverse_event":"AE:Repetitive speech",
+    "score":12.444654,
+    "has_adverse_event_edge":false,
+    "drug_name_clean":"TAS-106",
+    "ae_name_clean":"Repetitive speech"
+  },
+  {
+    "drug":"DRUG:TAS-106",
+    "adverse_event":"AE:Infective spondylitis",
+    "score":12.34035,
+    "has_adverse_event_edge":false,
+    "drug_name_clean":"TAS-106",
+    "ae_name_clean":"Infective spondylitis"
+  },
+  {
+    "drug":"DRUG:SELONSERTIB",
+    "adverse_event":"AE:Granulicatella infection",
+    "score":12.333471,
+    "has_adverse_event_edge":false,
+    "drug_name_clean":"SELONSERTIB",
+    "ae_name_clean":"Granulicatella infection"
+  },
+  {
+    "drug":"DRUG:ROSIPTOR",
+    "adverse_event":"AE:Blood calcitonin increased",
+    "score":12.273959,
+    "has_adverse_event_edge":false,
+    "drug_name_clean":"ROSIPTOR",
+    "ae_name_clean":"Blood calcitonin increased"
+  },
+  {
+    "drug":"DRUG:PLITIDEPSIN",
+    "adverse_event":"AE:Blood calcitonin increased",
+    "score":12.251869,
+    "has_adverse_event_edge":false,
+    "drug_name_clean":"PLITIDEPSIN",
+    "ae_name_clean":"Blood calcitonin increased"
+  },
+  {
+    "drug":"DRUG:FLAVOXATE HYDROCHLORIDE",
+    "adverse_event":"AE:Brain natriuretic peptide decreased",
+    "score":12.24996,
+    "has_adverse_event_edge":false,
+    "drug_name_clean":"FLAVOXATE HYDROCHLORIDE",
+    "ae_name_clean":"Brain natriuretic peptide decreased"
+  },
+  {
+    "drug":"DRUG:ELPETRIGINE",
+    "adverse_event":"AE:Brain natriuretic peptide decreased",
+    "score":12.212535,
+    "has_adverse_event_edge":false,
+    "drug_name_clean":"ELPETRIGINE",
+    "ae_name_clean":"Brain natriuretic peptide decreased"
+  },
+  {
+    "drug":"DRUG:FITUSIRAN",
+    "adverse_event":"AE:Blood calcitonin increased",
+    "score":12.180178,
+    "has_adverse_event_edge":false,
+    "drug_name_clean":"FITUSIRAN",
+    "ae_name_clean":"Blood calcitonin increased"
+  },
+  {
+    "drug":"DRUG:TAS-106",
+    "adverse_event":"AE:Electromyogram abnormal",
+    "score":11.956235,
+    "has_adverse_event_edge":false,
+    "drug_name_clean":"TAS-106",
+    "ae_name_clean":"Electromyogram abnormal"
+  },
+  {
+    "drug":"DRUG:SULFUR HEXAFLUORIDE",
+    "adverse_event":"AE:Infusion site extravasation",
+    "score":11.880313,
+    "has_adverse_event_edge":false,
+    "drug_name_clean":"SULFUR HEXAFLUORIDE",
+    "ae_name_clean":"Infusion site extravasation"
+  },
+  {
+    "drug":"DRUG:SODIUM DICHLOROACETATE",
+    "adverse_event":"AE:Aortic pseudoaneurysm",
+    "score":11.806824,
+    "has_adverse_event_edge":false,
+    "drug_name_clean":"SODIUM DICHLOROACETATE",
+    "ae_name_clean":"Aortic pseudoaneurysm"
+  },
+  {
+    "drug":"DRUG:TAS-106",
+    "adverse_event":"AE:Haematosalpinx",
+    "score":11.761895,
+    "has_adverse_event_edge":false,
+    "drug_name_clean":"TAS-106",
+    "ae_name_clean":"Haematosalpinx"
+  },
+  {
+    "drug":"DRUG:FGI-101-1A6",
+    "adverse_event":"AE:Brain natriuretic peptide decreased",
+    "score":11.721717,
+    "has_adverse_event_edge":false,
+    "drug_name_clean":"FGI-101-1A6",
+    "ae_name_clean":"Brain natriuretic peptide decreased"
+  },
+  {
+    "drug":"DRUG:ELPETRIGINE",
+    "adverse_event":"AE:Urine amphetamine positive",
+    "score":11.592852,
+    "has_adverse_event_edge":false,
+    "drug_name_clean":"ELPETRIGINE",
+    "ae_name_clean":"Urine amphetamine positive"
+  },
+  {
+    "drug":"DRUG:BATIRAXCEPT",
+    "adverse_event":"AE:Influenza immunisation",
+    "score":11.561063,
+    "has_adverse_event_edge":false,
+    "drug_name_clean":"BATIRAXCEPT",
+    "ae_name_clean":"Influenza immunisation"
+  },
+  {
+    "drug":"DRUG:UROKINASE",
+    "adverse_event":"AE:Influenza immunisation",
+    "score":11.554992,
+    "has_adverse_event_edge":false,
+    "drug_name_clean":"UROKINASE",
+    "ae_name_clean":"Influenza immunisation"
+  },
+  {
+    "drug":"DRUG:FITUSIRAN",
+    "adverse_event":"AE:Influenza immunisation",
+    "score":11.503246,
+    "has_adverse_event_edge":false,
+    "drug_name_clean":"FITUSIRAN",
+    "ae_name_clean":"Influenza immunisation"
+  },
+  {
+    "drug":"DRUG:TRIFLUOPERAZINE",
+    "adverse_event":"AE:Obsessive-compulsive disorder",
+    "score":11.487705,
+    "has_adverse_event_edge":true,
+    "drug_name_clean":"TRIFLUOPERAZINE",
+    "ae_name_clean":"Obsessive-compulsive disorder"
+  },
+  {
+    "drug":"DRUG:FLAVOXATE HYDROCHLORIDE",
+    "adverse_event":"AE:Application site haematoma",
+    "score":11.461617,
+    "has_adverse_event_edge":false,
+    "drug_name_clean":"FLAVOXATE HYDROCHLORIDE",
+    "ae_name_clean":"Application site haematoma"
+  },
+  {
+    "drug":"DRUG:IMALUMAB",
+    "adverse_event":"AE:Application site haematoma",
+    "score":11.414684,
+    "has_adverse_event_edge":false,
+    "drug_name_clean":"IMALUMAB",
+    "ae_name_clean":"Application site haematoma"
+  },
+  {
+    "drug":"DRUG:FACTOR II;FACTOR IX;FACTOR VII;FACTOR X;PROTEIN C;PROTEIN S",
+    "adverse_event":"AE:Vascular stent thrombosis",
+    "score":11.385943,
+    "has_adverse_event_edge":false,
+    "drug_name_clean":"FACTOR II;FACTOR IX;FACTOR VII;FACTOR X;PROTEIN C;PROTEIN S",
+    "ae_name_clean":"Vascular stent thrombosis"
+  },
+  {
+    "drug":"DRUG:CARBENOXOLONE",
+    "adverse_event":"AE:Brain natriuretic peptide decreased",
+    "score":11.338304,
+    "has_adverse_event_edge":false,
+    "drug_name_clean":"CARBENOXOLONE",
+    "ae_name_clean":"Brain natriuretic peptide decreased"
+  },
+  {
+    "drug":"DRUG:TAS-106",
+    "adverse_event":"AE:Hair transplant",
+    "score":11.300136,
+    "has_adverse_event_edge":false,
+    "drug_name_clean":"TAS-106",
+    "ae_name_clean":"Hair transplant"
+  },
+  {
+    "drug":"DRUG:SETANAXIB",
+    "adverse_event":"AE:Brain natriuretic peptide decreased",
+    "score":11.272915,
+    "has_adverse_event_edge":false,
+    "drug_name_clean":"SETANAXIB",
+    "ae_name_clean":"Brain natriuretic peptide decreased"
+  },
+  {
+    "drug":"DRUG:TAS-106",
+    "adverse_event":"AE:Anticoagulation drug level decreased",
+    "score":11.271096,
+    "has_adverse_event_edge":false,
+    "drug_name_clean":"TAS-106",
+    "ae_name_clean":"Anticoagulation drug level decreased"
+  },
+  {
+    "drug":"DRUG:RHIGM12B7",
+    "adverse_event":"AE:Brain natriuretic peptide decreased",
+    "score":11.254656,
+    "has_adverse_event_edge":false,
+    "drug_name_clean":"RHIGM12B7",
+    "ae_name_clean":"Brain natriuretic peptide decreased"
+  },
+  {
+    "drug":"DRUG:ELPETRIGINE",
+    "adverse_event":"AE:Infective spondylitis",
+    "score":11.196318,
+    "has_adverse_event_edge":false,
+    "drug_name_clean":"ELPETRIGINE",
+    "ae_name_clean":"Infective spondylitis"
+  },
+  {
+    "drug":"DRUG:ELADOCAGENE EXUPARVOVEC",
+    "adverse_event":"AE:Application site haematoma",
+    "score":11.173941,
+    "has_adverse_event_edge":false,
+    "drug_name_clean":"ELADOCAGENE EXUPARVOVEC",
+    "ae_name_clean":"Application site haematoma"
+  },
+  {
+    "drug":"DRUG:GATAPARSEN",
+    "adverse_event":"AE:Influenza immunisation",
+    "score":11.033621,
+    "has_adverse_event_edge":false,
+    "drug_name_clean":"GATAPARSEN",
+    "ae_name_clean":"Influenza immunisation"
+  },
+  {
+    "drug":"DRUG:AFEGOSTAT TARTRATE",
+    "adverse_event":"AE:Application site haematoma",
+    "score":11.02936,
+    "has_adverse_event_edge":false,
+    "drug_name_clean":"AFEGOSTAT TARTRATE",
+    "ae_name_clean":"Application site haematoma"
+  },
+  {
+    "drug":"DRUG:ELADOCAGENE EXUPARVOVEC",
+    "adverse_event":"AE:Brain natriuretic peptide decreased",
+    "score":10.997611,
+    "has_adverse_event_edge":false,
+    "drug_name_clean":"ELADOCAGENE EXUPARVOVEC",
+    "ae_name_clean":"Brain natriuretic peptide decreased"
+  },
+  {
+    "drug":"DRUG:CARIPRAZINE",
+    "adverse_event":"AE:Sexual dysfunction",
+    "score":10.996106,
+    "has_adverse_event_edge":false,
+    "drug_name_clean":"CARIPRAZINE",
+    "ae_name_clean":"Sexual dysfunction"
+  },
+  {
+    "drug":"DRUG:ELPETRIGINE",
+    "adverse_event":"AE:Gender dysphoria",
+    "score":10.991145,
+    "has_adverse_event_edge":false,
+    "drug_name_clean":"ELPETRIGINE",
+    "ae_name_clean":"Gender dysphoria"
+  },
+  {
+    "drug":"DRUG:GATAPARSEN",
+    "adverse_event":"AE:Ichthyosis",
+    "score":10.976665,
+    "has_adverse_event_edge":false,
+    "drug_name_clean":"GATAPARSEN",
+    "ae_name_clean":"Ichthyosis"
+  },
+  {
+    "drug":"DRUG:BENZOYL PEROXIDE;CLINDAMYCIN",
+    "adverse_event":"AE:Application site vesicles",
+    "score":10.975389,
+    "has_adverse_event_edge":false,
+    "drug_name_clean":"BENZOYL PEROXIDE;CLINDAMYCIN",
+    "ae_name_clean":"Application site vesicles"
+  },
+  {
+    "drug":"DRUG:ANISINDIONE",
+    "adverse_event":"AE:Brain natriuretic peptide decreased",
+    "score":10.973946,
+    "has_adverse_event_edge":false,
+    "drug_name_clean":"ANISINDIONE",
+    "ae_name_clean":"Brain natriuretic peptide decreased"
+  },
+  {
+    "drug":"DRUG:NEIHULIZUMAB",
+    "adverse_event":"AE:Brain natriuretic peptide decreased",
+    "score":10.950153,
+    "has_adverse_event_edge":false,
+    "drug_name_clean":"NEIHULIZUMAB",
+    "ae_name_clean":"Brain natriuretic peptide decreased"
+  },
+  {
+    "drug":"DRUG:SELONSERTIB",
+    "adverse_event":"AE:Medical device site hyperaesthesia",
+    "score":10.933022,
+    "has_adverse_event_edge":false,
+    "drug_name_clean":"SELONSERTIB",
+    "ae_name_clean":"Medical device site hyperaesthesia"
+  },
+  {
+    "drug":"DRUG:FLUOCINOLONE",
+    "adverse_event":"AE:Investigation",
+    "score":10.9146,
+    "has_adverse_event_edge":false,
+    "drug_name_clean":"FLUOCINOLONE",
+    "ae_name_clean":"Investigation"
+  },
+  {
+    "drug":"DRUG:KB-004",
+    "adverse_event":"AE:Brain natriuretic peptide decreased",
+    "score":10.912952,
+    "has_adverse_event_edge":false,
+    "drug_name_clean":"KB-004",
+    "ae_name_clean":"Brain natriuretic peptide decreased"
+  },
+  {
+    "drug":"DRUG:NITISINONE",
+    "adverse_event":"AE:Kaposi's sarcoma",
+    "score":10.858091,
+    "has_adverse_event_edge":false,
+    "drug_name_clean":"NITISINONE",
+    "ae_name_clean":"Kaposi's sarcoma"
+  },
+  {
+    "drug":"DRUG:SELONSERTIB",
+    "adverse_event":"AE:Catheter site cellulitis",
+    "score":10.785288,
+    "has_adverse_event_edge":false,
+    "drug_name_clean":"SELONSERTIB",
+    "ae_name_clean":"Catheter site cellulitis"
+  },
+  {
+    "drug":"DRUG:AGS-16C3F",
+    "adverse_event":"AE:Brain natriuretic peptide decreased",
+    "score":10.729488,
+    "has_adverse_event_edge":false,
+    "drug_name_clean":"AGS-16C3F",
+    "ae_name_clean":"Brain natriuretic peptide decreased"
+  },
+  {
+    "drug":"DRUG:VARESPLADIB METHYL",
+    "adverse_event":"AE:Hormone therapy",
+    "score":10.70456,
+    "has_adverse_event_edge":false,
+    "drug_name_clean":"VARESPLADIB METHYL",
+    "ae_name_clean":"Hormone therapy"
+  },
+  {
+    "drug":"DRUG:DAGLUTRIL",
+    "adverse_event":"AE:Precipitate labour",
+    "score":10.682894,
+    "has_adverse_event_edge":false,
+    "drug_name_clean":"DAGLUTRIL",
+    "ae_name_clean":"Precipitate labour"
+  },
+  {
+    "drug":"DRUG:BIRINAPANT",
+    "adverse_event":"AE:Brain natriuretic peptide decreased",
+    "score":10.681918,
+    "has_adverse_event_edge":false,
+    "drug_name_clean":"BIRINAPANT",
+    "ae_name_clean":"Brain natriuretic peptide decreased"
+  },
+  {
+    "drug":"DRUG:UROKINASE",
+    "adverse_event":"AE:Blood calcitonin increased",
+    "score":10.663839,
+    "has_adverse_event_edge":false,
+    "drug_name_clean":"UROKINASE",
+    "ae_name_clean":"Blood calcitonin increased"
+  },
+  {
+    "drug":"DRUG:IOFLUPANE (123I)",
+    "adverse_event":"AE:Ischaemic hepatitis",
+    "score":10.657305,
+    "has_adverse_event_edge":false,
+    "drug_name_clean":"IOFLUPANE (123I)",
+    "ae_name_clean":"Ischaemic hepatitis"
+  },
+  {
+    "drug":"DRUG:TALC",
+    "adverse_event":"AE:Streptococcus test positive",
+    "score":10.643495,
+    "has_adverse_event_edge":false,
+    "drug_name_clean":"TALC",
+    "ae_name_clean":"Streptococcus test positive"
+  },
+  {
+    "drug":"DRUG:BENTAMAPIMOD",
+    "adverse_event":"AE:Xanthelasma",
+    "score":10.600007,
+    "has_adverse_event_edge":false,
+    "drug_name_clean":"BENTAMAPIMOD",
+    "ae_name_clean":"Xanthelasma"
+  },
+  {
+    "drug":"DRUG:AVIBACTAM;CEFTAZIDIME",
+    "adverse_event":"AE:Mechanical ventilation",
+    "score":10.597806,
+    "has_adverse_event_edge":false,
+    "drug_name_clean":"AVIBACTAM;CEFTAZIDIME",
+    "ae_name_clean":"Mechanical ventilation"
+  },
+  {
+    "drug":"DRUG:DUSIGITUMAB",
+    "adverse_event":"AE:Influenza immunisation",
+    "score":10.577349,
+    "has_adverse_event_edge":false,
+    "drug_name_clean":"DUSIGITUMAB",
+    "ae_name_clean":"Influenza immunisation"
+  },
+  {
+    "drug":"DRUG:TAMIBAROTENE",
+    "adverse_event":"AE:Infective spondylitis",
+    "score":10.5717,
+    "has_adverse_event_edge":false,
+    "drug_name_clean":"TAMIBAROTENE",
+    "ae_name_clean":"Infective spondylitis"
+  },
+  {
+    "drug":"DRUG:LY-2584702",
+    "adverse_event":"AE:Blood calcitonin increased",
+    "score":10.562966,
+    "has_adverse_event_edge":false,
+    "drug_name_clean":"LY-2584702",
+    "ae_name_clean":"Blood calcitonin increased"
+  },
+  {
+    "drug":"DRUG:SELUMETINIB",
+    "adverse_event":"AE:Peritonitis bacterial",
+    "score":10.559587,
+    "has_adverse_event_edge":false,
+    "drug_name_clean":"SELUMETINIB",
+    "ae_name_clean":"Peritonitis bacterial"
+  },
+  {
+    "drug":"DRUG:TAS-106",
+    "adverse_event":"AE:Penile blister",
+    "score":10.530443,
+    "has_adverse_event_edge":false,
+    "drug_name_clean":"TAS-106",
+    "ae_name_clean":"Penile blister"
+  },
+  {
+    "drug":"DRUG:PLITIDEPSIN",
+    "adverse_event":"AE:Influenza immunisation",
+    "score":10.516126,
+    "has_adverse_event_edge":false,
+    "drug_name_clean":"PLITIDEPSIN",
+    "ae_name_clean":"Influenza immunisation"
+  },
+  {
+    "drug":"DRUG:ABX-MA1",
+    "adverse_event":"AE:Brain natriuretic peptide decreased",
+    "score":10.506902,
+    "has_adverse_event_edge":false,
+    "drug_name_clean":"ABX-MA1",
+    "ae_name_clean":"Brain natriuretic peptide decreased"
+  },
+  {
+    "drug":"DRUG:THIOTEPA",
+    "adverse_event":"AE:Venoocclusive disease",
+    "score":10.492855,
+    "has_adverse_event_edge":true,
+    "drug_name_clean":"THIOTEPA",
+    "ae_name_clean":"Venoocclusive disease"
+  },
+  {
+    "drug":"DRUG:ROSIPTOR",
+    "adverse_event":"AE:Influenza immunisation",
+    "score":10.491297,
+    "has_adverse_event_edge":false,
+    "drug_name_clean":"ROSIPTOR",
+    "ae_name_clean":"Influenza immunisation"
+  },
+  {
+    "drug":"DRUG:BHQ-880",
+    "adverse_event":"AE:Influenza immunisation",
+    "score":10.477734,
+    "has_adverse_event_edge":false,
+    "drug_name_clean":"BHQ-880",
+    "ae_name_clean":"Influenza immunisation"
+  },
+  {
+    "drug":"DRUG:TAS-106",
+    "adverse_event":"AE:Uterine contractions abnormal",
+    "score":10.438067,
+    "has_adverse_event_edge":false,
+    "drug_name_clean":"TAS-106",
+    "ae_name_clean":"Uterine contractions abnormal"
+  },
+  {
+    "drug":"DRUG:FLETIKUMAB",
+    "adverse_event":"AE:Blood calcitonin increased",
+    "score":10.351155,
+    "has_adverse_event_edge":false,
+    "drug_name_clean":"FLETIKUMAB",
+    "ae_name_clean":"Blood calcitonin increased"
+  },
+  {
+    "drug":"DRUG:ISATUXIMAB",
+    "adverse_event":"AE:Cytokine release syndrome",
+    "score":10.343346,
+    "has_adverse_event_edge":true,
+    "drug_name_clean":"ISATUXIMAB",
+    "ae_name_clean":"Cytokine release syndrome"
+  },
+  {
+    "drug":"DRUG:TIVANISIRAN",
+    "adverse_event":"AE:Brain natriuretic peptide decreased",
+    "score":10.318096,
+    "has_adverse_event_edge":false,
+    "drug_name_clean":"TIVANISIRAN",
+    "ae_name_clean":"Brain natriuretic peptide decreased"
+  },
+  {
+    "drug":"DRUG:CORTICOTROPIN",
+    "adverse_event":"AE:Syringe issue",
+    "score":10.304556,
+    "has_adverse_event_edge":false,
+    "drug_name_clean":"CORTICOTROPIN",
+    "ae_name_clean":"Syringe issue"
+  },
+  {
+    "drug":"DRUG:POLATUZUMAB VEDOTIN",
+    "adverse_event":"AE:Myelosuppression",
+    "score":10.282066,
+    "has_adverse_event_edge":true,
+    "drug_name_clean":"POLATUZUMAB VEDOTIN",
+    "ae_name_clean":"Myelosuppression"
+  },
+  {
+    "drug":"DRUG:INGENOL",
+    "adverse_event":"AE:Application site swelling",
+    "score":10.27217,
+    "has_adverse_event_edge":true,
+    "drug_name_clean":"INGENOL",
+    "ae_name_clean":"Application site swelling"
+  },
+  {
+    "drug":"DRUG:ELCUBRAGISTAT",
+    "adverse_event":"AE:Brain natriuretic peptide decreased",
+    "score":10.220431,
+    "has_adverse_event_edge":false,
+    "drug_name_clean":"ELCUBRAGISTAT",
+    "ae_name_clean":"Brain natriuretic peptide decreased"
+  },
+  {
+    "drug":"DRUG:APX-3330",
+    "adverse_event":"AE:Brain natriuretic peptide decreased",
+    "score":10.20399,
+    "has_adverse_event_edge":false,
+    "drug_name_clean":"APX-3330",
+    "ae_name_clean":"Brain natriuretic peptide decreased"
+  },
+  {
+    "drug":"DRUG:FLAVOXATE HYDROCHLORIDE",
+    "adverse_event":"AE:Splenorenal shunt",
+    "score":10.199056,
+    "has_adverse_event_edge":false,
+    "drug_name_clean":"FLAVOXATE HYDROCHLORIDE",
+    "ae_name_clean":"Splenorenal shunt"
+  },
+  {
+    "drug":"DRUG:GEMCITABINE HYDROCHLORIDE",
+    "adverse_event":"AE:Myelosuppression",
+    "score":10.182781,
+    "has_adverse_event_edge":true,
+    "drug_name_clean":"GEMCITABINE HYDROCHLORIDE",
+    "ae_name_clean":"Myelosuppression"
+  },
+  {
+    "drug":"DRUG:BATIRAXCEPT",
+    "adverse_event":"AE:Blood calcitonin increased",
+    "score":10.180778,
+    "has_adverse_event_edge":false,
+    "drug_name_clean":"BATIRAXCEPT",
+    "ae_name_clean":"Blood calcitonin increased"
+  },
+  {
+    "drug":"DRUG:PEMRAMETOSTAT",
+    "adverse_event":"AE:Brain natriuretic peptide decreased",
+    "score":10.173695,
+    "has_adverse_event_edge":false,
+    "drug_name_clean":"PEMRAMETOSTAT",
+    "ae_name_clean":"Brain natriuretic peptide decreased"
+  },
+  {
+    "drug":"DRUG:HUMAN C1-ESTERASE INHIBITOR",
+    "adverse_event":"AE:Blood calcitonin increased",
+    "score":10.159509,
+    "has_adverse_event_edge":false,
+    "drug_name_clean":"HUMAN C1-ESTERASE INHIBITOR",
+    "ae_name_clean":"Blood calcitonin increased"
+  },
+  {
+    "drug":"DRUG:CALCIUM CHLORIDE;GLUCOSE;MAGNESIUM;SODIUM CHLORIDE;SODIUM LACTATE",
+    "adverse_event":"AE:Peritonitis bacterial",
+    "score":10.159071,
+    "has_adverse_event_edge":true,
+    "drug_name_clean":"CALCIUM CHLORIDE;GLUCOSE;MAGNESIUM;SODIUM CHLORIDE;SODIUM LACTATE",
+    "ae_name_clean":"Peritonitis bacterial"
+  },
+  {
+    "drug":"DRUG:TRAMADOL HYDROCHLORIDE",
+    "adverse_event":"AE:Dependence",
+    "score":10.134532,
+    "has_adverse_event_edge":true,
+    "drug_name_clean":"TRAMADOL HYDROCHLORIDE",
+    "ae_name_clean":"Dependence"
+  },
+  {
+    "drug":"DRUG:ZATOLMILAST",
+    "adverse_event":"AE:Aortic pseudoaneurysm",
+    "score":10.1298,
+    "has_adverse_event_edge":false,
+    "drug_name_clean":"ZATOLMILAST",
+    "ae_name_clean":"Aortic pseudoaneurysm"
+  },
+  {
+    "drug":"DRUG:OPICAPONE",
+    "adverse_event":"AE:Alcohol use",
+    "score":10.124459,
+    "has_adverse_event_edge":false,
+    "drug_name_clean":"OPICAPONE",
+    "ae_name_clean":"Alcohol use"
+  },
+  {
+    "drug":"DRUG:RESTASIS?",
+    "adverse_event":"AE:Application site pruritus",
+    "score":10.119941,
+    "has_adverse_event_edge":false,
+    "drug_name_clean":"RESTASIS?",
+    "ae_name_clean":"Application site pruritus"
+  },
+  {
+    "drug":"DRUG:CANNABIS SPP",
+    "adverse_event":"AE:Dependence",
+    "score":10.117493,
+    "has_adverse_event_edge":true,
+    "drug_name_clean":"CANNABIS SPP",
+    "ae_name_clean":"Dependence"
+  },
+  {
+    "drug":"DRUG:OBATOCLAX MESYLATE",
+    "adverse_event":"AE:Granulicatella infection",
+    "score":10.095266,
+    "has_adverse_event_edge":false,
+    "drug_name_clean":"OBATOCLAX MESYLATE",
+    "ae_name_clean":"Granulicatella infection"
+  },
+  {
+    "drug":"DRUG:CARMUSTINE",
+    "adverse_event":"AE:Immune effector cell-associated neurotoxicity syndrome",
+    "score":10.087831,
+    "has_adverse_event_edge":false,
+    "drug_name_clean":"CARMUSTINE",
+    "ae_name_clean":"Immune effector cell-associated neurotoxicity syndrome"
+  },
+  {
+    "drug":"DRUG:ELPETRIGINE",
+    "adverse_event":"AE:Anticoagulation drug level decreased",
+    "score":10.07337,
+    "has_adverse_event_edge":false,
+    "drug_name_clean":"ELPETRIGINE",
+    "ae_name_clean":"Anticoagulation drug level decreased"
+  },
+  {
+    "drug":"DRUG:HYPROMELLOSE",
+    "adverse_event":"AE:Intraocular pressure increased",
+    "score":10.055707,
+    "has_adverse_event_edge":false,
+    "drug_name_clean":"HYPROMELLOSE",
+    "ae_name_clean":"Intraocular pressure increased"
+  },
+  {
+    "drug":"DRUG:SODIUM DICHLOROACETATE",
+    "adverse_event":"AE:Influenza immunisation",
+    "score":10.051506,
+    "has_adverse_event_edge":false,
+    "drug_name_clean":"SODIUM DICHLOROACETATE",
+    "ae_name_clean":"Influenza immunisation"
+  },
+  {
+    "drug":"DRUG:NELARABINE",
+    "adverse_event":"AE:Cytokine release syndrome",
+    "score":10.047559,
+    "has_adverse_event_edge":false,
+    "drug_name_clean":"NELARABINE",
+    "ae_name_clean":"Cytokine release syndrome"
+  },
+  {
+    "drug":"DRUG:FLUDARABINE",
+    "adverse_event":"AE:Enterococcal infection",
+    "score":10.021714,
+    "has_adverse_event_edge":true,
+    "drug_name_clean":"FLUDARABINE",
+    "ae_name_clean":"Enterococcal infection"
+  },
+  {
+    "drug":"DRUG:PLITIDEPSIN",
+    "adverse_event":"AE:Ichthyosis",
+    "score":10.021277,
+    "has_adverse_event_edge":false,
+    "drug_name_clean":"PLITIDEPSIN",
+    "ae_name_clean":"Ichthyosis"
+  },
+  {
+    "drug":"DRUG:BROLUCIZUMAB",
+    "adverse_event":"AE:Maculopathy",
+    "score":9.991946,
+    "has_adverse_event_edge":true,
+    "drug_name_clean":"BROLUCIZUMAB",
+    "ae_name_clean":"Maculopathy"
+  },
+  {
+    "drug":"DRUG:AZACITIDINE",
+    "adverse_event":"AE:Cytokine release syndrome",
+    "score":9.986678,
+    "has_adverse_event_edge":false,
+    "drug_name_clean":"AZACITIDINE",
+    "ae_name_clean":"Cytokine release syndrome"
+  },
+  {
+    "drug":"DRUG:MENTHOL",
+    "adverse_event":"AE:Application site pruritus",
+    "score":9.980397,
+    "has_adverse_event_edge":true,
+    "drug_name_clean":"MENTHOL",
+    "ae_name_clean":"Application site pruritus"
+  },
+  {
+    "drug":"DRUG:FLAVOXATE HYDROCHLORIDE",
+    "adverse_event":"AE:Haematosalpinx",
+    "score":9.970329,
+    "has_adverse_event_edge":false,
+    "drug_name_clean":"FLAVOXATE HYDROCHLORIDE",
+    "ae_name_clean":"Haematosalpinx"
+  },
+  {
+    "drug":"DRUG:TAS-106",
+    "adverse_event":"AE:Influenza immunisation",
+    "score":9.970212,
+    "has_adverse_event_edge":false,
+    "drug_name_clean":"TAS-106",
+    "ae_name_clean":"Influenza immunisation"
+  },
+  {
+    "drug":"DRUG:ALIMEMAZINE",
+    "adverse_event":"AE:Respiratory depression",
+    "score":9.953689,
+    "has_adverse_event_edge":true,
+    "drug_name_clean":"ALIMEMAZINE",
+    "ae_name_clean":"Respiratory depression"
+  },
+  {
+    "drug":"DRUG:BROLUCIZUMAB",
+    "adverse_event":"AE:Ulcerative keratitis",
+    "score":9.935596,
+    "has_adverse_event_edge":false,
+    "drug_name_clean":"BROLUCIZUMAB",
+    "ae_name_clean":"Ulcerative keratitis"
+  },
+  {
+    "drug":"DRUG:QUETIAPINE FUMARATE",
+    "adverse_event":"AE:Suspected suicide",
+    "score":9.931314,
+    "has_adverse_event_edge":false,
+    "drug_name_clean":"QUETIAPINE FUMARATE",
+    "ae_name_clean":"Suspected suicide"
+  },
+  {
+    "drug":"DRUG:SAPROPTERIN DIHYDROCHLORIDE",
+    "adverse_event":"AE:Application site haematoma",
+    "score":9.931201,
+    "has_adverse_event_edge":false,
+    "drug_name_clean":"SAPROPTERIN DIHYDROCHLORIDE",
+    "ae_name_clean":"Application site haematoma"
+  },
+  {
+    "drug":"DRUG:LIATERMIN",
+    "adverse_event":"AE:Aortic pseudoaneurysm",
+    "score":9.924738,
+    "has_adverse_event_edge":false,
+    "drug_name_clean":"LIATERMIN",
+    "ae_name_clean":"Aortic pseudoaneurysm"
+  },
+  {
+    "drug":"DRUG:ASUNAPREVIR",
+    "adverse_event":"AE:Coronary artery thrombosis",
+    "score":9.912992,
+    "has_adverse_event_edge":false,
+    "drug_name_clean":"ASUNAPREVIR",
+    "ae_name_clean":"Coronary artery thrombosis"
+  },
+  {
+    "drug":"DRUG:MENTHOL",
+    "adverse_event":"AE:Hereditary angioedema",
+    "score":9.910588,
+    "has_adverse_event_edge":false,
+    "drug_name_clean":"MENTHOL",
+    "ae_name_clean":"Hereditary angioedema"
+  },
+  {
+    "drug":"DRUG:CLONAZEPAM",
+    "adverse_event":"AE:Dystonia",
+    "score":9.908986,
+    "has_adverse_event_edge":true,
+    "drug_name_clean":"CLONAZEPAM",
+    "ae_name_clean":"Dystonia"
+  },
+  {
+    "drug":"DRUG:BHQ-880",
+    "adverse_event":"AE:Ichthyosis",
+    "score":9.90512,
+    "has_adverse_event_edge":false,
+    "drug_name_clean":"BHQ-880",
+    "ae_name_clean":"Ichthyosis"
+  },
+  {
+    "drug":"DRUG:DKN-01",
+    "adverse_event":"AE:Blood calcitonin increased",
+    "score":9.903292,
+    "has_adverse_event_edge":false,
+    "drug_name_clean":"DKN-01",
+    "ae_name_clean":"Blood calcitonin increased"
+  },
+  {
+    "drug":"DRUG:ISIS-2503",
+    "adverse_event":"AE:Brain natriuretic peptide decreased",
+    "score":9.886541,
+    "has_adverse_event_edge":false,
+    "drug_name_clean":"ISIS-2503",
+    "ae_name_clean":"Brain natriuretic peptide decreased"
+  },
+  {
+    "drug":"DRUG:TAS-106",
+    "adverse_event":"AE:Altered pitch perception",
+    "score":9.87929,
+    "has_adverse_event_edge":false,
+    "drug_name_clean":"TAS-106",
+    "ae_name_clean":"Altered pitch perception"
+  },
+  {
+    "drug":"DRUG:TREOSULFAN",
+    "adverse_event":"AE:Venoocclusive disease",
+    "score":9.865231,
+    "has_adverse_event_edge":false,
+    "drug_name_clean":"TREOSULFAN",
+    "ae_name_clean":"Venoocclusive disease"
+  },
+  {
+    "drug":"DRUG:VERTEPORFIN",
+    "adverse_event":"AE:Ocular hypertension",
+    "score":9.850277,
+    "has_adverse_event_edge":false,
+    "drug_name_clean":"VERTEPORFIN",
+    "ae_name_clean":"Ocular hypertension"
+  },
+  {
+    "drug":"DRUG:TAS-106",
+    "adverse_event":"AE:Aphantasia",
+    "score":9.834959,
+    "has_adverse_event_edge":false,
+    "drug_name_clean":"TAS-106",
+    "ae_name_clean":"Aphantasia"
+  },
+  {
+    "drug":"DRUG:EVOLOCUMAB",
+    "adverse_event":"AE:Syringe issue",
+    "score":9.825868,
+    "has_adverse_event_edge":false,
+    "drug_name_clean":"EVOLOCUMAB",
+    "ae_name_clean":"Syringe issue"
+  },
+  {
+    "drug":"DRUG:DEXRAZOXANE",
+    "adverse_event":"AE:Pathogen resistance",
+    "score":9.825081,
+    "has_adverse_event_edge":false,
+    "drug_name_clean":"DEXRAZOXANE",
+    "ae_name_clean":"Pathogen resistance"
+  },
+  {
+    "drug":"DRUG:AMINOLEVULINIC ACID",
+    "adverse_event":"AE:Eyelids pruritus",
+    "score":9.812723,
+    "has_adverse_event_edge":false,
+    "drug_name_clean":"AMINOLEVULINIC ACID",
+    "ae_name_clean":"Eyelids pruritus"
+  },
+  {
+    "drug":"DRUG:IROSUSTAT",
+    "adverse_event":"AE:Blood calcitonin increased",
+    "score":9.810655,
+    "has_adverse_event_edge":false,
+    "drug_name_clean":"IROSUSTAT",
+    "ae_name_clean":"Blood calcitonin increased"
+  },
+  {
+    "drug":"DRUG:PEGILODECAKIN",
+    "adverse_event":"AE:Infective spondylitis",
+    "score":9.809655,
+    "has_adverse_event_edge":false,
+    "drug_name_clean":"PEGILODECAKIN",
+    "ae_name_clean":"Infective spondylitis"
+  },
+  {
+    "drug":"DRUG:ALTEPLASE",
+    "adverse_event":"AE:Cerebellar haemorrhage",
+    "score":9.805697,
+    "has_adverse_event_edge":true,
+    "drug_name_clean":"ALTEPLASE",
+    "ae_name_clean":"Cerebellar haemorrhage"
+  },
+  {
+    "drug":"DRUG:DKN-01",
+    "adverse_event":"AE:Application site haematoma",
+    "score":9.801421,
+    "has_adverse_event_edge":false,
+    "drug_name_clean":"DKN-01",
+    "ae_name_clean":"Application site haematoma"
+  },
+  {
+    "drug":"DRUG:LACUTAMAB",
+    "adverse_event":"AE:Blood calcitonin increased",
+    "score":9.796536,
+    "has_adverse_event_edge":false,
+    "drug_name_clean":"LACUTAMAB",
+    "ae_name_clean":"Blood calcitonin increased"
+  },
+  {
+    "drug":"DRUG:INTERLEUKIN-2",
+    "adverse_event":"AE:Device related bacteraemia",
+    "score":9.787505,
+    "has_adverse_event_edge":false,
+    "drug_name_clean":"INTERLEUKIN-2",
+    "ae_name_clean":"Device related bacteraemia"
+  },
+  {
+    "drug":"DRUG:ERITORAN TETRASODIUM",
+    "adverse_event":"AE:Brain natriuretic peptide decreased",
+    "score":9.778743,
+    "has_adverse_event_edge":false,
+    "drug_name_clean":"ERITORAN TETRASODIUM",
+    "ae_name_clean":"Brain natriuretic peptide decreased"
+  },
+  {
+    "drug":"DRUG:TAS-106",
+    "adverse_event":"AE:Meningioma surgery",
+    "score":9.772165,
+    "has_adverse_event_edge":false,
+    "drug_name_clean":"TAS-106",
+    "ae_name_clean":"Meningioma surgery"
+  },
+  {
+    "drug":"DRUG:ELPETRIGINE",
+    "adverse_event":"AE:Laryngeal necrosis",
+    "score":9.770504,
+    "has_adverse_event_edge":false,
+    "drug_name_clean":"ELPETRIGINE",
+    "ae_name_clean":"Laryngeal necrosis"
+  },
+  {
+    "drug":"DRUG:SIROLIMUS",
+    "adverse_event":"AE:Cytomegalovirus infection",
+    "score":9.767369,
+    "has_adverse_event_edge":true,
+    "drug_name_clean":"SIROLIMUS",
+    "ae_name_clean":"Cytomegalovirus infection"
+  },
+  {
+    "drug":"DRUG:QUETIAPINE FUMARATE",
+    "adverse_event":"AE:Respiratory depression",
+    "score":9.753772,
+    "has_adverse_event_edge":true,
+    "drug_name_clean":"QUETIAPINE FUMARATE",
+    "ae_name_clean":"Respiratory depression"
+  },
+  {
+    "drug":"DRUG:TAS-106",
+    "adverse_event":"AE:Gender dysphoria",
+    "score":9.75027,
+    "has_adverse_event_edge":false,
+    "drug_name_clean":"TAS-106",
+    "ae_name_clean":"Gender dysphoria"
+  },
+  {
+    "drug":"DRUG:TENECTEPLASE",
+    "adverse_event":"AE:Acute abdomen",
+    "score":9.745352,
+    "has_adverse_event_edge":false,
+    "drug_name_clean":"TENECTEPLASE",
+    "ae_name_clean":"Acute abdomen"
+  },
+  {
+    "drug":"DRUG:ARTIFICIAL TEARS",
+    "adverse_event":"AE:Product container issue",
+    "score":9.737045,
+    "has_adverse_event_edge":true,
+    "drug_name_clean":"ARTIFICIAL TEARS",
+    "ae_name_clean":"Product container issue"
+  },
+  {
+    "drug":"DRUG:ETHAMBUTOL",
+    "adverse_event":"AE:Immune reconstitution inflammatory syndrome",
+    "score":9.735111,
+    "has_adverse_event_edge":true,
+    "drug_name_clean":"ETHAMBUTOL",
+    "ae_name_clean":"Immune reconstitution inflammatory syndrome"
+  },
+  {
+    "drug":"DRUG:EPTIFIBATIDE",
+    "adverse_event":"AE:Retinal toxicity",
+    "score":9.729838,
+    "has_adverse_event_edge":false,
+    "drug_name_clean":"EPTIFIBATIDE",
+    "ae_name_clean":"Retinal toxicity"
+  },
+  {
+    "drug":"DRUG:SELONSERTIB",
+    "adverse_event":"AE:Eunuchoidism",
+    "score":9.726261,
+    "has_adverse_event_edge":false,
+    "drug_name_clean":"SELONSERTIB",
+    "ae_name_clean":"Eunuchoidism"
+  },
+  {
+    "drug":"DRUG:LORECIVIVINT",
+    "adverse_event":"AE:Anticoagulation drug level decreased",
+    "score":9.717126,
+    "has_adverse_event_edge":false,
+    "drug_name_clean":"LORECIVIVINT",
+    "ae_name_clean":"Anticoagulation drug level decreased"
+  },
+  {
+    "drug":"DRUG:CALCIUM CHLORIDE\\DEXTROSE\\MAGNESIUM CHLORIDE\\SODIUM CHLORIDE SOLUTION",
+    "adverse_event":"AE:Peritoneal cloudy effluent",
+    "score":9.714603,
+    "has_adverse_event_edge":false,
+    "drug_name_clean":"CALCIUM CHLORIDE\\DEXTROSE\\MAGNESIUM CHLORIDE\\SODIUM CHLORIDE SOLUTION",
+    "ae_name_clean":"Peritoneal cloudy effluent"
+  },
+  {
+    "drug":"DRUG:FOSCARBIDOPA;FOSLEVODOPA",
+    "adverse_event":"AE:Infusion site mass",
+    "score":9.710945,
+    "has_adverse_event_edge":true,
+    "drug_name_clean":"FOSCARBIDOPA;FOSLEVODOPA",
+    "ae_name_clean":"Infusion site mass"
+  },
+  {
+    "drug":"DRUG:AMISULPRIDE",
+    "adverse_event":"AE:Psychomotor hyperactivity",
+    "score":9.708426,
+    "has_adverse_event_edge":true,
+    "drug_name_clean":"AMISULPRIDE",
+    "ae_name_clean":"Psychomotor hyperactivity"
+  },
+  {
+    "drug":"DRUG:MENTHOL",
+    "adverse_event":"AE:Application site rash",
+    "score":9.705247,
+    "has_adverse_event_edge":false,
+    "drug_name_clean":"MENTHOL",
+    "ae_name_clean":"Application site rash"
+  },
+  {
+    "drug":"DRUG:GEMCITABINE HYDROCHLORIDE",
+    "adverse_event":"AE:Cytokine release syndrome",
+    "score":9.696276,
+    "has_adverse_event_edge":false,
+    "drug_name_clean":"GEMCITABINE HYDROCHLORIDE",
+    "ae_name_clean":"Cytokine release syndrome"
+  },
+  {
+    "drug":"DRUG:LIATERMIN",
+    "adverse_event":"AE:Blood calcitonin increased",
+    "score":9.695225,
+    "has_adverse_event_edge":false,
+    "drug_name_clean":"LIATERMIN",
+    "ae_name_clean":"Blood calcitonin increased"
+  },
+  {
+    "drug":"DRUG:ABT-751",
+    "adverse_event":"AE:Blood calcitonin increased",
+    "score":9.693377,
+    "has_adverse_event_edge":false,
+    "drug_name_clean":"ABT-751",
+    "ae_name_clean":"Blood calcitonin increased"
+  },
+  {
+    "drug":"DRUG:PENTOXIFYLLINE",
+    "adverse_event":"AE:Peritonitis bacterial",
+    "score":9.688058,
+    "has_adverse_event_edge":false,
+    "drug_name_clean":"PENTOXIFYLLINE",
+    "ae_name_clean":"Peritonitis bacterial"
+  },
+  {
+    "drug":"DRUG:ONTUXIZUMAB",
+    "adverse_event":"AE:Brain natriuretic peptide decreased",
+    "score":9.685688,
+    "has_adverse_event_edge":false,
+    "drug_name_clean":"ONTUXIZUMAB",
+    "ae_name_clean":"Brain natriuretic peptide decreased"
+  },
+  {
+    "drug":"DRUG:LB-100",
+    "adverse_event":"AE:Renal necrosis",
+    "score":9.682843,
+    "has_adverse_event_edge":false,
+    "drug_name_clean":"LB-100",
+    "ae_name_clean":"Renal necrosis"
+  },
+  {
+    "drug":"DRUG:XENTUZUMAB",
+    "adverse_event":"AE:Blood calcitonin increased",
+    "score":9.681802,
+    "has_adverse_event_edge":false,
+    "drug_name_clean":"XENTUZUMAB",
+    "ae_name_clean":"Blood calcitonin increased"
+  },
+  {
+    "drug":"DRUG:ASTEGOLIMAB",
+    "adverse_event":"AE:Application site haematoma",
+    "score":9.676513,
+    "has_adverse_event_edge":false,
+    "drug_name_clean":"ASTEGOLIMAB",
+    "ae_name_clean":"Application site haematoma"
+  },
+  {
+    "drug":"DRUG:ZIPRASIDONE",
+    "adverse_event":"AE:Suspected suicide",
+    "score":9.67341,
+    "has_adverse_event_edge":true,
+    "drug_name_clean":"ZIPRASIDONE",
+    "ae_name_clean":"Suspected suicide"
+  },
+  {
+    "drug":"DRUG:AMISULPRIDE",
+    "adverse_event":"AE:Dystonia",
+    "score":9.67016,
+    "has_adverse_event_edge":true,
+    "drug_name_clean":"AMISULPRIDE",
+    "ae_name_clean":"Dystonia"
+  },
+  {
+    "drug":"DRUG:CARMUSTINE",
+    "adverse_event":"AE:Cytokine release syndrome",
+    "score":9.668575,
+    "has_adverse_event_edge":true,
+    "drug_name_clean":"CARMUSTINE",
+    "ae_name_clean":"Cytokine release syndrome"
+  },
+  {
+    "drug":"DRUG:BAY-1125976",
+    "adverse_event":"AE:Blood calcitonin increased",
+    "score":9.664845,
+    "has_adverse_event_edge":false,
+    "drug_name_clean":"BAY-1125976",
+    "ae_name_clean":"Blood calcitonin increased"
+  },
+  {
+    "drug":"DRUG:VATIQUINONE",
+    "adverse_event":"AE:Brain natriuretic peptide decreased",
+    "score":9.652042,
+    "has_adverse_event_edge":false,
+    "drug_name_clean":"VATIQUINONE",
+    "ae_name_clean":"Brain natriuretic peptide decreased"
+  },
+  {
+    "drug":"DRUG:ANFIBATIDE",
+    "adverse_event":"AE:Brain natriuretic peptide decreased",
+    "score":9.643705,
+    "has_adverse_event_edge":false,
+    "drug_name_clean":"ANFIBATIDE",
+    "ae_name_clean":"Brain natriuretic peptide decreased"
+  },
+  {
+    "drug":"DRUG:DAGLUTRIL",
+    "adverse_event":"AE:Infective spondylitis",
+    "score":9.642635,
+    "has_adverse_event_edge":false,
+    "drug_name_clean":"DAGLUTRIL",
+    "ae_name_clean":"Infective spondylitis"
+  },
+  {
+    "drug":"DRUG:FOSCARBIDOPA;FOSLEVODOPA",
+    "adverse_event":"AE:Product administered at inappropriate site",
+    "score":9.640484,
+    "has_adverse_event_edge":false,
+    "drug_name_clean":"FOSCARBIDOPA;FOSLEVODOPA",
+    "ae_name_clean":"Product administered at inappropriate site"
+  },
+  {
+    "drug":"DRUG:ONABOTULINUMTOXINA",
+    "adverse_event":"AE:Infective spondylitis",
+    "score":9.635407,
+    "has_adverse_event_edge":false,
+    "drug_name_clean":"ONABOTULINUMTOXINA",
+    "ae_name_clean":"Infective spondylitis"
+  },
+  {
+    "drug":"DRUG:TIROFIBAN",
+    "adverse_event":"AE:Vascular stent thrombosis",
+    "score":9.629665,
+    "has_adverse_event_edge":true,
+    "drug_name_clean":"TIROFIBAN",
+    "ae_name_clean":"Vascular stent thrombosis"
+  },
+  {
+    "drug":"DRUG:ELPETRIGINE",
+    "adverse_event":"AE:Urine ketone body",
+    "score":9.624909,
+    "has_adverse_event_edge":false,
+    "drug_name_clean":"ELPETRIGINE",
+    "ae_name_clean":"Urine ketone body"
+  },
+  {
+    "drug":"DRUG:FLUTICASONE;UMECLIDINIUM;VILANTEROL",
+    "adverse_event":"AE:Chronic obstructive pulmonary disease",
+    "score":9.610093,
+    "has_adverse_event_edge":true,
+    "drug_name_clean":"FLUTICASONE;UMECLIDINIUM;VILANTEROL",
+    "ae_name_clean":"Chronic obstructive pulmonary disease"
+  },
+  {
+    "drug":"DRUG:LENACAPAVIR",
+    "adverse_event":"AE:Epididymitis",
+    "score":9.606942,
+    "has_adverse_event_edge":false,
+    "drug_name_clean":"LENACAPAVIR",
+    "ae_name_clean":"Epididymitis"
+  },
+  {
+    "drug":"DRUG:ZANUBRUTINIB",
+    "adverse_event":"AE:Cytokine release syndrome",
+    "score":9.600623,
+    "has_adverse_event_edge":true,
+    "drug_name_clean":"ZANUBRUTINIB",
+    "ae_name_clean":"Cytokine release syndrome"
+  },
+  {
+    "drug":"DRUG:EFLORNITHINE HYDROCHLORIDE",
+    "adverse_event":"AE:Renal necrosis",
+    "score":9.596877,
+    "has_adverse_event_edge":false,
+    "drug_name_clean":"EFLORNITHINE HYDROCHLORIDE",
+    "ae_name_clean":"Renal necrosis"
+  },
+  {
+    "drug":"DRUG:CARIPRAZINE",
+    "adverse_event":"AE:Dystonia",
+    "score":9.590971,
+    "has_adverse_event_edge":true,
+    "drug_name_clean":"CARIPRAZINE",
+    "ae_name_clean":"Dystonia"
+  },
+  {
+    "drug":"DRUG:VARESPLADIB METHYL",
+    "adverse_event":"AE:Serratia bacteraemia",
+    "score":9.590292,
+    "has_adverse_event_edge":false,
+    "drug_name_clean":"VARESPLADIB METHYL",
+    "ae_name_clean":"Serratia bacteraemia"
+  },
+  {
+    "drug":"DRUG:TAS-106",
+    "adverse_event":"AE:Single component of a two-component product administered",
+    "score":9.588896,
+    "has_adverse_event_edge":false,
+    "drug_name_clean":"TAS-106",
+    "ae_name_clean":"Single component of a two-component product administered"
+  },
+  {
+    "drug":"DRUG:PIRETANIDE",
+    "adverse_event":"AE:Pseudomonal bacteraemia",
+    "score":9.581936,
+    "has_adverse_event_edge":false,
+    "drug_name_clean":"PIRETANIDE",
+    "ae_name_clean":"Pseudomonal bacteraemia"
+  },
+  {
+    "drug":"DRUG:LITHIUM",
+    "adverse_event":"AE:Schizophrenia",
+    "score":9.576993,
+    "has_adverse_event_edge":true,
+    "drug_name_clean":"LITHIUM",
+    "ae_name_clean":"Schizophrenia"
+  },
+  {
+    "drug":"DRUG:A27.15",
+    "adverse_event":"AE:Brain natriuretic peptide decreased",
+    "score":9.571616,
+    "has_adverse_event_edge":false,
+    "drug_name_clean":"A27.15",
+    "ae_name_clean":"Brain natriuretic peptide decreased"
+  },
+  {
+    "drug":"DRUG:ALCOHOL",
+    "adverse_event":"AE:Respiratory depression",
+    "score":9.561626,
+    "has_adverse_event_edge":true,
+    "drug_name_clean":"ALCOHOL",
+    "ae_name_clean":"Respiratory depression"
+  },
+  {
+    "drug":"DRUG:MOLNUPIRAVIR",
+    "adverse_event":"AE:Product use complaint",
+    "score":9.557051,
+    "has_adverse_event_edge":true,
+    "drug_name_clean":"MOLNUPIRAVIR",
+    "ae_name_clean":"Product use complaint"
+  },
+  {
+    "drug":"DRUG:CAL",
+    "adverse_event":"AE:Application site haematoma",
+    "score":9.544318,
+    "has_adverse_event_edge":false,
+    "drug_name_clean":"CAL",
+    "ae_name_clean":"Application site haematoma"
+  },
+  {
+    "drug":"DRUG:SODIUM PHENYLBUTYRATE;TAURURSODIOL",
+    "adverse_event":"AE:Peritonitis bacterial",
+    "score":9.530892,
+    "has_adverse_event_edge":false,
+    "drug_name_clean":"SODIUM PHENYLBUTYRATE;TAURURSODIOL",
+    "ae_name_clean":"Peritonitis bacterial"
+  },
+  {
+    "drug":"DRUG:SVN53-67\/M57-KLH PEPTIDE VACCINE",
+    "adverse_event":"AE:Xanthelasma",
+    "score":9.525222,
+    "has_adverse_event_edge":false,
+    "drug_name_clean":"SVN53-67\/M57-KLH PEPTIDE VACCINE",
+    "ae_name_clean":"Xanthelasma"
+  },
+  {
+    "drug":"DRUG:TERIPARATIDE",
+    "adverse_event":"AE:Syringe issue",
+    "score":9.522384,
+    "has_adverse_event_edge":false,
+    "drug_name_clean":"TERIPARATIDE",
+    "ae_name_clean":"Syringe issue"
+  },
+  {
+    "drug":"DRUG:NNC0114-0006",
+    "adverse_event":"AE:Granulicatella infection",
+    "score":9.521902,
+    "has_adverse_event_edge":false,
+    "drug_name_clean":"NNC0114-0006",
+    "ae_name_clean":"Granulicatella infection"
+  },
+  {
+    "drug":"DRUG:VARESPLADIB METHYL",
+    "adverse_event":"AE:Peritoneal mesothelioma malignant",
+    "score":9.521505,
+    "has_adverse_event_edge":false,
+    "drug_name_clean":"VARESPLADIB METHYL",
+    "ae_name_clean":"Peritoneal mesothelioma malignant"
+  },
+  {
+    "drug":"DRUG:SCH-900271",
+    "adverse_event":"AE:Blood calcitonin increased",
+    "score":9.519141,
+    "has_adverse_event_edge":false,
+    "drug_name_clean":"SCH-900271",
+    "ae_name_clean":"Blood calcitonin increased"
+  },
+  {
+    "drug":"DRUG:SODIUM DICHLOROACETATE",
+    "adverse_event":"AE:Dermal sinus",
+    "score":9.517222,
+    "has_adverse_event_edge":false,
+    "drug_name_clean":"SODIUM DICHLOROACETATE",
+    "ae_name_clean":"Dermal sinus"
+  },
+  {
+    "drug":"DRUG:VARESPLADIB",
+    "adverse_event":"AE:Application site haematoma",
+    "score":9.512531,
+    "has_adverse_event_edge":false,
+    "drug_name_clean":"VARESPLADIB",
+    "ae_name_clean":"Application site haematoma"
+  },
+  {
+    "drug":"DRUG:NELARABINE",
+    "adverse_event":"AE:Histiocytosis haematophagic",
+    "score":9.494541,
+    "has_adverse_event_edge":false,
+    "drug_name_clean":"NELARABINE",
+    "ae_name_clean":"Histiocytosis haematophagic"
+  },
+  {
+    "drug":"DRUG:BRICICLIB",
+    "adverse_event":"AE:Brain natriuretic peptide decreased",
+    "score":9.494125,
+    "has_adverse_event_edge":false,
+    "drug_name_clean":"BRICICLIB",
+    "ae_name_clean":"Brain natriuretic peptide decreased"
+  },
+  {
+    "drug":"DRUG:VARESPLADIB METHYL",
+    "adverse_event":"AE:Hepatoblastoma",
+    "score":9.493182,
+    "has_adverse_event_edge":false,
+    "drug_name_clean":"VARESPLADIB METHYL",
+    "ae_name_clean":"Hepatoblastoma"
+  },
+  {
+    "drug":"DRUG:ELPETRIGINE",
+    "adverse_event":"AE:Pericardial effusion malignant",
+    "score":9.491142,
+    "has_adverse_event_edge":false,
+    "drug_name_clean":"ELPETRIGINE",
+    "ae_name_clean":"Pericardial effusion malignant"
+  },
+  {
+    "drug":"DRUG:FGI-101-1A6",
+    "adverse_event":"AE:Splenorenal shunt",
+    "score":9.481346,
+    "has_adverse_event_edge":false,
+    "drug_name_clean":"FGI-101-1A6",
+    "ae_name_clean":"Splenorenal shunt"
+  },
+  {
+    "drug":"DRUG:IMALUMAB",
+    "adverse_event":"AE:Brain natriuretic peptide decreased",
+    "score":9.480843,
+    "has_adverse_event_edge":false,
+    "drug_name_clean":"IMALUMAB",
+    "ae_name_clean":"Brain natriuretic peptide decreased"
+  },
+  {
+    "drug":"DRUG:FLUDARABINE PHOSPHATE",
+    "adverse_event":"AE:Myelosuppression",
+    "score":9.465902,
+    "has_adverse_event_edge":false,
+    "drug_name_clean":"FLUDARABINE PHOSPHATE",
+    "ae_name_clean":"Myelosuppression"
+  },
+  {
+    "drug":"DRUG:VARESPLADIB METHYL",
+    "adverse_event":"AE:Peritonitis pneumococcal",
+    "score":9.453508,
+    "has_adverse_event_edge":false,
+    "drug_name_clean":"VARESPLADIB METHYL",
+    "ae_name_clean":"Peritonitis pneumococcal"
+  },
+  {
+    "drug":"DRUG:SKIN CARE;VITAMIN B1;VITAMIN B2;VITAMIN B3;VITAMIN B6",
+    "adverse_event":"AE:Blood calcitonin increased",
+    "score":9.445624,
+    "has_adverse_event_edge":false,
+    "drug_name_clean":"SKIN CARE;VITAMIN B1;VITAMIN B2;VITAMIN B3;VITAMIN B6",
+    "ae_name_clean":"Blood calcitonin increased"
+  },
+  {
+    "drug":"DRUG:GATAPARSEN",
+    "adverse_event":"AE:Duchenne muscular dystrophy",
+    "score":9.445542,
+    "has_adverse_event_edge":false,
+    "drug_name_clean":"GATAPARSEN",
+    "ae_name_clean":"Duchenne muscular dystrophy"
+  },
+  {
+    "drug":"DRUG:HUMAN C1-ESTERASE INHIBITOR",
+    "adverse_event":"AE:Aortic pseudoaneurysm",
+    "score":9.444041,
+    "has_adverse_event_edge":false,
+    "drug_name_clean":"HUMAN C1-ESTERASE INHIBITOR",
+    "ae_name_clean":"Aortic pseudoaneurysm"
+  },
+  {
+    "drug":"DRUG:SITAGLIPTIN",
+    "adverse_event":"AE:Adenocarcinoma pancreas",
+    "score":9.437699,
+    "has_adverse_event_edge":true,
+    "drug_name_clean":"SITAGLIPTIN",
+    "ae_name_clean":"Adenocarcinoma pancreas"
+  },
+  {
+    "drug":"DRUG:SAPROPTERIN DIHYDROCHLORIDE",
+    "adverse_event":"AE:Eunuchoidism",
+    "score":9.435915,
+    "has_adverse_event_edge":false,
+    "drug_name_clean":"SAPROPTERIN DIHYDROCHLORIDE",
+    "ae_name_clean":"Eunuchoidism"
+  },
+  {
+    "drug":"DRUG:RASBURICASE",
+    "adverse_event":"AE:Acute lymphocytic leukaemia recurrent",
+    "score":9.434853,
+    "has_adverse_event_edge":false,
+    "drug_name_clean":"RASBURICASE",
+    "ae_name_clean":"Acute lymphocytic leukaemia recurrent"
+  },
+  {
+    "drug":"DRUG:POSACONAZOLE",
+    "adverse_event":"AE:Cytokine release syndrome",
+    "score":9.432091,
+    "has_adverse_event_edge":false,
+    "drug_name_clean":"POSACONAZOLE",
+    "ae_name_clean":"Cytokine release syndrome"
+  },
+  {
+    "drug":"DRUG:METHENAMINE",
+    "adverse_event":"AE:Vestibular disorder",
+    "score":9.422935,
+    "has_adverse_event_edge":false,
+    "drug_name_clean":"METHENAMINE",
+    "ae_name_clean":"Vestibular disorder"
+  },
+  {
+    "drug":"DRUG:QUETIAPINE FUMARATE",
+    "adverse_event":"AE:Dependence",
+    "score":9.420893,
+    "has_adverse_event_edge":false,
+    "drug_name_clean":"QUETIAPINE FUMARATE",
+    "ae_name_clean":"Dependence"
+  },
+  {
+    "drug":"DRUG:LY-2584702",
+    "adverse_event":"AE:Influenza immunisation",
+    "score":9.42088,
+    "has_adverse_event_edge":false,
+    "drug_name_clean":"LY-2584702",
+    "ae_name_clean":"Influenza immunisation"
+  },
+  {
+    "drug":"DRUG:CHLORAMBUCIL",
+    "adverse_event":"AE:Cytokine release syndrome",
+    "score":9.417199,
+    "has_adverse_event_edge":false,
+    "drug_name_clean":"CHLORAMBUCIL",
+    "ae_name_clean":"Cytokine release syndrome"
+  },
+  {
+    "drug":"DRUG:CRISABOROLE",
+    "adverse_event":"AE:Dermatitis contact",
+    "score":9.399361,
+    "has_adverse_event_edge":true,
+    "drug_name_clean":"CRISABOROLE",
+    "ae_name_clean":"Dermatitis contact"
+  },
+  {
+    "drug":"DRUG:BIRINAPANT",
+    "adverse_event":"AE:Infective spondylitis",
+    "score":9.398705,
+    "has_adverse_event_edge":false,
+    "drug_name_clean":"BIRINAPANT",
+    "ae_name_clean":"Infective spondylitis"
+  },
+  {
+    "drug":"DRUG:DUSIGITUMAB",
+    "adverse_event":"AE:Blood calcitonin increased",
+    "score":9.396708,
+    "has_adverse_event_edge":false,
+    "drug_name_clean":"DUSIGITUMAB",
+    "ae_name_clean":"Blood calcitonin increased"
+  },
+  {
+    "drug":"DRUG:LB-100",
+    "adverse_event":"AE:Aortic pseudoaneurysm",
+    "score":9.393962,
+    "has_adverse_event_edge":false,
+    "drug_name_clean":"LB-100",
+    "ae_name_clean":"Aortic pseudoaneurysm"
+  },
+  {
+    "drug":"DRUG:ADAPALENE",
+    "adverse_event":"AE:Eyelids pruritus",
+    "score":9.391527,
+    "has_adverse_event_edge":true,
+    "drug_name_clean":"ADAPALENE",
+    "ae_name_clean":"Eyelids pruritus"
+  },
+  {
+    "drug":"DRUG:VARESPLADIB METHYL",
+    "adverse_event":"AE:Face lift",
+    "score":9.391239,
+    "has_adverse_event_edge":false,
+    "drug_name_clean":"VARESPLADIB METHYL",
+    "ae_name_clean":"Face lift"
+  },
+  {
+    "drug":"DRUG:DAGLUTRIL",
+    "adverse_event":"AE:Haematosalpinx",
+    "score":9.37798,
+    "has_adverse_event_edge":false,
+    "drug_name_clean":"DAGLUTRIL",
+    "ae_name_clean":"Haematosalpinx"
+  },
+  {
+    "drug":"DRUG:APOMORPHINE",
+    "adverse_event":"AE:Obsessive-compulsive disorder",
+    "score":9.370713,
+    "has_adverse_event_edge":true,
+    "drug_name_clean":"APOMORPHINE",
+    "ae_name_clean":"Obsessive-compulsive disorder"
+  },
+  {
+    "drug":"DRUG:POVIDONE-IODINE",
+    "adverse_event":"AE:Maculopathy",
+    "score":9.368216,
+    "has_adverse_event_edge":false,
+    "drug_name_clean":"POVIDONE-IODINE",
+    "ae_name_clean":"Maculopathy"
+  },
+  {
+    "drug":"DRUG:MEROPENEM",
+    "adverse_event":"AE:Geotrichum infection",
+    "score":9.362696,
+    "has_adverse_event_edge":true,
+    "drug_name_clean":"MEROPENEM",
+    "ae_name_clean":"Geotrichum infection"
+  },
+  {
+    "drug":"DRUG:BASILIXIMAB",
+    "adverse_event":"AE:Varicella zoster virus infection",
+    "score":9.357971,
+    "has_adverse_event_edge":true,
+    "drug_name_clean":"BASILIXIMAB",
+    "ae_name_clean":"Varicella zoster virus infection"
+  },
+  {
+    "drug":"DRUG:TAMIBAROTENE",
+    "adverse_event":"AE:Brain natriuretic peptide decreased",
+    "score":9.356988,
+    "has_adverse_event_edge":false,
+    "drug_name_clean":"TAMIBAROTENE",
+    "ae_name_clean":"Brain natriuretic peptide decreased"
+  },
+  {
+    "drug":"DRUG:TENOFOVIR",
+    "adverse_event":"AE:Multiple fractures",
+    "score":9.347047,
+    "has_adverse_event_edge":true,
+    "drug_name_clean":"TENOFOVIR",
+    "ae_name_clean":"Multiple fractures"
+  },
+  {
+    "drug":"DRUG:GUSELKUMAB",
+    "adverse_event":"AE:Product quality issue",
+    "score":9.334762,
+    "has_adverse_event_edge":true,
+    "drug_name_clean":"GUSELKUMAB",
+    "ae_name_clean":"Product quality issue"
+  },
+  {
+    "drug":"DRUG:TAS-106",
+    "adverse_event":"AE:Anti factor VIII antibody increased",
+    "score":9.332493,
+    "has_adverse_event_edge":false,
+    "drug_name_clean":"TAS-106",
+    "ae_name_clean":"Anti factor VIII antibody increased"
+  },
+  {
+    "drug":"DRUG:AZACITIDINE",
+    "adverse_event":"AE:Second primary malignancy",
+    "score":9.326049,
+    "has_adverse_event_edge":true,
+    "drug_name_clean":"AZACITIDINE",
+    "ae_name_clean":"Second primary malignancy"
+  },
+  {
+    "drug":"DRUG:LITHIUM",
+    "adverse_event":"AE:Sedation",
+    "score":9.325438,
+    "has_adverse_event_edge":true,
+    "drug_name_clean":"LITHIUM",
+    "ae_name_clean":"Sedation"
+  },
+  {
+    "drug":"DRUG:LITIFILIMAB",
+    "adverse_event":"AE:Brain natriuretic peptide decreased",
+    "score":9.321986,
+    "has_adverse_event_edge":false,
+    "drug_name_clean":"LITIFILIMAB",
+    "ae_name_clean":"Brain natriuretic peptide decreased"
+  },
+  {
+    "drug":"DRUG:APELIN",
+    "adverse_event":"AE:Brain natriuretic peptide decreased",
+    "score":9.312183,
+    "has_adverse_event_edge":false,
+    "drug_name_clean":"APELIN",
+    "ae_name_clean":"Brain natriuretic peptide decreased"
+  },
+  {
+    "drug":"DRUG:SAPROPTERIN DIHYDROCHLORIDE",
+    "adverse_event":"AE:Granulicatella infection",
+    "score":9.310873,
+    "has_adverse_event_edge":false,
+    "drug_name_clean":"SAPROPTERIN DIHYDROCHLORIDE",
+    "ae_name_clean":"Granulicatella infection"
+  },
+  {
+    "drug":"DRUG:LITHIUM",
+    "adverse_event":"AE:Parkinsonism",
+    "score":9.310369,
+    "has_adverse_event_edge":true,
+    "drug_name_clean":"LITHIUM",
+    "ae_name_clean":"Parkinsonism"
+  },
+  {
+    "drug":"DRUG:BEVASIRANIB",
+    "adverse_event":"AE:Brain natriuretic peptide decreased",
+    "score":9.303935,
+    "has_adverse_event_edge":false,
+    "drug_name_clean":"BEVASIRANIB",
+    "ae_name_clean":"Brain natriuretic peptide decreased"
+  },
+  {
+    "drug":"DRUG:ANTITHYMOCYTE IMMUNOGLOBULIN",
+    "adverse_event":"AE:Neutropenic colitis",
+    "score":9.303046,
+    "has_adverse_event_edge":true,
+    "drug_name_clean":"ANTITHYMOCYTE IMMUNOGLOBULIN",
+    "ae_name_clean":"Neutropenic colitis"
+  },
+  {
+    "drug":"DRUG:BENDAMUSTINE",
+    "adverse_event":"AE:Immune reconstitution inflammatory syndrome",
+    "score":9.302284,
+    "has_adverse_event_edge":true,
+    "drug_name_clean":"BENDAMUSTINE",
+    "ae_name_clean":"Immune reconstitution inflammatory syndrome"
+  },
+  {
+    "drug":"DRUG:SOTATERCEPT",
+    "adverse_event":"AE:Hereditary angioedema",
+    "score":9.30108,
+    "has_adverse_event_edge":false,
+    "drug_name_clean":"SOTATERCEPT",
+    "ae_name_clean":"Hereditary angioedema"
+  },
+  {
+    "drug":"DRUG:GLYCOPYRROLATE",
+    "adverse_event":"AE:Clostridium test positive",
+    "score":9.297433,
+    "has_adverse_event_edge":false,
+    "drug_name_clean":"GLYCOPYRROLATE",
+    "ae_name_clean":"Clostridium test positive"
+  },
+  {
+    "drug":"DRUG:ANTITHYMOCYTE IMMUNOGLOBULIN",
+    "adverse_event":"AE:Epstein-Barr viraemia",
+    "score":9.296401,
+    "has_adverse_event_edge":true,
+    "drug_name_clean":"ANTITHYMOCYTE IMMUNOGLOBULIN",
+    "ae_name_clean":"Epstein-Barr viraemia"
+  },
+  {
+    "drug":"DRUG:LEVOMEPROMAZINE",
+    "adverse_event":"AE:Respiratory depression",
+    "score":9.285563,
+    "has_adverse_event_edge":true,
+    "drug_name_clean":"LEVOMEPROMAZINE",
+    "ae_name_clean":"Respiratory depression"
+  },
+  {
+    "drug":"DRUG:DOXEPIN HYDROCHLORIDE",
+    "adverse_event":"AE:Encephalitis autoimmune",
+    "score":9.282164,
+    "has_adverse_event_edge":false,
+    "drug_name_clean":"DOXEPIN HYDROCHLORIDE",
+    "ae_name_clean":"Encephalitis autoimmune"
+  },
+  {
+    "drug":"DRUG:ETAZOLATE",
+    "adverse_event":"AE:Blood calcitonin increased",
+    "score":9.279348,
+    "has_adverse_event_edge":false,
+    "drug_name_clean":"ETAZOLATE",
+    "ae_name_clean":"Blood calcitonin increased"
+  },
+  {
+    "drug":"DRUG:BAMINERCEPT",
+    "adverse_event":"AE:Cytomegalovirus mucocutaneous ulcer",
+    "score":9.277919,
+    "has_adverse_event_edge":false,
+    "drug_name_clean":"BAMINERCEPT",
+    "ae_name_clean":"Cytomegalovirus mucocutaneous ulcer"
+  },
+  {
+    "drug":"DRUG:PREDNISOLONE ACETATE",
+    "adverse_event":"AE:Intraocular pressure increased",
+    "score":9.276754,
+    "has_adverse_event_edge":true,
+    "drug_name_clean":"PREDNISOLONE ACETATE",
+    "ae_name_clean":"Intraocular pressure increased"
+  },
+  {
+    "drug":"DRUG:CILTACABTAGENE AUTOLEUCEL",
+    "adverse_event":"AE:Chronic myeloid leukaemia",
+    "score":9.270541,
+    "has_adverse_event_edge":false,
+    "drug_name_clean":"CILTACABTAGENE AUTOLEUCEL",
+    "ae_name_clean":"Chronic myeloid leukaemia"
+  },
+  {
+    "drug":"DRUG:PEGINTRON \/01543001\/",
+    "adverse_event":"AE:Hydrocele",
+    "score":9.269188,
+    "has_adverse_event_edge":false,
+    "drug_name_clean":"PEGINTRON \/01543001\/",
+    "ae_name_clean":"Hydrocele"
+  },
+  {
+    "drug":"DRUG:MYCOPHENOLATE MOFETIL",
+    "adverse_event":"AE:Cytomegalovirus infection",
+    "score":9.268953,
+    "has_adverse_event_edge":true,
+    "drug_name_clean":"MYCOPHENOLATE MOFETIL",
+    "ae_name_clean":"Cytomegalovirus infection"
+  },
+  {
+    "drug":"DRUG:MENTHOL",
+    "adverse_event":"AE:Application site erythema",
+    "score":9.264873,
+    "has_adverse_event_edge":true,
+    "drug_name_clean":"MENTHOL",
+    "ae_name_clean":"Application site erythema"
+  },
+  {
+    "drug":"DRUG:FITUSIRAN",
+    "adverse_event":"AE:Ichthyosis",
+    "score":9.262086,
+    "has_adverse_event_edge":false,
+    "drug_name_clean":"FITUSIRAN",
+    "ae_name_clean":"Ichthyosis"
+  },
+  {
+    "drug":"DRUG:TAS0612",
+    "adverse_event":"AE:Cytomegalovirus mucocutaneous ulcer",
+    "score":9.262081,
+    "has_adverse_event_edge":false,
+    "drug_name_clean":"TAS0612",
+    "ae_name_clean":"Cytomegalovirus mucocutaneous ulcer"
+  },
+  {
+    "drug":"DRUG:DUSIGITUMAB",
+    "adverse_event":"AE:Application site haematoma",
+    "score":9.254248,
+    "has_adverse_event_edge":false,
+    "drug_name_clean":"DUSIGITUMAB",
+    "ae_name_clean":"Application site haematoma"
+  },
+  {
+    "drug":"DRUG:MENTHOL",
+    "adverse_event":"AE:Pregnancy on contraceptive",
+    "score":9.248625,
+    "has_adverse_event_edge":false,
+    "drug_name_clean":"MENTHOL",
+    "ae_name_clean":"Pregnancy on contraceptive"
+  },
+  {
+    "drug":"DRUG:ELOSULFASE ALFA",
+    "adverse_event":"AE:Lung transplant",
+    "score":9.2463,
+    "has_adverse_event_edge":false,
+    "drug_name_clean":"ELOSULFASE ALFA",
+    "ae_name_clean":"Lung transplant"
+  },
+  {
+    "drug":"DRUG:BUROSUMAB",
+    "adverse_event":"AE:Brain natriuretic peptide decreased",
+    "score":9.239712,
+    "has_adverse_event_edge":false,
+    "drug_name_clean":"BUROSUMAB",
+    "ae_name_clean":"Brain natriuretic peptide decreased"
+  },
+  {
+    "drug":"DRUG:BENZOYL PEROXIDE;CLINDAMYCIN",
+    "adverse_event":"AE:Application site rash",
+    "score":9.23516,
+    "has_adverse_event_edge":true,
+    "drug_name_clean":"BENZOYL PEROXIDE;CLINDAMYCIN",
+    "ae_name_clean":"Application site rash"
+  },
+  {
+    "drug":"DRUG:GLUCOSE;MAGNESIUM;SODIUM CHLORIDE;SODIUM LACTATE",
+    "adverse_event":"AE:Peritonitis",
+    "score":9.231172,
+    "has_adverse_event_edge":true,
+    "drug_name_clean":"GLUCOSE;MAGNESIUM;SODIUM CHLORIDE;SODIUM LACTATE",
+    "ae_name_clean":"Peritonitis"
+  },
+  {
+    "drug":"DRUG:CLOFARABINE",
+    "adverse_event":"AE:Staphylococcal bacteraemia",
+    "score":9.22748,
+    "has_adverse_event_edge":true,
+    "drug_name_clean":"CLOFARABINE",
+    "ae_name_clean":"Staphylococcal bacteraemia"
+  },
+  {
+    "drug":"DRUG:PROTIONAMIDE",
+    "adverse_event":"AE:Mitochondrial toxicity",
+    "score":9.224443,
+    "has_adverse_event_edge":false,
+    "drug_name_clean":"PROTIONAMIDE",
+    "ae_name_clean":"Mitochondrial toxicity"
+  },
+  {
+    "drug":"DRUG:POLIDOCANOL",
+    "adverse_event":"AE:Investigation",
+    "score":9.221779,
+    "has_adverse_event_edge":false,
+    "drug_name_clean":"POLIDOCANOL",
+    "ae_name_clean":"Investigation"
+  },
+  {
+    "drug":"DRUG:SELONSERTIB",
+    "adverse_event":"AE:Heartland virus infection",
+    "score":9.217842,
+    "has_adverse_event_edge":false,
+    "drug_name_clean":"SELONSERTIB",
+    "ae_name_clean":"Heartland virus infection"
+  },
+  {
+    "drug":"DRUG:AMANTADINE HYDROCHLORIDE",
+    "adverse_event":"AE:Accidental exposure to product by child",
+    "score":9.214515,
+    "has_adverse_event_edge":false,
+    "drug_name_clean":"AMANTADINE HYDROCHLORIDE",
+    "ae_name_clean":"Accidental exposure to product by child"
+  },
+  {
+    "drug":"DRUG:ELPETRIGINE",
+    "adverse_event":"AE:Small bowel angioedema",
+    "score":9.206835,
+    "has_adverse_event_edge":false,
+    "drug_name_clean":"ELPETRIGINE",
+    "ae_name_clean":"Small bowel angioedema"
+  },
+  {
+    "drug":"DRUG:RANIBIZUMAB",
+    "adverse_event":"AE:Eye inflammation",
+    "score":9.20458,
+    "has_adverse_event_edge":true,
+    "drug_name_clean":"RANIBIZUMAB",
+    "ae_name_clean":"Eye inflammation"
+  },
+  {
+    "drug":"DRUG:TREOSULFAN",
+    "adverse_event":"AE:Second primary malignancy",
+    "score":9.199149,
+    "has_adverse_event_edge":false,
+    "drug_name_clean":"TREOSULFAN",
+    "ae_name_clean":"Second primary malignancy"
+  },
+  {
+    "drug":"DRUG:TERODILINE HYDROCHLORIDE",
+    "adverse_event":"AE:Application site haematoma",
+    "score":9.195244,
+    "has_adverse_event_edge":false,
+    "drug_name_clean":"TERODILINE HYDROCHLORIDE",
+    "ae_name_clean":"Application site haematoma"
+  },
+  {
+    "drug":"DRUG:TENOFOVIR DISOPROXIL FUMARATE",
+    "adverse_event":"AE:Pathogen resistance",
+    "score":9.194899,
+    "has_adverse_event_edge":true,
+    "drug_name_clean":"TENOFOVIR DISOPROXIL FUMARATE",
+    "ae_name_clean":"Pathogen resistance"
+  },
+  {
+    "drug":"DRUG:BENDAMUSTINE HYDROCHLORIDE",
+    "adverse_event":"AE:Cytokine release syndrome",
+    "score":9.194784,
+    "has_adverse_event_edge":true,
+    "drug_name_clean":"BENDAMUSTINE HYDROCHLORIDE",
+    "ae_name_clean":"Cytokine release syndrome"
+  },
+  {
+    "drug":"DRUG:UROKINASE",
+    "adverse_event":"AE:Ichthyosis",
+    "score":9.190091,
+    "has_adverse_event_edge":false,
+    "drug_name_clean":"UROKINASE",
+    "ae_name_clean":"Ichthyosis"
+  },
+  {
+    "drug":"DRUG:IMALUMAB",
+    "adverse_event":"AE:Laryngeal necrosis",
+    "score":9.190026,
+    "has_adverse_event_edge":false,
+    "drug_name_clean":"IMALUMAB",
+    "ae_name_clean":"Laryngeal necrosis"
+  },
+  {
+    "drug":"DRUG:CARMUSTINE",
+    "adverse_event":"AE:Cytomegalovirus infection",
+    "score":9.187222,
+    "has_adverse_event_edge":true,
+    "drug_name_clean":"CARMUSTINE",
+    "ae_name_clean":"Cytomegalovirus infection"
+  },
+  {
+    "drug":"DRUG:GANCICLOVIR",
+    "adverse_event":"AE:Immune reconstitution inflammatory syndrome",
+    "score":9.186429,
+    "has_adverse_event_edge":true,
+    "drug_name_clean":"GANCICLOVIR",
+    "ae_name_clean":"Immune reconstitution inflammatory syndrome"
+  },
+  {
+    "drug":"DRUG:ERDAFITINIB",
+    "adverse_event":"AE:Immune effector cell-associated neurotoxicity syndrome",
+    "score":9.184982,
+    "has_adverse_event_edge":false,
+    "drug_name_clean":"ERDAFITINIB",
+    "ae_name_clean":"Immune effector cell-associated neurotoxicity syndrome"
+  },
+  {
+    "drug":"DRUG:POSACONAZOLE",
+    "adverse_event":"AE:Diffuse large B-cell lymphoma refractory",
+    "score":9.181807,
+    "has_adverse_event_edge":false,
+    "drug_name_clean":"POSACONAZOLE",
+    "ae_name_clean":"Diffuse large B-cell lymphoma refractory"
+  },
+  {
+    "drug":"DRUG:ANIDULAFUNGIN",
+    "adverse_event":"AE:Pathogen resistance",
+    "score":9.179638,
+    "has_adverse_event_edge":true,
+    "drug_name_clean":"ANIDULAFUNGIN",
+    "ae_name_clean":"Pathogen resistance"
+  },
+  {
+    "drug":"DRUG:KHK-2866",
+    "adverse_event":"AE:Aortic pseudoaneurysm",
+    "score":9.170045,
+    "has_adverse_event_edge":false,
+    "drug_name_clean":"KHK-2866",
+    "ae_name_clean":"Aortic pseudoaneurysm"
+  },
+  {
+    "drug":"DRUG:MEBEVERINE",
+    "adverse_event":"AE:Product use complaint",
+    "score":9.168958,
+    "has_adverse_event_edge":false,
+    "drug_name_clean":"MEBEVERINE",
+    "ae_name_clean":"Product use complaint"
+  },
+  {
+    "drug":"DRUG:BASILIXIMAB",
+    "adverse_event":"AE:Encephalitis cytomegalovirus",
+    "score":9.167816,
+    "has_adverse_event_edge":false,
+    "drug_name_clean":"BASILIXIMAB",
+    "ae_name_clean":"Encephalitis cytomegalovirus"
+  },
+  {
+    "drug":"DRUG:CLOFARABINE",
+    "adverse_event":"AE:Acute myeloid leukaemia recurrent",
+    "score":9.167029,
+    "has_adverse_event_edge":true,
+    "drug_name_clean":"CLOFARABINE",
+    "ae_name_clean":"Acute myeloid leukaemia recurrent"
+  },
+  {
+    "drug":"DRUG:FLAVOXATE HYDROCHLORIDE",
+    "adverse_event":"AE:Ventricular dyssynchrony",
+    "score":9.160151,
+    "has_adverse_event_edge":false,
+    "drug_name_clean":"FLAVOXATE HYDROCHLORIDE",
+    "ae_name_clean":"Ventricular dyssynchrony"
+  },
+  {
+    "drug":"DRUG:IFOSFAMIDE",
+    "adverse_event":"AE:Cytomegalovirus infection",
+    "score":9.158147,
+    "has_adverse_event_edge":true,
+    "drug_name_clean":"IFOSFAMIDE",
+    "ae_name_clean":"Cytomegalovirus infection"
+  },
+  {
+    "drug":"DRUG:BATIRAXCEPT",
+    "adverse_event":"AE:Renal necrosis",
+    "score":9.154817,
+    "has_adverse_event_edge":false,
+    "drug_name_clean":"BATIRAXCEPT",
+    "ae_name_clean":"Renal necrosis"
+  },
+  {
+    "drug":"DRUG:XENTUZUMAB",
+    "adverse_event":"AE:Application site haematoma",
+    "score":9.153474,
+    "has_adverse_event_edge":false,
+    "drug_name_clean":"XENTUZUMAB",
+    "ae_name_clean":"Application site haematoma"
+  },
+  {
+    "drug":"DRUG:FITUSIRAN",
+    "adverse_event":"AE:Aortic pseudoaneurysm",
+    "score":9.149364,
+    "has_adverse_event_edge":false,
+    "drug_name_clean":"FITUSIRAN",
+    "ae_name_clean":"Aortic pseudoaneurysm"
+  },
+  {
+    "drug":"DRUG:PERHEXILINE MALEATE",
+    "adverse_event":"AE:Blood beta-D-glucan increased",
+    "score":9.144954,
+    "has_adverse_event_edge":false,
+    "drug_name_clean":"PERHEXILINE MALEATE",
+    "ae_name_clean":"Blood beta-D-glucan increased"
+  },
+  {
+    "drug":"DRUG:CLOZAPINE",
+    "adverse_event":"AE:Sudden death",
+    "score":9.143128,
+    "has_adverse_event_edge":true,
+    "drug_name_clean":"CLOZAPINE",
+    "ae_name_clean":"Sudden death"
+  },
+  {
+    "drug":"DRUG:TAS-106",
+    "adverse_event":"AE:Anal cancer stage II",
+    "score":9.142501,
+    "has_adverse_event_edge":false,
+    "drug_name_clean":"TAS-106",
+    "ae_name_clean":"Anal cancer stage II"
+  },
+  {
+    "drug":"DRUG:TRAMADOL HYDROCHLORIDE",
+    "adverse_event":"AE:Sedation",
+    "score":9.141982,
+    "has_adverse_event_edge":true,
+    "drug_name_clean":"TRAMADOL HYDROCHLORIDE",
+    "ae_name_clean":"Sedation"
+  },
+  {
+    "drug":"DRUG:MAVRILIMUMAB",
+    "adverse_event":"AE:Serratia bacteraemia",
+    "score":9.136983,
+    "has_adverse_event_edge":false,
+    "drug_name_clean":"MAVRILIMUMAB",
+    "ae_name_clean":"Serratia bacteraemia"
+  },
+  {
+    "drug":"DRUG:CYCLOPHOSPHAMIDE;DOXORUBICIN;PREDNISONE;VINCRISTINE",
+    "adverse_event":"AE:Hepatitis B reactivation",
+    "score":9.128817,
+    "has_adverse_event_edge":false,
+    "drug_name_clean":"CYCLOPHOSPHAMIDE;DOXORUBICIN;PREDNISONE;VINCRISTINE",
+    "ae_name_clean":"Hepatitis B reactivation"
+  },
+  {
+    "drug":"DRUG:LASMIDITAN",
+    "adverse_event":"AE:Cataplexy",
+    "score":9.122369,
+    "has_adverse_event_edge":false,
+    "drug_name_clean":"LASMIDITAN",
+    "ae_name_clean":"Cataplexy"
+  },
+  {
+    "drug":"DRUG:LITHIUM CARBONATE",
+    "adverse_event":"AE:Dystonia",
+    "score":9.121497,
+    "has_adverse_event_edge":true,
+    "drug_name_clean":"LITHIUM CARBONATE",
+    "ae_name_clean":"Dystonia"
+  },
+  {
+    "drug":"DRUG:LOMUSTINE",
+    "adverse_event":"AE:Microangiopathic haemolytic anaemia",
+    "score":9.111712,
+    "has_adverse_event_edge":false,
+    "drug_name_clean":"LOMUSTINE",
+    "ae_name_clean":"Microangiopathic haemolytic anaemia"
+  },
+  {
+    "drug":"DRUG:TRIFLUOPERAZINE",
+    "adverse_event":"AE:Economic problem",
+    "score":9.110085,
+    "has_adverse_event_edge":false,
+    "drug_name_clean":"TRIFLUOPERAZINE",
+    "ae_name_clean":"Economic problem"
+  },
+  {
+    "drug":"DRUG:PENTOXIFYLLINE",
+    "adverse_event":"AE:Immune reconstitution inflammatory syndrome",
+    "score":9.109339,
+    "has_adverse_event_edge":false,
+    "drug_name_clean":"PENTOXIFYLLINE",
+    "ae_name_clean":"Immune reconstitution inflammatory syndrome"
+  },
+  {
+    "drug":"DRUG:TAS-106",
+    "adverse_event":"AE:Endometrial atrophy",
+    "score":9.108667,
+    "has_adverse_event_edge":false,
+    "drug_name_clean":"TAS-106",
+    "ae_name_clean":"Endometrial atrophy"
+  },
+  {
+    "drug":"DRUG:EDIFOLIGIDE",
+    "adverse_event":"AE:Brain natriuretic peptide decreased",
+    "score":9.108378,
+    "has_adverse_event_edge":false,
+    "drug_name_clean":"EDIFOLIGIDE",
+    "ae_name_clean":"Brain natriuretic peptide decreased"
+  },
+  {
+    "drug":"DRUG:LORACARBEF",
+    "adverse_event":"AE:Granulicatella infection",
+    "score":9.105008,
+    "has_adverse_event_edge":false,
+    "drug_name_clean":"LORACARBEF",
+    "ae_name_clean":"Granulicatella infection"
+  },
+  {
+    "drug":"DRUG:NAFTOPIDIL",
+    "adverse_event":"AE:Blood calcitonin increased",
+    "score":9.104817,
+    "has_adverse_event_edge":false,
+    "drug_name_clean":"NAFTOPIDIL",
+    "ae_name_clean":"Blood calcitonin increased"
+  },
+  {
+    "drug":"DRUG:FLAVOXATE HYDROCHLORIDE",
+    "adverse_event":"AE:Altered pitch perception",
+    "score":9.1045,
+    "has_adverse_event_edge":false,
+    "drug_name_clean":"FLAVOXATE HYDROCHLORIDE",
+    "ae_name_clean":"Altered pitch perception"
+  },
+  {
+    "drug":"DRUG:SULPIRIDE",
+    "adverse_event":"AE:Neuroleptic malignant syndrome",
+    "score":9.099533,
+    "has_adverse_event_edge":true,
+    "drug_name_clean":"SULPIRIDE",
+    "ae_name_clean":"Neuroleptic malignant syndrome"
+  },
+  {
+    "drug":"DRUG:CD24FC",
+    "adverse_event":"AE:Rett syndrome",
+    "score":9.095458,
+    "has_adverse_event_edge":false,
+    "drug_name_clean":"CD24FC",
+    "ae_name_clean":"Rett syndrome"
+  },
+  {
+    "drug":"DRUG:ANTITHYMOCYTE IMMUNOGLOBULIN",
+    "adverse_event":"AE:Enterococcal infection",
+    "score":9.090706,
+    "has_adverse_event_edge":true,
+    "drug_name_clean":"ANTITHYMOCYTE IMMUNOGLOBULIN",
+    "ae_name_clean":"Enterococcal infection"
+  },
+  {
+    "drug":"DRUG:LB-100",
+    "adverse_event":"AE:Influenza immunisation",
+    "score":9.088367,
+    "has_adverse_event_edge":false,
+    "drug_name_clean":"LB-100",
+    "ae_name_clean":"Influenza immunisation"
+  },
+  {
+    "drug":"DRUG:XENTUZUMAB",
+    "adverse_event":"AE:Influenza immunisation",
+    "score":9.088029,
+    "has_adverse_event_edge":false,
+    "drug_name_clean":"XENTUZUMAB",
+    "ae_name_clean":"Influenza immunisation"
+  },
+  {
+    "drug":"DRUG:IMALUMAB",
+    "adverse_event":"AE:Influenza immunisation",
+    "score":9.084338,
+    "has_adverse_event_edge":false,
+    "drug_name_clean":"IMALUMAB",
+    "ae_name_clean":"Influenza immunisation"
+  },
+  {
+    "drug":"DRUG:PF-03758309",
+    "adverse_event":"AE:Brain natriuretic peptide decreased",
+    "score":9.08408,
+    "has_adverse_event_edge":false,
+    "drug_name_clean":"PF-03758309",
+    "ae_name_clean":"Brain natriuretic peptide decreased"
+  },
+  {
+    "drug":"DRUG:SAPROPTERIN DIHYDROCHLORIDE",
+    "adverse_event":"AE:Catheter site cellulitis",
+    "score":9.07747,
+    "has_adverse_event_edge":false,
+    "drug_name_clean":"SAPROPTERIN DIHYDROCHLORIDE",
+    "ae_name_clean":"Catheter site cellulitis"
+  },
+  {
+    "drug":"DRUG:AFAMITRESGENE AUTOLEUCEL",
+    "adverse_event":"AE:Medical device site hyperaesthesia",
+    "score":9.077074,
+    "has_adverse_event_edge":false,
+    "drug_name_clean":"AFAMITRESGENE AUTOLEUCEL",
+    "ae_name_clean":"Medical device site hyperaesthesia"
+  },
+  {
+    "drug":"DRUG:EPTOTERMIN ALFA",
+    "adverse_event":"AE:Blood calcitonin increased",
+    "score":9.075672,
+    "has_adverse_event_edge":false,
+    "drug_name_clean":"EPTOTERMIN ALFA",
+    "ae_name_clean":"Blood calcitonin increased"
+  },
+  {
+    "drug":"DRUG:CRISABOROLE",
+    "adverse_event":"AE:Eye irritation",
+    "score":9.075247,
+    "has_adverse_event_edge":true,
+    "drug_name_clean":"CRISABOROLE",
+    "ae_name_clean":"Eye irritation"
+  },
+  {
+    "drug":"DRUG:NIRMATRELVIR;RITONAVIR",
+    "adverse_event":"AE:Product use complaint",
+    "score":9.066451,
+    "has_adverse_event_edge":true,
+    "drug_name_clean":"NIRMATRELVIR;RITONAVIR",
+    "ae_name_clean":"Product use complaint"
+  },
+  {
+    "drug":"DRUG:MICAFUNGIN SODIUM",
+    "adverse_event":"AE:Vascular stent thrombosis",
+    "score":9.066252,
+    "has_adverse_event_edge":false,
+    "drug_name_clean":"MICAFUNGIN SODIUM",
+    "ae_name_clean":"Vascular stent thrombosis"
+  },
+  {
+    "drug":"DRUG:MELPHALAN",
+    "adverse_event":"AE:Cytokine release syndrome",
+    "score":9.066251,
+    "has_adverse_event_edge":true,
+    "drug_name_clean":"MELPHALAN",
+    "ae_name_clean":"Cytokine release syndrome"
+  },
+  {
+    "drug":"DRUG:LISDEXAMFETAMINE",
+    "adverse_event":"AE:Obsessive-compulsive disorder",
+    "score":9.06319,
+    "has_adverse_event_edge":true,
+    "drug_name_clean":"LISDEXAMFETAMINE",
+    "ae_name_clean":"Obsessive-compulsive disorder"
+  },
+  {
+    "drug":"DRUG:VARESPLADIB METHYL",
+    "adverse_event":"AE:Xanthelasma",
+    "score":9.062821,
+    "has_adverse_event_edge":false,
+    "drug_name_clean":"VARESPLADIB METHYL",
+    "ae_name_clean":"Xanthelasma"
+  },
+  {
+    "drug":"DRUG:BASILIXIMAB",
+    "adverse_event":"AE:Pseudomonal bacteraemia",
+    "score":9.061985,
+    "has_adverse_event_edge":true,
+    "drug_name_clean":"BASILIXIMAB",
+    "ae_name_clean":"Pseudomonal bacteraemia"
+  },
+  {
+    "drug":"DRUG:VOXELOTOR",
+    "adverse_event":"AE:Inability to afford medication",
+    "score":9.061675,
+    "has_adverse_event_edge":false,
+    "drug_name_clean":"VOXELOTOR",
+    "ae_name_clean":"Inability to afford medication"
+  },
+  {
+    "drug":"DRUG:VARESPLADIB METHYL",
+    "adverse_event":"AE:Lipiduria",
+    "score":9.061137,
+    "has_adverse_event_edge":false,
+    "drug_name_clean":"VARESPLADIB METHYL",
+    "ae_name_clean":"Lipiduria"
+  },
+  {
+    "drug":"DRUG:REMDESIVIR",
+    "adverse_event":"AE:Drug reaction with eosinophilia and systemic symptoms",
+    "score":9.056521,
+    "has_adverse_event_edge":false,
+    "drug_name_clean":"REMDESIVIR",
+    "ae_name_clean":"Drug reaction with eosinophilia and systemic symptoms"
+  },
+  {
+    "drug":"DRUG:APOMORPHINE",
+    "adverse_event":"AE:Product use complaint",
+    "score":9.055277,
+    "has_adverse_event_edge":true,
+    "drug_name_clean":"APOMORPHINE",
+    "ae_name_clean":"Product use complaint"
+  },
+  {
+    "drug":"DRUG:TAFASITAMAB",
+    "adverse_event":"AE:Immune effector cell-associated neurotoxicity syndrome",
+    "score":9.049861,
+    "has_adverse_event_edge":true,
+    "drug_name_clean":"TAFASITAMAB",
+    "ae_name_clean":"Immune effector cell-associated neurotoxicity syndrome"
+  },
+  {
+    "drug":"DRUG:GEMCITABINE HYDROCHLORIDE",
+    "adverse_event":"AE:Hepatitis B reactivation",
+    "score":9.048199,
+    "has_adverse_event_edge":false,
+    "drug_name_clean":"GEMCITABINE HYDROCHLORIDE",
+    "ae_name_clean":"Hepatitis B reactivation"
+  },
+  {
+    "drug":"DRUG:PROGLUMIDE",
+    "adverse_event":"AE:Serratia bacteraemia",
+    "score":9.045741,
+    "has_adverse_event_edge":false,
+    "drug_name_clean":"PROGLUMIDE",
+    "ae_name_clean":"Serratia bacteraemia"
+  },
+  {
+    "drug":"DRUG:PF-03732010",
+    "adverse_event":"AE:Brain natriuretic peptide decreased",
+    "score":9.045575,
+    "has_adverse_event_edge":false,
+    "drug_name_clean":"PF-03732010",
+    "ae_name_clean":"Brain natriuretic peptide decreased"
+  },
+  {
+    "drug":"DRUG:BATIRAXCEPT",
+    "adverse_event":"AE:Brain natriuretic peptide decreased",
+    "score":9.044451,
+    "has_adverse_event_edge":false,
+    "drug_name_clean":"BATIRAXCEPT",
+    "ae_name_clean":"Brain natriuretic peptide decreased"
+  },
+  {
+    "drug":"DRUG:FOSCARBIDOPA;FOSLEVODOPA",
+    "adverse_event":"AE:Catheter site swelling",
+    "score":9.041994,
+    "has_adverse_event_edge":true,
+    "drug_name_clean":"FOSCARBIDOPA;FOSLEVODOPA",
+    "ae_name_clean":"Catheter site swelling"
+  },
+  {
+    "drug":"DRUG:QUININE SULFATE",
+    "adverse_event":"AE:Colonic pseudo-obstruction",
+    "score":9.039545,
+    "has_adverse_event_edge":false,
+    "drug_name_clean":"QUININE SULFATE",
+    "ae_name_clean":"Colonic pseudo-obstruction"
+  },
+  {
+    "drug":"DRUG:SIMVASTATIN",
+    "adverse_event":"AE:High density lipoprotein decreased",
+    "score":9.03735,
+    "has_adverse_event_edge":true,
+    "drug_name_clean":"SIMVASTATIN",
+    "ae_name_clean":"High density lipoprotein decreased"
+  },
+  {
+    "drug":"DRUG:STX-100",
+    "adverse_event":"AE:Application site haematoma",
+    "score":9.034945,
+    "has_adverse_event_edge":false,
+    "drug_name_clean":"STX-100",
+    "ae_name_clean":"Application site haematoma"
+  },
+  {
+    "drug":"DRUG:PEPINEMAB",
+    "adverse_event":"AE:Infective spondylitis",
+    "score":9.033341,
+    "has_adverse_event_edge":false,
+    "drug_name_clean":"PEPINEMAB",
+    "ae_name_clean":"Infective spondylitis"
+  },
+  {
+    "drug":"DRUG:FLUDARABINE",
+    "adverse_event":"AE:Acute graft versus host disease in skin",
+    "score":9.032718,
+    "has_adverse_event_edge":true,
+    "drug_name_clean":"FLUDARABINE",
+    "ae_name_clean":"Acute graft versus host disease in skin"
+  },
+  {
+    "drug":"DRUG:BUSPIRONE",
+    "adverse_event":"AE:Dystonia",
+    "score":9.023389,
+    "has_adverse_event_edge":true,
+    "drug_name_clean":"BUSPIRONE",
+    "ae_name_clean":"Dystonia"
+  },
+  {
+    "drug":"DRUG:DEXRAZOXANE",
+    "adverse_event":"AE:Cytomegalovirus infection",
+    "score":9.023028,
+    "has_adverse_event_edge":false,
+    "drug_name_clean":"DEXRAZOXANE",
+    "ae_name_clean":"Cytomegalovirus infection"
+  },
+  {
+    "drug":"DRUG:TEDUGLUTIDE",
+    "adverse_event":"AE:Inability to afford medication",
+    "score":9.022634,
+    "has_adverse_event_edge":true,
+    "drug_name_clean":"TEDUGLUTIDE",
+    "ae_name_clean":"Inability to afford medication"
+  },
+  {
+    "drug":"DRUG:TAS-106",
+    "adverse_event":"AE:Cervical conisation",
+    "score":9.020266,
+    "has_adverse_event_edge":false,
+    "drug_name_clean":"TAS-106",
+    "ae_name_clean":"Cervical conisation"
+  },
+  {
+    "drug":"DRUG:FITUSIRAN",
+    "adverse_event":"AE:Duchenne muscular dystrophy",
+    "score":9.018627,
+    "has_adverse_event_edge":false,
+    "drug_name_clean":"FITUSIRAN",
+    "ae_name_clean":"Duchenne muscular dystrophy"
+  },
+  {
+    "drug":"DRUG:VINBLASTINE SULFATE",
+    "adverse_event":"AE:Autoscopy",
+    "score":9.016026,
+    "has_adverse_event_edge":false,
+    "drug_name_clean":"VINBLASTINE SULFATE",
+    "ae_name_clean":"Autoscopy"
+  },
+  {
+    "drug":"DRUG:FOSCARBIDOPA;FOSLEVODOPA",
+    "adverse_event":"AE:Impulse-control disorder",
+    "score":9.011234,
+    "has_adverse_event_edge":false,
+    "drug_name_clean":"FOSCARBIDOPA;FOSLEVODOPA",
+    "ae_name_clean":"Impulse-control disorder"
+  },
+  {
+    "drug":"DRUG:FLAVOXATE HYDROCHLORIDE",
+    "adverse_event":"AE:Aphantasia",
+    "score":9.006138,
+    "has_adverse_event_edge":false,
+    "drug_name_clean":"FLAVOXATE HYDROCHLORIDE",
+    "ae_name_clean":"Aphantasia"
+  },
+  {
+    "drug":"DRUG:CARIPRAZINE",
+    "adverse_event":"AE:Developmental delay",
+    "score":9.00351,
+    "has_adverse_event_edge":false,
+    "drug_name_clean":"CARIPRAZINE",
+    "ae_name_clean":"Developmental delay"
+  },
+  {
+    "drug":"DRUG:ONABOTULINUMTOXINA",
+    "adverse_event":"AE:Medical device site hyperaesthesia",
+    "score":8.998955,
+    "has_adverse_event_edge":false,
+    "drug_name_clean":"ONABOTULINUMTOXINA",
+    "ae_name_clean":"Medical device site hyperaesthesia"
+  },
+  {
+    "drug":"DRUG:GALCANEZUMAB",
+    "adverse_event":"AE:Injection site urticaria",
+    "score":8.997788,
+    "has_adverse_event_edge":true,
+    "drug_name_clean":"GALCANEZUMAB",
+    "ae_name_clean":"Injection site urticaria"
+  },
+  {
+    "drug":"DRUG:LB-100",
+    "adverse_event":"AE:Brain natriuretic peptide decreased",
+    "score":8.997375,
+    "has_adverse_event_edge":false,
+    "drug_name_clean":"LB-100",
+    "ae_name_clean":"Brain natriuretic peptide decreased"
+  },
+  {
+    "drug":"DRUG:VORASIDENIB",
+    "adverse_event":"AE:Application site haematoma",
+    "score":8.994341,
+    "has_adverse_event_edge":false,
+    "drug_name_clean":"VORASIDENIB",
+    "ae_name_clean":"Application site haematoma"
+  },
+  {
+    "drug":"DRUG:GATAPARSEN",
+    "adverse_event":"AE:Persistent corneal epithelial defect",
+    "score":8.993052,
+    "has_adverse_event_edge":false,
+    "drug_name_clean":"GATAPARSEN",
+    "ae_name_clean":"Persistent corneal epithelial defect"
+  },
+  {
+    "drug":"DRUG:EFINACONAZOLE",
+    "adverse_event":"AE:Hyperphosphataemia",
+    "score":8.992272,
+    "has_adverse_event_edge":true,
+    "drug_name_clean":"EFINACONAZOLE",
+    "ae_name_clean":"Hyperphosphataemia"
+  },
+  {
+    "drug":"DRUG:ZIPRASIDONE",
+    "adverse_event":"AE:Accidental exposure to product by child",
+    "score":8.99177,
+    "has_adverse_event_edge":false,
+    "drug_name_clean":"ZIPRASIDONE",
+    "ae_name_clean":"Accidental exposure to product by child"
+  },
+  {
+    "drug":"DRUG:BAMINERCEPT",
+    "adverse_event":"AE:Xanthelasma",
+    "score":8.98379,
+    "has_adverse_event_edge":false,
+    "drug_name_clean":"BAMINERCEPT",
+    "ae_name_clean":"Xanthelasma"
+  },
+  {
+    "drug":"DRUG:AFAMITRESGENE AUTOLEUCEL",
+    "adverse_event":"AE:Application site haematoma",
+    "score":8.982263,
+    "has_adverse_event_edge":false,
+    "drug_name_clean":"AFAMITRESGENE AUTOLEUCEL",
+    "ae_name_clean":"Application site haematoma"
+  },
+  {
+    "drug":"DRUG:BENZONATATE",
+    "adverse_event":"AE:Generalised anxiety disorder",
+    "score":8.980429,
+    "has_adverse_event_edge":false,
+    "drug_name_clean":"BENZONATATE",
+    "ae_name_clean":"Generalised anxiety disorder"
+  },
+  {
+    "drug":"DRUG:GUSELKUMAB",
+    "adverse_event":"AE:Device leakage",
+    "score":8.973941,
+    "has_adverse_event_edge":true,
+    "drug_name_clean":"GUSELKUMAB",
+    "ae_name_clean":"Device leakage"
+  },
+  {
+    "drug":"DRUG:NALTREXONE",
+    "adverse_event":"AE:Anger",
+    "score":8.969195,
+    "has_adverse_event_edge":true,
+    "drug_name_clean":"NALTREXONE",
+    "ae_name_clean":"Anger"
+  },
+  {
+    "drug":"DRUG:DIAMORPHINE",
+    "adverse_event":"AE:Developmental delay",
+    "score":8.967401,
+    "has_adverse_event_edge":true,
+    "drug_name_clean":"DIAMORPHINE",
+    "ae_name_clean":"Developmental delay"
+  },
+  {
+    "drug":"DRUG:EMTRICITABINE;TENOFOVIR",
+    "adverse_event":"AE:Immune reconstitution inflammatory syndrome",
+    "score":8.966393,
+    "has_adverse_event_edge":true,
+    "drug_name_clean":"EMTRICITABINE;TENOFOVIR",
+    "ae_name_clean":"Immune reconstitution inflammatory syndrome"
+  },
+  {
+    "drug":"DRUG:DAGLUTRIL",
+    "adverse_event":"AE:Small bowel angioedema",
+    "score":8.956982,
+    "has_adverse_event_edge":false,
+    "drug_name_clean":"DAGLUTRIL",
+    "ae_name_clean":"Small bowel angioedema"
+  },
+  {
+    "drug":"DRUG:PETESICATIB",
+    "adverse_event":"AE:Brain natriuretic peptide decreased",
+    "score":8.953654,
+    "has_adverse_event_edge":false,
+    "drug_name_clean":"PETESICATIB",
+    "ae_name_clean":"Brain natriuretic peptide decreased"
+  },
+  {
+    "drug":"DRUG:RIVASTIGMINE",
+    "adverse_event":"AE:Dementia",
+    "score":8.95311,
+    "has_adverse_event_edge":true,
+    "drug_name_clean":"RIVASTIGMINE",
+    "ae_name_clean":"Dementia"
+  },
+  {
+    "drug":"DRUG:TREOSULFAN",
+    "adverse_event":"AE:Viraemia",
+    "score":8.94746,
+    "has_adverse_event_edge":true,
+    "drug_name_clean":"TREOSULFAN",
+    "ae_name_clean":"Viraemia"
+  },
+  {
+    "drug":"DRUG:EMTRICITABINE;TENOFOVIR",
+    "adverse_event":"AE:Multiple fractures",
+    "score":8.946068,
+    "has_adverse_event_edge":true,
+    "drug_name_clean":"EMTRICITABINE;TENOFOVIR",
+    "ae_name_clean":"Multiple fractures"
+  },
+  {
+    "drug":"DRUG:SVN53-67\/M57-KLH PEPTIDE VACCINE",
+    "adverse_event":"AE:Serratia bacteraemia",
+    "score":8.942031,
+    "has_adverse_event_edge":false,
+    "drug_name_clean":"SVN53-67\/M57-KLH PEPTIDE VACCINE",
+    "ae_name_clean":"Serratia bacteraemia"
+  },
+  {
+    "drug":"DRUG:TAS-106",
+    "adverse_event":"AE:Dermal sinus",
+    "score":8.929041,
+    "has_adverse_event_edge":false,
+    "drug_name_clean":"TAS-106",
+    "ae_name_clean":"Dermal sinus"
+  },
+  {
+    "drug":"DRUG:DAUNORUBICIN",
+    "adverse_event":"AE:Posterior reversible encephalopathy syndrome",
+    "score":8.92875,
+    "has_adverse_event_edge":true,
+    "drug_name_clean":"DAUNORUBICIN",
+    "ae_name_clean":"Posterior reversible encephalopathy syndrome"
+  },
+  {
+    "drug":"DRUG:BIMATOPROST",
+    "adverse_event":"AE:Eye irritation",
+    "score":8.928133,
+    "has_adverse_event_edge":true,
+    "drug_name_clean":"BIMATOPROST",
+    "ae_name_clean":"Eye irritation"
+  },
+  {
+    "drug":"DRUG:BUSULFAN",
+    "adverse_event":"AE:Immune reconstitution inflammatory syndrome",
+    "score":8.925107,
+    "has_adverse_event_edge":false,
+    "drug_name_clean":"BUSULFAN",
+    "ae_name_clean":"Immune reconstitution inflammatory syndrome"
+  },
+  {
+    "drug":"DRUG:PALIPERIDONE",
+    "adverse_event":"AE:Hyperprolactinaemia",
+    "score":8.924929,
+    "has_adverse_event_edge":true,
+    "drug_name_clean":"PALIPERIDONE",
+    "ae_name_clean":"Hyperprolactinaemia"
+  },
+  {
+    "drug":"DRUG:FELODIPINE",
+    "adverse_event":"AE:Product use complaint",
+    "score":8.923756,
+    "has_adverse_event_edge":false,
+    "drug_name_clean":"FELODIPINE",
+    "ae_name_clean":"Product use complaint"
+  },
+  {
+    "drug":"DRUG:CYCLOPHOSPHAMIDE;DOXORUBICIN;PREDNISONE;VINCRISTINE",
+    "adverse_event":"AE:Hepatitis B DNA increased",
+    "score":8.923489,
+    "has_adverse_event_edge":false,
+    "drug_name_clean":"CYCLOPHOSPHAMIDE;DOXORUBICIN;PREDNISONE;VINCRISTINE",
+    "ae_name_clean":"Hepatitis B DNA increased"
+  },
+  {
+    "drug":"DRUG:TAMIBAROTENE",
+    "adverse_event":"AE:Application site haematoma",
+    "score":8.920737,
+    "has_adverse_event_edge":false,
+    "drug_name_clean":"TAMIBAROTENE",
+    "ae_name_clean":"Application site haematoma"
+  },
+  {
+    "drug":"DRUG:CYAMEMAZINE",
+    "adverse_event":"AE:Blood creatine phosphokinase increased",
+    "score":8.917441,
+    "has_adverse_event_edge":true,
+    "drug_name_clean":"CYAMEMAZINE",
+    "ae_name_clean":"Blood creatine phosphokinase increased"
+  },
+  {
+    "drug":"DRUG:ASUNERCEPT",
+    "adverse_event":"AE:Infective spondylitis",
+    "score":8.91554,
+    "has_adverse_event_edge":false,
+    "drug_name_clean":"ASUNERCEPT",
+    "ae_name_clean":"Infective spondylitis"
+  },
+  {
+    "drug":"DRUG:TAS-106",
+    "adverse_event":"AE:Renal necrosis",
+    "score":8.912827,
+    "has_adverse_event_edge":false,
+    "drug_name_clean":"TAS-106",
+    "ae_name_clean":"Renal necrosis"
+  },
+  {
+    "drug":"DRUG:PEGILODECAKIN",
+    "adverse_event":"AE:Brain natriuretic peptide decreased",
+    "score":8.912783,
+    "has_adverse_event_edge":false,
+    "drug_name_clean":"PEGILODECAKIN",
+    "ae_name_clean":"Brain natriuretic peptide decreased"
+  },
+  {
+    "drug":"DRUG:NITISINONE",
+    "adverse_event":"AE:Iridocyclitis",
+    "score":8.909616,
+    "has_adverse_event_edge":false,
+    "drug_name_clean":"NITISINONE",
+    "ae_name_clean":"Iridocyclitis"
+  },
+  {
+    "drug":"DRUG:ELPETRIGINE",
+    "adverse_event":"AE:Repetitive speech",
+    "score":8.909269,
+    "has_adverse_event_edge":false,
+    "drug_name_clean":"ELPETRIGINE",
+    "ae_name_clean":"Repetitive speech"
+  },
+  {
+    "drug":"DRUG:ROSMANTUZUMAB",
+    "adverse_event":"AE:Application site haematoma",
+    "score":8.906171,
+    "has_adverse_event_edge":false,
+    "drug_name_clean":"ROSMANTUZUMAB",
+    "ae_name_clean":"Application site haematoma"
+  },
+  {
+    "drug":"DRUG:BENDAMUSTINE",
+    "adverse_event":"AE:Cytomegalovirus infection",
+    "score":8.903733,
+    "has_adverse_event_edge":true,
+    "drug_name_clean":"BENDAMUSTINE",
+    "ae_name_clean":"Cytomegalovirus infection"
+  },
+  {
+    "drug":"DRUG:POMALIDOMIDE",
+    "adverse_event":"AE:White blood cell count abnormal",
+    "score":8.902484,
+    "has_adverse_event_edge":true,
+    "drug_name_clean":"POMALIDOMIDE",
+    "ae_name_clean":"White blood cell count abnormal"
+  },
+  {
+    "drug":"DRUG:KB-004",
+    "adverse_event":"AE:Haematosalpinx",
+    "score":8.899669,
+    "has_adverse_event_edge":false,
+    "drug_name_clean":"KB-004",
+    "ae_name_clean":"Haematosalpinx"
+  },
+  {
+    "drug":"DRUG:BRENTUXIMAB VEDOTIN",
+    "adverse_event":"AE:Cytomegalovirus infection",
+    "score":8.898046,
+    "has_adverse_event_edge":true,
+    "drug_name_clean":"BRENTUXIMAB VEDOTIN",
+    "ae_name_clean":"Cytomegalovirus infection"
+  },
+  {
+    "drug":"DRUG:GATAPARSEN",
+    "adverse_event":"AE:Cannabinoid hyperemesis syndrome",
+    "score":8.897958,
+    "has_adverse_event_edge":false,
+    "drug_name_clean":"GATAPARSEN",
+    "ae_name_clean":"Cannabinoid hyperemesis syndrome"
+  },
+  {
+    "drug":"DRUG:DULOXETINE",
+    "adverse_event":"AE:Obsessive-compulsive disorder",
+    "score":8.890547,
+    "has_adverse_event_edge":true,
+    "drug_name_clean":"DULOXETINE",
+    "ae_name_clean":"Obsessive-compulsive disorder"
+  },
+  {
+    "drug":"DRUG:ISATUXIMAB",
+    "adverse_event":"AE:Cytomegalovirus infection",
+    "score":8.890398,
+    "has_adverse_event_edge":false,
+    "drug_name_clean":"ISATUXIMAB",
+    "ae_name_clean":"Cytomegalovirus infection"
+  },
+  {
+    "drug":"DRUG:DIAMORPHINE",
+    "adverse_event":"AE:Dystonia",
+    "score":8.881644,
+    "has_adverse_event_edge":true,
+    "drug_name_clean":"DIAMORPHINE",
+    "ae_name_clean":"Dystonia"
+  },
+  {
+    "drug":"DRUG:SILTUXIMAB",
+    "adverse_event":"AE:Neurogenic bladder",
+    "score":8.874768,
+    "has_adverse_event_edge":false,
+    "drug_name_clean":"SILTUXIMAB",
+    "ae_name_clean":"Neurogenic bladder"
+  },
+  {
+    "drug":"DRUG:ONABOTULINUMTOXINA",
+    "adverse_event":"AE:Small bowel angioedema",
+    "score":8.871918,
+    "has_adverse_event_edge":false,
+    "drug_name_clean":"ONABOTULINUMTOXINA",
+    "ae_name_clean":"Small bowel angioedema"
+  },
+  {
+    "drug":"DRUG:LURASIDONE",
+    "adverse_event":"AE:Panic disorder",
+    "score":8.869174,
+    "has_adverse_event_edge":true,
+    "drug_name_clean":"LURASIDONE",
+    "ae_name_clean":"Panic disorder"
+  },
+  {
+    "drug":"DRUG:BELATACEPT",
+    "adverse_event":"AE:Cytomegalovirus infection reactivation",
+    "score":8.866524,
+    "has_adverse_event_edge":false,
+    "drug_name_clean":"BELATACEPT",
+    "ae_name_clean":"Cytomegalovirus infection reactivation"
+  },
+  {
+    "drug":"DRUG:SUNITINIB",
+    "adverse_event":"AE:Tumour marker increased",
+    "score":8.862446,
+    "has_adverse_event_edge":false,
+    "drug_name_clean":"SUNITINIB",
+    "ae_name_clean":"Tumour marker increased"
+  },
+  {
+    "drug":"DRUG:PEGILODECAKIN",
+    "adverse_event":"AE:Anticoagulation drug level decreased",
+    "score":8.862361,
+    "has_adverse_event_edge":false,
+    "drug_name_clean":"PEGILODECAKIN",
+    "ae_name_clean":"Anticoagulation drug level decreased"
+  },
+  {
+    "drug":"DRUG:EDIFOLIGIDE SODIUM",
+    "adverse_event":"AE:Brain natriuretic peptide decreased",
+    "score":8.86145,
+    "has_adverse_event_edge":false,
+    "drug_name_clean":"EDIFOLIGIDE SODIUM",
+    "ae_name_clean":"Brain natriuretic peptide decreased"
+  },
+  {
+    "drug":"DRUG:TISAGENLECLEUCEL",
+    "adverse_event":"AE:Pneumonia fungal",
+    "score":8.855887,
+    "has_adverse_event_edge":true,
+    "drug_name_clean":"TISAGENLECLEUCEL",
+    "ae_name_clean":"Pneumonia fungal"
+  },
+  {
+    "drug":"DRUG:TAS-106",
+    "adverse_event":"AE:Application site haematoma",
+    "score":8.85442,
+    "has_adverse_event_edge":false,
+    "drug_name_clean":"TAS-106",
+    "ae_name_clean":"Application site haematoma"
+  },
+  {
+    "drug":"DRUG:OLAPARIB",
+    "adverse_event":"AE:Neoplasm progression",
+    "score":8.852966,
+    "has_adverse_event_edge":true,
+    "drug_name_clean":"OLAPARIB",
+    "ae_name_clean":"Neoplasm progression"
+  },
+  {
+    "drug":"DRUG:ELPETRIGINE",
+    "adverse_event":"AE:Haematosalpinx",
+    "score":8.852367,
+    "has_adverse_event_edge":false,
+    "drug_name_clean":"ELPETRIGINE",
+    "ae_name_clean":"Haematosalpinx"
+  },
+  {
+    "drug":"DRUG:MONALIZUMAB",
+    "adverse_event":"AE:Brain natriuretic peptide decreased",
+    "score":8.850977,
+    "has_adverse_event_edge":false,
+    "drug_name_clean":"MONALIZUMAB",
+    "ae_name_clean":"Brain natriuretic peptide decreased"
+  },
+  {
+    "drug":"DRUG:LISDEXAMFETAMINE",
+    "adverse_event":"AE:Extra dose administered",
+    "score":8.850426,
+    "has_adverse_event_edge":true,
+    "drug_name_clean":"LISDEXAMFETAMINE",
+    "ae_name_clean":"Extra dose administered"
+  },
+  {
+    "drug":"DRUG:HALOPERIDOL",
+    "adverse_event":"AE:Dystonia",
+    "score":8.84728,
+    "has_adverse_event_edge":true,
+    "drug_name_clean":"HALOPERIDOL",
+    "ae_name_clean":"Dystonia"
+  },
+  {
+    "drug":"DRUG:LATISSE 0.03%",
+    "adverse_event":"AE:Scleral hyperaemia",
+    "score":8.846887,
+    "has_adverse_event_edge":true,
+    "drug_name_clean":"LATISSE 0.03%",
+    "ae_name_clean":"Scleral hyperaemia"
+  },
+  {
+    "drug":"DRUG:AMFETAMINE",
+    "adverse_event":"AE:Substance abuse",
+    "score":8.841167,
+    "has_adverse_event_edge":true,
+    "drug_name_clean":"AMFETAMINE",
+    "ae_name_clean":"Substance abuse"
+  },
+  {
+    "drug":"DRUG:SELONSERTIB",
+    "adverse_event":"AE:Small intestinal ulcer haemorrhage",
+    "score":8.841166,
+    "has_adverse_event_edge":false,
+    "drug_name_clean":"SELONSERTIB",
+    "ae_name_clean":"Small intestinal ulcer haemorrhage"
+  },
+  {
+    "drug":"DRUG:NUSINERSEN",
+    "adverse_event":"AE:Infusion related reaction",
+    "score":8.836276,
+    "has_adverse_event_edge":false,
+    "drug_name_clean":"NUSINERSEN",
+    "ae_name_clean":"Infusion related reaction"
+  },
+  {
+    "drug":"DRUG:BUSULFAN",
+    "adverse_event":"AE:Cytokine release syndrome",
+    "score":8.835871,
+    "has_adverse_event_edge":false,
+    "drug_name_clean":"BUSULFAN",
+    "ae_name_clean":"Cytokine release syndrome"
+  },
+  {
+    "drug":"DRUG:MITOXANTRONE",
+    "adverse_event":"AE:Acute lymphocytic leukaemia recurrent",
+    "score":8.829925,
+    "has_adverse_event_edge":true,
+    "drug_name_clean":"MITOXANTRONE",
+    "ae_name_clean":"Acute lymphocytic leukaemia recurrent"
+  },
+  {
+    "drug":"DRUG:CABOTEGRAVIR;RILPIVIRINE",
+    "adverse_event":"AE:Syringe issue",
+    "score":8.82663,
+    "has_adverse_event_edge":false,
+    "drug_name_clean":"CABOTEGRAVIR;RILPIVIRINE",
+    "ae_name_clean":"Syringe issue"
+  },
+  {
+    "drug":"DRUG:ROSIPTOR",
+    "adverse_event":"AE:Renal necrosis",
+    "score":8.823252,
+    "has_adverse_event_edge":false,
+    "drug_name_clean":"ROSIPTOR",
+    "ae_name_clean":"Renal necrosis"
+  },
+  {
+    "drug":"DRUG:SELONSERTIB",
+    "adverse_event":"AE:BLADDER CANCER",
+    "score":8.822145,
+    "has_adverse_event_edge":false,
+    "drug_name_clean":"SELONSERTIB",
+    "ae_name_clean":"BLADDER CANCER"
+  },
+  {
+    "drug":"DRUG:DURVALUMAB",
+    "adverse_event":"AE:Cytokine release syndrome",
+    "score":8.821237,
+    "has_adverse_event_edge":true,
+    "drug_name_clean":"DURVALUMAB",
+    "ae_name_clean":"Cytokine release syndrome"
+  },
+  {
+    "drug":"DRUG:FOSCARBIDOPA;FOSLEVODOPA",
+    "adverse_event":"AE:Inability to afford medication",
+    "score":8.820975,
+    "has_adverse_event_edge":false,
+    "drug_name_clean":"FOSCARBIDOPA;FOSLEVODOPA",
+    "ae_name_clean":"Inability to afford medication"
+  },
+  {
+    "drug":"DRUG:PLITIDEPSIN",
+    "adverse_event":"AE:Duchenne muscular dystrophy",
+    "score":8.816947,
+    "has_adverse_event_edge":false,
+    "drug_name_clean":"PLITIDEPSIN",
+    "ae_name_clean":"Duchenne muscular dystrophy"
+  },
+  {
+    "drug":"DRUG:BENDAMUSTINE",
+    "adverse_event":"AE:Cytokine release syndrome",
+    "score":8.811679,
+    "has_adverse_event_edge":true,
+    "drug_name_clean":"BENDAMUSTINE",
+    "ae_name_clean":"Cytokine release syndrome"
+  },
+  {
+    "drug":"DRUG:OXYMORPHONE",
+    "adverse_event":"AE:Exposure via father",
+    "score":8.811435,
+    "has_adverse_event_edge":false,
+    "drug_name_clean":"OXYMORPHONE",
+    "ae_name_clean":"Exposure via father"
+  },
+  {
+    "drug":"DRUG:GANCICLOVIR",
+    "adverse_event":"AE:Cytomegalovirus viraemia",
+    "score":8.804566,
+    "has_adverse_event_edge":true,
+    "drug_name_clean":"GANCICLOVIR",
+    "ae_name_clean":"Cytomegalovirus viraemia"
+  },
+  {
+    "drug":"DRUG:DIAMORPHINE",
+    "adverse_event":"AE:Respiratory depression",
+    "score":8.803832,
+    "has_adverse_event_edge":true,
+    "drug_name_clean":"DIAMORPHINE",
+    "ae_name_clean":"Respiratory depression"
+  },
+  {
+    "drug":"DRUG:LENACAPAVIR",
+    "adverse_event":"AE:Device difficult to use",
+    "score":8.80063,
+    "has_adverse_event_edge":false,
+    "drug_name_clean":"LENACAPAVIR",
+    "ae_name_clean":"Device difficult to use"
+  },
+  {
+    "drug":"DRUG:GEMCITABINE HYDROCHLORIDE",
+    "adverse_event":"AE:Granulocyte count decreased",
+    "score":8.797081,
+    "has_adverse_event_edge":false,
+    "drug_name_clean":"GEMCITABINE HYDROCHLORIDE",
+    "ae_name_clean":"Granulocyte count decreased"
+  },
+  {
+    "drug":"DRUG:BROLUCIZUMAB",
+    "adverse_event":"AE:Lymphocytic infiltration",
+    "score":8.796393,
+    "has_adverse_event_edge":false,
+    "drug_name_clean":"BROLUCIZUMAB",
+    "ae_name_clean":"Lymphocytic infiltration"
+  },
+  {
+    "drug":"DRUG:ARTIFICIAL TEARS;GLYCEROL",
+    "adverse_event":"AE:Product container issue",
+    "score":8.793955,
+    "has_adverse_event_edge":false,
+    "drug_name_clean":"ARTIFICIAL TEARS;GLYCEROL",
+    "ae_name_clean":"Product container issue"
+  },
+  {
+    "drug":"DRUG:GLUCOSE;MAGNESIUM;SODIUM CHLORIDE;SODIUM LACTATE",
+    "adverse_event":"AE:Pulmonary oedema",
+    "score":8.793134,
+    "has_adverse_event_edge":true,
+    "drug_name_clean":"GLUCOSE;MAGNESIUM;SODIUM CHLORIDE;SODIUM LACTATE",
+    "ae_name_clean":"Pulmonary oedema"
+  },
+  {
+    "drug":"DRUG:FIDAXOMICIN",
+    "adverse_event":"AE:Enterocolitis haemorrhagic",
+    "score":8.793109,
+    "has_adverse_event_edge":false,
+    "drug_name_clean":"FIDAXOMICIN",
+    "ae_name_clean":"Enterocolitis haemorrhagic"
+  },
+  {
+    "drug":"DRUG:REMINERTANT",
+    "adverse_event":"AE:Application site haematoma",
+    "score":8.791316,
+    "has_adverse_event_edge":false,
+    "drug_name_clean":"REMINERTANT",
+    "ae_name_clean":"Application site haematoma"
+  },
+  {
+    "drug":"DRUG:CARMUSTINE",
+    "adverse_event":"AE:Myelosuppression",
+    "score":8.787036,
+    "has_adverse_event_edge":true,
+    "drug_name_clean":"CARMUSTINE",
+    "ae_name_clean":"Myelosuppression"
+  },
+  {
+    "drug":"DRUG:KB-004",
+    "adverse_event":"AE:Repetitive speech",
+    "score":8.778483,
+    "has_adverse_event_edge":false,
+    "drug_name_clean":"KB-004",
+    "ae_name_clean":"Repetitive speech"
+  },
+  {
+    "drug":"DRUG:DURVALUMAB",
+    "adverse_event":"AE:Peritonitis",
+    "score":8.77774,
+    "has_adverse_event_edge":false,
+    "drug_name_clean":"DURVALUMAB",
+    "ae_name_clean":"Peritonitis"
+  },
+  {
+    "drug":"DRUG:ANTITHYMOCYTE IMMUNOGLOBULIN",
+    "adverse_event":"AE:Hepatitis B reactivation",
+    "score":8.776388,
+    "has_adverse_event_edge":true,
+    "drug_name_clean":"ANTITHYMOCYTE IMMUNOGLOBULIN",
+    "ae_name_clean":"Hepatitis B reactivation"
+  },
+  {
+    "drug":"DRUG:TAS0612",
+    "adverse_event":"AE:Catheter site cellulitis",
+    "score":8.773759,
+    "has_adverse_event_edge":false,
+    "drug_name_clean":"TAS0612",
+    "ae_name_clean":"Catheter site cellulitis"
+  },
+  {
+    "drug":"DRUG:XENTUZUMAB",
+    "adverse_event":"AE:Ichthyosis",
+    "score":8.772644,
+    "has_adverse_event_edge":false,
+    "drug_name_clean":"XENTUZUMAB",
+    "ae_name_clean":"Ichthyosis"
+  },
+  {
+    "drug":"DRUG:MICAFUNGIN SODIUM",
+    "adverse_event":"AE:Nephrogenic anaemia",
+    "score":8.768149,
+    "has_adverse_event_edge":false,
+    "drug_name_clean":"MICAFUNGIN SODIUM",
+    "ae_name_clean":"Nephrogenic anaemia"
+  },
+  {
+    "drug":"DRUG:ELPETRIGINE",
+    "adverse_event":"AE:Precipitate labour",
+    "score":8.767703,
+    "has_adverse_event_edge":false,
+    "drug_name_clean":"ELPETRIGINE",
+    "ae_name_clean":"Precipitate labour"
+  },
+  {
+    "drug":"DRUG:FOSCARBIDOPA;FOSLEVODOPA",
+    "adverse_event":"AE:Device dislocation",
+    "score":8.766444,
+    "has_adverse_event_edge":true,
+    "drug_name_clean":"FOSCARBIDOPA;FOSLEVODOPA",
+    "ae_name_clean":"Device dislocation"
+  },
+  {
+    "drug":"DRUG:BHQ-880",
+    "adverse_event":"AE:Duchenne muscular dystrophy",
+    "score":8.764643,
+    "has_adverse_event_edge":false,
+    "drug_name_clean":"BHQ-880",
+    "ae_name_clean":"Duchenne muscular dystrophy"
+  },
+  {
+    "drug":"DRUG:FLANVOTUMAB",
+    "adverse_event":"AE:Brain natriuretic peptide decreased",
+    "score":8.763625,
+    "has_adverse_event_edge":false,
+    "drug_name_clean":"FLANVOTUMAB",
+    "ae_name_clean":"Brain natriuretic peptide decreased"
+  },
+  {
+    "drug":"DRUG:SITAGLIPTIN",
+    "adverse_event":"AE:Inability to afford medication",
+    "score":8.762397,
+    "has_adverse_event_edge":true,
+    "drug_name_clean":"SITAGLIPTIN",
+    "ae_name_clean":"Inability to afford medication"
+  },
+  {
+    "drug":"DRUG:ANTITHYMOCYTE IMMUNOGLOBULIN",
+    "adverse_event":"AE:Varicella zoster virus infection",
+    "score":8.761833,
+    "has_adverse_event_edge":true,
+    "drug_name_clean":"ANTITHYMOCYTE IMMUNOGLOBULIN",
+    "ae_name_clean":"Varicella zoster virus infection"
+  },
+  {
+    "drug":"DRUG:TAS-106",
+    "adverse_event":"AE:Blood calcitonin increased",
+    "score":8.761238,
+    "has_adverse_event_edge":false,
+    "drug_name_clean":"TAS-106",
+    "ae_name_clean":"Blood calcitonin increased"
+  },
+  {
+    "drug":"DRUG:MENTHOL",
+    "adverse_event":"AE:Anal cancer",
+    "score":8.751269,
+    "has_adverse_event_edge":false,
+    "drug_name_clean":"MENTHOL",
+    "ae_name_clean":"Anal cancer"
+  },
+  {
+    "drug":"DRUG:ATEZOLIZUMAB",
+    "adverse_event":"AE:Neoplasm progression",
+    "score":8.749236,
+    "has_adverse_event_edge":true,
+    "drug_name_clean":"ATEZOLIZUMAB",
+    "ae_name_clean":"Neoplasm progression"
+  },
+  {
+    "drug":"DRUG:IFOSFAMIDE",
+    "adverse_event":"AE:Granulocyte count decreased",
+    "score":8.748488,
+    "has_adverse_event_edge":false,
+    "drug_name_clean":"IFOSFAMIDE",
+    "ae_name_clean":"Granulocyte count decreased"
+  },
+  {
+    "drug":"DRUG:SELONSERTIB",
+    "adverse_event":"AE:Panophthalmitis",
+    "score":8.746391,
+    "has_adverse_event_edge":false,
+    "drug_name_clean":"SELONSERTIB",
+    "ae_name_clean":"Panophthalmitis"
+  },
+  {
+    "drug":"DRUG:TRAZODONE",
+    "adverse_event":"AE:Suspected suicide",
+    "score":8.744089,
+    "has_adverse_event_edge":true,
+    "drug_name_clean":"TRAZODONE",
+    "ae_name_clean":"Suspected suicide"
+  },
+  {
+    "drug":"DRUG:LORATADINE",
+    "adverse_event":"AE:Product use complaint",
+    "score":8.742708,
+    "has_adverse_event_edge":true,
+    "drug_name_clean":"LORATADINE",
+    "ae_name_clean":"Product use complaint"
+  },
+  {
+    "drug":"DRUG:DIAMORPHINE",
+    "adverse_event":"AE:Accidental exposure to product by child",
+    "score":8.738902,
+    "has_adverse_event_edge":false,
+    "drug_name_clean":"DIAMORPHINE",
+    "ae_name_clean":"Accidental exposure to product by child"
+  },
+  {
+    "drug":"DRUG:FLETIKUMAB",
+    "adverse_event":"AE:Ichthyosis",
+    "score":8.73797,
+    "has_adverse_event_edge":false,
+    "drug_name_clean":"FLETIKUMAB",
+    "ae_name_clean":"Ichthyosis"
+  },
+  {
+    "drug":"DRUG:CARIPRAZINE",
+    "adverse_event":"AE:Tic",
+    "score":8.736131,
+    "has_adverse_event_edge":false,
+    "drug_name_clean":"CARIPRAZINE",
+    "ae_name_clean":"Tic"
+  },
+  {
+    "drug":"DRUG:LUTIKIZUMAB",
+    "adverse_event":"AE:Application site haematoma",
+    "score":8.735274,
+    "has_adverse_event_edge":false,
+    "drug_name_clean":"LUTIKIZUMAB",
+    "ae_name_clean":"Application site haematoma"
+  },
+  {
+    "drug":"DRUG:METFORMIN;ROSIGLITAZONE",
+    "adverse_event":"AE:Cerebral infarction",
+    "score":8.732313,
+    "has_adverse_event_edge":true,
+    "drug_name_clean":"METFORMIN;ROSIGLITAZONE",
+    "ae_name_clean":"Cerebral infarction"
+  },
+  {
+    "drug":"DRUG:ALTEPLASE",
+    "adverse_event":"AE:Acute generalised exanthematous pustulosis",
+    "score":8.731355,
+    "has_adverse_event_edge":false,
+    "drug_name_clean":"ALTEPLASE",
+    "ae_name_clean":"Acute generalised exanthematous pustulosis"
+  },
+  {
+    "drug":"DRUG:TAS0612",
+    "adverse_event":"AE:Splenorenal shunt",
+    "score":8.726098,
+    "has_adverse_event_edge":false,
+    "drug_name_clean":"TAS0612",
+    "ae_name_clean":"Splenorenal shunt"
+  },
+  {
+    "drug":"DRUG:CLOFARABINE",
+    "adverse_event":"AE:Post transplant lymphoproliferative disorder",
+    "score":8.722752,
+    "has_adverse_event_edge":false,
+    "drug_name_clean":"CLOFARABINE",
+    "ae_name_clean":"Post transplant lymphoproliferative disorder"
+  },
+  {
+    "drug":"DRUG:GATAPARSEN",
+    "adverse_event":"AE:Patent ductus arteriosus repair",
+    "score":8.722692,
+    "has_adverse_event_edge":false,
+    "drug_name_clean":"GATAPARSEN",
+    "ae_name_clean":"Patent ductus arteriosus repair"
+  },
+  {
+    "drug":"DRUG:POLATUZUMAB VEDOTIN",
+    "adverse_event":"AE:Granulocytopenia",
+    "score":8.719386,
+    "has_adverse_event_edge":false,
+    "drug_name_clean":"POLATUZUMAB VEDOTIN",
+    "ae_name_clean":"Granulocytopenia"
+  },
+  {
+    "drug":"DRUG:EPACADOSTAT",
+    "adverse_event":"AE:Brain natriuretic peptide decreased",
+    "score":8.719216,
+    "has_adverse_event_edge":false,
+    "drug_name_clean":"EPACADOSTAT",
+    "ae_name_clean":"Brain natriuretic peptide decreased"
+  },
+  {
+    "drug":"DRUG:QUETIAPINE FUMARATE",
+    "adverse_event":"AE:Drug interaction",
+    "score":8.715872,
+    "has_adverse_event_edge":true,
+    "drug_name_clean":"QUETIAPINE FUMARATE",
+    "ae_name_clean":"Drug interaction"
+  },
+  {
+    "drug":"DRUG:KETAMINE",
+    "adverse_event":"AE:Depressed level of consciousness",
+    "score":8.713891,
+    "has_adverse_event_edge":true,
+    "drug_name_clean":"KETAMINE",
+    "ae_name_clean":"Depressed level of consciousness"
+  },
+  {
+    "drug":"DRUG:CANAGLIFLOZIN;METFORMIN",
+    "adverse_event":"AE:Euglycaemic diabetic ketoacidosis",
+    "score":8.711725,
+    "has_adverse_event_edge":false,
+    "drug_name_clean":"CANAGLIFLOZIN;METFORMIN",
+    "ae_name_clean":"Euglycaemic diabetic ketoacidosis"
+  },
+  {
+    "drug":"DRUG:INGENOL",
+    "adverse_event":"AE:Application site discolouration",
+    "score":8.705173,
+    "has_adverse_event_edge":true,
+    "drug_name_clean":"INGENOL",
+    "ae_name_clean":"Application site discolouration"
+  },
+  {
+    "drug":"DRUG:FLUTICASONE;UMECLIDINIUM;VILANTEROL",
+    "adverse_event":"AE:Productive cough",
+    "score":8.704551,
+    "has_adverse_event_edge":true,
+    "drug_name_clean":"FLUTICASONE;UMECLIDINIUM;VILANTEROL",
+    "ae_name_clean":"Productive cough"
+  },
+  {
+    "drug":"DRUG:ELADOCAGENE EXUPARVOVEC",
+    "adverse_event":"AE:Haematosalpinx",
+    "score":8.703896,
+    "has_adverse_event_edge":false,
+    "drug_name_clean":"ELADOCAGENE EXUPARVOVEC",
+    "ae_name_clean":"Haematosalpinx"
+  },
+  {
+    "drug":"DRUG:CEFTRIAXONE",
+    "adverse_event":"AE:Shock",
+    "score":8.702727,
+    "has_adverse_event_edge":true,
+    "drug_name_clean":"CEFTRIAXONE",
+    "ae_name_clean":"Shock"
+  },
+  {
+    "drug":"DRUG:BROLUCIZUMAB",
+    "adverse_event":"AE:Foreign body sensation in eyes",
+    "score":8.701896,
+    "has_adverse_event_edge":true,
+    "drug_name_clean":"BROLUCIZUMAB",
+    "ae_name_clean":"Foreign body sensation in eyes"
+  },
+  {
+    "drug":"DRUG:BRIGATINIB",
+    "adverse_event":"AE:Off label use",
+    "score":8.701465,
+    "has_adverse_event_edge":true,
+    "drug_name_clean":"BRIGATINIB",
+    "ae_name_clean":"Off label use"
+  },
+  {
+    "drug":"DRUG:AMISULPRIDE",
+    "adverse_event":"AE:Accidental exposure to product by child",
+    "score":8.69994,
+    "has_adverse_event_edge":true,
+    "drug_name_clean":"AMISULPRIDE",
+    "ae_name_clean":"Accidental exposure to product by child"
+  },
+  {
+    "drug":"DRUG:BLINATUMOMAB",
+    "adverse_event":"AE:Blast cell count increased",
+    "score":8.698829,
+    "has_adverse_event_edge":true,
+    "drug_name_clean":"BLINATUMOMAB",
+    "ae_name_clean":"Blast cell count increased"
+  },
+  {
+    "drug":"DRUG:FLUTICASONE;SALMETEROL",
+    "adverse_event":"AE:Throat clearing",
+    "score":8.697976,
+    "has_adverse_event_edge":true,
+    "drug_name_clean":"FLUTICASONE;SALMETEROL",
+    "ae_name_clean":"Throat clearing"
+  },
+  {
+    "drug":"DRUG:MYCOPHENOLIC ACID",
+    "adverse_event":"AE:Escherichia infection",
+    "score":8.697511,
+    "has_adverse_event_edge":true,
+    "drug_name_clean":"MYCOPHENOLIC ACID",
+    "ae_name_clean":"Escherichia infection"
+  },
+  {
+    "drug":"DRUG:INGENOL",
+    "adverse_event":"AE:Application site erythema",
+    "score":8.697209,
+    "has_adverse_event_edge":true,
+    "drug_name_clean":"INGENOL",
+    "ae_name_clean":"Application site erythema"
+  },
+  {
+    "drug":"DRUG:PALOSURAN",
+    "adverse_event":"AE:Brain natriuretic peptide decreased",
+    "score":8.696685,
+    "has_adverse_event_edge":false,
+    "drug_name_clean":"PALOSURAN",
+    "ae_name_clean":"Brain natriuretic peptide decreased"
+  },
+  {
+    "drug":"DRUG:NNC0114-0006",
+    "adverse_event":"AE:Catheter site cellulitis",
+    "score":8.696276,
+    "has_adverse_event_edge":false,
+    "drug_name_clean":"NNC0114-0006",
+    "ae_name_clean":"Catheter site cellulitis"
+  },
+  {
+    "drug":"DRUG:VALDECOXIB",
+    "adverse_event":"AE:Anorectal discomfort",
+    "score":8.69511,
+    "has_adverse_event_edge":false,
+    "drug_name_clean":"VALDECOXIB",
+    "ae_name_clean":"Anorectal discomfort"
+  },
+  {
+    "drug":"DRUG:VARESPLADIB",
+    "adverse_event":"AE:Blood calcitonin increased",
+    "score":8.69488,
+    "has_adverse_event_edge":false,
+    "drug_name_clean":"VARESPLADIB",
+    "ae_name_clean":"Blood calcitonin increased"
+  },
+  {
+    "drug":"DRUG:BASILIXIMAB",
+    "adverse_event":"AE:Peritonitis",
+    "score":8.689623,
+    "has_adverse_event_edge":true,
+    "drug_name_clean":"BASILIXIMAB",
+    "ae_name_clean":"Peritonitis"
+  },
+  {
+    "drug":"DRUG:LURASIDONE",
+    "adverse_event":"AE:Catatonia",
+    "score":8.688354,
+    "has_adverse_event_edge":true,
+    "drug_name_clean":"LURASIDONE",
+    "ae_name_clean":"Catatonia"
+  },
+  {
+    "drug":"DRUG:GLIMEPIRIDE;ROSIGLITAZONE",
+    "adverse_event":"AE:Hereditary angioedema",
+    "score":8.687176,
+    "has_adverse_event_edge":false,
+    "drug_name_clean":"GLIMEPIRIDE;ROSIGLITAZONE",
+    "ae_name_clean":"Hereditary angioedema"
+  },
+  {
+    "drug":"DRUG:ALIMEMAZINE",
+    "adverse_event":"AE:Accidental exposure to product by child",
+    "score":8.686362,
+    "has_adverse_event_edge":false,
+    "drug_name_clean":"ALIMEMAZINE",
+    "ae_name_clean":"Accidental exposure to product by child"
+  },
+  {
+    "drug":"DRUG:PEGILODECAKIN",
+    "adverse_event":"AE:Haematosalpinx",
+    "score":8.683281,
+    "has_adverse_event_edge":false,
+    "drug_name_clean":"PEGILODECAKIN",
+    "ae_name_clean":"Haematosalpinx"
+  },
+  {
+    "drug":"DRUG:TEMELIMAB",
+    "adverse_event":"AE:Brain natriuretic peptide decreased",
+    "score":8.681871,
+    "has_adverse_event_edge":false,
+    "drug_name_clean":"TEMELIMAB",
+    "ae_name_clean":"Brain natriuretic peptide decreased"
+  },
+  {
+    "drug":"DRUG:TIVANISIRAN",
+    "adverse_event":"AE:Influenza immunisation",
+    "score":8.681779,
+    "has_adverse_event_edge":false,
+    "drug_name_clean":"TIVANISIRAN",
+    "ae_name_clean":"Influenza immunisation"
+  },
+  {
+    "drug":"DRUG:MENTHOL",
+    "adverse_event":"AE:Dependence",
+    "score":8.679464,
+    "has_adverse_event_edge":false,
+    "drug_name_clean":"MENTHOL",
+    "ae_name_clean":"Dependence"
+  },
+  {
+    "drug":"DRUG:ONABOTULINUMTOXINA",
+    "adverse_event":"AE:Anticoagulation drug level decreased",
+    "score":8.679135,
+    "has_adverse_event_edge":false,
+    "drug_name_clean":"ONABOTULINUMTOXINA",
+    "ae_name_clean":"Anticoagulation drug level decreased"
+  },
+  {
+    "drug":"DRUG:ALOGLIPTIN;METFORMIN",
+    "adverse_event":"AE:Autoscopy",
+    "score":8.678503,
+    "has_adverse_event_edge":false,
+    "drug_name_clean":"ALOGLIPTIN;METFORMIN",
+    "ae_name_clean":"Autoscopy"
+  },
+  {
+    "drug":"DRUG:SODIUM DICHLOROACETATE",
+    "adverse_event":"AE:Duchenne muscular dystrophy",
+    "score":8.676978,
+    "has_adverse_event_edge":false,
+    "drug_name_clean":"SODIUM DICHLOROACETATE",
+    "ae_name_clean":"Duchenne muscular dystrophy"
+  },
+  {
+    "drug":"DRUG:CYTARABINE",
+    "adverse_event":"AE:Neutropenic colitis",
+    "score":8.676189,
+    "has_adverse_event_edge":true,
+    "drug_name_clean":"CYTARABINE",
+    "ae_name_clean":"Neutropenic colitis"
+  },
+  {
+    "drug":"DRUG:FLUDARABINE",
+    "adverse_event":"AE:Post transplant lymphoproliferative disorder",
+    "score":8.669301,
+    "has_adverse_event_edge":true,
+    "drug_name_clean":"FLUDARABINE",
+    "ae_name_clean":"Post transplant lymphoproliferative disorder"
+  },
+  {
+    "drug":"DRUG:ETOPOSIDE",
+    "adverse_event":"AE:Follicular lymphoma",
+    "score":8.666039,
+    "has_adverse_event_edge":true,
+    "drug_name_clean":"ETOPOSIDE",
+    "ae_name_clean":"Follicular lymphoma"
+  },
+  {
+    "drug":"DRUG:KB-004",
+    "adverse_event":"AE:Infective spondylitis",
+    "score":8.664295,
+    "has_adverse_event_edge":false,
+    "drug_name_clean":"KB-004",
+    "ae_name_clean":"Infective spondylitis"
+  },
+  {
+    "drug":"DRUG:FLUDARABINE",
+    "adverse_event":"AE:Myelosuppression",
+    "score":8.661237,
+    "has_adverse_event_edge":true,
+    "drug_name_clean":"FLUDARABINE",
+    "ae_name_clean":"Myelosuppression"
+  },
+  {
+    "drug":"DRUG:ZATOLMILAST",
+    "adverse_event":"AE:Blood calcitonin increased",
+    "score":8.659266,
+    "has_adverse_event_edge":false,
+    "drug_name_clean":"ZATOLMILAST",
+    "ae_name_clean":"Blood calcitonin increased"
+  },
+  {
+    "drug":"DRUG:TREMELIMUMAB",
+    "adverse_event":"AE:Thrombocytopenia",
+    "score":8.657151,
+    "has_adverse_event_edge":true,
+    "drug_name_clean":"TREMELIMUMAB",
+    "ae_name_clean":"Thrombocytopenia"
+  },
+  {
+    "drug":"DRUG:FLAVOXATE HYDROCHLORIDE",
+    "adverse_event":"AE:Laryngeal necrosis",
+    "score":8.656156,
+    "has_adverse_event_edge":false,
+    "drug_name_clean":"FLAVOXATE HYDROCHLORIDE",
+    "ae_name_clean":"Laryngeal necrosis"
+  },
+  {
+    "drug":"DRUG:BOSENTAN",
+    "adverse_event":"AE:Cardiac failure acute",
+    "score":8.649615,
+    "has_adverse_event_edge":true,
+    "drug_name_clean":"BOSENTAN",
+    "ae_name_clean":"Cardiac failure acute"
+  },
+  {
+    "drug":"DRUG:AMIODARONE",
+    "adverse_event":"AE:Cardiac failure chronic",
+    "score":8.648887,
+    "has_adverse_event_edge":true,
+    "drug_name_clean":"AMIODARONE",
+    "ae_name_clean":"Cardiac failure chronic"
+  },
+  {
+    "drug":"DRUG:CIDOFOVIR",
+    "adverse_event":"AE:Varicella zoster virus infection",
+    "score":8.64825,
+    "has_adverse_event_edge":false,
+    "drug_name_clean":"CIDOFOVIR",
+    "ae_name_clean":"Varicella zoster virus infection"
+  },
+  {
+    "drug":"DRUG:PF-04605412",
+    "adverse_event":"AE:Blood calcitonin increased",
+    "score":8.646885,
+    "has_adverse_event_edge":false,
+    "drug_name_clean":"PF-04605412",
+    "ae_name_clean":"Blood calcitonin increased"
+  },
+  {
+    "drug":"DRUG:INGENOL",
+    "adverse_event":"AE:Application site dryness",
+    "score":8.644592,
+    "has_adverse_event_edge":true,
+    "drug_name_clean":"INGENOL",
+    "ae_name_clean":"Application site dryness"
+  },
+  {
+    "drug":"DRUG:POLATUZUMAB VEDOTIN",
+    "adverse_event":"AE:Cytokine release syndrome",
+    "score":8.64415,
+    "has_adverse_event_edge":true,
+    "drug_name_clean":"POLATUZUMAB VEDOTIN",
+    "ae_name_clean":"Cytokine release syndrome"
+  },
+  {
+    "drug":"DRUG:ABT-751",
+    "adverse_event":"AE:Aortic pseudoaneurysm",
+    "score":8.643534,
+    "has_adverse_event_edge":false,
+    "drug_name_clean":"ABT-751",
+    "ae_name_clean":"Aortic pseudoaneurysm"
+  },
+  {
+    "drug":"DRUG:INOTUZUMAB",
+    "adverse_event":"AE:Acute lymphocytic leukaemia recurrent",
+    "score":8.641344,
+    "has_adverse_event_edge":true,
+    "drug_name_clean":"INOTUZUMAB",
+    "ae_name_clean":"Acute lymphocytic leukaemia recurrent"
+  },
+  {
+    "drug":"DRUG:BASILIXIMAB",
+    "adverse_event":"AE:Transplant dysfunction",
+    "score":8.636042,
+    "has_adverse_event_edge":true,
+    "drug_name_clean":"BASILIXIMAB",
+    "ae_name_clean":"Transplant dysfunction"
+  },
+  {
+    "drug":"DRUG:CHLORAMBUCIL",
+    "adverse_event":"AE:Myelosuppression",
+    "score":8.63596,
+    "has_adverse_event_edge":false,
+    "drug_name_clean":"CHLORAMBUCIL",
+    "ae_name_clean":"Myelosuppression"
+  },
+  {
+    "drug":"DRUG:QUETIAPINE FUMARATE",
+    "adverse_event":"AE:Neuroleptic malignant syndrome",
+    "score":8.634943,
+    "has_adverse_event_edge":true,
+    "drug_name_clean":"QUETIAPINE FUMARATE",
+    "ae_name_clean":"Neuroleptic malignant syndrome"
+  },
+  {
+    "drug":"DRUG:MILRINONE",
+    "adverse_event":"AE:Hepatitis C",
+    "score":8.634646,
+    "has_adverse_event_edge":false,
+    "drug_name_clean":"MILRINONE",
+    "ae_name_clean":"Hepatitis C"
+  },
+  {
+    "drug":"DRUG:CARIPRAZINE",
+    "adverse_event":"AE:Abnormal dreams",
+    "score":8.63423,
+    "has_adverse_event_edge":false,
+    "drug_name_clean":"CARIPRAZINE",
+    "ae_name_clean":"Abnormal dreams"
+  },
+  {
+    "drug":"DRUG:EPCORITAMAB",
+    "adverse_event":"AE:Post transplant lymphoproliferative disorder",
+    "score":8.63312,
+    "has_adverse_event_edge":false,
+    "drug_name_clean":"EPCORITAMAB",
+    "ae_name_clean":"Post transplant lymphoproliferative disorder"
+  },
+  {
+    "drug":"DRUG:BUSPIRONE",
+    "adverse_event":"AE:Substance abuse",
+    "score":8.631404,
+    "has_adverse_event_edge":false,
+    "drug_name_clean":"BUSPIRONE",
+    "ae_name_clean":"Substance abuse"
+  },
+  {
+    "drug":"DRUG:PRAMLINTIDE ACETATE",
+    "adverse_event":"AE:Infective spondylitis",
+    "score":8.631385,
+    "has_adverse_event_edge":false,
+    "drug_name_clean":"PRAMLINTIDE ACETATE",
+    "ae_name_clean":"Infective spondylitis"
+  },
+  {
+    "drug":"DRUG:DURVALUMAB",
+    "adverse_event":"AE:Neoplasm progression",
+    "score":8.631074,
+    "has_adverse_event_edge":true,
+    "drug_name_clean":"DURVALUMAB",
+    "ae_name_clean":"Neoplasm progression"
+  },
+  {
+    "drug":"DRUG:DAUNORUBICIN",
+    "adverse_event":"AE:Shock",
+    "score":8.630419,
+    "has_adverse_event_edge":true,
+    "drug_name_clean":"DAUNORUBICIN",
+    "ae_name_clean":"Shock"
+  },
+  {
+    "drug":"DRUG:ASPARAGINASE",
+    "adverse_event":"AE:Neutropenic colitis",
+    "score":8.630221,
+    "has_adverse_event_edge":true,
+    "drug_name_clean":"ASPARAGINASE",
+    "ae_name_clean":"Neutropenic colitis"
+  }
+]

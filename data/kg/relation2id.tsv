@@ -1,7 +1,0 @@
-relation	id
-has_adverse_event	0
-interacts_with	1
-participates_in	2
-sex_differential_adverse_event	3
-sex_differential_expression	4
-targets	5

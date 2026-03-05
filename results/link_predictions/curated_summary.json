@@ -1,0 +1,8 @@
+{
+  "total_raw_predictions": 500,
+  "well_established_predictions": 227,
+  "known_association_novel_sexdiff": 143,
+  "truly_novel_pairs": 84,
+  "unique_drugs_in_curated": 141,
+  "min_drug_ae_edges": 50
+}

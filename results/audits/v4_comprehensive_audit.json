@@ -1,0 +1,187 @@
+{
+  "checks": [
+    {
+      "name": "FAERS demo files exist",
+      "status": "FAIL",
+      "detail": "Found 0"
+    },
+    {
+      "name": "drug_normalized_v4.parquet exists",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "Drug norm has rows",
+      "status": "PASS",
+      "detail": "55583290 rows"
+    },
+    {
+      "name": "sex_differential_v4.parquet exists",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "Signal count = 96,281",
+      "status": "PASS",
+      "detail": "got 96281"
+    },
+    {
+      "name": "F-higher = 51,771",
+      "status": "PASS",
+      "detail": "got 51771"
+    },
+    {
+      "name": "M-higher = 44,510",
+      "status": "PASS",
+      "detail": "got 44510"
+    },
+    {
+      "name": "No NaN in drug_name",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "No NaN in adverse_event",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "nodes.tsv exists",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "edges.tsv exists",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "triples.tsv exists",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "Nodes = 109,867",
+      "status": "PASS",
+      "detail": "got 109867"
+    },
+    {
+      "name": "Edges = 1,822,851",
+      "status": "PASS",
+      "detail": "got 1822851"
+    },
+    {
+      "name": "Triples = edges",
+      "status": "PASS",
+      "detail": "triples=1822851 edges=1822851"
+    },
+    {
+      "name": "Zero NaN in triples",
+      "status": "PASS",
+      "detail": "found 0 NaN rows"
+    },
+    {
+      "name": "Zero 'nan' strings in triples",
+      "status": "PASS",
+      "detail": "found 0"
+    },
+    {
+      "name": "ComplEx v4 metrics exist",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "ComplEx MRR > 0.2",
+      "status": "PASS",
+      "detail": "MRR=0.248387"
+    },
+    {
+      "name": "ComplEx Hits@10 > 0.3",
+      "status": "PASS",
+      "detail": "H@10=0.40692"
+    },
+    {
+      "name": "Validation results exist",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "40 benchmarks tested",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "Precision > 80%",
+      "status": "PASS",
+      "detail": "got 82.8%"
+    },
+    {
+      "name": "Target analysis exists",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "Target TSV exists",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "Statistics JSON exists",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "Stats version = v4",
+      "status": "PASS",
+      "detail": "got v4"
+    },
+    {
+      "name": "Stats signals match file",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "Stats nodes match file",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "Stats edges match file",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "ISMB2026_short_abstract.txt has v4 numbers",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "ASHG2026_abstract.txt has v4 numbers",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "NeurIPS2026_abstract.txt has v4 numbers",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "README has v4 nodes",
+      "status": "PASS",
+      "detail": "Looking for 109,867"
+    },
+    {
+      "name": "README has Reactome",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "README no KEGG reference",
+      "status": "PASS",
+      "detail": ""
+    }
+  ],
+  "passed": 35,
+  "failed": 1,
+  "warnings": 0
+}

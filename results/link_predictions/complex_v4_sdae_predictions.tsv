@@ -1,0 +1,501 @@
+drug	adverse_event	score	has_adverse_event_edge	drug_name_clean	ae_name_clean
+DRUG:TAS-106	AE:Brain natriuretic peptide decreased	15.073018	False	TAS-106	Brain natriuretic peptide decreased
+DRUG:CODEINE;PROMETHAZINE	AE:Lung carcinoma cell type unspecified stage IV	14.14317	False	CODEINE;PROMETHAZINE	Lung carcinoma cell type unspecified stage IV
+DRUG:TALC	AE:Infective exacerbation of bronchiectasis	14.116512	False	TALC	Infective exacerbation of bronchiectasis
+DRUG:GATAPARSEN	AE:Blood calcitonin increased	13.663384	False	GATAPARSEN	Blood calcitonin increased
+DRUG:TALC	AE:Breech presentation	13.363309	False	TALC	Breech presentation
+DRUG:DAGLUTRIL	AE:Brain natriuretic peptide decreased	12.915545	False	DAGLUTRIL	Brain natriuretic peptide decreased
+DRUG:BHQ-880	AE:Blood calcitonin increased	12.817335	False	BHQ-880	Blood calcitonin increased
+DRUG:TALC	AE:Dependence	12.755366	False	TALC	Dependence
+DRUG:SELONSERTIB	AE:Application site haematoma	12.709089	False	SELONSERTIB	Application site haematoma
+DRUG:HISTRELIN	AE:Lactation disorder	12.609468	False	HISTRELIN	Lactation disorder
+DRUG:SODIUM DICHLOROACETATE	AE:Blood calcitonin increased	12.493669	False	SODIUM DICHLOROACETATE	Blood calcitonin increased
+DRUG:TAS-106	AE:Precipitate labour	12.47492	False	TAS-106	Precipitate labour
+DRUG:TAS-106	AE:Repetitive speech	12.444654	False	TAS-106	Repetitive speech
+DRUG:TAS-106	AE:Infective spondylitis	12.34035	False	TAS-106	Infective spondylitis
+DRUG:SELONSERTIB	AE:Granulicatella infection	12.333471	False	SELONSERTIB	Granulicatella infection
+DRUG:ROSIPTOR	AE:Blood calcitonin increased	12.273959	False	ROSIPTOR	Blood calcitonin increased
+DRUG:PLITIDEPSIN	AE:Blood calcitonin increased	12.251869	False	PLITIDEPSIN	Blood calcitonin increased
+DRUG:FLAVOXATE HYDROCHLORIDE	AE:Brain natriuretic peptide decreased	12.24996	False	FLAVOXATE HYDROCHLORIDE	Brain natriuretic peptide decreased
+DRUG:ELPETRIGINE	AE:Brain natriuretic peptide decreased	12.212535	False	ELPETRIGINE	Brain natriuretic peptide decreased
+DRUG:FITUSIRAN	AE:Blood calcitonin increased	12.180178	False	FITUSIRAN	Blood calcitonin increased
+DRUG:TAS-106	AE:Electromyogram abnormal	11.956235	False	TAS-106	Electromyogram abnormal
+DRUG:SULFUR HEXAFLUORIDE	AE:Infusion site extravasation	11.880313	False	SULFUR HEXAFLUORIDE	Infusion site extravasation
+DRUG:SODIUM DICHLOROACETATE	AE:Aortic pseudoaneurysm	11.806824	False	SODIUM DICHLOROACETATE	Aortic pseudoaneurysm
+DRUG:TAS-106	AE:Haematosalpinx	11.761895	False	TAS-106	Haematosalpinx
+DRUG:FGI-101-1A6	AE:Brain natriuretic peptide decreased	11.721717	False	FGI-101-1A6	Brain natriuretic peptide decreased
+DRUG:ELPETRIGINE	AE:Urine amphetamine positive	11.592852	False	ELPETRIGINE	Urine amphetamine positive
+DRUG:BATIRAXCEPT	AE:Influenza immunisation	11.561063	False	BATIRAXCEPT	Influenza immunisation
+DRUG:UROKINASE	AE:Influenza immunisation	11.554992	False	UROKINASE	Influenza immunisation
+DRUG:FITUSIRAN	AE:Influenza immunisation	11.503246	False	FITUSIRAN	Influenza immunisation
+DRUG:TRIFLUOPERAZINE	AE:Obsessive-compulsive disorder	11.487705	True	TRIFLUOPERAZINE	Obsessive-compulsive disorder
+DRUG:FLAVOXATE HYDROCHLORIDE	AE:Application site haematoma	11.461617	False	FLAVOXATE HYDROCHLORIDE	Application site haematoma
+DRUG:IMALUMAB	AE:Application site haematoma	11.414684	False	IMALUMAB	Application site haematoma
+DRUG:FACTOR II;FACTOR IX;FACTOR VII;FACTOR X;PROTEIN C;PROTEIN S	AE:Vascular stent thrombosis	11.385943	False	FACTOR II;FACTOR IX;FACTOR VII;FACTOR X;PROTEIN C;PROTEIN S	Vascular stent thrombosis
+DRUG:CARBENOXOLONE	AE:Brain natriuretic peptide decreased	11.338304	False	CARBENOXOLONE	Brain natriuretic peptide decreased
+DRUG:TAS-106	AE:Hair transplant	11.300136	False	TAS-106	Hair transplant
+DRUG:SETANAXIB	AE:Brain natriuretic peptide decreased	11.272915	False	SETANAXIB	Brain natriuretic peptide decreased
+DRUG:TAS-106	AE:Anticoagulation drug level decreased	11.271096	False	TAS-106	Anticoagulation drug level decreased
+DRUG:RHIGM12B7	AE:Brain natriuretic peptide decreased	11.254656	False	RHIGM12B7	Brain natriuretic peptide decreased
+DRUG:ELPETRIGINE	AE:Infective spondylitis	11.196318	False	ELPETRIGINE	Infective spondylitis
+DRUG:ELADOCAGENE EXUPARVOVEC	AE:Application site haematoma	11.173941	False	ELADOCAGENE EXUPARVOVEC	Application site haematoma
+DRUG:GATAPARSEN	AE:Influenza immunisation	11.033621	False	GATAPARSEN	Influenza immunisation
+DRUG:AFEGOSTAT TARTRATE	AE:Application site haematoma	11.02936	False	AFEGOSTAT TARTRATE	Application site haematoma
+DRUG:ELADOCAGENE EXUPARVOVEC	AE:Brain natriuretic peptide decreased	10.997611	False	ELADOCAGENE EXUPARVOVEC	Brain natriuretic peptide decreased
+DRUG:CARIPRAZINE	AE:Sexual dysfunction	10.996106	False	CARIPRAZINE	Sexual dysfunction
+DRUG:ELPETRIGINE	AE:Gender dysphoria	10.991145	False	ELPETRIGINE	Gender dysphoria
+DRUG:GATAPARSEN	AE:Ichthyosis	10.976665	False	GATAPARSEN	Ichthyosis
+DRUG:BENZOYL PEROXIDE;CLINDAMYCIN	AE:Application site vesicles	10.975389	False	BENZOYL PEROXIDE;CLINDAMYCIN	Application site vesicles
+DRUG:ANISINDIONE	AE:Brain natriuretic peptide decreased	10.973946	False	ANISINDIONE	Brain natriuretic peptide decreased
+DRUG:NEIHULIZUMAB	AE:Brain natriuretic peptide decreased	10.950153	False	NEIHULIZUMAB	Brain natriuretic peptide decreased
+DRUG:SELONSERTIB	AE:Medical device site hyperaesthesia	10.933022	False	SELONSERTIB	Medical device site hyperaesthesia
+DRUG:FLUOCINOLONE	AE:Investigation	10.9146	False	FLUOCINOLONE	Investigation
+DRUG:KB-004	AE:Brain natriuretic peptide decreased	10.912952	False	KB-004	Brain natriuretic peptide decreased
+DRUG:NITISINONE	AE:Kaposi's sarcoma	10.858091	False	NITISINONE	Kaposi's sarcoma
+DRUG:SELONSERTIB	AE:Catheter site cellulitis	10.785288	False	SELONSERTIB	Catheter site cellulitis
+DRUG:AGS-16C3F	AE:Brain natriuretic peptide decreased	10.729488	False	AGS-16C3F	Brain natriuretic peptide decreased
+DRUG:VARESPLADIB METHYL	AE:Hormone therapy	10.70456	False	VARESPLADIB METHYL	Hormone therapy
+DRUG:DAGLUTRIL	AE:Precipitate labour	10.682894	False	DAGLUTRIL	Precipitate labour
+DRUG:BIRINAPANT	AE:Brain natriuretic peptide decreased	10.681918	False	BIRINAPANT	Brain natriuretic peptide decreased
+DRUG:UROKINASE	AE:Blood calcitonin increased	10.663839	False	UROKINASE	Blood calcitonin increased
+DRUG:IOFLUPANE (123I)	AE:Ischaemic hepatitis	10.657305	False	IOFLUPANE (123I)	Ischaemic hepatitis
+DRUG:TALC	AE:Streptococcus test positive	10.643495	False	TALC	Streptococcus test positive
+DRUG:BENTAMAPIMOD	AE:Xanthelasma	10.600007	False	BENTAMAPIMOD	Xanthelasma
+DRUG:AVIBACTAM;CEFTAZIDIME	AE:Mechanical ventilation	10.597806	False	AVIBACTAM;CEFTAZIDIME	Mechanical ventilation
+DRUG:DUSIGITUMAB	AE:Influenza immunisation	10.577349	False	DUSIGITUMAB	Influenza immunisation
+DRUG:TAMIBAROTENE	AE:Infective spondylitis	10.5717	False	TAMIBAROTENE	Infective spondylitis
+DRUG:LY-2584702	AE:Blood calcitonin increased	10.562966	False	LY-2584702	Blood calcitonin increased
+DRUG:SELUMETINIB	AE:Peritonitis bacterial	10.559587	False	SELUMETINIB	Peritonitis bacterial
+DRUG:TAS-106	AE:Penile blister	10.530443	False	TAS-106	Penile blister
+DRUG:PLITIDEPSIN	AE:Influenza immunisation	10.516126	False	PLITIDEPSIN	Influenza immunisation
+DRUG:ABX-MA1	AE:Brain natriuretic peptide decreased	10.506902	False	ABX-MA1	Brain natriuretic peptide decreased
+DRUG:THIOTEPA	AE:Venoocclusive disease	10.492855	True	THIOTEPA	Venoocclusive disease
+DRUG:ROSIPTOR	AE:Influenza immunisation	10.491297	False	ROSIPTOR	Influenza immunisation
+DRUG:BHQ-880	AE:Influenza immunisation	10.477734	False	BHQ-880	Influenza immunisation
+DRUG:TAS-106	AE:Uterine contractions abnormal	10.438067	False	TAS-106	Uterine contractions abnormal
+DRUG:FLETIKUMAB	AE:Blood calcitonin increased	10.351155	False	FLETIKUMAB	Blood calcitonin increased
+DRUG:ISATUXIMAB	AE:Cytokine release syndrome	10.343346	True	ISATUXIMAB	Cytokine release syndrome
+DRUG:TIVANISIRAN	AE:Brain natriuretic peptide decreased	10.318096	False	TIVANISIRAN	Brain natriuretic peptide decreased
+DRUG:CORTICOTROPIN	AE:Syringe issue	10.304556	False	CORTICOTROPIN	Syringe issue
+DRUG:POLATUZUMAB VEDOTIN	AE:Myelosuppression	10.282066	True	POLATUZUMAB VEDOTIN	Myelosuppression
+DRUG:INGENOL	AE:Application site swelling	10.27217	True	INGENOL	Application site swelling
+DRUG:ELCUBRAGISTAT	AE:Brain natriuretic peptide decreased	10.220431	False	ELCUBRAGISTAT	Brain natriuretic peptide decreased
+DRUG:APX-3330	AE:Brain natriuretic peptide decreased	10.20399	False	APX-3330	Brain natriuretic peptide decreased
+DRUG:FLAVOXATE HYDROCHLORIDE	AE:Splenorenal shunt	10.199056	False	FLAVOXATE HYDROCHLORIDE	Splenorenal shunt
+DRUG:GEMCITABINE HYDROCHLORIDE	AE:Myelosuppression	10.182781	True	GEMCITABINE HYDROCHLORIDE	Myelosuppression
+DRUG:BATIRAXCEPT	AE:Blood calcitonin increased	10.180778	False	BATIRAXCEPT	Blood calcitonin increased
+DRUG:PEMRAMETOSTAT	AE:Brain natriuretic peptide decreased	10.173695	False	PEMRAMETOSTAT	Brain natriuretic peptide decreased
+DRUG:HUMAN C1-ESTERASE INHIBITOR	AE:Blood calcitonin increased	10.159509	False	HUMAN C1-ESTERASE INHIBITOR	Blood calcitonin increased
+DRUG:CALCIUM CHLORIDE;GLUCOSE;MAGNESIUM;SODIUM CHLORIDE;SODIUM LACTATE	AE:Peritonitis bacterial	10.159071	True	CALCIUM CHLORIDE;GLUCOSE;MAGNESIUM;SODIUM CHLORIDE;SODIUM LACTATE	Peritonitis bacterial
+DRUG:TRAMADOL HYDROCHLORIDE	AE:Dependence	10.134532	True	TRAMADOL HYDROCHLORIDE	Dependence
+DRUG:ZATOLMILAST	AE:Aortic pseudoaneurysm	10.1298	False	ZATOLMILAST	Aortic pseudoaneurysm
+DRUG:OPICAPONE	AE:Alcohol use	10.124459	False	OPICAPONE	Alcohol use
+DRUG:RESTASIS?	AE:Application site pruritus	10.119941	False	RESTASIS?	Application site pruritus
+DRUG:CANNABIS SPP	AE:Dependence	10.117493	True	CANNABIS SPP	Dependence
+DRUG:OBATOCLAX MESYLATE	AE:Granulicatella infection	10.095266	False	OBATOCLAX MESYLATE	Granulicatella infection
+DRUG:CARMUSTINE	AE:Immune effector cell-associated neurotoxicity syndrome	10.087831	False	CARMUSTINE	Immune effector cell-associated neurotoxicity syndrome
+DRUG:ELPETRIGINE	AE:Anticoagulation drug level decreased	10.07337	False	ELPETRIGINE	Anticoagulation drug level decreased
+DRUG:HYPROMELLOSE	AE:Intraocular pressure increased	10.055707	False	HYPROMELLOSE	Intraocular pressure increased
+DRUG:SODIUM DICHLOROACETATE	AE:Influenza immunisation	10.051506	False	SODIUM DICHLOROACETATE	Influenza immunisation
+DRUG:NELARABINE	AE:Cytokine release syndrome	10.047559	False	NELARABINE	Cytokine release syndrome
+DRUG:FLUDARABINE	AE:Enterococcal infection	10.021714	True	FLUDARABINE	Enterococcal infection
+DRUG:PLITIDEPSIN	AE:Ichthyosis	10.021277	False	PLITIDEPSIN	Ichthyosis
+DRUG:BROLUCIZUMAB	AE:Maculopathy	9.991946	True	BROLUCIZUMAB	Maculopathy
+DRUG:AZACITIDINE	AE:Cytokine release syndrome	9.986678	False	AZACITIDINE	Cytokine release syndrome
+DRUG:MENTHOL	AE:Application site pruritus	9.980397	True	MENTHOL	Application site pruritus
+DRUG:FLAVOXATE HYDROCHLORIDE	AE:Haematosalpinx	9.970329	False	FLAVOXATE HYDROCHLORIDE	Haematosalpinx
+DRUG:TAS-106	AE:Influenza immunisation	9.970212	False	TAS-106	Influenza immunisation
+DRUG:ALIMEMAZINE	AE:Respiratory depression	9.953689	True	ALIMEMAZINE	Respiratory depression
+DRUG:BROLUCIZUMAB	AE:Ulcerative keratitis	9.935596	False	BROLUCIZUMAB	Ulcerative keratitis
+DRUG:QUETIAPINE FUMARATE	AE:Suspected suicide	9.931314	False	QUETIAPINE FUMARATE	Suspected suicide
+DRUG:SAPROPTERIN DIHYDROCHLORIDE	AE:Application site haematoma	9.931201	False	SAPROPTERIN DIHYDROCHLORIDE	Application site haematoma
+DRUG:LIATERMIN	AE:Aortic pseudoaneurysm	9.924738	False	LIATERMIN	Aortic pseudoaneurysm
+DRUG:ASUNAPREVIR	AE:Coronary artery thrombosis	9.912992	False	ASUNAPREVIR	Coronary artery thrombosis
+DRUG:MENTHOL	AE:Hereditary angioedema	9.910588	False	MENTHOL	Hereditary angioedema
+DRUG:CLONAZEPAM	AE:Dystonia	9.908986	True	CLONAZEPAM	Dystonia
+DRUG:BHQ-880	AE:Ichthyosis	9.90512	False	BHQ-880	Ichthyosis
+DRUG:DKN-01	AE:Blood calcitonin increased	9.903292	False	DKN-01	Blood calcitonin increased
+DRUG:ISIS-2503	AE:Brain natriuretic peptide decreased	9.886541	False	ISIS-2503	Brain natriuretic peptide decreased
+DRUG:TAS-106	AE:Altered pitch perception	9.87929	False	TAS-106	Altered pitch perception
+DRUG:TREOSULFAN	AE:Venoocclusive disease	9.865231	False	TREOSULFAN	Venoocclusive disease
+DRUG:VERTEPORFIN	AE:Ocular hypertension	9.850277	False	VERTEPORFIN	Ocular hypertension
+DRUG:TAS-106	AE:Aphantasia	9.834959	False	TAS-106	Aphantasia
+DRUG:EVOLOCUMAB	AE:Syringe issue	9.825868	False	EVOLOCUMAB	Syringe issue
+DRUG:DEXRAZOXANE	AE:Pathogen resistance	9.825081	False	DEXRAZOXANE	Pathogen resistance
+DRUG:AMINOLEVULINIC ACID	AE:Eyelids pruritus	9.812723	False	AMINOLEVULINIC ACID	Eyelids pruritus
+DRUG:IROSUSTAT	AE:Blood calcitonin increased	9.810655	False	IROSUSTAT	Blood calcitonin increased
+DRUG:PEGILODECAKIN	AE:Infective spondylitis	9.809655	False	PEGILODECAKIN	Infective spondylitis
+DRUG:ALTEPLASE	AE:Cerebellar haemorrhage	9.805697	True	ALTEPLASE	Cerebellar haemorrhage
+DRUG:DKN-01	AE:Application site haematoma	9.801421	False	DKN-01	Application site haematoma
+DRUG:LACUTAMAB	AE:Blood calcitonin increased	9.796536	False	LACUTAMAB	Blood calcitonin increased
+DRUG:INTERLEUKIN-2	AE:Device related bacteraemia	9.787505	False	INTERLEUKIN-2	Device related bacteraemia
+DRUG:ERITORAN TETRASODIUM	AE:Brain natriuretic peptide decreased	9.778743	False	ERITORAN TETRASODIUM	Brain natriuretic peptide decreased
+DRUG:TAS-106	AE:Meningioma surgery	9.772165	False	TAS-106	Meningioma surgery
+DRUG:ELPETRIGINE	AE:Laryngeal necrosis	9.770504	False	ELPETRIGINE	Laryngeal necrosis
+DRUG:SIROLIMUS	AE:Cytomegalovirus infection	9.767369	True	SIROLIMUS	Cytomegalovirus infection
+DRUG:QUETIAPINE FUMARATE	AE:Respiratory depression	9.753772	True	QUETIAPINE FUMARATE	Respiratory depression
+DRUG:TAS-106	AE:Gender dysphoria	9.75027	False	TAS-106	Gender dysphoria
+DRUG:TENECTEPLASE	AE:Acute abdomen	9.745352	False	TENECTEPLASE	Acute abdomen
+DRUG:ARTIFICIAL TEARS	AE:Product container issue	9.737045	True	ARTIFICIAL TEARS	Product container issue
+DRUG:ETHAMBUTOL	AE:Immune reconstitution inflammatory syndrome	9.735111	True	ETHAMBUTOL	Immune reconstitution inflammatory syndrome
+DRUG:EPTIFIBATIDE	AE:Retinal toxicity	9.729838	False	EPTIFIBATIDE	Retinal toxicity
+DRUG:SELONSERTIB	AE:Eunuchoidism	9.726261	False	SELONSERTIB	Eunuchoidism
+DRUG:LORECIVIVINT	AE:Anticoagulation drug level decreased	9.717126	False	LORECIVIVINT	Anticoagulation drug level decreased
+DRUG:CALCIUM CHLORIDE\DEXTROSE\MAGNESIUM CHLORIDE\SODIUM CHLORIDE SOLUTION	AE:Peritoneal cloudy effluent	9.714603	False	CALCIUM CHLORIDE\DEXTROSE\MAGNESIUM CHLORIDE\SODIUM CHLORIDE SOLUTION	Peritoneal cloudy effluent
+DRUG:FOSCARBIDOPA;FOSLEVODOPA	AE:Infusion site mass	9.710945	True	FOSCARBIDOPA;FOSLEVODOPA	Infusion site mass
+DRUG:AMISULPRIDE	AE:Psychomotor hyperactivity	9.708426	True	AMISULPRIDE	Psychomotor hyperactivity
+DRUG:MENTHOL	AE:Application site rash	9.705247	False	MENTHOL	Application site rash
+DRUG:GEMCITABINE HYDROCHLORIDE	AE:Cytokine release syndrome	9.696276	False	GEMCITABINE HYDROCHLORIDE	Cytokine release syndrome
+DRUG:LIATERMIN	AE:Blood calcitonin increased	9.695225	False	LIATERMIN	Blood calcitonin increased
+DRUG:ABT-751	AE:Blood calcitonin increased	9.693377	False	ABT-751	Blood calcitonin increased
+DRUG:PENTOXIFYLLINE	AE:Peritonitis bacterial	9.688058	False	PENTOXIFYLLINE	Peritonitis bacterial
+DRUG:ONTUXIZUMAB	AE:Brain natriuretic peptide decreased	9.685688	False	ONTUXIZUMAB	Brain natriuretic peptide decreased
+DRUG:LB-100	AE:Renal necrosis	9.682843	False	LB-100	Renal necrosis
+DRUG:XENTUZUMAB	AE:Blood calcitonin increased	9.681802	False	XENTUZUMAB	Blood calcitonin increased
+DRUG:ASTEGOLIMAB	AE:Application site haematoma	9.676513	False	ASTEGOLIMAB	Application site haematoma
+DRUG:ZIPRASIDONE	AE:Suspected suicide	9.67341	True	ZIPRASIDONE	Suspected suicide
+DRUG:AMISULPRIDE	AE:Dystonia	9.67016	True	AMISULPRIDE	Dystonia
+DRUG:CARMUSTINE	AE:Cytokine release syndrome	9.668575	True	CARMUSTINE	Cytokine release syndrome
+DRUG:BAY-1125976	AE:Blood calcitonin increased	9.664845	False	BAY-1125976	Blood calcitonin increased
+DRUG:VATIQUINONE	AE:Brain natriuretic peptide decreased	9.652042	False	VATIQUINONE	Brain natriuretic peptide decreased
+DRUG:ANFIBATIDE	AE:Brain natriuretic peptide decreased	9.643705	False	ANFIBATIDE	Brain natriuretic peptide decreased
+DRUG:DAGLUTRIL	AE:Infective spondylitis	9.642635	False	DAGLUTRIL	Infective spondylitis
+DRUG:FOSCARBIDOPA;FOSLEVODOPA	AE:Product administered at inappropriate site	9.640484	False	FOSCARBIDOPA;FOSLEVODOPA	Product administered at inappropriate site
+DRUG:ONABOTULINUMTOXINA	AE:Infective spondylitis	9.635407	False	ONABOTULINUMTOXINA	Infective spondylitis
+DRUG:TIROFIBAN	AE:Vascular stent thrombosis	9.629665	True	TIROFIBAN	Vascular stent thrombosis
+DRUG:ELPETRIGINE	AE:Urine ketone body	9.624909	False	ELPETRIGINE	Urine ketone body
+DRUG:FLUTICASONE;UMECLIDINIUM;VILANTEROL	AE:Chronic obstructive pulmonary disease	9.610093	True	FLUTICASONE;UMECLIDINIUM;VILANTEROL	Chronic obstructive pulmonary disease
+DRUG:LENACAPAVIR	AE:Epididymitis	9.606942	False	LENACAPAVIR	Epididymitis
+DRUG:ZANUBRUTINIB	AE:Cytokine release syndrome	9.600623	True	ZANUBRUTINIB	Cytokine release syndrome
+DRUG:EFLORNITHINE HYDROCHLORIDE	AE:Renal necrosis	9.596877	False	EFLORNITHINE HYDROCHLORIDE	Renal necrosis
+DRUG:CARIPRAZINE	AE:Dystonia	9.590971	True	CARIPRAZINE	Dystonia
+DRUG:VARESPLADIB METHYL	AE:Serratia bacteraemia	9.590292	False	VARESPLADIB METHYL	Serratia bacteraemia
+DRUG:TAS-106	AE:Single component of a two-component product administered	9.588896	False	TAS-106	Single component of a two-component product administered
+DRUG:PIRETANIDE	AE:Pseudomonal bacteraemia	9.581936	False	PIRETANIDE	Pseudomonal bacteraemia
+DRUG:LITHIUM	AE:Schizophrenia	9.576993	True	LITHIUM	Schizophrenia
+DRUG:A27.15	AE:Brain natriuretic peptide decreased	9.571616	False	A27.15	Brain natriuretic peptide decreased
+DRUG:ALCOHOL	AE:Respiratory depression	9.561626	True	ALCOHOL	Respiratory depression
+DRUG:MOLNUPIRAVIR	AE:Product use complaint	9.557051	True	MOLNUPIRAVIR	Product use complaint
+DRUG:CAL	AE:Application site haematoma	9.544318	False	CAL	Application site haematoma
+DRUG:SODIUM PHENYLBUTYRATE;TAURURSODIOL	AE:Peritonitis bacterial	9.530892	False	SODIUM PHENYLBUTYRATE;TAURURSODIOL	Peritonitis bacterial
+DRUG:SVN53-67/M57-KLH PEPTIDE VACCINE	AE:Xanthelasma	9.525222	False	SVN53-67/M57-KLH PEPTIDE VACCINE	Xanthelasma
+DRUG:TERIPARATIDE	AE:Syringe issue	9.522384	False	TERIPARATIDE	Syringe issue
+DRUG:NNC0114-0006	AE:Granulicatella infection	9.521902	False	NNC0114-0006	Granulicatella infection
+DRUG:VARESPLADIB METHYL	AE:Peritoneal mesothelioma malignant	9.521505	False	VARESPLADIB METHYL	Peritoneal mesothelioma malignant
+DRUG:SCH-900271	AE:Blood calcitonin increased	9.519141	False	SCH-900271	Blood calcitonin increased
+DRUG:SODIUM DICHLOROACETATE	AE:Dermal sinus	9.517222	False	SODIUM DICHLOROACETATE	Dermal sinus
+DRUG:VARESPLADIB	AE:Application site haematoma	9.512531	False	VARESPLADIB	Application site haematoma
+DRUG:NELARABINE	AE:Histiocytosis haematophagic	9.494541	False	NELARABINE	Histiocytosis haematophagic
+DRUG:BRICICLIB	AE:Brain natriuretic peptide decreased	9.494125	False	BRICICLIB	Brain natriuretic peptide decreased
+DRUG:VARESPLADIB METHYL	AE:Hepatoblastoma	9.493182	False	VARESPLADIB METHYL	Hepatoblastoma
+DRUG:ELPETRIGINE	AE:Pericardial effusion malignant	9.491142	False	ELPETRIGINE	Pericardial effusion malignant
+DRUG:FGI-101-1A6	AE:Splenorenal shunt	9.481346	False	FGI-101-1A6	Splenorenal shunt
+DRUG:IMALUMAB	AE:Brain natriuretic peptide decreased	9.480843	False	IMALUMAB	Brain natriuretic peptide decreased
+DRUG:FLUDARABINE PHOSPHATE	AE:Myelosuppression	9.465902	False	FLUDARABINE PHOSPHATE	Myelosuppression
+DRUG:VARESPLADIB METHYL	AE:Peritonitis pneumococcal	9.453508	False	VARESPLADIB METHYL	Peritonitis pneumococcal
+DRUG:SKIN CARE;VITAMIN B1;VITAMIN B2;VITAMIN B3;VITAMIN B6	AE:Blood calcitonin increased	9.445624	False	SKIN CARE;VITAMIN B1;VITAMIN B2;VITAMIN B3;VITAMIN B6	Blood calcitonin increased
+DRUG:GATAPARSEN	AE:Duchenne muscular dystrophy	9.445542	False	GATAPARSEN	Duchenne muscular dystrophy
+DRUG:HUMAN C1-ESTERASE INHIBITOR	AE:Aortic pseudoaneurysm	9.444041	False	HUMAN C1-ESTERASE INHIBITOR	Aortic pseudoaneurysm
+DRUG:SITAGLIPTIN	AE:Adenocarcinoma pancreas	9.437699	True	SITAGLIPTIN	Adenocarcinoma pancreas
+DRUG:SAPROPTERIN DIHYDROCHLORIDE	AE:Eunuchoidism	9.435915	False	SAPROPTERIN DIHYDROCHLORIDE	Eunuchoidism
+DRUG:RASBURICASE	AE:Acute lymphocytic leukaemia recurrent	9.434853	False	RASBURICASE	Acute lymphocytic leukaemia recurrent
+DRUG:POSACONAZOLE	AE:Cytokine release syndrome	9.432091	False	POSACONAZOLE	Cytokine release syndrome
+DRUG:METHENAMINE	AE:Vestibular disorder	9.422935	False	METHENAMINE	Vestibular disorder
+DRUG:QUETIAPINE FUMARATE	AE:Dependence	9.420893	False	QUETIAPINE FUMARATE	Dependence
+DRUG:LY-2584702	AE:Influenza immunisation	9.42088	False	LY-2584702	Influenza immunisation
+DRUG:CHLORAMBUCIL	AE:Cytokine release syndrome	9.417199	False	CHLORAMBUCIL	Cytokine release syndrome
+DRUG:CRISABOROLE	AE:Dermatitis contact	9.399361	True	CRISABOROLE	Dermatitis contact
+DRUG:BIRINAPANT	AE:Infective spondylitis	9.398705	False	BIRINAPANT	Infective spondylitis
+DRUG:DUSIGITUMAB	AE:Blood calcitonin increased	9.396708	False	DUSIGITUMAB	Blood calcitonin increased
+DRUG:LB-100	AE:Aortic pseudoaneurysm	9.393962	False	LB-100	Aortic pseudoaneurysm
+DRUG:ADAPALENE	AE:Eyelids pruritus	9.391527	True	ADAPALENE	Eyelids pruritus
+DRUG:VARESPLADIB METHYL	AE:Face lift	9.391239	False	VARESPLADIB METHYL	Face lift
+DRUG:DAGLUTRIL	AE:Haematosalpinx	9.37798	False	DAGLUTRIL	Haematosalpinx
+DRUG:APOMORPHINE	AE:Obsessive-compulsive disorder	9.370713	True	APOMORPHINE	Obsessive-compulsive disorder
+DRUG:POVIDONE-IODINE	AE:Maculopathy	9.368216	False	POVIDONE-IODINE	Maculopathy
+DRUG:MEROPENEM	AE:Geotrichum infection	9.362696	True	MEROPENEM	Geotrichum infection
+DRUG:BASILIXIMAB	AE:Varicella zoster virus infection	9.357971	True	BASILIXIMAB	Varicella zoster virus infection
+DRUG:TAMIBAROTENE	AE:Brain natriuretic peptide decreased	9.356988	False	TAMIBAROTENE	Brain natriuretic peptide decreased
+DRUG:TENOFOVIR	AE:Multiple fractures	9.347047	True	TENOFOVIR	Multiple fractures
+DRUG:GUSELKUMAB	AE:Product quality issue	9.334762	True	GUSELKUMAB	Product quality issue
+DRUG:TAS-106	AE:Anti factor VIII antibody increased	9.332493	False	TAS-106	Anti factor VIII antibody increased
+DRUG:AZACITIDINE	AE:Second primary malignancy	9.326049	True	AZACITIDINE	Second primary malignancy
+DRUG:LITHIUM	AE:Sedation	9.325438	True	LITHIUM	Sedation
+DRUG:LITIFILIMAB	AE:Brain natriuretic peptide decreased	9.321986	False	LITIFILIMAB	Brain natriuretic peptide decreased
+DRUG:APELIN	AE:Brain natriuretic peptide decreased	9.312183	False	APELIN	Brain natriuretic peptide decreased
+DRUG:SAPROPTERIN DIHYDROCHLORIDE	AE:Granulicatella infection	9.310873	False	SAPROPTERIN DIHYDROCHLORIDE	Granulicatella infection
+DRUG:LITHIUM	AE:Parkinsonism	9.310369	True	LITHIUM	Parkinsonism
+DRUG:BEVASIRANIB	AE:Brain natriuretic peptide decreased	9.303935	False	BEVASIRANIB	Brain natriuretic peptide decreased
+DRUG:ANTITHYMOCYTE IMMUNOGLOBULIN	AE:Neutropenic colitis	9.303046	True	ANTITHYMOCYTE IMMUNOGLOBULIN	Neutropenic colitis
+DRUG:BENDAMUSTINE	AE:Immune reconstitution inflammatory syndrome	9.302284	True	BENDAMUSTINE	Immune reconstitution inflammatory syndrome
+DRUG:SOTATERCEPT	AE:Hereditary angioedema	9.30108	False	SOTATERCEPT	Hereditary angioedema
+DRUG:GLYCOPYRROLATE	AE:Clostridium test positive	9.297433	False	GLYCOPYRROLATE	Clostridium test positive
+DRUG:ANTITHYMOCYTE IMMUNOGLOBULIN	AE:Epstein-Barr viraemia	9.296401	True	ANTITHYMOCYTE IMMUNOGLOBULIN	Epstein-Barr viraemia
+DRUG:LEVOMEPROMAZINE	AE:Respiratory depression	9.285563	True	LEVOMEPROMAZINE	Respiratory depression
+DRUG:DOXEPIN HYDROCHLORIDE	AE:Encephalitis autoimmune	9.282164	False	DOXEPIN HYDROCHLORIDE	Encephalitis autoimmune
+DRUG:ETAZOLATE	AE:Blood calcitonin increased	9.279348	False	ETAZOLATE	Blood calcitonin increased
+DRUG:BAMINERCEPT	AE:Cytomegalovirus mucocutaneous ulcer	9.277919	False	BAMINERCEPT	Cytomegalovirus mucocutaneous ulcer
+DRUG:PREDNISOLONE ACETATE	AE:Intraocular pressure increased	9.276754	True	PREDNISOLONE ACETATE	Intraocular pressure increased
+DRUG:CILTACABTAGENE AUTOLEUCEL	AE:Chronic myeloid leukaemia	9.270541	False	CILTACABTAGENE AUTOLEUCEL	Chronic myeloid leukaemia
+DRUG:PEGINTRON /01543001/	AE:Hydrocele	9.269188	False	PEGINTRON /01543001/	Hydrocele
+DRUG:MYCOPHENOLATE MOFETIL	AE:Cytomegalovirus infection	9.268953	True	MYCOPHENOLATE MOFETIL	Cytomegalovirus infection
+DRUG:MENTHOL	AE:Application site erythema	9.264873	True	MENTHOL	Application site erythema
+DRUG:FITUSIRAN	AE:Ichthyosis	9.262086	False	FITUSIRAN	Ichthyosis
+DRUG:TAS0612	AE:Cytomegalovirus mucocutaneous ulcer	9.262081	False	TAS0612	Cytomegalovirus mucocutaneous ulcer
+DRUG:DUSIGITUMAB	AE:Application site haematoma	9.254248	False	DUSIGITUMAB	Application site haematoma
+DRUG:MENTHOL	AE:Pregnancy on contraceptive	9.248625	False	MENTHOL	Pregnancy on contraceptive
+DRUG:ELOSULFASE ALFA	AE:Lung transplant	9.2463	False	ELOSULFASE ALFA	Lung transplant
+DRUG:BUROSUMAB	AE:Brain natriuretic peptide decreased	9.239712	False	BUROSUMAB	Brain natriuretic peptide decreased
+DRUG:BENZOYL PEROXIDE;CLINDAMYCIN	AE:Application site rash	9.23516	True	BENZOYL PEROXIDE;CLINDAMYCIN	Application site rash
+DRUG:GLUCOSE;MAGNESIUM;SODIUM CHLORIDE;SODIUM LACTATE	AE:Peritonitis	9.231172	True	GLUCOSE;MAGNESIUM;SODIUM CHLORIDE;SODIUM LACTATE	Peritonitis
+DRUG:CLOFARABINE	AE:Staphylococcal bacteraemia	9.22748	True	CLOFARABINE	Staphylococcal bacteraemia
+DRUG:PROTIONAMIDE	AE:Mitochondrial toxicity	9.224443	False	PROTIONAMIDE	Mitochondrial toxicity
+DRUG:POLIDOCANOL	AE:Investigation	9.221779	False	POLIDOCANOL	Investigation
+DRUG:SELONSERTIB	AE:Heartland virus infection	9.217842	False	SELONSERTIB	Heartland virus infection
+DRUG:AMANTADINE HYDROCHLORIDE	AE:Accidental exposure to product by child	9.214515	False	AMANTADINE HYDROCHLORIDE	Accidental exposure to product by child
+DRUG:ELPETRIGINE	AE:Small bowel angioedema	9.206835	False	ELPETRIGINE	Small bowel angioedema
+DRUG:RANIBIZUMAB	AE:Eye inflammation	9.20458	True	RANIBIZUMAB	Eye inflammation
+DRUG:TREOSULFAN	AE:Second primary malignancy	9.199149	False	TREOSULFAN	Second primary malignancy
+DRUG:TERODILINE HYDROCHLORIDE	AE:Application site haematoma	9.195244	False	TERODILINE HYDROCHLORIDE	Application site haematoma
+DRUG:TENOFOVIR DISOPROXIL FUMARATE	AE:Pathogen resistance	9.194899	True	TENOFOVIR DISOPROXIL FUMARATE	Pathogen resistance
+DRUG:BENDAMUSTINE HYDROCHLORIDE	AE:Cytokine release syndrome	9.194784	True	BENDAMUSTINE HYDROCHLORIDE	Cytokine release syndrome
+DRUG:UROKINASE	AE:Ichthyosis	9.190091	False	UROKINASE	Ichthyosis
+DRUG:IMALUMAB	AE:Laryngeal necrosis	9.190026	False	IMALUMAB	Laryngeal necrosis
+DRUG:CARMUSTINE	AE:Cytomegalovirus infection	9.187222	True	CARMUSTINE	Cytomegalovirus infection
+DRUG:GANCICLOVIR	AE:Immune reconstitution inflammatory syndrome	9.186429	True	GANCICLOVIR	Immune reconstitution inflammatory syndrome
+DRUG:ERDAFITINIB	AE:Immune effector cell-associated neurotoxicity syndrome	9.184982	False	ERDAFITINIB	Immune effector cell-associated neurotoxicity syndrome
+DRUG:POSACONAZOLE	AE:Diffuse large B-cell lymphoma refractory	9.181807	False	POSACONAZOLE	Diffuse large B-cell lymphoma refractory
+DRUG:ANIDULAFUNGIN	AE:Pathogen resistance	9.179638	True	ANIDULAFUNGIN	Pathogen resistance
+DRUG:KHK-2866	AE:Aortic pseudoaneurysm	9.170045	False	KHK-2866	Aortic pseudoaneurysm
+DRUG:MEBEVERINE	AE:Product use complaint	9.168958	False	MEBEVERINE	Product use complaint
+DRUG:BASILIXIMAB	AE:Encephalitis cytomegalovirus	9.167816	False	BASILIXIMAB	Encephalitis cytomegalovirus
+DRUG:CLOFARABINE	AE:Acute myeloid leukaemia recurrent	9.167029	True	CLOFARABINE	Acute myeloid leukaemia recurrent
+DRUG:FLAVOXATE HYDROCHLORIDE	AE:Ventricular dyssynchrony	9.160151	False	FLAVOXATE HYDROCHLORIDE	Ventricular dyssynchrony
+DRUG:IFOSFAMIDE	AE:Cytomegalovirus infection	9.158147	True	IFOSFAMIDE	Cytomegalovirus infection
+DRUG:BATIRAXCEPT	AE:Renal necrosis	9.154817	False	BATIRAXCEPT	Renal necrosis
+DRUG:XENTUZUMAB	AE:Application site haematoma	9.153474	False	XENTUZUMAB	Application site haematoma
+DRUG:FITUSIRAN	AE:Aortic pseudoaneurysm	9.149364	False	FITUSIRAN	Aortic pseudoaneurysm
+DRUG:PERHEXILINE MALEATE	AE:Blood beta-D-glucan increased	9.144954	False	PERHEXILINE MALEATE	Blood beta-D-glucan increased
+DRUG:CLOZAPINE	AE:Sudden death	9.143128	True	CLOZAPINE	Sudden death
+DRUG:TAS-106	AE:Anal cancer stage II	9.142501	False	TAS-106	Anal cancer stage II
+DRUG:TRAMADOL HYDROCHLORIDE	AE:Sedation	9.141982	True	TRAMADOL HYDROCHLORIDE	Sedation
+DRUG:MAVRILIMUMAB	AE:Serratia bacteraemia	9.136983	False	MAVRILIMUMAB	Serratia bacteraemia
+DRUG:CYCLOPHOSPHAMIDE;DOXORUBICIN;PREDNISONE;VINCRISTINE	AE:Hepatitis B reactivation	9.128817	False	CYCLOPHOSPHAMIDE;DOXORUBICIN;PREDNISONE;VINCRISTINE	Hepatitis B reactivation
+DRUG:LASMIDITAN	AE:Cataplexy	9.122369	False	LASMIDITAN	Cataplexy
+DRUG:LITHIUM CARBONATE	AE:Dystonia	9.121497	True	LITHIUM CARBONATE	Dystonia
+DRUG:LOMUSTINE	AE:Microangiopathic haemolytic anaemia	9.111712	False	LOMUSTINE	Microangiopathic haemolytic anaemia
+DRUG:TRIFLUOPERAZINE	AE:Economic problem	9.110085	False	TRIFLUOPERAZINE	Economic problem
+DRUG:PENTOXIFYLLINE	AE:Immune reconstitution inflammatory syndrome	9.109339	False	PENTOXIFYLLINE	Immune reconstitution inflammatory syndrome
+DRUG:TAS-106	AE:Endometrial atrophy	9.108667	False	TAS-106	Endometrial atrophy
+DRUG:EDIFOLIGIDE	AE:Brain natriuretic peptide decreased	9.108378	False	EDIFOLIGIDE	Brain natriuretic peptide decreased
+DRUG:LORACARBEF	AE:Granulicatella infection	9.105008	False	LORACARBEF	Granulicatella infection
+DRUG:NAFTOPIDIL	AE:Blood calcitonin increased	9.104817	False	NAFTOPIDIL	Blood calcitonin increased
+DRUG:FLAVOXATE HYDROCHLORIDE	AE:Altered pitch perception	9.1045	False	FLAVOXATE HYDROCHLORIDE	Altered pitch perception
+DRUG:SULPIRIDE	AE:Neuroleptic malignant syndrome	9.099533	True	SULPIRIDE	Neuroleptic malignant syndrome
+DRUG:CD24FC	AE:Rett syndrome	9.095458	False	CD24FC	Rett syndrome
+DRUG:ANTITHYMOCYTE IMMUNOGLOBULIN	AE:Enterococcal infection	9.090706	True	ANTITHYMOCYTE IMMUNOGLOBULIN	Enterococcal infection
+DRUG:LB-100	AE:Influenza immunisation	9.088367	False	LB-100	Influenza immunisation
+DRUG:XENTUZUMAB	AE:Influenza immunisation	9.088029	False	XENTUZUMAB	Influenza immunisation
+DRUG:IMALUMAB	AE:Influenza immunisation	9.084338	False	IMALUMAB	Influenza immunisation
+DRUG:PF-03758309	AE:Brain natriuretic peptide decreased	9.08408	False	PF-03758309	Brain natriuretic peptide decreased
+DRUG:SAPROPTERIN DIHYDROCHLORIDE	AE:Catheter site cellulitis	9.07747	False	SAPROPTERIN DIHYDROCHLORIDE	Catheter site cellulitis
+DRUG:AFAMITRESGENE AUTOLEUCEL	AE:Medical device site hyperaesthesia	9.077074	False	AFAMITRESGENE AUTOLEUCEL	Medical device site hyperaesthesia
+DRUG:EPTOTERMIN ALFA	AE:Blood calcitonin increased	9.075672	False	EPTOTERMIN ALFA	Blood calcitonin increased
+DRUG:CRISABOROLE	AE:Eye irritation	9.075247	True	CRISABOROLE	Eye irritation
+DRUG:NIRMATRELVIR;RITONAVIR	AE:Product use complaint	9.066451	True	NIRMATRELVIR;RITONAVIR	Product use complaint
+DRUG:MICAFUNGIN SODIUM	AE:Vascular stent thrombosis	9.066252	False	MICAFUNGIN SODIUM	Vascular stent thrombosis
+DRUG:MELPHALAN	AE:Cytokine release syndrome	9.066251	True	MELPHALAN	Cytokine release syndrome
+DRUG:LISDEXAMFETAMINE	AE:Obsessive-compulsive disorder	9.06319	True	LISDEXAMFETAMINE	Obsessive-compulsive disorder
+DRUG:VARESPLADIB METHYL	AE:Xanthelasma	9.062821	False	VARESPLADIB METHYL	Xanthelasma
+DRUG:BASILIXIMAB	AE:Pseudomonal bacteraemia	9.061985	True	BASILIXIMAB	Pseudomonal bacteraemia
+DRUG:VOXELOTOR	AE:Inability to afford medication	9.061675	False	VOXELOTOR	Inability to afford medication
+DRUG:VARESPLADIB METHYL	AE:Lipiduria	9.061137	False	VARESPLADIB METHYL	Lipiduria
+DRUG:REMDESIVIR	AE:Drug reaction with eosinophilia and systemic symptoms	9.056521	False	REMDESIVIR	Drug reaction with eosinophilia and systemic symptoms
+DRUG:APOMORPHINE	AE:Product use complaint	9.055277	True	APOMORPHINE	Product use complaint
+DRUG:TAFASITAMAB	AE:Immune effector cell-associated neurotoxicity syndrome	9.049861	True	TAFASITAMAB	Immune effector cell-associated neurotoxicity syndrome
+DRUG:GEMCITABINE HYDROCHLORIDE	AE:Hepatitis B reactivation	9.048199	False	GEMCITABINE HYDROCHLORIDE	Hepatitis B reactivation
+DRUG:PROGLUMIDE	AE:Serratia bacteraemia	9.045741	False	PROGLUMIDE	Serratia bacteraemia
+DRUG:PF-03732010	AE:Brain natriuretic peptide decreased	9.045575	False	PF-03732010	Brain natriuretic peptide decreased
+DRUG:BATIRAXCEPT	AE:Brain natriuretic peptide decreased	9.044451	False	BATIRAXCEPT	Brain natriuretic peptide decreased
+DRUG:FOSCARBIDOPA;FOSLEVODOPA	AE:Catheter site swelling	9.041994	True	FOSCARBIDOPA;FOSLEVODOPA	Catheter site swelling
+DRUG:QUININE SULFATE	AE:Colonic pseudo-obstruction	9.039545	False	QUININE SULFATE	Colonic pseudo-obstruction
+DRUG:SIMVASTATIN	AE:High density lipoprotein decreased	9.03735	True	SIMVASTATIN	High density lipoprotein decreased
+DRUG:STX-100	AE:Application site haematoma	9.034945	False	STX-100	Application site haematoma
+DRUG:PEPINEMAB	AE:Infective spondylitis	9.033341	False	PEPINEMAB	Infective spondylitis
+DRUG:FLUDARABINE	AE:Acute graft versus host disease in skin	9.032718	True	FLUDARABINE	Acute graft versus host disease in skin
+DRUG:BUSPIRONE	AE:Dystonia	9.023389	True	BUSPIRONE	Dystonia
+DRUG:DEXRAZOXANE	AE:Cytomegalovirus infection	9.023028	False	DEXRAZOXANE	Cytomegalovirus infection
+DRUG:TEDUGLUTIDE	AE:Inability to afford medication	9.022634	True	TEDUGLUTIDE	Inability to afford medication
+DRUG:TAS-106	AE:Cervical conisation	9.020266	False	TAS-106	Cervical conisation
+DRUG:FITUSIRAN	AE:Duchenne muscular dystrophy	9.018627	False	FITUSIRAN	Duchenne muscular dystrophy
+DRUG:VINBLASTINE SULFATE	AE:Autoscopy	9.016026	False	VINBLASTINE SULFATE	Autoscopy
+DRUG:FOSCARBIDOPA;FOSLEVODOPA	AE:Impulse-control disorder	9.011234	False	FOSCARBIDOPA;FOSLEVODOPA	Impulse-control disorder
+DRUG:FLAVOXATE HYDROCHLORIDE	AE:Aphantasia	9.006138	False	FLAVOXATE HYDROCHLORIDE	Aphantasia
+DRUG:CARIPRAZINE	AE:Developmental delay	9.00351	False	CARIPRAZINE	Developmental delay
+DRUG:ONABOTULINUMTOXINA	AE:Medical device site hyperaesthesia	8.998955	False	ONABOTULINUMTOXINA	Medical device site hyperaesthesia
+DRUG:GALCANEZUMAB	AE:Injection site urticaria	8.997788	True	GALCANEZUMAB	Injection site urticaria
+DRUG:LB-100	AE:Brain natriuretic peptide decreased	8.997375	False	LB-100	Brain natriuretic peptide decreased
+DRUG:VORASIDENIB	AE:Application site haematoma	8.994341	False	VORASIDENIB	Application site haematoma
+DRUG:GATAPARSEN	AE:Persistent corneal epithelial defect	8.993052	False	GATAPARSEN	Persistent corneal epithelial defect
+DRUG:EFINACONAZOLE	AE:Hyperphosphataemia	8.992272	True	EFINACONAZOLE	Hyperphosphataemia
+DRUG:ZIPRASIDONE	AE:Accidental exposure to product by child	8.99177	False	ZIPRASIDONE	Accidental exposure to product by child
+DRUG:BAMINERCEPT	AE:Xanthelasma	8.98379	False	BAMINERCEPT	Xanthelasma
+DRUG:AFAMITRESGENE AUTOLEUCEL	AE:Application site haematoma	8.982263	False	AFAMITRESGENE AUTOLEUCEL	Application site haematoma
+DRUG:BENZONATATE	AE:Generalised anxiety disorder	8.980429	False	BENZONATATE	Generalised anxiety disorder
+DRUG:GUSELKUMAB	AE:Device leakage	8.973941	True	GUSELKUMAB	Device leakage
+DRUG:NALTREXONE	AE:Anger	8.969195	True	NALTREXONE	Anger
+DRUG:DIAMORPHINE	AE:Developmental delay	8.967401	True	DIAMORPHINE	Developmental delay
+DRUG:EMTRICITABINE;TENOFOVIR	AE:Immune reconstitution inflammatory syndrome	8.966393	True	EMTRICITABINE;TENOFOVIR	Immune reconstitution inflammatory syndrome
+DRUG:DAGLUTRIL	AE:Small bowel angioedema	8.956982	False	DAGLUTRIL	Small bowel angioedema
+DRUG:PETESICATIB	AE:Brain natriuretic peptide decreased	8.953654	False	PETESICATIB	Brain natriuretic peptide decreased
+DRUG:RIVASTIGMINE	AE:Dementia	8.95311	True	RIVASTIGMINE	Dementia
+DRUG:TREOSULFAN	AE:Viraemia	8.94746	True	TREOSULFAN	Viraemia
+DRUG:EMTRICITABINE;TENOFOVIR	AE:Multiple fractures	8.946068	True	EMTRICITABINE;TENOFOVIR	Multiple fractures
+DRUG:SVN53-67/M57-KLH PEPTIDE VACCINE	AE:Serratia bacteraemia	8.942031	False	SVN53-67/M57-KLH PEPTIDE VACCINE	Serratia bacteraemia
+DRUG:TAS-106	AE:Dermal sinus	8.929041	False	TAS-106	Dermal sinus
+DRUG:DAUNORUBICIN	AE:Posterior reversible encephalopathy syndrome	8.92875	True	DAUNORUBICIN	Posterior reversible encephalopathy syndrome
+DRUG:BIMATOPROST	AE:Eye irritation	8.928133	True	BIMATOPROST	Eye irritation
+DRUG:BUSULFAN	AE:Immune reconstitution inflammatory syndrome	8.925107	False	BUSULFAN	Immune reconstitution inflammatory syndrome
+DRUG:PALIPERIDONE	AE:Hyperprolactinaemia	8.924929	True	PALIPERIDONE	Hyperprolactinaemia
+DRUG:FELODIPINE	AE:Product use complaint	8.923756	False	FELODIPINE	Product use complaint
+DRUG:CYCLOPHOSPHAMIDE;DOXORUBICIN;PREDNISONE;VINCRISTINE	AE:Hepatitis B DNA increased	8.923489	False	CYCLOPHOSPHAMIDE;DOXORUBICIN;PREDNISONE;VINCRISTINE	Hepatitis B DNA increased
+DRUG:TAMIBAROTENE	AE:Application site haematoma	8.920737	False	TAMIBAROTENE	Application site haematoma
+DRUG:CYAMEMAZINE	AE:Blood creatine phosphokinase increased	8.917441	True	CYAMEMAZINE	Blood creatine phosphokinase increased
+DRUG:ASUNERCEPT	AE:Infective spondylitis	8.91554	False	ASUNERCEPT	Infective spondylitis
+DRUG:TAS-106	AE:Renal necrosis	8.912827	False	TAS-106	Renal necrosis
+DRUG:PEGILODECAKIN	AE:Brain natriuretic peptide decreased	8.912783	False	PEGILODECAKIN	Brain natriuretic peptide decreased
+DRUG:NITISINONE	AE:Iridocyclitis	8.909616	False	NITISINONE	Iridocyclitis
+DRUG:ELPETRIGINE	AE:Repetitive speech	8.909269	False	ELPETRIGINE	Repetitive speech
+DRUG:ROSMANTUZUMAB	AE:Application site haematoma	8.906171	False	ROSMANTUZUMAB	Application site haematoma
+DRUG:BENDAMUSTINE	AE:Cytomegalovirus infection	8.903733	True	BENDAMUSTINE	Cytomegalovirus infection
+DRUG:POMALIDOMIDE	AE:White blood cell count abnormal	8.902484	True	POMALIDOMIDE	White blood cell count abnormal
+DRUG:KB-004	AE:Haematosalpinx	8.899669	False	KB-004	Haematosalpinx
+DRUG:BRENTUXIMAB VEDOTIN	AE:Cytomegalovirus infection	8.898046	True	BRENTUXIMAB VEDOTIN	Cytomegalovirus infection
+DRUG:GATAPARSEN	AE:Cannabinoid hyperemesis syndrome	8.897958	False	GATAPARSEN	Cannabinoid hyperemesis syndrome
+DRUG:DULOXETINE	AE:Obsessive-compulsive disorder	8.890547	True	DULOXETINE	Obsessive-compulsive disorder
+DRUG:ISATUXIMAB	AE:Cytomegalovirus infection	8.890398	False	ISATUXIMAB	Cytomegalovirus infection
+DRUG:DIAMORPHINE	AE:Dystonia	8.881644	True	DIAMORPHINE	Dystonia
+DRUG:SILTUXIMAB	AE:Neurogenic bladder	8.874768	False	SILTUXIMAB	Neurogenic bladder
+DRUG:ONABOTULINUMTOXINA	AE:Small bowel angioedema	8.871918	False	ONABOTULINUMTOXINA	Small bowel angioedema
+DRUG:LURASIDONE	AE:Panic disorder	8.869174	True	LURASIDONE	Panic disorder
+DRUG:BELATACEPT	AE:Cytomegalovirus infection reactivation	8.866524	False	BELATACEPT	Cytomegalovirus infection reactivation
+DRUG:SUNITINIB	AE:Tumour marker increased	8.862446	False	SUNITINIB	Tumour marker increased
+DRUG:PEGILODECAKIN	AE:Anticoagulation drug level decreased	8.862361	False	PEGILODECAKIN	Anticoagulation drug level decreased
+DRUG:EDIFOLIGIDE SODIUM	AE:Brain natriuretic peptide decreased	8.86145	False	EDIFOLIGIDE SODIUM	Brain natriuretic peptide decreased
+DRUG:TISAGENLECLEUCEL	AE:Pneumonia fungal	8.855887	True	TISAGENLECLEUCEL	Pneumonia fungal
+DRUG:TAS-106	AE:Application site haematoma	8.85442	False	TAS-106	Application site haematoma
+DRUG:OLAPARIB	AE:Neoplasm progression	8.852966	True	OLAPARIB	Neoplasm progression
+DRUG:ELPETRIGINE	AE:Haematosalpinx	8.852367	False	ELPETRIGINE	Haematosalpinx
+DRUG:MONALIZUMAB	AE:Brain natriuretic peptide decreased	8.850977	False	MONALIZUMAB	Brain natriuretic peptide decreased
+DRUG:LISDEXAMFETAMINE	AE:Extra dose administered	8.850426	True	LISDEXAMFETAMINE	Extra dose administered
+DRUG:HALOPERIDOL	AE:Dystonia	8.84728	True	HALOPERIDOL	Dystonia
+DRUG:LATISSE 0.03%	AE:Scleral hyperaemia	8.846887	True	LATISSE 0.03%	Scleral hyperaemia
+DRUG:AMFETAMINE	AE:Substance abuse	8.841167	True	AMFETAMINE	Substance abuse
+DRUG:SELONSERTIB	AE:Small intestinal ulcer haemorrhage	8.841166	False	SELONSERTIB	Small intestinal ulcer haemorrhage
+DRUG:NUSINERSEN	AE:Infusion related reaction	8.836276	False	NUSINERSEN	Infusion related reaction
+DRUG:BUSULFAN	AE:Cytokine release syndrome	8.835871	False	BUSULFAN	Cytokine release syndrome
+DRUG:MITOXANTRONE	AE:Acute lymphocytic leukaemia recurrent	8.829925	True	MITOXANTRONE	Acute lymphocytic leukaemia recurrent
+DRUG:CABOTEGRAVIR;RILPIVIRINE	AE:Syringe issue	8.82663	False	CABOTEGRAVIR;RILPIVIRINE	Syringe issue
+DRUG:ROSIPTOR	AE:Renal necrosis	8.823252	False	ROSIPTOR	Renal necrosis
+DRUG:SELONSERTIB	AE:BLADDER CANCER	8.822145	False	SELONSERTIB	BLADDER CANCER
+DRUG:DURVALUMAB	AE:Cytokine release syndrome	8.821237	True	DURVALUMAB	Cytokine release syndrome
+DRUG:FOSCARBIDOPA;FOSLEVODOPA	AE:Inability to afford medication	8.820975	False	FOSCARBIDOPA;FOSLEVODOPA	Inability to afford medication
+DRUG:PLITIDEPSIN	AE:Duchenne muscular dystrophy	8.816947	False	PLITIDEPSIN	Duchenne muscular dystrophy
+DRUG:BENDAMUSTINE	AE:Cytokine release syndrome	8.811679	True	BENDAMUSTINE	Cytokine release syndrome
+DRUG:OXYMORPHONE	AE:Exposure via father	8.811435	False	OXYMORPHONE	Exposure via father
+DRUG:GANCICLOVIR	AE:Cytomegalovirus viraemia	8.804566	True	GANCICLOVIR	Cytomegalovirus viraemia
+DRUG:DIAMORPHINE	AE:Respiratory depression	8.803832	True	DIAMORPHINE	Respiratory depression
+DRUG:LENACAPAVIR	AE:Device difficult to use	8.80063	False	LENACAPAVIR	Device difficult to use
+DRUG:GEMCITABINE HYDROCHLORIDE	AE:Granulocyte count decreased	8.797081	False	GEMCITABINE HYDROCHLORIDE	Granulocyte count decreased
+DRUG:BROLUCIZUMAB	AE:Lymphocytic infiltration	8.796393	False	BROLUCIZUMAB	Lymphocytic infiltration
+DRUG:ARTIFICIAL TEARS;GLYCEROL	AE:Product container issue	8.793955	False	ARTIFICIAL TEARS;GLYCEROL	Product container issue
+DRUG:GLUCOSE;MAGNESIUM;SODIUM CHLORIDE;SODIUM LACTATE	AE:Pulmonary oedema	8.793134	True	GLUCOSE;MAGNESIUM;SODIUM CHLORIDE;SODIUM LACTATE	Pulmonary oedema
+DRUG:FIDAXOMICIN	AE:Enterocolitis haemorrhagic	8.793109	False	FIDAXOMICIN	Enterocolitis haemorrhagic
+DRUG:REMINERTANT	AE:Application site haematoma	8.791316	False	REMINERTANT	Application site haematoma
+DRUG:CARMUSTINE	AE:Myelosuppression	8.787036	True	CARMUSTINE	Myelosuppression
+DRUG:KB-004	AE:Repetitive speech	8.778483	False	KB-004	Repetitive speech
+DRUG:DURVALUMAB	AE:Peritonitis	8.77774	False	DURVALUMAB	Peritonitis
+DRUG:ANTITHYMOCYTE IMMUNOGLOBULIN	AE:Hepatitis B reactivation	8.776388	True	ANTITHYMOCYTE IMMUNOGLOBULIN	Hepatitis B reactivation
+DRUG:TAS0612	AE:Catheter site cellulitis	8.773759	False	TAS0612	Catheter site cellulitis
+DRUG:XENTUZUMAB	AE:Ichthyosis	8.772644	False	XENTUZUMAB	Ichthyosis
+DRUG:MICAFUNGIN SODIUM	AE:Nephrogenic anaemia	8.768149	False	MICAFUNGIN SODIUM	Nephrogenic anaemia
+DRUG:ELPETRIGINE	AE:Precipitate labour	8.767703	False	ELPETRIGINE	Precipitate labour
+DRUG:FOSCARBIDOPA;FOSLEVODOPA	AE:Device dislocation	8.766444	True	FOSCARBIDOPA;FOSLEVODOPA	Device dislocation
+DRUG:BHQ-880	AE:Duchenne muscular dystrophy	8.764643	False	BHQ-880	Duchenne muscular dystrophy
+DRUG:FLANVOTUMAB	AE:Brain natriuretic peptide decreased	8.763625	False	FLANVOTUMAB	Brain natriuretic peptide decreased
+DRUG:SITAGLIPTIN	AE:Inability to afford medication	8.762397	True	SITAGLIPTIN	Inability to afford medication
+DRUG:ANTITHYMOCYTE IMMUNOGLOBULIN	AE:Varicella zoster virus infection	8.761833	True	ANTITHYMOCYTE IMMUNOGLOBULIN	Varicella zoster virus infection
+DRUG:TAS-106	AE:Blood calcitonin increased	8.761238	False	TAS-106	Blood calcitonin increased
+DRUG:MENTHOL	AE:Anal cancer	8.751269	False	MENTHOL	Anal cancer
+DRUG:ATEZOLIZUMAB	AE:Neoplasm progression	8.749236	True	ATEZOLIZUMAB	Neoplasm progression
+DRUG:IFOSFAMIDE	AE:Granulocyte count decreased	8.748488	False	IFOSFAMIDE	Granulocyte count decreased
+DRUG:SELONSERTIB	AE:Panophthalmitis	8.746391	False	SELONSERTIB	Panophthalmitis
+DRUG:TRAZODONE	AE:Suspected suicide	8.744089	True	TRAZODONE	Suspected suicide
+DRUG:LORATADINE	AE:Product use complaint	8.742708	True	LORATADINE	Product use complaint
+DRUG:DIAMORPHINE	AE:Accidental exposure to product by child	8.738902	False	DIAMORPHINE	Accidental exposure to product by child
+DRUG:FLETIKUMAB	AE:Ichthyosis	8.73797	False	FLETIKUMAB	Ichthyosis
+DRUG:CARIPRAZINE	AE:Tic	8.736131	False	CARIPRAZINE	Tic
+DRUG:LUTIKIZUMAB	AE:Application site haematoma	8.735274	False	LUTIKIZUMAB	Application site haematoma
+DRUG:METFORMIN;ROSIGLITAZONE	AE:Cerebral infarction	8.732313	True	METFORMIN;ROSIGLITAZONE	Cerebral infarction
+DRUG:ALTEPLASE	AE:Acute generalised exanthematous pustulosis	8.731355	False	ALTEPLASE	Acute generalised exanthematous pustulosis
+DRUG:TAS0612	AE:Splenorenal shunt	8.726098	False	TAS0612	Splenorenal shunt
+DRUG:CLOFARABINE	AE:Post transplant lymphoproliferative disorder	8.722752	False	CLOFARABINE	Post transplant lymphoproliferative disorder
+DRUG:GATAPARSEN	AE:Patent ductus arteriosus repair	8.722692	False	GATAPARSEN	Patent ductus arteriosus repair
+DRUG:POLATUZUMAB VEDOTIN	AE:Granulocytopenia	8.719386	False	POLATUZUMAB VEDOTIN	Granulocytopenia
+DRUG:EPACADOSTAT	AE:Brain natriuretic peptide decreased	8.719216	False	EPACADOSTAT	Brain natriuretic peptide decreased
+DRUG:QUETIAPINE FUMARATE	AE:Drug interaction	8.715872	True	QUETIAPINE FUMARATE	Drug interaction
+DRUG:KETAMINE	AE:Depressed level of consciousness	8.713891	True	KETAMINE	Depressed level of consciousness
+DRUG:CANAGLIFLOZIN;METFORMIN	AE:Euglycaemic diabetic ketoacidosis	8.711725	False	CANAGLIFLOZIN;METFORMIN	Euglycaemic diabetic ketoacidosis
+DRUG:INGENOL	AE:Application site discolouration	8.705173	True	INGENOL	Application site discolouration
+DRUG:FLUTICASONE;UMECLIDINIUM;VILANTEROL	AE:Productive cough	8.704551	True	FLUTICASONE;UMECLIDINIUM;VILANTEROL	Productive cough
+DRUG:ELADOCAGENE EXUPARVOVEC	AE:Haematosalpinx	8.703896	False	ELADOCAGENE EXUPARVOVEC	Haematosalpinx
+DRUG:CEFTRIAXONE	AE:Shock	8.702727	True	CEFTRIAXONE	Shock
+DRUG:BROLUCIZUMAB	AE:Foreign body sensation in eyes	8.701896	True	BROLUCIZUMAB	Foreign body sensation in eyes
+DRUG:BRIGATINIB	AE:Off label use	8.701465	True	BRIGATINIB	Off label use
+DRUG:AMISULPRIDE	AE:Accidental exposure to product by child	8.69994	True	AMISULPRIDE	Accidental exposure to product by child
+DRUG:BLINATUMOMAB	AE:Blast cell count increased	8.698829	True	BLINATUMOMAB	Blast cell count increased
+DRUG:FLUTICASONE;SALMETEROL	AE:Throat clearing	8.697976	True	FLUTICASONE;SALMETEROL	Throat clearing
+DRUG:MYCOPHENOLIC ACID	AE:Escherichia infection	8.697511	True	MYCOPHENOLIC ACID	Escherichia infection
+DRUG:INGENOL	AE:Application site erythema	8.697209	True	INGENOL	Application site erythema
+DRUG:PALOSURAN	AE:Brain natriuretic peptide decreased	8.696685	False	PALOSURAN	Brain natriuretic peptide decreased
+DRUG:NNC0114-0006	AE:Catheter site cellulitis	8.696276	False	NNC0114-0006	Catheter site cellulitis
+DRUG:VALDECOXIB	AE:Anorectal discomfort	8.69511	False	VALDECOXIB	Anorectal discomfort
+DRUG:VARESPLADIB	AE:Blood calcitonin increased	8.69488	False	VARESPLADIB	Blood calcitonin increased
+DRUG:BASILIXIMAB	AE:Peritonitis	8.689623	True	BASILIXIMAB	Peritonitis
+DRUG:LURASIDONE	AE:Catatonia	8.688354	True	LURASIDONE	Catatonia
+DRUG:GLIMEPIRIDE;ROSIGLITAZONE	AE:Hereditary angioedema	8.687176	False	GLIMEPIRIDE;ROSIGLITAZONE	Hereditary angioedema
+DRUG:ALIMEMAZINE	AE:Accidental exposure to product by child	8.686362	False	ALIMEMAZINE	Accidental exposure to product by child
+DRUG:PEGILODECAKIN	AE:Haematosalpinx	8.683281	False	PEGILODECAKIN	Haematosalpinx
+DRUG:TEMELIMAB	AE:Brain natriuretic peptide decreased	8.681871	False	TEMELIMAB	Brain natriuretic peptide decreased
+DRUG:TIVANISIRAN	AE:Influenza immunisation	8.681779	False	TIVANISIRAN	Influenza immunisation
+DRUG:MENTHOL	AE:Dependence	8.679464	False	MENTHOL	Dependence
+DRUG:ONABOTULINUMTOXINA	AE:Anticoagulation drug level decreased	8.679135	False	ONABOTULINUMTOXINA	Anticoagulation drug level decreased
+DRUG:ALOGLIPTIN;METFORMIN	AE:Autoscopy	8.678503	False	ALOGLIPTIN;METFORMIN	Autoscopy
+DRUG:SODIUM DICHLOROACETATE	AE:Duchenne muscular dystrophy	8.676978	False	SODIUM DICHLOROACETATE	Duchenne muscular dystrophy
+DRUG:CYTARABINE	AE:Neutropenic colitis	8.676189	True	CYTARABINE	Neutropenic colitis
+DRUG:FLUDARABINE	AE:Post transplant lymphoproliferative disorder	8.669301	True	FLUDARABINE	Post transplant lymphoproliferative disorder
+DRUG:ETOPOSIDE	AE:Follicular lymphoma	8.666039	True	ETOPOSIDE	Follicular lymphoma
+DRUG:KB-004	AE:Infective spondylitis	8.664295	False	KB-004	Infective spondylitis
+DRUG:FLUDARABINE	AE:Myelosuppression	8.661237	True	FLUDARABINE	Myelosuppression
+DRUG:ZATOLMILAST	AE:Blood calcitonin increased	8.659266	False	ZATOLMILAST	Blood calcitonin increased
+DRUG:TREMELIMUMAB	AE:Thrombocytopenia	8.657151	True	TREMELIMUMAB	Thrombocytopenia
+DRUG:FLAVOXATE HYDROCHLORIDE	AE:Laryngeal necrosis	8.656156	False	FLAVOXATE HYDROCHLORIDE	Laryngeal necrosis
+DRUG:BOSENTAN	AE:Cardiac failure acute	8.649615	True	BOSENTAN	Cardiac failure acute
+DRUG:AMIODARONE	AE:Cardiac failure chronic	8.648887	True	AMIODARONE	Cardiac failure chronic
+DRUG:CIDOFOVIR	AE:Varicella zoster virus infection	8.64825	False	CIDOFOVIR	Varicella zoster virus infection
+DRUG:PF-04605412	AE:Blood calcitonin increased	8.646885	False	PF-04605412	Blood calcitonin increased
+DRUG:INGENOL	AE:Application site dryness	8.644592	True	INGENOL	Application site dryness
+DRUG:POLATUZUMAB VEDOTIN	AE:Cytokine release syndrome	8.64415	True	POLATUZUMAB VEDOTIN	Cytokine release syndrome
+DRUG:ABT-751	AE:Aortic pseudoaneurysm	8.643534	False	ABT-751	Aortic pseudoaneurysm
+DRUG:INOTUZUMAB	AE:Acute lymphocytic leukaemia recurrent	8.641344	True	INOTUZUMAB	Acute lymphocytic leukaemia recurrent
+DRUG:BASILIXIMAB	AE:Transplant dysfunction	8.636042	True	BASILIXIMAB	Transplant dysfunction
+DRUG:CHLORAMBUCIL	AE:Myelosuppression	8.63596	False	CHLORAMBUCIL	Myelosuppression
+DRUG:QUETIAPINE FUMARATE	AE:Neuroleptic malignant syndrome	8.634943	True	QUETIAPINE FUMARATE	Neuroleptic malignant syndrome
+DRUG:MILRINONE	AE:Hepatitis C	8.634646	False	MILRINONE	Hepatitis C
+DRUG:CARIPRAZINE	AE:Abnormal dreams	8.63423	False	CARIPRAZINE	Abnormal dreams
+DRUG:EPCORITAMAB	AE:Post transplant lymphoproliferative disorder	8.63312	False	EPCORITAMAB	Post transplant lymphoproliferative disorder
+DRUG:BUSPIRONE	AE:Substance abuse	8.631404	False	BUSPIRONE	Substance abuse
+DRUG:PRAMLINTIDE ACETATE	AE:Infective spondylitis	8.631385	False	PRAMLINTIDE ACETATE	Infective spondylitis
+DRUG:DURVALUMAB	AE:Neoplasm progression	8.631074	True	DURVALUMAB	Neoplasm progression
+DRUG:DAUNORUBICIN	AE:Shock	8.630419	True	DAUNORUBICIN	Shock
+DRUG:ASPARAGINASE	AE:Neutropenic colitis	8.630221	True	ASPARAGINASE	Neutropenic colitis

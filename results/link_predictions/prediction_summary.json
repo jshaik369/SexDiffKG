@@ -1,0 +1,17 @@
+{
+  "model": "ComplEx v4",
+  "prediction_type": "sex_differential_adverse_event",
+  "total_drugs": 7208,
+  "total_aes": 9949,
+  "existing_sdae_edges": 96281,
+  "existing_hae_edges": 614978,
+  "total_novel_scored": 71616111,
+  "top_n_saved": 500,
+  "top_n_with_hae_edge": 146,
+  "top_n_truly_novel": 354,
+  "score_range": [
+    8.630221,
+    15.073018
+  ],
+  "runtime_minutes": 1.51
+}

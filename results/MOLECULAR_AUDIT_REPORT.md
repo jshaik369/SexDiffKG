@@ -97,7 +97,7 @@
 | 78 | ✅ PASS | Study contains Gene targets=429 |  |
 | 79 | ✅ PASS | Study contains MRR=0.04762 |  |
 | 80 | ✅ PASS | Study contains Hits@10 (as percentage)=8.85% |  |
-| 81 | ✅ PASS | Study contains AMRI=0.981 |  |
+| 81 | ✅ PASS | Study contains AMRI=0.9807 |  |
 | 82 | ✅ PASS | Study contains Unique drugs=3,441 |  |
 | 83 | ✅ PASS | Study contains Unique AEs=5,658 |  |
 | 84 | ✅ PASS | Study contains ROR signals=2,610,331 |  |

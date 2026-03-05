@@ -1,0 +1,219 @@
+{
+  "schema_version": "1.0",
+  "knowledge_graph": "SexDiffKG v4",
+  "created": "2026-03-04",
+  "author": "Mohammed Javeed Akhtar Abbas Shaik",
+  "files": {
+    "nodes.tsv": {
+      "description": "All nodes in the knowledge graph",
+      "format": "TSV (tab-separated values, no header)",
+      "rows": 109867,
+      "columns": {
+        "id": {
+          "type": "string",
+          "description": "Unique node identifier with category prefix",
+          "examples": ["DRUG:ASPIRIN", "GENE:BRCA1", "PROTEIN:ENSP00000350283", "AE:Headache", "PATHWAY:R-HSA-109582", "TISSUE:Liver"],
+          "prefixes": {
+            "DRUG:": "Drug/active ingredient (DiAna-normalized FAERS names)",
+            "GENE:": "Gene (HGNC symbol)",
+            "PROTEIN:": "Protein (Ensembl protein ID from STRING)",
+            "AE:": "Adverse event (MedDRA Preferred Term)",
+            "PATHWAY:": "Biological pathway (Reactome stable ID)",
+            "TISSUE:": "Human tissue (GTEx tissue name)"
+          }
+        },
+        "name": {
+          "type": "string",
+          "description": "Human-readable name of the entity"
+        },
+        "category": {
+          "type": "string",
+          "description": "Entity type category",
+          "values": ["Drug", "Gene", "Protein", "AdverseEvent", "Pathway", "Tissue"],
+          "counts": {
+            "Gene": 77498,
+            "Protein": 16201,
+            "AdverseEvent": 9949,
+            "Drug": 3920,
+            "Pathway": 2279,
+            "Tissue": 20
+          }
+        }
+      },
+      "md5": "5a7331b1b0e7f11853444eb59e2b9166"
+    },
+    "edges.tsv": {
+      "description": "All edges (relationships) in the knowledge graph",
+      "format": "TSV (tab-separated values, no header)",
+      "rows": 1822851,
+      "columns": {
+        "subject": {
+          "type": "string",
+          "description": "Source node ID (references nodes.tsv id column)"
+        },
+        "predicate": {
+          "type": "string",
+          "description": "Relationship type",
+          "values": {
+            "has_adverse_event": {
+              "count": 869142,
+              "source": "FAERS ROR analysis",
+              "subject_type": "Drug",
+              "object_type": "AdverseEvent",
+              "description": "Drug associated with adverse event (ROR lower 95% CI > 1)"
+            },
+            "interacts_with": {
+              "count": 473860,
+              "source": "STRING v12.0",
+              "subject_type": "Protein",
+              "object_type": "Protein",
+              "description": "Protein-protein interaction (combined score >= 700)"
+            },
+            "participates_in": {
+              "count": 370597,
+              "source": "Reactome",
+              "subject_type": "Gene",
+              "object_type": "Pathway",
+              "description": "Gene participates in biological pathway"
+            },
+            "sex_differential_adverse_event": {
+              "count": 96281,
+              "source": "FAERS sex-stratified ROR",
+              "subject_type": "Drug",
+              "object_type": "AdverseEvent",
+              "description": "Drug-AE pair with significant sex-differential reporting (|log(ROR_F/ROR_M)| >= 0.5, min 10 reports per sex)"
+            },
+            "targets": {
+              "count": 12682,
+              "source": "ChEMBL 36",
+              "subject_type": "Drug",
+              "object_type": "Gene",
+              "description": "Drug targets gene product (pChEMBL >= 6)"
+            },
+            "sex_differential_expression": {
+              "count": 289,
+              "source": "GTEx v8 (Oliva et al. 2020)",
+              "subject_type": "Gene",
+              "object_type": "Tissue",
+              "description": "Gene shows sex-differential expression in tissue (|log2FC| > 1, padj < 0.05)"
+            }
+          }
+        },
+        "object": {
+          "type": "string",
+          "description": "Target node ID (references nodes.tsv id column)"
+        }
+      },
+      "md5": "b8e4890c2063bdf9357c76730881b440"
+    },
+    "triples.tsv": {
+      "description": "PyKEEN-ready triple format for embedding training",
+      "format": "TSV (tab-separated, no header): head, relation, tail",
+      "rows": 1822851,
+      "columns": {
+        "head": {"type": "string", "description": "Same as edges.tsv subject"},
+        "relation": {"type": "string", "description": "Same as edges.tsv predicate"},
+        "tail": {"type": "string", "description": "Same as edges.tsv object"}
+      },
+      "md5": "2d4e46b1265a9a9bd44bbfc7372a9e44"
+    }
+  },
+  "data_sources": {
+    "FAERS": {
+      "full_name": "FDA Adverse Event Reporting System",
+      "version": "2004Q1-2025Q3 (87 quarters)",
+      "license": "Public Domain",
+      "url": "https://fis.fda.gov/extensions/FPD-QDE-FAERS/FPD-QDE-FAERS.html",
+      "total_reports": 14536008,
+      "female_reports": 8744397,
+      "male_reports": 5791611
+    },
+    "STRING": {
+      "full_name": "Search Tool for the Retrieval of Interacting Genes/Proteins",
+      "version": "v12.0",
+      "license": "CC-BY 4.0",
+      "url": "https://string-db.org",
+      "species": "Homo sapiens (taxon 9606)",
+      "filter": "combined_score >= 700"
+    },
+    "ChEMBL": {
+      "full_name": "ChEMBL Database",
+      "version": "36",
+      "license": "CC-BY-SA 3.0",
+      "url": "https://www.ebi.ac.uk/chembl/",
+      "filter": "pChEMBL >= 6, activity types: Ki, Kd, IC50, EC50"
+    },
+    "Reactome": {
+      "full_name": "Reactome Pathway Database",
+      "version": "2026-02",
+      "license": "CC-BY 4.0",
+      "url": "https://reactome.org",
+      "species": "Homo sapiens"
+    },
+    "GTEx": {
+      "full_name": "Genotype-Tissue Expression Project",
+      "version": "v8",
+      "license": "Open Access",
+      "url": "https://gtexportal.org",
+      "reference": "Oliva et al. 2020, Science",
+      "filter": "|log2FC| > 1, adjusted p-value < 0.05"
+    },
+    "DiAna": {
+      "full_name": "Drug Information Association dictionary",
+      "version": "2025",
+      "license": "Open Source",
+      "url": "https://github.com/fusarolimichele/DiAna_package",
+      "mappings": 846917,
+      "resolution_rate": "53.9%"
+    }
+  },
+  "embeddings": {
+    "ComplEx_v4": {
+      "model": "ComplEx",
+      "dimension": 200,
+      "real_dimension": 400,
+      "epochs": 100,
+      "batch_size": 512,
+      "learning_rate": 0.001,
+      "random_seed": 42,
+      "train_test_split": "90/10",
+      "entities_embedded": 113012,
+      "relations_embedded": 5,
+      "metrics": {
+        "MRR": 0.2484,
+        "Hits@1": 0.1678,
+        "Hits@3": 0.2692,
+        "Hits@5": 0.3234,
+        "Hits@10": 0.4069,
+        "AMRI": 0.9902
+      },
+      "files": {
+        "model_weights": "results/kg_embeddings_v4/ComplEx/model.pt",
+        "entity_embeddings": "results/kg_embeddings_v4/ComplEx/embeddings/entity_embeddings.npz",
+        "relation_embeddings": "results/kg_embeddings_v4/ComplEx/embeddings/relation_embeddings.npz"
+      },
+      "note": "ComplEx uses complex-valued embeddings. Each 200-d embedding has 400 real parameters (200 real + 200 imaginary). Trained on 5 relations (sex_differential_expression excluded due to being added after training)."
+    }
+  },
+  "signals": {
+    "total": 183544,
+    "strong": 49026,
+    "strong_female_biased": 28669,
+    "strong_male_biased": 20357,
+    "threshold": "|log(ROR_F/ROR_M)| >= 0.5, minimum 10 reports per sex",
+    "unique_drugs": 3441,
+    "unique_adverse_events": 5658,
+    "kg_edges": 96281,
+    "kg_female_higher": 51771,
+    "kg_male_higher": 44510
+  },
+  "validation": {
+    "benchmarks": 40,
+    "found": 29,
+    "coverage": "72.5%",
+    "correct_direction": 24,
+    "directional_precision": "82.8%",
+    "wrong_direction": 5,
+    "not_found": 11
+  }
+}

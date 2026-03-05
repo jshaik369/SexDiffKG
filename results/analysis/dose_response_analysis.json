@@ -1,0 +1,88 @@
+{
+  "wave": "27_dose_response",
+  "distribution": {
+    "mean_abs_lr": 0.9868,
+    "median_abs_lr": 0.8116,
+    "skewness": 2.3685,
+    "kurtosis": 8.4197
+  },
+  "female_vs_male_effect": {
+    "female_mean": 1.0072,
+    "male_mean": 0.9631,
+    "t_stat": 12.7566,
+    "p_val": 3.0687324595966146e-37
+  },
+  "correlations": {
+    "n_signals_vs_lr": {
+      "r": 0.0324,
+      "p": 0.13046576744727464
+    },
+    "log_n_vs_lr": {
+      "r": -0.005,
+      "p": 0.8172796597629893
+    },
+    "log_reports_vs_lr": {
+      "r": 0.0716,
+      "p": 0.0008287247903526743
+    }
+  },
+  "ror_analysis": {
+    "extreme_female": 34405,
+    "extreme_male": 28195
+  },
+  "severity_analysis": {
+    "serious": {
+      "n": 2701,
+      "mean_lr": 0.9112,
+      "f_pct": 65.6
+    },
+    "moderate": {
+      "n": 90147,
+      "mean_lr": 0.9902,
+      "f_pct": 53.5
+    },
+    "mild": {
+      "n": 3433,
+      "mean_lr": 0.9577,
+      "f_pct": 52.6
+    }
+  },
+  "inequality": {
+    "drug_gini": 0.7461,
+    "ae_gini": 0.7497
+  },
+  "threshold_sensitivity": {
+    "0.5": {
+      "n": 96281,
+      "f_pct": 53.8
+    },
+    "0.75": {
+      "n": 55247,
+      "f_pct": 55.2
+    },
+    "1.0": {
+      "n": 32244,
+      "f_pct": 56.4
+    },
+    "1.25": {
+      "n": 19595,
+      "f_pct": 57.5
+    },
+    "1.5": {
+      "n": 12518,
+      "f_pct": 58.3
+    },
+    "2.0": {
+      "n": 5467,
+      "f_pct": 59.4
+    },
+    "2.5": {
+      "n": 2473,
+      "f_pct": 59.3
+    },
+    "3.0": {
+      "n": 1028,
+      "f_pct": 58.5
+    }
+  }
+}

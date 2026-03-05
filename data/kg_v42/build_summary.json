@@ -1,0 +1,48 @@
+{
+  "version": "v4.2",
+  "timestamp": "2026-03-04T05:08:46.869537+00:00",
+  "changes": [
+    "Reactome: filtered to ENSG-only + ENSP-mapped-to-ENSG (dropped ENST)",
+    "ChEMBL targets: use ensembl_gene_id from drug_targets.parquet",
+    "GTEx: gene symbols mapped to ENSG via UniProt id_mappings",
+    "Added encodes_for edges: GENE:ENSG -> PROTEIN:ENSP",
+    "Deduplicated all edge types"
+  ],
+  "nodes": 54043,
+  "edges": 1268242,
+  "connected_components": 96,
+  "top_component_sizes": [
+    53591,
+    26,
+    22,
+    10,
+    10,
+    9,
+    8,
+    8,
+    6,
+    6
+  ],
+  "checksums": {
+    "nodes.tsv": "f2abfd0782cceb0feee872a4c2e8bab7",
+    "edges.tsv": "1e1b21baee18c54047a20a233bb3be66",
+    "triples.tsv": "806fce2fc0a19351a8dedc557e2d8dca"
+  },
+  "node_types": {
+    "Gene": "18450",
+    "Protein": "16201",
+    "AdverseEvent": "9949",
+    "Drug": "7145",
+    "Pathway": "2278",
+    "Tissue": "20"
+  },
+  "edge_types": {
+    "has_adverse_event": "614978",
+    "interacts_with": "473860",
+    "sex_differential_adverse_event": "96281",
+    "participates_in": "54412",
+    "encodes_for": "15866",
+    "targets": "12556",
+    "sex_differential_expression": "289"
+  }
+}

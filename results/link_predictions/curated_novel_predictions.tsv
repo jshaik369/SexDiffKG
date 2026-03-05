@@ -1,0 +1,85 @@
+drug	adverse_event	score	has_adverse_event_edge	drug_name_clean	ae_name_clean	drug_hae_edges	drug_sdae_edges	drug_total_edges
+DRUG:CODEINE;PROMETHAZINE	AE:Lung carcinoma cell type unspecified stage IV	14.14317	False	CODEINE;PROMETHAZINE	Lung carcinoma cell type unspecified stage IV	51	7	58
+DRUG:SULFUR HEXAFLUORIDE	AE:Infusion site extravasation	11.880313	False	SULFUR HEXAFLUORIDE	Infusion site extravasation	112	15	127
+DRUG:CARIPRAZINE	AE:Sexual dysfunction	10.996106	False	CARIPRAZINE	Sexual dysfunction	322	39	361
+DRUG:BENZOYL PEROXIDE;CLINDAMYCIN	AE:Application site vesicles	10.975389	False	BENZOYL PEROXIDE;CLINDAMYCIN	Application site vesicles	49	3	52
+DRUG:FLUOCINOLONE	AE:Investigation	10.9146	False	FLUOCINOLONE	Investigation	72	9	81
+DRUG:AVIBACTAM;CEFTAZIDIME	AE:Mechanical ventilation	10.597806	False	AVIBACTAM;CEFTAZIDIME	Mechanical ventilation	71	8	79
+DRUG:SELUMETINIB	AE:Peritonitis bacterial	10.559587	False	SELUMETINIB	Peritonitis bacterial	48	4	52
+DRUG:CORTICOTROPIN	AE:Syringe issue	10.304556	False	CORTICOTROPIN	Syringe issue	794	43	837
+DRUG:OPICAPONE	AE:Alcohol use	10.124459	False	OPICAPONE	Alcohol use	62	4	66
+DRUG:CARMUSTINE	AE:Immune effector cell-associated neurotoxicity syndrome	10.087831	False	CARMUSTINE	Immune effector cell-associated neurotoxicity syndrome	229	39	268
+DRUG:NELARABINE	AE:Cytokine release syndrome	10.047559	False	NELARABINE	Cytokine release syndrome	73	8	81
+DRUG:AZACITIDINE	AE:Cytokine release syndrome	9.986678	False	AZACITIDINE	Cytokine release syndrome	809	111	920
+DRUG:BROLUCIZUMAB	AE:Ulcerative keratitis	9.935596	False	BROLUCIZUMAB	Ulcerative keratitis	202	22	224
+DRUG:QUETIAPINE FUMARATE	AE:Suspected suicide	9.931314	False	QUETIAPINE FUMARATE	Suspected suicide	516	50	566
+DRUG:MENTHOL	AE:Hereditary angioedema	9.910588	False	MENTHOL	Hereditary angioedema	142	16	158
+DRUG:TREOSULFAN	AE:Venoocclusive disease	9.865231	False	TREOSULFAN	Venoocclusive disease	131	21	152
+DRUG:EVOLOCUMAB	AE:Syringe issue	9.825868	False	EVOLOCUMAB	Syringe issue	1580	131	1711
+DRUG:DEXRAZOXANE	AE:Pathogen resistance	9.825081	False	DEXRAZOXANE	Pathogen resistance	80	7	87
+DRUG:AMINOLEVULINIC ACID	AE:Eyelids pruritus	9.812723	False	AMINOLEVULINIC ACID	Eyelids pruritus	55	4	59
+DRUG:TENECTEPLASE	AE:Acute abdomen	9.745352	False	TENECTEPLASE	Acute abdomen	49	13	62
+DRUG:MENTHOL	AE:Application site rash	9.705247	False	MENTHOL	Application site rash	142	16	158
+DRUG:GEMCITABINE HYDROCHLORIDE	AE:Cytokine release syndrome	9.696276	False	GEMCITABINE HYDROCHLORIDE	Cytokine release syndrome	292	23	315
+DRUG:PENTOXIFYLLINE	AE:Peritonitis bacterial	9.688058	False	PENTOXIFYLLINE	Peritonitis bacterial	114	9	123
+DRUG:FOSCARBIDOPA;FOSLEVODOPA	AE:Product administered at inappropriate site	9.640484	False	FOSCARBIDOPA;FOSLEVODOPA	Product administered at inappropriate site	281	38	319
+DRUG:TERIPARATIDE	AE:Syringe issue	9.522384	False	TERIPARATIDE	Syringe issue	1591	84	1675
+DRUG:NELARABINE	AE:Histiocytosis haematophagic	9.494541	False	NELARABINE	Histiocytosis haematophagic	73	8	81
+DRUG:FLUDARABINE PHOSPHATE	AE:Myelosuppression	9.465902	False	FLUDARABINE PHOSPHATE	Myelosuppression	217	37	254
+DRUG:RASBURICASE	AE:Acute lymphocytic leukaemia recurrent	9.434853	False	RASBURICASE	Acute lymphocytic leukaemia recurrent	68	5	73
+DRUG:POSACONAZOLE	AE:Cytokine release syndrome	9.432091	False	POSACONAZOLE	Cytokine release syndrome	447	69	516
+DRUG:QUETIAPINE FUMARATE	AE:Dependence	9.420893	False	QUETIAPINE FUMARATE	Dependence	516	50	566
+DRUG:CHLORAMBUCIL	AE:Cytokine release syndrome	9.417199	False	CHLORAMBUCIL	Cytokine release syndrome	140	14	154
+DRUG:SOTATERCEPT	AE:Hereditary angioedema	9.30108	False	SOTATERCEPT	Hereditary angioedema	201	6	207
+DRUG:GLYCOPYRROLATE	AE:Clostridium test positive	9.297433	False	GLYCOPYRROLATE	Clostridium test positive	74	8	82
+DRUG:CILTACABTAGENE AUTOLEUCEL	AE:Chronic myeloid leukaemia	9.270541	False	CILTACABTAGENE AUTOLEUCEL	Chronic myeloid leukaemia	105	11	116
+DRUG:MENTHOL	AE:Pregnancy on contraceptive	9.248625	False	MENTHOL	Pregnancy on contraceptive	142	16	158
+DRUG:ELOSULFASE ALFA	AE:Lung transplant	9.2463	False	ELOSULFASE ALFA	Lung transplant	178	20	198
+DRUG:POLIDOCANOL	AE:Investigation	9.221779	False	POLIDOCANOL	Investigation	45	5	50
+DRUG:AMANTADINE HYDROCHLORIDE	AE:Accidental exposure to product by child	9.214515	False	AMANTADINE HYDROCHLORIDE	Accidental exposure to product by child	136	14	150
+DRUG:TREOSULFAN	AE:Second primary malignancy	9.199149	False	TREOSULFAN	Second primary malignancy	131	21	152
+DRUG:ERDAFITINIB	AE:Immune effector cell-associated neurotoxicity syndrome	9.184982	False	ERDAFITINIB	Immune effector cell-associated neurotoxicity syndrome	47	8	55
+DRUG:POSACONAZOLE	AE:Diffuse large B-cell lymphoma refractory	9.181807	False	POSACONAZOLE	Diffuse large B-cell lymphoma refractory	447	69	516
+DRUG:MEBEVERINE	AE:Product use complaint	9.168958	False	MEBEVERINE	Product use complaint	138	52	190
+DRUG:BASILIXIMAB	AE:Encephalitis cytomegalovirus	9.167816	False	BASILIXIMAB	Encephalitis cytomegalovirus	702	101	803
+DRUG:LOMUSTINE	AE:Microangiopathic haemolytic anaemia	9.111712	False	LOMUSTINE	Microangiopathic haemolytic anaemia	90	13	103
+DRUG:PENTOXIFYLLINE	AE:Immune reconstitution inflammatory syndrome	9.109339	False	PENTOXIFYLLINE	Immune reconstitution inflammatory syndrome	114	9	123
+DRUG:MICAFUNGIN SODIUM	AE:Vascular stent thrombosis	9.066252	False	MICAFUNGIN SODIUM	Vascular stent thrombosis	48	5	53
+DRUG:VOXELOTOR	AE:Inability to afford medication	9.061675	False	VOXELOTOR	Inability to afford medication	355	28	383
+DRUG:REMDESIVIR	AE:Drug reaction with eosinophilia and systemic symptoms	9.056521	False	REMDESIVIR	Drug reaction with eosinophilia and systemic symptoms	386	42	428
+DRUG:GEMCITABINE HYDROCHLORIDE	AE:Hepatitis B reactivation	9.048199	False	GEMCITABINE HYDROCHLORIDE	Hepatitis B reactivation	292	23	315
+DRUG:DEXRAZOXANE	AE:Cytomegalovirus infection	9.023028	False	DEXRAZOXANE	Cytomegalovirus infection	80	7	87
+DRUG:FOSCARBIDOPA;FOSLEVODOPA	AE:Impulse-control disorder	9.011234	False	FOSCARBIDOPA;FOSLEVODOPA	Impulse-control disorder	281	38	319
+DRUG:CARIPRAZINE	AE:Developmental delay	9.00351	False	CARIPRAZINE	Developmental delay	322	39	361
+DRUG:ZIPRASIDONE	AE:Accidental exposure to product by child	8.99177	False	ZIPRASIDONE	Accidental exposure to product by child	527	87	614
+DRUG:BENZONATATE	AE:Generalised anxiety disorder	8.980429	False	BENZONATATE	Generalised anxiety disorder	89	10	99
+DRUG:BUSULFAN	AE:Immune reconstitution inflammatory syndrome	8.925107	False	BUSULFAN	Immune reconstitution inflammatory syndrome	715	106	821
+DRUG:FELODIPINE	AE:Product use complaint	8.923756	False	FELODIPINE	Product use complaint	281	79	360
+DRUG:ISATUXIMAB	AE:Cytomegalovirus infection	8.890398	False	ISATUXIMAB	Cytomegalovirus infection	223	28	251
+DRUG:BELATACEPT	AE:Cytomegalovirus infection reactivation	8.866524	False	BELATACEPT	Cytomegalovirus infection reactivation	166	20	186
+DRUG:SUNITINIB	AE:Tumour marker increased	8.862446	False	SUNITINIB	Tumour marker increased	1322	122	1444
+DRUG:NUSINERSEN	AE:Infusion related reaction	8.836276	False	NUSINERSEN	Infusion related reaction	250	27	277
+DRUG:BUSULFAN	AE:Cytokine release syndrome	8.835871	False	BUSULFAN	Cytokine release syndrome	715	106	821
+DRUG:CABOTEGRAVIR;RILPIVIRINE	AE:Syringe issue	8.82663	False	CABOTEGRAVIR;RILPIVIRINE	Syringe issue	149	21	170
+DRUG:FOSCARBIDOPA;FOSLEVODOPA	AE:Inability to afford medication	8.820975	False	FOSCARBIDOPA;FOSLEVODOPA	Inability to afford medication	281	38	319
+DRUG:OXYMORPHONE	AE:Exposure via father	8.811435	False	OXYMORPHONE	Exposure via father	424	50	474
+DRUG:GEMCITABINE HYDROCHLORIDE	AE:Granulocyte count decreased	8.797081	False	GEMCITABINE HYDROCHLORIDE	Granulocyte count decreased	292	23	315
+DRUG:BROLUCIZUMAB	AE:Lymphocytic infiltration	8.796393	False	BROLUCIZUMAB	Lymphocytic infiltration	202	22	224
+DRUG:FIDAXOMICIN	AE:Enterocolitis haemorrhagic	8.793109	False	FIDAXOMICIN	Enterocolitis haemorrhagic	95	6	101
+DRUG:DURVALUMAB	AE:Peritonitis	8.77774	False	DURVALUMAB	Peritonitis	578	61	639
+DRUG:MICAFUNGIN SODIUM	AE:Nephrogenic anaemia	8.768149	False	MICAFUNGIN SODIUM	Nephrogenic anaemia	48	5	53
+DRUG:MENTHOL	AE:Anal cancer	8.751269	False	MENTHOL	Anal cancer	142	16	158
+DRUG:IFOSFAMIDE	AE:Granulocyte count decreased	8.748488	False	IFOSFAMIDE	Granulocyte count decreased	791	98	889
+DRUG:DIAMORPHINE	AE:Accidental exposure to product by child	8.738902	False	DIAMORPHINE	Accidental exposure to product by child	408	41	449
+DRUG:CARIPRAZINE	AE:Tic	8.736131	False	CARIPRAZINE	Tic	322	39	361
+DRUG:ALTEPLASE	AE:Acute generalised exanthematous pustulosis	8.731355	False	ALTEPLASE	Acute generalised exanthematous pustulosis	396	62	458
+DRUG:CLOFARABINE	AE:Post transplant lymphoproliferative disorder	8.722752	False	CLOFARABINE	Post transplant lymphoproliferative disorder	154	18	172
+DRUG:POLATUZUMAB VEDOTIN	AE:Granulocytopenia	8.719386	False	POLATUZUMAB VEDOTIN	Granulocytopenia	360	41	401
+DRUG:CANAGLIFLOZIN;METFORMIN	AE:Euglycaemic diabetic ketoacidosis	8.711725	False	CANAGLIFLOZIN;METFORMIN	Euglycaemic diabetic ketoacidosis	81	10	91
+DRUG:ALIMEMAZINE	AE:Accidental exposure to product by child	8.686362	False	ALIMEMAZINE	Accidental exposure to product by child	244	37	281
+DRUG:MENTHOL	AE:Dependence	8.679464	False	MENTHOL	Dependence	142	16	158
+DRUG:CIDOFOVIR	AE:Varicella zoster virus infection	8.64825	False	CIDOFOVIR	Varicella zoster virus infection	61	8	69
+DRUG:CHLORAMBUCIL	AE:Myelosuppression	8.63596	False	CHLORAMBUCIL	Myelosuppression	140	14	154
+DRUG:CARIPRAZINE	AE:Abnormal dreams	8.63423	False	CARIPRAZINE	Abnormal dreams	322	39	361
+DRUG:EPCORITAMAB	AE:Post transplant lymphoproliferative disorder	8.63312	False	EPCORITAMAB	Post transplant lymphoproliferative disorder	142	22	164
+DRUG:BUSPIRONE	AE:Substance abuse	8.631404	False	BUSPIRONE	Substance abuse	331	50	381

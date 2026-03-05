@@ -1,0 +1,1337 @@
+{
+  "timestamp": "2026-03-05T02:13:10.226539",
+  "checks": [
+    {
+      "category": "GROUND_TRUTH",
+      "name": "Exists: sexdiffkg/GROUND_TRUTH.json",
+      "status": "PASS",
+      "detail": "5964 bytes"
+    },
+    {
+      "category": "GROUND_TRUTH",
+      "name": "Exists: results/GROUND_TRUTH.json",
+      "status": "PASS",
+      "detail": "5964 bytes"
+    },
+    {
+      "category": "GROUND_TRUTH",
+      "name": "Exists: kg_v4/GROUND_TRUTH.json",
+      "status": "PASS",
+      "detail": "5964 bytes"
+    },
+    {
+      "category": "GROUND_TRUTH",
+      "name": "Exists: sexdiffkg/GROUND_TRUTH.json",
+      "status": "PASS",
+      "detail": "5964 bytes"
+    },
+    {
+      "category": "GROUND_TRUTH",
+      "name": "Identical: results",
+      "status": "PASS",
+      "detail": "Matches canonical"
+    },
+    {
+      "category": "GROUND_TRUTH",
+      "name": "Identical: kg_v4",
+      "status": "PASS",
+      "detail": "Matches canonical"
+    },
+    {
+      "category": "GROUND_TRUTH",
+      "name": "Identical: sexdiffkg",
+      "status": "PASS",
+      "detail": "Matches canonical"
+    },
+    {
+      "category": "LIVE_DATA",
+      "name": "v4 nodes count",
+      "status": "PASS",
+      "detail": "File: 109,867, GT: 109,867"
+    },
+    {
+      "category": "LIVE_DATA",
+      "name": "v4 edges count",
+      "status": "PASS",
+      "detail": "File: 1,822,851, GT: 1,822,851"
+    },
+    {
+      "category": "LIVE_DATA",
+      "name": "v5 nodes match GT",
+      "status": "PASS",
+      "detail": "File: 246,056, GT: 246,056"
+    },
+    {
+      "category": "LIVE_DATA",
+      "name": "v5 edges match GT",
+      "status": "PASS",
+      "detail": "File: 3,182,843, GT: 3,182,843"
+    },
+    {
+      "category": "LIVE_DATA",
+      "name": "v4 fully preserved in v5",
+      "status": "PASS",
+      "detail": "v4 nodes in v5: 109,867"
+    },
+    {
+      "category": "STALE_NUMBERS",
+      "name": "README.md",
+      "status": "FAIL",
+      "detail": "DistMult with stale MRR"
+    },
+    {
+      "category": "STALE_NUMBERS",
+      "name": "manuscript_scidata_draft.md",
+      "status": "FAIL",
+      "detail": "127,063 (v3 node count)"
+    },
+    {
+      "category": "STALE_NUMBERS",
+      "name": "manuscript_scidata_draft.md",
+      "status": "FAIL",
+      "detail": "5,839,717 (v3 edge count)"
+    },
+    {
+      "category": "STALE_NUMBERS",
+      "name": "manuscript_scidata_draft.md",
+      "status": "FAIL",
+      "detail": "DistMult with stale MRR"
+    },
+    {
+      "category": "STALE_NUMBERS",
+      "name": "grand_audit_report.md",
+      "status": "FAIL",
+      "detail": "DistMult with stale MRR"
+    },
+    {
+      "category": "STALE_NUMBERS",
+      "name": "manuscript_scidata_COMPLETE.md",
+      "status": "FAIL",
+      "detail": "127,063 (v3 node count)"
+    },
+    {
+      "category": "STALE_NUMBERS",
+      "name": "manuscript_scidata_COMPLETE.md",
+      "status": "FAIL",
+      "detail": "5,839,717 (v3 edge count)"
+    },
+    {
+      "category": "STALE_NUMBERS",
+      "name": "manuscript_scidata_COMPLETE.md",
+      "status": "FAIL",
+      "detail": "DistMult with stale MRR"
+    },
+    {
+      "category": "STALE_NUMBERS",
+      "name": "systems_inventory_2026-03-05.md",
+      "status": "FAIL",
+      "detail": "KEGG (should be Reactome)"
+    },
+    {
+      "category": "STALE_NUMBERS",
+      "name": "systems_inventory_2026-03-05.md",
+      "status": "FAIL",
+      "detail": "DistMult with stale MRR"
+    },
+    {
+      "category": "STALE_NUMBERS",
+      "name": "publishing_strategy.md",
+      "status": "FAIL",
+      "detail": "127,063 (v3 node count)"
+    },
+    {
+      "category": "STALE_NUMBERS",
+      "name": "publishing_strategy.md",
+      "status": "FAIL",
+      "detail": "183,539 (v3 signal count)"
+    },
+    {
+      "category": "STALE_NUMBERS",
+      "name": "publishing_strategy.md",
+      "status": "FAIL",
+      "detail": "DistMult with stale MRR"
+    },
+    {
+      "category": "STALE_NUMBERS",
+      "name": "comprehensive_methods_paper.md",
+      "status": "FAIL",
+      "detail": "DistMult with stale MRR"
+    },
+    {
+      "category": "STALE_NUMBERS",
+      "name": "sexdiffkg_methods_paper.md",
+      "status": "FAIL",
+      "detail": "DistMult with stale MRR"
+    },
+    {
+      "category": "STALE_NUMBERS",
+      "name": "SexDiffKG_v4_Status_Report_2026-03-03.md",
+      "status": "FAIL",
+      "detail": "127,063 (v3 node count)"
+    },
+    {
+      "category": "STALE_NUMBERS",
+      "name": "SexDiffKG_v4_Status_Report_2026-03-03.md",
+      "status": "FAIL",
+      "detail": "5,839,717 (v3 edge count)"
+    },
+    {
+      "category": "STALE_NUMBERS",
+      "name": "SexDiffKG_v4_Status_Report_2026-03-03.md",
+      "status": "FAIL",
+      "detail": "KEGG (should be Reactome)"
+    },
+    {
+      "category": "STALE_NUMBERS",
+      "name": "SexDiffKG_v4_Status_Report_2026-03-03.md",
+      "status": "FAIL",
+      "detail": "DistMult with stale MRR"
+    },
+    {
+      "category": "STALE_NUMBERS",
+      "name": "Audit_2026-03-04.md",
+      "status": "FAIL",
+      "detail": "127,063 (v3 node count)"
+    },
+    {
+      "category": "STALE_NUMBERS",
+      "name": "Audit_2026-03-04.md",
+      "status": "FAIL",
+      "detail": "5,839,717 (v3 edge count)"
+    },
+    {
+      "category": "STALE_NUMBERS",
+      "name": "ACTION_ITEMS_2026-03-04.md",
+      "status": "FAIL",
+      "detail": "127,063 (v3 node count)"
+    },
+    {
+      "category": "STALE_NUMBERS",
+      "name": "ACTION_ITEMS_2026-03-04.md",
+      "status": "FAIL",
+      "detail": "5,839,717 (v3 edge count)"
+    },
+    {
+      "category": "STALE_NUMBERS",
+      "name": "Session_Summary_2026-03-03_Overnight.md",
+      "status": "FAIL",
+      "detail": "DistMult with stale MRR"
+    },
+    {
+      "category": "STALE_NUMBERS",
+      "name": "v4_Rebuild_Report_2026-03-03.md",
+      "status": "FAIL",
+      "detail": "DistMult with stale MRR"
+    },
+    {
+      "category": "STALE_NUMBERS",
+      "name": "Vault_Reconciliation_2026-03-03.md",
+      "status": "FAIL",
+      "detail": "127,063 (v3 node count)"
+    },
+    {
+      "category": "STALE_NUMBERS",
+      "name": "Vault_Reconciliation_2026-03-03.md",
+      "status": "FAIL",
+      "detail": "126,575 (v3 node count)"
+    },
+    {
+      "category": "STALE_NUMBERS",
+      "name": "Vault_Reconciliation_2026-03-03.md",
+      "status": "FAIL",
+      "detail": "5,839,717 (v3 edge count)"
+    },
+    {
+      "category": "STALE_NUMBERS",
+      "name": "Vault_Reconciliation_2026-03-03.md",
+      "status": "FAIL",
+      "detail": "5,489,928 (v3 edge count)"
+    },
+    {
+      "category": "STALE_NUMBERS",
+      "name": "Vault_Reconciliation_2026-03-03.md",
+      "status": "FAIL",
+      "detail": "183,539 (v3 signal count)"
+    },
+    {
+      "category": "STALE_NUMBERS",
+      "name": "Vault_Reconciliation_2026-03-03.md",
+      "status": "FAIL",
+      "detail": "KEGG (should be Reactome)"
+    },
+    {
+      "category": "STALE_NUMBERS",
+      "name": "Vault_Reconciliation_2026-03-03.md",
+      "status": "FAIL",
+      "detail": "DistMult with stale MRR"
+    },
+    {
+      "category": "STALE_NUMBERS",
+      "name": "DistMult_v41_Report.md",
+      "status": "FAIL",
+      "detail": "DistMult with stale MRR"
+    },
+    {
+      "category": "STALE_NUMBERS",
+      "name": "Evaluation_Metrics_Reference.md",
+      "status": "FAIL",
+      "detail": "DistMult with stale MRR"
+    },
+    {
+      "category": "STALE_NUMBERS",
+      "name": "Full_Project_Inventory.md",
+      "status": "FAIL",
+      "detail": "127,063 (v3 node count)"
+    },
+    {
+      "category": "STALE_NUMBERS",
+      "name": "Full_Project_Inventory.md",
+      "status": "FAIL",
+      "detail": "126,575 (v3 node count)"
+    },
+    {
+      "category": "STALE_NUMBERS",
+      "name": "Full_Project_Inventory.md",
+      "status": "FAIL",
+      "detail": "5,839,717 (v3 edge count)"
+    },
+    {
+      "category": "STALE_NUMBERS",
+      "name": "Full_Project_Inventory.md",
+      "status": "FAIL",
+      "detail": "5,489,928 (v3 edge count)"
+    },
+    {
+      "category": "STALE_NUMBERS",
+      "name": "Full_Project_Inventory.md",
+      "status": "FAIL",
+      "detail": "KEGG (should be Reactome)"
+    },
+    {
+      "category": "STALE_NUMBERS",
+      "name": "Full_Project_Inventory.md",
+      "status": "FAIL",
+      "detail": "DistMult with stale MRR"
+    },
+    {
+      "category": "STALE_NUMBERS",
+      "name": "FAIR_Assessment.md",
+      "status": "FAIL",
+      "detail": "KEGG (should be Reactome)"
+    },
+    {
+      "category": "STALE_NUMBERS",
+      "name": "KG_Structure_Analysis.md",
+      "status": "FAIL",
+      "detail": "DistMult with stale MRR"
+    },
+    {
+      "category": "STALE_NUMBERS",
+      "name": "Lessons_Learned.md",
+      "status": "FAIL",
+      "detail": "127,063 (v3 node count)"
+    },
+    {
+      "category": "STALE_NUMBERS",
+      "name": "Lessons_Learned.md",
+      "status": "FAIL",
+      "detail": "126,575 (v3 node count)"
+    },
+    {
+      "category": "STALE_NUMBERS",
+      "name": "Lessons_Learned.md",
+      "status": "FAIL",
+      "detail": "5,839,717 (v3 edge count)"
+    },
+    {
+      "category": "STALE_NUMBERS",
+      "name": "Lessons_Learned.md",
+      "status": "FAIL",
+      "detail": "5,489,928 (v3 edge count)"
+    },
+    {
+      "category": "STALE_NUMBERS",
+      "name": "Lessons_Learned.md",
+      "status": "FAIL",
+      "detail": "KEGG (should be Reactome)"
+    },
+    {
+      "category": "STALE_NUMBERS",
+      "name": "Lessons_Learned.md",
+      "status": "FAIL",
+      "detail": "DistMult with stale MRR"
+    },
+    {
+      "category": "STALE_NUMBERS",
+      "name": "Deep_Analysis_Findings.md",
+      "status": "FAIL",
+      "detail": "127,063 (v3 node count)"
+    },
+    {
+      "category": "STALE_NUMBERS",
+      "name": "Deep_Analysis_Findings.md",
+      "status": "FAIL",
+      "detail": "5,839,717 (v3 edge count)"
+    },
+    {
+      "category": "STALE_NUMBERS",
+      "name": "Deep_Analysis_Findings.md",
+      "status": "FAIL",
+      "detail": "KEGG (should be Reactome)"
+    },
+    {
+      "category": "STALE_NUMBERS",
+      "name": "Pipeline_Status.md",
+      "status": "FAIL",
+      "detail": "DistMult with stale MRR"
+    },
+    {
+      "category": "STALE_NUMBERS",
+      "name": "GROUND_TRUTH.json",
+      "status": "FAIL",
+      "detail": "127,063 (v3 node count)"
+    },
+    {
+      "category": "STALE_NUMBERS",
+      "name": "GROUND_TRUTH.json",
+      "status": "FAIL",
+      "detail": "126,575 (v3 node count)"
+    },
+    {
+      "category": "STALE_NUMBERS",
+      "name": "GROUND_TRUTH.json",
+      "status": "FAIL",
+      "detail": "5,839,717 (v3 edge count)"
+    },
+    {
+      "category": "STALE_NUMBERS",
+      "name": "GROUND_TRUTH.json",
+      "status": "FAIL",
+      "detail": "5,489,928 (v3 edge count)"
+    },
+    {
+      "category": "STALE_NUMBERS",
+      "name": "GROUND_TRUTH.json",
+      "status": "FAIL",
+      "detail": "DistMult with stale MRR"
+    },
+    {
+      "category": "STALE_NUMBERS",
+      "name": "grand_audit_report.md",
+      "status": "FAIL",
+      "detail": "DistMult with stale MRR"
+    },
+    {
+      "category": "STALE_NUMBERS",
+      "name": "Phase_C_Deep_Verification_2026-03-03.md",
+      "status": "FAIL",
+      "detail": "183,539 (v3 signal count)"
+    },
+    {
+      "category": "STALE_NUMBERS",
+      "name": "Phase_C_Deep_Verification_2026-03-03.md",
+      "status": "FAIL",
+      "detail": "DistMult with stale MRR"
+    },
+    {
+      "category": "STALE_NUMBERS",
+      "name": "Session_Log_2026-02-27.md",
+      "status": "FAIL",
+      "detail": "127,063 (v3 node count)"
+    },
+    {
+      "category": "STALE_NUMBERS",
+      "name": "Session_Log_2026-02-27.md",
+      "status": "FAIL",
+      "detail": "5,839,717 (v3 edge count)"
+    },
+    {
+      "category": "STALE_NUMBERS",
+      "name": "Session_Log_2026-02-27.md",
+      "status": "FAIL",
+      "detail": "183,539 (v3 signal count)"
+    },
+    {
+      "category": "STALE_NUMBERS",
+      "name": "Session_Log_2026-02-27.md",
+      "status": "FAIL",
+      "detail": "DistMult with stale MRR"
+    },
+    {
+      "category": "STALE_NUMBERS",
+      "name": "Numbers_Truth_Table_v4.md",
+      "status": "FAIL",
+      "detail": "DistMult with stale MRR"
+    },
+    {
+      "category": "STALE_NUMBERS",
+      "name": "KG_Consolidation_2026-03-03.md",
+      "status": "FAIL",
+      "detail": "126,575 (v3 node count)"
+    },
+    {
+      "category": "STALE_NUMBERS",
+      "name": "KG_Consolidation_2026-03-03.md",
+      "status": "FAIL",
+      "detail": "5,839,717 (v3 edge count)"
+    },
+    {
+      "category": "STALE_NUMBERS",
+      "name": "KG_Consolidation_2026-03-03.md",
+      "status": "FAIL",
+      "detail": "5,489,928 (v3 edge count)"
+    },
+    {
+      "category": "STALE_NUMBERS",
+      "name": "KG_Consolidation_2026-03-03.md",
+      "status": "FAIL",
+      "detail": "DistMult with stale MRR"
+    },
+    {
+      "category": "STALE_NUMBERS",
+      "name": "publishing_strategy.md",
+      "status": "FAIL",
+      "detail": "127,063 (v3 node count)"
+    },
+    {
+      "category": "STALE_NUMBERS",
+      "name": "publishing_strategy.md",
+      "status": "FAIL",
+      "detail": "183,539 (v3 signal count)"
+    },
+    {
+      "category": "STALE_NUMBERS",
+      "name": "publishing_strategy.md",
+      "status": "FAIL",
+      "detail": "DistMult with stale MRR"
+    },
+    {
+      "category": "STALE_NUMBERS",
+      "name": "SexDiffKG_v4_Final_Audit_2026-03-03.md",
+      "status": "FAIL",
+      "detail": "DistMult with stale MRR"
+    },
+    {
+      "category": "STALE_NUMBERS",
+      "name": "Session_Log_2026-03-05.md",
+      "status": "FAIL",
+      "detail": "DistMult with stale MRR"
+    },
+    {
+      "category": "STALE_NUMBERS",
+      "name": "Systems_Inventory_2026-03-05.md",
+      "status": "FAIL",
+      "detail": "KEGG (should be Reactome)"
+    },
+    {
+      "category": "STALE_NUMBERS",
+      "name": "Systems_Inventory_2026-03-05.md",
+      "status": "FAIL",
+      "detail": "DistMult with stale MRR"
+    },
+    {
+      "category": "STALE_NUMBERS",
+      "name": "Session_Log_2026-03-03_Evening.md",
+      "status": "FAIL",
+      "detail": "127,063 (v3 node count)"
+    },
+    {
+      "category": "STALE_NUMBERS",
+      "name": "Session_Log_2026-03-03_Evening.md",
+      "status": "FAIL",
+      "detail": "126,575 (v3 node count)"
+    },
+    {
+      "category": "STALE_NUMBERS",
+      "name": "Session_Log_2026-03-03_Evening.md",
+      "status": "FAIL",
+      "detail": "5,489,928 (v3 edge count)"
+    },
+    {
+      "category": "STALE_NUMBERS",
+      "name": "Session_Log_2026-03-03_Evening.md",
+      "status": "FAIL",
+      "detail": "DistMult with stale MRR"
+    },
+    {
+      "category": "STALE_NUMBERS",
+      "name": "Publication_Audit_2026-03-03.md",
+      "status": "FAIL",
+      "detail": "127,063 (v3 node count)"
+    },
+    {
+      "category": "STALE_NUMBERS",
+      "name": "Publication_Audit_2026-03-03.md",
+      "status": "FAIL",
+      "detail": "5,839,717 (v3 edge count)"
+    },
+    {
+      "category": "STALE_NUMBERS",
+      "name": "Publication_Audit_2026-03-03.md",
+      "status": "FAIL",
+      "detail": "DistMult with stale MRR"
+    },
+    {
+      "category": "STALE_NUMBERS",
+      "name": "V3_vs_V4_Analysis.md",
+      "status": "FAIL",
+      "detail": "127,063 (v3 node count)"
+    },
+    {
+      "category": "STALE_NUMBERS",
+      "name": "V3_vs_V4_Analysis.md",
+      "status": "FAIL",
+      "detail": "126,575 (v3 node count)"
+    },
+    {
+      "category": "STALE_NUMBERS",
+      "name": "V3_vs_V4_Analysis.md",
+      "status": "FAIL",
+      "detail": "5,839,717 (v3 edge count)"
+    },
+    {
+      "category": "STALE_NUMBERS",
+      "name": "V3_vs_V4_Analysis.md",
+      "status": "FAIL",
+      "detail": "5,489,928 (v3 edge count)"
+    },
+    {
+      "category": "STALE_NUMBERS",
+      "name": "V3_vs_V4_Analysis.md",
+      "status": "FAIL",
+      "detail": "183,539 (v3 signal count)"
+    },
+    {
+      "category": "STALE_NUMBERS",
+      "name": "V3_vs_V4_Analysis.md",
+      "status": "FAIL",
+      "detail": "KEGG (should be Reactome)"
+    },
+    {
+      "category": "STALE_NUMBERS",
+      "name": "V3_vs_V4_Analysis.md",
+      "status": "FAIL",
+      "detail": "DistMult with stale MRR"
+    },
+    {
+      "category": "STALE_NUMBERS",
+      "name": "Peer_Review_Framework.md",
+      "status": "FAIL",
+      "detail": "DistMult with stale MRR"
+    },
+    {
+      "category": "STALE_NUMBERS",
+      "name": "Numbers_Truth_Table.md",
+      "status": "FAIL",
+      "detail": "127,063 (v3 node count)"
+    },
+    {
+      "category": "STALE_NUMBERS",
+      "name": "Numbers_Truth_Table.md",
+      "status": "FAIL",
+      "detail": "5,839,717 (v3 edge count)"
+    },
+    {
+      "category": "STALE_NUMBERS",
+      "name": "Numbers_Truth_Table.md",
+      "status": "FAIL",
+      "detail": "KEGG (should be Reactome)"
+    },
+    {
+      "category": "STALE_NUMBERS",
+      "name": "Numbers_Truth_Table.md",
+      "status": "FAIL",
+      "detail": "DistMult with stale MRR"
+    },
+    {
+      "category": "STALE_NUMBERS",
+      "name": "Peer_Review_Audit.md",
+      "status": "FAIL",
+      "detail": "127,063 (v3 node count)"
+    },
+    {
+      "category": "STALE_NUMBERS",
+      "name": "Peer_Review_Audit.md",
+      "status": "FAIL",
+      "detail": "5,839,717 (v3 edge count)"
+    },
+    {
+      "category": "STALE_NUMBERS",
+      "name": "Peer_Review_Audit.md",
+      "status": "FAIL",
+      "detail": "183,539 (v3 signal count)"
+    },
+    {
+      "category": "STALE_NUMBERS",
+      "name": "Peer_Review_Audit.md",
+      "status": "FAIL",
+      "detail": "DistMult with stale MRR"
+    },
+    {
+      "category": "STALE_NUMBERS",
+      "name": "v4_Changes_Summary_2026-03-03.md",
+      "status": "FAIL",
+      "detail": "KEGG (should be Reactome)"
+    },
+    {
+      "category": "STALE_NUMBERS",
+      "name": "Session_Log_2026-03-03.md",
+      "status": "FAIL",
+      "detail": "127,063 (v3 node count)"
+    },
+    {
+      "category": "STALE_NUMBERS",
+      "name": "Session_Log_2026-03-03.md",
+      "status": "FAIL",
+      "detail": "DistMult with stale MRR"
+    },
+    {
+      "category": "STALE_NUMBERS",
+      "name": "Session_Summary_2026-03-03_Afternoon.md",
+      "status": "FAIL",
+      "detail": "127,063 (v3 node count)"
+    },
+    {
+      "category": "STALE_NUMBERS",
+      "name": "Session_Summary_2026-03-03_Afternoon.md",
+      "status": "FAIL",
+      "detail": "126,575 (v3 node count)"
+    },
+    {
+      "category": "STALE_NUMBERS",
+      "name": "Session_Summary_2026-03-03_Afternoon.md",
+      "status": "FAIL",
+      "detail": "5,839,717 (v3 edge count)"
+    },
+    {
+      "category": "STALE_NUMBERS",
+      "name": "Session_Summary_2026-03-03_Afternoon.md",
+      "status": "FAIL",
+      "detail": "5,489,928 (v3 edge count)"
+    },
+    {
+      "category": "STALE_NUMBERS",
+      "name": "Expanded_Validation_Benchmarks.md",
+      "status": "FAIL",
+      "detail": "183,539 (v3 signal count)"
+    },
+    {
+      "category": "STALE_NUMBERS",
+      "name": "Rebuild_Log_2026-02-27.md",
+      "status": "FAIL",
+      "detail": "127,063 (v3 node count)"
+    },
+    {
+      "category": "STALE_NUMBERS",
+      "name": "Rebuild_Log_2026-02-27.md",
+      "status": "FAIL",
+      "detail": "5,839,717 (v3 edge count)"
+    },
+    {
+      "category": "STALE_NUMBERS",
+      "name": "Rebuild_Log_2026-02-27.md",
+      "status": "FAIL",
+      "detail": "5,489,928 (v3 edge count)"
+    },
+    {
+      "category": "STALE_NUMBERS",
+      "name": "Rebuild_Log_2026-02-27.md",
+      "status": "FAIL",
+      "detail": "183,539 (v3 signal count)"
+    },
+    {
+      "category": "STALE_NUMBERS",
+      "name": "Rebuild_Log_2026-02-27.md",
+      "status": "FAIL",
+      "detail": "KEGG (should be Reactome)"
+    },
+    {
+      "category": "STALE_NUMBERS",
+      "name": "MOLECULAR_AUDIT_REPORT.md",
+      "status": "FAIL",
+      "detail": "127,063 (v3 node count)"
+    },
+    {
+      "category": "STALE_NUMBERS",
+      "name": "MOLECULAR_AUDIT_REPORT.md",
+      "status": "FAIL",
+      "detail": "126,575 (v3 node count)"
+    },
+    {
+      "category": "STALE_NUMBERS",
+      "name": "MOLECULAR_AUDIT_REPORT.md",
+      "status": "FAIL",
+      "detail": "126575 (v3 node count)"
+    },
+    {
+      "category": "STALE_NUMBERS",
+      "name": "MOLECULAR_AUDIT_REPORT.md",
+      "status": "FAIL",
+      "detail": "5,839,717 (v3 edge count)"
+    },
+    {
+      "category": "STALE_NUMBERS",
+      "name": "MOLECULAR_AUDIT_REPORT.md",
+      "status": "FAIL",
+      "detail": "5,489,928 (v3 edge count)"
+    },
+    {
+      "category": "STALE_NUMBERS",
+      "name": "MOLECULAR_AUDIT_REPORT.md",
+      "status": "FAIL",
+      "detail": "183,539 (v3 signal count)"
+    },
+    {
+      "category": "STALE_NUMBERS",
+      "name": "SexDiffKG_Study_ISMB2026.md",
+      "status": "FAIL",
+      "detail": "127,063 (v3 node count)"
+    },
+    {
+      "category": "STALE_NUMBERS",
+      "name": "SexDiffKG_Study_ISMB2026.md",
+      "status": "FAIL",
+      "detail": "126,575 (v3 node count)"
+    },
+    {
+      "category": "STALE_NUMBERS",
+      "name": "SexDiffKG_Study_ISMB2026.md",
+      "status": "FAIL",
+      "detail": "5,839,717 (v3 edge count)"
+    },
+    {
+      "category": "STALE_NUMBERS",
+      "name": "SexDiffKG_Study_ISMB2026.md",
+      "status": "FAIL",
+      "detail": "5,489,928 (v3 edge count)"
+    },
+    {
+      "category": "STALE_NUMBERS",
+      "name": "SexDiffKG_Study_ISMB2026.md",
+      "status": "FAIL",
+      "detail": "183,539 (v3 signal count)"
+    },
+    {
+      "category": "STALE_NUMBERS",
+      "name": "SexDiffKG_Study_ISMB2026.md",
+      "status": "FAIL",
+      "detail": "KEGG (should be Reactome)"
+    },
+    {
+      "category": "STALE_NUMBERS",
+      "name": "SexDiffKG_Study_ISMB2026.md",
+      "status": "FAIL",
+      "detail": "DistMult with stale MRR"
+    },
+    {
+      "category": "STALE_NUMBERS",
+      "name": "v4_Advanced_Analyses_2026-03-03.md",
+      "status": "FAIL",
+      "detail": "126,575 (v3 node count)"
+    },
+    {
+      "category": "STALE_NUMBERS",
+      "name": "v4_Advanced_Analyses_2026-03-03.md",
+      "status": "FAIL",
+      "detail": "5,489,928 (v3 edge count)"
+    },
+    {
+      "category": "STALE_NUMBERS",
+      "name": "v4_Advanced_Analyses_2026-03-03.md",
+      "status": "FAIL",
+      "detail": "183,539 (v3 signal count)"
+    },
+    {
+      "category": "STALE_NUMBERS",
+      "name": "Master_Workflow_Methodology.md",
+      "status": "FAIL",
+      "detail": "127,063 (v3 node count)"
+    },
+    {
+      "category": "STALE_NUMBERS",
+      "name": "Master_Workflow_Methodology.md",
+      "status": "FAIL",
+      "detail": "5,839,717 (v3 edge count)"
+    },
+    {
+      "category": "STALE_NUMBERS",
+      "name": "Master_Workflow_Methodology.md",
+      "status": "FAIL",
+      "detail": "5,489,928 (v3 edge count)"
+    },
+    {
+      "category": "STALE_NUMBERS",
+      "name": "Master_Workflow_Methodology.md",
+      "status": "FAIL",
+      "detail": "183,539 (v3 signal count)"
+    },
+    {
+      "category": "STALE_NUMBERS",
+      "name": "Master_Workflow_Methodology.md",
+      "status": "FAIL",
+      "detail": "DistMult with stale MRR"
+    },
+    {
+      "category": "STALE_NUMBERS",
+      "name": "SexDiffKG_Full_Study.md",
+      "status": "FAIL",
+      "detail": "127,063 (v3 node count)"
+    },
+    {
+      "category": "STALE_NUMBERS",
+      "name": "SexDiffKG_Full_Study.md",
+      "status": "FAIL",
+      "detail": "126,575 (v3 node count)"
+    },
+    {
+      "category": "STALE_NUMBERS",
+      "name": "SexDiffKG_Full_Study.md",
+      "status": "FAIL",
+      "detail": "5,839,717 (v3 edge count)"
+    },
+    {
+      "category": "STALE_NUMBERS",
+      "name": "SexDiffKG_Full_Study.md",
+      "status": "FAIL",
+      "detail": "183,539 (v3 signal count)"
+    },
+    {
+      "category": "STALE_NUMBERS",
+      "name": "SexDiffKG_Full_Study.md",
+      "status": "FAIL",
+      "detail": "KEGG (should be Reactome)"
+    },
+    {
+      "category": "STALE_NUMBERS",
+      "name": "SexDiffKG_Full_Study.md",
+      "status": "FAIL",
+      "detail": "DistMult with stale MRR"
+    },
+    {
+      "category": "STALE_NUMBERS",
+      "name": "Validation_Rerun_2026-03-03.md",
+      "status": "FAIL",
+      "detail": "127,063 (v3 node count)"
+    },
+    {
+      "category": "STALE_NUMBERS",
+      "name": "Validation_Rerun_2026-03-03.md",
+      "status": "FAIL",
+      "detail": "126,575 (v3 node count)"
+    },
+    {
+      "category": "STALE_NUMBERS",
+      "name": "Validation_Rerun_2026-03-03.md",
+      "status": "FAIL",
+      "detail": "5,839,717 (v3 edge count)"
+    },
+    {
+      "category": "STALE_NUMBERS",
+      "name": "Validation_Rerun_2026-03-03.md",
+      "status": "FAIL",
+      "detail": "5,489,928 (v3 edge count)"
+    },
+    {
+      "category": "STALE_NUMBERS",
+      "name": "Validation_Rerun_2026-03-03.md",
+      "status": "FAIL",
+      "detail": "183,539 (v3 signal count)"
+    },
+    {
+      "category": "STALE_NUMBERS",
+      "name": "KG_v42_Cleaning_Report.md",
+      "status": "FAIL",
+      "detail": "127,063 (v3 node count)"
+    },
+    {
+      "category": "STALE_NUMBERS",
+      "name": "KG_v42_Cleaning_Report.md",
+      "status": "FAIL",
+      "detail": "126,575 (v3 node count)"
+    },
+    {
+      "category": "STALE_NUMBERS",
+      "name": "KG_v42_Cleaning_Report.md",
+      "status": "FAIL",
+      "detail": "5,839,717 (v3 edge count)"
+    },
+    {
+      "category": "STALE_NUMBERS",
+      "name": "KG_v42_Cleaning_Report.md",
+      "status": "FAIL",
+      "detail": "5,489,928 (v3 edge count)"
+    },
+    {
+      "category": "STALE_NUMBERS",
+      "name": "Methodology_Audit_2026-02-28.md",
+      "status": "FAIL",
+      "detail": "183,539 (v3 signal count)"
+    },
+    {
+      "category": "STALE_NUMBERS",
+      "name": "Methodology_Audit_2026-02-28.md",
+      "status": "FAIL",
+      "detail": "DistMult with stale MRR"
+    },
+    {
+      "category": "STALE_NUMBERS",
+      "name": "INTEGRITY_REPORT.md",
+      "status": "FAIL",
+      "detail": "127,063 (v3 node count)"
+    },
+    {
+      "category": "STALE_NUMBERS",
+      "name": "INTEGRITY_REPORT.md",
+      "status": "FAIL",
+      "detail": "126,575 (v3 node count)"
+    },
+    {
+      "category": "STALE_NUMBERS",
+      "name": "INTEGRITY_REPORT.md",
+      "status": "FAIL",
+      "detail": "5,839,717 (v3 edge count)"
+    },
+    {
+      "category": "STALE_NUMBERS",
+      "name": "INTEGRITY_REPORT.md",
+      "status": "FAIL",
+      "detail": "5,489,928 (v3 edge count)"
+    },
+    {
+      "category": "STALE_NUMBERS",
+      "name": "SexDiffKG_Study_Full.md",
+      "status": "FAIL",
+      "detail": "127,063 (v3 node count)"
+    },
+    {
+      "category": "STALE_NUMBERS",
+      "name": "SexDiffKG_Study_Full.md",
+      "status": "FAIL",
+      "detail": "126,575 (v3 node count)"
+    },
+    {
+      "category": "STALE_NUMBERS",
+      "name": "SexDiffKG_Study_Full.md",
+      "status": "FAIL",
+      "detail": "5,839,717 (v3 edge count)"
+    },
+    {
+      "category": "STALE_NUMBERS",
+      "name": "SexDiffKG_Study_Full.md",
+      "status": "FAIL",
+      "detail": "5,489,928 (v3 edge count)"
+    },
+    {
+      "category": "STALE_NUMBERS",
+      "name": "SexDiffKG_Study_Full.md",
+      "status": "FAIL",
+      "detail": "183,539 (v3 signal count)"
+    },
+    {
+      "category": "STALE_NUMBERS",
+      "name": "SexDiffKG_Study_Full.md",
+      "status": "FAIL",
+      "detail": "KEGG (should be Reactome)"
+    },
+    {
+      "category": "STALE_NUMBERS",
+      "name": "SexDiffKG_Study_Full.md",
+      "status": "FAIL",
+      "detail": "DistMult with stale MRR"
+    },
+    {
+      "category": "STALE_NUMBERS",
+      "name": "SexDiffKG_Audit_Report_2026-03-03.md",
+      "status": "FAIL",
+      "detail": "127,063 (v3 node count)"
+    },
+    {
+      "category": "STALE_NUMBERS",
+      "name": "SexDiffKG_Audit_Report_2026-03-03.md",
+      "status": "FAIL",
+      "detail": "126,575 (v3 node count)"
+    },
+    {
+      "category": "STALE_NUMBERS",
+      "name": "SexDiffKG_Audit_Report_2026-03-03.md",
+      "status": "FAIL",
+      "detail": "5,839,717 (v3 edge count)"
+    },
+    {
+      "category": "STALE_NUMBERS",
+      "name": "SexDiffKG_Audit_Report_2026-03-03.md",
+      "status": "FAIL",
+      "detail": "183,539 (v3 signal count)"
+    },
+    {
+      "category": "STALE_NUMBERS",
+      "name": "SexDiffKG_Audit_Report_2026-03-03.md",
+      "status": "FAIL",
+      "detail": "DistMult with stale MRR"
+    },
+    {
+      "category": "STALE_NUMBERS",
+      "name": "rotatE_v3_summary.json",
+      "status": "FAIL",
+      "detail": "126575 (v3 node count)"
+    },
+    {
+      "category": "STALE_NUMBERS",
+      "name": "sexdiffkg_statistics.json",
+      "status": "FAIL",
+      "detail": "127063 (v3 node count)"
+    },
+    {
+      "category": "STALE_NUMBERS",
+      "name": "sexdiffkg_statistics.json",
+      "status": "FAIL",
+      "detail": "126575 (v3 node count)"
+    },
+    {
+      "category": "STALE_NUMBERS",
+      "name": "sexdiffkg_statistics.json",
+      "status": "FAIL",
+      "detail": "5839717 (v3 edge count)"
+    },
+    {
+      "category": "STALE_NUMBERS",
+      "name": "sexdiffkg_statistics.json",
+      "status": "FAIL",
+      "detail": "183539 (v3 signal count)"
+    },
+    {
+      "category": "STALE_NUMBERS",
+      "name": "verification_report.json",
+      "status": "FAIL",
+      "detail": "127063 (v3 node count)"
+    },
+    {
+      "category": "STALE_NUMBERS",
+      "name": "verification_report.json",
+      "status": "FAIL",
+      "detail": "5839717 (v3 edge count)"
+    },
+    {
+      "category": "STALE_NUMBERS",
+      "name": "reproducibility_manifest.json",
+      "status": "FAIL",
+      "detail": "5839717 (v3 edge count)"
+    },
+    {
+      "category": "STALE_NUMBERS",
+      "name": "data_lineage_audit.json",
+      "status": "FAIL",
+      "detail": "126575 (v3 node count)"
+    },
+    {
+      "category": "STALE_NUMBERS",
+      "name": "data_lineage_audit.json",
+      "status": "FAIL",
+      "detail": "5489928 (v3 edge count)"
+    },
+    {
+      "category": "STALE_NUMBERS",
+      "name": "data_lineage_audit.json",
+      "status": "FAIL",
+      "detail": "183539 (v3 signal count)"
+    },
+    {
+      "category": "STALE_NUMBERS",
+      "name": "README.md",
+      "status": "FAIL",
+      "detail": "127,063 (v3 node count)"
+    },
+    {
+      "category": "STALE_NUMBERS",
+      "name": "README.md",
+      "status": "FAIL",
+      "detail": "126,575 (v3 node count)"
+    },
+    {
+      "category": "STALE_NUMBERS",
+      "name": "README.md",
+      "status": "FAIL",
+      "detail": "5,839,717 (v3 edge count)"
+    },
+    {
+      "category": "STALE_NUMBERS",
+      "name": "README.md",
+      "status": "FAIL",
+      "detail": "5,489,928 (v3 edge count)"
+    },
+    {
+      "category": "STALE_NUMBERS",
+      "name": "README.md",
+      "status": "FAIL",
+      "detail": "183,539 (v3 signal count)"
+    },
+    {
+      "category": "STALE_NUMBERS",
+      "name": "README.md",
+      "status": "FAIL",
+      "detail": "KEGG (should be Reactome)"
+    },
+    {
+      "category": "STALE_NUMBERS",
+      "name": "distmult_v3_summary.json",
+      "status": "FAIL",
+      "detail": "126575 (v3 node count)"
+    },
+    {
+      "category": "STALE_NUMBERS",
+      "name": "distmult_v3_summary.json",
+      "status": "FAIL",
+      "detail": "5839717 (v3 edge count)"
+    },
+    {
+      "category": "STALE_NUMBERS",
+      "name": "distmult_v3_summary.json",
+      "status": "FAIL",
+      "detail": "5489928 (v3 edge count)"
+    },
+    {
+      "category": "STALE_NUMBERS",
+      "name": "distmult_v2_summary.json",
+      "status": "FAIL",
+      "detail": "126575 (v3 node count)"
+    },
+    {
+      "category": "MODELS",
+      "name": "ComplEx MRR matches GT",
+      "status": "PASS",
+      "detail": "GT: 0.2484"
+    },
+    {
+      "category": "MODELS",
+      "name": "v4 embeddings directory exists",
+      "status": "PASS",
+      "detail": "/home/jshaik369/sexdiffkg/results/kg_embeddings_v4"
+    },
+    {
+      "category": "VALIDATION",
+      "name": "Composite concordance ~82.9%",
+      "status": "FAIL",
+      "detail": "Value: 0"
+    },
+    {
+      "category": "SIGNALS",
+      "name": "96,281 sex-differential signals",
+      "status": "PASS",
+      "detail": "File: 96,281"
+    },
+    {
+      "category": "SIGNALS",
+      "name": "Drug count ~2,178",
+      "status": "PASS",
+      "detail": "Got: 2178"
+    },
+    {
+      "category": "SIGNALS",
+      "name": "AE count ~5,069",
+      "status": "PASS",
+      "detail": "Got: 5069"
+    },
+    {
+      "category": "PUB",
+      "name": "Author format",
+      "status": "PASS",
+      "detail": "Mohammed Javeed Akhtar Abbas Shaik (J.Shaik)"
+    },
+    {
+      "category": "PUB",
+      "name": "ORCID",
+      "status": "PASS",
+      "detail": "0009-0002-1748-7516"
+    },
+    {
+      "category": "PUB",
+      "name": "Affiliation",
+      "status": "PASS",
+      "detail": "CoEvolve Network, Independent Researcher, Barcelona, Spain"
+    },
+    {
+      "category": "PUB",
+      "name": "Flagship manuscript exists",
+      "status": "PASS",
+      "detail": "77,812 bytes (76.0 KB)"
+    },
+    {
+      "category": "PUB",
+      "name": "Zenodo archive exists",
+      "status": "PASS",
+      "detail": "Found"
+    },
+    {
+      "category": "LINEAGE",
+      "name": "DiAna normalization",
+      "status": "PASS",
+      "detail": "846,917 mappings, 53.9% resolution"
+    },
+    {
+      "category": "LINEAGE",
+      "name": "FAERS quarters",
+      "status": "PASS",
+      "detail": "87 quarters: 2004Q1-2025Q3"
+    },
+    {
+      "category": "LINEAGE",
+      "name": "STRING v12.0",
+      "status": "PASS",
+      "detail": "Protein interactions"
+    },
+    {
+      "category": "LINEAGE",
+      "name": "ChEMBL 36",
+      "status": "PASS",
+      "detail": "Drug targets"
+    },
+    {
+      "category": "LINEAGE",
+      "name": "Reactome (NOT KEGG)",
+      "status": "PASS",
+      "detail": "Pathway annotations"
+    },
+    {
+      "category": "LINEAGE",
+      "name": "GTEx v8",
+      "status": "PASS",
+      "detail": "Sex-differential expression"
+    },
+    {
+      "category": "FAIR",
+      "name": "Findable",
+      "status": "PASS",
+      "detail": "Met"
+    },
+    {
+      "category": "FAIR",
+      "name": "Accessible",
+      "status": "PASS",
+      "detail": "Met"
+    },
+    {
+      "category": "FAIR",
+      "name": "Interoperable",
+      "status": "PASS",
+      "detail": "Met"
+    },
+    {
+      "category": "FAIR",
+      "name": "Reusable",
+      "status": "PASS",
+      "detail": "Met"
+    }
+  ],
+  "summary": {
+    "total_checks": 220,
+    "passed": 32,
+    "failed": 188,
+    "warnings": 0,
+    "score_pct": 14.5,
+    "canonical_numbers": {
+      "nodes": 109867,
+      "edges": 1822851,
+      "reports": 14536008
+    }
+  }
+}

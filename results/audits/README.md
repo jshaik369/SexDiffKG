@@ -267,7 +267,7 @@ The 84% of entities classified as "Unknown" are transcripts (ENST*), proteins (E
 
 ## Technical Specifications
 
-- **Infrastructure:** NVIDIA DGX Spark GB10 (ARM64, 120GB unified memory)
+- **Infrastructure:** NVIDIA DGX Spark GB10 (ARM64, 128GB unified memory)
 - **Python:** 3.13.7
 - **Dependencies:** pandas 2.3.3, numpy 2.2.4, torch 2.11.0
 - **Execution Time:** ~17 seconds total for all three audits

@@ -176,6 +176,6 @@
 
 All computation performed on sovereign local infrastructure:
 - NVIDIA DGX Spark (Grace Blackwell GB10)
-- 120GB unified memory, ARM64
+- 128GB unified memory, ARM64
 - Zero cloud dependencies
 - Full reproducibility on single-node setup

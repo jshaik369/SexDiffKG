@@ -1,0 +1,219 @@
+{
+  "timestamp": "2026-03-05T01:53:01.064013",
+  "checks": {
+    "Zero NaN in nodes": {
+      "passed": true,
+      "detail": "0 NaN rows"
+    },
+    "Zero NaN in edges": {
+      "passed": true,
+      "detail": "0 NaN rows"
+    },
+    "Node columns correct": {
+      "passed": true,
+      "detail": "Got: ['id', 'name', 'category']"
+    },
+    "Edge columns correct": {
+      "passed": true,
+      "detail": "Got: ['subject', 'predicate', 'object']"
+    },
+    "No duplicate node IDs": {
+      "passed": true,
+      "detail": "0 duplicates"
+    },
+    "No duplicate edges": {
+      "passed": true,
+      "detail": "0 duplicates"
+    },
+    "No orphan edge subjects": {
+      "passed": true,
+      "detail": "0 orphans"
+    },
+    "No orphan edge objects": {
+      "passed": true,
+      "detail": "0 orphans"
+    },
+    "Node count matches GT": {
+      "passed": true,
+      "detail": "File: 246056, GT: 246056"
+    },
+    "Edge count matches GT": {
+      "passed": true,
+      "detail": "File: 3182843, GT: 3182843"
+    },
+    "All v4 nodes in v5": {
+      "passed": true,
+      "detail": "109867/109867 (100.0%)"
+    },
+    "All v4 edges in v5": {
+      "passed": true,
+      "detail": "1532674/1532674 (100.0%)"
+    },
+    "Sex-differential signals preserved": {
+      "passed": true,
+      "detail": "v4: 96281, v5: 96281"
+    },
+    "Node type Gene": {
+      "passed": true,
+      "detail": "Expected: 90268, Got: 90268"
+    },
+    "Node type Protein": {
+      "passed": true,
+      "detail": "Expected: 46445, Got: 46445"
+    },
+    "Node type Compound": {
+      "passed": true,
+      "detail": "Expected: 35287, Got: 35287"
+    },
+    "Node type ClinicalTrial": {
+      "passed": true,
+      "detail": "Expected: 27451, Got: 27451"
+    },
+    "Node type Disease": {
+      "passed": true,
+      "detail": "Expected: 13600, Got: 13600"
+    },
+    "Node type Drug": {
+      "passed": true,
+      "detail": "Expected: 13176, Got: 13176"
+    },
+    "Node type AdverseEvent": {
+      "passed": true,
+      "detail": "Expected: 10130, Got: 10130"
+    },
+    "Node type Unknown": {
+      "passed": true,
+      "detail": "Expected: 3288, Got: 3288"
+    },
+    "Node type Symptom": {
+      "passed": true,
+      "detail": "Expected: 2639, Got: 2639"
+    },
+    "Node type Pathway": {
+      "passed": true,
+      "detail": "Expected: 2630, Got: 2630"
+    },
+    "Node type Intervention": {
+      "passed": true,
+      "detail": "Expected: 1088, Got: 1088"
+    },
+    "Node type Tissue": {
+      "passed": true,
+      "detail": "Expected: 20, Got: 20"
+    },
+    "Node type Guna": {
+      "passed": true,
+      "detail": "Expected: 20, Got: 20"
+    },
+    "Node type Rasa": {
+      "passed": true,
+      "detail": "Expected: 6, Got: 6"
+    },
+    "Node type Herb": {
+      "passed": true,
+      "detail": "Expected: 5, Got: 5"
+    },
+    "Node type Dosha": {
+      "passed": true,
+      "detail": "Expected: 3, Got: 3"
+    },
+    "Edge type interacts_with": {
+      "passed": true,
+      "detail": "Expected: 1858944, Got: 1858944"
+    },
+    "Edge type has_adverse_event": {
+      "passed": true,
+      "detail": "Expected: 614978, Got: 614978"
+    },
+    "Edge type participates_in": {
+      "passed": true,
+      "detail": "Expected: 381178, Got: 381178"
+    },
+    "Edge type sex_differential_adverse_event": {
+      "passed": true,
+      "detail": "Expected: 96281, Got: 96281"
+    },
+    "Edge type investigates": {
+      "passed": true,
+      "detail": "Expected: 68737, Got: 68737"
+    },
+    "Edge type tests_intervention": {
+      "passed": true,
+      "detail": "Expected: 48376, Got: 48376"
+    },
+    "Edge type treats": {
+      "passed": true,
+      "detail": "Expected: 41203, Got: 41203"
+    },
+    "Edge type binds_to": {
+      "passed": true,
+      "detail": "Expected: 35550, Got: 35550"
+    },
+    "Edge type modulates": {
+      "passed": true,
+      "detail": "Expected: 10530, Got: 10530"
+    },
+    "Edge type encoded_by": {
+      "passed": true,
+      "detail": "Expected: 8402, Got: 8402"
+    },
+    "Edge type associated_with": {
+      "passed": true,
+      "detail": "Expected: 7127, Got: 7127"
+    },
+    "Edge type targets": {
+      "passed": true,
+      "detail": "Expected: 5805, Got: 5805"
+    },
+    "Edge type causes_adverse_event": {
+      "passed": true,
+      "detail": "Expected: 2640, Got: 2640"
+    },
+    "Edge type corresponds_to": {
+      "passed": true,
+      "detail": "Expected: 2639, Got: 2639"
+    },
+    "Edge type sex_differential_expression": {
+      "passed": true,
+      "detail": "Expected: 289, Got: 289"
+    },
+    "Edge type same_as": {
+      "passed": true,
+      "detail": "Expected: 146, Got: 146"
+    },
+    "Edge type pacifies_dosha": {
+      "passed": true,
+      "detail": "Expected: 9, Got: 9"
+    },
+    "Edge type aggravates_dosha": {
+      "passed": true,
+      "detail": "Expected: 9, Got: 9"
+    },
+    "KG connectivity (multi-domain KGs have multiple components)": {
+      "passed": true,
+      "detail": "20.1% (expected <50% due to disconnected clinical trials/diseases)"
+    },
+    "md5_nodes.tsv": {
+      "passed": true,
+      "detail": "3593be9955c17d444aa2e433dc7d1637"
+    },
+    "md5_edges.tsv": {
+      "passed": true,
+      "detail": "1c4f88d7111356e02f71d5a1f68ccfe4"
+    },
+    "md5_triples.tsv": {
+      "passed": true,
+      "detail": "dbd2059c59ae6c637ec591fd43d093aa"
+    }
+  },
+  "status": "ALL_PASS",
+  "summary": {
+    "total_checks": 51,
+    "passed": 51,
+    "failed": 0,
+    "v5_nodes": 246056,
+    "v5_edges": 3182843,
+    "node_growth_pct": 124.0,
+    "edge_growth_pct": 74.6
+  }
+}

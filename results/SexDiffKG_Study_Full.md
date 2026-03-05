@@ -12,7 +12,7 @@
 
 ## Abstract
 
-Sex-based differences in drug safety are well-documented but poorly systematized. Women experience adverse drug reactions at nearly twice the rate of men, yet most pharmacovigilance databases lack integrated sex-differential analysis. We present SexDiffKG, a sex-differential drug safety knowledge graph constructed from 14,536,008 FDA Adverse Event Reporting System (FAERS) reports spanning 2004–2024, integrated with molecular target data from ChEMBL 36, protein interaction networks from STRING v12.0, and biological pathway annotations from KEGG and UniProt. SexDiffKG contains 127,063 nodes (6 entity types) and 5,839,717 edges (6 relation types). Through Reporting Odds Ratio (ROR) analysis stratified by sex, we identified 183,544 sex-differential drug–adverse event signals, of which 49,026 meet our strong threshold (|ln(ROR ratio)| > 1.0, corresponding to >~2.7× difference, with ≥10 reports per sex), with 58.5% showing female bias. Knowledge graph embedding using DistMult (200 dimensions, 100 epochs) achieved MRR of 0.048, Hits@10 of 8.85%, and AMRI of 0.981, demonstrating meaningful link prediction capability that places correct triples in the top 1.9% of candidates. Embedding-based clustering of 29,201 drugs into 20 groups revealed distinct sex-differential safety profiles with female bias ratios ranging from 0.33 to 1.00 across active clusters. Target-level analysis identified 429 gene targets with sex-biased drug safety patterns, including HDAC1/2/3/6 (histone deacetylases, exclusively female-biased), ESR1 (estrogen receptor, predominantly male-biased), nicotinic acetylcholine receptor subunits (female-biased), and sodium channel subunits SCNN1A/B/G (exclusively male-biased). Signal validation against 15 literature-documented sex-differential drug safety benchmarks achieved 67% inclusive confirmation rate (9/15 drugs found, 6/9 confirmed or weakly confirmed). SexDiffKG is, to our knowledge, the first knowledge graph specifically designed to capture sex-differential pharmacovigilance signals at scale, providing a computational foundation for sex-aware drug safety assessment.
+Sex-based differences in drug safety are well-documented but poorly systematized. Women experience adverse drug reactions at nearly twice the rate of men, yet most pharmacovigilance databases lack integrated sex-differential analysis. We present SexDiffKG, a sex-differential drug safety knowledge graph constructed from 14,536,008 FDA Adverse Event Reporting System (FAERS) reports spanning 2004–2024, integrated with molecular target data from ChEMBL 36, protein interaction networks from STRING v12.0, and biological pathway annotations from KEGG and UniProt. SexDiffKG contains 127,063 nodes (6 entity types) and 5,839,717 edges (6 relation types). Through Reporting Odds Ratio (ROR) analysis stratified by sex, we identified 183,544 sex-differential drug–adverse event signals, of which 49,026 meet our strong threshold (|ln(ROR ratio)| > 1.0, corresponding to >~2.7× difference, with ≥10 reports per sex), with 58.5% showing female bias. Knowledge graph embedding using DistMult (200 dimensions, 100 epochs) achieved MRR of 0.048, Hits@10 of 8.85%, and AMRI of 0.9807, demonstrating meaningful link prediction capability that places correct triples in the top 1.9% of candidates. Embedding-based clustering of 29,201 drugs into 20 groups revealed distinct sex-differential safety profiles with female bias ratios ranging from 0.33 to 1.00 across active clusters. Target-level analysis identified 429 gene targets with sex-biased drug safety patterns, including HDAC1/2/3/6 (histone deacetylases, exclusively female-biased), ESR1 (estrogen receptor, predominantly male-biased), nicotinic acetylcholine receptor subunits (female-biased), and sodium channel subunits SCNN1A/B/G (exclusively male-biased). Signal validation against 40 literature-documented sex-differential drug safety benchmarks achieved 75% coverage and 63.3% directional precision (9/15 drugs found, 19/30 directionally confirmed). SexDiffKG is, to our knowledge, the first knowledge graph specifically designed to capture sex-differential pharmacovigilance signals at scale, providing a computational foundation for sex-aware drug safety assessment.
 
 **Keywords:** pharmacovigilance, sex differences, knowledge graph, drug safety, FAERS, graph embeddings, adverse drug reactions, reporting odds ratio, precision medicine, gender medicine
 
@@ -40,9 +40,9 @@ We present SexDiffKG, a purpose-built knowledge graph that:
 
 1. Integrates 14.5 million FAERS reports with molecular, protein, and pathway data from 5 authoritative biomedical databases
 2. Introduces sex-stratified ROR analysis to identify 49,026 strong sex-differential drug–adverse event signals using natural logarithm ratio with a threshold corresponding to >~2.7× difference between sexes
-3. Embeds the full graph using DistMult (200 dimensions) to enable sex-aware link prediction, with AMRI of 0.981 indicating correct triple ranking in the top 1.9% of candidates
+3. Embeds the full graph using DistMult (200 dimensions) to enable sex-aware link prediction, with AMRI of 0.9807 indicating correct triple ranking in the top 1.9% of candidates
 4. Reveals 429 gene targets with measurable sex-differential drug safety profiles through embedding-based analysis, providing actionable hypotheses for precision pharmacovigilance
-5. Validates findings against 15 literature-documented sex-differential drug safety benchmarks, achieving 67% inclusive confirmation rate
+5. Validates findings against 40 literature-documented sex-differential drug safety benchmarks, achieving 75% coverage and 63.3% directional precision
 6. Provides a complete, reproducible, and molecular-level audited resource for the research community
 
 ### 1.4 Related Work
@@ -207,11 +207,11 @@ DistMult v3 evaluation on a held-out test set:
 | Hits@3 | 4.54% | Correct entity in top 3 |
 | Hits@5 | 6.06% | Correct entity in top 5 |
 | Hits@10 | 8.85% | Correct entity in top 10 |
-| AMRI | 0.981 | Correct triples ranked in top 1.9% of 13,466 candidates |
+| AMRI | 0.9807 | Correct triples ranked in top 1.9% of 13,466 candidates |
 | Head MRR | 0.033 | Predicting subject (drug → ?) |
 | Tail MRR | 0.062 | Predicting object (? → target) |
 
-**Interpretation:** The AMRI of 0.981 is the most informative metric for this graph: it indicates the model consistently ranks correct triples near the top of all candidates, despite the graph's scale (126K entities) and heterogeneity (6 relation types with extreme imbalance). The head/tail MRR asymmetry (0.033 vs 0.062) is structurally informative: predicting drug targets (tail prediction) is more constrained than predicting which drugs target a gene (head prediction), reflecting the many-to-few drug-target relationship structure.
+**Interpretation:** The AMRI of 0.9807 is the most informative metric for this graph: it indicates the model consistently ranks correct triples near the top of all candidates, despite the graph's scale (126K entities) and heterogeneity (6 relation types with extreme imbalance). The head/tail MRR asymmetry (0.033 vs 0.062) is structurally informative: predicting drug targets (tail prediction) is more constrained than predicting which drugs target a gene (head prediction), reflecting the many-to-few drug-target relationship structure.
 
 The absolute MRR of 0.048 is moderate compared to benchmark KGs like FB15k-237 (where DistMult achieves ~0.24) but appropriate for a domain-specific graph with 126K entities versus FB15k-237's 14K entities. The search space is approximately 9× larger, making equivalent MRR values impractical.
 
@@ -225,12 +225,12 @@ RotatE v3 evaluation on the same held-out test set (390,538 triples, 126,575 ent
 | Hits@1 | 0.001% | 2.25% | — |
 | Hits@3 | 0.002% | 4.54% | — |
 | Hits@10 | 0.009% | 8.85% | — |
-| AMRI | 0.003 | 0.981 | Near-random |
+| AMRI | 0.003 | 0.9807 | Near-random |
 | AMR | 62,350 | ~1,206 | — |
 | Training time | 7.5h (CPU) | 3.5h (GPU) | 2.1× slower |
 | Eval time | 54.1 min (GPU) | — | — |
 
-**Interpretation:** RotatE v3 performed at near-random levels (AMRI = 0.003, mean rank ≈ 62K out of 126K entities), in stark contrast to DistMult's strong performance (AMRI = 0.981). This negative result is scientifically informative and attributable to several factors:
+**Interpretation:** RotatE v3 performed at near-random levels (AMRI = 0.003, mean rank ≈ 62K out of 126K entities), in stark contrast to DistMult's strong performance (AMRI = 0.9807). This negative result is scientifically informative and attributable to several factors:
 
 1. **Insufficient training:** Only 25 epochs were used (vs. 100 for DistMult) due to CPU-only training constraints imposed by the GB10's NVRTC JIT limitation for complex-valued operations.
 2. **Relation symmetry:** SexDiffKG's 6 relation types are predominantly symmetric or quasi-symmetric (e.g., has_adverse_event, targets_gene). DistMult's bilinear scoring function is inherently suited for symmetric relations, whereas RotatE's rotational model provides no advantage and adds optimization complexity.
@@ -299,7 +299,7 @@ ITGA2B and ITGB3 (platelet integrins): Score = +1.0 with 3 drugs each, suggestin
 
 ### 3.6 Signal Validation
 
-Validation against 15 literature-documented sex-differential drug safety benchmarks:
+Validation against 40 literature-documented sex-differential drug safety benchmarks:
 
 | Result | Count | Examples |
 |--------|:---:|---------|
@@ -308,7 +308,7 @@ Validation against 15 literature-documented sex-differential drug safety benchma
 | Reversed (opposite direction) | 3 | Simvastatin, Warfarin, Ibuprofen |
 | Drug/AE not found | 6 | Zolpidem (AE mismatch), Terfenadine (withdrawn), others |
 
-**Hit rate:** 9/15 drugs found in KG (60%), of which 6/9 confirmed or weakly confirmed (67% inclusive), 3/9 reversed (33%). The 67% confirmation rate is reasonable for a spontaneous reporting database validation, given that: (a) FAERS drug names may not match benchmark drug names exactly; (b) MedDRA preferred terms may differ from literature-reported AE descriptions; (c) spontaneous reporting data reflects real-world prescribing populations rather than controlled trial populations.
+**Hit rate:** 30/40 benchmarks covered (75%), of which 19/30 directionally confirmed (63.3% directional precision), 11/30 not confirmed (36.7%). The 75% coverage, 63.3% directional precision is reasonable for a spontaneous reporting database validation, given that: (a) FAERS drug names may not match benchmark drug names exactly; (b) MedDRA preferred terms may differ from literature-reported AE descriptions; (c) spontaneous reporting data reflects real-world prescribing populations rather than controlled trial populations.
 
 The 3 reversed signals (Simvastatin, Warfarin, Ibuprofen) warrant further investigation — the reversal may reflect confounding by indication (e.g., different prescribing patterns by sex) or genuine differences between clinical trial findings and real-world pharmacovigilance data.
 
@@ -359,7 +359,7 @@ SexDiffKG is unique in its sex-differential analysis capability while maintainin
 
 4. **Static snapshot:** SexDiffKG v3 represents FAERS data through Q4 2024 and does not incorporate temporal trends or evolving safety signals.
 
-5. **Model comparison:** RotatE dramatically underperformed DistMult (AMRI 0.003 vs 0.981), likely due to insufficient training epochs (25 vs 100) and the graph's predominantly symmetric relation structure. A multi-model ensemble was not feasible given RotatE's near-random performance.
+5. **Model comparison:** RotatE dramatically underperformed DistMult (AMRI 0.003 vs 0.9807), likely due to insufficient training epochs (25 vs 100) and the graph's predominantly symmetric relation structure. A multi-model ensemble was not feasible given RotatE's near-random performance.
 
 6. **MedDRA term granularity:** Adverse events are mapped to MedDRA preferred terms, which may group clinically distinct conditions. Finer-grained analysis using lower-level terms or System Organ Class decomposition could reveal additional sex-differential patterns.
 
@@ -460,7 +460,7 @@ FAERS (14,536,008 reports)
     ├── DistMult Training (200d, 100 epochs, GPU)
     │   ├── Entity embeddings (126,575 × 200)
     │   ├── Relation embeddings (6 × 200)
-    │   └── Evaluation: MRR=0.048, AMRI=0.981, Hits@10=8.85%
+    │   └── Evaluation: MRR=0.048, AMRI=0.9807, Hits@10=8.85%
     │
     ├── RotatE Training (200d complex, 25 epochs, CPU) → AMRI=0.003 (near-random)
     │
@@ -468,7 +468,7 @@ FAERS (14,536,008 reports)
         ├── Drug clustering (K=20, PCA 61.9% variance)
         ├── Sex-bias profiling per cluster (9 active clusters)
         ├── Target sex-bias scoring (429 targets)
-        ├── Signal validation (15 benchmarks, 67% confirmed)
+        ├── Signal validation (40 benchmarks, 75% coverage)
         └── Molecular audit (85 PASS, 0 FAIL, 4 WARN)
 ```
 

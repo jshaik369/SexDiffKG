@@ -1,0 +1,144 @@
+drug	adverse_event	score	has_adverse_event_edge	drug_name_clean	ae_name_clean	drug_hae_edges	drug_sdae_edges	drug_total_edges
+DRUG:THIOTEPA	AE:Venoocclusive disease	10.492855	True	THIOTEPA	Venoocclusive disease	390	51	441
+DRUG:ISATUXIMAB	AE:Cytokine release syndrome	10.343346	True	ISATUXIMAB	Cytokine release syndrome	223	28	251
+DRUG:POLATUZUMAB VEDOTIN	AE:Myelosuppression	10.282066	True	POLATUZUMAB VEDOTIN	Myelosuppression	360	41	401
+DRUG:INGENOL	AE:Application site swelling	10.27217	True	INGENOL	Application site swelling	183	30	213
+DRUG:GEMCITABINE HYDROCHLORIDE	AE:Myelosuppression	10.182781	True	GEMCITABINE HYDROCHLORIDE	Myelosuppression	292	23	315
+DRUG:CALCIUM CHLORIDE;GLUCOSE;MAGNESIUM;SODIUM CHLORIDE;SODIUM LACTATE	AE:Peritonitis bacterial	10.159071	True	CALCIUM CHLORIDE;GLUCOSE;MAGNESIUM;SODIUM CHLORIDE;SODIUM LACTATE	Peritonitis bacterial	46	6	52
+DRUG:TRAMADOL HYDROCHLORIDE	AE:Dependence	10.134532	True	TRAMADOL HYDROCHLORIDE	Dependence	516	39	555
+DRUG:CANNABIS SPP	AE:Dependence	10.117493	True	CANNABIS SPP	Dependence	401	44	445
+DRUG:FLUDARABINE	AE:Enterococcal infection	10.021714	True	FLUDARABINE	Enterococcal infection	1224	184	1408
+DRUG:BROLUCIZUMAB	AE:Maculopathy	9.991946	True	BROLUCIZUMAB	Maculopathy	202	22	224
+DRUG:MENTHOL	AE:Application site pruritus	9.980397	True	MENTHOL	Application site pruritus	142	16	158
+DRUG:ALIMEMAZINE	AE:Respiratory depression	9.953689	True	ALIMEMAZINE	Respiratory depression	244	37	281
+DRUG:CLONAZEPAM	AE:Dystonia	9.908986	True	CLONAZEPAM	Dystonia	2033	285	2318
+DRUG:ALTEPLASE	AE:Cerebellar haemorrhage	9.805697	True	ALTEPLASE	Cerebellar haemorrhage	396	62	458
+DRUG:SIROLIMUS	AE:Cytomegalovirus infection	9.767369	True	SIROLIMUS	Cytomegalovirus infection	752	89	841
+DRUG:QUETIAPINE FUMARATE	AE:Respiratory depression	9.753772	True	QUETIAPINE FUMARATE	Respiratory depression	516	50	566
+DRUG:ARTIFICIAL TEARS	AE:Product container issue	9.737045	True	ARTIFICIAL TEARS	Product container issue	294	39	333
+DRUG:ETHAMBUTOL	AE:Immune reconstitution inflammatory syndrome	9.735111	True	ETHAMBUTOL	Immune reconstitution inflammatory syndrome	494	63	557
+DRUG:FOSCARBIDOPA;FOSLEVODOPA	AE:Infusion site mass	9.710945	True	FOSCARBIDOPA;FOSLEVODOPA	Infusion site mass	281	38	319
+DRUG:AMISULPRIDE	AE:Psychomotor hyperactivity	9.708426	True	AMISULPRIDE	Psychomotor hyperactivity	445	52	497
+DRUG:ZIPRASIDONE	AE:Suspected suicide	9.67341	True	ZIPRASIDONE	Suspected suicide	527	87	614
+DRUG:AMISULPRIDE	AE:Dystonia	9.67016	True	AMISULPRIDE	Dystonia	445	52	497
+DRUG:CARMUSTINE	AE:Cytokine release syndrome	9.668575	True	CARMUSTINE	Cytokine release syndrome	229	39	268
+DRUG:FLUTICASONE;UMECLIDINIUM;VILANTEROL	AE:Chronic obstructive pulmonary disease	9.610093	True	FLUTICASONE;UMECLIDINIUM;VILANTEROL	Chronic obstructive pulmonary disease	659	79	738
+DRUG:CARIPRAZINE	AE:Dystonia	9.590971	True	CARIPRAZINE	Dystonia	322	39	361
+DRUG:LITHIUM	AE:Schizophrenia	9.576993	True	LITHIUM	Schizophrenia	1059	143	1202
+DRUG:ALCOHOL	AE:Respiratory depression	9.561626	True	ALCOHOL	Respiratory depression	338	42	380
+DRUG:MOLNUPIRAVIR	AE:Product use complaint	9.557051	True	MOLNUPIRAVIR	Product use complaint	158	17	175
+DRUG:SITAGLIPTIN	AE:Adenocarcinoma pancreas	9.437699	True	SITAGLIPTIN	Adenocarcinoma pancreas	1373	154	1527
+DRUG:CRISABOROLE	AE:Dermatitis contact	9.399361	True	CRISABOROLE	Dermatitis contact	153	13	166
+DRUG:ADAPALENE	AE:Eyelids pruritus	9.391527	True	ADAPALENE	Eyelids pruritus	256	20	276
+DRUG:APOMORPHINE	AE:Obsessive-compulsive disorder	9.370713	True	APOMORPHINE	Obsessive-compulsive disorder	390	39	429
+DRUG:MEROPENEM	AE:Geotrichum infection	9.362696	True	MEROPENEM	Geotrichum infection	908	119	1027
+DRUG:BASILIXIMAB	AE:Varicella zoster virus infection	9.357971	True	BASILIXIMAB	Varicella zoster virus infection	702	101	803
+DRUG:TENOFOVIR	AE:Multiple fractures	9.347047	True	TENOFOVIR	Multiple fractures	820	114	934
+DRUG:GUSELKUMAB	AE:Product quality issue	9.334762	True	GUSELKUMAB	Product quality issue	549	38	587
+DRUG:AZACITIDINE	AE:Second primary malignancy	9.326049	True	AZACITIDINE	Second primary malignancy	809	111	920
+DRUG:LITHIUM	AE:Sedation	9.325438	True	LITHIUM	Sedation	1059	143	1202
+DRUG:LITHIUM	AE:Parkinsonism	9.310369	True	LITHIUM	Parkinsonism	1059	143	1202
+DRUG:ANTITHYMOCYTE IMMUNOGLOBULIN	AE:Neutropenic colitis	9.303046	True	ANTITHYMOCYTE IMMUNOGLOBULIN	Neutropenic colitis	1153	169	1322
+DRUG:BENDAMUSTINE	AE:Immune reconstitution inflammatory syndrome	9.302284	True	BENDAMUSTINE	Immune reconstitution inflammatory syndrome	854	113	967
+DRUG:ANTITHYMOCYTE IMMUNOGLOBULIN	AE:Epstein-Barr viraemia	9.296401	True	ANTITHYMOCYTE IMMUNOGLOBULIN	Epstein-Barr viraemia	1153	169	1322
+DRUG:LEVOMEPROMAZINE	AE:Respiratory depression	9.285563	True	LEVOMEPROMAZINE	Respiratory depression	320	40	360
+DRUG:PREDNISOLONE ACETATE	AE:Intraocular pressure increased	9.276754	True	PREDNISOLONE ACETATE	Intraocular pressure increased	58	8	66
+DRUG:MYCOPHENOLATE MOFETIL	AE:Cytomegalovirus infection	9.268953	True	MYCOPHENOLATE MOFETIL	Cytomegalovirus infection	1728	277	2005
+DRUG:MENTHOL	AE:Application site erythema	9.264873	True	MENTHOL	Application site erythema	142	16	158
+DRUG:BENZOYL PEROXIDE;CLINDAMYCIN	AE:Application site rash	9.23516	True	BENZOYL PEROXIDE;CLINDAMYCIN	Application site rash	49	3	52
+DRUG:GLUCOSE;MAGNESIUM;SODIUM CHLORIDE;SODIUM LACTATE	AE:Peritonitis	9.231172	True	GLUCOSE;MAGNESIUM;SODIUM CHLORIDE;SODIUM LACTATE	Peritonitis	1411	122	1533
+DRUG:CLOFARABINE	AE:Staphylococcal bacteraemia	9.22748	True	CLOFARABINE	Staphylococcal bacteraemia	154	18	172
+DRUG:RANIBIZUMAB	AE:Eye inflammation	9.20458	True	RANIBIZUMAB	Eye inflammation	658	62	720
+DRUG:TENOFOVIR DISOPROXIL FUMARATE	AE:Pathogen resistance	9.194899	True	TENOFOVIR DISOPROXIL FUMARATE	Pathogen resistance	157	20	177
+DRUG:BENDAMUSTINE HYDROCHLORIDE	AE:Cytokine release syndrome	9.194784	True	BENDAMUSTINE HYDROCHLORIDE	Cytokine release syndrome	187	22	209
+DRUG:CARMUSTINE	AE:Cytomegalovirus infection	9.187222	True	CARMUSTINE	Cytomegalovirus infection	229	39	268
+DRUG:GANCICLOVIR	AE:Immune reconstitution inflammatory syndrome	9.186429	True	GANCICLOVIR	Immune reconstitution inflammatory syndrome	407	63	470
+DRUG:ANIDULAFUNGIN	AE:Pathogen resistance	9.179638	True	ANIDULAFUNGIN	Pathogen resistance	77	5	82
+DRUG:CLOFARABINE	AE:Acute myeloid leukaemia recurrent	9.167029	True	CLOFARABINE	Acute myeloid leukaemia recurrent	154	18	172
+DRUG:IFOSFAMIDE	AE:Cytomegalovirus infection	9.158147	True	IFOSFAMIDE	Cytomegalovirus infection	791	98	889
+DRUG:CLOZAPINE	AE:Sudden death	9.143128	True	CLOZAPINE	Sudden death	2278	287	2565
+DRUG:TRAMADOL HYDROCHLORIDE	AE:Sedation	9.141982	True	TRAMADOL HYDROCHLORIDE	Sedation	516	39	555
+DRUG:LITHIUM CARBONATE	AE:Dystonia	9.121497	True	LITHIUM CARBONATE	Dystonia	225	28	253
+DRUG:SULPIRIDE	AE:Neuroleptic malignant syndrome	9.099533	True	SULPIRIDE	Neuroleptic malignant syndrome	117	10	127
+DRUG:ANTITHYMOCYTE IMMUNOGLOBULIN	AE:Enterococcal infection	9.090706	True	ANTITHYMOCYTE IMMUNOGLOBULIN	Enterococcal infection	1153	169	1322
+DRUG:CRISABOROLE	AE:Eye irritation	9.075247	True	CRISABOROLE	Eye irritation	153	13	166
+DRUG:NIRMATRELVIR;RITONAVIR	AE:Product use complaint	9.066451	True	NIRMATRELVIR;RITONAVIR	Product use complaint	857	62	919
+DRUG:MELPHALAN	AE:Cytokine release syndrome	9.066251	True	MELPHALAN	Cytokine release syndrome	892	134	1026
+DRUG:LISDEXAMFETAMINE	AE:Obsessive-compulsive disorder	9.06319	True	LISDEXAMFETAMINE	Obsessive-compulsive disorder	768	97	865
+DRUG:BASILIXIMAB	AE:Pseudomonal bacteraemia	9.061985	True	BASILIXIMAB	Pseudomonal bacteraemia	702	101	803
+DRUG:APOMORPHINE	AE:Product use complaint	9.055277	True	APOMORPHINE	Product use complaint	390	39	429
+DRUG:TAFASITAMAB	AE:Immune effector cell-associated neurotoxicity syndrome	9.049861	True	TAFASITAMAB	Immune effector cell-associated neurotoxicity syndrome	71	5	76
+DRUG:FOSCARBIDOPA;FOSLEVODOPA	AE:Catheter site swelling	9.041994	True	FOSCARBIDOPA;FOSLEVODOPA	Catheter site swelling	281	38	319
+DRUG:SIMVASTATIN	AE:High density lipoprotein decreased	9.03735	True	SIMVASTATIN	High density lipoprotein decreased	1824	261	2085
+DRUG:FLUDARABINE	AE:Acute graft versus host disease in skin	9.032718	True	FLUDARABINE	Acute graft versus host disease in skin	1224	184	1408
+DRUG:BUSPIRONE	AE:Dystonia	9.023389	True	BUSPIRONE	Dystonia	331	50	381
+DRUG:TEDUGLUTIDE	AE:Inability to afford medication	9.022634	True	TEDUGLUTIDE	Inability to afford medication	824	78	902
+DRUG:GALCANEZUMAB	AE:Injection site urticaria	8.997788	True	GALCANEZUMAB	Injection site urticaria	464	36	500
+DRUG:EFINACONAZOLE	AE:Hyperphosphataemia	8.992272	True	EFINACONAZOLE	Hyperphosphataemia	209	43	252
+DRUG:GUSELKUMAB	AE:Device leakage	8.973941	True	GUSELKUMAB	Device leakage	549	38	587
+DRUG:NALTREXONE	AE:Anger	8.969195	True	NALTREXONE	Anger	910	95	1005
+DRUG:DIAMORPHINE	AE:Developmental delay	8.967401	True	DIAMORPHINE	Developmental delay	408	41	449
+DRUG:EMTRICITABINE;TENOFOVIR	AE:Immune reconstitution inflammatory syndrome	8.966393	True	EMTRICITABINE;TENOFOVIR	Immune reconstitution inflammatory syndrome	1148	181	1329
+DRUG:RIVASTIGMINE	AE:Dementia	8.95311	True	RIVASTIGMINE	Dementia	723	74	797
+DRUG:TREOSULFAN	AE:Viraemia	8.94746	True	TREOSULFAN	Viraemia	131	21	152
+DRUG:EMTRICITABINE;TENOFOVIR	AE:Multiple fractures	8.946068	True	EMTRICITABINE;TENOFOVIR	Multiple fractures	1148	181	1329
+DRUG:DAUNORUBICIN	AE:Posterior reversible encephalopathy syndrome	8.92875	True	DAUNORUBICIN	Posterior reversible encephalopathy syndrome	720	102	822
+DRUG:BIMATOPROST	AE:Eye irritation	8.928133	True	BIMATOPROST	Eye irritation	319	43	362
+DRUG:PALIPERIDONE	AE:Hyperprolactinaemia	8.924929	True	PALIPERIDONE	Hyperprolactinaemia	1152	161	1313
+DRUG:CYAMEMAZINE	AE:Blood creatine phosphokinase increased	8.917441	True	CYAMEMAZINE	Blood creatine phosphokinase increased	316	42	358
+DRUG:BENDAMUSTINE	AE:Cytomegalovirus infection	8.903733	True	BENDAMUSTINE	Cytomegalovirus infection	854	113	967
+DRUG:POMALIDOMIDE	AE:White blood cell count abnormal	8.902484	True	POMALIDOMIDE	White blood cell count abnormal	1588	128	1716
+DRUG:BRENTUXIMAB VEDOTIN	AE:Cytomegalovirus infection	8.898046	True	BRENTUXIMAB VEDOTIN	Cytomegalovirus infection	582	61	643
+DRUG:DULOXETINE	AE:Obsessive-compulsive disorder	8.890547	True	DULOXETINE	Obsessive-compulsive disorder	2090	189	2279
+DRUG:DIAMORPHINE	AE:Dystonia	8.881644	True	DIAMORPHINE	Dystonia	408	41	449
+DRUG:LURASIDONE	AE:Panic disorder	8.869174	True	LURASIDONE	Panic disorder	734	81	815
+DRUG:TISAGENLECLEUCEL	AE:Pneumonia fungal	8.855887	True	TISAGENLECLEUCEL	Pneumonia fungal	342	46	388
+DRUG:OLAPARIB	AE:Neoplasm progression	8.852966	True	OLAPARIB	Neoplasm progression	569	44	613
+DRUG:LISDEXAMFETAMINE	AE:Extra dose administered	8.850426	True	LISDEXAMFETAMINE	Extra dose administered	768	97	865
+DRUG:HALOPERIDOL	AE:Dystonia	8.84728	True	HALOPERIDOL	Dystonia	1156	158	1314
+DRUG:LATISSE 0.03%	AE:Scleral hyperaemia	8.846887	True	LATISSE 0.03%	Scleral hyperaemia	68	0	68
+DRUG:AMFETAMINE	AE:Substance abuse	8.841167	True	AMFETAMINE	Substance abuse	306	36	342
+DRUG:MITOXANTRONE	AE:Acute lymphocytic leukaemia recurrent	8.829925	True	MITOXANTRONE	Acute lymphocytic leukaemia recurrent	269	32	301
+DRUG:DURVALUMAB	AE:Cytokine release syndrome	8.821237	True	DURVALUMAB	Cytokine release syndrome	578	61	639
+DRUG:BENDAMUSTINE	AE:Cytokine release syndrome	8.811679	True	BENDAMUSTINE	Cytokine release syndrome	854	113	967
+DRUG:GANCICLOVIR	AE:Cytomegalovirus viraemia	8.804566	True	GANCICLOVIR	Cytomegalovirus viraemia	407	63	470
+DRUG:DIAMORPHINE	AE:Respiratory depression	8.803832	True	DIAMORPHINE	Respiratory depression	408	41	449
+DRUG:GLUCOSE;MAGNESIUM;SODIUM CHLORIDE;SODIUM LACTATE	AE:Pulmonary oedema	8.793134	True	GLUCOSE;MAGNESIUM;SODIUM CHLORIDE;SODIUM LACTATE	Pulmonary oedema	1411	122	1533
+DRUG:CARMUSTINE	AE:Myelosuppression	8.787036	True	CARMUSTINE	Myelosuppression	229	39	268
+DRUG:ANTITHYMOCYTE IMMUNOGLOBULIN	AE:Hepatitis B reactivation	8.776388	True	ANTITHYMOCYTE IMMUNOGLOBULIN	Hepatitis B reactivation	1153	169	1322
+DRUG:FOSCARBIDOPA;FOSLEVODOPA	AE:Device dislocation	8.766444	True	FOSCARBIDOPA;FOSLEVODOPA	Device dislocation	281	38	319
+DRUG:SITAGLIPTIN	AE:Inability to afford medication	8.762397	True	SITAGLIPTIN	Inability to afford medication	1373	154	1527
+DRUG:ANTITHYMOCYTE IMMUNOGLOBULIN	AE:Varicella zoster virus infection	8.761833	True	ANTITHYMOCYTE IMMUNOGLOBULIN	Varicella zoster virus infection	1153	169	1322
+DRUG:ATEZOLIZUMAB	AE:Neoplasm progression	8.749236	True	ATEZOLIZUMAB	Neoplasm progression	1078	152	1230
+DRUG:TRAZODONE	AE:Suspected suicide	8.744089	True	TRAZODONE	Suspected suicide	1112	151	1263
+DRUG:LORATADINE	AE:Product use complaint	8.742708	True	LORATADINE	Product use complaint	697	48	745
+DRUG:METFORMIN;ROSIGLITAZONE	AE:Cerebral infarction	8.732313	True	METFORMIN;ROSIGLITAZONE	Cerebral infarction	117	20	137
+DRUG:QUETIAPINE FUMARATE	AE:Drug interaction	8.715872	True	QUETIAPINE FUMARATE	Drug interaction	516	50	566
+DRUG:KETAMINE	AE:Depressed level of consciousness	8.713891	True	KETAMINE	Depressed level of consciousness	567	74	641
+DRUG:INGENOL	AE:Application site discolouration	8.705173	True	INGENOL	Application site discolouration	183	30	213
+DRUG:FLUTICASONE;UMECLIDINIUM;VILANTEROL	AE:Productive cough	8.704551	True	FLUTICASONE;UMECLIDINIUM;VILANTEROL	Productive cough	659	79	738
+DRUG:CEFTRIAXONE	AE:Shock	8.702727	True	CEFTRIAXONE	Shock	1165	167	1332
+DRUG:BROLUCIZUMAB	AE:Foreign body sensation in eyes	8.701896	True	BROLUCIZUMAB	Foreign body sensation in eyes	202	22	224
+DRUG:BRIGATINIB	AE:Off label use	8.701465	True	BRIGATINIB	Off label use	202	14	216
+DRUG:AMISULPRIDE	AE:Accidental exposure to product by child	8.69994	True	AMISULPRIDE	Accidental exposure to product by child	445	52	497
+DRUG:BLINATUMOMAB	AE:Blast cell count increased	8.698829	True	BLINATUMOMAB	Blast cell count increased	426	48	474
+DRUG:FLUTICASONE;SALMETEROL	AE:Throat clearing	8.697976	True	FLUTICASONE;SALMETEROL	Throat clearing	1856	252	2108
+DRUG:MYCOPHENOLIC ACID	AE:Escherichia infection	8.697511	True	MYCOPHENOLIC ACID	Escherichia infection	3441	507	3948
+DRUG:INGENOL	AE:Application site erythema	8.697209	True	INGENOL	Application site erythema	183	30	213
+DRUG:BASILIXIMAB	AE:Peritonitis	8.689623	True	BASILIXIMAB	Peritonitis	702	101	803
+DRUG:LURASIDONE	AE:Catatonia	8.688354	True	LURASIDONE	Catatonia	734	81	815
+DRUG:CYTARABINE	AE:Neutropenic colitis	8.676189	True	CYTARABINE	Neutropenic colitis	1899	274	2173
+DRUG:FLUDARABINE	AE:Post transplant lymphoproliferative disorder	8.669301	True	FLUDARABINE	Post transplant lymphoproliferative disorder	1224	184	1408
+DRUG:ETOPOSIDE	AE:Follicular lymphoma	8.666039	True	ETOPOSIDE	Follicular lymphoma	1926	273	2199
+DRUG:FLUDARABINE	AE:Myelosuppression	8.661237	True	FLUDARABINE	Myelosuppression	1224	184	1408
+DRUG:TREMELIMUMAB	AE:Thrombocytopenia	8.657151	True	TREMELIMUMAB	Thrombocytopenia	177	21	198
+DRUG:BOSENTAN	AE:Cardiac failure acute	8.649615	True	BOSENTAN	Cardiac failure acute	1246	104	1350
+DRUG:AMIODARONE	AE:Cardiac failure chronic	8.648887	True	AMIODARONE	Cardiac failure chronic	1383	228	1611
+DRUG:INGENOL	AE:Application site dryness	8.644592	True	INGENOL	Application site dryness	183	30	213
+DRUG:POLATUZUMAB VEDOTIN	AE:Cytokine release syndrome	8.64415	True	POLATUZUMAB VEDOTIN	Cytokine release syndrome	360	41	401
+DRUG:INOTUZUMAB	AE:Acute lymphocytic leukaemia recurrent	8.641344	True	INOTUZUMAB	Acute lymphocytic leukaemia recurrent	146	20	166
+DRUG:BASILIXIMAB	AE:Transplant dysfunction	8.636042	True	BASILIXIMAB	Transplant dysfunction	702	101	803
+DRUG:QUETIAPINE FUMARATE	AE:Neuroleptic malignant syndrome	8.634943	True	QUETIAPINE FUMARATE	Neuroleptic malignant syndrome	516	50	566
+DRUG:DURVALUMAB	AE:Neoplasm progression	8.631074	True	DURVALUMAB	Neoplasm progression	578	61	639
+DRUG:DAUNORUBICIN	AE:Shock	8.630419	True	DAUNORUBICIN	Shock	720	102	822
+DRUG:ASPARAGINASE	AE:Neutropenic colitis	8.630221	True	ASPARAGINASE	Neutropenic colitis	408	51	459

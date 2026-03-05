@@ -1,0 +1,32 @@
+{
+  "version": "v4",
+  "timestamp": "2026-03-03 12:41:57",
+  "total_nodes": 109867,
+  "total_edges": 1822851,
+  "total_triples": 1822851,
+  "nan_triples_dropped": 0,
+  "node_types": {
+    "Drug": 3920,
+    "AdverseEvent": 9949,
+    "Gene": 77498,
+    "Protein": 16201,
+    "Pathway": 2279,
+    "Tissue": 20
+  },
+  "edge_types": {
+    "has_adverse_event": 869142,
+    "sex_differential_adverse_event": 96281,
+    "targets": 12682,
+    "interacts_with": 473860,
+    "participates_in": 370597,
+    "sex_differential_expression": 289
+  },
+  "data_sources": {
+    "signals": "v4_diana_normalized",
+    "ppi": "STRING_v12_score_700",
+    "pathways": "Reactome_CC-BY-4.0",
+    "targets": "ChEMBL_36",
+    "sex_de": "GTEx_v8"
+  },
+  "elapsed_seconds": 37.8
+}

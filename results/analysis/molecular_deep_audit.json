@@ -1,0 +1,150 @@
+{
+  "timestamp": "2026-03-05T02:39:36.563403",
+  "summary": {
+    "total": 23,
+    "passed": 17,
+    "failed": 4,
+    "warnings": 2,
+    "score_pct": 73.9
+  },
+  "checks": [
+    {
+      "category": "CHEMBL",
+      "name": "Compound-target spot check (50 samples)",
+      "status": "PASS",
+      "detail": "Verified: 35, Mismatched: 15, Not found: 0"
+    },
+    {
+      "category": "CHEMBL",
+      "name": "ChEMBL 36 compound universe",
+      "status": "PASS",
+      "detail": "2,878,135 compounds in ChEMBL 36"
+    },
+    {
+      "category": "CHEMBL",
+      "name": "Drug mechanisms",
+      "status": "PASS",
+      "detail": "7,568 mechanism entries"
+    },
+    {
+      "category": "CHEMBL",
+      "name": "Known pair: CHEMBL25\u2192Cyclooxygenase",
+      "status": "PASS",
+      "detail": "Found: Cyclooxygenase"
+    },
+    {
+      "category": "CHEMBL",
+      "name": "Known pair: CHEMBL1201631\u2192HMG-CoA reductase",
+      "status": "FAIL",
+      "detail": "Found: Insulin receptor"
+    },
+    {
+      "category": "CHEMBL",
+      "name": "Known pair: CHEMBL41\u2192Angiotensin-converting enzyme",
+      "status": "FAIL",
+      "detail": "Not found in drug_mechanism"
+    },
+    {
+      "category": "STRING",
+      "name": "STRING v12.0 file readable",
+      "status": "PASS",
+      "detail": "13,715,404 interaction lines"
+    },
+    {
+      "category": "STRING",
+      "name": "STRING edge count reasonable",
+      "status": "PASS",
+      "detail": "13,715,404 (expected >5M for human)"
+    },
+    {
+      "category": "STRING",
+      "name": "STRING edge format valid",
+      "status": "PASS",
+      "detail": "Sample: 9606.ENSP00000000233 -- 9606.ENSP00000356607 (173)"
+    },
+    {
+      "category": "STRING",
+      "name": "KG PPI edges count",
+      "status": "PASS",
+      "detail": "1,858,944 interacts_with edges in KG"
+    },
+    {
+      "category": "STRING",
+      "name": "KG PPI edges in STRING (sample of 100)",
+      "status": "PASS",
+      "detail": "16/100 found in first 1M STRING edges"
+    },
+    {
+      "category": "DRUG_TARGETS",
+      "name": "Total rows",
+      "status": "PASS",
+      "detail": "12,682 rows"
+    },
+    {
+      "category": "DRUG_TARGETS",
+      "name": "UniProt coverage",
+      "status": "PASS",
+      "detail": "100.0%"
+    },
+    {
+      "category": "DRUG_TARGETS",
+      "name": "Gene symbol coverage",
+      "status": "PASS",
+      "detail": "99.4%"
+    },
+    {
+      "category": "DRUG_TARGETS",
+      "name": "Ensembl ID coverage",
+      "status": "PASS",
+      "detail": "99.2%"
+    },
+    {
+      "category": "DRUG_TARGETS",
+      "name": "STRING ID coverage",
+      "status": "PASS",
+      "detail": "98.3%"
+    },
+    {
+      "category": "DRUG_TARGETS",
+      "name": "Gene symbols valid HUGO format",
+      "status": "PASS",
+      "detail": "12601/12601 valid (100.0%)"
+    },
+    {
+      "category": "DRUG_TARGETS",
+      "name": "UniProt IDs valid format",
+      "status": "PASS",
+      "detail": "12604/12682 valid (99.4%)"
+    },
+    {
+      "category": "DRUG_TARGETS",
+      "name": "Drug name overlap with KG",
+      "status": "FAIL",
+      "detail": "1196/4455 drugs found in KG (26.8%)"
+    },
+    {
+      "category": "DRUG_TARGETS",
+      "name": "KG targets edge count matches",
+      "status": "FAIL",
+      "detail": "KG: 5,805 edges, Parquet: 12,682 rows"
+    },
+    {
+      "category": "ID_MAP",
+      "name": "id_mappings.parquet exists",
+      "status": "PASS",
+      "detail": "166,382 rows"
+    },
+    {
+      "category": "ID_MAP",
+      "name": "Column ensembl_gene_id coverage",
+      "status": "WARN",
+      "detail": "49.6% filled"
+    },
+    {
+      "category": "ID_MAP",
+      "name": "Column string_id coverage",
+      "status": "WARN",
+      "detail": "11.5% filled"
+    }
+  ]
+}

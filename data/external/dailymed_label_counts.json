@@ -1,0 +1,42 @@
+[
+  {
+    "drug": "oxycodone",
+    "label_count": 268
+  },
+  {
+    "drug": "risperidone",
+    "label_count": 114
+  },
+  {
+    "drug": "nivolumab",
+    "label_count": 3
+  },
+  {
+    "drug": "pembrolizumab",
+    "label_count": 2
+  },
+  {
+    "drug": "prednisone",
+    "label_count": 386
+  },
+  {
+    "drug": "metformin",
+    "label_count": 542
+  },
+  {
+    "drug": "warfarin",
+    "label_count": 109
+  },
+  {
+    "drug": "atorvastatin",
+    "label_count": 418
+  },
+  {
+    "drug": "methotrexate",
+    "label_count": 43
+  },
+  {
+    "drug": "tramadol",
+    "label_count": 239
+  }
+]

@@ -191,7 +191,7 @@ Total entities traced: 126,575
 
 - **Infrastructure**: NVIDIA DGX Spark GB10
 - **Architecture**: ARM64 (AArch64)
-- **Memory**: 120GB unified
+- **Memory**: 128GB unified
 - **Python**: 3.13.7
 - **OS**: Linux 6.8.0-94-generic
 

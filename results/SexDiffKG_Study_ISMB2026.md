@@ -10,7 +10,7 @@
 
 ## Abstract
 
-Sex-based differences in drug safety are well-documented but poorly systematized. Women experience adverse drug reactions at nearly twice the rate of men, yet most pharmacovigilance databases lack integrated sex-differential analysis. We present SexDiffKG, a sex-differential drug safety knowledge graph constructed from 14,536,008 FDA Adverse Event Reporting System (FAERS) reports spanning 2004–2024, integrated with molecular target data from ChEMBL, protein interaction networks from STRING, and biological pathway annotations from KEGG and UniProt. SexDiffKG contains 127,063 nodes and 5,839,717 edges across 6 entity types and 6 relation types. Through Reporting Odds Ratio (ROR) analysis stratified by sex, we identified 49,026 strong sex-differential drug–adverse event signals (|ln(ROR ratio)| > 1.0 (~2.7× difference), ≥10 reports per sex), with 58.5% showing female bias. Knowledge graph embedding using DistMult (200 dimensions, 100 epochs) achieved MRR of 0.048 and AMRI of 0.981, demonstrating meaningful link prediction capability. Embedding-based clustering of 29,201 drugs into 20 groups revealed distinct sex-differential safety profiles, and target-level analysis identified 429 gene targets with sex-biased drug safety patterns, including ESR1 (estrogen receptor, male-biased), HDAC1/2/3/6 (histone deacetylases, female-biased), and nicotinic acetylcholine receptor subunits (female-biased). SexDiffKG is, to our knowledge, the first knowledge graph specifically designed to capture sex-differential pharmacovigilance signals at scale, providing a computational foundation for sex-aware drug safety assessment.
+Sex-based differences in drug safety are well-documented but poorly systematized. Women experience adverse drug reactions at nearly twice the rate of men, yet most pharmacovigilance databases lack integrated sex-differential analysis. We present SexDiffKG, a sex-differential drug safety knowledge graph constructed from 14,536,008 FDA Adverse Event Reporting System (FAERS) reports spanning 2004–2024, integrated with molecular target data from ChEMBL, protein interaction networks from STRING, and biological pathway annotations from KEGG and UniProt. SexDiffKG contains 127,063 nodes and 5,839,717 edges across 6 entity types and 6 relation types. Through Reporting Odds Ratio (ROR) analysis stratified by sex, we identified 49,026 strong sex-differential drug–adverse event signals (|ln(ROR ratio)| > 1.0 (~2.7× difference), ≥10 reports per sex), with 58.5% showing female bias. Knowledge graph embedding using DistMult (200 dimensions, 100 epochs) achieved MRR of 0.048 and AMRI of 0.9807, demonstrating meaningful link prediction capability. Embedding-based clustering of 29,201 drugs into 20 groups revealed distinct sex-differential safety profiles, and target-level analysis identified 429 gene targets with sex-biased drug safety patterns, including ESR1 (estrogen receptor, male-biased), HDAC1/2/3/6 (histone deacetylases, female-biased), and nicotinic acetylcholine receptor subunits (female-biased). SexDiffKG is, to our knowledge, the first knowledge graph specifically designed to capture sex-differential pharmacovigilance signals at scale, providing a computational foundation for sex-aware drug safety assessment.
 
 **Keywords:** pharmacovigilance, sex differences, knowledge graph, drug safety, FAERS, graph embeddings, adverse drug reactions
 
@@ -113,7 +113,7 @@ We trained DistMult embeddings on the full graph:
 | Entities embedded | 126,575 |
 | Relations | 6 |
 
-Training was performed on an NVIDIA Grace Blackwell GB10 GPU with 120GB unified memory, completing in approximately 3.5 hours.
+Training was performed on a GPU-accelerated workstation with 128GB unified memory, completing in approximately 3.5 hours.
 
 A secondary RotatE model (200 dimensions, complex-valued = 400 parameters, 25 epochs) was trained on CPU for comparison (7.5h training, 54.1 min GPU evaluation). RotatE achieved near-random performance (MRR 0.0001, AMRI 0.003), validating DistMult as the appropriate primary model for this graph's predominantly symmetric relation structure (see Section 3.2).
 
@@ -144,9 +144,9 @@ DistMult v3 evaluation on a held-out test set (499 triples, 13,466 disease candi
 | Hits@3 | 4.54% | 3.61% | +25.6% |
 | Hits@5 | 6.06% | — | — |
 | Hits@10 | 8.85% | 6.91% | +28.0% |
-| AMRI | 0.981 | 0.976 | +0.5% |
+| AMRI | 0.9807 | 0.976 | +0.5% |
 
-The AMRI (Adjusted Mean Rank Index) of 0.981 indicates the model ranks correct triples in the top 1.9% of all candidates on average, demonstrating meaningful structural learning despite the graph's heterogeneity and scale. The asymmetry between head prediction (MRR 0.033) and tail prediction (MRR 0.062) reflects the graph's structure where predicting drug targets (tail) is more constrained than predicting which drugs target a gene (head).
+The AMRI (Adjusted Mean Rank Index) of 0.9807 indicates the model ranks correct triples in the top 1.9% of all candidates on average, demonstrating meaningful structural learning despite the graph's heterogeneity and scale. The asymmetry between head prediction (MRR 0.033) and tail prediction (MRR 0.062) reflects the graph's structure where predicting drug targets (tail) is more constrained than predicting which drugs target a gene (head).
 
 ### 3.2 Sex-Differential Signal Landscape
 
@@ -253,7 +253,7 @@ SexDiffKG is comparable to DRKG in scale while providing unique sex-differential
 
 ## 5. Data and Code Availability
 
-SexDiffKG was constructed and analyzed entirely on local infrastructure (NVIDIA Grace Blackwell GB10, 120GB unified memory, ARM64 architecture) using open-source tools including PyKEEN 1.11.1, scikit-learn, and pandas.
+SexDiffKG was constructed and analyzed entirely on local infrastructure (GPU-accelerated workstation, 128GB unified memory, ARM64 architecture) using open-source tools including PyKEEN 1.11.1, scikit-learn, and pandas.
 
 **Resources:**
 - Knowledge graph: 127,063 nodes, 5,839,717 edges (TSV format)
@@ -303,7 +303,7 @@ FAERS (14.5M reports)
 
 ## Acknowledgments
 
-This work was conducted as independent research at CoEvolve Network, Barcelona, Spain. Computational infrastructure was provided by an NVIDIA DGX Spark (Grace Blackwell GB10). The author thanks the FDA for maintaining the FAERS public database, and the teams behind ChEMBL, STRING, KEGG, and UniProt for their open data contributions.
+This work was conducted as independent research at CoEvolve Network, Barcelona, Spain. Computational infrastructure was provided by an NVIDIA DGX Spark workstation. The author thanks the FDA for maintaining the FAERS public database, and the teams behind ChEMBL, STRING, KEGG, and UniProt for their open data contributions.
 
 ---
 

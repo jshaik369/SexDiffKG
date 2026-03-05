@@ -161,7 +161,7 @@
 - Female-bias ratio 95% CI: [0.5816, 0.5889] (contains reported 0.5849)
 - No single drug dominates (top < 5%)
 - DistMult metrics above random baseline (MRR 600× random)
-- AMRI 0.981 (top 1.9% ranking)
+- AMRI 0.9807 (top 1.9% ranking)
 
 ---
 
@@ -174,7 +174,7 @@
 | Hits@3 | 4.54% | 192× | ✅ |
 | Hits@5 | 6.06% | 153× | ✅ |
 | Hits@10 | 8.85% | 112× | ✅ |
-| AMRI | 0.981 | — | ✅ |
+| AMRI | 0.9807 | — | ✅ |
 
 ---
 

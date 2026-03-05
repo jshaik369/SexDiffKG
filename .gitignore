@@ -50,3 +50,57 @@ Thumbs.db
 ._.DS_Store
 data/._.DS_Store
 results/._.DS_Store
+
+# v4 large files
+data/kg_v4/triples.tsv
+data/kg_v4/edges.tsv
+results/kg_embeddings/ComplEx_v4/model/
+results/kg_embeddings/DistMult_v41/model/
+results/kg_embeddings/RotatE_v41_cpu/model/
+
+# Zenodo deposits (large tar.gz)
+zenodo/*.tar.gz
+
+# Training results (temporary)
+results/rotatE_*.log
+results/rotatE_monitor.log
+
+# Archives
+data/archive/
+Publication/archive_v3/
+
+# Vault mirror (managed separately)
+vault_mirror/
+
+# macOS resource fork files
+._*
+
+# Backup files
+*.bak
+
+# v4 rebuild working directory
+v4_rebuild/
+
+# Loose documentation files (not source-tracked)
+ROTATE_TRAINING_COMPLETE.txt
+SCRIPT_REWRITE_NOTES.md
+AUDIT_SCRIPTS_INDEX.md
+SEX_DE_GENE_REFERENCE.txt
+sex_de_genes_export.csv
+
+# === v5 merged KG (large files) ===
+data/kg_v5/
+data/kg_v41_backup/
+# === All embedding model artifacts ===
+results/kg_embeddings_v4/
+results/kg_embeddings_v5/
+results/kg_embeddings_v5_distmult/
+# === Zenodo deposit directories ===
+zenodo/SexDiffKG_v3_deposit/
+zenodo/SexDiffKG_v4_deposit/
+# === International pharmacovigilance data ===
+data/raw/international/
+# === Bridge/processed data ===
+data/bridge/
+# === FAERS symlinks ===
+data/raw/faers/

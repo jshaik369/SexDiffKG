@@ -33,7 +33,7 @@ CONTENT ENHANCEMENTS vs v2 (CRITICAL FIXES)
    REASON: Reframes as research contribution, not tool description
 
 2. FORMAL ELEMENTS (NEW):
-   - ORCID: 0009-0003-2065-4673
+   - ORCID: 0009-0002-1748-7516
    - Author Contributions statement
    - Competing Interests: none
    - Funding statement: independent, self-funded
@@ -101,14 +101,14 @@ Main Tables:
   T6: Link prediction metrics (MRR, Hits@10, AMRI)
   T7: Top drugs by signal count (5 drugs)
   T8: Key targets with sex-biased profiles (8 targets)
-  T9: Validation against 15 literature benchmarks (6 outcomes)
+  T9: Validation against 40 literature benchmarks (6 outcomes)
   T10: Comparison with existing KGs (6 resources)
 
 Supplementary (referenced at end):
   S1: Signal Filtering Pipeline
   S2: Drug Cluster Profiles (all 20)
   S3: Complete Target Sex-Bias Scores (429 targets)
-  S4: Validation Details by Drug (15 benchmarks)
+  S4: Validation Details by Drug (40 benchmarks)
   S5: Audit Checklist Results (89 checks)
 
 REFERENCES (20 numbered)

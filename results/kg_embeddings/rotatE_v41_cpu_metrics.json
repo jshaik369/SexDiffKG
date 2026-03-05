@@ -1,0 +1,20 @@
+{
+  "model": "RotatE_v4.1_CPU",
+  "kg_version": "v4.1",
+  "entities": 113155,
+  "relations": 6,
+  "dim": 200,
+  "epochs": 200,
+  "batch_size": 512,
+  "lr": 5e-05,
+  "loss": "MarginRankingLoss(margin=9.0)",
+  "mrr": 0.0941423699259758,
+  "hits_at_1": 0.05824112012944646,
+  "hits_at_10": 0.15647428034553854,
+  "amr": 1977.343994140625,
+  "amri": 0.9650510093297637,
+  "training_time_hours": 7.4,
+  "final_loss": 1.1283376842571322,
+  "device": "cpu",
+  "note": "Fixed single train() call. GPU NVRTC SM 12.1 incompatible."
+}

@@ -1,0 +1,218 @@
+{
+  "_meta": {
+    "description": "SexDiffKG v4 Ground Truth \u2014 ONE absolute source of truth",
+    "last_verified": "2026-03-04T14:00:00+01:00",
+    "verified_by": "Claude Code molecular audit - v4 signal numbers corrected",
+    "md5_nodes": "5a7331b1b0e7f11853444eb59e2b9166",
+    "md5_edges": "b8e4890c2063bdf9357c76730881b440",
+    "md5_triples": "2d4e46b1265a9a9bd44bbfc7372a9e44"
+  },
+  "kg": {
+    "canonical_path": "data/kg_v4/",
+    "symlink": "data/kg -> data/kg_v4",
+    "total_nodes": 109867,
+    "total_edges": 1822851,
+    "total_triples": 1822851,
+    "node_types": {
+      "Gene": 77498,
+      "Protein": 16201,
+      "AdverseEvent": 9949,
+      "Drug": 3920,
+      "Pathway": 2279,
+      "Tissue": 20
+    },
+    "edge_types": {
+      "has_adverse_event": 869142,
+      "interacts_with": 473860,
+      "participates_in": 370597,
+      "sex_differential_adverse_event": 96281,
+      "targets": 12682,
+      "sex_differential_expression": 289
+    },
+    "nan_entries": 0,
+    "columns_nodes": [
+      "id",
+      "name",
+      "category"
+    ],
+    "columns_edges": [
+      "subject",
+      "predicate",
+      "object"
+    ]
+  },
+  "faers": {
+    "total_reports_deduplicated": 14536008,
+    "female_reports": 8744397,
+    "male_reports": 5791611,
+    "quarters": 87,
+    "quarter_range": "2004Q1-2025Q3"
+  },
+  "signals": {
+    "total_comparisons": 254114,
+    "sex_differential": 96281,
+    "female_higher": 51771,
+    "male_higher": 44510,
+    "strong_abs_gt_1": 32244,
+    "unique_drugs": 2178,
+    "unique_adverse_events": 5069,
+    "threshold_log_ratio": 0.5,
+    "min_reports_per_sex": 10,
+    "columns": [
+      "drug_name",
+      "adverse_event",
+      "ror_female",
+      "ror_male",
+      "n_female",
+      "n_male",
+      "log_ratio",
+      "direction"
+    ],
+    "source_files": {
+      "all_comparisons": "results/signals_v4/all_sex_comparisons_v4.parquet",
+      "sex_differential": "results/signals_v4/sex_differential_v4.parquet",
+      "summary": "results/signals_v4/signal_computation_v4_summary.json"
+    },
+    "note": "v4 DiAna-normalized signals. 96,281 = edges in KG (sex_differential_adverse_event). Previous v3 numbers (183,544/49,026) are WRONG."
+  },
+  "models": {
+    "ComplEx_v4": {
+      "status": "COMPLETE",
+      "mrr": 0.2484,
+      "hits_at_1": 0.1678,
+      "hits_at_10": 0.4069,
+      "amri": 0.9902,
+      "epochs": 100,
+      "embedding_dim": 200,
+      "device": "cuda"
+    },
+    "DistMult_v4": {
+      "status": "COMPLETE",
+      "mrr": 0.0932,
+      "hits_at_1": 0.0419,
+      "hits_at_10": 0.1842,
+      "amri": 0.9906,
+      "epochs": 100,
+      "embedding_dim": 200,
+      "device": "cuda"
+    },
+    "DistMult_v3_baseline": {
+      "status": "COMPLETE",
+      "mrr": 0.0476,
+      "hits_at_1": 0.0225,
+      "hits_at_10": 0.0885,
+      "amri": 0.9807,
+      "epochs": 100,
+      "embedding_dim": 200,
+      "device": "cuda"
+    },
+    "DistMult_v41": {
+      "status": "COMPLETE",
+      "mrr": 0.1013,
+      "hits_at_1": 0.0481,
+      "hits_at_10": 0.1961,
+      "amri": 0.9909,
+      "amr": 514.49,
+      "epochs": 100,
+      "embedding_dim": 200,
+      "device": "cuda",
+      "training_time_min": 91.5,
+      "entities_embedded": 113155,
+      "note": "Retrained on v4.1 KG with real GTEx sex-differential expression (289 edges)"
+    },
+    "RotatE_v41": {
+      "status": "COMPLETE",
+      "mrr": 0.0941423699259758,
+      "hits_at_1": 0.05824112012944646,
+      "hits_at_10": 0.15647428034553854,
+      "amr": 1977.343994140625,
+      "amri": 0.9650510093297637,
+      "epochs": 200,
+      "embedding_dim": 200,
+      "device": "cpu",
+      "loss": "MarginRankingLoss(margin=9.0)",
+      "lr": 5e-05,
+      "batch_size": 512,
+      "training_time_hours": 7.4,
+      "final_loss": 1.1283376842571322,
+      "note": "CPU training (GPU NVRTC SM 12.1 incompatible). DGX 20 cores, 7.4h. Mac Mini reproducibility pending."
+    },
+    "RotatE_v4.1": {
+      "MRR": 0.2018,
+      "Hits_at_1": 0.1128,
+      "Hits_at_3": 0.2319,
+      "Hits_at_5": 0.2868,
+      "Hits_at_10": 0.3677,
+      "AMRI": 0.9922,
+      "embedding_dim": 256,
+      "epochs": 200,
+      "training_time_minutes": 381.7,
+      "status": "COMPLETE",
+      "train_device": "cpu"
+    }
+  },
+  "identity": {
+    "author": "Mohammed Javeed Akhtar Abbas Shaik",
+    "short_name": "J.Shaik",
+    "email": "jshaik@coevolvenetwork.com",
+    "orcid": "0009-0002-1748-7516",
+    "affiliation": "CoEvolve Network, Independent Researcher, Barcelona, Spain"
+  },
+  "archived": {
+    "kg_v3_cleaned": "data/archive/kg_v3_cleaned/ (126,575 nodes, 5,489,928 edges)",
+    "kg_v3_original": "data/archive/kg_v3_original/ (127,063 nodes, 5,839,717 edges)",
+    "note": "OLD v3 KG \u2014 DO NOT USE. Kept only for historical reference."
+  },
+  "validation": {
+    "total_benchmarks": 40,
+    "found": 29,
+    "coverage_pct": 72.5,
+    "correct_direction": 24,
+    "wrong_direction": 5,
+    "directional_precision_pct": 82.8,
+    "not_found": 11
+  },
+  "drug_normalization": {
+    "diana_dictionary_mappings": 846917,
+    "diana_match_rate_pct": 47.0,
+    "prod_ai_match_rate_pct": 6.5,
+    "chembl_match_rate_pct": 0.3,
+    "string_clean_pct": 40.7,
+    "total_resolution_pct": 53.9,
+    "raw_drug_names": 710000,
+    "normalized_drug_names": 301000
+  },
+  "data_sources": {
+    "FAERS": {
+      "version": "2004Q1-2025Q3",
+      "license": "Public Domain"
+    },
+    "ChEMBL": {
+      "version": "36",
+      "license": "CC-BY-SA 3.0"
+    },
+    "STRING": {
+      "version": "v12.0",
+      "license": "CC-BY 4.0"
+    },
+    "Reactome": {
+      "version": "2026-02",
+      "license": "CC-BY 4.0"
+    },
+    "GTEx": {
+      "version": "v8 (Oliva 2020)",
+      "license": "Open Access"
+    },
+    "DiAna": {
+      "version": "2025",
+      "license": "Open Source"
+    }
+  },
+  "target_analysis": {
+    "gene_targets_assessed": 767,
+    "directionally_biased": 317,
+    "moderate_bias": 74,
+    "exclusively_f_biased": 5,
+    "exclusively_m_biased": 5
+  }
+}
