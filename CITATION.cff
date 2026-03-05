@@ -1,31 +1,30 @@
 cff-version: 1.2.0
-message: "If you use SexDiffKG in your research, please cite it using the metadata from this file."
+message: "If you use SexDiffKG, please cite it using the metadata from this file."
 type: dataset
-title: "SexDiffKG: A Sex-Differential Drug Safety Knowledge Graph"
-version: "4.0"
-date-released: "2026-03-05"
+title: "SexDiffKG: A Sex-Differential Knowledge Graph for Drug Safety"
 authors:
-  - family-names: "Shaik"
-    given-names: "Mohammed Javeed Akhtar Abbas"
+  - family-names: Shaik
+    given-names: Mohammed Javeed Akhtar Abbas
     orcid: "https://orcid.org/0009-0002-1748-7516"
-    email: "jshaik@coevolvenetwork.com"
-    affiliation: "CoEvolve Network, Barcelona, Spain"
-abstract: >-
-  SexDiffKG is a knowledge graph integrating sex-differential pharmacovigilance
-  signals from 14,536,008 FAERS reports (87 quarters, 2004Q1-2025Q3) with
-  protein interactions (STRING v12.0), drug-target binding (ChEMBL 36),
-  biological pathways (Reactome), and sex-differential gene expression (GTEx v8).
-  The graph contains 109,867 nodes (6 types) and 1,822,851 edges (6 relation types),
-  including 96,281 sex-differential drug-adverse event signals. Pre-trained ComplEx
-  embeddings achieve MRR 0.2484 and Hits@10 40.69%.
-keywords:
-  - knowledge graph
-  - pharmacovigilance
-  - sex differences
-  - drug safety
-  - FAERS
-  - adverse drug reactions
-  - graph embeddings
-license: "CC-BY-4.0"
+    email: jshaik@coevolvenetwork.com
+    affiliation: "CoEvolve Network"
+version: "5.2"
+date-released: "2026-03-05"
+license: MIT
 repository-code: "https://github.com/jshaik369/SexDiffKG"
-url: "https://github.com/jshaik369/SexDiffKG"
+keywords:
+  - knowledge-graph
+  - drug-safety
+  - pharmacovigilance
+  - sex-differences
+  - FAERS
+  - adverse-drug-reactions
+  - link-prediction
+abstract: >-
+  SexDiffKG is the first knowledge graph encoding biological sex on every
+  drug-safety edge. It integrates 14.5 million FDA FAERS adverse event reports
+  (2004-2025) with molecular interaction networks (STRING, Reactome, ChEMBL,
+  GTEx) to reveal 96,281 sex-differential drug-adverse event signals. v5.2
+  merges VEDA-KG (Ayurvedic + clinical trial data) via 13,167 identifier
+  bridges, yielding 217,993 nodes and 3.2M edges across 18 relation types.
+  ComplEx embeddings achieve MRR 0.2484 on the core v4 graph (109,867 nodes).
