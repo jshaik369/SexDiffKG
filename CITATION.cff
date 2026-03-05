@@ -1,18 +1,23 @@
 cff-version: 1.2.0
-message: "If you use this software, please cite it as below."
+message: "If you use SexDiffKG in your research, please cite it using the metadata from this file."
 type: dataset
-title: "SexDiffKG: Sex-Differential Drug Safety Knowledge Graph"
+title: "SexDiffKG: A Sex-Differential Drug Safety Knowledge Graph"
+version: "4.0"
+date-released: "2026-03-05"
 authors:
-  - family-names: Shaik
-    given-names: Mohammed Javeed Akhtar Abbas
+  - family-names: "Shaik"
+    given-names: "Mohammed Javeed Akhtar Abbas"
     orcid: "https://orcid.org/0009-0002-1748-7516"
-    affiliation: "CoEvolve Network"
     email: "jshaik@coevolvenetwork.com"
+    affiliation: "CoEvolve Network, Barcelona, Spain"
 abstract: >-
-  SexDiffKG is a sex-stratified knowledge graph integrating 14.5 million FDA FAERS
-  adverse event reports with molecular interaction networks. It identifies 96,281
-  sex-differential drug safety signals across 2,178 drugs and reveals novel phenomena
-  including a severity-sex gradient, anti-regression effect, and 14.4-fold female signal asymmetry.
+  SexDiffKG is a knowledge graph integrating sex-differential pharmacovigilance
+  signals from 14,536,008 FAERS reports (87 quarters, 2004Q1-2025Q3) with
+  protein interactions (STRING v12.0), drug-target binding (ChEMBL 36),
+  biological pathways (Reactome), and sex-differential gene expression (GTEx v8).
+  The graph contains 109,867 nodes (6 types) and 1,822,851 edges (6 relation types),
+  including 96,281 sex-differential drug-adverse event signals. Pre-trained ComplEx
+  embeddings achieve MRR 0.2484 and Hits@10 40.69%.
 keywords:
   - knowledge graph
   - pharmacovigilance
@@ -20,8 +25,7 @@ keywords:
   - drug safety
   - FAERS
   - adverse drug reactions
-  - precision medicine
-license: CC-BY-4.0
-version: "4.0"
-date-released: "2026-03-01"
+  - graph embeddings
+license: "CC-BY-4.0"
 repository-code: "https://github.com/jshaik369/SexDiffKG"
+url: "https://github.com/jshaik369/SexDiffKG"
