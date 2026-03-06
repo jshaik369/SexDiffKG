@@ -1,0 +1,192 @@
+{
+  "analysis": "plant_drug_target_overlap_atlas",
+  "wave": 128,
+  "kg_version": "v5.2",
+  "timestamp": "2026-03-06T13:16:57.569072",
+  "novelty": "Plant family sex-bias atlas \u2014 LOTUS taxonomy \u00d7 NPASS targets \u00d7 SexDiffKG",
+  "summary": {
+    "families_analyzed": 665,
+    "nps_with_bias": 5516
+  },
+  "female_families": [
+    {
+      "family": "Theonellidae",
+      "n_compounds": 6,
+      "n_bias_records": 8,
+      "mean_pctf": 78.3,
+      "std_pctf": 15.2
+    },
+    {
+      "family": "Coniothyriaceae",
+      "n_compounds": 6,
+      "n_bias_records": 9,
+      "mean_pctf": 76.7,
+      "std_pctf": 14.6
+    },
+    {
+      "family": "Cantharellaceae",
+      "n_compounds": 4,
+      "n_bias_records": 8,
+      "mean_pctf": 74.2,
+      "std_pctf": 20.1
+    },
+    {
+      "family": "Aplysinellidae",
+      "n_compounds": 3,
+      "n_bias_records": 11,
+      "mean_pctf": 70.7,
+      "std_pctf": 10.4
+    },
+    {
+      "family": "Polycitoridae",
+      "n_compounds": 14,
+      "n_bias_records": 29,
+      "mean_pctf": 69.9,
+      "std_pctf": 12.4
+    },
+    {
+      "family": "Bromeliaceae",
+      "n_compounds": 17,
+      "n_bias_records": 57,
+      "mean_pctf": 68.7,
+      "std_pctf": 18.5
+    },
+    {
+      "family": "Suillaceae",
+      "n_compounds": 15,
+      "n_bias_records": 36,
+      "mean_pctf": 67.7,
+      "std_pctf": 8.7
+    },
+    {
+      "family": "Echinometridae",
+      "n_compounds": 4,
+      "n_bias_records": 6,
+      "mean_pctf": 64.3,
+      "std_pctf": 7.9
+    },
+    {
+      "family": "Planococcaceae",
+      "n_compounds": 5,
+      "n_bias_records": 5,
+      "mean_pctf": 64.2,
+      "std_pctf": 12.6
+    },
+    {
+      "family": "Dendrophylliidae",
+      "n_compounds": 4,
+      "n_bias_records": 5,
+      "mean_pctf": 63.2,
+      "std_pctf": 7.8
+    }
+  ],
+  "male_families": [
+    {
+      "family": "Winteraceae",
+      "n_compounds": 7,
+      "n_bias_records": 24,
+      "mean_pctf": 33.2,
+      "std_pctf": 13.4
+    },
+    {
+      "family": "Columelliaceae",
+      "n_compounds": 7,
+      "n_bias_records": 16,
+      "mean_pctf": 32.2,
+      "std_pctf": 18.0
+    },
+    {
+      "family": "Pichiaceae",
+      "n_compounds": 9,
+      "n_bias_records": 20,
+      "mean_pctf": 31.6,
+      "std_pctf": 19.0
+    },
+    {
+      "family": "Phoridae",
+      "n_compounds": 5,
+      "n_bias_records": 7,
+      "mean_pctf": 31.4,
+      "std_pctf": 25.0
+    },
+    {
+      "family": "Podospongiidae",
+      "n_compounds": 6,
+      "n_bias_records": 9,
+      "mean_pctf": 31.2,
+      "std_pctf": 0.0
+    },
+    {
+      "family": "Eupomatiaceae",
+      "n_compounds": 6,
+      "n_bias_records": 11,
+      "mean_pctf": 25.7,
+      "std_pctf": 10.5
+    },
+    {
+      "family": "Dendrodorididae",
+      "n_compounds": 1,
+      "n_bias_records": 8,
+      "mean_pctf": 24.3,
+      "std_pctf": 0.0
+    },
+    {
+      "family": "Centroplacaceae",
+      "n_compounds": 4,
+      "n_bias_records": 5,
+      "mean_pctf": 17.1,
+      "std_pctf": 25.5
+    },
+    {
+      "family": "Albatrellaceae",
+      "n_compounds": 3,
+      "n_bias_records": 42,
+      "mean_pctf": 15.0,
+      "std_pctf": 7.4
+    },
+    {
+      "family": "Ellisellidae",
+      "n_compounds": 7,
+      "n_bias_records": 16,
+      "mean_pctf": 13.1,
+      "std_pctf": 23.1
+    }
+  ],
+  "np_pathway_bias": [
+    {
+      "pathway": "Shikimates and Phenylpropanoids",
+      "n": 76624,
+      "mean_pctf": 48.4
+    },
+    {
+      "pathway": "Terpenoids",
+      "n": 39009,
+      "mean_pctf": 49.8
+    },
+    {
+      "pathway": "Alkaloids",
+      "n": 21566,
+      "mean_pctf": 45.0
+    },
+    {
+      "pathway": "Fatty acids",
+      "n": 17037,
+      "mean_pctf": 48.3
+    },
+    {
+      "pathway": "Amino acids and Peptides",
+      "n": 8139,
+      "mean_pctf": 52.2
+    },
+    {
+      "pathway": "Polyketides",
+      "n": 6555,
+      "mean_pctf": 48.1
+    },
+    {
+      "pathway": "Carbohydrates",
+      "n": 2103,
+      "mean_pctf": 49.2
+    }
+  ]
+}

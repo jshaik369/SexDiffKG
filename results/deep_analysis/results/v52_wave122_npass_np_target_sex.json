@@ -1,0 +1,223 @@
+{
+  "analysis": "npass_np_target_sex_bias",
+  "wave": 122,
+  "kg_version": "v5.2",
+  "timestamp": "2026-03-06T12:19:05.653313",
+  "novelty": "NPASS natural product targets bridged to SexDiffKG drug sex-bias via UniProt",
+  "summary": {
+    "bridged_targets": 388,
+    "nps_with_bias": 5516,
+    "overall_mean_pctf": 46.4
+  },
+  "female_biased_nps": [
+    {
+      "np_id": "NPC484321",
+      "name": "ZIHVXDPAMALUML-PZBSJLNOSA-N",
+      "chembl_id": "",
+      "n_targets": 1,
+      "mean_pctf": 93.6,
+      "std_pctf": 0.0,
+      "targets": "Peroxisome proliferator-activa"
+    },
+    {
+      "np_id": "NPC484275",
+      "name": "NQXRXJUTUMEEQI-VPXVCDLISA-N",
+      "chembl_id": "",
+      "n_targets": 1,
+      "mean_pctf": 93.6,
+      "std_pctf": 0.0,
+      "targets": "Peroxisome proliferator-activa"
+    },
+    {
+      "np_id": "NPC470436",
+      "name": "Seimatopolide B",
+      "chembl_id": "CHEMBL2036278",
+      "n_targets": 1,
+      "mean_pctf": 93.6,
+      "std_pctf": 0.0,
+      "targets": "Peroxisome proliferator-activa"
+    },
+    {
+      "np_id": "NPC481153",
+      "name": "YZFWTZACSRHJQD-UHFFFAOYSA-N",
+      "chembl_id": "",
+      "n_targets": 1,
+      "mean_pctf": 93.6,
+      "std_pctf": 0.0,
+      "targets": "Peroxisome proliferator-activa"
+    },
+    {
+      "np_id": "NPC102253",
+      "name": "20(R)-Protopanaxatriol",
+      "chembl_id": "CHEMBL3634637",
+      "n_targets": 1,
+      "mean_pctf": 93.6,
+      "std_pctf": 0.0,
+      "targets": "Peroxisome proliferator-activa"
+    },
+    {
+      "np_id": "NPC488442",
+      "name": "DKNIJLWIVUCTHW-UYRXBGFRSA-N",
+      "chembl_id": "",
+      "n_targets": 1,
+      "mean_pctf": 93.6,
+      "std_pctf": 0.0,
+      "targets": "Peroxisome proliferator-activa"
+    },
+    {
+      "np_id": "NPC235242",
+      "name": "(10E,14Z)-9-Oxooctadeca-10,14-Dien-12-Yn",
+      "chembl_id": "CHEMBL1956877",
+      "n_targets": 1,
+      "mean_pctf": 93.6,
+      "std_pctf": 0.0,
+      "targets": "Peroxisome proliferator-activa"
+    },
+    {
+      "np_id": "NPC258837",
+      "name": "Chlorophellin A",
+      "chembl_id": "CHEMBL496453",
+      "n_targets": 1,
+      "mean_pctf": 93.6,
+      "std_pctf": 0.0,
+      "targets": "Peroxisome proliferator-activa"
+    },
+    {
+      "np_id": "NPC484272",
+      "name": "DIMXKINIOMBQLP-WYNAOKPBSA-N",
+      "chembl_id": "",
+      "n_targets": 1,
+      "mean_pctf": 93.6,
+      "std_pctf": 0.0,
+      "targets": "Peroxisome proliferator-activa"
+    },
+    {
+      "np_id": "NPC35602",
+      "name": "CJWSTQBYJWFAJS-CJOJLPBESA-N",
+      "chembl_id": "",
+      "n_targets": 1,
+      "mean_pctf": 93.6,
+      "std_pctf": 0.0,
+      "targets": "Peroxisome proliferator-activa"
+    }
+  ],
+  "male_biased_nps": [
+    {
+      "np_id": "NPC76112",
+      "name": "Sennoside A",
+      "chembl_id": "CHEMBL2368547",
+      "n_targets": 1,
+      "mean_pctf": 0.0,
+      "std_pctf": 0.0,
+      "targets": "Estrogen receptor"
+    },
+    {
+      "np_id": "NPC296957",
+      "name": "Ebenfuran Vi",
+      "chembl_id": "CHEMBL578016",
+      "n_targets": 1,
+      "mean_pctf": 0.0,
+      "std_pctf": 0.0,
+      "targets": "Estrogen receptor alpha"
+    },
+    {
+      "np_id": "NPC111888",
+      "name": "Vanillic Acid",
+      "chembl_id": "CHEMBL120568",
+      "n_targets": 1,
+      "mean_pctf": 0.0,
+      "std_pctf": 0.0,
+      "targets": "Estrogen receptor alpha"
+    },
+    {
+      "np_id": "NPC229",
+      "name": "Ligustrazine Hydrochloride",
+      "chembl_id": "CHEMBL1939729",
+      "n_targets": 1,
+      "mean_pctf": 0.0,
+      "std_pctf": 0.0,
+      "targets": "Estrogen receptor alpha"
+    },
+    {
+      "np_id": "NPC230157",
+      "name": "Cedrecoumarin A",
+      "chembl_id": "CHEMBL491519",
+      "n_targets": 1,
+      "mean_pctf": 0.0,
+      "std_pctf": 0.0,
+      "targets": "Estrogen receptor alpha"
+    },
+    {
+      "np_id": "NPC242028",
+      "name": "(E)-Astringin",
+      "chembl_id": "CHEMBL358769",
+      "n_targets": 1,
+      "mean_pctf": 0.0,
+      "std_pctf": 0.0,
+      "targets": "Estrogen receptor"
+    },
+    {
+      "np_id": "NPC89422",
+      "name": "Pentadecane",
+      "chembl_id": "CHEMBL1234557",
+      "n_targets": 1,
+      "mean_pctf": 0.0,
+      "std_pctf": 0.0,
+      "targets": "Estrogen receptor alpha"
+    },
+    {
+      "np_id": "NPC7569",
+      "name": "6-Hydroxy-2-Phenethyl-Chromen-4-One",
+      "chembl_id": "CHEMBL358544",
+      "n_targets": 1,
+      "mean_pctf": 0.0,
+      "std_pctf": 0.0,
+      "targets": "Estrogen receptor alpha"
+    },
+    {
+      "np_id": "NPC167323",
+      "name": "Majusanic Acid D",
+      "chembl_id": "CHEMBL2382125",
+      "n_targets": 1,
+      "mean_pctf": 0.0,
+      "std_pctf": 0.0,
+      "targets": "Estrogen receptor alpha"
+    },
+    {
+      "np_id": "NPC124085",
+      "name": "Erythrabyssin I",
+      "chembl_id": "CHEMBL454849",
+      "n_targets": 1,
+      "mean_pctf": 0.0,
+      "std_pctf": 0.0,
+      "targets": "Estrogen receptor alpha"
+    }
+  ],
+  "target_type_bias": [
+    {
+      "type": "Individual protein",
+      "n": 274,
+      "mean_pctf": 50.8
+    },
+    {
+      "type": "Single protein",
+      "n": 37,
+      "mean_pctf": 48.1
+    },
+    {
+      "type": "Protein complex",
+      "n": 32,
+      "mean_pctf": 47.6
+    },
+    {
+      "type": "Protein family",
+      "n": 28,
+      "mean_pctf": 50.9
+    },
+    {
+      "type": "Others",
+      "n": 17,
+      "mean_pctf": 49.1
+    }
+  ]
+}

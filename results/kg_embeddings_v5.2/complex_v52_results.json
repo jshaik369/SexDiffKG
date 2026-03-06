@@ -1,0 +1,39 @@
+{
+  "timestamp": "2026-03-06T12:19:14.305239",
+  "model": "ComplEx",
+  "kg_version": "v5.2",
+  "entities": 217993,
+  "relations": 36,
+  "train_triples": 2874615,
+  "test_triples": 159701,
+  "inverse_triples": true,
+  "hyperparameters": {
+    "embedding_dim": 200,
+    "lr": 0.001,
+    "batch_size": 1024,
+    "negs": 64,
+    "optimizer": "Adam",
+    "max_epochs": 200,
+    "early_stopping": true,
+    "patience": 5,
+    "frequency": 5
+  },
+  "results": {
+    "mrr": 0.16293975710868835,
+    "hits_at_1": 0.04722262227537711,
+    "hits_at_3": 0.21383397724497655,
+    "hits_at_5": 0.2784797840965304,
+    "hits_at_10": 0.3704360022792594,
+    "amri": 0.9831125485079029
+  },
+  "note": "Recovered from best weights (epoch 25, early stopped). Original eval crashed: temp dir cleaned.",
+  "best_epoch": 25,
+  "best_mrr_during_training": 0.1121,
+  "training_time_min": 568.0,
+  "eval_time_min": 104.9,
+  "device": "cpu",
+  "baselines": {
+    "v4": 0.2484,
+    "v5": 0.0247
+  }
+}

@@ -1,0 +1,83 @@
+{
+  "analysis": "npass_activity_type_sex_bias",
+  "wave": 127,
+  "kg_version": "v5.2",
+  "timestamp": "2026-03-06T12:24:36.039866",
+  "novelty": "NPASS bioactivity types (IC50/EC50/Ki/Kd) mapped to sex-differential drug safety",
+  "summary": {
+    "activity_types_analyzed": 10,
+    "ic50_correlation_rho": 0.013
+  },
+  "activity_type_bias": [
+    {
+      "activity_type": "Others",
+      "n_records": 547786,
+      "n_bias_data": 200314,
+      "mean_pctf": 50.5,
+      "std_pctf": 22.5
+    },
+    {
+      "activity_type": "IC50",
+      "n_records": 181506,
+      "n_bias_data": 42333,
+      "mean_pctf": 52.4,
+      "std_pctf": 21.3
+    },
+    {
+      "activity_type": "Ki",
+      "n_records": 15365,
+      "n_bias_data": 18819,
+      "mean_pctf": 49.6,
+      "std_pctf": 21.8
+    },
+    {
+      "activity_type": "Potency",
+      "n_records": 58529,
+      "n_bias_data": 12031,
+      "mean_pctf": 44.4,
+      "std_pctf": 24.7
+    },
+    {
+      "activity_type": "Kd",
+      "n_records": 14547,
+      "n_bias_data": 9635,
+      "mean_pctf": 56.6,
+      "std_pctf": 19.8
+    },
+    {
+      "activity_type": "EC50",
+      "n_records": 20548,
+      "n_bias_data": 9317,
+      "mean_pctf": 51.2,
+      "std_pctf": 23.3
+    },
+    {
+      "activity_type": "GI50",
+      "n_records": 68120,
+      "n_bias_data": 1272,
+      "mean_pctf": 53.2,
+      "std_pctf": 23.5
+    },
+    {
+      "activity_type": "ED50",
+      "n_records": 16326,
+      "n_bias_data": 252,
+      "mean_pctf": 51.9,
+      "std_pctf": 21.9
+    },
+    {
+      "activity_type": "AC50",
+      "n_records": 2115,
+      "n_bias_data": 153,
+      "mean_pctf": 42.0,
+      "std_pctf": 8.9
+    },
+    {
+      "activity_type": "MIC",
+      "n_records": 123914,
+      "n_bias_data": 127,
+      "mean_pctf": 41.9,
+      "std_pctf": 23.5
+    }
+  ]
+}

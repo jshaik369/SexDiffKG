@@ -1,0 +1,643 @@
+{
+  "analysis": "ctd_disease_sex_bias_landscape",
+  "wave": 124,
+  "kg_version": "v5.2",
+  "timestamp": "2026-03-06T12:20:58.161536",
+  "novelty": "CTD therapeutic drug-disease relationships mapped to sex-differential AE profiles",
+  "summary": {
+    "diseases_analyzed": 1084,
+    "overall_mean_pctf": 56.0,
+    "high_consensus_female": 65,
+    "high_consensus_male": 2
+  },
+  "female_diseases": [
+    {
+      "disease": "Invasive Pulmonary Aspergillosis",
+      "disease_id": "MESH:D055744",
+      "n_drugs": 3,
+      "mean_pctf": 91.3,
+      "std_pctf": 2.8,
+      "min_pctf": 87.6,
+      "max_pctf": 94.4,
+      "category": "Infection|Respiratory tract disease"
+    },
+    {
+      "disease": "Candidemia",
+      "disease_id": "MESH:D058387",
+      "n_drugs": 3,
+      "mean_pctf": 89.7,
+      "std_pctf": 5.0,
+      "min_pctf": 82.9,
+      "max_pctf": 94.4,
+      "category": "Infection|Pathology (process)"
+    },
+    {
+      "disease": "Blast Crisis",
+      "disease_id": "MESH:D001752",
+      "n_drugs": 3,
+      "mean_pctf": 84.7,
+      "std_pctf": 12.2,
+      "min_pctf": 70.2,
+      "max_pctf": 100.0,
+      "category": "Blood disease|Cancer|Pathology (process)"
+    },
+    {
+      "disease": "Thrombocythemia, Essential",
+      "disease_id": "MESH:D013920",
+      "n_drugs": 6,
+      "mean_pctf": 83.7,
+      "std_pctf": 1.3,
+      "min_pctf": 82.3,
+      "max_pctf": 86.3,
+      "category": "Blood disease"
+    },
+    {
+      "disease": "Dysgerminoma",
+      "disease_id": "MESH:D004407",
+      "n_drugs": 3,
+      "mean_pctf": 81.9,
+      "std_pctf": 4.4,
+      "min_pctf": 76.3,
+      "max_pctf": 86.9,
+      "category": "Cancer"
+    },
+    {
+      "disease": "Fungemia",
+      "disease_id": "MESH:D016469",
+      "n_drugs": 4,
+      "mean_pctf": 81.4,
+      "std_pctf": 9.7,
+      "min_pctf": 65.2,
+      "max_pctf": 89.9,
+      "category": "Infection|Pathology (process)"
+    },
+    {
+      "disease": "Urinary Retention",
+      "disease_id": "MESH:D016055",
+      "n_drugs": 5,
+      "mean_pctf": 80.6,
+      "std_pctf": 14.3,
+      "min_pctf": 58.3,
+      "max_pctf": 100.0,
+      "category": "Urogenital disease (female)|Urogenital disease (male)"
+    },
+    {
+      "disease": "Cavernous Sinus Thrombosis",
+      "disease_id": "MESH:D020226",
+      "n_drugs": 3,
+      "mean_pctf": 79.6,
+      "std_pctf": 2.3,
+      "min_pctf": 76.4,
+      "max_pctf": 81.8,
+      "category": "Cardiovascular disease|Nervous system disease"
+    },
+    {
+      "disease": "Hemolytic-Uremic Syndrome",
+      "disease_id": "MESH:D006463",
+      "n_drugs": 4,
+      "mean_pctf": 79.4,
+      "std_pctf": 3.1,
+      "min_pctf": 76.2,
+      "max_pctf": 82.5,
+      "category": "Blood disease|Urogenital disease (female)|Urogenital disease (male)"
+    },
+    {
+      "disease": "Tuberculosis, Meningeal",
+      "disease_id": "MESH:D014390",
+      "n_drugs": 3,
+      "mean_pctf": 79.3,
+      "std_pctf": 2.9,
+      "min_pctf": 75.3,
+      "max_pctf": 81.8,
+      "category": "Infection|Nervous system disease"
+    },
+    {
+      "disease": "Lymphoma, Follicular",
+      "disease_id": "MESH:D008224",
+      "n_drugs": 3,
+      "mean_pctf": 79.0,
+      "std_pctf": 4.5,
+      "min_pctf": 73.5,
+      "max_pctf": 84.4,
+      "category": "Cancer|Immune system disease|Lymphatic disease"
+    },
+    {
+      "disease": "Carcinoma, Small Cell",
+      "disease_id": "MESH:D018288",
+      "n_drugs": 6,
+      "mean_pctf": 78.3,
+      "std_pctf": 10.7,
+      "min_pctf": 64.7,
+      "max_pctf": 100.0,
+      "category": "Cancer"
+    },
+    {
+      "disease": "Erythema Multiforme",
+      "disease_id": "MESH:D004892",
+      "n_drugs": 3,
+      "mean_pctf": 77.9,
+      "std_pctf": 3.4,
+      "min_pctf": 74.2,
+      "max_pctf": 82.5,
+      "category": "Skin disease"
+    },
+    {
+      "disease": "Lethargy",
+      "disease_id": "MESH:D053609",
+      "n_drugs": 3,
+      "mean_pctf": 77.7,
+      "std_pctf": 12.8,
+      "min_pctf": 60.3,
+      "max_pctf": 90.5,
+      "category": "Nervous system disease|Signs and symptoms"
+    },
+    {
+      "disease": "Leukemia, Radiation-Induced",
+      "disease_id": "MESH:D007953",
+      "n_drugs": 3,
+      "mean_pctf": 77.7,
+      "std_pctf": 2.4,
+      "min_pctf": 74.4,
+      "max_pctf": 79.6,
+      "category": "Blood disease|Cancer|Wounds and injuries"
+    }
+  ],
+  "male_diseases": [
+    {
+      "disease": "Fetal Death",
+      "disease_id": "MESH:D005313",
+      "n_drugs": 3,
+      "mean_pctf": 30.5,
+      "std_pctf": 24.7,
+      "min_pctf": 0.0,
+      "max_pctf": 60.6,
+      "category": "Pathology (process)|Pregnancy complication"
+    },
+    {
+      "disease": "Parasitic Diseases, Animal",
+      "disease_id": "MESH:D010273",
+      "n_drugs": 3,
+      "mean_pctf": 29.8,
+      "std_pctf": 25.1,
+      "min_pctf": 5.2,
+      "max_pctf": 64.3,
+      "category": "Animal disease|Infection|Parasitic disease"
+    },
+    {
+      "disease": "Hypothyroidism",
+      "disease_id": "MESH:D007037",
+      "n_drugs": 4,
+      "mean_pctf": 29.6,
+      "std_pctf": 5.4,
+      "min_pctf": 21.2,
+      "max_pctf": 36.1,
+      "category": "Endocrine system disease"
+    },
+    {
+      "disease": "Gallbladder Diseases",
+      "disease_id": "MESH:D005705",
+      "n_drugs": 3,
+      "mean_pctf": 29.1,
+      "std_pctf": 6.1,
+      "min_pctf": 21.2,
+      "max_pctf": 36.1,
+      "category": "Digestive system disease"
+    },
+    {
+      "disease": "Feeding and Eating Disorders",
+      "disease_id": "MESH:D001068",
+      "n_drugs": 3,
+      "mean_pctf": 29.1,
+      "std_pctf": 1.8,
+      "min_pctf": 26.7,
+      "max_pctf": 30.8,
+      "category": "Mental disorder|Signs and symptoms"
+    },
+    {
+      "disease": "Abdominal Abscess",
+      "disease_id": "MESH:D018784",
+      "n_drugs": 3,
+      "mean_pctf": 28.9,
+      "std_pctf": 10.0,
+      "min_pctf": 20.0,
+      "max_pctf": 42.9,
+      "category": "Infection"
+    },
+    {
+      "disease": "Folliculitis",
+      "disease_id": "MESH:D005499",
+      "n_drugs": 3,
+      "mean_pctf": 28.8,
+      "std_pctf": 15.2,
+      "min_pctf": 15.4,
+      "max_pctf": 50.0,
+      "category": "Skin disease"
+    },
+    {
+      "disease": "Scotoma",
+      "disease_id": "MESH:D012607",
+      "n_drugs": 3,
+      "mean_pctf": 28.3,
+      "std_pctf": 6.0,
+      "min_pctf": 20.0,
+      "max_pctf": 33.9,
+      "category": "Eye disease|Nervous system disease|Signs and symptoms"
+    },
+    {
+      "disease": "Manganese Poisoning",
+      "disease_id": "MESH:D020149",
+      "n_drugs": 3,
+      "mean_pctf": 27.4,
+      "std_pctf": 33.0,
+      "min_pctf": 0.0,
+      "max_pctf": 73.8,
+      "category": "Nervous system disease|Poisoning"
+    },
+    {
+      "disease": "Proteus Infections",
+      "disease_id": "MESH:D011512",
+      "n_drugs": 6,
+      "mean_pctf": 26.7,
+      "std_pctf": 12.2,
+      "min_pctf": 7.7,
+      "max_pctf": 41.2,
+      "category": "Infection"
+    },
+    {
+      "disease": "Hypoparathyroidism",
+      "disease_id": "MESH:D007011",
+      "n_drugs": 3,
+      "mean_pctf": 26.2,
+      "std_pctf": 13.3,
+      "min_pctf": 8.3,
+      "max_pctf": 40.2,
+      "category": "Endocrine system disease"
+    },
+    {
+      "disease": "Nephrocalcinosis",
+      "disease_id": "MESH:D009397",
+      "n_drugs": 3,
+      "mean_pctf": 25.9,
+      "std_pctf": 15.9,
+      "min_pctf": 3.7,
+      "max_pctf": 40.2,
+      "category": "Metabolic disease|Urogenital disease (female)|Urogenital disease (male)"
+    },
+    {
+      "disease": "Primary Ovarian Insufficiency",
+      "disease_id": "MESH:D016649",
+      "n_drugs": 3,
+      "mean_pctf": 24.9,
+      "std_pctf": 19.2,
+      "min_pctf": 0.0,
+      "max_pctf": 46.8,
+      "category": "Endocrine system disease|Urogenital disease (female)"
+    },
+    {
+      "disease": "Osteoporosis, Postmenopausal",
+      "disease_id": "MESH:D015663",
+      "n_drugs": 4,
+      "mean_pctf": 23.7,
+      "std_pctf": 14.8,
+      "min_pctf": 0.0,
+      "max_pctf": 40.2,
+      "category": "Metabolic disease|Musculoskeletal disease"
+    },
+    {
+      "disease": "Angioedemas, Hereditary",
+      "disease_id": "MESH:D054179",
+      "n_drugs": 3,
+      "mean_pctf": 17.7,
+      "std_pctf": 14.6,
+      "min_pctf": 5.0,
+      "max_pctf": 38.1,
+      "category": "Cardiovascular disease|Genetic disease (inborn)|Immune system disease|Skin disease"
+    }
+  ],
+  "category_bias": [
+    {
+      "category": "Cancer|Immune system disease|Lymphatic disease",
+      "n_diseases": 10,
+      "mean_pctf": 72.9,
+      "std_pctf": 3.9
+    },
+    {
+      "category": "Cancer|Nervous system disease",
+      "n_diseases": 5,
+      "mean_pctf": 68.5,
+      "std_pctf": 5.2
+    },
+    {
+      "category": "Blood disease|Cancer",
+      "n_diseases": 9,
+      "mean_pctf": 68.4,
+      "std_pctf": 4.8
+    },
+    {
+      "category": "Connective tissue disease|Skin disease",
+      "n_diseases": 5,
+      "mean_pctf": 67.1,
+      "std_pctf": 6.0
+    },
+    {
+      "category": "Blood disease|Cancer|Immune system disease|Lymphat",
+      "n_diseases": 6,
+      "mean_pctf": 66.8,
+      "std_pctf": 8.2
+    },
+    {
+      "category": "Infection|Pathology (process)",
+      "n_diseases": 8,
+      "mean_pctf": 64.6,
+      "std_pctf": 13.6
+    },
+    {
+      "category": "Cancer",
+      "n_diseases": 60,
+      "mean_pctf": 63.9,
+      "std_pctf": 8.1
+    },
+    {
+      "category": "Immune system disease|Infection|Viral disease",
+      "n_diseases": 5,
+      "mean_pctf": 63.5,
+      "std_pctf": 4.0
+    },
+    {
+      "category": "Cancer|Urogenital disease (female)",
+      "n_diseases": 5,
+      "mean_pctf": 63.1,
+      "std_pctf": 10.1
+    },
+    {
+      "category": "Infection|Nervous system disease",
+      "n_diseases": 13,
+      "mean_pctf": 61.2,
+      "std_pctf": 10.0
+    },
+    {
+      "category": "Cancer|Urogenital disease (female)|Urogenital dise",
+      "n_diseases": 5,
+      "mean_pctf": 61.2,
+      "std_pctf": 8.6
+    },
+    {
+      "category": "Cancer|Digestive system disease",
+      "n_diseases": 18,
+      "mean_pctf": 61.1,
+      "std_pctf": 7.2
+    },
+    {
+      "category": "Infection|Viral disease",
+      "n_diseases": 5,
+      "mean_pctf": 61.1,
+      "std_pctf": 14.4
+    },
+    {
+      "category": "Cancer|Respiratory tract disease",
+      "n_diseases": 5,
+      "mean_pctf": 60.8,
+      "std_pctf": 6.9
+    },
+    {
+      "category": "Infection|Respiratory tract disease",
+      "n_diseases": 14,
+      "mean_pctf": 60.6,
+      "std_pctf": 14.2
+    },
+    {
+      "category": "Cardiovascular disease|Nervous system disease",
+      "n_diseases": 11,
+      "mean_pctf": 59.6,
+      "std_pctf": 10.5
+    },
+    {
+      "category": "Musculoskeletal disease|Nervous system disease",
+      "n_diseases": 5,
+      "mean_pctf": 59.4,
+      "std_pctf": 9.7
+    },
+    {
+      "category": "Cancer|Pathology (process)",
+      "n_diseases": 6,
+      "mean_pctf": 59.0,
+      "std_pctf": 7.6
+    },
+    {
+      "category": "Cancer|Skin disease",
+      "n_diseases": 7,
+      "mean_pctf": 58.6,
+      "std_pctf": 4.1
+    },
+    {
+      "category": "Blood disease",
+      "n_diseases": 20,
+      "mean_pctf": 58.2,
+      "std_pctf": 11.3
+    },
+    {
+      "category": "Mouth disease",
+      "n_diseases": 5,
+      "mean_pctf": 57.3,
+      "std_pctf": 11.4
+    },
+    {
+      "category": "Urogenital disease (female)|Urogenital disease (ma",
+      "n_diseases": 24,
+      "mean_pctf": 56.5,
+      "std_pctf": 10.7
+    },
+    {
+      "category": "Digestive system disease|Pathology (process)",
+      "n_diseases": 6,
+      "mean_pctf": 56.2,
+      "std_pctf": 9.5
+    },
+    {
+      "category": "Mental disorder",
+      "n_diseases": 35,
+      "mean_pctf": 56.1,
+      "std_pctf": 6.1
+    },
+    {
+      "category": "Pathology (process)|Signs and symptoms",
+      "n_diseases": 5,
+      "mean_pctf": 56.1,
+      "std_pctf": 9.1
+    },
+    {
+      "category": "Infection|Musculoskeletal disease",
+      "n_diseases": 5,
+      "mean_pctf": 56.1,
+      "std_pctf": 8.1
+    },
+    {
+      "category": "Cardiovascular disease|Nervous system disease|Path",
+      "n_diseases": 6,
+      "mean_pctf": 56.1,
+      "std_pctf": 7.0
+    },
+    {
+      "category": "Eye disease|Nervous system disease|Signs and sympt",
+      "n_diseases": 5,
+      "mean_pctf": 55.8,
+      "std_pctf": 19.3
+    },
+    {
+      "category": "Musculoskeletal disease",
+      "n_diseases": 13,
+      "mean_pctf": 55.7,
+      "std_pctf": 6.2
+    },
+    {
+      "category": "Nervous system disease|Signs and symptoms",
+      "n_diseases": 42,
+      "mean_pctf": 55.6,
+      "std_pctf": 8.2
+    },
+    {
+      "category": "Respiratory tract disease",
+      "n_diseases": 14,
+      "mean_pctf": 55.3,
+      "std_pctf": 12.0
+    },
+    {
+      "category": "Pathology (process)",
+      "n_diseases": 33,
+      "mean_pctf": 55.3,
+      "std_pctf": 10.1
+    },
+    {
+      "category": "Immune system disease",
+      "n_diseases": 7,
+      "mean_pctf": 55.2,
+      "std_pctf": 7.1
+    },
+    {
+      "category": "Infection",
+      "n_diseases": 42,
+      "mean_pctf": 55.1,
+      "std_pctf": 11.8
+    },
+    {
+      "category": "Mental disorder|Substance-related disorder",
+      "n_diseases": 10,
+      "mean_pctf": 55.0,
+      "std_pctf": 6.1
+    },
+    {
+      "category": "Cardiovascular disease",
+      "n_diseases": 51,
+      "mean_pctf": 54.8,
+      "std_pctf": 8.8
+    },
+    {
+      "category": "Digestive system disease",
+      "n_diseases": 42,
+      "mean_pctf": 54.2,
+      "std_pctf": 8.9
+    },
+    {
+      "category": "Ear-nose-throat disease|Nervous system disease|Sig",
+      "n_diseases": 5,
+      "mean_pctf": 53.9,
+      "std_pctf": 10.8
+    },
+    {
+      "category": "Mental disorder|Nervous system disease",
+      "n_diseases": 9,
+      "mean_pctf": 53.5,
+      "std_pctf": 5.8
+    },
+    {
+      "category": "Urogenital disease (male)",
+      "n_diseases": 8,
+      "mean_pctf": 53.4,
+      "std_pctf": 12.1
+    },
+    {
+      "category": "Mental disorder|Nervous system disease|Signs and s",
+      "n_diseases": 5,
+      "mean_pctf": 53.2,
+      "std_pctf": 6.2
+    },
+    {
+      "category": "Eye disease",
+      "n_diseases": 12,
+      "mean_pctf": 52.6,
+      "std_pctf": 13.0
+    },
+    {
+      "category": "Signs and symptoms",
+      "n_diseases": 35,
+      "mean_pctf": 52.2,
+      "std_pctf": 8.1
+    },
+    {
+      "category": "Nervous system disease",
+      "n_diseases": 55,
+      "mean_pctf": 51.9,
+      "std_pctf": 7.9
+    },
+    {
+      "category": "Pathology (anatomical condition)",
+      "n_diseases": 7,
+      "mean_pctf": 51.9,
+      "std_pctf": 7.7
+    },
+    {
+      "category": "Cardiovascular disease|Signs and symptoms",
+      "n_diseases": 5,
+      "mean_pctf": 51.8,
+      "std_pctf": 12.1
+    },
+    {
+      "category": "Metabolic disease",
+      "n_diseases": 21,
+      "mean_pctf": 51.7,
+      "std_pctf": 7.2
+    },
+    {
+      "category": "Skin disease",
+      "n_diseases": 15,
+      "mean_pctf": 50.6,
+      "std_pctf": 14.3
+    },
+    {
+      "category": "Cardiovascular disease|Pathology (process)",
+      "n_diseases": 20,
+      "mean_pctf": 50.4,
+      "std_pctf": 5.7
+    },
+    {
+      "category": "Signs and symptoms|Urogenital disease (female)|Uro",
+      "n_diseases": 5,
+      "mean_pctf": 50.1,
+      "std_pctf": 5.8
+    },
+    {
+      "category": "Infection|Skin disease",
+      "n_diseases": 7,
+      "mean_pctf": 47.7,
+      "std_pctf": 10.4
+    },
+    {
+      "category": "Pregnancy complication",
+      "n_diseases": 6,
+      "mean_pctf": 47.2,
+      "std_pctf": 4.0
+    },
+    {
+      "category": "Endocrine system disease",
+      "n_diseases": 10,
+      "mean_pctf": 47.1,
+      "std_pctf": 14.0
+    },
+    {
+      "category": "Infection|Parasitic disease",
+      "n_diseases": 5,
+      "mean_pctf": 44.1,
+      "std_pctf": 9.0
+    }
+  ]
+}

@@ -1,0 +1,197 @@
+{
+  "analysis": "ctd_gene_mediated_sex_bias",
+  "wave": 126,
+  "kg_version": "v5.2",
+  "timestamp": "2026-03-06T12:23:57.911883",
+  "novelty": "CTD gene-mediated drug sex-bias \u2014 which genes mediate sex-differential AE patterns",
+  "summary": {
+    "genes_analyzed": 12570,
+    "mean_pctf": 54.1,
+    "high_conf_female": 66,
+    "high_conf_male": 1
+  },
+  "female_genes": [
+    {
+      "gene": "SLTM",
+      "n_drugs": 6,
+      "mean_pctf": 76.6,
+      "std_pctf": 14.9
+    },
+    {
+      "gene": "RASD2",
+      "n_drugs": 5,
+      "mean_pctf": 75.9,
+      "std_pctf": 10.4
+    },
+    {
+      "gene": "SOX21",
+      "n_drugs": 5,
+      "mean_pctf": 75.4,
+      "std_pctf": 4.1
+    },
+    {
+      "gene": "APLNR",
+      "n_drugs": 5,
+      "mean_pctf": 75.3,
+      "std_pctf": 14.1
+    },
+    {
+      "gene": "NPRL2",
+      "n_drugs": 5,
+      "mean_pctf": 74.8,
+      "std_pctf": 6.3
+    },
+    {
+      "gene": "TFEC",
+      "n_drugs": 5,
+      "mean_pctf": 74.6,
+      "std_pctf": 11.0
+    },
+    {
+      "gene": "BRF1",
+      "n_drugs": 5,
+      "mean_pctf": 74.3,
+      "std_pctf": 14.2
+    },
+    {
+      "gene": "CFAP251",
+      "n_drugs": 6,
+      "mean_pctf": 74.2,
+      "std_pctf": 6.4
+    },
+    {
+      "gene": "CD84",
+      "n_drugs": 6,
+      "mean_pctf": 74.0,
+      "std_pctf": 12.5
+    },
+    {
+      "gene": "STMN4",
+      "n_drugs": 5,
+      "mean_pctf": 73.4,
+      "std_pctf": 12.2
+    },
+    {
+      "gene": "REXO4",
+      "n_drugs": 6,
+      "mean_pctf": 72.6,
+      "std_pctf": 10.1
+    },
+    {
+      "gene": "MIMS1",
+      "n_drugs": 7,
+      "mean_pctf": 72.5,
+      "std_pctf": 16.3
+    },
+    {
+      "gene": "MUTYH",
+      "n_drugs": 5,
+      "mean_pctf": 72.5,
+      "std_pctf": 10.5
+    },
+    {
+      "gene": "SYT7",
+      "n_drugs": 9,
+      "mean_pctf": 72.5,
+      "std_pctf": 11.5
+    },
+    {
+      "gene": "MIR132",
+      "n_drugs": 6,
+      "mean_pctf": 72.4,
+      "std_pctf": 9.4
+    }
+  ],
+  "male_genes": [
+    {
+      "gene": "NLRP5",
+      "n_drugs": 5,
+      "mean_pctf": 29.0,
+      "std_pctf": 25.4
+    },
+    {
+      "gene": "F13A1",
+      "n_drugs": 11,
+      "mean_pctf": 29.0,
+      "std_pctf": 22.8
+    },
+    {
+      "gene": "TRIM16",
+      "n_drugs": 8,
+      "mean_pctf": 28.6,
+      "std_pctf": 17.4
+    },
+    {
+      "gene": "C1QTNF7",
+      "n_drugs": 5,
+      "mean_pctf": 28.4,
+      "std_pctf": 20.7
+    },
+    {
+      "gene": "KRT6B",
+      "n_drugs": 6,
+      "mean_pctf": 28.3,
+      "std_pctf": 24.7
+    },
+    {
+      "gene": "DEFA3",
+      "n_drugs": 5,
+      "mean_pctf": 28.2,
+      "std_pctf": 20.9
+    },
+    {
+      "gene": "CALML3",
+      "n_drugs": 5,
+      "mean_pctf": 28.2,
+      "std_pctf": 20.9
+    },
+    {
+      "gene": "POLR2J",
+      "n_drugs": 5,
+      "mean_pctf": 27.8,
+      "std_pctf": 27.7
+    },
+    {
+      "gene": "KCNA3",
+      "n_drugs": 6,
+      "mean_pctf": 27.6,
+      "std_pctf": 17.7
+    },
+    {
+      "gene": "SOSTDC1",
+      "n_drugs": 5,
+      "mean_pctf": 27.4,
+      "std_pctf": 21.2
+    },
+    {
+      "gene": "TFF2",
+      "n_drugs": 5,
+      "mean_pctf": 26.3,
+      "std_pctf": 25.6
+    },
+    {
+      "gene": "PPP1R16B",
+      "n_drugs": 6,
+      "mean_pctf": 26.1,
+      "std_pctf": 21.8
+    },
+    {
+      "gene": "CEACAM5",
+      "n_drugs": 6,
+      "mean_pctf": 24.5,
+      "std_pctf": 20.2
+    },
+    {
+      "gene": "P2RY14",
+      "n_drugs": 5,
+      "mean_pctf": 22.5,
+      "std_pctf": 23.8
+    },
+    {
+      "gene": "ALDH3B2",
+      "n_drugs": 6,
+      "mean_pctf": 16.4,
+      "std_pctf": 17.8
+    }
+  ]
+}

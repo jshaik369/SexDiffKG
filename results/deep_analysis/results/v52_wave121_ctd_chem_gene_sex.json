@@ -1,0 +1,326 @@
+{
+  "analysis": "ctd_chem_gene_sex_triangulation",
+  "wave": 121,
+  "kg_version": "v5.2",
+  "timestamp": "2026-03-06T12:17:07.859732",
+  "novelty": "CTD chemical-gene interaction count vs drug AE sex-bias",
+  "summary": {
+    "ctd_human_interactions": 1313131,
+    "matched_drugs": 577,
+    "correlation_rho": 0.072,
+    "correlation_p": 0.0849
+  },
+  "action_type_results": [
+    {
+      "action": "expression",
+      "n": 213017,
+      "mean_pctf": 52.6,
+      "std": 23.5
+    },
+    {
+      "action": "cotreatment",
+      "n": 63433,
+      "mean_pctf": 51.8,
+      "std": 26.1
+    },
+    {
+      "action": "reaction",
+      "n": 45577,
+      "mean_pctf": 50.0,
+      "std": 27.2
+    },
+    {
+      "action": "activity",
+      "n": 10507,
+      "mean_pctf": 51.5,
+      "std": 24.8
+    },
+    {
+      "action": "phosphorylation",
+      "n": 9745,
+      "mean_pctf": 62.4,
+      "std": 23.6
+    },
+    {
+      "action": "response to substance",
+      "n": 9617,
+      "mean_pctf": 64.4,
+      "std": 18.3
+    },
+    {
+      "action": "methylation",
+      "n": 8870,
+      "mean_pctf": 51.5,
+      "std": 8.3
+    },
+    {
+      "action": "binding",
+      "n": 6859,
+      "mean_pctf": 39.1,
+      "std": 30.3
+    },
+    {
+      "action": "secretion",
+      "n": 3640,
+      "mean_pctf": 47.7,
+      "std": 24.4
+    },
+    {
+      "action": "localization",
+      "n": 3109,
+      "mean_pctf": 41.0,
+      "std": 21.8
+    },
+    {
+      "action": "cleavage",
+      "n": 2790,
+      "mean_pctf": 61.1,
+      "std": 19.3
+    },
+    {
+      "action": "abundance",
+      "n": 2678,
+      "mean_pctf": 53.6,
+      "std": 24.0
+    },
+    {
+      "action": "metabolic processing",
+      "n": 1317,
+      "mean_pctf": 53.1,
+      "std": 22.8
+    },
+    {
+      "action": "uptake",
+      "n": 1066,
+      "mean_pctf": 48.7,
+      "std": 20.3
+    },
+    {
+      "action": "transport",
+      "n": 863,
+      "mean_pctf": 47.6,
+      "std": 17.6
+    },
+    {
+      "action": "degradation",
+      "n": 585,
+      "mean_pctf": 56.6,
+      "std": 23.1
+    },
+    {
+      "action": "chemical synthesis",
+      "n": 526,
+      "mean_pctf": 46.0,
+      "std": 24.1
+    },
+    {
+      "action": "hydroxylation",
+      "n": 300,
+      "mean_pctf": 52.5,
+      "std": 22.7
+    },
+    {
+      "action": "acetylation",
+      "n": 268,
+      "mean_pctf": 63.0,
+      "std": 22.4
+    },
+    {
+      "action": "export",
+      "n": 253,
+      "mean_pctf": 60.6,
+      "std": 18.3
+    },
+    {
+      "action": "oxidation",
+      "n": 243,
+      "mean_pctf": 49.9,
+      "std": 23.3
+    },
+    {
+      "action": "glucuronidation",
+      "n": 238,
+      "mean_pctf": 51.2,
+      "std": 21.8
+    },
+    {
+      "action": "stability",
+      "n": 191,
+      "mean_pctf": 62.3,
+      "std": 20.0
+    },
+    {
+      "action": "lipidation",
+      "n": 156,
+      "mean_pctf": 56.6,
+      "std": 16.7
+    },
+    {
+      "action": "import",
+      "n": 117,
+      "mean_pctf": 49.1,
+      "std": 19.6
+    },
+    {
+      "action": "reduction",
+      "n": 95,
+      "mean_pctf": 56.7,
+      "std": 23.1
+    },
+    {
+      "action": "folding",
+      "n": 79,
+      "mean_pctf": 52.8,
+      "std": 27.5
+    },
+    {
+      "action": "hydrolysis",
+      "n": 73,
+      "mean_pctf": 62.0,
+      "std": 18.3
+    },
+    {
+      "action": "ubiquitination",
+      "n": 72,
+      "mean_pctf": 54.2,
+      "std": 22.2
+    },
+    {
+      "action": "splicing",
+      "n": 61,
+      "mean_pctf": 45.0,
+      "std": 21.7
+    },
+    {
+      "action": "mutagenesis",
+      "n": 35,
+      "mean_pctf": 61.0,
+      "std": 16.9
+    },
+    {
+      "action": "sulfation",
+      "n": 35,
+      "mean_pctf": 35.7,
+      "std": 32.9
+    },
+    {
+      "action": "glutathionylation",
+      "n": 26,
+      "mean_pctf": 53.7,
+      "std": 15.0
+    },
+    {
+      "action": "nitrosation",
+      "n": 20,
+      "mean_pctf": 64.6,
+      "std": 18.8
+    }
+  ],
+  "top_drugs": [
+    {
+      "drug_upper": "VALPROIC ACID",
+      "n_genes": 15333,
+      "n_interactions": 34250,
+      "pctf": 49.26253687315634,
+      "gene_tier": NaN
+    },
+    {
+      "drug_upper": "CYCLOSPORINE",
+      "n_genes": 8382,
+      "n_interactions": 10047,
+      "pctf": 51.92307692307693,
+      "gene_tier": "100+"
+    },
+    {
+      "drug_upper": "TRETINOIN",
+      "n_genes": 7888,
+      "n_interactions": 11232,
+      "pctf": 53.125,
+      "gene_tier": "100+"
+    },
+    {
+      "drug_upper": "ACETAMINOPHEN",
+      "n_genes": 7573,
+      "n_interactions": 9137,
+      "pctf": 65.1685393258427,
+      "gene_tier": "100+"
+    },
+    {
+      "drug_upper": "CISPLATIN",
+      "n_genes": 7483,
+      "n_interactions": 13702,
+      "pctf": 76.25570776255708,
+      "gene_tier": "100+"
+    },
+    {
+      "drug_upper": "DOXORUBICIN",
+      "n_genes": 7411,
+      "n_interactions": 10433,
+      "pctf": 71.38461538461539,
+      "gene_tier": "100+"
+    },
+    {
+      "drug_upper": "ESTRADIOL",
+      "n_genes": 7304,
+      "n_interactions": 17881,
+      "pctf": 0.0,
+      "gene_tier": "100+"
+    },
+    {
+      "drug_upper": "SUNITINIB",
+      "n_genes": 6170,
+      "n_interactions": 6222,
+      "pctf": 65.57377049180327,
+      "gene_tier": "100+"
+    },
+    {
+      "drug_upper": "IVERMECTIN",
+      "n_genes": 4261,
+      "n_interactions": 4369,
+      "pctf": 20.0,
+      "gene_tier": "100+"
+    },
+    {
+      "drug_upper": "DEXAMETHASONE",
+      "n_genes": 3828,
+      "n_interactions": 11453,
+      "pctf": 80.26070763500931,
+      "gene_tier": "100+"
+    },
+    {
+      "drug_upper": "CAFFEINE",
+      "n_genes": 3436,
+      "n_interactions": 3686,
+      "pctf": 80.0,
+      "gene_tier": "100+"
+    },
+    {
+      "drug_upper": "TEMOZOLOMIDE",
+      "n_genes": 3369,
+      "n_interactions": 3585,
+      "pctf": 68.35443037974683,
+      "gene_tier": "100+"
+    },
+    {
+      "drug_upper": "INDOMETHACIN",
+      "n_genes": 3288,
+      "n_interactions": 9029,
+      "pctf": 50.0,
+      "gene_tier": "100+"
+    },
+    {
+      "drug_upper": "CALCITRIOL",
+      "n_genes": 2458,
+      "n_interactions": 4579,
+      "pctf": 30.0,
+      "gene_tier": "100+"
+    },
+    {
+      "drug_upper": "TESTOSTERONE",
+      "n_genes": 2270,
+      "n_interactions": 3905,
+      "pctf": 73.91304347826086,
+      "gene_tier": "100+"
+    }
+  ]
+}

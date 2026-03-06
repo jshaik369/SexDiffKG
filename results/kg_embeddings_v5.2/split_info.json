@@ -1,0 +1,15 @@
+{
+  "entities": 217993,
+  "relations": 36,
+  "total_triples": 3194017,
+  "train": 2874615,
+  "valid": 159701,
+  "test": 159701,
+  "split": [
+    0.9,
+    0.05,
+    0.05
+  ],
+  "random_state": 42,
+  "inverse_triples": true
+}

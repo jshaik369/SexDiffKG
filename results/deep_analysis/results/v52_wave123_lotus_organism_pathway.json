@@ -1,0 +1,176 @@
+{
+  "analysis": "lotus_organism_compound_sex_pathway",
+  "wave": 123,
+  "kg_version": "v5.2",
+  "timestamp": "2026-03-06T12:20:26.860878",
+  "novelty": "LOTUS plant organisms \u2192 compounds \u2192 NPASS targets \u2192 SexDiffKG drug sex-bias pathway",
+  "summary": {
+    "matched_pairs": 131305,
+    "organisms_with_data": 10248,
+    "overall_mean_pctf": 48.8
+  },
+  "female_biased_orgs": [
+    {
+      "organism": "Plakinastrella mammillaris",
+      "wikidata": "http://www.wikidata.org/entity/Q4117886",
+      "n_compounds": 3,
+      "n_bias_data": 3,
+      "mean_pctf": 93.6,
+      "std_pctf": 0.0
+    },
+    {
+      "organism": "Phylloporia ribis",
+      "wikidata": "http://www.wikidata.org/entity/Q1719192",
+      "n_compounds": 4,
+      "n_bias_data": 4,
+      "mean_pctf": 93.6,
+      "std_pctf": 0.0
+    },
+    {
+      "organism": "Aplysinella rhax",
+      "wikidata": "http://www.wikidata.org/entity/Q2280618",
+      "n_compounds": 2,
+      "n_bias_data": 3,
+      "mean_pctf": 87.2,
+      "std_pctf": 4.6
+    },
+    {
+      "organism": "Asarum forbesii",
+      "wikidata": "http://www.wikidata.org/entity/Q11099378",
+      "n_compounds": 3,
+      "n_bias_data": 16,
+      "mean_pctf": 87.0,
+      "std_pctf": 17.4
+    },
+    {
+      "organism": "Coniothyrium cereale",
+      "wikidata": "http://www.wikidata.org/entity/Q103812020",
+      "n_compounds": 3,
+      "n_bias_data": 3,
+      "mean_pctf": 86.6,
+      "std_pctf": 0.0
+    },
+    {
+      "organism": "Frullania convoluta",
+      "wikidata": "http://www.wikidata.org/entity/Q17293804",
+      "n_compounds": 1,
+      "n_bias_data": 3,
+      "mean_pctf": 86.6,
+      "std_pctf": 0.0
+    },
+    {
+      "organism": "Jungermannia comata",
+      "wikidata": "http://www.wikidata.org/entity/Q17290358",
+      "n_compounds": 1,
+      "n_bias_data": 3,
+      "mean_pctf": 86.6,
+      "std_pctf": 0.0
+    },
+    {
+      "organism": "Coniothyrium cerealis",
+      "wikidata": "http://www.wikidata.org/entity/Q10458220",
+      "n_compounds": 3,
+      "n_bias_data": 3,
+      "mean_pctf": 86.6,
+      "std_pctf": 0.0
+    },
+    {
+      "organism": "Neosetophoma cerealis",
+      "wikidata": "http://www.wikidata.org/entity/Q104945034",
+      "n_compounds": 3,
+      "n_bias_data": 3,
+      "mean_pctf": 86.6,
+      "std_pctf": 0.0
+    },
+    {
+      "organism": "Streptomyces albulus",
+      "wikidata": "http://www.wikidata.org/entity/Q22286871",
+      "n_compounds": 2,
+      "n_bias_data": 7,
+      "mean_pctf": 84.2,
+      "std_pctf": 19.9
+    }
+  ],
+  "male_biased_orgs": [
+    {
+      "organism": "Duguetia hadrantha",
+      "wikidata": "http://www.wikidata.org/entity/Q15356032",
+      "n_compounds": 3,
+      "n_bias_data": 3,
+      "mean_pctf": 10.0,
+      "std_pctf": 0.0
+    },
+    {
+      "organism": "Bryonia verrucosa",
+      "wikidata": "http://www.wikidata.org/entity/Q15531422",
+      "n_compounds": 3,
+      "n_bias_data": 3,
+      "mean_pctf": 10.0,
+      "std_pctf": 0.0
+    },
+    {
+      "organism": "Cucurbita andreana",
+      "wikidata": "http://www.wikidata.org/entity/Q15533102",
+      "n_compounds": 3,
+      "n_bias_data": 3,
+      "mean_pctf": 10.0,
+      "std_pctf": 0.0
+    },
+    {
+      "organism": "Luffa operculata",
+      "wikidata": "http://www.wikidata.org/entity/Q147762",
+      "n_compounds": 2,
+      "n_bias_data": 3,
+      "mean_pctf": 10.0,
+      "std_pctf": 0.0
+    },
+    {
+      "organism": "Ecballium elaterium",
+      "wikidata": "http://www.wikidata.org/entity/Q157877",
+      "n_compounds": 4,
+      "n_bias_data": 13,
+      "mean_pctf": 10.0,
+      "std_pctf": 0.0
+    },
+    {
+      "organism": "Dendrosicyos socotrana",
+      "wikidata": "http://www.wikidata.org/entity/Q135733",
+      "n_compounds": 1,
+      "n_bias_data": 3,
+      "mean_pctf": 10.0,
+      "std_pctf": 0.0
+    },
+    {
+      "organism": "Iberis amara",
+      "wikidata": "http://www.wikidata.org/entity/Q141728",
+      "n_compounds": 2,
+      "n_bias_data": 3,
+      "mean_pctf": 10.0,
+      "std_pctf": 0.0
+    },
+    {
+      "organism": "Erythrina poeppigiana",
+      "wikidata": "http://www.wikidata.org/entity/Q5837321",
+      "n_compounds": 10,
+      "n_bias_data": 13,
+      "mean_pctf": 5.8,
+      "std_pctf": 15.0
+    },
+    {
+      "organism": "Erythrina vogelii",
+      "wikidata": "http://www.wikidata.org/entity/Q15494152",
+      "n_compounds": 3,
+      "n_bias_data": 4,
+      "mean_pctf": 5.2,
+      "std_pctf": 9.0
+    },
+    {
+      "organism": "Junceella fragilis",
+      "wikidata": "http://www.wikidata.org/entity/Q3324723",
+      "n_compounds": 2,
+      "n_bias_data": 5,
+      "mean_pctf": 0.0,
+      "std_pctf": 0.0
+    }
+  ]
+}

@@ -1,0 +1,71 @@
+{
+  "analysis": "session_16_summary",
+  "wave": 130,
+  "kg_version": "v5.2",
+  "timestamp": "2026-03-06T15:43:04.610056",
+  "stats": {
+    "total_json": 9,
+    "total_figures": 9
+  },
+  "session16": {
+    "CTD Chem-Gene Sex-Bias": {
+      "wave": 121,
+      "finding": "577 drugs bridged via CTD, phosphorylation=62.4%F, binding=39.1%F"
+    },
+    "NPASS NP Target Atlas": {
+      "wave": 122,
+      "finding": "5,516 NPs mapped to sex-biased targets, PPAR-gamma=93.6%F, ER=0%F"
+    },
+    "LOTUS Organism Pathway": {
+      "wave": 123,
+      "finding": "10,248 organisms mapped, marine sponges most F-biased, Cucurbitaceae most M-biased"
+    },
+    "CTD Disease Landscape": {
+      "wave": 124,
+      "finding": "1,084 diseases mapped, cancer=63.9%F, parasitic=44.1%F"
+    },
+    "Cross-DB Safety Profile": {
+      "wave": 125,
+      "finding": "873 toxic NPs bridged, Vitis vinifera=443 toxic compounds"
+    },
+    "CTD Gene-Mediated Bias": {
+      "wave": 126,
+      "finding": "Gene-level sex-bias mediators identified via CTD interactions"
+    },
+    "NPASS Activity Types": {
+      "wave": 127,
+      "finding": "IC50/EC50/Ki/Kd activity types mapped to sex-bias"
+    },
+    "Plant Family Atlas": {
+      "wave": 128,
+      "finding": "Plant family sex-bias atlas from LOTUS taxonomy"
+    },
+    "Disease NP Opportunities": {
+      "wave": 129,
+      "finding": "Sex-aware NP candidates for sex-biased diseases"
+    },
+    "Session Summary": {
+      "wave": 130,
+      "finding": "CTD/NPASS/LOTUS integration complete \u2014 10 new waves"
+    }
+  },
+  "databases": {
+    "ctd": {
+      "files": 7,
+      "size_gb": 3.3,
+      "human_interactions": 1313131
+    },
+    "npass": {
+      "files": 8,
+      "size_mb": 215,
+      "natural_products": 204023,
+      "activities": 1048756
+    },
+    "lotus": {
+      "files": 5,
+      "size_mb": 268,
+      "compounds": 222097,
+      "pairs": 661004
+    }
+  }
+}

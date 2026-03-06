@@ -1,0 +1,176 @@
+{
+  "analysis": "disease_np_opportunities",
+  "wave": 129,
+  "kg_version": "v5.2",
+  "timestamp": "2026-03-06T15:43:02.180640",
+  "novelty": "Sex-aware natural product candidates for sex-biased diseases via gene overlap",
+  "summary": {
+    "np_disease_matches": 415929,
+    "unique_nps": 8113,
+    "unique_diseases": 655
+  },
+  "female_disease_candidates": [
+    {
+      "np_id": "NPC245896",
+      "np_name": "Pyrene",
+      "disease": "Astrocytoma",
+      "disease_pctf": 75.3,
+      "shared_genes": 1,
+      "gene_examples": "AR"
+    },
+    {
+      "np_id": "NPC245896",
+      "np_name": "Pyrene",
+      "disease": "Cholestasis, Extrahepatic",
+      "disease_pctf": 77.1,
+      "shared_genes": 1,
+      "gene_examples": "NFE2L2"
+    },
+    {
+      "np_id": "NPC245896",
+      "np_name": "Pyrene",
+      "disease": "Lymphoma, T-Cell",
+      "disease_pctf": 74.5,
+      "shared_genes": 1,
+      "gene_examples": "PPARG"
+    },
+    {
+      "np_id": "NPC208806",
+      "np_name": "Damnacanthal",
+      "disease": "Ischemic Stroke",
+      "disease_pctf": 71.0,
+      "shared_genes": 1,
+      "gene_examples": "VDR"
+    },
+    {
+      "np_id": "NPC208806",
+      "np_name": "Damnacanthal",
+      "disease": "Respiratory Insufficiency",
+      "disease_pctf": 71.0,
+      "shared_genes": 1,
+      "gene_examples": "MAPT"
+    },
+    {
+      "np_id": "NPC482899",
+      "np_name": "PPRHYTMHLZIIKU-GFCCVEGCSA-N",
+      "disease": "Cholestasis, Extrahepatic",
+      "disease_pctf": 77.1,
+      "shared_genes": 1,
+      "gene_examples": "NFE2L2"
+    },
+    {
+      "np_id": "NPC227503",
+      "np_name": "4-O-Methylepihematoxylol",
+      "disease": "Astrocytoma",
+      "disease_pctf": 75.3,
+      "shared_genes": 1,
+      "gene_examples": "MET"
+    },
+    {
+      "np_id": "NPC189588",
+      "np_name": "Digoxigenin",
+      "disease": "Wilms Tumor",
+      "disease_pctf": 71.8,
+      "shared_genes": 1,
+      "gene_examples": "TP53"
+    },
+    {
+      "np_id": "NPC189588",
+      "np_name": "Digoxigenin",
+      "disease": "Cholestasis, Extrahepatic",
+      "disease_pctf": 77.1,
+      "shared_genes": 1,
+      "gene_examples": "NFE2L2"
+    },
+    {
+      "np_id": "NPC189588",
+      "np_name": "Digoxigenin",
+      "disease": "Precursor Cell Lymphoblastic Leukemia-Ly",
+      "disease_pctf": 70.2,
+      "shared_genes": 2,
+      "gene_examples": "IDH1, TP53"
+    }
+  ],
+  "male_disease_candidates": [
+    {
+      "np_id": "NPC245896",
+      "np_name": "Pyrene",
+      "disease": "Primary Ovarian Insufficiency",
+      "disease_pctf": 24.9,
+      "shared_genes": 1,
+      "gene_examples": "NFE2L2"
+    },
+    {
+      "np_id": "NPC482899",
+      "np_name": "PPRHYTMHLZIIKU-GFCCVEGCSA-N",
+      "disease": "Primary Ovarian Insufficiency",
+      "disease_pctf": 24.9,
+      "shared_genes": 1,
+      "gene_examples": "NFE2L2"
+    },
+    {
+      "np_id": "NPC189588",
+      "np_name": "Digoxigenin",
+      "disease": "Primary Ovarian Insufficiency",
+      "disease_pctf": 24.9,
+      "shared_genes": 1,
+      "gene_examples": "NFE2L2"
+    },
+    {
+      "np_id": "NPC331434",
+      "np_name": "MRAUNPAHJZDYCK-BYPYZUCNSA-N",
+      "disease": "Manganese Poisoning",
+      "disease_pctf": 27.4,
+      "shared_genes": 1,
+      "gene_examples": "NOS2"
+    },
+    {
+      "np_id": "NPC316906",
+      "np_name": "Loperamide",
+      "disease": "Primary Ovarian Insufficiency",
+      "disease_pctf": 24.9,
+      "shared_genes": 1,
+      "gene_examples": "NFE2L2"
+    },
+    {
+      "np_id": "NPC270412",
+      "np_name": "Arecoline Hydrobromide",
+      "disease": "Primary Ovarian Insufficiency",
+      "disease_pctf": 24.9,
+      "shared_genes": 1,
+      "gene_examples": "NFE2L2"
+    },
+    {
+      "np_id": "NPC144407",
+      "np_name": "2,4-Hexadienal",
+      "disease": "Primary Ovarian Insufficiency",
+      "disease_pctf": 24.9,
+      "shared_genes": 1,
+      "gene_examples": "NFE2L2"
+    },
+    {
+      "np_id": "NPC233780",
+      "np_name": "6,7-Dimethoxy-3H-2-Benzofuran-1-One",
+      "disease": "Manganese Poisoning",
+      "disease_pctf": 27.4,
+      "shared_genes": 1,
+      "gene_examples": "SNCA"
+    },
+    {
+      "np_id": "NPC489585",
+      "np_name": "YUBVXSGRPWZEAH-ZDUSSCGKSA-N",
+      "disease": "Manganese Poisoning",
+      "disease_pctf": 27.4,
+      "shared_genes": 1,
+      "gene_examples": "SNCA"
+    },
+    {
+      "np_id": "NPC329003",
+      "np_name": "Oleoylethanolamide",
+      "disease": "Primary Ovarian Insufficiency",
+      "disease_pctf": 24.9,
+      "shared_genes": 1,
+      "gene_examples": "NFE2L2"
+    }
+  ]
+}

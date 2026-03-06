@@ -1,0 +1,239 @@
+{
+  "analysis": "crossdb_natural_product_safety",
+  "wave": 125,
+  "kg_version": "v5.2",
+  "timestamp": "2026-03-06T12:23:28.355122",
+  "novelty": "Cross-database (CTD+NPASS+LOTUS) natural product safety \u00d7 sex-bias profiling",
+  "summary": {
+    "toxic_nps_total": 3662,
+    "toxic_nps_bridged": 873,
+    "mean_pctf_toxic": 46.7,
+    "organisms_with_toxic": 30
+  },
+  "toxic_female": [
+    {
+      "np_id": "NPC84750",
+      "name": "2-Methylpropyl Nitrite",
+      "n_tox_records": 8,
+      "n_targets_bridged": 6,
+      "mean_pctf": 93.6,
+      "n_drugs": 1
+    },
+    {
+      "np_id": "NPC176775",
+      "name": "Gardenin B",
+      "n_tox_records": 1,
+      "n_targets_bridged": 78,
+      "mean_pctf": 93.6,
+      "n_drugs": 1
+    },
+    {
+      "np_id": "NPC64866",
+      "name": "3,5,5-Trimethylcyclohex-2-En-1-One",
+      "n_tox_records": 180,
+      "n_targets_bridged": 3,
+      "mean_pctf": 93.6,
+      "n_drugs": 1
+    },
+    {
+      "np_id": "NPC610084",
+      "name": "ISDBWOPVZKNQDW-UHFFFAOYSA-N",
+      "n_tox_records": 4,
+      "n_targets_bridged": 2,
+      "mean_pctf": 86.4,
+      "n_drugs": 1
+    },
+    {
+      "np_id": "NPC165133",
+      "name": "Dihydroguaiaretic Acid",
+      "n_tox_records": 1,
+      "n_targets_bridged": 62,
+      "mean_pctf": 86.4,
+      "n_drugs": 1
+    },
+    {
+      "np_id": "NPC71888",
+      "name": "Psammaplin A",
+      "n_tox_records": 1,
+      "n_targets_bridged": 89,
+      "mean_pctf": 83.9,
+      "n_drugs": 3
+    },
+    {
+      "np_id": "NPC606116",
+      "name": "LMXOHSDXUQEUSF-YECHIGJVSA-N",
+      "n_tox_records": 1,
+      "n_targets_bridged": 36,
+      "mean_pctf": 79.1,
+      "n_drugs": 2
+    },
+    {
+      "np_id": "NPC608249",
+      "name": "FJAQNRBDVKIIKK-LFLQOBSNSA-N",
+      "n_tox_records": 1,
+      "n_targets_bridged": 18,
+      "mean_pctf": 79.1,
+      "n_drugs": 1
+    },
+    {
+      "np_id": "NPC173344",
+      "name": "Kuanoniamine D",
+      "n_tox_records": 2,
+      "n_targets_bridged": 12,
+      "mean_pctf": 79.1,
+      "n_drugs": 1
+    },
+    {
+      "np_id": "NPC605709",
+      "name": "NYXUAFLMUQAJPS-AYGLBTBXSA-N",
+      "n_tox_records": 1,
+      "n_targets_bridged": 6,
+      "mean_pctf": 79.0,
+      "n_drugs": 6
+    }
+  ],
+  "toxic_male": [
+    {
+      "np_id": "NPC88325",
+      "name": "Oct-1-Ene",
+      "n_tox_records": 51,
+      "n_targets_bridged": 7,
+      "mean_pctf": 0.0,
+      "n_drugs": 1
+    },
+    {
+      "np_id": "NPC245927",
+      "name": "4,6,6,7,8,8-Hexamethyl-1,3,4,7-Tetrahydr",
+      "n_tox_records": 30,
+      "n_targets_bridged": 1,
+      "mean_pctf": 0.0,
+      "n_drugs": 1
+    },
+    {
+      "np_id": "NPC258046",
+      "name": "1,2,3,4-Tetrahydroisoquinoline",
+      "n_tox_records": 10,
+      "n_targets_bridged": 12,
+      "mean_pctf": 0.0,
+      "n_drugs": 1
+    },
+    {
+      "np_id": "NPC600172",
+      "name": "NLHHRLWOUZZQLW-UHFFFAOYSA-N",
+      "n_tox_records": 74,
+      "n_targets_bridged": 5,
+      "mean_pctf": 0.0,
+      "n_drugs": 1
+    },
+    {
+      "np_id": "NPC328459",
+      "name": "[(Z)-Hex-3-Enyl] 2-Hydroxybenzoate",
+      "n_tox_records": 12,
+      "n_targets_bridged": 2,
+      "mean_pctf": 0.0,
+      "n_drugs": 1
+    },
+    {
+      "np_id": "NPC89422",
+      "name": "Pentadecane",
+      "n_tox_records": 8,
+      "n_targets_bridged": 3,
+      "mean_pctf": 0.0,
+      "n_drugs": 1
+    },
+    {
+      "np_id": "NPC205176",
+      "name": "Antillatoxin",
+      "n_tox_records": 3,
+      "n_targets_bridged": 7,
+      "mean_pctf": 0.0,
+      "n_drugs": 1
+    },
+    {
+      "np_id": "NPC226988",
+      "name": "Isoalantolactone",
+      "n_tox_records": 4,
+      "n_targets_bridged": 28,
+      "mean_pctf": 0.0,
+      "n_drugs": 1
+    },
+    {
+      "np_id": "NPC156124",
+      "name": "Butyl Gallate",
+      "n_tox_records": 1,
+      "n_targets_bridged": 16,
+      "mean_pctf": 0.0,
+      "n_drugs": 1
+    },
+    {
+      "np_id": "NPC311612",
+      "name": "Cucurbitacin D",
+      "n_tox_records": 3,
+      "n_targets_bridged": 67,
+      "mean_pctf": 10.0,
+      "n_drugs": 1
+    }
+  ],
+  "toxic_organisms": [
+    {
+      "organism": "Vitis vinifera",
+      "n_toxic_compounds": 443
+    },
+    {
+      "organism": "Mangifera indica",
+      "n_toxic_compounds": 356
+    },
+    {
+      "organism": "Zingiber officinale",
+      "n_toxic_compounds": 322
+    },
+    {
+      "organism": "Solanum lycopersicum",
+      "n_toxic_compounds": 295
+    },
+    {
+      "organism": "Arabidopsis thaliana",
+      "n_toxic_compounds": 280
+    },
+    {
+      "organism": "Homo sapiens",
+      "n_toxic_compounds": 244
+    },
+    {
+      "organism": "Citrus deliciosa",
+      "n_toxic_compounds": 241
+    },
+    {
+      "organism": "Citrus reticulata",
+      "n_toxic_compounds": 241
+    },
+    {
+      "organism": "Ocimum basilicum",
+      "n_toxic_compounds": 224
+    },
+    {
+      "organism": "Nicotiana tabacum",
+      "n_toxic_compounds": 206
+    },
+    {
+      "organism": "Apium graveolens",
+      "n_toxic_compounds": 201
+    },
+    {
+      "organism": "Perilla frutescens",
+      "n_toxic_compounds": 193
+    },
+    {
+      "organism": "Rosmarinus officinalis",
+      "n_toxic_compounds": 193
+    },
+    {
+      "organism": "Humulus lupulus",
+      "n_toxic_compounds": 190
+    },
+    {
+      "organism": "Salvia officinalis",
+      "n_toxic_compounds": 189
+    }
+  ]
+}

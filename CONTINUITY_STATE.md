@@ -1,47 +1,56 @@
-# CONTINUITY STATE — SexDiffKG Project
-**Last updated:** 2026-03-05 10:47 UTC (Session 12 continued)
+# SexDiffKG v5.2 Continuity State
 
-## Current Status: v5.2 TRAINING IN PROGRESS
+## Updated: 2026-03-06T13:00Z
 
-### What Just Happened
-1. v4 data quality patch COMPLETE — 3,288 missing drugs added, 290,177 dupes removed
-2. v5 repair analysis COMPLETE — found 3 disconnected subgraphs, only 8 name bridges
-3. v5.1 LCC extracted but INADEQUATE — only 46.8% v4 preservation
-4. **v5.2 bridge build COMPLETE** — 13,167 bridge edges (same_gene + encodes) connected all 3 subgraphs
-5. **v5.2 ComplEx training LAUNCHED** — tmux `v52_train`, 5-trial HPO + 500 epoch full training
+## Current Status: 130-WAVE MILESTONE — SESSION 16 IN PROGRESS
 
-### v5.2 KG (Current Best Merged)
-- **217,993 nodes** (98.7% of v5 entities)
-- **3,194,017 edges** (18 relation types)
-- **100% v4 preservation** (all 1,532,674 unique v4 triples kept)
-- 13 node types, 18 edge types (2 new: same_gene, encodes)
-- Path: `data/kg_v5.2/`
+### Training Status:
+- **ComplEx v5.2 DONE**: MRR 0.1629, Hits@10 37.0%, AMRI 0.983, epoch 25 (early stopped)
+  - 6.6x improvement over v5 (0.025), 34% below v4 (0.248) — expected for 2x entity KG
+  - Recovered from crash (temp dir cleaned during eval). Best weights intact.
+- **DistMult v5.2 RESUMING**: From checkpoint epoch 14, best MRR 0.0434 (epoch 10)
+  - Running in tmux v52_recover on DGX
+- **RotatE v5.2 QUEUED**: After DistMult completes
 
-### Running Processes
-- `tmux v52_train` — ComplEx v5.2 HPO + training (started 10:47 UTC)
-- Log: `results/kg_embeddings_v5.2/training.log`
+### KG v5.2 (Merged SexDiffKG v4 + VEDA-KG):
+- Nodes: 217,993 (13 types)
+- Edges: 3,194,017 (18 types)
+- Path: data/kg_v5.2/
 
-### What To Do Next
-1. Monitor v5.2 training (`tmux attach -t v52_train` or `tail -f results/kg_embeddings_v5.2/training.log`)
-2. After training completes: compare MRR to v4 baseline (0.2484)
-3. If v5.2 MRR competitive: update GROUND_TRUTH, train DistMult + RotatE
-4. If v5.2 MRR poor: investigate why, consider regularization or loss function changes
-5. Clean up v5.1 directory (superseded by v5.2)
-6. Update deep-analysis repo with v5.2 results
+### Deep Analysis Progress:
+- **130 WAVES** across 16 sessions (121-128 done, 129-130 running)
+- Total JSON results: ~130
+- Total figures: ~390
+- Permanent storage: results/deep_analysis/ (waves 121-128 copied)
 
-### Ground Truth Hierarchy
-- v4 canonical: `data/kg_v4/` — GROUND_TRUTH.json (4 copies)
-- v4 patched: `data/kg_v4/nodes_patched.tsv`, `edges_deduped.tsv`, `triples_deduped.tsv`
-- v5 merged (raw): `data/kg_v5/` — GROUND_TRUTH_v5.json
-- v5.1 LCC (deprecated): `data/kg_v5.1/` — 46.8% v4 preservation, SUPERSEDED
-- **v5.2 bridged LCC**: `data/kg_v5.2/` — 100% v4 preservation, CURRENT BEST
+### DGX Reboot Recovery (Mar 6, 2026):
+- DGX rebooted ~09:00 UTC, /tmp wiped
+- ComplEx training was complete, DistMult killed at epoch 14
+- Waves 121-128 results were in /tmp — RE-EXECUTED all 10 waves
+- Recovery script: /tmp/v52_recover_and_resume.py
+- Permanent copy: results/deep_analysis/{results,figures}/
 
-### Models
-| Model | KG | MRR | Hits@10 | AMRI | Status |
-|-------|-----|-----|---------|------|--------|
-| ComplEx v4 | v4 | 0.2484 | 0.4069 | 0.9902 | BASELINE |
-| DistMult v4.1 | v4 | 0.1013 | 0.1961 | 0.9909 | Complete |
-| RotatE v4.1 | v4 | 0.2018 | 0.3677 | 0.9922 | Complete |
-| ComplEx v5 | v5 | 0.0247 | 0.058 | — | Bad (disconnected graph) |
-| DistMult v5 | v5 | 0.0413 | 0.100 | — | Bad (disconnected graph) |
-| ComplEx v5.2 | v5.2 | ? | ? | ? | TRAINING |
+### Session 16: CTD/NPASS/LOTUS Integration (Waves 121-130):
+- W121: CTD Chem-Gene Sex-Bias — 577 drugs bridged, phosphorylation=62.4%F, binding=39.1%F
+- W122: NPASS NP Target Atlas — 5,516 NPs, PPAR-gamma=93.6%F, ER=0%F
+- W123: LOTUS Organism Pathway — 10,248 organisms, marine sponges most F-biased
+- W124: CTD Disease Landscape — 1,084 diseases, cancer=63.9%F
+- W125: Cross-DB Safety Profile — 873 toxic NPs, Vitis vinifera=443 compounds
+- W126: Gene-Mediated Bias — 12,570 genes, ZMAT3=68.5%F high-confidence
+- W127: Activity Types — Kd=56.6%F, MIC/Potency male-biased
+- W128: Plant Family Atlas — 665 families, Theonellidae=78.3%F
+- W129: Disease-NP Opportunities — RUNNING
+- W130: Session Summary — QUEUED
+
+### External Databases:
+- **CTD**: 7 files, 3.3GB at data/raw/ctd/ — 3M human chem-gene, 109K direct chem-disease
+- **NPASS 3.0**: 8 files, 215MB at data/raw/npass/ — 204K NPs, 1.05M activities, 8.8K targets
+- **LOTUS**: 5 files, 268MB at data/raw/lotus/ — 222K compounds, 661K pairs, 37K taxa
+- **Bridge**: 114K InChIKey overlap (LOTUS-NPASS), 793 UniProt targets, 938 CTD drugs
+
+### Next Steps:
+1. Complete waves 129-130
+2. DistMult + RotatE training to completion
+3. Push results to GitHub
+4. Update vault with final training results
+5. Phase 1: publication tasks (blocked on user)
