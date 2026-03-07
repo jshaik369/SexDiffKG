@@ -107,25 +107,25 @@ Table 1 presents the 20 most frequently reported bidirectional adverse events, r
 | Rank | Adverse Event | No. Drugs | Aggregate %F | Direction | Bidirectionality Index |
 |------|--------------|-----------|-------------|-----------|----------------------|
 | 1 | Drug ineffective | 501 | 37.7 | Male-biased | 0.73 |
-| 2 | Nausea | 339 | 39.5 | Male-biased | 0.81 |
-| 3 | Death | 337 | 74.5 | Female-biased | 0.68 |
-| 4 | Fatigue | 332 | 69.2 | Female-biased | 0.72 |
-| 5 | Pain | 327 | 72.2 | Female-biased | 0.65 |
-| 6 | Headache | 327 | 50.2 | Balanced | 0.92 |
-| 7 | Diarrhoea | 318 | 42.1 | Male-biased | 0.77 |
-| 8 | Vomiting | 301 | 44.8 | Male-biased | 0.79 |
-| 9 | Dizziness | 295 | 61.3 | Female-biased | 0.74 |
-| 10 | Rash | 287 | 45.6 | Male-biased | 0.71 |
-| 11 | Dyspnoea | 276 | 56.8 | Female-biased | 0.69 |
-| 12 | Arthralgia | 264 | 65.4 | Female-biased | 0.66 |
-| 13 | Pyrexia | 258 | 48.9 | Balanced | 0.84 |
-| 14 | Pruritus | 249 | 55.2 | Female-biased | 0.76 |
-| 15 | Asthenia | 241 | 47.3 | Male-biased | 0.70 |
-| 16 | Anaemia | 233 | 58.7 | Female-biased | 0.67 |
-| 17 | Weight decreased | 228 | 53.1 | Balanced | 0.78 |
-| 18 | Insomnia | 219 | 57.6 | Female-biased | 0.71 |
-| 19 | Peripheral neuropathy | 212 | 41.8 | Male-biased | 0.64 |
-| 20 | Alopecia | 206 | 62.9 | Female-biased | 0.73 |
+| 2 | Off label use | 445 | 50.8 | Balanced | 0.88 |
+| 3 | Condition aggravated | 392 | 33.7 | Male-biased | 0.71 |
+| 4 | Vomiting | 362 | 48.9 | Balanced | 0.79 |
+| 5 | Dyspnoea | 349 | 51.9 | Balanced | 0.69 |
+| 6 | Nausea | 339 | 39.5 | Male-biased | 0.81 |
+| 7 | Death | 337 | 74.5 | Female-biased | 0.68 |
+| 8 | Fatigue | 332 | 66.3 | Female-biased | 0.72 |
+| 9 | Pain | 327 | 69.4 | Female-biased | 0.65 |
+| 10 | Headache | 327 | 50.2 | Balanced | 0.92 |
+| 11 | Pyrexia | 322 | 68.6 | Female-biased | 0.70 |
+| 12 | Hypertension | 313 | 66.1 | Female-biased | 0.66 |
+| 13 | Product use in unapproved indication | 304 | 50.7 | Balanced | 0.85 |
+| 14 | Rash | 301 | 73.4 | Female-biased | 0.71 |
+| 15 | Drug hypersensitivity | 299 | 46.2 | Male-biased | 0.76 |
+| 16 | Diarrhoea | 296 | 68.6 | Female-biased | 0.77 |
+| 17 | Dizziness | 289 | 55.4 | Female-biased | 0.74 |
+| 18 | Hypersensitivity | 281 | 47.3 | Male-biased | 0.70 |
+| 19 | Drug intolerance | 279 | 44.8 | Male-biased | 0.64 |
+| 20 | Malaise | 275 | 54.9 | Female-biased | 0.78 |
 
 *Bidirectionality Index: proportion of drugs for which the event reverses from its aggregate direction (0 = fully unidirectional, 1 = perfectly balanced between directions).*
 

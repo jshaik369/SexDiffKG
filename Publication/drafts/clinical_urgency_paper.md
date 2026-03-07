@@ -14,9 +14,9 @@ ORCID: 0009-0002-1748-7516 | Email: jshaik@coevolvenetwork.com
 
 **Methods:** We analyzed 14,536,008 FDA Adverse Event Reporting System (FAERS) reports spanning 87 quarters (2004Q1--2025Q3), identifying 96,281 sex-differential signals across 2,178 drugs and 5,069 adverse events. We developed a Clinical Significance Score (CSS) integrating severity weighting (Death=10, Life-threatening=8, Organ failure=8), magnitude of sex disparity (absolute log ratio), and statistical power (log10 of total reports). Urgent signals were defined by the conjunction of severity weight >=8, absolute log ratio >=1.5, and a minimum of 100 reports.
 
-**Results:** Application of the urgency criteria yielded 108 signals across 73 drugs spanning 9 adverse event categories. Strikingly, 86.1% (93/108) of urgent signals were male-biased, fundamentally contradicting the prevailing assumption that women bear the greater burden of serious ADRs. Pulmonary embolism dominated with 38 signals (100% male-biased), followed by apparent death (15 signals, 100% male-biased, concentrated in anti-rheumatic drugs), ventricular fibrillation (14 signals, 100% male-biased), and renal failure (11 signals, 100% male-biased). Among the 15 female-biased urgent signals, sildenafil accounted for 4 distinct life-threatening outcomes (death, cardiac failure, respiratory failure, renal failure), reflecting the consequences of expanding off-label use in women without sex-specific safety data. Drug-level aggregate CSS scores identified prednisone (CSS=2,627), rituximab (CSS=2,445), methotrexate (CSS=2,348), and oxycodone (CSS=1,900) as the highest-priority targets for regulatory intervention.
+**Results:** Application of the urgency criteria yielded 108 signals across 73 drugs spanning 9 adverse event categories. Strikingly, 80.6% (87/108) of urgent signals were male-biased, fundamentally contradicting the prevailing assumption that women bear the greater burden of serious ADRs. Pulmonary embolism dominated with 38 signals (100% male-biased), followed by apparent death (15 signals, 100% male-biased, concentrated in anti-rheumatic drugs), ventricular fibrillation (14 signals, 100% male-biased), and renal failure (11 signals, 100% male-biased). Among the 21 female-biased urgent signals, sildenafil accounted for 4 distinct life-threatening outcomes (death, cardiac failure, respiratory failure, renal failure), reflecting the consequences of expanding off-label use in women without sex-specific safety data. Drug-level aggregate CSS scores identified prednisone (CSS=2,627), rituximab (CSS=2,445), methotrexate (CSS=2,348), and oxycodone (CSS=1,900) as the highest-priority targets for regulatory intervention.
 
-**Conclusions:** This analysis reveals a male vulnerability paradox in severe drug toxicity: despite constituting only 39.8% of FAERS reporters, males generate 86.1% of urgent safety signals for the most lethal outcomes. These 108 signals demand immediate regulatory action, including updated drug labeling, sex-stratified safety communications, and mandatory sex-disaggregated analysis in post-marketing surveillance. The anti-rheumatic apparent death cluster and the sildenafil female toxicity profile represent particularly urgent targets for FDA safety communications.
+**Conclusions:** This analysis reveals a male vulnerability paradox in severe drug toxicity: despite constituting only 39.8% of FAERS reporters, males generate 80.6% of urgent safety signals for the most lethal outcomes. These 108 signals demand immediate regulatory action, including updated drug labeling, sex-stratified safety communications, and mandatory sex-disaggregated analysis in post-marketing surveillance. The anti-rheumatic apparent death cluster and the sildenafil female toxicity profile represent particularly urgent targets for FDA safety communications.
 
 **Keywords:** pharmacovigilance, sex differences, adverse drug reactions, FAERS, drug safety signals, male vulnerability, clinical significance scoring, regulatory science
 
@@ -121,7 +121,7 @@ FAERS is a spontaneous reporting system subject to well-documented limitations: 
 
 From 14,536,008 FAERS reports (60.2% female, 39.8% male) spanning 87 quarters (Q1 2004 to Q3 2025), we identified 96,281 statistically significant sex-differential signals across 2,178 unique drugs and 5,069 unique adverse event terms.
 
-Application of the urgency criteria (severity >=8, |LR| >=1.5, N >=100) yielded **108 urgent signals** involving **73 drugs** and **9 adverse event categories**. Of these, **93 signals (86.1%) were male-biased** and **15 signals (13.9%) were female-biased**.
+Application of the urgency criteria (severity >=8, |LR| >=1.5, N >=100) yielded **108 urgent signals** involving **73 drugs** and **9 adverse event categories**. Of these, **87 signals (80.6%) were male-biased** and **21 signals (19.4%) were female-biased**.
 
 ### 3.2 Distribution of Urgent Signals by Adverse Event Category
 
@@ -138,7 +138,7 @@ Application of the urgency criteria (severity >=8, |LR| >=1.5, N >=100) yielded 
 | Cardiac arrest | 2 | 0.0% | Risperidone | +1.56 | 326 |
 | Respiratory failure | 1 | 0.0% | Sildenafil | +1.98 | 250 |
 | Renal failure acute | 1 | 0.0% | Na phosphate | +1.81 | 119 |
-| **Total** | **108** | **86.1%** | | | |
+| **Total** | **108** | **80.6%** | | | |
 
 ### 3.3 Pulmonary Embolism: The Dominant Urgent Signal Category
 
@@ -335,7 +335,7 @@ Summing CSS values across all qualifying adverse events for each drug reveals th
 
 ### 4.1 The Male Vulnerability Paradox
 
-The central finding of this analysis---that 86.1% of urgent drug safety signals are male-biased despite males constituting only 39.8% of FAERS reporters---represents a fundamental challenge to prevailing pharmacovigilance orthodoxy. The historical narrative of female vulnerability, rooted in the 1990s drug withdrawal analyses and reinforced by legitimate concerns about female underrepresentation in clinical trials, has created a regulatory and clinical blind spot for male-specific drug toxicity.
+The central finding of this analysis---that 80.6% of urgent drug safety signals are male-biased despite males constituting only 39.8% of FAERS reporters---represents a fundamental challenge to prevailing pharmacovigilance orthodoxy. The historical narrative of female vulnerability, rooted in the 1990s drug withdrawal analyses and reinforced by legitimate concerns about female underrepresentation in clinical trials, has created a regulatory and clinical blind spot for male-specific drug toxicity.
 
 Several mechanisms may explain this paradox:
 
@@ -479,7 +479,7 @@ Based on these findings, we propose the following regulatory actions, stratified
 
 ## 7. Conclusions
 
-This analysis of 14.5 million FAERS reports identifies 108 urgent sex-differential drug safety signals across 73 drugs that meet stringent criteria for clinical severity, effect magnitude, and statistical robustness. The dominant finding---that 86.1% of these urgent signals are male-biased---overturns the longstanding assumption that women bear a disproportionate burden of serious adverse drug reactions.
+This analysis of 14.5 million FAERS reports identifies 108 urgent sex-differential drug safety signals across 73 drugs that meet stringent criteria for clinical severity, effect magnitude, and statistical robustness. The dominant finding---that 80.6% of these urgent signals are male-biased---overturns the longstanding assumption that women bear a disproportionate burden of serious adverse drug reactions.
 
 The anti-rheumatic apparent death cluster (15 drugs, 100% male-biased, spanning 5 pharmacological classes) represents a previously unrecognized pattern of catastrophic male vulnerability to immunosuppressive therapy. The sildenafil female toxicity profile (4 life-threatening outcomes in a drug primarily studied in men) highlights the dangers of expanding drug use across sex lines without adequate sex-specific safety data.
 

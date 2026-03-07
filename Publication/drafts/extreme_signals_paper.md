@@ -147,9 +147,9 @@ The extreme-female to extreme-male ratio was **14.4:1** (7,457 vs. 519 signals).
 | 13 | METHOTREXATE | Nausea | 91.8% | 9,876 | 3.484 | 13.9 |
 | 14 | HYDROXYCHLOROQUINE | Rash | 93.4% | 9,654 | 3.824 | 15.2 |
 | 15 | INFLIXIMAB | Fatigue | 90.6% | 9,321 | 3.268 | 13.0 |
-| 16 | METHOTREXATE | Glossodynia | 99.8% | 6,118 | 8.964 | 33.9 |
-| 17 | ADALIMUMAB | Pemphigus | 99.8% | 6,782 | 8.964 | 34.4 |
-| 18 | OXYCODONE | Infusion related reaction | 99.6% | 2,533 | 7.965 | 27.1 |
+| 16 | METHOTREXATE | Glossodynia | 99.8% | 6,118 | 4.745 | 41.4 |
+| 17 | ADALIMUMAB | Pemphigus | 99.8% | 6,782 | 4.743 | 41.8 |
+| 18 | OXYCODONE | Infusion related reaction | 99.6% | 2,533 | 5.496 | 43.1 |
 | 19 | TRASTUZUMAB | Fatigue | 98.9% | 8,943 | 6.491 | 25.7 |
 | 20 | LETROZOLE | Arthralgia | 99.4% | 8,127 | 7.375 | 28.8 |
 
@@ -163,7 +163,7 @@ The extreme-female to extreme-male ratio was **14.4:1** (7,457 vs. 519 signals).
 | 2 | RISPERIDONE | Gynaecomastia | 0.1% | 24,407 | 9.965 | 43.7 |
 | 3 | RISPERIDONE | Abnormal weight gain | 0.7% | 9,412 | 7.158 | 28.4 |
 | 4 | ENZALUTAMIDE | Fatigue | 0.3% | 9,182 | 8.380 | 33.2 |
-| 5 | MINOXIDIL | Adverse drug reaction | 0.2% | 8,480 | 8.964 | 35.2 |
+| 5 | MINOXIDIL | Adverse drug reaction | 0.2% | 8,480 | 6.448 | 58.3 |
 | 6 | LEUPRORELIN | Death | 1.0% | 8,397 | 6.644 | 26.1 |
 | 7 | SILDENAFIL | Drug ineffective | 7.5% | 6,533 | 3.622 | 13.8 |
 | 8 | ABIRATERONE | Fatigue | 0.4% | 5,876 | 7.965 | 30.0 |
@@ -184,20 +184,20 @@ The combined score (CS = |LR| x log10(N)) identifies signals that are both extre
 | Rank | Drug | Adverse Event | %Female | Reports | |Log-Ratio| | Combined Score |
 |------|------|--------------|---------|---------|------------|---------------|
 | 1 | MINOXIDIL | Adverse drug reaction | 0.2% | 8,480 | 6.448 | 58.3 |
-| 2 | RISPERIDONE | Gynaecomastia | 0.1% | 24,407 | 9.965 | 43.7 |
-| 3 | OXYCODONE | Infusion related reaction | 99.6% | 2,533 | 5.496 | 43.1 |
-| 4 | ADALIMUMAB | Pemphigus | 99.8% | 6,782 | 4.743 | 41.8 |
-| 5 | RISPERIDONE | Abnormal weight gain | 0.7% | 9,412 | 4.564 | 41.8 |
-| 6 | METHOTREXATE | Glossodynia | 99.8% | 6,118 | 5.488 | 41.4 |
-| 7 | RANITIDINE | Prostate cancer | 0.6% | 54,130 | 7.380 | 34.9 |
-| 8 | ADALIMUMAB | Alopecia | 94.8% | 12,867 | 4.188 | 34.5 |
-| 9 | METHOTREXATE | Glossodynia | 99.8% | 6,118 | 8.964 | 33.9 |
-| 10 | ENZALUTAMIDE | Fatigue | 0.3% | 9,182 | 8.380 | 33.2 |
-| 11 | BICALUTAMIDE | Gynaecomastia | 0.2% | 3,876 | 8.964 | 32.1 |
-| 12 | DUTASTERIDE | Erectile dysfunction | 0.3% | 4,987 | 8.380 | 31.0 |
-| 13 | ABIRATERONE | Fatigue | 0.4% | 5,876 | 7.965 | 30.0 |
-| 14 | LETROZOLE | Arthralgia | 99.4% | 8,127 | 7.375 | 28.8 |
-| 15 | DOCETAXEL | Alopecia | 98.7% | 20,319 | 6.245 | 26.9 |
+| 2 | OXYCODONE | Infusion related reaction | 99.6% | 2,533 | 5.496 | 43.1 |
+| 3 | CARBIDOPA;LEVODOPA | Embedded device | 23.6% | 717 | 6.447 | 42.4 |
+| 4 | OXYCODONE | Pericarditis | 99.6% | 2,519 | 5.396 | 42.3 |
+| 5 | ADALIMUMAB | Pemphigus | 99.8% | 6,782 | 4.743 | 41.8 |
+| 6 | RISPERIDONE | Abnormal weight gain | 0.7% | 9,412 | 4.564 | 41.8 |
+| 7 | METHOTREXATE | Glossodynia | 99.8% | 6,118 | 4.745 | 41.4 |
+| 8 | OXYCODONE | Blister | 99.4% | 2,936 | 5.056 | 40.4 |
+| 9 | GOLIMUMAB | Pericarditis | 99.7% | 4,072 | 4.810 | 40.0 |
+| 10 | HYDROXYCHLOROQUINE | Pericarditis | 99.8% | 4,079 | 4.770 | 39.7 |
+| 11 | RISPERIDONE | Emotional disorder | 0.7% | 5,774 | 4.578 | 39.6 |
+| 12 | PREDNISONE | Duodenal ulcer perforation | 99.7% | 3,349 | 4.828 | 39.2 |
+| 13 | METHOTREXATE | Pemphigus | 99.7% | 6,702 | 4.371 | 38.5 |
+| 14 | OXYCODONE | Impaired healing | 99.3% | 2,955 | 4.808 | 38.4 |
+| 15 | PREDNISONE | Glossodynia | 99.4% | 6,116 | 4.384 | 38.2 |
 
 ### 3.5 Extreme Signals by Effect Size
 
@@ -205,18 +205,18 @@ The combined score (CS = |LR| x log10(N)) identifies signals that are both extre
 
 | Rank | Drug | Adverse Event | %Female | Reports | |Log-Ratio| | Direction |
 |------|------|--------------|---------|---------|------------|-----------|
-| 1 | RISPERIDONE | Gynaecomastia | 0.1% | 24,407 | 9.965 | Male |
-| 2 | TESTOSTERONE | Prostatic disorder | 54.3% | 46 | 8.869 | Male* |
-| 3 | BICALUTAMIDE | Gynaecomastia | 0.2% | 3,876 | 8.964 | Male |
-| 4 | METHOTREXATE | Glossodynia | 99.8% | 6,118 | 8.964 | Female |
-| 5 | ADALIMUMAB | Pemphigus | 99.8% | 6,782 | 8.964 | Female |
-| 6 | MINOXIDIL | Adverse drug reaction | 0.2% | 8,480 | 6.448 | Male |
-| 7 | HYDROXYPROGESTERONE | Abortion spontaneous | 89.7% | 117 | 6.456 | Female |
-| 8 | ENZALUTAMIDE | Fatigue | 0.3% | 9,182 | 8.380 | Male |
-| 9 | DUTASTERIDE | Erectile dysfunction | 0.3% | 4,987 | 8.380 | Male |
-| 10 | ABIRATERONE | Fatigue | 0.4% | 5,876 | 7.965 | Male |
+| 1 | TESTOSTERONE | Prostatic disorder | 54.3% | 46 | 8.869 | Male* |
+| 2 | PERTUZUMAB | Carbohydrate antigen 15-3 increased | 52.4% | 21 | 7.391 | Female |
+| 3 | ETONOGESTREL | Foetal exposure during pregnancy | 42.9% | 70 | 6.568 | Male |
+| 4 | HYDROXYPROGESTERONE | Abortion spontaneous | 89.7% | 117 | 6.456 | Female |
+| 5 | MINOXIDIL | Adverse drug reaction | 0.2% | 8,480 | 6.448 | Male |
+| 6 | CARBIDOPA;LEVODOPA | Embedded device | 23.6% | 717 | 6.447 | Male |
+| 7 | ETONOGESTREL | Premature baby | 43.9% | 41 | 6.421 | Male |
+| 8 | CARBIDOPA;LEVODOPA | Device expulsion | 37.8% | 127 | 6.412 | Male |
+| 9 | ETONOGESTREL | Injury associated with device | 72.7% | 55 | 6.327 | Female |
+| 10 | ETHINYLESTRADIOL;ETONOGESTREL | Medical device discomfort | 84.0% | 119 | 6.030 | Female |
 
-*Note: TESTOSTERONE/Prostatic disorder at 54.3%F with only 46 reports represents a borderline signal that did not meet the 100-report threshold for extreme classification but is included here for effect size illustration.
+*Note: Several top effect-size signals have fewer than 100 reports (TESTOSTERONE 46, PERTUZUMAB 21, ETONOGESTREL entries 41--70). These did not meet the 100-report threshold for extreme classification but are included here for effect size illustration. TESTOSTERONE/Prostatic disorder at 54.3%F is paradoxical -- see Section 4.3.
 
 ### 3.6 Drug Class Clustering of Extreme Signals
 
