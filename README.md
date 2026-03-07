@@ -207,4 +207,20 @@ Bridge types:
 - **same_gene** (1,940): Links `GENE:target_name` → `GENE:ENSG*` using ChEMBL target→gene symbol→Ensembl mapping
 - **encodes** (11,227): Links `GENE:ENSG*` → `PROTEIN:ENSP*` using STRING aliases + UniProt ID mapping
 
-Validation: 14/15 checks PASS. Models training in progress.
+Validation: 14/15 checks PASS. See v5.2 Embedding Models below.
+
+### v5.2 Embedding Models
+
+| Model | MRR | Hits@1 | Hits@10 | AMRI | Epochs | Notes |
+|-------|-----|--------|---------|------|--------|-------|
+| **ComplEx v5.2** | **0.1629** | 0.0975 | **0.3702** | **0.9830** | 25 | Best v5.2; early stopped |
+| DistMult v5.2 | 0.0548 | 0.0287 | 0.0995 | 0.9830 | 10 | Best training MRR |
+| RotatE v5.2 | --- | --- | --- | --- | Training | In progress |
+
+ComplEx v5.2 recovers 65.6% of v4 MRR (0.1629 vs 0.2484) despite 2x more entities and 3x more relation types.
+
+## Deep Analysis
+
+130 analysis waves completed across 16 sessions, producing 131 JSON result files, 389 figures, and 29 paper drafts.
+
+Analysis repository: [sexdiffkg-deep-analysis](https://github.com/jshaik369/sexdiffkg-deep-analysis)
