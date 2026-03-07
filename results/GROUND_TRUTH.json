@@ -134,6 +134,38 @@
       "train_device": "cpu",
       "device": "cpu",
       "note": "Best hyperparams: margin=6.0, lr=1e-3, batch=4096, 256d, 200 epochs, CPU training (382 min)"
+    },
+    "ComplEx_v52": {
+      "mrr": 0.1629,
+      "hits_at_1": null,
+      "hits_at_10": 0.37,
+      "amri": 0.983,
+      "kg_version": "v5.2",
+      "epochs": 25,
+      "note": "Early stopped. 6.6x over v5, 34% below v4."
+    },
+    "DistMult_v52": {
+      "mrr": 0.054753903299570084,
+      "hits_at_1": 0.028709901628668575,
+      "hits_at_3": 0.05478675775355195,
+      "hits_at_5": 0.0707572275690196,
+      "hits_at_10": 0.09948904515312991,
+      "amri": 0.982576910484412,
+      "kg_version": "v5.2",
+      "eval_time_min": 485.5,
+      "note": "Best weights from epoch 10 training (MRR 0.0434). Test eval MRR 0.0548."
+    },
+    "RotatE_v52": {
+      "status": "training",
+      "kg_version": "v5.2",
+      "training_loss_by_epoch": [
+        0.176,
+        0.0549,
+        0.0142,
+        0.00535,
+        0.00393
+      ],
+      "note": "In progress. Epoch 5 evaluation starting. Early stopping patience=5, frequency=5."
     }
   },
   "identity": {
