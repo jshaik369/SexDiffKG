@@ -1,0 +1,37 @@
+{
+  "timestamp": "2026-03-07T05:17:15.104986",
+  "model": "DistMult",
+  "kg_version": "v5.2",
+  "entities": 217993,
+  "relations": 36,
+  "train_triples": 2874615,
+  "test_triples": 159701,
+  "inverse_triples": true,
+  "hyperparameters": {
+    "embedding_dim": 200,
+    "lr": 0.001,
+    "batch_size": 1024,
+    "negs": 64,
+    "optimizer": "Adam",
+    "max_epochs": 200,
+    "early_stopping": true,
+    "patience": 5,
+    "frequency": 5
+  },
+  "results": {
+    "mrr": 0.054753903299570084,
+    "hits_at_1": 0.028709901628668575,
+    "hits_at_3": 0.05478675775355195,
+    "hits_at_5": 0.0707572275690196,
+    "hits_at_10": 0.09948904515312991,
+    "amri": 0.982576910484412
+  },
+  "note": "Best weights from epoch 10 (MRR 0.0434 during training). Training killed by DGX reboot at epoch 14.",
+  "best_training_mrr": 0.0434,
+  "eval_time_min": 485.5,
+  "device": "cpu",
+  "baselines": {
+    "v4.1": 0.1013,
+    "v5": 0.0413
+  }
+}
