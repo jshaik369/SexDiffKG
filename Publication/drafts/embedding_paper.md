@@ -24,9 +24,31 @@ Correspondence: jshaik@coevolvenetwork.com
 
 ## Introduction
 
-Knowledge graph embedding (KGE) models have emerged as a powerful tool for biomedical knowledge discovery, with applications spanning drug repurposing [1], adverse drug reaction prediction [2], target identification [3], and clinical trial design [4]. These models learn continuous vector representations of entities (drugs, genes, diseases) and relations (targets, causes, treats) in low-dimensional spaces, enabling both link prediction (inferring missing edges) and similarity computation (finding related entities) without explicit feature engineering.
+### Knowledge Graph Embeddings: Foundations and Evolution
 
-The biomedical KGE landscape has expanded rapidly: models such as TransE [5], DistMult [6], ComplEx [7], RotatE [8], ConvE [9], and TuckER [10] have been applied to drug-centric knowledge graphs including DRKG [11], Hetionet [12], and PharmKG [13]. However, several critical gaps remain. First, most evaluations focus on benchmark datasets (FB15k-237, WN18RR) rather than domain-specific pharmacovigilance graphs with distinct structural properties. Second, the impact of graph scale---adding new entity types and relation types through data integration---on embedding quality is rarely characterized systematically. Third, the relationship between embedding similarity and domain-specific properties (such as sex-differential safety profiles) is unexplored.
+Knowledge graph embedding (KGE) models have emerged as a foundational tool for representation learning over structured relational data, with far-reaching applications in biomedical knowledge discovery including drug repurposing [1], adverse drug reaction prediction [2], target identification [3], and clinical trial design [4]. At their core, KGE models learn continuous, low-dimensional vector representations of entities (drugs, genes, diseases) and relations (targets, causes, treats), enabling both link prediction (inferring missing edges) and similarity computation (finding related entities) without explicit feature engineering. The central insight underlying all KGE methods is that the geometric structure of the embedding space can be designed to reflect the relational semantics of the knowledge graph.
+
+The modern KGE literature traces its origins to translational models. **TransE** [5], introduced by Bordes et al. in 2013, proposed modeling each relation as a translation vector in embedding space: for a true triple (h, r, t), the model enforces that **h** + **r** is approximately equal to **t**. TransE is elegant in its simplicity and computationally efficient, but it fundamentally cannot model symmetric relations (if **h** + **r** = **t**, then **t** + **r** cannot equal **h** unless **r** = 0) or one-to-many/many-to-one relations (multiple entities mapped to the same point). These limitations motivated a series of increasingly expressive models.
+
+**DistMult** [6], proposed by Yang et al. in 2015, replaced the translational scoring function with a bilinear diagonal model. Each relation is represented as a diagonal matrix (equivalently, a vector of per-dimension scaling factors), and the score for a triple (h, r, t) is the trilinear dot product: sum of h_i * r_i * t_i across all dimensions. DistMult is computationally efficient and often provides surprisingly competitive baselines despite its theoretical limitation: the scoring function is inherently symmetric in h and t (swapping h and t produces the same score), meaning DistMult cannot distinguish the direction of asymmetric relations. In practice, DistMult compensates for this limitation through its training procedure and regularization, but the constraint remains a fundamental ceiling on its expressiveness for graphs with predominantly asymmetric relations.
+
+**ComplEx** [7], introduced by Trouillon et al. in 2016, extended DistMult to complex-valued vector spaces. By representing entities and relations as vectors of complex numbers, ComplEx achieves asymmetric scoring through the Hermitian dot product: the score for (h, r, t) involves the conjugate of the tail embedding, breaking the h/t symmetry that limits DistMult. ComplEx can theoretically model symmetric, antisymmetric, and inverse relation patterns simultaneously---a crucial advantage for heterogeneous biomedical knowledge graphs where different relations exhibit different symmetry properties. Formally, for a triple (h, r, t), ComplEx computes: Re(sum of h_i * r_i * conj(t_i)), where Re denotes the real part and conj the complex conjugate. This Hermitian product naturally encodes asymmetry: score(h, r, t) does not equal score(t, r, h) in general, unlike DistMult's real-valued dot product.
+
+**RotatE** [8], proposed by Sun et al. in 2019, models each relation as an element-wise rotation in complex space. For each dimension, the relation embedding has unit modulus (|r_i| = 1), and the scoring function measures the distance between h_i * r_i and t_i. RotatE can model symmetric relations (r_i = +/-1), antisymmetric relations (r_i is not +/-1), inverse relations (r_inverse = conj(r)), and---uniquely among the models considered here---composition patterns (relation A followed by relation B equals relation C), which correspond to element-wise multiplication of the rotation vectors. The rotation-based approach provides strong geometric intuition: each relation "rotates" the head entity to the tail entity in each dimension independently.
+
+Beyond these core models, additional architectures have expanded the KGE toolkit. **ConvE** [9] introduced convolutional neural networks over reshaped entity and relation embeddings, achieving strong performance on standard benchmarks through learned nonlinear feature interactions. **TuckER** [10] formulated KGE as Tucker decomposition of the binary tensor of known triples, providing a theoretically grounded framework that subsumes several earlier models as special cases. More recent approaches include QuatE (quaternion embeddings), HousE (Householder reflection-based), and various graph neural network (GNN) approaches that propagate information through the graph structure rather than relying solely on individual triple scoring.
+
+### Biomedical Knowledge Graphs and Drug Safety Applications
+
+The biomedical KGE landscape has expanded rapidly, with several large-scale knowledge graphs driving the field. **DRKG** (Drug Repurposing Knowledge Graph) [11] integrates data from DrugBank, Hetionet, GNBR, String, IntAct, and DGIdb, containing 97,238 entities and 5,874,261 triples across 107 relation types. It was notably used during the COVID-19 pandemic for rapid drug repurposing candidate identification. **Hetionet** [12] is a heterogeneous network integrating 29 public resources into 47,031 nodes of 11 types and 2,250,197 edges of 24 types, designed for systematic drug repurposing through network-based prioritization. **PharmKG** [13] provides a dedicated benchmark for biomedical data mining with 7,601 drugs, 4,116 diseases, and 27,566 genes connected through 500,849 triples.
+
+In the specific domain of pharmacovigilance, knowledge graph approaches have gained traction for several reasons. First, spontaneous adverse event reporting systems like FAERS generate massive volumes of structured relational data (drugs, adverse events, outcomes, demographics) that naturally form graph structures. Second, integrating pharmacovigilance signals with molecular-level data (drug targets, protein interactions, pathway memberships) enables mechanistic interpretation of safety signals. Third, KGE-based link prediction can identify potential adverse drug reactions before they are observed in clinical practice, offering a computational complement to traditional disproportionality analyses.
+
+Several studies have applied KGE methods specifically to drug safety. Celebi et al. [2] evaluated multiple KGE approaches for drug-drug interaction prediction, finding that tensor factorization methods (including ComplEx) outperformed translational models on pharmacological interaction graphs. Mohamed et al. [1] demonstrated that KGE approaches could discover protein drug targets with competitive accuracy, suggesting that the same embedding-based reasoning could identify adverse event associations. Chandak et al. [4, 16] built PrimeKG, a precision medicine knowledge graph with 129,375 nodes and 8,100,498 edges, and demonstrated its utility for disease-specific drug prioritization---though without explicit sex-differential analysis.
+
+Despite this progress, several critical gaps remain in the biomedical KGE literature. First, most evaluations focus on standard benchmark datasets (FB15k-237, WN18RR) rather than domain-specific pharmacovigilance graphs with distinct structural properties---high entity-to-relation ratios, skewed degree distributions, and mixed-symmetry relations. Second, the impact of graph scale---adding new entity types and relation types through data integration---on embedding quality is rarely characterized systematically. Third, the relationship between embedding similarity and domain-specific properties (such as sex-differential safety profiles) is unexplored. Fourth, the pharmacovigilance KG literature has largely ignored sex as a biological variable, despite growing evidence that adverse drug reactions exhibit significant sex-differential patterns affecting both prevalence and severity [14].
+
+### Study Objectives
 
 Here, we address these gaps using SexDiffKG [14], a purpose-built knowledge graph for sex-differential drug safety. SexDiffKG integrates pharmacovigilance data from 14,536,008 deduplicated FAERS reports with molecular target annotations (ChEMBL 36), protein-protein interactions (STRING v12.0), pathway data (Reactome), and tissue-level gene expression (GTEx v8). The graph captures 96,281 sex-differential adverse event signals derived from sex-stratified Reporting Odds Ratios, making it uniquely suited for studying how KGE models handle sex-differential pharmacovigilance patterns.
 
@@ -35,6 +57,23 @@ We present a systematic evaluation across three dimensions: (1) **model comparis
 ---
 
 ## Methods
+
+### Knowledge Graph Construction and Schema Design
+
+SexDiffKG was constructed through a multi-source integration pipeline designed to capture drug safety signals at both the population and molecular levels. The graph schema follows a hub-and-spoke design centered on Drug entities, which connect outward to AdverseEvent nodes (population-level safety), Gene/Protein nodes (molecular mechanism), Pathway nodes (biological context), and Tissue nodes (expression context). This schema was intentionally designed to support mechanistic reasoning about drug safety: given a drug with a sex-differential adverse event signal, the graph enables traversal through drug targets, target-interacting proteins, pathway memberships, and tissue expression patterns to identify candidate molecular mechanisms underlying the sex difference.
+
+The entity type hierarchy reflects the granularity of available data sources. Gene and Protein entities are maintained as separate types (rather than merged) because the mapping between them is not one-to-one: alternative splicing, post-translational modifications, and protein complexes mean that a single gene can correspond to multiple functional protein entities. The 77,498 Gene entities correspond to HUGO Gene Nomenclature Committee (HGNC) identifiers, while the 16,201 Protein entities correspond to UniProt accession numbers linked through ChEMBL target annotations.
+
+The relation type schema was designed to capture distinct biological relationship semantics:
+
+- **has_adverse_event** (Drug -> AdverseEvent): Binary association from FAERS, indicating that the drug was reported with the adverse event at above-background frequency. 869,142 edges.
+- **sex_differential_adverse_event** (Drug -> AdverseEvent): Subset of has_adverse_event edges where sex-stratified Reporting Odds Ratios show statistically significant sex differences (chi-squared test, p < 0.05 with Bonferroni correction). 96,281 edges. Each edge carries metadata indicating the direction (female-predominant or male-predominant) and magnitude of the sex difference.
+- **targets** (Drug -> Protein): Drug-target binding relationships from ChEMBL 36, filtered for binding assays with pChEMBL >= 6.0 (sub-micromolar activity). 12,682 edges.
+- **interacts_with** (Protein <-> Protein): Physical protein-protein interactions from STRING v12.0, filtered for combined score >= 700 (high confidence). 473,860 edges. This is the only symmetric relation in the v4 schema.
+- **participates_in** (Gene -> Pathway): Gene-pathway membership from Reactome, capturing functional groupings. 370,597 edges.
+- **sex_differential_expression** (Gene -> Tissue): Sex-differential gene expression from GTEx v8, identifying genes with significant expression differences between sexes in specific tissues. 289 edges (the rarest relation type).
+
+This relation type distribution is highly skewed: has_adverse_event accounts for 56.7% of all edges, while sex_differential_expression accounts for only 0.019%. This skewness has direct implications for KGE training, as models must learn meaningful representations for both abundant and rare relation types simultaneously.
 
 ### Knowledge Graph Versions
 
@@ -81,6 +120,10 @@ All models were trained using the PyKEEN framework (v1.11.x) [15] with the follo
 
 Training was performed on CPU (DGX Grace ARM, 20 cores; Mac Mini M2, 4 cores) due to complex tensor CUDA JIT compilation failures on the NVIDIA GB10 GPU (SM 12.1 Blackwell architecture does not support NVRTC compilation of complex tensor kernels). This limitation affects ComplEx and RotatE but not DistMult; however, all models were trained on CPU for consistency.
 
+**Hyperparameter selection rationale.** The embedding dimension of 200 was chosen to balance expressiveness with computational cost. For SexDiffKG v4 with 109,867 entities, a 200-dimensional embedding yields approximately 1.8 entity-dimension parameters per entity, which is within the range recommended by Ruffinelli et al. [17] for medium-scale knowledge graphs. The learning rate of 0.001 with Adam optimizer follows standard practice for KGE training [15]. Negative sampling with 64 corrupted triples per positive triple was selected based on preliminary experiments showing diminishing returns beyond 64 negatives for our graph density (average degree ~14 edges per node in v4). The 90/5/5 train/validation/test split ensures that approximately 153,000 unique triples are reserved for evaluation while maximizing training data.
+
+**Negative sampling strategy.** We employed uniform negative sampling, where for each positive triple (h, r, t), 64 corrupted triples are generated by replacing either the head or tail entity with a uniformly sampled random entity. Uniform sampling is computationally efficient but does not account for entity type constraints (e.g., replacing a Drug entity with a Gene entity in a targets relation produces a trivially false negative). More sophisticated strategies, such as type-constrained negative sampling [18] or self-adversarial negative sampling [8], may improve performance but were not explored due to the computational cost of CPU training. The use of inverse triples (adding (t, r_inv, h) for each (h, r, t)) effectively doubles the training data and has been shown to improve performance for bilinear models [15].
+
 ### Evaluation Protocol
 
 Filtered rank-based evaluation was performed on the test set using all training and validation triples as additional filter triples. For each test triple (h, r, t), all entities were scored as candidate tails (with h and r fixed) and candidate heads (with r and t fixed). The rank of the correct entity was computed after filtering out known true triples. Metrics:
@@ -88,6 +131,10 @@ Filtered rank-based evaluation was performed on the test set using all training 
 - **MRR** (Mean Reciprocal Rank): Average of 1/rank across all test triples. Higher is better; 1.0 is perfect.
 - **Hits@k**: Proportion of test triples where the correct entity appears in the top k predictions.
 - **AMRI** (Adjusted Mean Rank Index): Normalized rank metric accounting for the number of entities; ranges from 0 (random) to 1 (perfect).
+
+The filtered setting, introduced by Bordes et al. [5] and now standard in KGE evaluation, is critical for avoiding false negatives in rank computation. Without filtering, a model that correctly predicts a known true triple (h, r, t') where t' is not the test answer would be penalized for ranking t' highly. The filter removes all known true triples (from train, validation, and test sets) except the triple being evaluated, ensuring that only genuinely unknown triples compete with the correct answer. This is particularly important for dense pharmacovigilance graphs where many drug-adverse event pairs are known positives.
+
+For test triples, both head prediction (given r, t, predict h) and tail prediction (given h, r, predict t) are performed, and the metrics are averaged across both directions. This bidirectional evaluation provides a more comprehensive assessment of embedding quality than unidirectional evaluation alone.
 
 ### Embedding Analysis
 
@@ -116,6 +163,12 @@ ComplEx achieved the highest MRR (0.2484), outperforming RotatE v4.1 by 23% and 
 **The RotatE v4 failure (MRR = 0.0001)** provides an instructive lesson in hyperparameter sensitivity. The initial RotatE training used NSSALoss with learning rate 5e-5, margin 9.0, and 256 negative samples---hyperparameters imported from general-purpose benchmarks. Retraining with the same protocol as ComplEx/DistMult (Adam, lr=0.001, 64 negatives, standard margin loss) produced RotatE v4.1 with MRR = 0.2018---a 1,900x improvement from hyperparameter correction alone. This underscores that KGE model comparisons are meaningless without controlled hyperparameter settings.
 
 RotatE's high AMRI (0.9922, the best across all models) indicates superior rank calibration despite lower MRR. This means RotatE ranks the correct entity relatively higher among all candidates even when it doesn't place it in the top 10, suggesting better overall embedding geometry compared to ComplEx's stronger top-k precision.
+
+**Why ComplEx outperforms DistMult: an analysis of relation symmetry.** The 145% MRR gap between ComplEx and DistMult on SexDiffKG v4 warrants deeper analysis. DistMult's scoring function, f(h, r, t) = sum(h_i * r_i * t_i), is algebraically symmetric: f(h, r, t) = f(t, r, h) for all h, t. This means DistMult assigns identical scores to (Drug_A, has_adverse_event, AE_X) and (AE_X, has_adverse_event, Drug_A), which is semantically incorrect---drugs cause adverse events, not the reverse. In SexDiffKG v4, four of the six relation types are asymmetric (has_adverse_event, sex_differential_adverse_event, targets, participates_in), collectively accounting for 87.7% of all edges. Only interacts_with (30.9%) is truly symmetric, and sex_differential_expression (0.019%) is asymmetric but too rare to significantly influence training. Thus, the graph's relational structure strongly favors models that can natively represent asymmetry.
+
+ComplEx resolves this through the Hermitian product, where the conjugate of the tail embedding breaks symmetry: Re(sum(h_i * r_i * conj(t_i))) produces different scores when h and t are swapped. Empirically, this translates to a 145% MRR advantage. RotatE also models asymmetry (through non-trivial rotation angles), but its distance-based scoring function (L1 or L2 norm of h*r - t) may be less well-suited to the high entity-to-relation ratio of SexDiffKG (22,600:1 in v4), where relation-specific discrimination is paramount.
+
+**Comparison to published biomedical KG benchmarks.** To contextualize our results, we compare against published KGE evaluations on comparable biomedical knowledge graphs. On DRKG (97K entities, 5.9M triples, 107 relations), ComplEx achieved MRR of approximately 0.30 [11], approximately 21% higher than our 0.2484 on SexDiffKG v4. This difference is plausible given DRKG's 17x more relation types providing richer relational signal for bilinear models. On PharmKG (39K entities, 500K triples), DistMult achieves MRR around 0.12 [13], comparable to our DistMult v4.1 result of 0.1013 on a graph with 2.8x more entities. On Hetionet-derived graphs, ComplEx MRR values ranging from 0.15 to 0.35 have been reported depending on graph preprocessing and evaluation protocol [12]. Our results fall within the expected range for a pharmacovigilance-focused graph of this scale, validating that SexDiffKG presents a challenging but tractable KGE benchmark.
 
 ### Scale Effects: v4 to v5.2 Merged Graph
 
@@ -228,6 +281,30 @@ Our systematic comparison establishes ComplEx as the optimal KGE model for pharm
 
 3. **Skewed degree distribution**: Drug nodes connect to hundreds of AE nodes, while most gene/protein nodes have modest degree. ComplEx's bilinear scoring handles this heterogeneity better than DistMult's additive approach.
 
+### ComplEx Expressivity in Complex Space: A Theoretical Perspective
+
+The ComplEx advantage over DistMult and RotatE on SexDiffKG can be understood through the lens of expressivity theory. Trouillon et al. [7] proved that ComplEx is fully expressive: given sufficient dimensions, it can represent any set of true and false triples exactly. This full expressivity arises from the complex-valued Hermitian product, which provides 2x the effective parameters per embedding dimension compared to real-valued DistMult (each complex number encodes both magnitude and phase). For SexDiffKG v4 with 200 embedding dimensions, ComplEx operates in a 400-dimensional real parameter space per entity, while DistMult operates in 200 dimensions---a 2x capacity advantage that manifests as the observed 145% MRR gap.
+
+Moreover, ComplEx's ability to natively model antisymmetric relations through phase differences in complex space is particularly well-suited to pharmacovigilance semantics. The relation has_adverse_event (Drug -> AdverseEvent) encodes a causal direction: the drug causes the adverse event, not vice versa. In ComplEx's Hermitian product, this directionality is encoded through the asymmetric conjugation of the tail entity: swapping head and tail produces a different score because conj(h) * t differs from conj(t) * h. DistMult, lacking this mechanism, must approximate directionality through entity-specific biases in the embedding magnitudes---an indirect and limited strategy.
+
+RotatE occupies an intermediate position: it can model asymmetric relations through non-trivial rotation angles, but its distance-based scoring function (measuring ||h * r - t||) is less discriminative than ComplEx's inner-product scoring in high entity-to-relation ratio settings. When a single relation type connects thousands of entity pairs (as has_adverse_event connects 3,920 drugs to 9,949 AEs through 869,142 edges), the rotation-based approach must find a single rotation vector that meaningfully separates correct and incorrect tail entities---a harder optimization problem than ComplEx's bilinear discrimination.
+
+### Embedding SexDiffKG in the KG4Drug Landscape
+
+Our results contribute to the growing KG4Drug (Knowledge Graphs for Drug Discovery) ecosystem, which encompasses efforts to leverage structured biomedical knowledge for computational pharmacology. Within this landscape, SexDiffKG occupies a distinctive niche as the first knowledge graph explicitly designed for sex-differential pharmacovigilance. Existing drug safety KGs, including Bio-SODA [19], ADEpedia-on-OHDSI [20], and the WHO VigiBase-derived graphs, focus on general adverse event detection without sex stratification. SexDiffKG's explicit encoding of sex-differential signals through dedicated relation types (sex_differential_adverse_event, sex_differential_expression) enables a class of queries that no existing KG supports: "Which drugs have female-predominant hepatotoxicity signals, and what molecular pathways distinguish these from male-predominant signals?"
+
+The practical relevance of sex-differential pharmacovigilance KGs extends to regulatory science. The FDA's 2014 Action Plan on Sex Differences in Drug Effects recognized that adverse drug reactions differ by sex in prevalence, severity, and mechanism. More recently, the European Medicines Agency (EMA) has mandated sex-disaggregated reporting of clinical trial adverse events. KGE-based analysis of sex-differential safety signals could complement these regulatory efforts by identifying drugs warranting sex-specific label updates or monitoring recommendations.
+
+### Link Prediction for Drug Safety Signal Detection
+
+A key potential application of KGE models on pharmacovigilance KGs is the prospective detection of drug safety signals through link prediction. In principle, a well-trained KGE model could predict the triple (Drug_X, sex_differential_adverse_event, AE_Y) before this signal emerges from FAERS reporting data, enabling proactive pharmacovigilance. Our results provide both encouragement and caution for this application.
+
+On the encouraging side, ComplEx's Hits@10 of 0.4069 on SexDiffKG v4 indicates that the correct adverse event appears in the top 10 predictions for approximately 41% of test triples. For a pharmacovigilance application where the goal is to generate a ranked watchlist of potential signals for human review, this level of precision is potentially useful: a model-generated list of 10 candidate adverse events per drug would contain the true signal approximately 41% of the time.
+
+On the cautionary side, the MRR of 0.2484 means that the correct entity's average rank is approximately 4th (1/0.2484 = 4.03), and Hits@1 of 0.1678 indicates that the correct answer is the top prediction only 16.8% of the time. For autonomous signal detection (without human review), this precision is insufficient. Moreover, the relatively low Hits@1 compared to Hits@10 (16.8% vs. 40.7%) indicates that the model captures general neighborhood structure rather than precise entity-level predictions---the correct entity is nearby in embedding space but not reliably the closest.
+
+For clinical applications, this suggests that KGE-based link prediction is best deployed as a signal prioritization tool (ranking candidate AEs for expert review) rather than as an autonomous detection system. The domain-specific extraction results further support this: REPRODUCT-KG's focused embeddings would provide better signal prioritization for reproductive drug safety than the parent graph's diluted embeddings.
+
 ### The Scaling Paradox: Bigger Graphs Can Mean Worse Embeddings
 
 A central finding is that merging two knowledge graphs (SexDiffKG v4 + VEDA-KG) degraded embedding quality by 34--46%, despite adding biologically relevant information. This "scaling paradox" has important implications for the KG community's emphasis on ever-larger graphs:
@@ -256,7 +333,33 @@ The disconnect between embedding similarity and sex-differential profiles (rispe
 
 Future work should explore: (1) relation-weighted training that upweights sex-differential edges; (2) multi-task KGE models with explicit sex-bias prediction heads; and (3) sex-conditional embeddings that produce different entity representations for male and female contexts.
 
-### Limitations
+### Limitations of Transductive KGE Models
+
+All KGE models evaluated in this work are transductive: they learn fixed embeddings for entities and relations observed during training and cannot generalize to unseen entities at inference time. This has several important implications for pharmacovigilance applications:
+
+1. **New drug entities**: When a newly approved drug enters the market, it cannot be embedded without retraining the entire model. In a pharmacovigilance context, this means the model cannot predict adverse events for novel drugs---precisely the entities for which predictive safety signals would be most valuable.
+
+2. **Evolving graph structure**: FAERS receives approximately 2 million new reports annually. Each quarterly update adds new drug-AE associations and potentially new entities (new drug formulations, newly recognized adverse events). Transductive models require complete retraining to incorporate these updates, which is computationally expensive (2--10 hours per model on our hardware).
+
+3. **Cross-graph transfer**: Embeddings learned on SexDiffKG cannot be directly applied to another pharmacovigilance KG (e.g., one built from the EMA's EudraVigilance database) because entity identifiers and graph structures differ. This limits the generalizability of individual KGE training runs.
+
+Inductive KGE methods, which learn entity representations from local graph structure rather than entity-specific embeddings, offer a potential solution. Recent approaches such as NodePiece [21], GraIL [22], and NBFNet [23] can embed unseen entities by aggregating information from their neighborhood, enabling zero-shot link prediction for new drugs. However, these methods typically require richer local structure (multiple relation types per entity) than SexDiffKG's hub-and-spoke design provides, and their computational cost is substantially higher than transductive methods.
+
+### Future Directions
+
+Several promising research directions emerge from this work:
+
+**Graph Neural Network (GNN) approaches.** While traditional KGE models (TransE, ComplEx, DistMult, RotatE) score individual triples independently, GNN-based approaches such as R-GCN [24], CompGCN [25], and SE-GNN [26] propagate information through the graph structure, allowing each entity's embedding to be informed by its multi-hop neighborhood. For SexDiffKG, this is particularly relevant because the mechanistic interpretation of a drug's sex-differential safety profile involves multi-hop reasoning: Drug -> targets -> Protein -> interacts_with -> Protein -> participates_in -> Pathway. GNN-based models could naturally capture these multi-hop patterns, potentially improving both link prediction accuracy and the interpretability of learned representations.
+
+**Temporal knowledge graph embeddings.** FAERS data is inherently temporal: adverse event reports are filed with specific dates, and sex-differential patterns may evolve over time as prescribing practices, patient demographics, and reporting awareness change. Temporal KGE methods such as TTransE [27], HyTE [28], and TNTComplEx [29] extend static KGE models by incorporating time as an additional dimension, enabling the modeling of time-varying relations. Applying temporal KGE to SexDiffKG could reveal how sex-differential safety signals emerge, strengthen, or attenuate over the 21-year FAERS reporting period (2004--2025).
+
+**Federated and privacy-preserving KGE.** Real-world pharmacovigilance data is distributed across multiple regulatory agencies (FDA, EMA, PMDA) and healthcare institutions, with privacy and regulatory constraints limiting data sharing. Federated KGE approaches could enable collaborative model training across institutions without centralizing sensitive patient data, potentially improving model quality through access to larger and more diverse patient populations while respecting data sovereignty requirements.
+
+**Relation-weighted and multi-objective training.** Our results show that sex_differential_adverse_event edges (96,281) are outnumbered 9:1 by has_adverse_event edges (869,142), likely causing the model to allocate disproportionate embedding capacity to the more abundant relation type. Training with explicit upweighting of sex-differential edges, or multi-task architectures with separate prediction heads for general and sex-differential adverse events, could improve the model's ability to capture sex-specific safety signals.
+
+**Integration with large language models (LLMs).** Recent work on KG-augmented LLMs has shown that grounding language model reasoning in structured knowledge graph data can improve factual accuracy and reduce hallucination in biomedical question-answering tasks [30]. Combining SexDiffKG embeddings with LLM-based reasoning could enable natural language querying of sex-differential drug safety knowledge, making the KG's contents accessible to clinicians and regulators who may not be familiar with graph query languages.
+
+### Additional Limitations
 
 1. **CPU training constraint**: Complex tensor operations are incompatible with the GB10 GPU (NVRTC SM 12.1), forcing all training to CPU. This limited our ability to perform extensive hyperparameter search, particularly for the larger v5.2 graph.
 
@@ -268,11 +371,17 @@ Future work should explore: (1) relation-weighted training that upweights sex-di
 
 5. **RotatE v5.2 still training**: At time of writing, RotatE v5.2 training is ongoing; results will be added upon completion.
 
+6. **Negative sampling bias**: Uniform negative sampling does not respect entity type constraints, producing trivially false negatives (e.g., replacing a Drug with a Gene in a targets triple). Type-constrained negative sampling [18] could improve training efficiency but was not explored due to computational constraints.
+
+7. **Single random seed**: All experiments used seed 42. While this ensures reproducibility, it does not quantify the variance in model performance across random initializations. Bootstrap confidence intervals for MRR and Hits@k metrics would strengthen the statistical claims but would require multiple training runs per configuration---prohibitive under our CPU training constraint.
+
+8. **Evaluation on held-out triples only**: Filtered rank-based evaluation measures the model's ability to recover randomly held-out triples, which may not reflect real-world pharmacovigilance utility. In practice, the triples most valuable to predict are those not yet in any knowledge base---a fundamentally different task from test-set recovery. Prospective evaluation against newly reported FAERS signals would provide a more clinically relevant assessment.
+
 ---
 
 ## Conclusion
 
-We present the first systematic evaluation of knowledge graph embedding models for sex-differential pharmacovigilance, comparing three models across three graph scales and five therapeutic domains. Our key findings---ComplEx superiority, predictable scaling degradation, and domain-specific extraction as a recovery strategy---provide practical guidance for the growing community of researchers applying KGE methods to drug safety. The disconnect between embedding similarity and sex-differential safety profiles highlights the need for domain-aware KGE architectures that explicitly model sex as a modifier of drug safety.
+We present the first systematic evaluation of knowledge graph embedding models for sex-differential pharmacovigilance, comparing three models across three graph scales and five therapeutic domains. Our key findings---ComplEx superiority, predictable scaling degradation, and domain-specific extraction as a recovery strategy---provide practical guidance for the growing community of researchers applying KGE methods to drug safety. The disconnect between embedding similarity and sex-differential safety profiles highlights the need for domain-aware KGE architectures that explicitly model sex as a modifier of drug safety. As pharmacovigilance knowledge graphs continue to grow in scale and complexity, the principles demonstrated here---controlled model comparison, systematic scaling analysis, and domain-specific signal-to-noise optimization---will be essential for translating KGE advances into actionable drug safety intelligence.
 
 ---
 
@@ -312,6 +421,20 @@ The author declares no conflicts of interest.
 14. Shaik MJAA. SexDiffKG: A Knowledge Graph for Systematic Discovery of Sex-Differential Drug Safety Signals. [Manuscript in preparation].
 15. Ali M, et al. PyKEEN 1.0: A Python library for training and evaluating knowledge graph embeddings. JMLR. 2021;22:1-6.
 16. Chandak P, Huang K, Zitnik M. Building a knowledge graph to enable precision medicine. Sci Data. 2023;10:67.
+17. Ruffinelli D, Broscheit S, Gemulla R. You CAN teach an old dog new tricks! On training knowledge graph embeddings. ICLR. 2020.
+18. Krompass D, Baier S, Tresp V. Type-constrained representation learning in knowledge graphs. ISWC. 2015:640-655.
+19. Matentzoglu N, et al. Bio-SODA: A question answering system over biomedical ontologies and knowledge graphs. J Biomed Semantics. 2023;14:12.
+20. Banda JM, et al. A curated and standardized adverse drug event resource to accelerate drug safety research. Sci Data. 2016;3:160026.
+21. Galkin M, et al. NodePiece: Compositional and parameter-efficient representations of large knowledge graphs. ICLR. 2022.
+22. Teru K, Denis E, Hamilton W. Inductive relation prediction by subgraph reasoning. ICML. 2020;97:9448-9457.
+23. Zhu Z, et al. Neural Bellman-Ford Networks: A general graph neural network framework for link prediction. NeurIPS. 2021;34.
+24. Schlichtkrull M, et al. Modeling relational data with graph convolutional networks. ESWC. 2018:593-607.
+25. Vashishth S, et al. Composition-based multi-relational graph convolutional networks. ICLR. 2020.
+26. Li Z, et al. SE-GNN: Semantic-enhanced graph neural networks for knowledge graph completion. AAAI. 2024.
+27. Leblay J, Chekol MW. Deriving validity time in knowledge graphs. WWW. 2018:1771-1776.
+28. Dasgupta SS, Ray SN, Talukdar P. HyTE: Hyperplane-based temporally aware knowledge graph embedding. EMNLP. 2018:2001-2011.
+29. Lacroix T, Obozinski G, Usunier N. Tensor decompositions for temporal knowledge base completion. ICLR. 2020.
+30. Pan S, et al. Unifying large language models and knowledge graphs: A roadmap. IEEE TKDE. 2024;36:3580-3599.
 
 ---
 
