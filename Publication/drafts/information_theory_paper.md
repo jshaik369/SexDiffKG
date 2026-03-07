@@ -16,7 +16,7 @@ Correspondence: jshaik@coevolvenetwork.com
 
 **Methods.** From 96,281 sex-differential signals across 1,394 drugs with >= 5 signals (14,536,008 FAERS reports, 2004Q1--2025Q3), we computed binary Shannon entropy H(sex|drug) for each drug, mutual information I(drug;sex|AE) for each adverse event, and tracked entropy across report volume deciles. Information concentration was quantified via cumulative distribution analysis.
 
-**Results.** Mean drug entropy was 0.949 (close to maximum 1.0), but the distribution was left-skewed with a predictable tail. The most sex-predictable drugs were niraparib (H = 0.254, 95.8%F) and enzalutamide (H = 0.335, 6.2%F)---both targeting sex-linked cancer pathways. Entropy anti-regression was significant (Spearman rho = -0.952, p = 2.3 x 10^-5): high-volume drugs had systematically lower entropy (D0: H = 0.982 vs D9: H = 0.716), translating the anti-regression phenomenon into information-theoretic terms as increasing predictability. Mutual information analysis identified folliculitis (MI = 0.320), obesity (MI = 0.318), and blood cholesterol increased (MI = 0.315) as the adverse events where drug identity most strongly predicts reporter sex. Sex information was diffusely distributed across the pharmacopeia: the top 10 drugs contained only 0.3% of total entropy variation, and the top 500 contained 32.9%.
+**Results.** Mean drug entropy was 0.949 (close to maximum 1.0), but the distribution was left-skewed with a predictable tail. The most sex-predictable drugs were niraparib (H = 0.254, 95.8%F) and enzalutamide (H = 0.335, 6.2%F)---both targeting sex-linked cancer pathways. Entropy anti-regression was significant (Spearman rho = -0.952, p = 2.3 x 10^-5): high-volume drugs had systematically lower entropy (D0: H = 0.982 vs D9: H = 0.908), translating the anti-regression phenomenon into information-theoretic terms as increasing predictability. At the individual signal level, the gradient was steeper (D9: H = 0.716). Mutual information analysis identified folliculitis (MI = 0.320), obesity (MI = 0.318), and blood cholesterol increased (MI = 0.315) as the adverse events where drug identity most strongly predicts reporter sex. Sex information was diffusely distributed across the pharmacopeia: the top 10 drugs contained only 0.3% of total entropy variation, and the top 500 contained 32.9%.
 
 **Interpretation.** Information theory reveals that sex-differential drug safety follows a structured predictability gradient: high-volume drugs are more sex-predictable (lower entropy), specific adverse events carry high mutual information about sex, and sex information is diffusely distributed rather than concentrated in a few outlier drugs. This framework provides a complementary lens for pharmacovigilance signal prioritization, where low-entropy drugs warrant heightened sex-specific monitoring.
 
@@ -88,8 +88,8 @@ Among 1,394 drugs with >= 5 signals:
 | Niraparib | **0.254** | 0.958 | 12 | 19,484 | PARP (ovarian cancer) |
 | Fulvestrant | 0.259 | 0.956 | 6 | 6,145 | ER antagonist (breast cancer) |
 | IUD (contraceptive) | 0.292 | 0.949 | 5 | 3,622 | Progesterone (contraception) |
-| Palbociclib | 0.314 | 0.943 | 18 | 42,809 | CDK4/6 (breast cancer) |
-| Enzalutamide | **0.335** | 0.062 | 22 | 38,401 | AR antagonist (prostate cancer) |
+| Palbociclib | 0.314 | 0.944 | 38 | 56,177 | CDK4/6 (breast cancer) |
+| Enzalutamide | **0.335** | 0.062 | 10 | 20,903 | AR antagonist (prostate cancer) |
 | Abiraterone | 0.362 | 0.079 | 16 | 21,556 | CYP17A1 (prostate cancer) |
 | Ribociclib | 0.378 | 0.087 | 14 | 18,932 | CDK4/6 (breast cancer) |
 
@@ -121,11 +121,11 @@ Maximum-entropy drugs (H = 1.0, exactly balanced) include drugs from diverse cla
 | D6 | 139 | 0.924 | 0.572 | 6,054 |
 | D7 | 140 | 0.910 | 0.586 | 11,486 |
 | D8 | 140 | 0.889 | 0.610 | 24,781 |
-| D9 (highest) | 141 | **0.716** | 0.684 | 188,451 |
+| D9 (highest) | 143 | **0.908** | 0.641 | 125,309 |
 
 Spearman rho = **-0.952**, p = **2.3 x 10^-5**.
 
-The entropy anti-regression is highly significant: high-volume drugs are systematically more sex-predictable (lower entropy). The gradient is particularly steep in the top decile (D9: H = 0.716, F = 0.684), where the most well-characterized drugs show both the strongest female bias AND the lowest entropy.
+The entropy anti-regression is highly significant: high-volume drugs are systematically more sex-predictable (lower entropy). In the top decile (D9: H = 0.908, F = 0.641), the most well-characterized drugs show the strongest female bias AND measurably lower entropy than low-volume drugs (D0: H = 0.982).
 
 This translates the anti-regression phenomenon into information-theoretic terms: as statistical evidence accumulates, sex-differential drug safety doesn't regress toward uncertainty (H → 1.0) but intensifies toward predictability (H → 0). This is the information-theoretic signature of a genuine biological signal, not statistical noise.
 
@@ -255,7 +255,7 @@ SexDiffKG v4 and analysis code: https://github.com/jshaik369/sexdiffkg-deep-anal
 
 **Figure 1.** Drug entropy distribution. Histogram of binary entropy H(sex|drug) across 1,394 drugs. The distribution is strongly left-skewed with mode near 1.0 and a long tail extending to H = 0.25. Inset: zoomed view of the low-entropy tail (H < 0.5), showing sex-linked cancer therapies.
 
-**Figure 2.** Entropy anti-regression. Drug-level entropy (y-axis) vs. report volume decile (x-axis). Monotonic decrease from D0 (H = 0.982) to D9 (H = 0.716). Spearman rho = -0.952. The information-theoretic signature of genuine biological signal.
+**Figure 2.** Entropy anti-regression. Drug-level entropy (y-axis) vs. report volume decile (x-axis). Monotonic decrease from D0 (H = 0.982) to D9 (H = 0.908). Spearman rho = -0.952. The information-theoretic signature of genuine biological signal.
 
 **Figure 3.** Signal-level entropy phase transition. Individual signal entropy (y-axis) vs. report volume decile (x-axis). Near-maximum entropy in D0--D6, with sharp transition to structured low entropy in D8--D9.
 

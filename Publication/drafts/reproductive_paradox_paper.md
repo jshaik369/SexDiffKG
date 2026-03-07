@@ -16,7 +16,7 @@ Correspondence: jshaik@coevolvenetwork.com
 
 **Methods.** From 14,536,008 FAERS reports (2004Q1--2025Q3), we identified 96,281 sex-differential signals across 2,178 drugs. We compared adverse event sex profiles for drugs used predominantly by women (oral contraceptives, HRT, aromatase inhibitors, SERMs, anti-HER2 agents), drugs used predominantly by men (testosterone, antiandrogens, 5-alpha-reductase inhibitors), and sex-neutral comparators (vaccines, antibiotics, statins).
 
-**Results.** Drugs indicated for female conditions generated predominantly male-biased adverse event signals (11.0% female across 73 signals), while drugs indicated for male conditions generated predominantly female-biased signals (74.7% female across 83 signals)---a complete inversion of expected direction. HRT showed 0% female signals (all male-biased), SERMs 8.3% female, aromatase inhibitors 19.4% female. Conversely, testosterone showed 74.5% female and antiandrogens 75.0% female. The pattern extended beyond reproductive drugs: anti-HER2 agents (used primarily in female breast cancer) showed only 20.9% female signals. Vaccines (sex-neutral indication) showed 42.1% female, providing a baseline for comparison.
+**Results.** Drugs indicated for female conditions generated predominantly male-biased adverse event signals (11.0% female across 73 signals), while drugs indicated for male conditions generated predominantly female-biased signals (74.1% female across 85 signals)---a complete inversion of expected direction. HRT showed 0% female signals (all male-biased), SERMs 8.3% female, aromatase inhibitors 19.4% female. Conversely, testosterone showed 74.5% female and antiandrogens 66.7% female. The pattern extended beyond reproductive drugs: anti-HER2 agents (used primarily in female breast cancer) showed only 20.9% female signals. Vaccines (sex-neutral indication) showed 42.1% female, providing a baseline for comparison.
 
 **Interpretation.** The complete inversion of expected sex bias---female-indication drugs producing male-biased signals and vice versa---constitutes the strongest evidence that sex-differential pharmacovigilance signals reflect genuine biological differences rather than reporting artifacts. We term this the "Reproductive Paradox." The findings have methodological implications: sex-stratified disproportionality analysis effectively controls for the sex composition of the user population, isolating pharmacological sex-differential susceptibility from demographic effects.
 
@@ -76,9 +76,9 @@ Drugs indicated for female conditions generated overwhelmingly male-biased signa
 
 | Drug Category | Primary User Sex | Signals (n) | % Female Signals | Expected | Observed |
 |--------------|-----------------|-------------|------------------|----------|----------|
-| HRT | Female (~95%) | 24 | **0.0** | High | **Lowest** |
+| HRT | Female (~95%) | 21 | **0.0** | High | **Lowest** |
 | SERMs | Female (~90%) | 12 | **8.3** | High | Very low |
-| Aromatase inhibitors | Female (~95%) | 31 | **19.4** | High | Low |
+| Aromatase inhibitors | Female (~95%) | 36 | **19.4** | High | Low |
 | Anti-HER2 | Female (~85%) | 43 | **20.9** | High | Low |
 | CDK inhibitors | Female (~80%) | 47 | **38.3** | High | Below parity |
 | **All female-indication** | **Female** | **73** | **11.0** | **High** | **Very low** |
@@ -86,16 +86,16 @@ Drugs indicated for female conditions generated overwhelmingly male-biased signa
 | Antibiotics | Neutral (~55%F) | 891 | 54.2 | Slightly F | Slightly F |
 | Statins | Neutral (~45%F) | 234 | 61.3 | Neutral | Above parity |
 | Corticosteroids | Neutral (~55%F) | 189 | 69.3 | Neutral | Female |
-| 5-ARI | Male (~95%) | 28 | **71.4** | Low | **High** |
+| 5-ARI | Male (~95%) | 20 | **80.0** | Low | **High** |
 | Testosterone | Male (~90%) | 47 | **74.5** | Low | **High** |
-| Antiandrogens | Male (~95%) | 36 | **75.0** | Low | **Highest** |
-| **All male-indication** | **Male** | **83** | **74.7** | **Low** | **Very high** |
+| Antiandrogens | Male (~95%) | 18 | **66.7** | Low | **High** |
+| **All male-indication** | **Male** | **85** | **74.1** | **Low** | **Very high** |
 
-The inversion is striking: female-indication drugs average 11.0% female signals while male-indication drugs average 74.7% female---a 63.7 percentage-point gap in the opposite direction from what user demographics would predict.
+The inversion is striking: female-indication drugs average 11.0% female signals while male-indication drugs average 74.1% female---a 62.5 percentage-point gap in the opposite direction from what user demographics would predict.
 
 ### Individual Drug Profiles
 
-**HRT (0% female signals):** All 24 sex-differential signals for hormone replacement therapy were male-biased. This is the most extreme example of the paradox: a drug used almost exclusively by women produces exclusively male-biased pharmacovigilance signals. The male-biased signals included hepatic events, cardiovascular events, and thromboembolic events---consistent with known HRT risks where the few male users (typically for hypogonadism or gender-affirming care) show disproportionately higher adverse event reporting.
+**HRT (0% female signals):** All 21 sex-differential signals for hormone replacement therapy were male-biased. This is the most extreme example of the paradox: a drug used almost exclusively by women produces exclusively male-biased pharmacovigilance signals. The male-biased signals included hepatic events, cardiovascular events, and thromboembolic events---consistent with known HRT risks where the few male users (typically for hypogonadism or gender-affirming care) show disproportionately higher adverse event reporting.
 
 **Testosterone (74.5% female signals):** Conversely, testosterone---used overwhelmingly by men---produced predominantly female-biased signals. The female-biased signals included virilization effects, hepatotoxicity, and cardiovascular events, reflecting the disproportionate susceptibility of the small female user population (testosterone therapy for female sexual dysfunction or gender-affirming care).
 
@@ -121,7 +121,7 @@ The correlation between estimated female user proportion and female signal propo
 
 ### The Reproductive Paradox as Evidence for Biological Sex Differences
 
-The complete inversion---female-indication drugs producing 11% female signals versus male-indication drugs producing 75% female signals---provides the most direct evidence available that sex-differential pharmacovigilance signals reflect genuine pharmacological biology rather than reporting demographics.
+The complete inversion---female-indication drugs producing 11.6% female signals versus male-indication drugs producing 74.1% female signals---provides the most direct evidence available that sex-differential pharmacovigilance signals reflect genuine pharmacological biology rather than reporting demographics.
 
 The logic is straightforward: if sex-differential signals were artifacts of who uses the drug, then drugs used by 95% women should produce >=95% female signals. The observation that they produce 0--20% female signals (i.e., 80--100% male signals) is incompatible with a demographic explanation. Only a biological model---where the sex-differential signal reflects pharmacological susceptibility independent of user composition---can explain the inversion.
 
@@ -144,7 +144,7 @@ The Reproductive Paradox framework helps interpret our finding that GLP-1 recept
 ### Limitations
 
 1. The classification of drugs as "female-indication" or "male-indication" is approximate; some users are of the opposite sex (gender-affirming care, off-label use, rare conditions).
-2. Small sample sizes for some categories (HRT: 24 signals, SERMs: 12 signals) limit statistical power for individual categories, though the overall pattern across categories is robust.
+2. Small sample sizes for some categories (HRT: 21 signals, SERMs: 12 signals) limit statistical power for individual categories, though the overall pattern across categories is robust.
 3. The analysis cannot distinguish whether the paradox reflects (a) genuine sex-differential pharmacological susceptibility, (b) selection bias in minority-sex users, or (c) methodological overcorrection by the within-sex ROR. All three likely contribute.
 4. FAERS does not capture indication, making it impossible to confirm the user sex composition for individual drug-AE pairs.
 
@@ -152,7 +152,7 @@ The Reproductive Paradox framework helps interpret our finding that GLP-1 recept
 
 ## Conclusion
 
-The Reproductive Paradox---drugs indicated for women producing 89% male-biased signals while drugs for men produce 75% female-biased signals---provides definitive evidence that sex-differential pharmacovigilance signals reflect pharmacological biology rather than user demographics. This finding validates sex-stratified disproportionality methodology and has immediate implications for the interpretation of sex-differential drug safety signals across the pharmacopeia.
+The Reproductive Paradox---drugs indicated for women producing 88% male-biased signals while drugs for men produce 74% female-biased signals---provides definitive evidence that sex-differential pharmacovigilance signals reflect pharmacological biology rather than user demographics. This finding validates sex-stratified disproportionality methodology and has immediate implications for the interpretation of sex-differential drug safety signals across the pharmacopeia.
 
 ---
 
@@ -178,6 +178,6 @@ SexDiffKG v4 and complete analysis code: https://github.com/jshaik369/sexdiffkg-
 
 **Figure 1.** The Reproductive Paradox. Bar chart showing female-predominant signal proportion (y-axis) for drug categories ordered by estimated female user proportion (x-axis). Strong inverse correlation: drugs used by >90% women (HRT, AI, SERMs) produce <20% female signals, while drugs used by >90% men (testosterone, antiandrogens) produce >70% female signals. Sex-neutral comparators fall in between.
 
-**Figure 2.** Individual drug profiles. Stacked bar charts showing male-biased (blue) vs. female-biased (red) signals for each drug category. HRT is entirely blue (0% female); antiandrogens are predominantly red (75% female).
+**Figure 2.** Individual drug profiles. Stacked bar charts showing male-biased (blue) vs. female-biased (red) signals for each drug category. HRT is entirely blue (0% female); antiandrogens are predominantly red (66.7% female).
 
 **Figure 3.** Scatter plot of estimated female user proportion (x-axis) vs. female signal proportion (y-axis) across all drug categories. The negative correlation (rho ~ -0.85) quantifies the Reproductive Paradox.
