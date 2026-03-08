@@ -170,7 +170,7 @@ ComplEx achieves 2.45x higher MRR than DistMult, making it the recommended model
 If you use SexDiffKG in your research, please cite:
 
 ```bibtex
-@article{akhtarabbas2026sexdiffkg,
+@article{shaik2026sexdiffkg,
   title={SexDiffKG: A Sex-Differential Knowledge Graph for Drug Safety
          from 14.5 Million FDA Adverse Event Reports},
   author={Shaik, Mohammed Javeed Akhtar Abbas},
@@ -213,7 +213,7 @@ Validation: 14/15 checks PASS. See v5.2 Embedding Models below.
 
 | Model | MRR | Hits@1 | Hits@10 | AMRI | Epochs | Notes |
 |-------|-----|--------|---------|------|--------|-------|
-| **ComplEx v5.2** | **0.1629** | 0.0975 | **0.3702** | **0.9830** | 25 | Best v5.2; early stopped |
+| **ComplEx v5.2** | **0.1629** | 0.0472 | **0.3704** | **0.9830** | 25 | Best v5.2; early stopped |
 | DistMult v5.2 | 0.0548 | 0.0287 | 0.0995 | 0.9830 | 10 | Best training MRR |
 | RotatE v5.2 | --- | --- | --- | --- | Training | In progress |
 

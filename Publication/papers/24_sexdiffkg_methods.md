@@ -151,7 +151,7 @@ From **254,114** total drug-adverse event comparisons meeting the minimum report
 
 - **51,771 female-biased** (53.8%) -- higher ROR in females
 - **44,510 male-biased** (46.2%) -- higher ROR in males
-- **Strong signals** (|log_ratio| >= 0.5): **49,026** (28,669 female, 20,357 male)
+- **Strong signals** (|log_ratio| >= 1.0): **32,244** (18,174 female, 14,070 male)
 - **Very strong signals** (|log_ratio| >= 1.0): **32,244**
 - **Unique drugs:** 2,178
 - **Unique adverse events:** 5,069
@@ -316,7 +316,7 @@ SexDiffKG v4 is a heterogeneous graph with 109,867 nodes and 1,822,851 edges (1,
 
 ### 3.2 Sex-Differential Signal Landscape
 
-The 96,281 sex-differential signals span 2,178 unique drugs and 5,069 unique adverse events. The signal distribution is moderately female-skewed (53.8% female-biased vs. 46.2% male-biased), consistent with the known higher ADR incidence in women but less extreme than the raw reporting ratio (60.2% female reports) would suggest after ROR normalization. Among strong signals (|log_ratio| >= 0.5), the female skew is more pronounced: 58.5% female-biased (28,669) vs. 41.5% male-biased (20,357).
+The 96,281 sex-differential signals span 2,178 unique drugs and 5,069 unique adverse events. The signal distribution is moderately female-skewed (53.8% female-biased vs. 46.2% male-biased), consistent with the known higher ADR incidence in women but less extreme than the raw reporting ratio (60.2% female reports) would suggest after ROR normalization. Among strong signals (|log_ratio| >= 1.0), the female skew is more pronounced: 56.4% female-biased (18,174) vs. 43.6% male-biased (14,070).
 
 ### 3.3 Embedding Model Performance
 

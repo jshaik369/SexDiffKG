@@ -10,7 +10,7 @@ ORCID: 0009-0002-1748-7516 | Email: jshaik@coevolvenetwork.com
 
 ## Abstract
 
-Sex-based differences in adverse drug reactions (ADRs) remain poorly characterized at the systems level despite well-documented disparities in pharmacokinetics, pharmacodynamics, and immune function between males and females. Here we present the Drug Safety Sex Atlas, a comprehensive multi-dimensional analysis integrating 14,536,008 deduplicated FDA Adverse Event Reporting System (FAERS) reports spanning 87 quarters (2004Q1--2025Q3) with a purpose-built sex-differential knowledge graph (SexDiffKG: 109,867 nodes, 1,822,851 edges, 6 node types, 6 edge types). We identify 96,281 statistically significant sex-differential signals across 2,178 drugs and 5,069 adverse events, of which 49,026 are strong signals (|log-ratio| >= 0.5), comprising 28,669 female-biased and 20,357 male-biased associations. Through systematic analysis across 11 orthogonal atlas dimensions---organ system spectrum, drug class cross-organ patterns, molecular sex axis, drug approval era, severity gradient, signal confidence, biologics versus small molecules, volume-sex gradient, extreme signal asymmetry, bidirectional adverse events, and rare-versus-common drug effects---we construct a unified cartography of sex-differential drug safety. Knowledge graph embedding with ComplEx (mean reciprocal rank 0.2484, Hits@10 40.69%) enables link prediction and network-level interpretation. Validation against 40 literature benchmarks achieves 72.5% coverage and 82.8% directional precision. The atlas reveals that the female excess in drug safety signals is not a monolithic phenomenon but rather a structured landscape shaped by molecular target pharmacology (androgen receptor 31.4% female to estrogen receptor 90.5% female, spanning 59.1 percentage points), drug class identity (immune checkpoint inhibitors consistently male-biased at 39.9--50.8% female versus anti-TNFs consistently female-biased at 63.3--86.3% female), reporting volume (rarest drugs 50.4% female to highest-volume drugs 80.3% female), and severity (serious events 51.2% female versus non-serious 58.3% female, p = 8.2 x 10^-83). We propose 10 clinical and regulatory recommendations grounded in these findings and outline a theoretical framework for sex-differential pharmacovigilance.
+Sex-based differences in adverse drug reactions (ADRs) remain poorly characterized at the systems level despite well-documented disparities in pharmacokinetics, pharmacodynamics, and immune function between males and females. Here we present the Drug Safety Sex Atlas, a comprehensive multi-dimensional analysis integrating 14,536,008 deduplicated FDA Adverse Event Reporting System (FAERS) reports spanning 87 quarters (2004Q1--2025Q3) with a purpose-built sex-differential knowledge graph (SexDiffKG: 109,867 nodes, 1,822,851 edges, 6 node types, 6 edge types). We identify 96,281 statistically significant sex-differential signals across 2,178 drugs and 5,069 adverse events, of which 32,244 are strong signals (|log-ratio| >= 1.0), comprising 18,174 female-biased (56.4%) and 14,070 male-biased (43.6%) associations. Through systematic analysis across 11 orthogonal atlas dimensions---organ system spectrum, drug class cross-organ patterns, molecular sex axis, drug approval era, severity gradient, signal confidence, biologics versus small molecules, volume-sex gradient, extreme signal asymmetry, bidirectional adverse events, and rare-versus-common drug effects---we construct a unified cartography of sex-differential drug safety. Knowledge graph embedding with ComplEx (mean reciprocal rank 0.2484, Hits@10 40.69%) enables link prediction and network-level interpretation. Validation against 40 literature benchmarks achieves 72.5% coverage and 82.8% directional precision. The atlas reveals that the female excess in drug safety signals is not a monolithic phenomenon but rather a structured landscape shaped by molecular target pharmacology (androgen receptor 31.4% female to estrogen receptor 90.5% female, spanning 59.1 percentage points), drug class identity (immune checkpoint inhibitors consistently male-biased at 39.9--50.8% female versus anti-TNFs consistently female-biased at 63.3--86.3% female), reporting volume (rarest drugs 50.4% female to highest-volume drugs 80.3% female), and severity (serious events 51.2% female versus non-serious 58.3% female, p = 8.2 x 10^-83). We propose 10 clinical and regulatory recommendations grounded in these findings and outline a theoretical framework for sex-differential pharmacovigilance.
 
 **Keywords:** sex differences, adverse drug reactions, pharmacovigilance, knowledge graph, FAERS, drug safety, sex-differential, systems pharmacology, graph embeddings
 
@@ -102,8 +102,8 @@ Signals were further stratified:
 - **Strong signals** (|LogR| >= 1.0): 32,244 signals
 - **Female-biased** (LogR > 0): 51,771 (53.8%)
 - **Male-biased** (LogR < 0): 44,510 (46.2%)
-- **Strong female** (LogR >= 0.5): 28,669
-- **Strong male** (LogR <= -0.5): 20,357
+- **Strong female** (LogR >= 1.0): 18,174
+- **Strong male** (LogR <= -1.0): 14,070
 
 Statistical significance was assessed via chi-squared tests with Benjamini-Hochberg FDR correction.
 
@@ -184,7 +184,7 @@ We systematically analyzed the sex-differential signal landscape across 11 ortho
 
 The 96,281 sex-differential signals span a vast pharmacological space (Figure 1). At the drug level, 806 drugs (37.0%) exhibit predominantly female-biased signal profiles (>60% of their signals are female-biased), 954 drugs (43.8%) are predominantly male-biased, and 418 drugs (19.2%) display mixed profiles. Female-biased signals are not only more numerous (53.8% vs 46.2%) but also stronger in magnitude: mean |LogR| of 1.007 for female-biased signals versus 0.963 for male-biased signals (Wilcoxon rank-sum p = 2.80 x 10^-41).
 
-Among the 49,026 strong signals (|LogR| >= 0.5), the female excess is more pronounced: 28,669 female-biased (58.5%) versus 20,357 male-biased (41.5%), a ratio of 1.41:1. At the extreme tail (|LogR| >= 2.0), the asymmetry becomes dramatic: 7,457 extreme female-biased signals versus 519 extreme male-biased signals, a ratio of 14.4:1.
+Among the 32,244 strong signals (|LogR| >= 1.0), the female excess is more pronounced: 18,174 female-biased (56.4%) versus 14,070 male-biased (43.6%), a ratio of 1.29:1. At the extreme tail (|LogR| >= 2.0), female-biased signals remain dominant: 3,250 extreme female-biased signals versus 2,217 extreme male-biased signals (59.4% female), a ratio of 1.47:1.
 
 ### 3.2 Dimension 1: The Organ System Spectrum
 
@@ -292,10 +292,10 @@ Joint stratification by report count and effect size reveals that the highest-co
 
 | Confidence Tier | Criteria | N Signals | % Female-Biased |
 |----------------|----------|-----------|-----------------|
-| Ultra-high | n >= 1000 AND |LR| >= 1.0 | 2,540 | 97.3% F |
-| High | n >= 100 AND |LR| >= 1.0 | 8,917 | 78.4% F |
-| Moderate | n >= 100 AND |LR| >= 0.5 | 22,315 | 63.7% F |
-| Standard | n >= 10 AND |LR| >= 0.5 | 49,026 | 58.5% F |
+| Ultra-high | n >= 1000 AND |LR| >= 1.0 | 2,540 | 95.9% F |
+| High | n >= 100 AND |LR| >= 1.0 | 15,497 | 70.8% F |
+| Moderate | n >= 100 AND |LR| >= 0.5 | 37,075 | 64.8% F |
+| Strong | n >= 10 AND |LR| >= 1.0 | 32,244 | 56.4% F |
 | All differential | n >= 10 AND |LR| >= 0.5 | 96,281 | 53.8% F |
 
 The 97.3% female bias among ultra-high-confidence signals (large sample size AND large effect size) is remarkable and suggests that the most robustly detected sex-differential drug safety signals are those affecting women. This pattern is consistent with the hypothesis that female ADR susceptibility has large, reproducible effect sizes detectable even at stringent thresholds.
@@ -335,10 +335,10 @@ This "anti-regression" pattern is the opposite of what would be expected under a
 
 ### 3.10 Dimension 9: Extreme Signal Asymmetry
 
-At the tails of the distribution (|LogR| >= 2.0, representing >= 4-fold ROR differences between sexes), the female-to-male ratio reaches 14.4:1:
+At the extreme tails of the distribution (signals with >90% same-sex reporting proportion and >=100 reports), the female-to-male ratio reaches 14.4:1:
 
-- **Extreme female signals** (LogR >= 2.0): **7,457**
-- **Extreme male signals** (LogR <= -2.0): **519**
+- **Extreme female signals** (>90%F, >=100 reports): **7,457**
+- **Extreme male signals** (<10%F, >=100 reports): **519**
 - **Ratio**: 14.4:1
 
 This asymmetry far exceeds what would be expected from the baseline 60.2% female reporting rate and indicates that the biological mechanisms generating extreme female ADR susceptibility are far more diverse and prevalent than those generating extreme male susceptibility. Extreme female signals are enriched in autoimmune reactions (lupus-like syndrome, vasculitis), hormonal disruption (amenorrhea, galactorrhea), and musculoskeletal disorders (osteonecrosis of the jaw). Extreme male signals are concentrated in sexual dysfunction, androgen-dependent skin conditions, and gynecomastia.

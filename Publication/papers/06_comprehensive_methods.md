@@ -88,10 +88,10 @@ Signals were retained for analysis if they satisfied:
 
 - **Minimum report count:** a_S >= 5 in each sex stratum, ensuring non-degenerate cell counts.
 - **Defined ROR:** All four cells of the 2x2 table nonzero in both strata.
-- **Strong signal threshold:** |logR| >= 0.5 (corresponding to a >= 1.65-fold ROR difference between sexes).
-- **Very strong signal threshold:** |logR| >= 1.0 (>= 2.72-fold difference).
+- **Strong signal threshold:** |logR| >= 1.0 (corresponding to a >= 2.72-fold ROR difference between sexes).
+- **Very strong signal threshold:** |logR| >= 2.0 (>= 7.39-fold difference).
 
-From 254,114 drug-AE pairs meeting inclusion criteria, 96,281 were classified as sex-differential (|logR| >= 0.5 with >= 10 reports per sex), comprising 51,771 female-biased (53.8%) and 44,510 male-biased (46.2%) signals across 2,178 unique drugs and 5,069 unique adverse events. Of these, 49,026 met the strong signal threshold and 32,244 met the very strong threshold.
+From 254,114 drug-AE pairs meeting inclusion criteria, 96,281 were classified as sex-differential (|logR| >= 0.5 with >= 10 reports per sex), comprising 51,771 female-biased (53.8%) and 44,510 male-biased (46.2%) signals across 2,178 unique drugs and 5,069 unique adverse events. Of these, 32,244 met the strong signal threshold (|logR| >= 1.0) and 5,467 met the very strong threshold (|logR| >= 2.0).
 
 #### 2.1.4 Parameter Sensitivity
 
