@@ -1,0 +1,523 @@
+{
+  "wave": 140,
+  "title": "Effect Size Asymmetry Deep Dive",
+  "timestamp": "2026-03-08T17:37:14.792276",
+  "overall": {
+    "female_mean_logR": 1.0072,
+    "male_mean_logR": 0.9631,
+    "delta": 0.0441,
+    "relative_diff_pct": 4.6,
+    "mann_whitney_p": 1.401129865973947e-41
+  },
+  "threshold_gradient": [
+    {
+      "threshold": 0.5,
+      "n_total": 96281,
+      "n_female": 51771,
+      "n_male": 44510,
+      "pct_female": 53.8
+    },
+    {
+      "threshold": 0.75,
+      "n_total": 55247,
+      "n_female": 30502,
+      "n_male": 24745,
+      "pct_female": 55.2
+    },
+    {
+      "threshold": 1.0,
+      "n_total": 32244,
+      "n_female": 18174,
+      "n_male": 14070,
+      "pct_female": 56.4
+    },
+    {
+      "threshold": 1.5,
+      "n_total": 12518,
+      "n_female": 7299,
+      "n_male": 5219,
+      "pct_female": 58.3
+    },
+    {
+      "threshold": 2.0,
+      "n_total": 5467,
+      "n_female": 3250,
+      "n_male": 2217,
+      "pct_female": 59.4
+    },
+    {
+      "threshold": 2.5,
+      "n_total": 2473,
+      "n_female": 1467,
+      "n_male": 1006,
+      "pct_female": 59.3
+    },
+    {
+      "threshold": 3.0,
+      "n_total": 1028,
+      "n_female": 601,
+      "n_male": 427,
+      "pct_female": 58.5
+    },
+    {
+      "threshold": 4.0,
+      "n_total": 146,
+      "n_female": 70,
+      "n_male": 76,
+      "pct_female": 47.9
+    },
+    {
+      "threshold": 5.0,
+      "n_total": 28,
+      "n_female": 6,
+      "n_male": 22,
+      "pct_female": 21.4
+    }
+  ],
+  "ae_asymmetry_top_female": [
+    {
+      "ae": "Wound",
+      "n_female": 45,
+      "n_male": 66,
+      "mean_fem_logR": 2.64,
+      "mean_mal_logR": 0.878,
+      "delta": 1.762,
+      "pct_female": 40.5
+    },
+    {
+      "ae": "Discomfort",
+      "n_female": 67,
+      "n_male": 87,
+      "mean_fem_logR": 1.997,
+      "mean_mal_logR": 0.89,
+      "delta": 1.108,
+      "pct_female": 43.5
+    },
+    {
+      "ae": "Type 2 diabetes mellitus",
+      "n_female": 45,
+      "n_male": 82,
+      "mean_fem_logR": 2.175,
+      "mean_mal_logR": 1.073,
+      "delta": 1.102,
+      "pct_female": 35.4
+    },
+    {
+      "ae": "Blister",
+      "n_female": 91,
+      "n_male": 36,
+      "mean_fem_logR": 1.779,
+      "mean_mal_logR": 0.761,
+      "delta": 1.018,
+      "pct_female": 71.7
+    },
+    {
+      "ae": "Hepatic enzyme increased",
+      "n_female": 111,
+      "n_male": 70,
+      "mean_fem_logR": 1.777,
+      "mean_mal_logR": 0.81,
+      "delta": 0.967,
+      "pct_female": 61.3
+    },
+    {
+      "ae": "Liver injury",
+      "n_female": 77,
+      "n_male": 39,
+      "mean_fem_logR": 1.754,
+      "mean_mal_logR": 0.804,
+      "delta": 0.949,
+      "pct_female": 66.4
+    },
+    {
+      "ae": "Arthropathy",
+      "n_female": 62,
+      "n_male": 70,
+      "mean_fem_logR": 1.824,
+      "mean_mal_logR": 0.888,
+      "delta": 0.936,
+      "pct_female": 47.0
+    },
+    {
+      "ae": "Oedema",
+      "n_female": 97,
+      "n_male": 44,
+      "mean_fem_logR": 1.604,
+      "mean_mal_logR": 0.81,
+      "delta": 0.794,
+      "pct_female": 68.8
+    },
+    {
+      "ae": "Musculoskeletal pain",
+      "n_female": 67,
+      "n_male": 43,
+      "mean_fem_logR": 1.462,
+      "mean_mal_logR": 0.689,
+      "delta": 0.773,
+      "pct_female": 60.9
+    },
+    {
+      "ae": "Mobility decreased",
+      "n_female": 93,
+      "n_male": 69,
+      "mean_fem_logR": 1.566,
+      "mean_mal_logR": 0.795,
+      "delta": 0.772,
+      "pct_female": 57.4
+    },
+    {
+      "ae": "Therapeutic product effect decreased",
+      "n_female": 63,
+      "n_male": 56,
+      "mean_fem_logR": 1.633,
+      "mean_mal_logR": 0.886,
+      "delta": 0.747,
+      "pct_female": 52.9
+    },
+    {
+      "ae": "Blood cholesterol increased",
+      "n_female": 58,
+      "n_male": 64,
+      "mean_fem_logR": 2.052,
+      "mean_mal_logR": 1.31,
+      "delta": 0.743,
+      "pct_female": 47.5
+    },
+    {
+      "ae": "Joint swelling",
+      "n_female": 87,
+      "n_male": 82,
+      "mean_fem_logR": 1.664,
+      "mean_mal_logR": 0.938,
+      "delta": 0.725,
+      "pct_female": 51.5
+    },
+    {
+      "ae": "Lower respiratory tract infection",
+      "n_female": 77,
+      "n_male": 81,
+      "mean_fem_logR": 1.612,
+      "mean_mal_logR": 0.896,
+      "delta": 0.716,
+      "pct_female": 48.7
+    },
+    {
+      "ae": "Hypoaesthesia",
+      "n_female": 96,
+      "n_male": 101,
+      "mean_fem_logR": 1.43,
+      "mean_mal_logR": 0.797,
+      "delta": 0.632,
+      "pct_female": 48.7
+    }
+  ],
+  "ae_asymmetry_top_male": [
+    {
+      "ae": "Thrombosis",
+      "n_female": 52,
+      "n_male": 88,
+      "mean_fem_logR": 0.818,
+      "mean_mal_logR": 1.685,
+      "delta": -0.868,
+      "pct_female": 37.1
+    },
+    {
+      "ae": "Stress",
+      "n_female": 21,
+      "n_male": 135,
+      "mean_fem_logR": 0.752,
+      "mean_mal_logR": 1.511,
+      "delta": -0.76,
+      "pct_female": 13.5
+    },
+    {
+      "ae": "Pulmonary embolism",
+      "n_female": 44,
+      "n_male": 152,
+      "mean_fem_logR": 0.752,
+      "mean_mal_logR": 1.409,
+      "delta": -0.656,
+      "pct_female": 22.4
+    },
+    {
+      "ae": "Hyponatraemia",
+      "n_female": 111,
+      "n_male": 82,
+      "mean_fem_logR": 0.839,
+      "mean_mal_logR": 1.369,
+      "delta": -0.531,
+      "pct_female": 57.5
+    },
+    {
+      "ae": "Premature baby",
+      "n_female": 91,
+      "n_male": 58,
+      "mean_fem_logR": 0.953,
+      "mean_mal_logR": 1.465,
+      "delta": -0.512,
+      "pct_female": 61.1
+    },
+    {
+      "ae": "Sepsis",
+      "n_female": 98,
+      "n_male": 104,
+      "mean_fem_logR": 0.778,
+      "mean_mal_logR": 1.278,
+      "delta": -0.501,
+      "pct_female": 48.5
+    },
+    {
+      "ae": "Abdominal distension",
+      "n_female": 62,
+      "n_male": 116,
+      "mean_fem_logR": 0.954,
+      "mean_mal_logR": 1.44,
+      "delta": -0.486,
+      "pct_female": 34.8
+    },
+    {
+      "ae": "Foetal exposure during pregnancy",
+      "n_female": 132,
+      "n_male": 71,
+      "mean_fem_logR": 0.96,
+      "mean_mal_logR": 1.403,
+      "delta": -0.444,
+      "pct_female": 65.0
+    },
+    {
+      "ae": "Hepatic function abnormal",
+      "n_female": 106,
+      "n_male": 26,
+      "mean_fem_logR": 0.777,
+      "mean_mal_logR": 1.22,
+      "delta": -0.443,
+      "pct_female": 80.3
+    },
+    {
+      "ae": "Diabetes mellitus",
+      "n_female": 48,
+      "n_male": 74,
+      "mean_fem_logR": 0.773,
+      "mean_mal_logR": 1.178,
+      "delta": -0.406,
+      "pct_female": 39.3
+    },
+    {
+      "ae": "Deep vein thrombosis",
+      "n_female": 36,
+      "n_male": 77,
+      "mean_fem_logR": 0.756,
+      "mean_mal_logR": 1.114,
+      "delta": -0.358,
+      "pct_female": 31.9
+    },
+    {
+      "ae": "Multiple organ dysfunction syndrome",
+      "n_female": 129,
+      "n_male": 63,
+      "mean_fem_logR": 0.901,
+      "mean_mal_logR": 1.23,
+      "delta": -0.329,
+      "pct_female": 67.2
+    },
+    {
+      "ae": "Renal failure",
+      "n_female": 159,
+      "n_male": 43,
+      "mean_fem_logR": 0.773,
+      "mean_mal_logR": 1.099,
+      "delta": -0.326,
+      "pct_female": 78.7
+    },
+    {
+      "ae": "Somnolence",
+      "n_female": 82,
+      "n_male": 131,
+      "mean_fem_logR": 0.853,
+      "mean_mal_logR": 1.151,
+      "delta": -0.298,
+      "pct_female": 38.5
+    },
+    {
+      "ae": "Fungal infection",
+      "n_female": 21,
+      "n_male": 89,
+      "mean_fem_logR": 0.766,
+      "mean_mal_logR": 1.05,
+      "delta": -0.284,
+      "pct_female": 19.1
+    }
+  ],
+  "drug_asymmetry_top_female": [
+    {
+      "drug": "TRIAMCINOLONE",
+      "n_female": 102,
+      "n_male": 68,
+      "mean_fem_logR": 1.81,
+      "mean_mal_logR": 0.963,
+      "delta": 0.847
+    },
+    {
+      "drug": "CETIRIZINE",
+      "n_female": 108,
+      "n_male": 136,
+      "mean_fem_logR": 1.828,
+      "mean_mal_logR": 0.983,
+      "delta": 0.845
+    },
+    {
+      "drug": "APREMILAST",
+      "n_female": 143,
+      "n_male": 71,
+      "mean_fem_logR": 1.566,
+      "mean_mal_logR": 0.763,
+      "delta": 0.804
+    },
+    {
+      "drug": "USTEKINUMAB",
+      "n_female": 204,
+      "n_male": 110,
+      "mean_fem_logR": 1.605,
+      "mean_mal_logR": 0.816,
+      "delta": 0.789
+    },
+    {
+      "drug": "GOLIMUMAB",
+      "n_female": 186,
+      "n_male": 148,
+      "mean_fem_logR": 1.695,
+      "mean_mal_logR": 0.976,
+      "delta": 0.718
+    },
+    {
+      "drug": "OXYCODONE;PARACETAMOL",
+      "n_female": 214,
+      "n_male": 51,
+      "mean_fem_logR": 1.519,
+      "mean_mal_logR": 0.82,
+      "delta": 0.699
+    },
+    {
+      "drug": "SULFAMETHOXAZOLE;TRIMETHOPRIM",
+      "n_female": 208,
+      "n_male": 119,
+      "mean_fem_logR": 1.583,
+      "mean_mal_logR": 0.885,
+      "delta": 0.698
+    },
+    {
+      "drug": "OXYCODONE",
+      "n_female": 418,
+      "n_male": 74,
+      "mean_fem_logR": 1.426,
+      "mean_mal_logR": 0.8,
+      "delta": 0.626
+    },
+    {
+      "drug": "DICLOFENAC",
+      "n_female": 203,
+      "n_male": 198,
+      "mean_fem_logR": 1.624,
+      "mean_mal_logR": 1.019,
+      "delta": 0.606
+    },
+    {
+      "drug": "RANITIDINE",
+      "n_female": 303,
+      "n_male": 21,
+      "mean_fem_logR": 1.496,
+      "mean_mal_logR": 0.922,
+      "delta": 0.574
+    }
+  ],
+  "drug_asymmetry_top_male": [
+    {
+      "drug": "RISPERIDONE",
+      "n_female": 481,
+      "n_male": 37,
+      "mean_fem_logR": 1.135,
+      "mean_mal_logR": 1.593,
+      "delta": -0.457
+    },
+    {
+      "drug": "LEVOTHYROXINE",
+      "n_female": 66,
+      "n_male": 256,
+      "mean_fem_logR": 0.794,
+      "mean_mal_logR": 1.234,
+      "delta": -0.439
+    },
+    {
+      "drug": "IRON",
+      "n_female": 57,
+      "n_male": 141,
+      "mean_fem_logR": 0.943,
+      "mean_mal_logR": 1.328,
+      "delta": -0.385
+    },
+    {
+      "drug": "CEFTRIAXONE",
+      "n_female": 107,
+      "n_male": 60,
+      "mean_fem_logR": 0.938,
+      "mean_mal_logR": 1.298,
+      "delta": -0.36
+    },
+    {
+      "drug": "HEPARIN",
+      "n_female": 92,
+      "n_male": 52,
+      "mean_fem_logR": 0.827,
+      "mean_mal_logR": 1.135,
+      "delta": -0.307
+    },
+    {
+      "drug": "FLUTICASONE;VILANTEROL",
+      "n_female": 33,
+      "n_male": 142,
+      "mean_fem_logR": 0.805,
+      "mean_mal_logR": 1.078,
+      "delta": -0.273
+    },
+    {
+      "drug": "CARBIDOPA;LEVODOPA",
+      "n_female": 134,
+      "n_male": 83,
+      "mean_fem_logR": 0.823,
+      "mean_mal_logR": 1.063,
+      "delta": -0.241
+    },
+    {
+      "drug": "LITHIUM",
+      "n_female": 71,
+      "n_male": 72,
+      "mean_fem_logR": 0.799,
+      "mean_mal_logR": 1.03,
+      "delta": -0.231
+    },
+    {
+      "drug": "BACLOFEN",
+      "n_female": 83,
+      "n_male": 85,
+      "mean_fem_logR": 0.84,
+      "mean_mal_logR": 1.07,
+      "delta": -0.23
+    },
+    {
+      "drug": "DENOSUMAB",
+      "n_female": 54,
+      "n_male": 180,
+      "mean_fem_logR": 0.822,
+      "mean_mal_logR": 1.05,
+      "delta": -0.227
+    }
+  ],
+  "key_findings": {
+    "female_signals_stronger_by": 0.0441,
+    "mann_whitney_p": 1.401129865973947e-41,
+    "pct_female_at_logR_3": 58.5,
+    "ae_female_stronger_pct": 60.5,
+    "most_asymmetric_ae_female": "Wound",
+    "most_asymmetric_ae_male": "Thrombosis"
+  }
+}
