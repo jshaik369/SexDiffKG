@@ -1,0 +1,619 @@
+{
+  "wave": 144,
+  "title": "Report Count Threshold Sensitivity",
+  "description": "Systematic sensitivity analysis of sex-differential patterns across reporting thresholds",
+  "total_signals": 96281,
+  "report_threshold_analysis": [
+    {
+      "min_reports_per_sex": 10,
+      "n_signals": 96281,
+      "n_drugs": 2178,
+      "n_aes": 5069,
+      "pct_female": 53.8,
+      "mean_abs_logR": 0.9868,
+      "median_abs_logR": 0.8116,
+      "strong_pct": 33.5
+    },
+    {
+      "min_reports_per_sex": 20,
+      "n_signals": 49399,
+      "n_drugs": 1651,
+      "n_aes": 3435,
+      "pct_female": 56.0,
+      "mean_abs_logR": 0.9557,
+      "median_abs_logR": 0.7847,
+      "strong_pct": 30.9
+    },
+    {
+      "min_reports_per_sex": 30,
+      "n_signals": 32536,
+      "n_drugs": 1372,
+      "n_aes": 2721,
+      "pct_female": 57.8,
+      "mean_abs_logR": 0.9358,
+      "median_abs_logR": 0.7726,
+      "strong_pct": 29.7
+    },
+    {
+      "min_reports_per_sex": 50,
+      "n_signals": 18771,
+      "n_drugs": 1069,
+      "n_aes": 1960,
+      "pct_female": 59.6,
+      "mean_abs_logR": 0.9158,
+      "median_abs_logR": 0.7614,
+      "strong_pct": 28.7
+    },
+    {
+      "min_reports_per_sex": 75,
+      "n_signals": 11977,
+      "n_drugs": 860,
+      "n_aes": 1485,
+      "pct_female": 61.5,
+      "mean_abs_logR": 0.8977,
+      "median_abs_logR": 0.7508,
+      "strong_pct": 27.5
+    },
+    {
+      "min_reports_per_sex": 100,
+      "n_signals": 8487,
+      "n_drugs": 729,
+      "n_aes": 1207,
+      "pct_female": 62.2,
+      "mean_abs_logR": 0.8818,
+      "median_abs_logR": 0.7448,
+      "strong_pct": 26.3
+    },
+    {
+      "min_reports_per_sex": 150,
+      "n_signals": 5115,
+      "n_drugs": 580,
+      "n_aes": 891,
+      "pct_female": 64.7,
+      "mean_abs_logR": 0.8601,
+      "median_abs_logR": 0.7323,
+      "strong_pct": 24.3
+    },
+    {
+      "min_reports_per_sex": 200,
+      "n_signals": 3475,
+      "n_drugs": 477,
+      "n_aes": 707,
+      "pct_female": 66.6,
+      "mean_abs_logR": 0.8467,
+      "median_abs_logR": 0.7283,
+      "strong_pct": 23.1
+    },
+    {
+      "min_reports_per_sex": 300,
+      "n_signals": 1976,
+      "n_drugs": 349,
+      "n_aes": 489,
+      "pct_female": 68.6,
+      "mean_abs_logR": 0.824,
+      "median_abs_logR": 0.7143,
+      "strong_pct": 20.4
+    },
+    {
+      "min_reports_per_sex": 500,
+      "n_signals": 916,
+      "n_drugs": 229,
+      "n_aes": 300,
+      "pct_female": 67.0,
+      "mean_abs_logR": 0.7911,
+      "median_abs_logR": 0.6899,
+      "strong_pct": 16.7
+    },
+    {
+      "min_reports_per_sex": 750,
+      "n_signals": 486,
+      "n_drugs": 161,
+      "n_aes": 204,
+      "pct_female": 63.8,
+      "mean_abs_logR": 0.7662,
+      "median_abs_logR": 0.6665,
+      "strong_pct": 13.8
+    },
+    {
+      "min_reports_per_sex": 1000,
+      "n_signals": 308,
+      "n_drugs": 113,
+      "n_aes": 151,
+      "pct_female": 60.4,
+      "mean_abs_logR": 0.7457,
+      "median_abs_logR": 0.6601,
+      "strong_pct": 11.4
+    },
+    {
+      "min_reports_per_sex": 2000,
+      "n_signals": 87,
+      "n_drugs": 50,
+      "n_aes": 53,
+      "pct_female": 55.2,
+      "mean_abs_logR": 0.7073,
+      "median_abs_logR": 0.6529,
+      "strong_pct": 5.7
+    },
+    {
+      "min_reports_per_sex": 5000,
+      "n_signals": 24,
+      "n_drugs": 21,
+      "n_aes": 15,
+      "pct_female": 54.2,
+      "mean_abs_logR": 0.6345,
+      "median_abs_logR": 0.6067,
+      "strong_pct": 0.0
+    }
+  ],
+  "effect_size_threshold_analysis": [
+    {
+      "min_abs_logR": 0.5,
+      "n_signals": 96281,
+      "pct_female": 53.8,
+      "mean_total_reports": 251.3,
+      "median_total_reports": 72.0
+    },
+    {
+      "min_abs_logR": 0.75,
+      "n_signals": 55247,
+      "pct_female": 55.2,
+      "mean_total_reports": 289.1,
+      "median_total_reports": 78.0
+    },
+    {
+      "min_abs_logR": 1.0,
+      "n_signals": 32244,
+      "pct_female": 56.4,
+      "mean_total_reports": 351.7,
+      "median_total_reports": 94.0
+    },
+    {
+      "min_abs_logR": 1.25,
+      "n_signals": 19595,
+      "pct_female": 57.5,
+      "mean_total_reports": 434.3,
+      "median_total_reports": 119.0
+    },
+    {
+      "min_abs_logR": 1.5,
+      "n_signals": 12518,
+      "pct_female": 58.3,
+      "mean_total_reports": 511.5,
+      "median_total_reports": 156.0
+    },
+    {
+      "min_abs_logR": 2.0,
+      "n_signals": 5467,
+      "pct_female": 59.4,
+      "mean_total_reports": 682.6,
+      "median_total_reports": 246.0
+    },
+    {
+      "min_abs_logR": 2.5,
+      "n_signals": 2473,
+      "pct_female": 59.3,
+      "mean_total_reports": 835.8,
+      "median_total_reports": 309.0
+    },
+    {
+      "min_abs_logR": 3.0,
+      "n_signals": 1028,
+      "pct_female": 58.5,
+      "mean_total_reports": 1068.2,
+      "median_total_reports": 432.0
+    },
+    {
+      "min_abs_logR": 4.0,
+      "n_signals": 146,
+      "pct_female": 47.9,
+      "mean_total_reports": 1583.5,
+      "median_total_reports": 353.0
+    },
+    {
+      "min_abs_logR": 5.0,
+      "n_signals": 28,
+      "pct_female": 21.4,
+      "mean_total_reports": 667.8,
+      "median_total_reports": 62.0
+    }
+  ],
+  "direction_stability": {
+    "drugs_analyzed": 544,
+    "direction_flippers": 92,
+    "flipper_pct": 16.9,
+    "top_flippers": [
+      {
+        "drug": "LURASIDONE",
+        "n_signals": 81,
+        "range_pp": 76.5,
+        "direction_by_threshold": [
+          {
+            "threshold": 10,
+            "pct_female": 23.5,
+            "n": 81
+          },
+          {
+            "threshold": 50,
+            "pct_female": 75.0,
+            "n": 16
+          },
+          {
+            "threshold": 100,
+            "pct_female": 100.0,
+            "n": 7
+          }
+        ]
+      },
+      {
+        "drug": "SOMATROPIN",
+        "n_signals": 218,
+        "range_pp": 62.8,
+        "direction_by_threshold": [
+          {
+            "threshold": 10,
+            "pct_female": 62.8,
+            "n": 218
+          },
+          {
+            "threshold": 50,
+            "pct_female": 49.1,
+            "n": 55
+          },
+          {
+            "threshold": 100,
+            "pct_female": 42.3,
+            "n": 26
+          },
+          {
+            "threshold": 500,
+            "pct_female": 0.0,
+            "n": 10
+          }
+        ]
+      },
+      {
+        "drug": "UNSATURATED FATTY ACIDS",
+        "n_signals": 64,
+        "range_pp": 60.9,
+        "direction_by_threshold": [
+          {
+            "threshold": 10,
+            "pct_female": 60.9,
+            "n": 64
+          },
+          {
+            "threshold": 50,
+            "pct_female": 12.5,
+            "n": 8
+          },
+          {
+            "threshold": 100,
+            "pct_female": 0.0,
+            "n": 5
+          }
+        ]
+      },
+      {
+        "drug": "DOMPERIDONE",
+        "n_signals": 89,
+        "range_pp": 60.7,
+        "direction_by_threshold": [
+          {
+            "threshold": 10,
+            "pct_female": 60.7,
+            "n": 89
+          },
+          {
+            "threshold": 50,
+            "pct_female": 7.1,
+            "n": 14
+          },
+          {
+            "threshold": 100,
+            "pct_female": 0.0,
+            "n": 7
+          }
+        ]
+      },
+      {
+        "drug": "CORTISONE",
+        "n_signals": 188,
+        "range_pp": 54.3,
+        "direction_by_threshold": [
+          {
+            "threshold": 10,
+            "pct_female": 45.7,
+            "n": 188
+          },
+          {
+            "threshold": 50,
+            "pct_female": 63.9,
+            "n": 36
+          },
+          {
+            "threshold": 100,
+            "pct_female": 100.0,
+            "n": 7
+          }
+        ]
+      },
+      {
+        "drug": "BECLOMETASONE",
+        "n_signals": 58,
+        "range_pp": 54.1,
+        "direction_by_threshold": [
+          {
+            "threshold": 10,
+            "pct_female": 25.9,
+            "n": 58
+          },
+          {
+            "threshold": 50,
+            "pct_female": 80.0,
+            "n": 5
+          }
+        ]
+      },
+      {
+        "drug": "VALSARTAN",
+        "n_signals": 219,
+        "range_pp": 50.7,
+        "direction_by_threshold": [
+          {
+            "threshold": 10,
+            "pct_female": 49.3,
+            "n": 219
+          },
+          {
+            "threshold": 50,
+            "pct_female": 57.7,
+            "n": 26
+          },
+          {
+            "threshold": 100,
+            "pct_female": 100.0,
+            "n": 5
+          }
+        ]
+      },
+      {
+        "drug": "TOCILIZUMAB",
+        "n_signals": 508,
+        "range_pp": 50.6,
+        "direction_by_threshold": [
+          {
+            "threshold": 10,
+            "pct_female": 49.4,
+            "n": 508
+          },
+          {
+            "threshold": 50,
+            "pct_female": 64.6,
+            "n": 164
+          },
+          {
+            "threshold": 100,
+            "pct_female": 70.7,
+            "n": 99
+          },
+          {
+            "threshold": 500,
+            "pct_female": 100.0,
+            "n": 11
+          }
+        ]
+      },
+      {
+        "drug": "VITAMIN D2",
+        "n_signals": 79,
+        "range_pp": 50.6,
+        "direction_by_threshold": [
+          {
+            "threshold": 10,
+            "pct_female": 50.6,
+            "n": 79
+          },
+          {
+            "threshold": 50,
+            "pct_female": 8.7,
+            "n": 23
+          },
+          {
+            "threshold": 100,
+            "pct_female": 0.0,
+            "n": 12
+          }
+        ]
+      },
+      {
+        "drug": "VITAMIN B3",
+        "n_signals": 76,
+        "range_pp": 46.8,
+        "direction_by_threshold": [
+          {
+            "threshold": 10,
+            "pct_female": 86.8,
+            "n": 76
+          },
+          {
+            "threshold": 50,
+            "pct_female": 80.0,
+            "n": 15
+          },
+          {
+            "threshold": 100,
+            "pct_female": 40.0,
+            "n": 5
+          }
+        ]
+      },
+      {
+        "drug": "VITAMIN B9",
+        "n_signals": 250,
+        "range_pp": 41.4,
+        "direction_by_threshold": [
+          {
+            "threshold": 10,
+            "pct_female": 46.8,
+            "n": 250
+          },
+          {
+            "threshold": 50,
+            "pct_female": 76.3,
+            "n": 59
+          },
+          {
+            "threshold": 100,
+            "pct_female": 88.2,
+            "n": 17
+          }
+        ]
+      },
+      {
+        "drug": "ERENUMAB",
+        "n_signals": 68,
+        "range_pp": 39.4,
+        "direction_by_threshold": [
+          {
+            "threshold": 10,
+            "pct_female": 79.4,
+            "n": 68
+          },
+          {
+            "threshold": 50,
+            "pct_female": 60.0,
+            "n": 10
+          },
+          {
+            "threshold": 100,
+            "pct_female": 40.0,
+            "n": 5
+          }
+        ]
+      },
+      {
+        "drug": "UNSPECIFIED",
+        "n_signals": 112,
+        "range_pp": 39.3,
+        "direction_by_threshold": [
+          {
+            "threshold": 10,
+            "pct_female": 53.6,
+            "n": 112
+          },
+          {
+            "threshold": 50,
+            "pct_female": 30.0,
+            "n": 20
+          },
+          {
+            "threshold": 100,
+            "pct_female": 14.3,
+            "n": 7
+          }
+        ]
+      },
+      {
+        "drug": "DEXLANSOPRAZOLE",
+        "n_signals": 78,
+        "range_pp": 38.8,
+        "direction_by_threshold": [
+          {
+            "threshold": 10,
+            "pct_female": 51.3,
+            "n": 78
+          },
+          {
+            "threshold": 50,
+            "pct_female": 31.2,
+            "n": 16
+          },
+          {
+            "threshold": 100,
+            "pct_female": 12.5,
+            "n": 8
+          }
+        ]
+      },
+      {
+        "drug": "METHOTREXATE",
+        "n_signals": 892,
+        "range_pp": 38.5,
+        "direction_by_threshold": [
+          {
+            "threshold": 10,
+            "pct_female": 48.5,
+            "n": 892
+          },
+          {
+            "threshold": 50,
+            "pct_female": 60.3,
+            "n": 297
+          },
+          {
+            "threshold": 100,
+            "pct_female": 72.5,
+            "n": 171
+          },
+          {
+            "threshold": 500,
+            "pct_female": 87.0,
+            "n": 46
+          }
+        ]
+      }
+    ]
+  },
+  "two_axis_sensitivity": [
+    {
+      "threshold": 10,
+      "n_signals": 96281,
+      "weak_pctF": 51.6,
+      "weak_n": 32094,
+      "medium_pctF": 53.4,
+      "medium_n": 32093,
+      "strong_pctF": 56.4,
+      "strong_n": 32094,
+      "gradient_pp": 4.8
+    },
+    {
+      "threshold": 50,
+      "n_signals": 18771,
+      "weak_pctF": 55.3,
+      "weak_n": 6257,
+      "medium_pctF": 58.2,
+      "medium_n": 6257,
+      "strong_pctF": 65.5,
+      "strong_n": 6257,
+      "gradient_pp": 10.2
+    },
+    {
+      "threshold": 100,
+      "n_signals": 8487,
+      "weak_pctF": 56.6,
+      "weak_n": 2829,
+      "medium_pctF": 61.0,
+      "medium_n": 2829,
+      "strong_pctF": 68.9,
+      "strong_n": 2829,
+      "gradient_pp": 12.3
+    },
+    {
+      "threshold": 500,
+      "n_signals": 916,
+      "weak_pctF": 60.8,
+      "weak_n": 306,
+      "medium_pctF": 66.4,
+      "medium_n": 304,
+      "strong_pctF": 73.9,
+      "strong_n": 306,
+      "gradient_pp": 13.1
+    }
+  ],
+  "key_findings": [
+    "Report threshold 10->>1000: 53.8%F -> 60.4%F (6.6pp shift), signals drop 96281->308",
+    "92/544 drugs (16.9%) flip sex-bias direction across thresholds",
+    "Strength gradient persists across thresholds: 4.8pp at t=10 -> 13.1pp at t=500",
+    "Effect size threshold: 53.8%F at |logR|>=0.5, peak 59.4%F at |logR|>=2.0, 21.4%F at |logR|>=5.0"
+  ]
+}
