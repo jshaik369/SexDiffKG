@@ -1,0 +1,86 @@
+{
+  "wave": 136,
+  "title": "Cross-KG Comparison: All 5 Derived KGs",
+  "timestamp": "2026-03-08T17:09:41.089737",
+  "comparison_table": [
+    {
+      "kg": "REPRODUCT",
+      "nodes": 13208,
+      "edges": 384985,
+      "mrr": 0.1629,
+      "hits_at_10": 0.2844,
+      "signals": 90174,
+      "pct_female": 54.1,
+      "domain_detail": "Reprod AEs: 840",
+      "domain_pct_female": "50.0"
+    },
+    {
+      "kg": "MENTALHEALTH",
+      "nodes": 17555,
+      "edges": 705561,
+      "mrr": 0.1277,
+      "hits_at_10": 0.2279,
+      "signals": 96277,
+      "pct_female": 53.8,
+      "domain_detail": "Psych: 2454, SexDys: 63",
+      "domain_pct_female": "54.2/71.4"
+    },
+    {
+      "kg": "GERIPHARM",
+      "nodes": 18754,
+      "edges": 739396,
+      "mrr": 0.1438,
+      "hits_at_10": 0.2546,
+      "signals": 96281,
+      "pct_female": 53.8,
+      "domain_detail": "Elderly: 7174, Falls: 872",
+      "domain_pct_female": "64.7/36.2"
+    },
+    {
+      "kg": "PCOS-ENDO",
+      "nodes": 36903,
+      "edges": 697819,
+      "mrr": 0.0675,
+      "hits_at_10": 0.1337,
+      "signals": 96277,
+      "pct_female": 53.8,
+      "domain_detail": "PCOS/Endo: 224, Horm: 389",
+      "domain_pct_female": "21.0/46.8"
+    },
+    {
+      "kg": "AYUR-PHARMA",
+      "nodes": 24316,
+      "edges": 293444,
+      "mrr": 0.0887,
+      "hits_at_10": 0.1756,
+      "signals": 60490,
+      "pct_female": 54.9,
+      "domain_detail": "Herbs: 5, Compounds: 8033",
+      "domain_pct_female": "64.0"
+    }
+  ],
+  "key_findings": {
+    "mrr_hierarchy": "REPRODUCT > GERIPHARM > MENTALHEALTH > AYUR-PHARMA > PCOS-ENDO",
+    "top3_outperform_parent": true,
+    "parent_distmult_mrr": 0.1013,
+    "sex_bias_spectrum": {
+      "elderly_aes": 64.7,
+      "ayurvedic_aes": 64.0,
+      "cognitive": 60.5,
+      "general": 53.8,
+      "psychiatric": 54.2,
+      "reproductive": 50.0,
+      "sexual_dysfunction": 71.4,
+      "falls_fractures": 36.2,
+      "pcos_endo": 21.0
+    },
+    "reversals": [
+      "falls_fractures (36.2%F)",
+      "pcos_endo_symptoms (21%F)"
+    ],
+    "amplifications": [
+      "sexual_dysfunction (71.4%F)",
+      "elderly_aes (64.7%F)"
+    ]
+  }
+}
