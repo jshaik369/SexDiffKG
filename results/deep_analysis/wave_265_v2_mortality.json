@@ -1,0 +1,955 @@
+{
+  "wave": 265,
+  "version": 2,
+  "title": "Mortality/Fatal Outcome Sex Bias",
+  "description": "Death and fatal outcome sex bias \u2014 per-drug breakdown across all mortality-related adverse events",
+  "overall_baseline": {
+    "total_signals": 96281,
+    "pct_female": 53.8
+  },
+  "mortality_overall": {
+    "total_signals": 950,
+    "unique_drugs": 636,
+    "unique_aes": 16,
+    "female_higher": 708,
+    "male_higher": 242,
+    "pct_female": 74.53,
+    "median_log_ratio": 0.6427,
+    "mean_log_ratio": 0.3198
+  },
+  "mortality_vs_baseline": {
+    "chi_square": 162.2982,
+    "p_value": "3.5608e-37",
+    "interpretation": "Mortality signals show significantly different sex bias than overall"
+  },
+  "top_20_drugs_by_mortality_signals": [
+    {
+      "drug": "OXYCODONE",
+      "total_mortality_signals": 6,
+      "female_higher": 5,
+      "male_higher": 1,
+      "pct_female": 83.33,
+      "median_log_ratio": 0.7632,
+      "mean_log_ratio": 0.6192,
+      "total_reports": 6633,
+      "top_5_mortality_aes": [
+        {
+          "adverse_event": "Completed suicide",
+          "log_ratio": 0.7229860440009319,
+          "n_reports": 3974,
+          "ror": 2.060577006865697
+        },
+        {
+          "adverse_event": "Cardiac arrest",
+          "log_ratio": 0.7998318027678701,
+          "n_reports": 1430,
+          "ror": 2.2251666301471587
+        },
+        {
+          "adverse_event": "Cardio-respiratory arrest",
+          "log_ratio": 0.7266668802456824,
+          "n_reports": 949,
+          "ror": 2.068175629461203
+        },
+        {
+          "adverse_event": "Near death experience",
+          "log_ratio": -0.5322799365991759,
+          "n_reports": 174,
+          "ror": 0.5872645163205158
+        },
+        {
+          "adverse_event": "Accidental death",
+          "log_ratio": 0.8756184407449938,
+          "n_reports": 82,
+          "ror": 2.400359315033293
+        }
+      ]
+    },
+    {
+      "drug": "HYDROCODONE;PARACETAMOL",
+      "total_mortality_signals": 5,
+      "female_higher": 4,
+      "male_higher": 1,
+      "pct_female": 80.0,
+      "median_log_ratio": 0.9273,
+      "mean_log_ratio": 0.5326,
+      "total_reports": 11358,
+      "top_5_mortality_aes": [
+        {
+          "adverse_event": "Death",
+          "log_ratio": 0.5789486577737565,
+          "n_reports": 5402,
+          "ror": 1.7841616798567308
+        },
+        {
+          "adverse_event": "Completed suicide",
+          "log_ratio": 0.9813102321543097,
+          "n_reports": 4296,
+          "ror": 2.667949586217597
+        },
+        {
+          "adverse_event": "Cardio-respiratory arrest",
+          "log_ratio": 1.0560292037328989,
+          "n_reports": 891,
+          "ror": 2.87493252305717
+        },
+        {
+          "adverse_event": "Cardiac arrest",
+          "log_ratio": 0.9273352974383933,
+          "n_reports": 685,
+          "ror": 2.527764454850845
+        },
+        {
+          "adverse_event": "Near death experience",
+          "log_ratio": -0.8804632718842538,
+          "n_reports": 84,
+          "ror": 0.41459079892418593
+        }
+      ]
+    },
+    {
+      "drug": "RISPERIDONE",
+      "total_mortality_signals": 5,
+      "female_higher": 5,
+      "male_higher": 0,
+      "pct_female": 100.0,
+      "median_log_ratio": 1.5612,
+      "mean_log_ratio": 1.4987,
+      "total_reports": 2531,
+      "top_5_mortality_aes": [
+        {
+          "adverse_event": "Completed suicide",
+          "log_ratio": 1.6489183102365472,
+          "n_reports": 1023,
+          "ror": 5.201350535524743
+        },
+        {
+          "adverse_event": "Death",
+          "log_ratio": 1.2630925966626418,
+          "n_reports": 774,
+          "ror": 3.536341070321471
+        },
+        {
+          "adverse_event": "Cardiac arrest",
+          "log_ratio": 1.5611751502364082,
+          "n_reports": 326,
+          "ror": 4.764416862250537
+        },
+        {
+          "adverse_event": "Cardio-respiratory arrest",
+          "log_ratio": 1.5672045772473016,
+          "n_reports": 286,
+          "ror": 4.7932303430703485
+        },
+        {
+          "adverse_event": "Sudden death",
+          "log_ratio": 1.4530106039863027,
+          "n_reports": 122,
+          "ror": 4.275968403998037
+        }
+      ]
+    },
+    {
+      "drug": "ALCOHOL",
+      "total_mortality_signals": 5,
+      "female_higher": 5,
+      "male_higher": 0,
+      "pct_female": 100.0,
+      "median_log_ratio": 0.7805,
+      "mean_log_ratio": 0.7661,
+      "total_reports": 4802,
+      "top_5_mortality_aes": [
+        {
+          "adverse_event": "Completed suicide",
+          "log_ratio": 0.8567953067134502,
+          "n_reports": 2959,
+          "ror": 2.3555996104430865
+        },
+        {
+          "adverse_event": "Cardio-respiratory arrest",
+          "log_ratio": 0.6812753426508791,
+          "n_reports": 822,
+          "ror": 1.9763967086275729
+        },
+        {
+          "adverse_event": "Death",
+          "log_ratio": 0.7805114149599659,
+          "n_reports": 644,
+          "ror": 2.182588188375032
+        },
+        {
+          "adverse_event": "Cardiac arrest",
+          "log_ratio": 0.8898132467982203,
+          "n_reports": 353,
+          "ror": 2.434674925492819
+        },
+        {
+          "adverse_event": "Accidental death",
+          "log_ratio": 0.6223353935354887,
+          "n_reports": 24,
+          "ror": 1.863274443682121
+        }
+      ]
+    },
+    {
+      "drug": "TRAMADOL",
+      "total_mortality_signals": 5,
+      "female_higher": 5,
+      "male_higher": 0,
+      "pct_female": 100.0,
+      "median_log_ratio": 0.7077,
+      "mean_log_ratio": 0.7991,
+      "total_reports": 3758,
+      "top_5_mortality_aes": [
+        {
+          "adverse_event": "Completed suicide",
+          "log_ratio": 0.6084432238013,
+          "n_reports": 2449,
+          "ror": 1.8375684880185428
+        },
+        {
+          "adverse_event": "Cardio-respiratory arrest",
+          "log_ratio": 0.7077249491009923,
+          "n_reports": 669,
+          "ror": 2.029369084839173
+        },
+        {
+          "adverse_event": "Cardiac arrest",
+          "log_ratio": 0.753153059625332,
+          "n_reports": 553,
+          "ror": 2.1236855783403943
+        },
+        {
+          "adverse_event": "Accidental death",
+          "log_ratio": 0.6795787765973591,
+          "n_reports": 46,
+          "ror": 1.9730464638228247
+        },
+        {
+          "adverse_event": "Sudden death",
+          "log_ratio": 1.2464915172367108,
+          "n_reports": 41,
+          "ror": 3.478118606359771
+        }
+      ]
+    },
+    {
+      "drug": "OXYMORPHONE",
+      "total_mortality_signals": 4,
+      "female_higher": 4,
+      "male_higher": 0,
+      "pct_female": 100.0,
+      "median_log_ratio": 0.5931,
+      "mean_log_ratio": 0.5815,
+      "total_reports": 1275,
+      "top_5_mortality_aes": [
+        {
+          "adverse_event": "Death",
+          "log_ratio": 0.5304073125418299,
+          "n_reports": 876,
+          "ror": 1.699624446004121
+        },
+        {
+          "adverse_event": "Completed suicide",
+          "log_ratio": 0.6093613703750687,
+          "n_reports": 208,
+          "ror": 1.8392564199957866
+        },
+        {
+          "adverse_event": "Cardiac arrest",
+          "log_ratio": 0.5968734056501515,
+          "n_reports": 105,
+          "ror": 1.8164306709149303
+        },
+        {
+          "adverse_event": "Cardio-respiratory arrest",
+          "log_ratio": 0.5894044631879152,
+          "n_reports": 86,
+          "ror": 1.8029143937293763
+        }
+      ]
+    },
+    {
+      "drug": "LEVETIRACETAM",
+      "total_mortality_signals": 4,
+      "female_higher": 4,
+      "male_higher": 0,
+      "pct_female": 100.0,
+      "median_log_ratio": 0.6195,
+      "mean_log_ratio": 0.642,
+      "total_reports": 1016,
+      "top_5_mortality_aes": [
+        {
+          "adverse_event": "Cardiac arrest",
+          "log_ratio": 0.6211080097499238,
+          "n_reports": 406,
+          "ror": 1.8609888937522772
+        },
+        {
+          "adverse_event": "Stillbirth",
+          "log_ratio": 0.5900373496409155,
+          "n_reports": 295,
+          "ror": 1.8040557949756812
+        },
+        {
+          "adverse_event": "Cardio-respiratory arrest",
+          "log_ratio": 0.6179365727879153,
+          "n_reports": 194,
+          "ror": 1.8550962338275252
+        },
+        {
+          "adverse_event": "Sudden unexplained death in epilepsy",
+          "log_ratio": 0.7387937541150578,
+          "n_reports": 121,
+          "ror": 2.093408825115602
+        }
+      ]
+    },
+    {
+      "drug": "ETHANOL",
+      "total_mortality_signals": 4,
+      "female_higher": 4,
+      "male_higher": 0,
+      "pct_female": 100.0,
+      "median_log_ratio": 0.7738,
+      "mean_log_ratio": 0.8114,
+      "total_reports": 4345,
+      "top_5_mortality_aes": [
+        {
+          "adverse_event": "Completed suicide",
+          "log_ratio": 0.7642252093397124,
+          "n_reports": 3087,
+          "ror": 2.147329998739446
+        },
+        {
+          "adverse_event": "Cardio-respiratory arrest",
+          "log_ratio": 0.593301710852991,
+          "n_reports": 727,
+          "ror": 1.809954507262933
+        },
+        {
+          "adverse_event": "Cardiac arrest",
+          "log_ratio": 0.7833259811631335,
+          "n_reports": 506,
+          "ror": 2.1887398804367195
+        },
+        {
+          "adverse_event": "Sudden death",
+          "log_ratio": 1.1049088175831034,
+          "n_reports": 25,
+          "ror": 3.0189491811732365
+        }
+      ]
+    },
+    {
+      "drug": "PHENCYCLIDINE",
+      "total_mortality_signals": 4,
+      "female_higher": 4,
+      "male_higher": 0,
+      "pct_female": 100.0,
+      "median_log_ratio": 0.9315,
+      "mean_log_ratio": 1.0392,
+      "total_reports": 145,
+      "top_5_mortality_aes": [
+        {
+          "adverse_event": "Completed suicide",
+          "log_ratio": 0.8242599414849883,
+          "n_reports": 62,
+          "ror": 2.280192664762326
+        },
+        {
+          "adverse_event": "Death",
+          "log_ratio": 1.5810471678975844,
+          "n_reports": 34,
+          "ror": 4.860042427913181
+        },
+        {
+          "adverse_event": "Cardiac arrest",
+          "log_ratio": 0.7126782243270364,
+          "n_reports": 27,
+          "ror": 2.039446044826615
+        },
+        {
+          "adverse_event": "Cardio-respiratory arrest",
+          "log_ratio": 1.03881615864747,
+          "n_reports": 22,
+          "ror": 2.8258696520186026
+        }
+      ]
+    },
+    {
+      "drug": "CALCIUM",
+      "total_mortality_signals": 4,
+      "female_higher": 0,
+      "male_higher": 4,
+      "pct_female": 0.0,
+      "median_log_ratio": -0.738,
+      "mean_log_ratio": -0.8009,
+      "total_reports": 362,
+      "top_5_mortality_aes": [
+        {
+          "adverse_event": "Death",
+          "log_ratio": -1.160722345522427,
+          "n_reports": 198,
+          "ror": 0.3132598173097014
+        },
+        {
+          "adverse_event": "Cardiac arrest",
+          "log_ratio": -0.8762101842199834,
+          "n_reports": 95,
+          "ror": 0.41635784497405104
+        },
+        {
+          "adverse_event": "Completed suicide",
+          "log_ratio": -0.5670581762043205,
+          "n_reports": 46,
+          "ror": 0.5671915644147035
+        },
+        {
+          "adverse_event": "Cardio-respiratory arrest",
+          "log_ratio": -0.5996910111766421,
+          "n_reports": 23,
+          "ror": 0.5489812389570533
+        }
+      ]
+    },
+    {
+      "drug": "FLUOXETINE",
+      "total_mortality_signals": 4,
+      "female_higher": 3,
+      "male_higher": 1,
+      "pct_female": 75.0,
+      "median_log_ratio": 0.8124,
+      "mean_log_ratio": 0.4892,
+      "total_reports": 1118,
+      "top_5_mortality_aes": [
+        {
+          "adverse_event": "Cardio-respiratory arrest",
+          "log_ratio": 0.9887588211681448,
+          "n_reports": 531,
+          "ror": 2.687896241190101
+        },
+        {
+          "adverse_event": "Cardiac arrest",
+          "log_ratio": 0.7353838973727851,
+          "n_reports": 524,
+          "ror": 2.0862827572588487
+        },
+        {
+          "adverse_event": "Accidental death",
+          "log_ratio": 0.8893833643164926,
+          "n_reports": 42,
+          "ror": 2.4336285263240978
+        },
+        {
+          "adverse_event": "Brain death",
+          "log_ratio": -0.6566126303919335,
+          "n_reports": 21,
+          "ror": 0.5186050695916316
+        }
+      ]
+    },
+    {
+      "drug": "OXYCODONE;PARACETAMOL",
+      "total_mortality_signals": 4,
+      "female_higher": 3,
+      "male_higher": 1,
+      "pct_female": 75.0,
+      "median_log_ratio": 0.8826,
+      "mean_log_ratio": 0.5184,
+      "total_reports": 2254,
+      "top_5_mortality_aes": [
+        {
+          "adverse_event": "Completed suicide",
+          "log_ratio": 0.8052009301528409,
+          "n_reports": 1447,
+          "ror": 2.2371459637433686
+        },
+        {
+          "adverse_event": "Cardio-respiratory arrest",
+          "log_ratio": 0.9820664309407168,
+          "n_reports": 374,
+          "ror": 2.6699678494648214
+        },
+        {
+          "adverse_event": "Cardiac arrest",
+          "log_ratio": 0.9599154613375187,
+          "n_reports": 355,
+          "ror": 2.6114756934288015
+        },
+        {
+          "adverse_event": "Near death experience",
+          "log_ratio": -0.6735606320498795,
+          "n_reports": 78,
+          "ror": 0.5098898117241851
+        }
+      ]
+    },
+    {
+      "drug": "METHOTREXATE",
+      "total_mortality_signals": 4,
+      "female_higher": 2,
+      "male_higher": 2,
+      "pct_female": 50.0,
+      "median_log_ratio": 0.0062,
+      "mean_log_ratio": -0.6045,
+      "total_reports": 600,
+      "top_5_mortality_aes": [
+        {
+          "adverse_event": "Apparent death",
+          "log_ratio": -3.16302223380099,
+          "n_reports": 296,
+          "ror": 0.04229771413291877
+        },
+        {
+          "adverse_event": "Cardio-respiratory arrest",
+          "log_ratio": -0.5650226692778273,
+          "n_reports": 187,
+          "ror": 0.5683472625895056
+        },
+        {
+          "adverse_event": "Sudden death",
+          "log_ratio": 0.7327097392466476,
+          "n_reports": 61,
+          "ror": 2.080711160256069
+        },
+        {
+          "adverse_event": "Cell death",
+          "log_ratio": 0.5774240632898677,
+          "n_reports": 56,
+          "ror": 1.7814436292901898
+        }
+      ]
+    },
+    {
+      "drug": "TRAZODONE",
+      "total_mortality_signals": 4,
+      "female_higher": 4,
+      "male_higher": 0,
+      "pct_female": 100.0,
+      "median_log_ratio": 0.6654,
+      "mean_log_ratio": 0.6645,
+      "total_reports": 3717,
+      "top_5_mortality_aes": [
+        {
+          "adverse_event": "Completed suicide",
+          "log_ratio": 0.6000994935773827,
+          "n_reports": 2645,
+          "ror": 1.8223000985272266
+        },
+        {
+          "adverse_event": "Cardio-respiratory arrest",
+          "log_ratio": 0.5862964707985507,
+          "n_reports": 602,
+          "ror": 1.7973196482317937
+        },
+        {
+          "adverse_event": "Cardiac arrest",
+          "log_ratio": 0.7306463071247247,
+          "n_reports": 439,
+          "ror": 2.076422180542592
+        },
+        {
+          "adverse_event": "Accidental death",
+          "log_ratio": 0.7410714882805611,
+          "n_reports": 31,
+          "ror": 2.098182488423096
+        }
+      ]
+    },
+    {
+      "drug": "OXCARBAZEPINE",
+      "total_mortality_signals": 4,
+      "female_higher": 4,
+      "male_higher": 0,
+      "pct_female": 100.0,
+      "median_log_ratio": 0.7988,
+      "mean_log_ratio": 0.8016,
+      "total_reports": 709,
+      "top_5_mortality_aes": [
+        {
+          "adverse_event": "Completed suicide",
+          "log_ratio": 0.5584968708598295,
+          "n_reports": 354,
+          "ror": 1.7480429901877372
+        },
+        {
+          "adverse_event": "Death",
+          "log_ratio": 0.5301188244053772,
+          "n_reports": 147,
+          "ror": 1.6991341952341894
+        },
+        {
+          "adverse_event": "Cardiac arrest",
+          "log_ratio": 1.0788207153686726,
+          "n_reports": 110,
+          "ror": 2.9412089825230545
+        },
+        {
+          "adverse_event": "Cardio-respiratory arrest",
+          "log_ratio": 1.039055439869409,
+          "n_reports": 98,
+          "ror": 2.8265459104667254
+        }
+      ]
+    },
+    {
+      "drug": "BENZODIAZEPINES, UNSPECIFIED",
+      "total_mortality_signals": 4,
+      "female_higher": 4,
+      "male_higher": 0,
+      "pct_female": 100.0,
+      "median_log_ratio": 0.9245,
+      "mean_log_ratio": 0.9395,
+      "total_reports": 729,
+      "top_5_mortality_aes": [
+        {
+          "adverse_event": "Completed suicide",
+          "log_ratio": 1.0364989388831178,
+          "n_reports": 389,
+          "ror": 2.8193290719168442
+        },
+        {
+          "adverse_event": "Cardio-respiratory arrest",
+          "log_ratio": 0.8807423115432447,
+          "n_reports": 134,
+          "ror": 2.4126900094980006
+        },
+        {
+          "adverse_event": "Death",
+          "log_ratio": 0.9683122676201452,
+          "n_reports": 124,
+          "ror": 2.6334960699751533
+        },
+        {
+          "adverse_event": "Cardiac arrest",
+          "log_ratio": 0.872602483284239,
+          "n_reports": 82,
+          "ror": 2.393130839315446
+        }
+      ]
+    },
+    {
+      "drug": "OLANZAPINE",
+      "total_mortality_signals": 4,
+      "female_higher": 4,
+      "male_higher": 0,
+      "pct_female": 100.0,
+      "median_log_ratio": 0.6073,
+      "mean_log_ratio": 0.6347,
+      "total_reports": 2393,
+      "top_5_mortality_aes": [
+        {
+          "adverse_event": "Completed suicide",
+          "log_ratio": 0.5946928695142559,
+          "n_reports": 1394,
+          "ror": 1.8124741933874287
+        },
+        {
+          "adverse_event": "Cardiac arrest",
+          "log_ratio": 0.5722554100167937,
+          "n_reports": 488,
+          "ror": 1.7722597195131786
+        },
+        {
+          "adverse_event": "Cardio-respiratory arrest",
+          "log_ratio": 0.7520913636476476,
+          "n_reports": 478,
+          "ror": 2.1214320663879707
+        },
+        {
+          "adverse_event": "Sudden cardiac death",
+          "log_ratio": 0.6198958526394984,
+          "n_reports": 33,
+          "ror": 1.858734449478663
+        }
+      ]
+    },
+    {
+      "drug": "VALPROIC ACID",
+      "total_mortality_signals": 4,
+      "female_higher": 4,
+      "male_higher": 0,
+      "pct_female": 100.0,
+      "median_log_ratio": 0.8472,
+      "mean_log_ratio": 0.8352,
+      "total_reports": 377,
+      "top_5_mortality_aes": [
+        {
+          "adverse_event": "Cardio-respiratory arrest",
+          "log_ratio": 0.840760842577834,
+          "n_reports": 260,
+          "ror": 2.318130038023895
+        },
+        {
+          "adverse_event": "Sudden unexplained death in epilepsy",
+          "log_ratio": 0.8536304453075454,
+          "n_reports": 62,
+          "ror": 2.3481562489649073
+        },
+        {
+          "adverse_event": "Brain death",
+          "log_ratio": 1.0388897018872196,
+          "n_reports": 32,
+          "ror": 2.8260774832701205
+        },
+        {
+          "adverse_event": "Cell death",
+          "log_ratio": 0.6075054181319142,
+          "n_reports": 23,
+          "ror": 1.8358460136719381
+        }
+      ]
+    },
+    {
+      "drug": "HYDROMORPHONE",
+      "total_mortality_signals": 4,
+      "female_higher": 3,
+      "male_higher": 1,
+      "pct_female": 75.0,
+      "median_log_ratio": 0.6682,
+      "mean_log_ratio": 0.3984,
+      "total_reports": 1250,
+      "top_5_mortality_aes": [
+        {
+          "adverse_event": "Completed suicide",
+          "log_ratio": 0.6776647011252493,
+          "n_reports": 702,
+          "ror": 1.9692735159864518
+        },
+        {
+          "adverse_event": "Cardiac arrest",
+          "log_ratio": 0.658808085002879,
+          "n_reports": 298,
+          "ror": 1.9324876001988276
+        },
+        {
+          "adverse_event": "Cardio-respiratory arrest",
+          "log_ratio": 0.9105486023313216,
+          "n_reports": 183,
+          "ror": 2.4856858124332266
+        },
+        {
+          "adverse_event": "Near death experience",
+          "log_ratio": -0.6534074801899152,
+          "n_reports": 67,
+          "ror": 0.520269943395236
+        }
+      ]
+    },
+    {
+      "drug": "HYDROCODONE",
+      "total_mortality_signals": 4,
+      "female_higher": 4,
+      "male_higher": 0,
+      "pct_female": 100.0,
+      "median_log_ratio": 0.8627,
+      "mean_log_ratio": 0.9341,
+      "total_reports": 1473,
+      "top_5_mortality_aes": [
+        {
+          "adverse_event": "Completed suicide",
+          "log_ratio": 0.6800761042176804,
+          "n_reports": 1002,
+          "ror": 1.9740279583674043
+        },
+        {
+          "adverse_event": "Cardio-respiratory arrest",
+          "log_ratio": 0.865008128274718,
+          "n_reports": 217,
+          "ror": 2.375025390757493
+        },
+        {
+          "adverse_event": "Cardiac arrest",
+          "log_ratio": 0.8603009164875894,
+          "n_reports": 211,
+          "ror": 2.363871914725053
+        },
+        {
+          "adverse_event": "Accidental death",
+          "log_ratio": 1.3311177324605796,
+          "n_reports": 43,
+          "ror": 3.785271945255783
+        }
+      ]
+    }
+  ],
+  "top_20_mortality_ae_types": [
+    {
+      "adverse_event": "Death",
+      "signal_count": 337,
+      "drug_count": 337,
+      "female_higher": 251,
+      "male_higher": 86,
+      "pct_female": 74.48,
+      "total_reports": 124140,
+      "median_log_ratio": 0.6054
+    },
+    {
+      "adverse_event": "Cardiac arrest",
+      "signal_count": 210,
+      "drug_count": 210,
+      "female_higher": 178,
+      "male_higher": 32,
+      "pct_female": 84.76,
+      "total_reports": 34497,
+      "median_log_ratio": 0.7298
+    },
+    {
+      "adverse_event": "Completed suicide",
+      "signal_count": 147,
+      "drug_count": 147,
+      "female_higher": 91,
+      "male_higher": 56,
+      "pct_female": 61.9,
+      "total_reports": 59735,
+      "median_log_ratio": 0.6084
+    },
+    {
+      "adverse_event": "Cardio-respiratory arrest",
+      "signal_count": 141,
+      "drug_count": 141,
+      "female_higher": 109,
+      "male_higher": 32,
+      "pct_female": 77.3,
+      "total_reports": 23327,
+      "median_log_ratio": 0.6813
+    },
+    {
+      "adverse_event": "Sudden death",
+      "signal_count": 37,
+      "drug_count": 37,
+      "female_higher": 35,
+      "male_higher": 2,
+      "pct_female": 94.59,
+      "total_reports": 1708,
+      "median_log_ratio": 0.9176
+    },
+    {
+      "adverse_event": "Accidental death",
+      "signal_count": 20,
+      "drug_count": 20,
+      "female_higher": 17,
+      "male_higher": 3,
+      "pct_female": 85.0,
+      "total_reports": 1092,
+      "median_log_ratio": 0.7711
+    },
+    {
+      "adverse_event": "Apparent death",
+      "signal_count": 15,
+      "drug_count": 15,
+      "female_higher": 2,
+      "male_higher": 13,
+      "pct_female": 13.33,
+      "total_reports": 3712,
+      "median_log_ratio": -3.163
+    },
+    {
+      "adverse_event": "Brain death",
+      "signal_count": 11,
+      "drug_count": 11,
+      "female_higher": 8,
+      "male_higher": 3,
+      "pct_female": 72.73,
+      "total_reports": 427,
+      "median_log_ratio": 0.6305
+    },
+    {
+      "adverse_event": "Sudden cardiac death",
+      "signal_count": 7,
+      "drug_count": 7,
+      "female_higher": 7,
+      "male_higher": 0,
+      "pct_female": 100.0,
+      "total_reports": 504,
+      "median_log_ratio": 0.9688
+    },
+    {
+      "adverse_event": "Cell death",
+      "signal_count": 7,
+      "drug_count": 7,
+      "female_higher": 6,
+      "male_higher": 1,
+      "pct_female": 85.71,
+      "total_reports": 264,
+      "median_log_ratio": 0.7647
+    },
+    {
+      "adverse_event": "Near death experience",
+      "signal_count": 7,
+      "drug_count": 7,
+      "female_higher": 0,
+      "male_higher": 7,
+      "pct_female": 0.0,
+      "total_reports": 530,
+      "median_log_ratio": -0.6534
+    },
+    {
+      "adverse_event": "Fear of death",
+      "signal_count": 4,
+      "drug_count": 4,
+      "female_higher": 0,
+      "male_higher": 4,
+      "pct_female": 0.0,
+      "total_reports": 129,
+      "median_log_ratio": -0.9185
+    },
+    {
+      "adverse_event": "Sudden unexplained death in epilepsy",
+      "signal_count": 3,
+      "drug_count": 3,
+      "female_higher": 2,
+      "male_higher": 1,
+      "pct_female": 66.67,
+      "total_reports": 247,
+      "median_log_ratio": 0.7388
+    },
+    {
+      "adverse_event": "Stillbirth",
+      "signal_count": 2,
+      "drug_count": 2,
+      "female_higher": 1,
+      "male_higher": 1,
+      "pct_female": 50.0,
+      "total_reports": 418,
+      "median_log_ratio": -2.4751
+    },
+    {
+      "adverse_event": "Foetal death",
+      "signal_count": 1,
+      "drug_count": 1,
+      "female_higher": 0,
+      "male_higher": 1,
+      "pct_female": 0.0,
+      "total_reports": 82,
+      "median_log_ratio": -1.5835
+    },
+    {
+      "adverse_event": "Cardiac death",
+      "signal_count": 1,
+      "drug_count": 1,
+      "female_higher": 1,
+      "male_higher": 0,
+      "pct_female": 100.0,
+      "total_reports": 47,
+      "median_log_ratio": 0.6818
+    }
+  ],
+  "key_findings": [
+    "Mortality signals: 950 across 636 drugs",
+    "Overall mortality bias: 74.5% female-biased",
+    "Comparison to baseline (53.8%F): chi2=162.30, p=3.56e-37",
+    "Median log ratio: 0.643",
+    "Most common mortality AE: Death (337 drug-AE pairs)",
+    "Top drug by mortality signals: OXYCODONE (6 signals)"
+  ],
+  "figures_generated": [
+    "wave_265_v2_mortality_overview.png",
+    "wave_265_v2_mortality_overview.pdf",
+    "wave_265_v2_mortality_distribution.png",
+    "wave_265_v2_mortality_distribution.pdf",
+    "wave_265_v2_mortality_extremes.png",
+    "wave_265_v2_mortality_extremes.pdf"
+  ]
+}
