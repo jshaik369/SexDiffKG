@@ -1,0 +1,119 @@
+{
+  "wave": 155,
+  "title": "Long Tail Drug Analysis",
+  "description": "Characterizing drugs with few sex-differential signals (the pharmacovigilance long tail)",
+  "total_drugs": 2178,
+  "tier_analysis": [
+    {
+      "tier": "1 signal",
+      "n_drugs": 372,
+      "total_signals": 372,
+      "mean_pct_female": 43.8,
+      "median_pct_female": 0.0,
+      "mean_abs_logR": 0.9963,
+      "pct_above_50": 43.8,
+      "pct_100_female": 43.8,
+      "pct_0_female": 56.2
+    },
+    {
+      "tier": "2-3 signals",
+      "n_drugs": 306,
+      "total_signals": 743,
+      "mean_pct_female": 43.4,
+      "median_pct_female": 33.3,
+      "mean_abs_logR": 0.9577,
+      "pct_above_50": 35.6,
+      "pct_100_female": 27.1,
+      "pct_0_female": 39.5
+    },
+    {
+      "tier": "4-5 signals",
+      "n_drugs": 191,
+      "total_signals": 849,
+      "mean_pct_female": 42.8,
+      "median_pct_female": 40.0,
+      "mean_abs_logR": 0.9725,
+      "pct_above_50": 37.2,
+      "pct_100_female": 18.3,
+      "pct_0_female": 30.4
+    },
+    {
+      "tier": "6-10 signals",
+      "n_drugs": 252,
+      "total_signals": 1967,
+      "mean_pct_female": 42.5,
+      "median_pct_female": 33.3,
+      "mean_abs_logR": 0.9316,
+      "pct_above_50": 37.3,
+      "pct_100_female": 7.5,
+      "pct_0_female": 15.9
+    },
+    {
+      "tier": "11-20 signals",
+      "n_drugs": 270,
+      "total_signals": 4017,
+      "mean_pct_female": 41.7,
+      "median_pct_female": 38.5,
+      "mean_abs_logR": 0.9452,
+      "pct_above_50": 34.8,
+      "pct_100_female": 1.5,
+      "pct_0_female": 7.4
+    },
+    {
+      "tier": "21-50 signals",
+      "n_drugs": 320,
+      "total_signals": 10454,
+      "mean_pct_female": 50.2,
+      "median_pct_female": 51.9,
+      "mean_abs_logR": 0.908,
+      "pct_above_50": 51.6,
+      "pct_100_female": 0.3,
+      "pct_0_female": 2.5
+    },
+    {
+      "tier": "51-100 signals",
+      "n_drugs": 196,
+      "total_signals": 14049,
+      "mean_pct_female": 49.8,
+      "median_pct_female": 51.0,
+      "mean_abs_logR": 0.9799,
+      "pct_above_50": 52.0,
+      "pct_100_female": 0.0,
+      "pct_0_female": 0.5
+    },
+    {
+      "tier": "100+ signals",
+      "n_drugs": 271,
+      "total_signals": 63830,
+      "mean_pct_female": 55.6,
+      "median_pct_female": 56.5,
+      "mean_abs_logR": 0.9822,
+      "pct_above_50": 61.3,
+      "pct_100_female": 0.0,
+      "pct_0_female": 0.0
+    }
+  ],
+  "long_tail": {
+    "n_drugs": 1121,
+    "pct_of_all_drugs": 51.5,
+    "mean_pctF": 43.2,
+    "signals_contributed": 3931
+  },
+  "head": {
+    "n_drugs": 1057,
+    "mean_pctF": 49.3,
+    "signals_contributed": 92350
+  },
+  "long_tail_vs_head_p": 1.59e-07,
+  "single_signal_drugs": {
+    "n": 372,
+    "mean_pctF": 43.8,
+    "pct_female_biased": 43.8
+  },
+  "key_findings": [
+    "Long tail (1-10 signals): 1121 drugs (51.5% of all drugs)",
+    "Long tail is more male-biased: 43.2%F vs head 49.3%F (p=1.59e-07)",
+    "Single-signal drugs: 43.8% are female-biased",
+    "Long tail contributes 4.1% of all signals despite being 51.5% of drugs"
+  ]
+}
