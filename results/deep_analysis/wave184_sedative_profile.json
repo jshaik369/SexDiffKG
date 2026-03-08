@@ -1,0 +1,190 @@
+{
+  "wave": 184,
+  "title": "Benzodiazepine/Sedative-Hypnotic Sex-Differential Profile",
+  "total_signals": 1858,
+  "per_drug": [
+    {
+      "drug": "CHLORDIAZEPOXIDE",
+      "class": "BZD-long",
+      "n_signals": 8,
+      "pct_female": 87.5
+    },
+    {
+      "drug": "DIAZEPAM",
+      "class": "BZD-long",
+      "n_signals": 250,
+      "pct_female": 76.4
+    },
+    {
+      "drug": "ALPRAZOLAM",
+      "class": "BZD-short",
+      "n_signals": 237,
+      "pct_female": 75.1
+    },
+    {
+      "drug": "OXAZEPAM",
+      "class": "BZD-short",
+      "n_signals": 88,
+      "pct_female": 64.8
+    },
+    {
+      "drug": "HYDROXYZINE",
+      "class": "Antihistamine",
+      "n_signals": 78,
+      "pct_female": 64.1
+    },
+    {
+      "drug": "MIDAZOLAM",
+      "class": "BZD-short",
+      "n_signals": 107,
+      "pct_female": 62.6
+    },
+    {
+      "drug": "LORAZEPAM",
+      "class": "BZD-short",
+      "n_signals": 264,
+      "pct_female": 62.5
+    },
+    {
+      "drug": "CLONAZEPAM",
+      "class": "BZD-long",
+      "n_signals": 285,
+      "pct_female": 62.1
+    },
+    {
+      "drug": "ZOLPIDEM",
+      "class": "Z-drug",
+      "n_signals": 146,
+      "pct_female": 60.3
+    },
+    {
+      "drug": "ZOPICLONE",
+      "class": "Z-drug",
+      "n_signals": 161,
+      "pct_female": 60.2
+    },
+    {
+      "drug": "TEMAZEPAM",
+      "class": "BZD-short",
+      "n_signals": 71,
+      "pct_female": 50.7
+    },
+    {
+      "drug": "TRIAZOLAM",
+      "class": "BZD-short",
+      "n_signals": 14,
+      "pct_female": 35.7
+    },
+    {
+      "drug": "MELATONIN",
+      "class": "Melatonin",
+      "n_signals": 68,
+      "pct_female": 30.9
+    },
+    {
+      "drug": "BUSPIRONE",
+      "class": "Azapirone",
+      "n_signals": 50,
+      "pct_female": 28.0
+    },
+    {
+      "drug": "SUVOREXANT",
+      "class": "DORA",
+      "n_signals": 18,
+      "pct_female": 16.7
+    },
+    {
+      "drug": "LEMBOREXANT",
+      "class": "DORA",
+      "n_signals": 5,
+      "pct_female": 0.0
+    },
+    {
+      "drug": "ESZOPICLONE",
+      "class": "Z-drug",
+      "n_signals": 8,
+      "pct_female": 0.0
+    }
+  ],
+  "per_class": [
+    {
+      "class": "BZD-long",
+      "n_drugs": 3,
+      "n_signals": 543,
+      "pct_female": 69.1
+    },
+    {
+      "class": "BZD-short",
+      "n_drugs": 6,
+      "n_signals": 781,
+      "pct_female": 65.0
+    },
+    {
+      "class": "Antihistamine",
+      "n_drugs": 1,
+      "n_signals": 78,
+      "pct_female": 64.1
+    },
+    {
+      "class": "Z-drug",
+      "n_drugs": 3,
+      "n_signals": 315,
+      "pct_female": 58.7
+    },
+    {
+      "class": "Melatonin",
+      "n_drugs": 1,
+      "n_signals": 68,
+      "pct_female": 30.9
+    },
+    {
+      "class": "Azapirone",
+      "n_drugs": 1,
+      "n_signals": 50,
+      "pct_female": 28.0
+    },
+    {
+      "class": "DORA",
+      "n_drugs": 2,
+      "n_signals": 23,
+      "pct_female": 13.0
+    }
+  ],
+  "ae_categories": [
+    {
+      "category": "Dependence",
+      "n": 44,
+      "pct_female": 68.2
+    },
+    {
+      "category": "Other",
+      "n": 1741,
+      "pct_female": 63.0
+    },
+    {
+      "category": "Respiratory",
+      "n": 10,
+      "pct_female": 50.0
+    },
+    {
+      "category": "Cognitive",
+      "n": 19,
+      "pct_female": 47.4
+    },
+    {
+      "category": "Sedation",
+      "n": 14,
+      "pct_female": 42.9
+    },
+    {
+      "category": "Paradoxical",
+      "n": 19,
+      "pct_female": 31.6
+    },
+    {
+      "category": "Falls/Fractures",
+      "n": 11,
+      "pct_female": 27.3
+    }
+  ]
+}
