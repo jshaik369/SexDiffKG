@@ -1,0 +1,50 @@
+{
+  "wave": 160,
+  "title": "Drug Approval Era Analysis",
+  "total_drugs": 2178,
+  "maturity_quintiles": [
+    {
+      "quintile": "Q1_newest",
+      "n_drugs": 440,
+      "mean_pct_female": 42.4,
+      "mean_signals": 1.3
+    },
+    {
+      "quintile": "Q2",
+      "n_drugs": 432,
+      "mean_pct_female": 44.8,
+      "mean_signals": 3.8
+    },
+    {
+      "quintile": "Q3",
+      "n_drugs": 435,
+      "mean_pct_female": 44.5,
+      "mean_signals": 11.1
+    },
+    {
+      "quintile": "Q4",
+      "n_drugs": 435,
+      "mean_pct_female": 46.7,
+      "mean_signals": 32.9
+    },
+    {
+      "quintile": "Q5_established",
+      "n_drugs": 436,
+      "mean_pct_female": 52.4,
+      "mean_signals": 171.9
+    }
+  ],
+  "volume_female_correlation": {
+    "rho": 0.1205,
+    "p": 1.702030400553933e-08
+  },
+  "signal_count_female_correlation": {
+    "rho": 0.1321,
+    "p": 6.136939883149402e-10
+  },
+  "evidence_shift": {
+    "n_drugs_analyzed": 644,
+    "mean_shift_pp": 14.3,
+    "pct_shift_female": 65.1
+  }
+}
