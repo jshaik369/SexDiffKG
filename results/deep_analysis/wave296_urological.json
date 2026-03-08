@@ -1,0 +1,33 @@
+{
+  "wave": 296,
+  "title": "Urological Drug Deep Dive",
+  "uro_signals": 926,
+  "uro_pct_f": 66.7,
+  "classes": {
+    "Alpha-blocker": {
+      "n": 129,
+      "pct_f": 66.7,
+      "n_drugs": 6
+    },
+    "5-ARI": {
+      "n": 19,
+      "pct_f": 78.9,
+      "n_drugs": 2
+    },
+    "PDE5i": {
+      "n": 530,
+      "pct_f": 80.6,
+      "n_drugs": 2
+    },
+    "Antimuscarinics": {
+      "n": 148,
+      "pct_f": 12.2,
+      "n_drugs": 5
+    },
+    "Beta-3 agonist": {
+      "n": 100,
+      "pct_f": 72.0,
+      "n_drugs": 2
+    }
+  }
+}

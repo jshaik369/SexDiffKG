@@ -1,0 +1,33 @@
+{
+  "wave": 297,
+  "title": "Dermatological Drug Deep Dive",
+  "derm_signals": 4587,
+  "derm_pct_f": 50.3,
+  "classes": {
+    "Retinoid": {
+      "n": 299,
+      "pct_f": 17.1,
+      "n_drugs": 4
+    },
+    "Psoriasis biologic": {
+      "n": 1042,
+      "pct_f": 49.6,
+      "n_drugs": 7
+    },
+    "Topical steroid": {
+      "n": 839,
+      "pct_f": 47.3,
+      "n_drugs": 6
+    },
+    "Immunosuppressant": {
+      "n": 1792,
+      "pct_f": 56.0,
+      "n_drugs": 4
+    },
+    "Antihistamine": {
+      "n": 615,
+      "pct_f": 54.8,
+      "n_drugs": 6
+    }
+  }
+}
