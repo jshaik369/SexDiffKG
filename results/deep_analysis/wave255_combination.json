@@ -1,0 +1,12 @@
+{
+  "wave": 255,
+  "title": "Combination Drug Sex Bias",
+  "combo_drugs": 283,
+  "combo_signals": 6124,
+  "combo_pct_f": 50.8,
+  "single_pct_f": 54.0,
+  "delta_pp": -3.2,
+  "p_value": 1.2671149427504827e-06,
+  "combo_logr": 0.9817,
+  "single_logr": 0.9871
+}

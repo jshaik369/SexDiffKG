@@ -1,0 +1,46 @@
+{
+  "wave": 254,
+  "title": "Endocrine AE Deep Dive",
+  "endo_signals": 2327,
+  "endo_aes": 94,
+  "endo_pct_f": 62.4,
+  "non_endo_pct_f": 53.6,
+  "delta_pp": 8.8,
+  "categories": {
+    "Thyroid": {
+      "n": 254,
+      "pct_f": 43.3,
+      "n_aes": 17
+    },
+    "Adrenal": {
+      "n": 97,
+      "pct_f": 59.8,
+      "n_aes": 8
+    },
+    "Glucose": {
+      "n": 806,
+      "pct_f": 59.2,
+      "n_aes": 33
+    },
+    "Gonadal": {
+      "n": 95,
+      "pct_f": 80.0,
+      "n_aes": 7
+    },
+    "Bone/Calcium": {
+      "n": 307,
+      "pct_f": 64.8,
+      "n_aes": 15
+    },
+    "Metabolic": {
+      "n": 746,
+      "pct_f": 68.9,
+      "n_aes": 9
+    },
+    "Growth": {
+      "n": 22,
+      "pct_f": 77.3,
+      "n_aes": 5
+    }
+  }
+}

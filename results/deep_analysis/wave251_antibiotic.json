@@ -1,0 +1,54 @@
+{
+  "wave": 251,
+  "title": "Antibiotic Drug Class Deep Dive",
+  "abx_signals": 3798,
+  "abx_pct_f": 54.6,
+  "non_abx_pct_f": 53.7,
+  "classes": {
+    "Fluoroquinolone": {
+      "n": 816,
+      "pct_f": 45.3,
+      "n_drugs": 5
+    },
+    "Penicillin": {
+      "n": 445,
+      "pct_f": 41.6,
+      "n_drugs": 6
+    },
+    "Cephalosporin": {
+      "n": 382,
+      "pct_f": 57.1,
+      "n_drugs": 7
+    },
+    "Macrolide": {
+      "n": 419,
+      "pct_f": 36.8,
+      "n_drugs": 3
+    },
+    "Carbapenem": {
+      "n": 164,
+      "pct_f": 76.2,
+      "n_drugs": 4
+    },
+    "Glycopeptide": {
+      "n": 209,
+      "pct_f": 77.0,
+      "n_drugs": 2
+    },
+    "Tetracycline": {
+      "n": 360,
+      "pct_f": 58.3,
+      "n_drugs": 4
+    },
+    "Sulfonamide": {
+      "n": 446,
+      "pct_f": 46.4,
+      "n_drugs": 3
+    },
+    "Antifungal": {
+      "n": 557,
+      "pct_f": 79.5,
+      "n_drugs": 7
+    }
+  }
+}

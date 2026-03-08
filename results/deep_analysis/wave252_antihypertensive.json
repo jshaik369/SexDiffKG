@@ -1,0 +1,44 @@
+{
+  "wave": 252,
+  "title": "Antihypertensive Drug Deep Dive",
+  "bp_signals": 4425,
+  "bp_pct_f": 55.5,
+  "non_bp_pct_f": 53.7,
+  "classes": {
+    "ACE inhibitor": {
+      "n": 871,
+      "pct_f": 72.4,
+      "n_drugs": 9
+    },
+    "ARB": {
+      "n": 785,
+      "pct_f": 49.4,
+      "n_drugs": 7
+    },
+    "CCB": {
+      "n": 822,
+      "pct_f": 47.9,
+      "n_drugs": 7
+    },
+    "Beta-blocker": {
+      "n": 969,
+      "pct_f": 53.0,
+      "n_drugs": 8
+    },
+    "Diuretic": {
+      "n": 849,
+      "pct_f": 52.3,
+      "n_drugs": 8
+    },
+    "Alpha-blocker": {
+      "n": 128,
+      "pct_f": 66.4,
+      "n_drugs": 5
+    },
+    "ARNI": {
+      "n": 1,
+      "pct_f": 100.0,
+      "n_drugs": 1
+    }
+  }
+}
