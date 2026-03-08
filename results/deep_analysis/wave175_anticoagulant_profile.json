@@ -1,0 +1,119 @@
+{
+  "wave": 175,
+  "title": "Anticoagulant/Antiplatelet Sex-Differential Profile",
+  "total_signals": 1904,
+  "per_drug": [
+    {
+      "drug": "TICLOPIDINE",
+      "class": "Antiplatelet",
+      "n_signals": 2,
+      "pct_female": 100.0
+    },
+    {
+      "drug": "PRASUGREL",
+      "class": "Antiplatelet",
+      "n_signals": 50,
+      "pct_female": 96.0
+    },
+    {
+      "drug": "ASPIRIN",
+      "class": "Antiplatelet",
+      "n_signals": 137,
+      "pct_female": 82.5
+    },
+    {
+      "drug": "CLOPIDOGREL",
+      "class": "Antiplatelet",
+      "n_signals": 300,
+      "pct_female": 82.3
+    },
+    {
+      "drug": "DABIGATRAN",
+      "class": "DOAC",
+      "n_signals": 176,
+      "pct_female": 79.5
+    },
+    {
+      "drug": "TICAGRELOR",
+      "class": "Antiplatelet",
+      "n_signals": 136,
+      "pct_female": 79.4
+    },
+    {
+      "drug": "EDOXABAN",
+      "class": "DOAC",
+      "n_signals": 50,
+      "pct_female": 74.0
+    },
+    {
+      "drug": "RIVAROXABAN",
+      "class": "DOAC",
+      "n_signals": 243,
+      "pct_female": 68.7
+    },
+    {
+      "drug": "HEPARIN",
+      "class": "Heparin",
+      "n_signals": 144,
+      "pct_female": 63.9
+    },
+    {
+      "drug": "APIXABAN",
+      "class": "DOAC",
+      "n_signals": 275,
+      "pct_female": 58.5
+    },
+    {
+      "drug": "WARFARIN",
+      "class": "VKA",
+      "n_signals": 220,
+      "pct_female": 56.8
+    },
+    {
+      "drug": "ENOXAPARIN",
+      "class": "Heparin",
+      "n_signals": 105,
+      "pct_female": 52.4
+    },
+    {
+      "drug": "DIPYRIDAMOLE",
+      "class": "Antiplatelet",
+      "n_signals": 8,
+      "pct_female": 50.0
+    },
+    {
+      "drug": "DALTEPARIN",
+      "class": "Heparin",
+      "n_signals": 58,
+      "pct_female": 25.9
+    }
+  ],
+  "per_class": [
+    {
+      "class": "Antiplatelet",
+      "n_drugs": 6,
+      "n_signals": 633,
+      "pct_female": 82.5
+    },
+    {
+      "class": "DOAC",
+      "n_drugs": 4,
+      "n_signals": 744,
+      "pct_female": 67.9
+    },
+    {
+      "class": "VKA",
+      "n_drugs": 1,
+      "n_signals": 220,
+      "pct_female": 56.8
+    },
+    {
+      "class": "Heparin",
+      "n_drugs": 3,
+      "n_signals": 307,
+      "pct_female": 52.8
+    }
+  ],
+  "bleeding_signals": 227,
+  "bleeding_pct_f": 89.9
+}
