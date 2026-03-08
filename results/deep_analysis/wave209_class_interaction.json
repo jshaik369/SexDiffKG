@@ -1,0 +1,149 @@
+{
+  "wave": 209,
+  "title": "Drug Class Interaction Analysis",
+  "classified_signals": 24414,
+  "n_classes": 16,
+  "multi_class_aes": 1495,
+  "class_profiles": [
+    {
+      "class": "Antiplatelet",
+      "n_drugs": 5,
+      "pct_female": 82.4
+    },
+    {
+      "class": "Opioid",
+      "n_drugs": 10,
+      "pct_female": 75.7
+    },
+    {
+      "class": "CPI",
+      "n_drugs": 6,
+      "pct_female": 74.4
+    },
+    {
+      "class": "ACEi",
+      "n_drugs": 8,
+      "pct_female": 72.3
+    },
+    {
+      "class": "Corticosteroid",
+      "n_drugs": 6,
+      "pct_female": 71.3
+    },
+    {
+      "class": "BZD",
+      "n_drugs": 6,
+      "pct_female": 67.1
+    },
+    {
+      "class": "Antipsychotic",
+      "n_drugs": 9,
+      "pct_female": 66.5
+    },
+    {
+      "class": "Anticoagulant",
+      "n_drugs": 7,
+      "pct_female": 64.1
+    },
+    {
+      "class": "PPI",
+      "n_drugs": 5,
+      "pct_female": 57.2
+    },
+    {
+      "class": "NSAID",
+      "n_drugs": 8,
+      "pct_female": 55.4
+    },
+    {
+      "class": "Biologic",
+      "n_drugs": 8,
+      "pct_female": 51.3
+    },
+    {
+      "class": "ARB",
+      "n_drugs": 7,
+      "pct_female": 49.4
+    },
+    {
+      "class": "Statin",
+      "n_drugs": 7,
+      "pct_female": 48.1
+    },
+    {
+      "class": "SSRI",
+      "n_drugs": 6,
+      "pct_female": 42.2
+    },
+    {
+      "class": "SNRI",
+      "n_drugs": 4,
+      "pct_female": 39.4
+    },
+    {
+      "class": "GLP1",
+      "n_drugs": 5,
+      "pct_female": 24.6
+    }
+  ],
+  "top_concordant_pairs": [
+    {
+      "class1": "NSAID",
+      "class2": "Biologic",
+      "shared_aes": 640,
+      "rho": 0.397,
+      "p": 1.4924842826331523e-25
+    },
+    {
+      "class1": "Anticoagulant",
+      "class2": "Statin",
+      "shared_aes": 410,
+      "rho": 0.379,
+      "p": 2.024543512781449e-15
+    },
+    {
+      "class1": "CPI",
+      "class2": "Anticoagulant",
+      "shared_aes": 262,
+      "rho": 0.372,
+      "p": 5.24034287717086e-10
+    },
+    {
+      "class1": "PPI",
+      "class2": "Statin",
+      "shared_aes": 499,
+      "rho": 0.365,
+      "p": 3.3477702305303827e-17
+    },
+    {
+      "class1": "CPI",
+      "class2": "GLP1",
+      "shared_aes": 129,
+      "rho": 0.357,
+      "p": 3.366198581690866e-05
+    }
+  ],
+  "least_concordant_pairs": [
+    {
+      "class1": "Opioid",
+      "class2": "CPI",
+      "shared_aes": 314,
+      "rho": -0.063,
+      "p": 0.26785644754918964
+    },
+    {
+      "class1": "CPI",
+      "class2": "NSAID",
+      "shared_aes": 283,
+      "rho": -0.083,
+      "p": 0.16354305667136218
+    },
+    {
+      "class1": "CPI",
+      "class2": "Biologic",
+      "shared_aes": 432,
+      "rho": -0.11,
+      "p": 0.02254633081688028
+    }
+  ]
+}

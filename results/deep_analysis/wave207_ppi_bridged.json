@@ -1,0 +1,46 @@
+{
+  "wave": 207,
+  "title": "Protein-Bridged PPI Hub Analysis",
+  "method": "drug_targets.parquet bridge: DRUG\u2192string_id\u2192ENSP\u2192PPI degree",
+  "ppi_edges": 473860,
+  "drugs_analyzed": 477,
+  "ppi_degree_vs_pctf": {
+    "rho": 0.118,
+    "p": 0.009967206787920851
+  },
+  "hub_drugs_pct_f": 51.9,
+  "periph_drugs_pct_f": 48.5,
+  "hub_periph_delta": 3.4,
+  "quintiles": [
+    {
+      "quintile": "Q1",
+      "degree_range": "8-46",
+      "mean_pct_f": 48.9,
+      "n_drugs": 94
+    },
+    {
+      "quintile": "Q2",
+      "degree_range": "47-70",
+      "mean_pct_f": 43.4,
+      "n_drugs": 94
+    },
+    {
+      "quintile": "Q3",
+      "degree_range": "70-108",
+      "mean_pct_f": 51.5,
+      "n_drugs": 94
+    },
+    {
+      "quintile": "Q4",
+      "degree_range": "110-178",
+      "mean_pct_f": 50.8,
+      "n_drugs": 93
+    },
+    {
+      "quintile": "Q5",
+      "degree_range": "178-1012",
+      "mean_pct_f": 51.4,
+      "n_drugs": 93
+    }
+  ]
+}

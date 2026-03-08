@@ -1,0 +1,113 @@
+{
+  "wave": 206,
+  "title": "Protein-Bridged Pathway Sex Bias",
+  "method": "drug_targets.parquet bridge: DRUG\u2192ensembl_gene_id\u2192GENE:ENSG\u2192participates_in\u2192PATHWAY",
+  "drug_pathway_connections": 132643,
+  "drugs_with_pathways": 4330,
+  "pathways_analyzed": 328,
+  "gene_bridge_overlap": "1444/1525 (94.7%)",
+  "most_female_pathways": [
+    {
+      "pathway": "R-HSA-9701898",
+      "n_drugs": 6,
+      "mean_pct_f": 81.4
+    },
+    {
+      "pathway": "R-HSA-9710421",
+      "n_drugs": 6,
+      "mean_pct_f": 78.4
+    },
+    {
+      "pathway": "R-HSA-5685942",
+      "n_drugs": 6,
+      "mean_pct_f": 77.6
+    },
+    {
+      "pathway": "R-HSA-499943",
+      "n_drugs": 7,
+      "mean_pct_f": 76.1
+    },
+    {
+      "pathway": "R-HSA-75205",
+      "n_drugs": 5,
+      "mean_pct_f": 76.0
+    },
+    {
+      "pathway": "R-HSA-5628897",
+      "n_drugs": 5,
+      "mean_pct_f": 75.3
+    },
+    {
+      "pathway": "R-HSA-6782135",
+      "n_drugs": 7,
+      "mean_pct_f": 74.7
+    },
+    {
+      "pathway": "R-HSA-110314",
+      "n_drugs": 7,
+      "mean_pct_f": 74.7
+    },
+    {
+      "pathway": "R-HSA-6782210",
+      "n_drugs": 7,
+      "mean_pct_f": 74.7
+    },
+    {
+      "pathway": "R-HSA-9748787",
+      "n_drugs": 5,
+      "mean_pct_f": 74.6
+    }
+  ],
+  "most_male_pathways": [
+    {
+      "pathway": "R-HSA-9665246",
+      "n_drugs": 5,
+      "mean_pct_f": 25.4
+    },
+    {
+      "pathway": "R-HSA-9652282",
+      "n_drugs": 5,
+      "mean_pct_f": 25.4
+    },
+    {
+      "pathway": "R-HSA-9665251",
+      "n_drugs": 5,
+      "mean_pct_f": 25.4
+    },
+    {
+      "pathway": "R-HSA-9665249",
+      "n_drugs": 5,
+      "mean_pct_f": 25.4
+    },
+    {
+      "pathway": "R-HSA-9665737",
+      "n_drugs": 5,
+      "mean_pct_f": 25.4
+    },
+    {
+      "pathway": "R-HSA-9938206",
+      "n_drugs": 6,
+      "mean_pct_f": 24.9
+    },
+    {
+      "pathway": "R-HSA-912694",
+      "n_drugs": 8,
+      "mean_pct_f": 23.8
+    },
+    {
+      "pathway": "R-HSA-381676",
+      "n_drugs": 6,
+      "mean_pct_f": 23.6
+    },
+    {
+      "pathway": "R-HSA-977225",
+      "n_drugs": 5,
+      "mean_pct_f": 22.8
+    },
+    {
+      "pathway": "R-HSA-419812",
+      "n_drugs": 5,
+      "mean_pct_f": 13.5
+    }
+  ]
+}

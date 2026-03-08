@@ -1,0 +1,184 @@
+{
+  "wave": 214,
+  "title": "Drug Mechanism of Action \u00d7 Sex Bias",
+  "drugs_with_moa": 477,
+  "action_types_analyzed": 10,
+  "moa_analyzed": 63,
+  "targets_analyzed": 74,
+  "action_type_profiles": [
+    {
+      "action_type": "ACTIVATOR",
+      "n_drugs": 8,
+      "mean_pct_f": 58.8
+    },
+    {
+      "action_type": "BINDING AGENT",
+      "n_drugs": 15,
+      "mean_pct_f": 58.1
+    },
+    {
+      "action_type": "POSITIVE ALLOSTERIC MODULATOR",
+      "n_drugs": 17,
+      "mean_pct_f": 55.1
+    },
+    {
+      "action_type": "INHIBITOR",
+      "n_drugs": 230,
+      "mean_pct_f": 51.5
+    },
+    {
+      "action_type": "ANTAGONIST",
+      "n_drugs": 83,
+      "mean_pct_f": 47.7
+    },
+    {
+      "action_type": "BLOCKER",
+      "n_drugs": 23,
+      "mean_pct_f": 45.5
+    },
+    {
+      "action_type": "OPENER",
+      "n_drugs": 5,
+      "mean_pct_f": 44.2
+    },
+    {
+      "action_type": "AGONIST",
+      "n_drugs": 90,
+      "mean_pct_f": 41.4
+    },
+    {
+      "action_type": "MODULATOR",
+      "n_drugs": 6,
+      "mean_pct_f": 38.1
+    },
+    {
+      "action_type": "POSITIVE MODULATOR",
+      "n_drugs": 5,
+      "mean_pct_f": 31.3
+    }
+  ],
+  "top_female_targets": [
+    {
+      "target": "5-hydroxytryptamine receptor 2C",
+      "gene": "HTR2C",
+      "n_drugs": 6,
+      "mean_pct_f": 70.0
+    },
+    {
+      "target": "Epidermal growth factor receptor",
+      "gene": "EGFR",
+      "n_drugs": 6,
+      "mean_pct_f": 64.5
+    },
+    {
+      "target": "5-hydroxytryptamine receptor 2A",
+      "gene": "HTR2A",
+      "n_drugs": 13,
+      "mean_pct_f": 60.4
+    },
+    {
+      "target": "Potassium-transporting ATPase",
+      "gene": "ATP4A",
+      "n_drugs": 5,
+      "mean_pct_f": 59.3
+    },
+    {
+      "target": "Potassium-transporting ATPase",
+      "gene": "ATP4B",
+      "n_drugs": 5,
+      "mean_pct_f": 59.3
+    },
+    {
+      "target": "Mu-type opioid receptor",
+      "gene": "OPRM1",
+      "n_drugs": 8,
+      "mean_pct_f": 58.4
+    },
+    {
+      "target": "Tubulin",
+      "gene": "TUBA3E",
+      "n_drugs": 8,
+      "mean_pct_f": 57.9
+    },
+    {
+      "target": "Tubulin",
+      "gene": "TUBA4A",
+      "n_drugs": 8,
+      "mean_pct_f": 57.9
+    },
+    {
+      "target": "Tubulin",
+      "gene": "TUBB3",
+      "n_drugs": 8,
+      "mean_pct_f": 57.9
+    },
+    {
+      "target": "Tubulin",
+      "gene": "TUBB2B",
+      "n_drugs": 8,
+      "mean_pct_f": 57.9
+    }
+  ],
+  "top_male_targets": [
+    {
+      "target": "Sodium channel alpha subunit",
+      "gene": "SCN9A",
+      "n_drugs": 10,
+      "mean_pct_f": 41.9
+    },
+    {
+      "target": "Sodium channel alpha subunit",
+      "gene": "SCN4A",
+      "n_drugs": 10,
+      "mean_pct_f": 41.9
+    },
+    {
+      "target": "Sodium channel alpha subunit",
+      "gene": "SCN3A",
+      "n_drugs": 10,
+      "mean_pct_f": 41.9
+    },
+    {
+      "target": "Sodium channel alpha subunit",
+      "gene": "SCN7A",
+      "n_drugs": 10,
+      "mean_pct_f": 41.9
+    },
+    {
+      "target": "Sodium channel alpha subunit",
+      "gene": "SCN2A",
+      "n_drugs": 10,
+      "mean_pct_f": 41.9
+    },
+    {
+      "target": "Histamine H1 receptor",
+      "gene": "HRH1",
+      "n_drugs": 7,
+      "mean_pct_f": 37.7
+    },
+    {
+      "target": "Sodium-dependent serotonin transporter",
+      "gene": "SLC6A4",
+      "n_drugs": 8,
+      "mean_pct_f": 35.6
+    },
+    {
+      "target": "Interferon alpha/beta receptor",
+      "gene": "IFNAR2",
+      "n_drugs": 7,
+      "mean_pct_f": 23.7
+    },
+    {
+      "target": "Interferon alpha/beta receptor",
+      "gene": "IFNAR1",
+      "n_drugs": 7,
+      "mean_pct_f": 23.7
+    },
+    {
+      "target": "Glucagon-like peptide 1 receptor",
+      "gene": "GLP1R",
+      "n_drugs": 6,
+      "mean_pct_f": 23.6
+    }
+  ]
+}

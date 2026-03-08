@@ -1,0 +1,16 @@
+{
+  "wave": 203,
+  "title": "PPI Network Hub Targeting and Sex Bias",
+  "ppi_edges": 473860,
+  "drugs_analyzed": 477,
+  "ppi_degree_vs_pctf": {
+    "rho": NaN,
+    "p": NaN
+  },
+  "n_targets_vs_pctf": {
+    "rho": 0.069,
+    "p": 0.1308975575480248
+  },
+  "hub_drugs_pct_f": 49.2,
+  "periph_drugs_pct_f": NaN
+}
