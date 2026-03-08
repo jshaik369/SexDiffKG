@@ -1,0 +1,277 @@
+{
+  "wave": 149,
+  "title": "Shannon Entropy of Sex-Differential Profiles",
+  "description": "Information-theoretic characterization of sex-bias predictability",
+  "total_drugs_analyzed": 1090,
+  "total_aes_analyzed": 1668,
+  "entropy_distribution": {
+    "mean": 0.7977,
+    "median": 0.8905,
+    "std": 0.2408,
+    "zero_entropy_drugs": 41,
+    "near_max_entropy": 190
+  },
+  "most_predictable_drugs": [
+    {
+      "drug": "PEGINTERFERON BETA-1A",
+      "n_signals": 46,
+      "pct_female": 0.0,
+      "entropy": 0.0
+    },
+    {
+      "drug": "MIFEPRISTONE",
+      "n_signals": 47,
+      "pct_female": 0.0,
+      "entropy": 0.0
+    },
+    {
+      "drug": "SAPROPTERIN",
+      "n_signals": 20,
+      "pct_female": 0.0,
+      "entropy": 0.0
+    },
+    {
+      "drug": "DIROXIMEL FUMARATE",
+      "n_signals": 25,
+      "pct_female": 0.0,
+      "entropy": 0.0
+    },
+    {
+      "drug": "EPTINEZUMAB",
+      "n_signals": 27,
+      "pct_female": 0.0,
+      "entropy": 0.0
+    },
+    {
+      "drug": "SOTROVIMAB",
+      "n_signals": 26,
+      "pct_female": 0.0,
+      "entropy": 0.0
+    },
+    {
+      "drug": "METFORMIN;ROSIGLITAZONE",
+      "n_signals": 20,
+      "pct_female": 100.0,
+      "entropy": 0.0
+    },
+    {
+      "drug": "BRIMONIDINE;TIMOLOL",
+      "n_signals": 20,
+      "pct_female": 0.0,
+      "entropy": 0.0
+    },
+    {
+      "drug": "TEPROTUMUMAB",
+      "n_signals": 33,
+      "pct_female": 0.0,
+      "entropy": 0.0
+    },
+    {
+      "drug": "BUPROPION;NALTREXONE",
+      "n_signals": 23,
+      "pct_female": 0.0,
+      "entropy": 0.0
+    },
+    {
+      "drug": "INOTERSEN",
+      "n_signals": 20,
+      "pct_female": 100.0,
+      "entropy": 0.0
+    },
+    {
+      "drug": "CENEGERMIN",
+      "n_signals": 20,
+      "pct_female": 0.0,
+      "entropy": 0.0
+    },
+    {
+      "drug": "MEBEVERINE",
+      "n_signals": 52,
+      "pct_female": 0.0,
+      "entropy": 0.0
+    },
+    {
+      "drug": "PEGVALIASE",
+      "n_signals": 37,
+      "pct_female": 0.0,
+      "entropy": 0.0
+    },
+    {
+      "drug": "RANITIDINE HYDROCHLORIDE",
+      "n_signals": 50,
+      "pct_female": 100.0,
+      "entropy": 0.0
+    }
+  ],
+  "least_predictable_drugs": [
+    {
+      "drug": "OLAPARIB",
+      "n_signals": 44,
+      "pct_female": 50.0,
+      "entropy": 1.0
+    },
+    {
+      "drug": "LITHIUM",
+      "n_signals": 143,
+      "pct_female": 49.7,
+      "entropy": 1.0
+    },
+    {
+      "drug": "MAGNESIUM",
+      "n_signals": 136,
+      "pct_female": 50.0,
+      "entropy": 1.0
+    },
+    {
+      "drug": "MACROGOL;POTASSIUM;SODIUM BICARBONATE;SODIUM CHLORIDE",
+      "n_signals": 20,
+      "pct_female": 50.0,
+      "entropy": 1.0
+    },
+    {
+      "drug": "INFLIXIMAB",
+      "n_signals": 623,
+      "pct_female": 50.4,
+      "entropy": 1.0
+    },
+    {
+      "drug": "DESLORATADINE",
+      "n_signals": 28,
+      "pct_female": 50.0,
+      "entropy": 1.0
+    },
+    {
+      "drug": "LEVOCETIRIZINE",
+      "n_signals": 36,
+      "pct_female": 50.0,
+      "entropy": 1.0
+    },
+    {
+      "drug": "BENZATROPINE",
+      "n_signals": 22,
+      "pct_female": 50.0,
+      "entropy": 1.0
+    },
+    {
+      "drug": "TORASEMIDE",
+      "n_signals": 116,
+      "pct_female": 50.0,
+      "entropy": 1.0
+    },
+    {
+      "drug": "NUTRIENTS, UNSPECIFIED",
+      "n_signals": 42,
+      "pct_female": 50.0,
+      "entropy": 1.0
+    },
+    {
+      "drug": "HYDROMORPHONE HYDROCHLORIDE",
+      "n_signals": 20,
+      "pct_female": 50.0,
+      "entropy": 1.0
+    },
+    {
+      "drug": "NEBIVOLOL",
+      "n_signals": 38,
+      "pct_female": 50.0,
+      "entropy": 1.0
+    },
+    {
+      "drug": "TENOFOVIR DISOPROXIL FUMARATE",
+      "n_signals": 20,
+      "pct_female": 50.0,
+      "entropy": 1.0
+    },
+    {
+      "drug": "ALISKIREN",
+      "n_signals": 38,
+      "pct_female": 50.0,
+      "entropy": 1.0
+    },
+    {
+      "drug": "SPIRONOLACTONE",
+      "n_signals": 162,
+      "pct_female": 50.0,
+      "entropy": 1.0
+    }
+  ],
+  "most_predictable_aes": [
+    {
+      "ae": "Drug tolerance",
+      "n_drugs": 20,
+      "pct_female": 100.0,
+      "entropy": 0.0
+    },
+    {
+      "ae": "Central nervous system lesion",
+      "n_drugs": 35,
+      "pct_female": 0.0,
+      "entropy": 0.0
+    },
+    {
+      "ae": "Blood thyroid stimulating hormone increased",
+      "n_drugs": 26,
+      "pct_female": 0.0,
+      "entropy": 0.0
+    },
+    {
+      "ae": "Acute lymphocytic leukaemia recurrent",
+      "n_drugs": 20,
+      "pct_female": 100.0,
+      "entropy": 0.0
+    },
+    {
+      "ae": "Tooth extraction",
+      "n_drugs": 22,
+      "pct_female": 0.0,
+      "entropy": 0.0
+    },
+    {
+      "ae": "Multiple fractures",
+      "n_drugs": 22,
+      "pct_female": 100.0,
+      "entropy": 0.0
+    },
+    {
+      "ae": "Sensation of foreign body",
+      "n_drugs": 28,
+      "pct_female": 0.0,
+      "entropy": 0.0
+    },
+    {
+      "ae": "Gingival pain",
+      "n_drugs": 34,
+      "pct_female": 0.0,
+      "entropy": 0.0
+    },
+    {
+      "ae": "Hyperuricaemia",
+      "n_drugs": 26,
+      "pct_female": 100.0,
+      "entropy": 0.0
+    },
+    {
+      "ae": "Hypopnoea",
+      "n_drugs": 35,
+      "pct_female": 0.0,
+      "entropy": 0.0
+    }
+  ],
+  "correlations": {
+    "n_signals_vs_entropy": {
+      "rho": 0.2418,
+      "p": 5.8e-16
+    },
+    "entropy_vs_effect_size": {
+      "rho": 0.0454,
+      "p": 0.134
+    }
+  },
+  "key_findings": [
+    "Mean drug entropy: 0.7977 (max possible: 1.0)",
+    "41 drugs have H=0 (perfectly predictable, all one direction)",
+    "190 drugs have H>0.99 (near-random sex bias)",
+    "Signal count vs entropy: rho=0.2418 (more signals = higher entropy)",
+    "Most predictable (20+ signals): PEGINTERFERON BETA-1A (H=0.0, 0.0%F)"
+  ]
+}
