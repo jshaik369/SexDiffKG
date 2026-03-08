@@ -1,0 +1,202 @@
+{
+  "wave": 152,
+  "title": "Biological Plausibility Audit",
+  "description": "Identifying biologically implausible and paradoxical sex-differential signals",
+  "total_signals": 96281,
+  "reproductive_signals": {
+    "total": 424,
+    "pct_female": 44.8,
+    "male_biased_count": 234,
+    "top_implausible": [
+      {
+        "drug": "ETONOGESTREL",
+        "ae": "Foetal exposure during pregnancy",
+        "log_ratio": -6.5682,
+        "n_female": 30,
+        "n_male": 40
+      },
+      {
+        "drug": "HYDROXYPROGESTERONE",
+        "ae": "Abortion spontaneous",
+        "log_ratio": -6.4561,
+        "n_female": 105,
+        "n_male": 12
+      },
+      {
+        "drug": "VITAMIN B12",
+        "ae": "Abortion spontaneous",
+        "log_ratio": -5.8581,
+        "n_female": 24,
+        "n_male": 11
+      },
+      {
+        "drug": "LABETALOL",
+        "ae": "Abortion spontaneous",
+        "log_ratio": -5.6789,
+        "n_female": 48,
+        "n_male": 15
+      },
+      {
+        "drug": "VITAMIN B9",
+        "ae": "Abortion spontaneous",
+        "log_ratio": -5.5057,
+        "n_female": 99,
+        "n_male": 14
+      },
+      {
+        "drug": "LEVONORGESTREL",
+        "ae": "Foetal exposure during pregnancy",
+        "log_ratio": -4.9464,
+        "n_female": 23,
+        "n_male": 10
+      },
+      {
+        "drug": "LOPINAVIR",
+        "ae": "Abortion spontaneous",
+        "log_ratio": -4.6324,
+        "n_female": 19,
+        "n_male": 11
+      },
+      {
+        "drug": "ETANERCEPT",
+        "ae": "Breast feeding",
+        "log_ratio": -4.6128,
+        "n_female": 11,
+        "n_male": 11
+      },
+      {
+        "drug": "ZIDOVUDINE",
+        "ae": "Abortion spontaneous",
+        "log_ratio": -4.3889,
+        "n_female": 50,
+        "n_male": 11
+      },
+      {
+        "drug": "ESTRADIOL",
+        "ae": "Foetal exposure during pregnancy",
+        "log_ratio": -4.1459,
+        "n_female": 18,
+        "n_male": 38
+      },
+      {
+        "drug": "INTRAUTERINE CONTRACEPTIVE DEVICE;LEVONORGESTREL",
+        "ae": "Foetal exposure during pregnancy",
+        "log_ratio": -4.1348,
+        "n_female": 30,
+        "n_male": 23
+      },
+      {
+        "drug": "MISOPROSTOL",
+        "ae": "Maternal exposure during pregnancy",
+        "log_ratio": -3.9853,
+        "n_female": 207,
+        "n_male": 33
+      },
+      {
+        "drug": "EMTRICITABINE",
+        "ae": "Abortion spontaneous",
+        "log_ratio": -3.9471,
+        "n_female": 53,
+        "n_male": 11
+      },
+      {
+        "drug": "DESVENLAFAXINE",
+        "ae": "Maternal exposure during pregnancy",
+        "log_ratio": -3.8085,
+        "n_female": 18,
+        "n_male": 11
+      },
+      {
+        "drug": "PEGINTERFERON ALFA-2A",
+        "ae": "Pregnancy",
+        "log_ratio": -3.7848,
+        "n_female": 60,
+        "n_male": 31
+      }
+    ]
+  },
+  "prostate_signals": {
+    "total": 9,
+    "pct_female": 88.9,
+    "female_biased_count": 8,
+    "top_paradoxical": [
+      {
+        "drug": "TESTOSTERONE",
+        "ae": "Prostatic disorder",
+        "log_ratio": 8.8695,
+        "n_female": 25,
+        "n_male": 21
+      },
+      {
+        "drug": "CLOZAPINE",
+        "ae": "Gynaecomastia",
+        "log_ratio": 5.4476,
+        "n_female": 11,
+        "n_male": 31
+      },
+      {
+        "drug": "ATORVASTATIN",
+        "ae": "Gynaecomastia",
+        "log_ratio": 3.323,
+        "n_female": 11,
+        "n_male": 136
+      },
+      {
+        "drug": "OLANZAPINE",
+        "ae": "Gynaecomastia",
+        "log_ratio": 3.0154,
+        "n_female": 16,
+        "n_male": 367
+      },
+      {
+        "drug": "ARIPIPRAZOLE",
+        "ae": "Gynaecomastia",
+        "log_ratio": 2.4129,
+        "n_female": 13,
+        "n_male": 375
+      },
+      {
+        "drug": "QUETIAPINE",
+        "ae": "Gynaecomastia",
+        "log_ratio": 2.2628,
+        "n_female": 17,
+        "n_male": 518
+      },
+      {
+        "drug": "RANITIDINE",
+        "ae": "Prostate cancer",
+        "log_ratio": 1.1696,
+        "n_female": 322,
+        "n_male": 53808
+      },
+      {
+        "drug": "RANITIDINE HYDROCHLORIDE",
+        "ae": "Prostate cancer",
+        "log_ratio": 0.6483,
+        "n_female": 21,
+        "n_male": 2581
+      }
+    ]
+  },
+  "known_dimorphic_validation": {
+    "known_female_aes": {
+      "n": 851,
+      "pct_female": 46.4
+    },
+    "known_male_aes": {
+      "n": 423,
+      "pct_female": 76.1
+    }
+  },
+  "direction_report_mismatch": {
+    "high_female_reports_male_signal": 3393,
+    "high_male_reports_female_signal": 363
+  },
+  "key_findings": [
+    "Reproductive AEs: 44.8%F \u2014 234 show paradoxical male bias",
+    "Prostate/male AEs: 88.9%F \u2014 8 show paradoxical female bias",
+    "Known female-dominant AEs validate: 46.4%F in signals",
+    "Known male-dominant AEs validate: 76.1%F in signals",
+    "Report-direction mismatch: 3756 signals"
+  ]
+}
