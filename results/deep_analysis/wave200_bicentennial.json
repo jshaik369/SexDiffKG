@@ -1,0 +1,140 @@
+{
+  "wave": 200,
+  "title": "BICENTENNIAL MILESTONE \u2014 Grand Synthesis",
+  "milestone": "Wave 200",
+  "total_waves": 200,
+  "total_jsons": 69,
+  "total_figures": 348,
+  "total_sessions": 26,
+  "total_signals": 96281,
+  "total_drugs": 2178,
+  "total_aes": 5069,
+  "global_pct_female": 53.8,
+  "grand_findings": [
+    {
+      "rank": 1,
+      "title": "SEVERITY GRADIENT",
+      "finding": "Mild 46.7%F \u2192 Fatal 74.5%F (\u03c1=0.96) \u2014 Most severe AEs show strongest female bias"
+    },
+    {
+      "rank": 2,
+      "title": "GLP-1 MALE PARADOX",
+      "finding": "GLP-1 RAs 24.6%F, tirzepatide 8.4%F \u2014 Revolutionary drugs show reversed sex pattern"
+    },
+    {
+      "rank": 3,
+      "title": "DISEASE PREVALENCE PARADOX",
+      "finding": "Female-prevalent diseases \u2192 male-biased drug signals (\u03c1=-0.650, p=0.009)"
+    },
+    {
+      "rank": 4,
+      "title": "CONFIDENCE GRADIENT",
+      "finding": "Low confidence 51.4%F \u2192 High confidence 62.2%F \u2014 Robust signals MORE female"
+    },
+    {
+      "rank": 5,
+      "title": "HAEMATOLOGICAL DOMINANCE",
+      "finding": "71.5%F \u2014 Blood-related AEs most consistently female-biased organ system"
+    },
+    {
+      "rank": 6,
+      "title": "ROUTE OF ADMINISTRATION",
+      "finding": "Hospital IV 65.1%F vs oral 50.9%F vs SC 38.2%F vs inhaled 37.8%F"
+    },
+    {
+      "rank": 7,
+      "title": "BLEEDING UNIVERSALITY",
+      "finding": "89.9%F across ALL anticoagulant classes \u2014 prasugrel 96.0%F"
+    },
+    {
+      "rank": 8,
+      "title": "ACE INHIBITOR BIAS",
+      "finding": "72.4%F \u2014 lisinopril 84.5%F. ACE inhibitors consistently female-biased"
+    },
+    {
+      "rank": 9,
+      "title": "ZOLPIDEM VALIDATION",
+      "finding": "60.3%F validates FDA 2013 sex-specific dosing decision"
+    },
+    {
+      "rank": 10,
+      "title": "ONCOLOGY EXCESS",
+      "finding": "65.2%F overall, ICIs 74.4%F, TKIs 68.4%F (+11.4pp above global)"
+    },
+    {
+      "rank": 11,
+      "title": "ANTIDEPRESSANT REVERSAL",
+      "finding": "SSRIs 42.2%F, MAOIs 7.1%F \u2014 psychiatric drugs MALE-biased"
+    },
+    {
+      "rank": 12,
+      "title": "TZD EXTREME",
+      "finding": "Rosiglitazone 93.6%F \u2014 most extreme individual drug female bias"
+    },
+    {
+      "rank": 13,
+      "title": "NIH ACT IMPACT",
+      "finding": "Pre-NIH (1994) drugs: 60.5%F \u2192 Post-NIH: 53.1%F (p=5.5e-42)"
+    },
+    {
+      "rank": 14,
+      "title": "AE CONCORDANCE",
+      "finding": "62.6% concordance \u2014 AEs tend to maintain sex direction across drugs"
+    },
+    {
+      "rank": 15,
+      "title": "RARE AE PATTERN",
+      "finding": "Rare AEs 45.1%F vs common AEs 57.3%F \u2014 common AEs more female-biased"
+    },
+    {
+      "rank": 16,
+      "title": "ICS vs SYSTEMIC",
+      "finding": "ICS 39.1%F vs systemic steroids 76.4%F \u2014 37.3pp route difference"
+    },
+    {
+      "rank": 17,
+      "title": "MIGRAINE PARADOX",
+      "finding": "Triptans 16.1%F despite 3:1 female migraine prevalence"
+    },
+    {
+      "rank": 18,
+      "title": "REPORTING RATIO INVERSE",
+      "finding": "F:M reporting ratio INVERSELY correlates with %F (\u03c1=-0.227)"
+    },
+    {
+      "rank": 19,
+      "title": "RENAL BIAS",
+      "finding": "71.1%F \u2014 renal toxicity second most female-biased organ system"
+    },
+    {
+      "rank": 20,
+      "title": "COMBO vs MONO",
+      "finding": "Combination drugs 50.6%F vs monotherapy 54.0%F (p=5.3e-7)"
+    }
+  ],
+  "drug_class_spectrum": {
+    "GLP-1 RA": 24.6,
+    "Triptan": 16.1,
+    "SGLT2i": 35.2,
+    "Statin": 48.1,
+    "ARB": 49.4,
+    "SSRI": 42.2,
+    "Beta-blocker": 56.7,
+    "CCB": 55.8,
+    "PPI": 52.3,
+    "ACE inhibitor": 72.4,
+    "Antiplatelet": 82.8,
+    "ICI": 74.4,
+    "TKI": 68.4
+  },
+  "kg_v4": {
+    "nodes": 109867,
+    "edges": 1822851,
+    "complex_mrr": 0.2484
+  },
+  "kg_v5_2": {
+    "nodes": 217993,
+    "edges": 3194017,
+    "complex_mrr": 0.1629
+  }
+}

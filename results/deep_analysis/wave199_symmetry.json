@@ -1,0 +1,15 @@
+{
+  "wave": 199,
+  "title": "Symmetric vs Asymmetric Sex Bias",
+  "ror_patterns": {
+    "Both elevated, F>M": 32699,
+    "Both elevated, M>F": 27764,
+    "Neither elevated": 12868,
+    "F elevated only": 12461,
+    "M elevated only": 10489
+  },
+  "female_genuine_excess_pct": 87.2,
+  "male_genuine_excess_pct": 85.9,
+  "median_ror_dominance_female": 2.29,
+  "median_ror_dominance_male": 2.21
+}

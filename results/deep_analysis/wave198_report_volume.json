@@ -1,0 +1,90 @@
+{
+  "wave": 198,
+  "title": "Report Volume vs Sex Bias Analysis",
+  "total_signals": 96281,
+  "vol_vs_effect": {
+    "rho": 0.152,
+    "p": 0.0
+  },
+  "vol_vs_direction": {
+    "rho": 0.206,
+    "p": 0.0
+  },
+  "female_frac_vs_logr": {
+    "rho": 0.671,
+    "p": 0.0
+  },
+  "deciles": [
+    {
+      "decile": 1,
+      "min_reports": 20,
+      "max_reports": 29,
+      "pct_female": 42.2,
+      "mean_abs_logr": 0.8713
+    },
+    {
+      "decile": 2,
+      "min_reports": 29,
+      "max_reports": 37,
+      "pct_female": 43.6,
+      "mean_abs_logr": 0.8737
+    },
+    {
+      "decile": 3,
+      "min_reports": 37,
+      "max_reports": 46,
+      "pct_female": 45.2,
+      "mean_abs_logr": 0.8897
+    },
+    {
+      "decile": 4,
+      "min_reports": 46,
+      "max_reports": 57,
+      "pct_female": 47.3,
+      "mean_abs_logr": 0.9072
+    },
+    {
+      "decile": 5,
+      "min_reports": 57,
+      "max_reports": 72,
+      "pct_female": 51.0,
+      "mean_abs_logr": 0.9148
+    },
+    {
+      "decile": 6,
+      "min_reports": 72,
+      "max_reports": 95,
+      "pct_female": 51.5,
+      "mean_abs_logr": 0.9346
+    },
+    {
+      "decile": 7,
+      "min_reports": 95,
+      "max_reports": 134,
+      "pct_female": 52.4,
+      "mean_abs_logr": 1.0025
+    },
+    {
+      "decile": 8,
+      "min_reports": 134,
+      "max_reports": 212,
+      "pct_female": 58.0,
+      "mean_abs_logr": 1.0277
+    },
+    {
+      "decile": 9,
+      "min_reports": 212,
+      "max_reports": 463,
+      "pct_female": 64.0,
+      "mean_abs_logr": 1.0952
+    },
+    {
+      "decile": 10,
+      "min_reports": 463,
+      "max_reports": 55041,
+      "pct_female": 82.5,
+      "mean_abs_logr": 1.3512
+    }
+  ],
+  "top5pct_pct_f": 86.9
+}
