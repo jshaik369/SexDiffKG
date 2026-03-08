@@ -1,0 +1,120 @@
+{
+  "wave": 153,
+  "title": "ROR Methodology Deep Dive",
+  "description": "Decomposing logR into female and male ROR components to understand signal drivers",
+  "total_signals": 96281,
+  "signal_drivers": {
+    "female_signals_by_female_ror": 40297,
+    "female_signals_by_male_ror": 11474,
+    "male_signals_by_male_ror": 33856,
+    "male_signals_by_female_ror": 10654
+  },
+  "ror_statistics": {
+    "female_ror_median": 2.6483,
+    "female_ror_mean": 54.2578,
+    "male_ror_median": 2.4182,
+    "male_ror_mean": 45.9027,
+    "log_ror_female_std": 1.6985,
+    "log_ror_male_std": 1.6889
+  },
+  "near_zero_ror": {
+    "female_lt_0.1": 512,
+    "male_lt_0.1": 724
+  },
+  "extreme_asymmetry": [
+    {
+      "drug": "TESTOSTERONE",
+      "ae": "Prostatic disorder",
+      "ror_female": 7197.7434,
+      "ror_male": 1.0121,
+      "log_ratio": 8.8695,
+      "direction": "female_higher"
+    },
+    {
+      "drug": "PERTUZUMAB",
+      "ae": "Carbohydrate antigen 15-3 increased",
+      "ror_female": 8.5868,
+      "ror_male": 13927.3689,
+      "log_ratio": -7.3914,
+      "direction": "male_higher"
+    },
+    {
+      "drug": "ETONOGESTREL",
+      "ae": "Foetal exposure during pregnancy",
+      "ror_female": 0.2574,
+      "ror_male": 183.2615,
+      "log_ratio": -6.5682,
+      "direction": "male_higher"
+    },
+    {
+      "drug": "HYDROXYPROGESTERONE",
+      "ae": "Abortion spontaneous",
+      "ror_female": 2.6167,
+      "ror_male": 1665.7683,
+      "log_ratio": -6.4561,
+      "direction": "male_higher"
+    },
+    {
+      "drug": "MINOXIDIL",
+      "ae": "Adverse drug reaction",
+      "ror_female": 0.1832,
+      "ror_male": 115.6388,
+      "log_ratio": -6.4479,
+      "direction": "male_higher"
+    },
+    {
+      "drug": "CARBIDOPA;LEVODOPA",
+      "ae": "Embedded device",
+      "ror_female": 8.5794,
+      "ror_male": 5412.5844,
+      "log_ratio": -6.4471,
+      "direction": "male_higher"
+    },
+    {
+      "drug": "ETONOGESTREL",
+      "ae": "Premature baby",
+      "ror_female": 0.4512,
+      "ror_male": 277.3737,
+      "log_ratio": -6.4212,
+      "direction": "male_higher"
+    },
+    {
+      "drug": "CARBIDOPA;LEVODOPA",
+      "ae": "Device expulsion",
+      "ror_female": 0.3553,
+      "ror_male": 216.3202,
+      "log_ratio": -6.4116,
+      "direction": "male_higher"
+    },
+    {
+      "drug": "ETONOGESTREL",
+      "ae": "Injury associated with device",
+      "ror_female": 0.5452,
+      "ror_male": 305.1851,
+      "log_ratio": -6.3275,
+      "direction": "male_higher"
+    },
+    {
+      "drug": "ETHINYLESTRADIOL;ETONOGESTREL",
+      "ae": "Medical device discomfort",
+      "ror_female": 25.8982,
+      "ror_male": 10766.7516,
+      "log_ratio": -6.03,
+      "direction": "male_higher"
+    }
+  ],
+  "extreme_drivers": {
+    "female_ror_driven": 531,
+    "male_ror_driven": 497
+  },
+  "ror_correlation": {
+    "rho": 0.7156,
+    "p": 0.0
+  },
+  "key_findings": [
+    "Female signals: 77.8% driven by elevated female ROR",
+    "Near-zero ROR: 512 female, 724 male \u2014 asymmetric absence",
+    "log(ROR) spread: female std=1.6985, male std=1.6889",
+    "Female-male ROR correlation: rho=0.7156"
+  ]
+}
