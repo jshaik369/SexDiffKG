@@ -1,0 +1,234 @@
+{
+  "wave": 154,
+  "title": "Drug-Drug Sex-Differential Similarity Network",
+  "description": "Jaccard similarity of sex-biased AE profiles between drugs",
+  "total_drugs": 644,
+  "drugs_analyzed": 200,
+  "non_trivial_pairs": 9446,
+  "top_similar_pairs": [
+    {
+      "drug1": "HYDROXYCHLOROQUINE",
+      "drug2": "SULFASALAZINE",
+      "combined_jaccard": 0.4099,
+      "female_jaccard": 0.5662,
+      "male_jaccard": 0.2536,
+      "pctF_diff": 5.399999999999999
+    },
+    {
+      "drug1": "LEFLUNOMIDE",
+      "drug2": "SULFASALAZINE",
+      "combined_jaccard": 0.3992,
+      "female_jaccard": 0.515,
+      "male_jaccard": 0.2833,
+      "pctF_diff": 4.600000000000001
+    },
+    {
+      "drug1": "LEFLUNOMIDE",
+      "drug2": "ABATACEPT",
+      "combined_jaccard": 0.3966,
+      "female_jaccard": 0.5347,
+      "male_jaccard": 0.2586,
+      "pctF_diff": 3.200000000000003
+    },
+    {
+      "drug1": "TOCILIZUMAB",
+      "drug2": "HYDROXYCHLOROQUINE",
+      "combined_jaccard": 0.3732,
+      "female_jaccard": 0.4768,
+      "male_jaccard": 0.2696,
+      "pctF_diff": 2.5
+    },
+    {
+      "drug1": "ABATACEPT",
+      "drug2": "SULFASALAZINE",
+      "combined_jaccard": 0.3711,
+      "female_jaccard": 0.5,
+      "male_jaccard": 0.2422,
+      "pctF_diff": 1.3999999999999986
+    },
+    {
+      "drug1": "ABATACEPT",
+      "drug2": "CERTOLIZUMAB",
+      "combined_jaccard": 0.3591,
+      "female_jaccard": 0.5238,
+      "male_jaccard": 0.1943,
+      "pctF_diff": 7.399999999999999
+    },
+    {
+      "drug1": "VITAMIN B9",
+      "drug2": "CORTISONE",
+      "combined_jaccard": 0.3566,
+      "female_jaccard": 0.5263,
+      "male_jaccard": 0.1869,
+      "pctF_diff": 1.0999999999999943
+    },
+    {
+      "drug1": "GOLIMUMAB",
+      "drug2": "CERTOLIZUMAB",
+      "combined_jaccard": 0.3524,
+      "female_jaccard": 0.567,
+      "male_jaccard": 0.1379,
+      "pctF_diff": 3.200000000000003
+    },
+    {
+      "drug1": "HYDROXYCHLOROQUINE",
+      "drug2": "ABATACEPT",
+      "combined_jaccard": 0.3521,
+      "female_jaccard": 0.4583,
+      "male_jaccard": 0.2458,
+      "pctF_diff": 6.799999999999997
+    },
+    {
+      "drug1": "TOCILIZUMAB",
+      "drug2": "ABATACEPT",
+      "combined_jaccard": 0.3518,
+      "female_jaccard": 0.4982,
+      "male_jaccard": 0.2054,
+      "pctF_diff": 4.299999999999997
+    },
+    {
+      "drug1": "VITAMIN D3",
+      "drug2": "CANDESARTAN",
+      "combined_jaccard": 0.3476,
+      "female_jaccard": 0.3871,
+      "male_jaccard": 0.3081,
+      "pctF_diff": 6.600000000000001
+    },
+    {
+      "drug1": "HYDROXYCHLOROQUINE",
+      "drug2": "LEFLUNOMIDE",
+      "combined_jaccard": 0.3441,
+      "female_jaccard": 0.4583,
+      "male_jaccard": 0.2298,
+      "pctF_diff": 10.0
+    },
+    {
+      "drug1": "ABATACEPT",
+      "drug2": "GOLIMUMAB",
+      "combined_jaccard": 0.3402,
+      "female_jaccard": 0.5223,
+      "male_jaccard": 0.1581,
+      "pctF_diff": 10.600000000000001
+    },
+    {
+      "drug1": "CALCIUM",
+      "drug2": "CORTISONE",
+      "combined_jaccard": 0.3379,
+      "female_jaccard": 0.4622,
+      "male_jaccard": 0.2135,
+      "pctF_diff": 5.5
+    },
+    {
+      "drug1": "VITAMIN B9",
+      "drug2": "CALCIUM",
+      "combined_jaccard": 0.3352,
+      "female_jaccard": 0.4539,
+      "male_jaccard": 0.2166,
+      "pctF_diff": 6.599999999999994
+    }
+  ],
+  "hub_drugs": [
+    {
+      "drug": "DICLOFENAC",
+      "connections": 50,
+      "pct_female": 50.6,
+      "n_signals": 401
+    },
+    {
+      "drug": "CELECOXIB",
+      "connections": 48,
+      "pct_female": 63.1,
+      "n_signals": 274
+    },
+    {
+      "drug": "USTEKINUMAB",
+      "connections": 46,
+      "pct_female": 65.0,
+      "n_signals": 314
+    },
+    {
+      "drug": "NAPROXEN",
+      "connections": 46,
+      "pct_female": 54.1,
+      "n_signals": 331
+    },
+    {
+      "drug": "GOLIMUMAB",
+      "connections": 45,
+      "pct_female": 55.7,
+      "n_signals": 334
+    },
+    {
+      "drug": "HYDROCORTISONE",
+      "connections": 45,
+      "pct_female": 50.7,
+      "n_signals": 302
+    },
+    {
+      "drug": "VITAMIN B9",
+      "connections": 44,
+      "pct_female": 46.8,
+      "n_signals": 250
+    },
+    {
+      "drug": "VITAMIN D3",
+      "connections": 44,
+      "pct_female": 45.9,
+      "n_signals": 242
+    },
+    {
+      "drug": "PARACETAMOL",
+      "connections": 44,
+      "pct_female": 56.9,
+      "n_signals": 487
+    },
+    {
+      "drug": "HYDROXYCHLOROQUINE",
+      "connections": 42,
+      "pct_female": 51.9,
+      "n_signals": 376
+    },
+    {
+      "drug": "CERTOLIZUMAB",
+      "connections": 42,
+      "pct_female": 52.5,
+      "n_signals": 314
+    },
+    {
+      "drug": "CETIRIZINE",
+      "connections": 42,
+      "pct_female": 44.3,
+      "n_signals": 244
+    },
+    {
+      "drug": "DIPHENHYDRAMINE",
+      "connections": 40,
+      "pct_female": 77.3,
+      "n_signals": 220
+    },
+    {
+      "drug": "SULFASALAZINE",
+      "connections": 39,
+      "pct_female": 46.5,
+      "n_signals": 318
+    },
+    {
+      "drug": "DOXYCYCLINE",
+      "connections": 39,
+      "pct_female": 58.7,
+      "n_signals": 223
+    }
+  ],
+  "direction_analysis": {
+    "same_direction_pairs": 5557,
+    "same_direction_mean_J": 0.0908,
+    "cross_direction_pairs": 3889,
+    "cross_direction_mean_J": 0.0864
+  },
+  "key_findings": [
+    "Top pair: HYDROXYCHLOROQUINE - SULFASALAZINE (J=0.4099)",
+    "9446 non-trivial drug pairs (J>0.05)",
+    "Same-direction pairs have higher similarity: 0.0908 vs 0.0864",
+    "Top hub: DICLOFENAC (50 connections)"
+  ]
+}
