@@ -106,3 +106,4 @@ data/bridge/
 data/raw/faers/data/kg_v42/
 results/kg_embeddings/DistMult_v41/
 *.pth
+data/kg_v5.1/
