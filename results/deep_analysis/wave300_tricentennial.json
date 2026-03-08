@@ -1,0 +1,20 @@
+{
+  "wave": 300,
+  "title": "TRICENTENNIAL MILESTONE",
+  "n_waves": 300,
+  "n_json": 169,
+  "n_png": 448,
+  "n_pdf": 448,
+  "total_signals": 96281,
+  "total_drugs": 2178,
+  "total_aes": 5069,
+  "overall_pct_f": 53.8,
+  "key_findings": [
+    "Severity-sex gradient: +17pp for serious AEs",
+    "Organ ranking: Nephro > Hepato > Heme > Endo > Cardio",
+    "GLP-1 RA paradox: 24.5%F most male-biased class",
+    "Reproductive paradox: contraceptives 0%F",
+    "Withdrawn drugs: 88.2%F",
+    "Death AEs: 70.4%F"
+  ]
+}

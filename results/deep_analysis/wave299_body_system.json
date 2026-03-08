@@ -1,0 +1,82 @@
+{
+  "wave": 299,
+  "title": "AE Body System Atlas",
+  "n_systems": 15,
+  "system_ranking": {
+    "Renal": {
+      "n_signals": 2046,
+      "pct_f": 75.0,
+      "n_aes": 97
+    },
+    "Hepatic": {
+      "n_signals": 2533,
+      "pct_f": 66.6,
+      "n_aes": 104
+    },
+    "Hematological": {
+      "n_signals": 902,
+      "pct_f": 65.6,
+      "n_aes": 13
+    },
+    "Cardiac": {
+      "n_signals": 3157,
+      "pct_f": 64.8,
+      "n_aes": 131
+    },
+    "Vascular": {
+      "n_signals": 2563,
+      "pct_f": 63.9,
+      "n_aes": 143
+    },
+    "Immune": {
+      "n_signals": 1102,
+      "pct_f": 61.7,
+      "n_aes": 56
+    },
+    "Neurological": {
+      "n_signals": 2057,
+      "pct_f": 59.9,
+      "n_aes": 103
+    },
+    "Psychiatric": {
+      "n_signals": 1969,
+      "pct_f": 56.5,
+      "n_aes": 45
+    },
+    "GI": {
+      "n_signals": 3044,
+      "pct_f": 54.1,
+      "n_aes": 67
+    },
+    "Infection": {
+      "n_signals": 3896,
+      "pct_f": 53.6,
+      "n_aes": 255
+    },
+    "Respiratory": {
+      "n_signals": 4737,
+      "pct_f": 52.7,
+      "n_aes": 156
+    },
+    "Endocrine": {
+      "n_signals": 845,
+      "pct_f": 47.9,
+      "n_aes": 61
+    },
+    "Dermatological": {
+      "n_signals": 2114,
+      "pct_f": 47.3,
+      "n_aes": 59
+    },
+    "Musculoskeletal": {
+      "n_signals": 1959,
+      "pct_f": 45.1,
+      "n_aes": 96
+    },
+    "Eye/Ear": {
+      "n_signals": 652,
+      "pct_f": 41.0,
+      "n_aes": 43
+    }
+  }
+}
