@@ -1,0 +1,133 @@
+{
+  "wave": 159,
+  "title": "Anatomical Sex Dimorphism Mapping",
+  "classification_rate": 38.6,
+  "systems": [
+    {
+      "system": "immune",
+      "n_signals": 682,
+      "pct_female": 76.1,
+      "mean_abs_logr": 1.073,
+      "n_drugs": 277,
+      "n_aes": 59,
+      "dimorphism_index": 26.1
+    },
+    {
+      "system": "renal",
+      "n_signals": 2597,
+      "pct_female": 69.6,
+      "mean_abs_logr": 0.893,
+      "n_drugs": 757,
+      "n_aes": 138,
+      "dimorphism_index": 19.6
+    },
+    {
+      "system": "haematological",
+      "n_signals": 3063,
+      "pct_female": 67.9,
+      "mean_abs_logr": 0.927,
+      "n_drugs": 750,
+      "n_aes": 156,
+      "dimorphism_index": 17.9
+    },
+    {
+      "system": "neurological",
+      "n_signals": 1911,
+      "pct_female": 65.6,
+      "mean_abs_logr": 0.884,
+      "n_drugs": 624,
+      "n_aes": 116,
+      "dimorphism_index": 15.6
+    },
+    {
+      "system": "hepatic",
+      "n_signals": 2876,
+      "pct_female": 65.4,
+      "mean_abs_logr": 1.045,
+      "n_drugs": 603,
+      "n_aes": 107,
+      "dimorphism_index": 15.4
+    },
+    {
+      "system": "cardiovascular",
+      "n_signals": 4248,
+      "pct_female": 64.3,
+      "mean_abs_logr": 0.925,
+      "n_drugs": 940,
+      "n_aes": 182,
+      "dimorphism_index": 14.3
+    },
+    {
+      "system": "gastrointestinal",
+      "n_signals": 4727,
+      "pct_female": 55.4,
+      "mean_abs_logr": 0.989,
+      "n_drugs": 1102,
+      "n_aes": 221,
+      "dimorphism_index": 5.4
+    },
+    {
+      "system": "psychiatric",
+      "n_signals": 2032,
+      "pct_female": 54.8,
+      "mean_abs_logr": 0.981,
+      "n_drugs": 718,
+      "n_aes": 52,
+      "dimorphism_index": 4.8
+    },
+    {
+      "system": "endocrine",
+      "n_signals": 1175,
+      "pct_female": 54.0,
+      "mean_abs_logr": 1.023,
+      "n_drugs": 414,
+      "n_aes": 83,
+      "dimorphism_index": 4.0
+    },
+    {
+      "system": "respiratory",
+      "n_signals": 4955,
+      "pct_female": 53.1,
+      "mean_abs_logr": 1.003,
+      "n_drugs": 994,
+      "n_aes": 165,
+      "dimorphism_index": 3.1
+    },
+    {
+      "system": "musculoskeletal",
+      "n_signals": 3243,
+      "pct_female": 48.1,
+      "mean_abs_logr": 1.022,
+      "n_drugs": 741,
+      "n_aes": 158,
+      "dimorphism_index": 1.9
+    },
+    {
+      "system": "reproductive",
+      "n_signals": 441,
+      "pct_female": 45.6,
+      "mean_abs_logr": 1.348,
+      "n_drugs": 283,
+      "n_aes": 30,
+      "dimorphism_index": 4.4
+    },
+    {
+      "system": "dermatological",
+      "n_signals": 4246,
+      "pct_female": 43.9,
+      "mean_abs_logr": 0.979,
+      "n_drugs": 881,
+      "n_aes": 164,
+      "dimorphism_index": 6.1
+    },
+    {
+      "system": "ophthalmological",
+      "n_signals": 977,
+      "pct_female": 37.6,
+      "mean_abs_logr": 0.864,
+      "n_drugs": 428,
+      "n_aes": 67,
+      "dimorphism_index": 12.4
+    }
+  ]
+}
