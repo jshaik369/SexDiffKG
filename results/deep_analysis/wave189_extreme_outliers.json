@@ -1,0 +1,144 @@
+{
+  "wave": 189,
+  "title": "Extreme Outlier Drug Investigation",
+  "drugs_analyzed": 818,
+  "fm_ratio_vs_pctf": {
+    "rho": -0.227,
+    "p": 5.579733279265925e-11
+  },
+  "signal_count_vs_pctf": {
+    "rho": 0.132,
+    "p": 0.00014996596446791453
+  },
+  "pctf_distribution": {
+    "mean": 51.4,
+    "median": 52.6,
+    "std": 23.2,
+    "gt60_pct": 39.1,
+    "lt40_pct": 30.1
+  },
+  "top10_female": [
+    {
+      "drug": "METFORMIN;ROSIGLITAZONE",
+      "n_signals": 20,
+      "pct_female": 100.0,
+      "f_m_ratio": 0.72
+    },
+    {
+      "drug": "RANITIDINE HYDROCHLORIDE",
+      "n_signals": 50,
+      "pct_female": 100.0,
+      "f_m_ratio": 1.01
+    },
+    {
+      "drug": "INOTERSEN",
+      "n_signals": 20,
+      "pct_female": 100.0,
+      "f_m_ratio": 1.38
+    },
+    {
+      "drug": "FLUDARABINE PHOSPHATE",
+      "n_signals": 37,
+      "pct_female": 97.3,
+      "f_m_ratio": 0.97
+    },
+    {
+      "drug": "PRASUGREL",
+      "n_signals": 50,
+      "pct_female": 96.0,
+      "f_m_ratio": 0.73
+    },
+    {
+      "drug": "TEMSIROLIMUS",
+      "n_signals": 24,
+      "pct_female": 95.8,
+      "f_m_ratio": 0.85
+    },
+    {
+      "drug": "FLUINDIONE",
+      "n_signals": 24,
+      "pct_female": 95.8,
+      "f_m_ratio": 1.01
+    },
+    {
+      "drug": "BCG VACCINE",
+      "n_signals": 22,
+      "pct_female": 95.5,
+      "f_m_ratio": 0.35
+    },
+    {
+      "drug": "SILDENAFIL CITRATE",
+      "n_signals": 42,
+      "pct_female": 95.2,
+      "f_m_ratio": 1.26
+    },
+    {
+      "drug": "BELATACEPT",
+      "n_signals": 20,
+      "pct_female": 95.0,
+      "f_m_ratio": 0.93
+    }
+  ],
+  "top10_male": [
+    {
+      "drug": "MEBEVERINE",
+      "n_signals": 52,
+      "pct_female": 0.0,
+      "f_m_ratio": 0.34
+    },
+    {
+      "drug": "EPTINEZUMAB",
+      "n_signals": 27,
+      "pct_female": 0.0,
+      "f_m_ratio": 4.38
+    },
+    {
+      "drug": "DIROXIMEL FUMARATE",
+      "n_signals": 25,
+      "pct_female": 0.0,
+      "f_m_ratio": 3.03
+    },
+    {
+      "drug": "BRIMONIDINE;TIMOLOL",
+      "n_signals": 20,
+      "pct_female": 0.0,
+      "f_m_ratio": 1.31
+    },
+    {
+      "drug": "SAPROPTERIN",
+      "n_signals": 20,
+      "pct_female": 0.0,
+      "f_m_ratio": 1.15
+    },
+    {
+      "drug": "CENEGERMIN",
+      "n_signals": 20,
+      "pct_female": 0.0,
+      "f_m_ratio": 2.3
+    },
+    {
+      "drug": "MIFEPRISTONE",
+      "n_signals": 47,
+      "pct_female": 0.0,
+      "f_m_ratio": 3.95
+    },
+    {
+      "drug": "BUPROPION;NALTREXONE",
+      "n_signals": 23,
+      "pct_female": 0.0,
+      "f_m_ratio": 4.74
+    },
+    {
+      "drug": "PEGINTERFERON BETA-1A",
+      "n_signals": 46,
+      "pct_female": 0.0,
+      "f_m_ratio": 3.65
+    },
+    {
+      "drug": "PEGVALIASE",
+      "n_signals": 37,
+      "pct_female": 0.0,
+      "f_m_ratio": 1.34
+    }
+  ]
+}
