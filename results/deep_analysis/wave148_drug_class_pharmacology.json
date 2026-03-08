@@ -1,0 +1,253 @@
+{
+  "wave": 148,
+  "title": "Drug Class Pharmacological Sex Bias",
+  "description": "Sex-differential patterns by pharmacological drug class (suffix-based classification)",
+  "total_signals": 96281,
+  "class_analysis": [
+    {
+      "drug_class": "ACE inhibitor",
+      "n_signals": 927,
+      "n_drugs": 17,
+      "pct_female": 72.1,
+      "mean_abs_logR": 1.053,
+      "median_reports": 90
+    },
+    {
+      "drug_class": "Opioid",
+      "n_signals": 2517,
+      "n_drugs": 30,
+      "pct_female": 70.9,
+      "mean_abs_logR": 1.06,
+      "median_reports": 87
+    },
+    {
+      "drug_class": "Antipsychotic",
+      "n_signals": 2179,
+      "n_drugs": 17,
+      "pct_female": 70.6,
+      "mean_abs_logR": 1.0227,
+      "median_reports": 76
+    },
+    {
+      "drug_class": "Hormone/steroid",
+      "n_signals": 4563,
+      "n_drugs": 49,
+      "pct_female": 61.3,
+      "mean_abs_logR": 1.1474,
+      "median_reports": 98
+    },
+    {
+      "drug_class": "Antiviral",
+      "n_signals": 2406,
+      "n_drugs": 70,
+      "pct_female": 61.1,
+      "mean_abs_logR": 0.9148,
+      "median_reports": 60
+    },
+    {
+      "drug_class": "Small molecule kinase inhibitor",
+      "n_signals": 3048,
+      "n_drugs": 72,
+      "pct_female": 59.9,
+      "mean_abs_logR": 0.7841,
+      "median_reports": 53
+    },
+    {
+      "drug_class": "NSAID",
+      "n_signals": 1852,
+      "n_drugs": 28,
+      "pct_female": 56.6,
+      "mean_abs_logR": 1.1213,
+      "median_reports": 113
+    },
+    {
+      "drug_class": "Proton pump inhibitor",
+      "n_signals": 1899,
+      "n_drugs": 10,
+      "pct_female": 54.7,
+      "mean_abs_logR": 0.9838,
+      "median_reports": 96
+    },
+    {
+      "drug_class": "ARB",
+      "n_signals": 1142,
+      "n_drugs": 16,
+      "pct_female": 52.6,
+      "mean_abs_logR": 0.9297,
+      "median_reports": 65
+    },
+    {
+      "drug_class": "Other",
+      "n_signals": 56290,
+      "n_drugs": 1589,
+      "pct_female": 52.3,
+      "mean_abs_logR": 0.9698,
+      "median_reports": 68
+    },
+    {
+      "drug_class": "Beta blocker",
+      "n_signals": 889,
+      "n_drugs": 15,
+      "pct_female": 51.3,
+      "mean_abs_logR": 0.9187,
+      "median_reports": 70
+    },
+    {
+      "drug_class": "Antibiotic",
+      "n_signals": 3833,
+      "n_drugs": 65,
+      "pct_female": 50.6,
+      "mean_abs_logR": 1.0344,
+      "median_reports": 75
+    },
+    {
+      "drug_class": "Monoclonal antibody",
+      "n_signals": 9476,
+      "n_drugs": 112,
+      "pct_female": 49.7,
+      "mean_abs_logR": 0.985,
+      "median_reports": 83
+    },
+    {
+      "drug_class": "Vitamin/supplement",
+      "n_signals": 1809,
+      "n_drugs": 57,
+      "pct_female": 48.6,
+      "mean_abs_logR": 1.2852,
+      "median_reports": 98
+    },
+    {
+      "drug_class": "Statin",
+      "n_signals": 1119,
+      "n_drugs": 10,
+      "pct_female": 48.3,
+      "mean_abs_logR": 0.9419,
+      "median_reports": 74
+    },
+    {
+      "drug_class": "Antidepressant/SSRI",
+      "n_signals": 2287,
+      "n_drugs": 18,
+      "pct_female": 44.3,
+      "mean_abs_logR": 0.9523,
+      "median_reports": 74
+    },
+    {
+      "drug_class": "Topical",
+      "n_signals": 45,
+      "n_drugs": 3,
+      "pct_female": 13.3,
+      "mean_abs_logR": 0.8679,
+      "median_reports": 43
+    }
+  ],
+  "biologics_vs_small_molecules": {
+    "biologics": {
+      "n_signals": 9476,
+      "pct_female": 49.7,
+      "mean_abs_logR": 0.985
+    },
+    "small_molecules": {
+      "n_signals": 10876,
+      "pct_female": 56.8,
+      "mean_abs_logR": 0.9418
+    }
+  },
+  "monoclonal_antibody_drugs": [
+    {
+      "drug": "ADALIMUMAB",
+      "n_signals": 807,
+      "pct_female": 38.2,
+      "mean_abs_logR": 0.8792
+    },
+    {
+      "drug": "RITUXIMAB",
+      "n_signals": 755,
+      "pct_female": 66.6,
+      "mean_abs_logR": 1.1643
+    },
+    {
+      "drug": "INFLIXIMAB",
+      "n_signals": 623,
+      "pct_female": 50.4,
+      "mean_abs_logR": 1.0893
+    },
+    {
+      "drug": "TOCILIZUMAB",
+      "n_signals": 508,
+      "pct_female": 49.4,
+      "mean_abs_logR": 1.1859
+    },
+    {
+      "drug": "SECUKINUMAB",
+      "n_signals": 456,
+      "pct_female": 52.2,
+      "mean_abs_logR": 1.0401
+    },
+    {
+      "drug": "GOLIMUMAB",
+      "n_signals": 334,
+      "pct_female": 55.7,
+      "mean_abs_logR": 1.3765
+    },
+    {
+      "drug": "USTEKINUMAB",
+      "n_signals": 314,
+      "pct_female": 65.0,
+      "mean_abs_logR": 1.3288
+    },
+    {
+      "drug": "CERTOLIZUMAB",
+      "n_signals": 314,
+      "pct_female": 52.5,
+      "mean_abs_logR": 1.2307
+    },
+    {
+      "drug": "PEMBROLIZUMAB",
+      "n_signals": 309,
+      "pct_female": 73.1,
+      "mean_abs_logR": 0.8659
+    },
+    {
+      "drug": "OMALIZUMAB",
+      "n_signals": 306,
+      "pct_female": 27.8,
+      "mean_abs_logR": 0.8842
+    },
+    {
+      "drug": "BEVACIZUMAB",
+      "n_signals": 294,
+      "pct_female": 55.4,
+      "mean_abs_logR": 0.842
+    },
+    {
+      "drug": "DUPILUMAB",
+      "n_signals": 289,
+      "pct_female": 17.0,
+      "mean_abs_logR": 0.7626
+    },
+    {
+      "drug": "MEPOLIZUMAB",
+      "n_signals": 254,
+      "pct_female": 48.4,
+      "mean_abs_logR": 1.066
+    },
+    {
+      "drug": "NIVOLUMAB",
+      "n_signals": 238,
+      "pct_female": 66.8,
+      "mean_abs_logR": 0.828
+    },
+    {
+      "drug": "DENOSUMAB",
+      "n_signals": 234,
+      "pct_female": 23.1,
+      "mean_abs_logR": 0.9973
+    }
+  ],
+  "key_findings": [
+    "Most female-biased class: ACE inhibitor (72.1%F, 17 drugs)",
+    "Most male-biased class: Topical (13.3%F, 3 drugs)",
+    "Biologics vs small molecules: 49.7%F vs 56.8%F"
+  ]
+}
