@@ -1,0 +1,447 @@
+{
+  "wave": 145,
+  "title": "Adverse Event Sex Specificity Index",
+  "description": "Systematic characterization of sex-specificity for every adverse event",
+  "total_aes": 5069,
+  "reliable_aes": 1668,
+  "top_female_specific": [
+    {
+      "ae": "Haemarthrosis",
+      "pct_female": 100.0,
+      "n_drugs": 15,
+      "mean_abs_logR": 2.2543,
+      "specificity_index": 0.1107
+    },
+    {
+      "ae": "Bone density decreased",
+      "pct_female": 100.0,
+      "n_drugs": 27,
+      "mean_abs_logR": 1.5586,
+      "specificity_index": 0.0932
+    },
+    {
+      "ae": "Adverse drug reaction",
+      "pct_female": 93.7,
+      "n_drugs": 206,
+      "mean_abs_logR": 1.0845,
+      "specificity_index": 0.0916
+    },
+    {
+      "ae": "Viral mutation identified",
+      "pct_female": 100.0,
+      "n_drugs": 36,
+      "mean_abs_logR": 1.3708,
+      "specificity_index": 0.0891
+    },
+    {
+      "ae": "Drug tolerance",
+      "pct_female": 100.0,
+      "n_drugs": 20,
+      "mean_abs_logR": 1.6303,
+      "specificity_index": 0.0886
+    },
+    {
+      "ae": "Abnormal weight gain",
+      "pct_female": 89.5,
+      "n_drugs": 19,
+      "mean_abs_logR": 2.0842,
+      "specificity_index": 0.0879
+    },
+    {
+      "ae": "Delirium",
+      "pct_female": 88.0,
+      "n_drugs": 125,
+      "mean_abs_logR": 1.2943,
+      "specificity_index": 0.0861
+    },
+    {
+      "ae": "Hyperprolactinaemia",
+      "pct_female": 95.7,
+      "n_drugs": 23,
+      "mean_abs_logR": 1.6086,
+      "specificity_index": 0.0835
+    },
+    {
+      "ae": "Viral load increased",
+      "pct_female": 100.0,
+      "n_drugs": 36,
+      "mean_abs_logR": 1.2818,
+      "specificity_index": 0.0833
+    },
+    {
+      "ae": "Hepatic cirrhosis",
+      "pct_female": 87.5,
+      "n_drugs": 64,
+      "mean_abs_logR": 1.4474,
+      "specificity_index": 0.0819
+    },
+    {
+      "ae": "Sexual dysfunction",
+      "pct_female": 87.5,
+      "n_drugs": 24,
+      "mean_abs_logR": 1.8875,
+      "specificity_index": 0.0816
+    },
+    {
+      "ae": "Inguinal hernia",
+      "pct_female": 100.0,
+      "n_drugs": 13,
+      "mean_abs_logR": 1.6764,
+      "specificity_index": 0.078
+    },
+    {
+      "ae": "Haematuria",
+      "pct_female": 93.3,
+      "n_drugs": 134,
+      "mean_abs_logR": 0.9768,
+      "specificity_index": 0.0751
+    },
+    {
+      "ae": "Blood HIV RNA increased",
+      "pct_female": 100.0,
+      "n_drugs": 19,
+      "mean_abs_logR": 1.3974,
+      "specificity_index": 0.0746
+    },
+    {
+      "ae": "Virologic failure",
+      "pct_female": 100.0,
+      "n_drugs": 32,
+      "mean_abs_logR": 1.1539,
+      "specificity_index": 0.0725
+    }
+  ],
+  "top_male_specific": [
+    {
+      "ae": "Abortion spontaneous",
+      "pct_female": 0.0,
+      "n_drugs": 17,
+      "mean_abs_logR": 3.7055,
+      "specificity_index": 0.1904
+    },
+    {
+      "ae": "Psychological trauma",
+      "pct_female": 0.0,
+      "n_drugs": 10,
+      "mean_abs_logR": 3.0025,
+      "specificity_index": 0.1254
+    },
+    {
+      "ae": "Pelvic pain",
+      "pct_female": 2.9,
+      "n_drugs": 34,
+      "mean_abs_logR": 1.9672,
+      "specificity_index": 0.1184
+    },
+    {
+      "ae": "Apparent death",
+      "pct_female": 13.3,
+      "n_drugs": 15,
+      "mean_abs_logR": 3.146,
+      "specificity_index": 0.1133
+    },
+    {
+      "ae": "Device dislocation",
+      "pct_female": 0.0,
+      "n_drugs": 29,
+      "mean_abs_logR": 1.7997,
+      "specificity_index": 0.1099
+    },
+    {
+      "ae": "Gingival pain",
+      "pct_female": 0.0,
+      "n_drugs": 34,
+      "mean_abs_logR": 1.7153,
+      "specificity_index": 0.1097
+    },
+    {
+      "ae": "Catarrh",
+      "pct_female": 0.0,
+      "n_drugs": 28,
+      "mean_abs_logR": 1.6927,
+      "specificity_index": 0.1023
+    },
+    {
+      "ae": "Burns second degree",
+      "pct_female": 6.5,
+      "n_drugs": 31,
+      "mean_abs_logR": 1.7783,
+      "specificity_index": 0.0965
+    },
+    {
+      "ae": "Parosmia",
+      "pct_female": 2.7,
+      "n_drugs": 37,
+      "mean_abs_logR": 1.5478,
+      "specificity_index": 0.0959
+    },
+    {
+      "ae": "Stress",
+      "pct_female": 13.5,
+      "n_drugs": 156,
+      "mean_abs_logR": 1.4089,
+      "specificity_index": 0.0943
+    },
+    {
+      "ae": "Hypopnoea",
+      "pct_female": 0.0,
+      "n_drugs": 35,
+      "mean_abs_logR": 1.4339,
+      "specificity_index": 0.0925
+    },
+    {
+      "ae": "Nodule",
+      "pct_female": 14.3,
+      "n_drugs": 63,
+      "mean_abs_logR": 1.6463,
+      "specificity_index": 0.0884
+    },
+    {
+      "ae": "Sensation of foreign body",
+      "pct_female": 0.0,
+      "n_drugs": 28,
+      "mean_abs_logR": 1.4461,
+      "specificity_index": 0.0874
+    },
+    {
+      "ae": "Impaired quality of life",
+      "pct_female": 5.0,
+      "n_drugs": 60,
+      "mean_abs_logR": 1.223,
+      "specificity_index": 0.0817
+    },
+    {
+      "ae": "Bone cyst",
+      "pct_female": 0.0,
+      "n_drugs": 11,
+      "mean_abs_logR": 1.8618,
+      "specificity_index": 0.081
+    }
+  ],
+  "most_neutral": [
+    {
+      "ae": "Herpes simplex",
+      "pct_female": 50.0,
+      "n_drugs": 18,
+      "mean_abs_logR": 1.0284
+    },
+    {
+      "ae": "Peripheral coldness",
+      "pct_female": 50.0,
+      "n_drugs": 36,
+      "mean_abs_logR": 0.7828
+    },
+    {
+      "ae": "Hypokinesia",
+      "pct_female": 50.0,
+      "n_drugs": 48,
+      "mean_abs_logR": 0.874
+    },
+    {
+      "ae": "Sleep disorder due to general medical condition, insomnia type",
+      "pct_female": 50.0,
+      "n_drugs": 28,
+      "mean_abs_logR": 1.5501
+    },
+    {
+      "ae": "Troponin increased",
+      "pct_female": 50.0,
+      "n_drugs": 54,
+      "mean_abs_logR": 1.1129
+    },
+    {
+      "ae": "Polyarthritis",
+      "pct_female": 50.0,
+      "n_drugs": 16,
+      "mean_abs_logR": 0.8281
+    },
+    {
+      "ae": "Self injurious behaviour",
+      "pct_female": 50.0,
+      "n_drugs": 10,
+      "mean_abs_logR": 0.7634
+    },
+    {
+      "ae": "Fistula",
+      "pct_female": 50.0,
+      "n_drugs": 16,
+      "mean_abs_logR": 0.6836
+    },
+    {
+      "ae": "Accidental overdose",
+      "pct_female": 50.0,
+      "n_drugs": 76,
+      "mean_abs_logR": 0.9858
+    },
+    {
+      "ae": "Lung adenocarcinoma",
+      "pct_female": 50.0,
+      "n_drugs": 12,
+      "mean_abs_logR": 0.8112
+    },
+    {
+      "ae": "Product packaging quantity issue",
+      "pct_female": 50.0,
+      "n_drugs": 14,
+      "mean_abs_logR": 1.0008
+    },
+    {
+      "ae": "Liver abscess",
+      "pct_female": 50.0,
+      "n_drugs": 14,
+      "mean_abs_logR": 0.9208
+    },
+    {
+      "ae": "Alcoholism",
+      "pct_female": 50.0,
+      "n_drugs": 10,
+      "mean_abs_logR": 0.8342
+    },
+    {
+      "ae": "Cardiotoxicity",
+      "pct_female": 50.0,
+      "n_drugs": 28,
+      "mean_abs_logR": 0.8698
+    },
+    {
+      "ae": "Hypophosphataemia",
+      "pct_female": 50.0,
+      "n_drugs": 46,
+      "mean_abs_logR": 1.1413
+    }
+  ],
+  "highest_variance": [
+    {
+      "ae": "Helicobacter infection",
+      "pct_female": 46.7,
+      "n_drugs": 30,
+      "std_logR": 2.3115,
+      "mean_abs_logR": 2.0439
+    },
+    {
+      "ae": "Folliculitis",
+      "pct_female": 47.8,
+      "n_drugs": 46,
+      "std_logR": 2.2996,
+      "mean_abs_logR": 2.1291
+    },
+    {
+      "ae": "Pericarditis",
+      "pct_female": 48.1,
+      "n_drugs": 79,
+      "std_logR": 2.1399,
+      "mean_abs_logR": 1.8784
+    },
+    {
+      "ae": "Peripheral venous disease",
+      "pct_female": 57.1,
+      "n_drugs": 21,
+      "std_logR": 2.1276,
+      "mean_abs_logR": 1.9971
+    },
+    {
+      "ae": "Glossodynia",
+      "pct_female": 36.6,
+      "n_drugs": 41,
+      "std_logR": 2.019,
+      "mean_abs_logR": 1.6275
+    },
+    {
+      "ae": "Systemic lupus erythematosus",
+      "pct_female": 45.1,
+      "n_drugs": 71,
+      "std_logR": 2.018,
+      "mean_abs_logR": 1.8079
+    },
+    {
+      "ae": "Hand deformity",
+      "pct_female": 62.5,
+      "n_drugs": 32,
+      "std_logR": 1.9402,
+      "mean_abs_logR": 1.7728
+    },
+    {
+      "ae": "Blood cholesterol increased",
+      "pct_female": 47.5,
+      "n_drugs": 122,
+      "std_logR": 1.9227,
+      "mean_abs_logR": 1.6625
+    },
+    {
+      "ae": "Hypercholesterolaemia",
+      "pct_female": 54.4,
+      "n_drugs": 79,
+      "std_logR": 1.8971,
+      "mean_abs_logR": 1.756
+    },
+    {
+      "ae": "Wound",
+      "pct_female": 40.5,
+      "n_drugs": 111,
+      "std_logR": 1.8838,
+      "mean_abs_logR": 1.5925
+    },
+    {
+      "ae": "Irritable bowel syndrome",
+      "pct_female": 52.5,
+      "n_drugs": 59,
+      "std_logR": 1.8559,
+      "mean_abs_logR": 1.6948
+    },
+    {
+      "ae": "Injury",
+      "pct_female": 52.8,
+      "n_drugs": 89,
+      "std_logR": 1.7894,
+      "mean_abs_logR": 1.5361
+    },
+    {
+      "ae": "Obesity",
+      "pct_female": 70.3,
+      "n_drugs": 91,
+      "std_logR": 1.7741,
+      "mean_abs_logR": 1.7866
+    },
+    {
+      "ae": "Impaired healing",
+      "pct_female": 45.7,
+      "n_drugs": 92,
+      "std_logR": 1.7485,
+      "mean_abs_logR": 1.5139
+    },
+    {
+      "ae": "C-reactive protein abnormal",
+      "pct_female": 52.5,
+      "n_drugs": 40,
+      "std_logR": 1.7266,
+      "mean_abs_logR": 1.5069
+    }
+  ],
+  "distribution": {
+    "strongly_female": 473,
+    "female": 419,
+    "neutral": 212,
+    "male": 353,
+    "strongly_male": 389
+  },
+  "correlations": {
+    "n_drugs_vs_pctF": {
+      "rho": 0.0662,
+      "p": 0.00687
+    },
+    "strength_vs_pctF": {
+      "rho": -0.0053,
+      "p": 0.829
+    },
+    "n_drugs_vs_strength": {
+      "rho": 0.1694,
+      "p": 3.28e-12
+    }
+  },
+  "key_findings": [
+    "Top female-specific: Haemarthrosis (100.0%F, 15 drugs)",
+    "Top male-specific: Abortion spontaneous (0.0%F, 17 drugs)",
+    "Most neutral: Herpes simplex (50.0%F)",
+    "473 strongly female AEs vs 389 strongly male"
+  ]
+}
