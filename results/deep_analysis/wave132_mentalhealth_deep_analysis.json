@@ -1,0 +1,433 @@
+{
+  "wave": 132,
+  "title": "MENTALHEALTH-KG: Psychiatric Drug Sex-Differential Safety",
+  "timestamp": "2026-03-08T17:02:36.062900",
+  "kg": {
+    "name": "MENTALHEALTH-KG",
+    "nodes": 17555,
+    "edges": 705561,
+    "node_types": {
+      "AdverseEvent": 9632,
+      "Drug": 3871,
+      "Disease": 1556,
+      "Symptom": 1166,
+      "Protein": 1004,
+      "Gene": 238,
+      "ClinicalTrial": 88
+    },
+    "edge_types": {
+      "has_adverse_event": 587416,
+      "sex_differential_adverse_event": 94359,
+      "treats": 14003,
+      "binds_to": 6855,
+      "causes_adverse_event": 1167,
+      "corresponds_to": 1166,
+      "targets": 505,
+      "tests_intervention": 90
+    },
+    "model": "DistMult",
+    "mrr": 0.1277,
+    "hits_at_10": 0.2279
+  },
+  "sex_differential": {
+    "total": 96277,
+    "female": 51769,
+    "male": 44508,
+    "pct_female": 53.8,
+    "psychiatric_aes": 2454,
+    "psych_female": 1329,
+    "psych_male": 1125,
+    "psych_pct_female": 54.2,
+    "sexual_dysfunction": 63,
+    "sexdys_female": 45,
+    "sexdys_male": 18
+  },
+  "top_female_drugs": [
+    {
+      "drug": "PREDNISONE",
+      "n": 650,
+      "logR": 1.165
+    },
+    {
+      "drug": "RITUXIMAB",
+      "n": 503,
+      "logR": 1.303
+    },
+    {
+      "drug": "RISPERIDONE",
+      "n": 481,
+      "logR": 1.135
+    },
+    {
+      "drug": "PREDNISOLONE",
+      "n": 447,
+      "logR": 0.906
+    },
+    {
+      "drug": "TACROLIMUS",
+      "n": 434,
+      "logR": 0.885
+    },
+    {
+      "drug": "METHOTREXATE",
+      "n": 433,
+      "logR": 1.08
+    },
+    {
+      "drug": "DEXAMETHASONE",
+      "n": 431,
+      "logR": 0.874
+    },
+    {
+      "drug": "OXYCODONE",
+      "n": 418,
+      "logR": 1.426
+    },
+    {
+      "drug": "METHYLPREDNISOLONE",
+      "n": 402,
+      "logR": 1.255
+    },
+    {
+      "drug": "MYCOPHENOLIC ACID",
+      "n": 387,
+      "logR": 1.195
+    }
+  ],
+  "predictions": {
+    "ADALIMUMAB": [
+      {
+        "entity": "AE:Kidney infection",
+        "score": 1.475834608078003
+      },
+      {
+        "entity": "AE:Clostridium difficile infection",
+        "score": 1.469589114189148
+      },
+      {
+        "entity": "AE:Carpal tunnel syndrome",
+        "score": 1.46353280544281
+      },
+      {
+        "entity": "AE:Flank pain",
+        "score": 1.4477992057800293
+      },
+      {
+        "entity": "AE:Hepatic steatosis",
+        "score": 1.4473986625671387
+      }
+    ],
+    "METHOTREXATE": [
+      {
+        "entity": "AE:Viral infection",
+        "score": 1.5058701038360596
+      },
+      {
+        "entity": "AE:Vertigo",
+        "score": 1.5037778615951538
+      },
+      {
+        "entity": "AE:Pancreatitis",
+        "score": 1.50202476978302
+      },
+      {
+        "entity": "AE:Oropharyngeal pain",
+        "score": 1.5001295804977417
+      },
+      {
+        "entity": "AE:Clostridium difficile infection",
+        "score": 1.499056339263916
+      }
+    ],
+    "PREDNISONE": [
+      {
+        "entity": "AE:Heart rate decreased",
+        "score": 1.4405107498168945
+      },
+      {
+        "entity": "AE:Aspartate aminotransferase increased",
+        "score": 1.4352164268493652
+      },
+      {
+        "entity": "AE:Staphylococcal infection",
+        "score": 1.43451726436615
+      },
+      {
+        "entity": "AE:Blood creatinine increased",
+        "score": 1.433293342590332
+      },
+      {
+        "entity": "AE:Pancreatitis",
+        "score": 1.431439757347107
+      }
+    ],
+    "RITUXIMAB": [
+      {
+        "entity": "AE:Heart rate decreased",
+        "score": 1.5016121864318848
+      },
+      {
+        "entity": "AE:Viral infection",
+        "score": 1.4968273639678955
+      },
+      {
+        "entity": "AE:Staphylococcal infection",
+        "score": 1.496201992034912
+      },
+      {
+        "entity": "AE:Pleural effusion",
+        "score": 1.4920498132705688
+      },
+      {
+        "entity": "AE:Oropharyngeal pain",
+        "score": 1.4913341999053955
+      }
+    ],
+    "ETANERCEPT": [
+      {
+        "entity": "AE:Bronchitis",
+        "score": 1.585439682006836
+      },
+      {
+        "entity": "AE:Therapeutic response decreased",
+        "score": 1.5742394924163818
+      },
+      {
+        "entity": "AE:Viral infection",
+        "score": 1.5716736316680908
+      },
+      {
+        "entity": "AE:Oropharyngeal pain",
+        "score": 1.5708177089691162
+      },
+      {
+        "entity": "AE:Arthropathy",
+        "score": 1.568360686302185
+      }
+    ],
+    "DEXAMETHASONE": [
+      {
+        "entity": "AE:Haematuria",
+        "score": 1.5267014503479004
+      },
+      {
+        "entity": "AE:Chronic kidney disease",
+        "score": 1.5223137140274048
+      },
+      {
+        "entity": "AE:Aspartate aminotransferase increased",
+        "score": 1.5221352577209473
+      },
+      {
+        "entity": "AE:Pancreatitis",
+        "score": 1.5201025009155273
+      },
+      {
+        "entity": "AE:Hepatitis",
+        "score": 1.5177860260009766
+      }
+    ],
+    "INFLIXIMAB": [
+      {
+        "entity": "AE:Bronchitis",
+        "score": 1.6034753322601318
+      },
+      {
+        "entity": "AE:Therapeutic response decreased",
+        "score": 1.5976150035858154
+      },
+      {
+        "entity": "AE:Oropharyngeal pain",
+        "score": 1.5966514348983765
+      },
+      {
+        "entity": "AE:Colitis",
+        "score": 1.589760422706604
+      },
+      {
+        "entity": "AE:Eczema",
+        "score": 1.588503360748291
+      }
+    ],
+    "PREDNISOLONE": [
+      {
+        "entity": "AE:Aspartate aminotransferase increased",
+        "score": 1.5084830522537231
+      },
+      {
+        "entity": "AE:Hepatitis",
+        "score": 1.507574200630188
+      },
+      {
+        "entity": "AE:Blood creatinine increased",
+        "score": 1.5072824954986572
+      },
+      {
+        "entity": "AE:Pancreatitis",
+        "score": 1.5023020505905151
+      },
+      {
+        "entity": "AE:Alanine aminotransferase increased",
+        "score": 1.5006372928619385
+      }
+    ],
+    "TACROLIMUS": [
+      {
+        "entity": "AE:Blood creatinine increased",
+        "score": 1.4916090965270996
+      },
+      {
+        "entity": "AE:Aspartate aminotransferase increased",
+        "score": 1.4912760257720947
+      },
+      {
+        "entity": "AE:Hepatitis",
+        "score": 1.4892816543579102
+      },
+      {
+        "entity": "AE:Alanine aminotransferase increased",
+        "score": 1.4846556186676025
+      },
+      {
+        "entity": "AE:Staphylococcal infection",
+        "score": 1.4832249879837036
+      }
+    ],
+    "CYCLOPHOSPHAMIDE": [
+      {
+        "entity": "AE:Chronic kidney disease",
+        "score": 1.4009865522384644
+      },
+      {
+        "entity": "AE:Leukocytosis",
+        "score": 1.3974299430847168
+      },
+      {
+        "entity": "AE:Jaundice",
+        "score": 1.3970921039581299
+      },
+      {
+        "entity": "AE:Staphylococcal infection",
+        "score": 1.3952717781066895
+      },
+      {
+        "entity": "AE:Aspartate aminotransferase increased",
+        "score": 1.392939567565918
+      }
+    ]
+  },
+  "drug_similarity_top10": [
+    {
+      "d1": "MORPHINE",
+      "d2": "OXYCODONE",
+      "sim": 0.9926
+    },
+    {
+      "d1": "GEMCITABINE HYDROCHLORIDE",
+      "d2": "LEVOFOLINIC ACID",
+      "sim": 0.9925
+    },
+    {
+      "d1": "IMIGLUCERASE",
+      "d2": "VONOPRAZAN",
+      "sim": 0.9925
+    },
+    {
+      "d1": "BORAGO SPP",
+      "d2": "CLIOQUINOL;FLUMETHASONE",
+      "sim": 0.992
+    },
+    {
+      "d1": "TOFACITINIB",
+      "d2": "UPADACITINIB",
+      "sim": 0.9918
+    },
+    {
+      "d1": "MYCOPHENOLIC ACID",
+      "d2": "TACROLIMUS",
+      "sim": 0.9918
+    },
+    {
+      "d1": "CYTARABINE",
+      "d2": "VINCRISTINE",
+      "sim": 0.9913
+    },
+    {
+      "d1": "OXYCODONE",
+      "d2": "TRAMADOL",
+      "sim": 0.9909
+    },
+    {
+      "d1": "HYALURONIDASE;RITUXIMAB",
+      "d2": "MEGLUMINE",
+      "sim": 0.99
+    },
+    {
+      "d1": "MIRTAZAPINE",
+      "d2": "RISPERIDONE",
+      "sim": 0.9896
+    }
+  ],
+  "top_psychiatric_aes": [
+    {
+      "ae": "Anxiety",
+      "n_drugs": 260,
+      "logR": -0.175,
+      "dir": "male_higher"
+    },
+    {
+      "ae": "Insomnia",
+      "n_drugs": 224,
+      "logR": 0.02,
+      "dir": "male_higher"
+    },
+    {
+      "ae": "Depression",
+      "n_drugs": 214,
+      "logR": 0.161,
+      "dir": "female_higher"
+    },
+    {
+      "ae": "Hallucination",
+      "n_drugs": 151,
+      "logR": 0.577,
+      "dir": "female_higher"
+    },
+    {
+      "ae": "Completed suicide",
+      "n_drugs": 147,
+      "logR": 0.128,
+      "dir": "female_higher"
+    },
+    {
+      "ae": "Delirium",
+      "n_drugs": 125,
+      "logR": 1.093,
+      "dir": "female_higher"
+    },
+    {
+      "ae": "Depressed level of consciousness",
+      "n_drugs": 124,
+      "logR": 0.632,
+      "dir": "female_higher"
+    },
+    {
+      "ae": "Agitation",
+      "n_drugs": 112,
+      "logR": 0.451,
+      "dir": "female_higher"
+    },
+    {
+      "ae": "Suicide attempt",
+      "n_drugs": 105,
+      "logR": -0.009,
+      "dir": "female_higher"
+    },
+    {
+      "ae": "Suicidal ideation",
+      "n_drugs": 92,
+      "logR": -0.106,
+      "dir": "male_higher"
+    }
+  ]
+}

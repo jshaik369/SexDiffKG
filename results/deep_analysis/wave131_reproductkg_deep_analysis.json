@@ -1,0 +1,952 @@
+{
+  "wave": 131,
+  "title": "REPRODUCT-KG Deep Analysis: Pregnancy Drug Safety",
+  "timestamp": "2026-03-08T17:01:02.220175",
+  "kg": {
+    "name": "REPRODUCT-KG",
+    "nodes": 13208,
+    "edges": 384985,
+    "node_types": {
+      "AdverseEvent": 9435,
+      "Drug": 1429,
+      "Disease": 1317,
+      "Protein": 772,
+      "Gene": 134,
+      "ClinicalTrial": 74,
+      "Symptom": 47
+    },
+    "edge_types": {
+      "has_adverse_event": 314260,
+      "sex_differential_adverse_event": 58626,
+      "treats": 8761,
+      "binds_to": 2953,
+      "targets": 216,
+      "tests_intervention": 75,
+      "causes_adverse_event": 47,
+      "corresponds_to": 47
+    },
+    "model": "DistMult",
+    "mrr": 0.1629,
+    "hits_at_10": 0.2844
+  },
+  "sex_differential": {
+    "total_signals": 90174,
+    "female_higher": 48828,
+    "male_higher": 41346,
+    "pct_female": 54.1,
+    "top_female_drugs": [
+      {
+        "drug": "PREDNISONE",
+        "n_signals": 650,
+        "mean_logR": 1.165
+      },
+      {
+        "drug": "RITUXIMAB",
+        "n_signals": 503,
+        "mean_logR": 1.303
+      },
+      {
+        "drug": "RISPERIDONE",
+        "n_signals": 481,
+        "mean_logR": 1.135
+      },
+      {
+        "drug": "PREDNISOLONE",
+        "n_signals": 447,
+        "mean_logR": 0.906
+      },
+      {
+        "drug": "TACROLIMUS",
+        "n_signals": 434,
+        "mean_logR": 0.885
+      },
+      {
+        "drug": "METHOTREXATE",
+        "n_signals": 433,
+        "mean_logR": 1.08
+      },
+      {
+        "drug": "DEXAMETHASONE",
+        "n_signals": 431,
+        "mean_logR": 0.874
+      },
+      {
+        "drug": "OXYCODONE",
+        "n_signals": 418,
+        "mean_logR": 1.426
+      },
+      {
+        "drug": "METHYLPREDNISOLONE",
+        "n_signals": 402,
+        "mean_logR": 1.255
+      },
+      {
+        "drug": "MYCOPHENOLIC ACID",
+        "n_signals": 387,
+        "mean_logR": 1.195
+      }
+    ],
+    "top_female_aes": [
+      {
+        "ae": "Pain",
+        "n_drugs": 215,
+        "mean_logR": 1.18
+      },
+      {
+        "ae": "Rash",
+        "n_drugs": 210,
+        "mean_logR": 1.179
+      },
+      {
+        "ae": "Fatigue",
+        "n_drugs": 195,
+        "mean_logR": 1.126
+      },
+      {
+        "ae": "Pyrexia",
+        "n_drugs": 194,
+        "mean_logR": 1.144
+      },
+      {
+        "ae": "Adverse drug reaction",
+        "n_drugs": 187,
+        "mean_logR": 1.08
+      },
+      {
+        "ae": "Hypertension",
+        "n_drugs": 187,
+        "mean_logR": 1.173
+      },
+      {
+        "ae": "Weight decreased",
+        "n_drugs": 185,
+        "mean_logR": 0.978
+      },
+      {
+        "ae": "Hypotension",
+        "n_drugs": 181,
+        "mean_logR": 0.906
+      },
+      {
+        "ae": "Pneumonia",
+        "n_drugs": 179,
+        "mean_logR": 1.232
+      },
+      {
+        "ae": "Overdose",
+        "n_drugs": 175,
+        "mean_logR": 0.997
+      }
+    ]
+  },
+  "reproductive_aes": {
+    "total": 840,
+    "female": 420,
+    "male": 420,
+    "pct_female": 50.0,
+    "top_aes": [
+      {
+        "ae": "Foetal exposure during pregnancy",
+        "n_drugs": 203,
+        "mean_logR": 0.133,
+        "direction": "female_higher"
+      },
+      {
+        "ae": "Maternal exposure during pregnancy",
+        "n_drugs": 82,
+        "mean_logR": -0.416,
+        "direction": "male_higher"
+      },
+      {
+        "ae": "Low birth weight baby",
+        "n_drugs": 74,
+        "mean_logR": -0.282,
+        "direction": "male_higher"
+      },
+      {
+        "ae": "Blood lactate dehydrogenase increased",
+        "n_drugs": 53,
+        "mean_logR": 0.393,
+        "direction": "female_higher"
+      },
+      {
+        "ae": "Laboratory test abnormal",
+        "n_drugs": 42,
+        "mean_logR": 0.564,
+        "direction": "female_higher"
+      },
+      {
+        "ae": "Foetal growth restriction",
+        "n_drugs": 40,
+        "mean_logR": -0.35,
+        "direction": "male_higher"
+      },
+      {
+        "ae": "Drug withdrawal syndrome neonatal",
+        "n_drugs": 36,
+        "mean_logR": -0.1,
+        "direction": "male_higher"
+      },
+      {
+        "ae": "Maternal drugs affecting foetus",
+        "n_drugs": 21,
+        "mean_logR": -0.522,
+        "direction": "male_higher"
+      },
+      {
+        "ae": "Neonatal respiratory distress syndrome",
+        "n_drugs": 18,
+        "mean_logR": 0.028,
+        "direction": "male_higher"
+      },
+      {
+        "ae": "Abortion spontaneous",
+        "n_drugs": 17,
+        "mean_logR": -3.706,
+        "direction": "male_higher"
+      }
+    ]
+  },
+  "predictions": {
+    "drug_sexdiff_ae": {
+      "ADALIMUMAB": [
+        {
+          "entity": "AE:Rheumatoid arthritis",
+          "score": 1.1693456172943115
+        },
+        {
+          "entity": "AE:Pancreatitis",
+          "score": 1.1684761047363281
+        },
+        {
+          "entity": "AE:Insomnia",
+          "score": 1.1681923866271973
+        },
+        {
+          "entity": "AE:Cardiac failure",
+          "score": 1.1672077178955078
+        },
+        {
+          "entity": "AE:Fluid retention",
+          "score": 1.1660279035568237
+        }
+      ],
+      "METHOTREXATE": [
+        {
+          "entity": "AE:Cardiac failure",
+          "score": 1.2725028991699219
+        },
+        {
+          "entity": "AE:Pancytopenia",
+          "score": 1.272120475769043
+        },
+        {
+          "entity": "AE:Pain in extremity",
+          "score": 1.2716591358184814
+        },
+        {
+          "entity": "AE:Ascites",
+          "score": 1.2666186094284058
+        },
+        {
+          "entity": "AE:Hepatocellular injury",
+          "score": 1.2654955387115479
+        }
+      ],
+      "PREDNISONE": [
+        {
+          "entity": "AE:Febrile neutropenia",
+          "score": 1.2076408863067627
+        },
+        {
+          "entity": "AE:Chronic kidney disease",
+          "score": 1.2017393112182617
+        },
+        {
+          "entity": "AE:Cardiac failure",
+          "score": 1.1986498832702637
+        },
+        {
+          "entity": "AE:Pancytopenia",
+          "score": 1.1975278854370117
+        },
+        {
+          "entity": "AE:Disease recurrence",
+          "score": 1.1919362545013428
+        }
+      ],
+      "RITUXIMAB": [
+        {
+          "entity": "AE:Febrile neutropenia",
+          "score": 1.332977533340454
+        },
+        {
+          "entity": "AE:Pancytopenia",
+          "score": 1.3228317499160767
+        },
+        {
+          "entity": "AE:Cardiac failure",
+          "score": 1.322587490081787
+        },
+        {
+          "entity": "AE:Hepatocellular injury",
+          "score": 1.3171687126159668
+        },
+        {
+          "entity": "AE:Chronic kidney disease",
+          "score": 1.3160908222198486
+        }
+      ],
+      "ETANERCEPT": [
+        {
+          "entity": "AE:Cardiac failure",
+          "score": 1.2724437713623047
+        },
+        {
+          "entity": "AE:Pain in extremity",
+          "score": 1.2695531845092773
+        },
+        {
+          "entity": "AE:Peripheral swelling",
+          "score": 1.2675244808197021
+        },
+        {
+          "entity": "AE:Hypoxia",
+          "score": 1.264977216720581
+        },
+        {
+          "entity": "AE:Condition aggravated",
+          "score": 1.2646257877349854
+        }
+      ],
+      "DEXAMETHASONE": [
+        {
+          "entity": "AE:Febrile neutropenia",
+          "score": 1.2963907718658447
+        },
+        {
+          "entity": "AE:Pancytopenia",
+          "score": 1.2802084684371948
+        },
+        {
+          "entity": "AE:Pain in extremity",
+          "score": 1.275512933731079
+        },
+        {
+          "entity": "AE:Multiple organ dysfunction syndrome",
+          "score": 1.2739036083221436
+        },
+        {
+          "entity": "AE:Cardiac failure",
+          "score": 1.271897554397583
+        }
+      ],
+      "INFLIXIMAB": [
+        {
+          "entity": "AE:Pain in extremity",
+          "score": 1.3254671096801758
+        },
+        {
+          "entity": "AE:Cardiac failure",
+          "score": 1.3251233100891113
+        },
+        {
+          "entity": "AE:Weight increased",
+          "score": 1.3210563659667969
+        },
+        {
+          "entity": "AE:Condition aggravated",
+          "score": 1.3169326782226562
+        },
+        {
+          "entity": "AE:Somnolence",
+          "score": 1.316396713256836
+        }
+      ],
+      "PREDNISOLONE": [
+        {
+          "entity": "AE:Pain in extremity",
+          "score": 1.2380919456481934
+        },
+        {
+          "entity": "AE:Febrile neutropenia",
+          "score": 1.2371407747268677
+        },
+        {
+          "entity": "AE:Cardiac failure",
+          "score": 1.2297859191894531
+        },
+        {
+          "entity": "AE:Pancytopenia",
+          "score": 1.2296936511993408
+        },
+        {
+          "entity": "AE:Condition aggravated",
+          "score": 1.2243444919586182
+        }
+      ],
+      "TACROLIMUS": [
+        {
+          "entity": "AE:Febrile neutropenia",
+          "score": 1.2204482555389404
+        },
+        {
+          "entity": "AE:Pancytopenia",
+          "score": 1.2006685733795166
+        },
+        {
+          "entity": "AE:Chronic kidney disease",
+          "score": 1.199286937713623
+        },
+        {
+          "entity": "AE:Hepatocellular injury",
+          "score": 1.1950782537460327
+        },
+        {
+          "entity": "AE:Pain in extremity",
+          "score": 1.1949787139892578
+        }
+      ],
+      "CYCLOPHOSPHAMIDE": [
+        {
+          "entity": "AE:Bacteraemia",
+          "score": 1.2364318370819092
+        },
+        {
+          "entity": "AE:Enterocolitis",
+          "score": 1.2119392156600952
+        },
+        {
+          "entity": "AE:Febrile neutropenia",
+          "score": 1.2091268301010132
+        },
+        {
+          "entity": "AE:Cytomegalovirus infection",
+          "score": 1.2067978382110596
+        },
+        {
+          "entity": "AE:Haemophagocytic lymphohistiocytosis",
+          "score": 1.1925899982452393
+        }
+      ],
+      "METHYLPREDNISOLONE": [
+        {
+          "entity": "AE:Febrile neutropenia",
+          "score": 1.31831955909729
+        },
+        {
+          "entity": "AE:Cardiac failure",
+          "score": 1.318001389503479
+        },
+        {
+          "entity": "AE:Pancytopenia",
+          "score": 1.3146471977233887
+        },
+        {
+          "entity": "AE:Condition aggravated",
+          "score": 1.3142030239105225
+        },
+        {
+          "entity": "AE:Acute kidney injury",
+          "score": 1.3112456798553467
+        }
+      ],
+      "MYCOPHENOLIC ACID": [
+        {
+          "entity": "AE:Febrile neutropenia",
+          "score": 1.2991251945495605
+        },
+        {
+          "entity": "AE:Pancytopenia",
+          "score": 1.286590337753296
+        },
+        {
+          "entity": "AE:Chronic kidney disease",
+          "score": 1.2834429740905762
+        },
+        {
+          "entity": "AE:Cardiac failure",
+          "score": 1.2826836109161377
+        },
+        {
+          "entity": "AE:Hepatocellular injury",
+          "score": 1.280543565750122
+        }
+      ],
+      "TOCILIZUMAB": [
+        {
+          "entity": "AE:Pain in extremity",
+          "score": 1.3867456912994385
+        },
+        {
+          "entity": "AE:Cardiac failure",
+          "score": 1.3807986974716187
+        },
+        {
+          "entity": "AE:Weight decreased",
+          "score": 1.3789680004119873
+        },
+        {
+          "entity": "AE:Somnolence",
+          "score": 1.3785645961761475
+        },
+        {
+          "entity": "AE:Septic shock",
+          "score": 1.3742108345031738
+        }
+      ],
+      "PARACETAMOL": [
+        {
+          "entity": "AE:Overdose",
+          "score": 1.3929836750030518
+        },
+        {
+          "entity": "AE:Death",
+          "score": 1.3868300914764404
+        },
+        {
+          "entity": "AE:Constipation",
+          "score": 1.3850122690200806
+        },
+        {
+          "entity": "AE:Cough",
+          "score": 1.384244441986084
+        },
+        {
+          "entity": "AE:Vomiting",
+          "score": 1.3838136196136475
+        }
+      ],
+      "PANTOPRAZOLE": [
+        {
+          "entity": "AE:Death",
+          "score": 1.4265856742858887
+        },
+        {
+          "entity": "AE:Sepsis",
+          "score": 1.4262242317199707
+        },
+        {
+          "entity": "AE:Wheezing",
+          "score": 1.4230871200561523
+        },
+        {
+          "entity": "AE:Cough",
+          "score": 1.421915054321289
+        },
+        {
+          "entity": "AE:Somnolence",
+          "score": 1.4216704368591309
+        }
+      ]
+    },
+    "disease_drug": {
+      "Polycystic Ovary Syndrome": [
+        {
+          "entity": "DRUG:EPINEPHRINE",
+          "score": 1.1921072006225586
+        },
+        {
+          "entity": "DRUG:KETOPROFEN",
+          "score": 1.1733781099319458
+        },
+        {
+          "entity": "DRUG:BOSENTAN",
+          "score": 1.1719385385513306
+        },
+        {
+          "entity": "DRUG:CEFAZOLIN",
+          "score": 1.1544294357299805
+        },
+        {
+          "entity": "DRUG:HEPARIN",
+          "score": 1.15193510055542
+        }
+      ],
+      "Infertility": [
+        {
+          "entity": "DRUG:CEFAZOLIN",
+          "score": 1.3628394603729248
+        },
+        {
+          "entity": "DRUG:BOSENTAN",
+          "score": 1.3429588079452515
+        },
+        {
+          "entity": "DRUG:EPINEPHRINE",
+          "score": 1.3425151109695435
+        },
+        {
+          "entity": "DRUG:DARBEPOETIN ALFA",
+          "score": 1.3290166854858398
+        },
+        {
+          "entity": "DRUG:KETOPROFEN",
+          "score": 1.3287640810012817
+        }
+      ],
+      "Infertility, Female": [
+        {
+          "entity": "DRUG:TESTOSTERONE",
+          "score": 0.7327007055282593
+        },
+        {
+          "entity": "DRUG:EPINEPHRINE",
+          "score": 0.7204470038414001
+        },
+        {
+          "entity": "DRUG:ASPIRIN",
+          "score": 0.7129384279251099
+        },
+        {
+          "entity": "DRUG:ESTRADIOL",
+          "score": 0.7057524919509888
+        },
+        {
+          "entity": "DRUG:BOSENTAN",
+          "score": 0.699737012386322
+        }
+      ],
+      "Primary Ovarian Insufficiency": [
+        {
+          "entity": "DRUG:EPINEPHRINE",
+          "score": 0.8180688619613647
+        },
+        {
+          "entity": "DRUG:TESTOSTERONE",
+          "score": 0.8165905475616455
+        },
+        {
+          "entity": "DRUG:BOSENTAN",
+          "score": 0.8005671501159668
+        },
+        {
+          "entity": "DRUG:CEFAZOLIN",
+          "score": 0.7990540862083435
+        },
+        {
+          "entity": "DRUG:PROGESTERONE",
+          "score": 0.7988555431365967
+        }
+      ],
+      "Ovarian Hyperstimulation Syndrome": [
+        {
+          "entity": "DRUG:EPINEPHRINE",
+          "score": 1.200443983078003
+        },
+        {
+          "entity": "DRUG:CEFAZOLIN",
+          "score": 1.1863412857055664
+        },
+        {
+          "entity": "DRUG:KETOPROFEN",
+          "score": 1.1575052738189697
+        },
+        {
+          "entity": "DRUG:NOREPINEPHRINE",
+          "score": 1.1512677669525146
+        },
+        {
+          "entity": "DRUG:DARBEPOETIN ALFA",
+          "score": 1.1414809226989746
+        }
+      ],
+      "Menopause": [
+        {
+          "entity": "DRUG:BOSENTAN",
+          "score": 1.164589285850525
+        },
+        {
+          "entity": "DRUG:CEFUROXIME",
+          "score": 1.1543861627578735
+        },
+        {
+          "entity": "DRUG:CEFAZOLIN",
+          "score": 1.1543521881103516
+        },
+        {
+          "entity": "DRUG:ASPIRIN",
+          "score": 1.1469805240631104
+        },
+        {
+          "entity": "DRUG:HEPARIN",
+          "score": 1.1445362567901611
+        }
+      ],
+      "Diabetes, Gestational": [
+        {
+          "entity": "DRUG:EPINEPHRINE",
+          "score": 0.9100876450538635
+        },
+        {
+          "entity": "DRUG:NIFEDIPINE",
+          "score": 0.9060978889465332
+        },
+        {
+          "entity": "DRUG:KETOPROFEN",
+          "score": 0.894719123840332
+        },
+        {
+          "entity": "DRUG:SUFENTANIL",
+          "score": 0.8843976259231567
+        },
+        {
+          "entity": "DRUG:TESTOSTERONE",
+          "score": 0.8640991449356079
+        }
+      ],
+      "Pre-Eclampsia": [
+        {
+          "entity": "DRUG:KETOPROFEN",
+          "score": 1.411270260810852
+        },
+        {
+          "entity": "DRUG:EPINEPHRINE",
+          "score": 1.4107863903045654
+        },
+        {
+          "entity": "DRUG:CEFAZOLIN",
+          "score": 1.4028239250183105
+        },
+        {
+          "entity": "DRUG:NOREPINEPHRINE",
+          "score": 1.3815581798553467
+        },
+        {
+          "entity": "DRUG:DARBEPOETIN ALFA",
+          "score": 1.3658630847930908
+        }
+      ],
+      "Pregnancy": [
+        {
+          "entity": "DRUG:CEFAZOLIN",
+          "score": 1.4482905864715576
+        },
+        {
+          "entity": "DRUG:EPINEPHRINE",
+          "score": 1.4448434114456177
+        },
+        {
+          "entity": "DRUG:NOREPINEPHRINE",
+          "score": 1.409132480621338
+        },
+        {
+          "entity": "DRUG:KETOPROFEN",
+          "score": 1.4027835130691528
+        },
+        {
+          "entity": "DRUG:BOSENTAN",
+          "score": 1.34967839717865
+        }
+      ],
+      "Endometrial Neoplasms": [
+        {
+          "entity": "DRUG:HEPARIN",
+          "score": 1.307204246520996
+        },
+        {
+          "entity": "DRUG:BOSENTAN",
+          "score": 1.3059182167053223
+        },
+        {
+          "entity": "DRUG:CEFAZOLIN",
+          "score": 1.3039374351501465
+        },
+        {
+          "entity": "DRUG:EPINEPHRINE",
+          "score": 1.295231819152832
+        },
+        {
+          "entity": "DRUG:DARBEPOETIN ALFA",
+          "score": 1.2895580530166626
+        }
+      ],
+      "Uterine Neoplasms": [
+        {
+          "entity": "DRUG:MEROPENEM",
+          "score": 1.1900283098220825
+        },
+        {
+          "entity": "DRUG:ASPIRIN",
+          "score": 1.1896486282348633
+        },
+        {
+          "entity": "DRUG:CEFUROXIME",
+          "score": 1.1841449737548828
+        },
+        {
+          "entity": "DRUG:BOSENTAN",
+          "score": 1.1821281909942627
+        },
+        {
+          "entity": "DRUG:FLUCONAZOLE",
+          "score": 1.1801414489746094
+        }
+      ],
+      "Endometriosis": [
+        {
+          "entity": "DRUG:CEFUROXIME",
+          "score": 1.3063344955444336
+        },
+        {
+          "entity": "DRUG:CEFAZOLIN",
+          "score": 1.3057003021240234
+        },
+        {
+          "entity": "DRUG:BOSENTAN",
+          "score": 1.3031452894210815
+        },
+        {
+          "entity": "DRUG:EPINEPHRINE",
+          "score": 1.301466941833496
+        },
+        {
+          "entity": "DRUG:KETOPROFEN",
+          "score": 1.2896504402160645
+        }
+      ],
+      "Endometrial Hyperplasia": [
+        {
+          "entity": "DRUG:ASPIRIN",
+          "score": 0.7839705348014832
+        },
+        {
+          "entity": "DRUG:EPINEPHRINE",
+          "score": 0.7768704891204834
+        },
+        {
+          "entity": "DRUG:BOSENTAN",
+          "score": 0.7602918744087219
+        },
+        {
+          "entity": "DRUG:HEPARIN",
+          "score": 0.7600095868110657
+        },
+        {
+          "entity": "DRUG:TESTOSTERONE",
+          "score": 0.758598804473877
+        }
+      ],
+      "Uterine Diseases": [
+        {
+          "entity": "DRUG:NIFEDIPINE",
+          "score": 0.751294732093811
+        },
+        {
+          "entity": "DRUG:EPINEPHRINE",
+          "score": 0.7147301435470581
+        },
+        {
+          "entity": "DRUG:SUFENTANIL",
+          "score": 0.7096294164657593
+        },
+        {
+          "entity": "DRUG:KETOPROFEN",
+          "score": 0.7033255100250244
+        },
+        {
+          "entity": "DRUG:TESTOSTERONE",
+          "score": 0.7011682987213135
+        }
+      ],
+      "Ovarian Neoplasms": [
+        {
+          "entity": "DRUG:DARBEPOETIN ALFA",
+          "score": 1.4358699321746826
+        },
+        {
+          "entity": "DRUG:BOSENTAN",
+          "score": 1.4316635131835938
+        },
+        {
+          "entity": "DRUG:CEFUROXIME",
+          "score": 1.4295002222061157
+        },
+        {
+          "entity": "DRUG:CEFAZOLIN",
+          "score": 1.4293361902236938
+        },
+        {
+          "entity": "DRUG:CANAKINUMAB",
+          "score": 1.4183330535888672
+        }
+      ]
+    }
+  },
+  "drug_similarity_top10": [
+    {
+      "d1": "ARIPIPRAZOLE",
+      "d2": "RISPERIDONE",
+      "sim": 0.9978
+    },
+    {
+      "d1": "CERTOLIZUMAB",
+      "d2": "SECUKINUMAB",
+      "sim": 0.9963
+    },
+    {
+      "d1": "SERTRALINE",
+      "d2": "VENLAFAXINE",
+      "sim": 0.9962
+    },
+    {
+      "d1": "CITALOPRAM",
+      "d2": "FLUOXETINE",
+      "sim": 0.9958
+    },
+    {
+      "d1": "APIXABAN",
+      "d2": "RIVAROXABAN",
+      "sim": 0.9953
+    },
+    {
+      "d1": "GABAPENTIN",
+      "d2": "PREGABALIN",
+      "sim": 0.9946
+    },
+    {
+      "d1": "BROMAZEPAM",
+      "d2": "CLORHEXIDINE;ISOPROPANOL",
+      "sim": 0.9946
+    },
+    {
+      "d1": "FLUOROURACIL",
+      "d2": "OXALIPLATIN",
+      "sim": 0.9945
+    },
+    {
+      "d1": "OLANZAPINE",
+      "d2": "RISPERIDONE",
+      "sim": 0.9944
+    },
+    {
+      "d1": "HEPARIN SODIUM",
+      "d2": "ZONISAMIDE",
+      "sim": 0.994
+    }
+  ],
+  "hub_top10_in": {
+    "AE:Maternal exposure during pregnancy": 1062,
+    "AE:Exposure during pregnancy": 941,
+    "AE:Foetal exposure during pregnancy": 857,
+    "AE:Premature baby": 581,
+    "AE:Condition aggravated": 502,
+    "AE:Hypertension": 497,
+    "AE:Off label use": 483,
+    "AE:Vomiting": 481,
+    "AE:Pain": 478,
+    "AE:Pyrexia": 478
+  },
+  "hub_top10_out": {
+    "DRUG:ADALIMUMAB": 5348,
+    "DRUG:METHOTREXATE": 4678,
+    "DRUG:PREDNISONE": 4528,
+    "DRUG:RITUXIMAB": 3687,
+    "DRUG:ETANERCEPT": 3680,
+    "DRUG:DEXAMETHASONE": 3139,
+    "DRUG:INFLIXIMAB": 3131,
+    "DRUG:PREDNISOLONE": 3098,
+    "DRUG:TACROLIMUS": 3090,
+    "DRUG:CYCLOPHOSPHAMIDE": 3055
+  }
+}

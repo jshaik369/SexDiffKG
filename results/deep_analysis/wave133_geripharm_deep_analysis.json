@@ -1,0 +1,432 @@
+{
+  "wave": 133,
+  "title": "GERIPHARM-KG: Elderly Drug Safety Sex Differences",
+  "timestamp": "2026-03-08T17:04:03.608459",
+  "kg": {
+    "name": "GERIPHARM-KG",
+    "nodes": 18754,
+    "edges": 739396,
+    "node_types": {
+      "AdverseEvent": 9759,
+      "Drug": 3912,
+      "Symptom": 1717,
+      "Disease": 1708,
+      "Protein": 1226,
+      "Gene": 342,
+      "ClinicalTrial": 90
+    },
+    "edge_types": {
+      "has_adverse_event": 609798,
+      "sex_differential_adverse_event": 96159,
+      "treats": 19308,
+      "binds_to": 9811,
+      "causes_adverse_event": 1718,
+      "corresponds_to": 1717,
+      "targets": 793,
+      "tests_intervention": 92
+    },
+    "model": "DistMult",
+    "mrr": 0.1438,
+    "hits_at_10": 0.2546
+  },
+  "sex_differential": {
+    "total": 96281,
+    "female": 51771,
+    "male": 44510,
+    "pct_female": 53.8,
+    "elderly_aes": 7174,
+    "elderly_female": 4645,
+    "elderly_male": 2529,
+    "elderly_pct_female": 64.7,
+    "fall_fracture": {
+      "total": 872,
+      "female": 316,
+      "male": 556,
+      "pct_female": 36.2
+    },
+    "cognitive": {
+      "total": 603,
+      "female": 365,
+      "male": 238,
+      "pct_female": 60.5
+    }
+  },
+  "top_elderly_aes": [
+    {
+      "ae": "Dizziness",
+      "n_drugs": 289,
+      "logR": 0.154,
+      "dir": "female_higher"
+    },
+    {
+      "ae": "Hypotension",
+      "n_drugs": 274,
+      "logR": 0.581,
+      "dir": "female_higher"
+    },
+    {
+      "ae": "Acute kidney injury",
+      "n_drugs": 267,
+      "logR": 0.333,
+      "dir": "female_higher"
+    },
+    {
+      "ae": "Pneumonia",
+      "n_drugs": 267,
+      "logR": 0.647,
+      "dir": "female_higher"
+    },
+    {
+      "ae": "Fall",
+      "n_drugs": 250,
+      "logR": 0.225,
+      "dir": "female_higher"
+    },
+    {
+      "ae": "Constipation",
+      "n_drugs": 246,
+      "logR": 0.119,
+      "dir": "female_higher"
+    },
+    {
+      "ae": "Confusional state",
+      "n_drugs": 234,
+      "logR": 0.59,
+      "dir": "female_higher"
+    },
+    {
+      "ae": "Sepsis",
+      "n_drugs": 202,
+      "logR": -0.281,
+      "dir": "male_higher"
+    },
+    {
+      "ae": "Renal failure",
+      "n_drugs": 202,
+      "logR": 0.375,
+      "dir": "female_higher"
+    },
+    {
+      "ae": "Renal impairment",
+      "n_drugs": 177,
+      "logR": 0.533,
+      "dir": "female_higher"
+    }
+  ],
+  "polypharmacy_drugs": [
+    {
+      "drug": "PREDNISONE",
+      "n_aes": 926
+    },
+    {
+      "drug": "METHOTREXATE",
+      "n_aes": 892
+    },
+    {
+      "drug": "ADALIMUMAB",
+      "n_aes": 807
+    },
+    {
+      "drug": "RITUXIMAB",
+      "n_aes": 755
+    },
+    {
+      "drug": "INFLIXIMAB",
+      "n_aes": 623
+    },
+    {
+      "drug": "ETANERCEPT",
+      "n_aes": 618
+    },
+    {
+      "drug": "TACROLIMUS",
+      "n_aes": 572
+    },
+    {
+      "drug": "PREDNISOLONE",
+      "n_aes": 542
+    },
+    {
+      "drug": "DEXAMETHASONE",
+      "n_aes": 537
+    },
+    {
+      "drug": "METHYLPREDNISOLONE",
+      "n_aes": 521
+    }
+  ],
+  "predictions": {
+    "ADALIMUMAB": [
+      {
+        "entity": "AE:Vasculitis",
+        "score": 1.4282318353652954
+      },
+      {
+        "entity": "AE:Candida infection",
+        "score": 1.4216046333312988
+      },
+      {
+        "entity": "AE:Heart rate decreased",
+        "score": 1.4207329750061035
+      },
+      {
+        "entity": "AE:Acute respiratory failure",
+        "score": 1.4186283349990845
+      },
+      {
+        "entity": "AE:Blood pressure fluctuation",
+        "score": 1.4144072532653809
+      }
+    ],
+    "METHOTREXATE": [
+      {
+        "entity": "AE:Skin lesion",
+        "score": 1.5708258152008057
+      },
+      {
+        "entity": "AE:Candida infection",
+        "score": 1.5669105052947998
+      },
+      {
+        "entity": "AE:Angioedema",
+        "score": 1.565744400024414
+      },
+      {
+        "entity": "AE:Gastrointestinal haemorrhage",
+        "score": 1.565528154373169
+      },
+      {
+        "entity": "AE:Staphylococcal infection",
+        "score": 1.5547853708267212
+      }
+    ],
+    "PREDNISONE": [
+      {
+        "entity": "AE:Gastrointestinal haemorrhage",
+        "score": 1.6475210189819336
+      },
+      {
+        "entity": "AE:Interstitial lung disease",
+        "score": 1.6448814868927002
+      },
+      {
+        "entity": "AE:Skin lesion",
+        "score": 1.6426438093185425
+      },
+      {
+        "entity": "AE:Chronic kidney disease",
+        "score": 1.6348185539245605
+      },
+      {
+        "entity": "AE:Skin exfoliation",
+        "score": 1.6347696781158447
+      }
+    ],
+    "RITUXIMAB": [
+      {
+        "entity": "AE:Interstitial lung disease",
+        "score": 1.6515164375305176
+      },
+      {
+        "entity": "AE:Gastrointestinal haemorrhage",
+        "score": 1.6506052017211914
+      },
+      {
+        "entity": "AE:Skin lesion",
+        "score": 1.6489378213882446
+      },
+      {
+        "entity": "AE:Skin exfoliation",
+        "score": 1.6325299739837646
+      },
+      {
+        "entity": "AE:Chronic kidney disease",
+        "score": 1.6316981315612793
+      }
+    ],
+    "ETANERCEPT": [
+      {
+        "entity": "AE:Heart rate decreased",
+        "score": 1.583357810974121
+      },
+      {
+        "entity": "AE:Pulmonary mass",
+        "score": 1.5634053945541382
+      },
+      {
+        "entity": "AE:Poor quality sleep",
+        "score": 1.5591667890548706
+      },
+      {
+        "entity": "AE:Vasculitis",
+        "score": 1.5558613538742065
+      },
+      {
+        "entity": "AE:Gastric ulcer",
+        "score": 1.5546748638153076
+      }
+    ],
+    "DEXAMETHASONE": [
+      {
+        "entity": "AE:Gastrointestinal haemorrhage",
+        "score": 1.6946009397506714
+      },
+      {
+        "entity": "AE:Interstitial lung disease",
+        "score": 1.6820296049118042
+      },
+      {
+        "entity": "AE:Hypoglycaemia",
+        "score": 1.678139328956604
+      },
+      {
+        "entity": "AE:Renal impairment",
+        "score": 1.6776554584503174
+      },
+      {
+        "entity": "AE:Skin lesion",
+        "score": 1.676672101020813
+      }
+    ],
+    "INFLIXIMAB": [
+      {
+        "entity": "AE:Skin lesion",
+        "score": 1.5840821266174316
+      },
+      {
+        "entity": "AE:Interstitial lung disease",
+        "score": 1.5728025436401367
+      },
+      {
+        "entity": "AE:Candida infection",
+        "score": 1.5694098472595215
+      },
+      {
+        "entity": "AE:Respiratory tract infection",
+        "score": 1.5678718090057373
+      },
+      {
+        "entity": "AE:Gastrointestinal haemorrhage",
+        "score": 1.5612140893936157
+      }
+    ],
+    "PREDNISOLONE": [
+      {
+        "entity": "AE:Interstitial lung disease",
+        "score": 1.6548712253570557
+      },
+      {
+        "entity": "AE:Skin lesion",
+        "score": 1.647418737411499
+      },
+      {
+        "entity": "AE:Transaminases increased",
+        "score": 1.6375792026519775
+      },
+      {
+        "entity": "AE:Renal impairment",
+        "score": 1.6352360248565674
+      },
+      {
+        "entity": "AE:Septic shock",
+        "score": 1.6349895000457764
+      }
+    ],
+    "TACROLIMUS": [
+      {
+        "entity": "AE:Gastrointestinal haemorrhage",
+        "score": 1.529592514038086
+      },
+      {
+        "entity": "AE:Skin lesion",
+        "score": 1.5227843523025513
+      },
+      {
+        "entity": "AE:Septic shock",
+        "score": 1.5208358764648438
+      },
+      {
+        "entity": "AE:Transaminases increased",
+        "score": 1.520124077796936
+      },
+      {
+        "entity": "AE:Candida infection",
+        "score": 1.520092248916626
+      }
+    ],
+    "CYCLOPHOSPHAMIDE": [
+      {
+        "entity": "AE:Gastrointestinal haemorrhage",
+        "score": 1.6000558137893677
+      },
+      {
+        "entity": "AE:Interstitial lung disease",
+        "score": 1.5988476276397705
+      },
+      {
+        "entity": "AE:Alanine aminotransferase increased",
+        "score": 1.5923848152160645
+      },
+      {
+        "entity": "AE:Renal impairment",
+        "score": 1.58865225315094
+      },
+      {
+        "entity": "AE:Skin lesion",
+        "score": 1.578482747077942
+      }
+    ]
+  },
+  "drug_similarity_top10": [
+    {
+      "d1": "ARIPIPRAZOLE",
+      "d2": "QUETIAPINE",
+      "sim": 0.9932
+    },
+    {
+      "d1": "CARBOPLATIN",
+      "d2": "OXALIPLATIN",
+      "sim": 0.9932
+    },
+    {
+      "d1": "HYALURONIDASE;RITUXIMAB",
+      "d2": "SIRUKUMAB",
+      "sim": 0.993
+    },
+    {
+      "d1": "OXALIPLATIN",
+      "d2": "PEMBROLIZUMAB",
+      "sim": 0.9921
+    },
+    {
+      "d1": "CARBOPLATIN",
+      "d2": "PEMBROLIZUMAB",
+      "sim": 0.9919
+    },
+    {
+      "d1": "BORAGO SPP",
+      "d2": "CAFFEINE;CHLORPHENAMINE;PHENYLPROPANOLAMINE",
+      "sim": 0.9917
+    },
+    {
+      "d1": "CAFFEINE;CHLORPHENAMINE;PHENYLPROPANOLAMINE",
+      "d2": "TRICLOSAN",
+      "sim": 0.9916
+    },
+    {
+      "d1": "MINERALS, UNSPECIFIED;VITAMINS, UNSPECIFIED;NUTRIENTS, UNSPECIFIED",
+      "d2": "TRICLOSAN",
+      "sim": 0.9915
+    },
+    {
+      "d1": "ARIPIPRAZOLE",
+      "d2": "SERTRALINE",
+      "sim": 0.9915
+    },
+    {
+      "d1": "CAFFEINE;CHLORPHENAMINE;PHENYLPROPANOLAMINE",
+      "d2": "RITUXIMAB;VORHYALURONIDASE ALFA",
+      "sim": 0.9915
+    }
+  ]
+}
