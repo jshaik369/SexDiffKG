@@ -1,0 +1,1334 @@
+{
+  "wave": 267,
+  "version": 2,
+  "title": "Cardiovascular Drug Class Sex Differences",
+  "description": "Sex bias comparison across CV drug classes: ACE inhibitors, ARBs, beta blockers, CCBs, diuretics, statins, antiarrhythmics, anticoagulants, antiplatelets",
+  "overall_baseline": {
+    "total_signals": 96281,
+    "pct_female": 53.8
+  },
+  "cv_overall": {
+    "total_signals": 8332,
+    "unique_drugs": 118,
+    "female_higher": 4774,
+    "male_higher": 3558,
+    "pct_female": 57.3,
+    "median_log_ratio": 0.5534,
+    "mean_log_ratio": 0.1431
+  },
+  "cv_vs_baseline": {
+    "chi_square": 38.2551,
+    "p_value": "6.2075e-10",
+    "interpretation": "CV drugs show significantly different sex bias than overall"
+  },
+  "cv_class_statistics": [
+    {
+      "cv_class": "anticoagulants",
+      "total_signals": 1262,
+      "unique_drugs": 11,
+      "female_higher": 808,
+      "male_higher": 454,
+      "pct_female": 64.03,
+      "median_log_ratio": 0.5701,
+      "mean_log_ratio": 0.186,
+      "strong_signals": 279,
+      "strong_female": 150,
+      "top_5_drugs": {
+        "APIXABAN": 275,
+        "RIVAROXABAN": 243,
+        "WARFARIN": 220,
+        "DABIGATRAN": 176,
+        "HEPARIN": 144
+      },
+      "top_10_female_biased_aes": [
+        {
+          "adverse_event": "Blood test abnormal",
+          "log_ratio": 3.1577423895201093,
+          "n_reports": 302,
+          "ror": 23.517442726870513
+        },
+        {
+          "adverse_event": "Pneumonia aspiration",
+          "log_ratio": 2.7661279719964056,
+          "n_reports": 285,
+          "ror": 15.896961208468847
+        },
+        {
+          "adverse_event": "Haemarthrosis",
+          "log_ratio": 2.7066283238356332,
+          "n_reports": 153,
+          "ror": 14.97868699682946
+        },
+        {
+          "adverse_event": "Spontaneous haemorrhage",
+          "log_ratio": 2.640908415042166,
+          "n_reports": 40,
+          "ror": 14.025939196404165
+        },
+        {
+          "adverse_event": "Abnormal weight gain",
+          "log_ratio": 2.631511586683626,
+          "n_reports": 32,
+          "ror": 13.894757166003808
+        },
+        {
+          "adverse_event": "Haemarthrosis",
+          "log_ratio": 2.395970515371636,
+          "n_reports": 53,
+          "ror": 10.978848031040723
+        },
+        {
+          "adverse_event": "Haemarthrosis",
+          "log_ratio": 2.2568457826349784,
+          "n_reports": 482,
+          "ror": 9.55290964191625
+        },
+        {
+          "adverse_event": "Myocardial infarction",
+          "log_ratio": 2.256596654098908,
+          "n_reports": 56,
+          "ror": 9.550530035948128
+        },
+        {
+          "adverse_event": "Haemarthrosis",
+          "log_ratio": 2.1697146123010667,
+          "n_reports": 27,
+          "ror": 8.755784890842126
+        },
+        {
+          "adverse_event": "Coma",
+          "log_ratio": 2.0384945254604294,
+          "n_reports": 332,
+          "ror": 7.67903989336885
+        }
+      ],
+      "top_10_male_biased_aes": [
+        {
+          "adverse_event": "Mite allergy",
+          "log_ratio": -3.2102538339968945,
+          "n_reports": 250,
+          "ror": 0.04034637069159573
+        },
+        {
+          "adverse_event": "Nodule",
+          "log_ratio": -3.1245887327706994,
+          "n_reports": 263,
+          "ror": 0.043955007160634725
+        },
+        {
+          "adverse_event": "Deep vein thrombosis postoperative",
+          "log_ratio": -2.9423766806339753,
+          "n_reports": 33,
+          "ror": 0.05274023297540473
+        },
+        {
+          "adverse_event": "Sensation of foreign body",
+          "log_ratio": -2.8347238238003682,
+          "n_reports": 106,
+          "ror": 0.05873474473271888
+        },
+        {
+          "adverse_event": "Stress",
+          "log_ratio": -2.7763174573021505,
+          "n_reports": 200,
+          "ror": 0.062267388002366995
+        },
+        {
+          "adverse_event": "Normochromic normocytic anaemia",
+          "log_ratio": -2.5029665200119373,
+          "n_reports": 261,
+          "ror": 0.08184185265979718
+        },
+        {
+          "adverse_event": "Neurological symptom",
+          "log_ratio": -2.405678724484872,
+          "n_reports": 123,
+          "ror": 0.090204250994236
+        },
+        {
+          "adverse_event": "Stress",
+          "log_ratio": -2.3432916004229005,
+          "n_reports": 359,
+          "ror": 0.09601108740098795
+        },
+        {
+          "adverse_event": "Ventricular fibrillation",
+          "log_ratio": -2.2909314281726214,
+          "n_reports": 220,
+          "ror": 0.1011721833320227
+        },
+        {
+          "adverse_event": "Blood cholesterol increased",
+          "log_ratio": -2.264734361291675,
+          "n_reports": 144,
+          "ror": 0.10385761948070937
+        }
+      ]
+    },
+    {
+      "cv_class": "ARBs",
+      "total_signals": 1213,
+      "unique_drugs": 21,
+      "female_higher": 638,
+      "male_higher": 575,
+      "pct_female": 52.6,
+      "median_log_ratio": 0.5229,
+      "mean_log_ratio": 0.0499,
+      "strong_signals": 354,
+      "strong_female": 172,
+      "top_5_drugs": {
+        "VALSARTAN": 219,
+        "CANDESARTAN": 198,
+        "SACUBITRIL;VALSARTAN": 157,
+        "LOSARTAN": 130,
+        "IRBESARTAN": 97
+      },
+      "top_10_female_biased_aes": [
+        {
+          "adverse_event": "Nasopharyngitis",
+          "log_ratio": 3.218650054787261,
+          "n_reports": 696,
+          "ror": 24.994356385080177
+        },
+        {
+          "adverse_event": "Obesity",
+          "log_ratio": 3.1399624493036393,
+          "n_reports": 459,
+          "ror": 23.102999308721664
+        },
+        {
+          "adverse_event": "Neck pain",
+          "log_ratio": 2.7682165590147925,
+          "n_reports": 473,
+          "ror": 15.930198092260511
+        },
+        {
+          "adverse_event": "Inflammation",
+          "log_ratio": 2.7582780891769745,
+          "n_reports": 595,
+          "ror": 15.772660437331856
+        },
+        {
+          "adverse_event": "Dry mouth",
+          "log_ratio": 2.726862126244628,
+          "n_reports": 547,
+          "ror": 15.284849762972826
+        },
+        {
+          "adverse_event": "Coordination abnormal",
+          "log_ratio": 2.7219317607033706,
+          "n_reports": 241,
+          "ror": 15.20967533737836
+        },
+        {
+          "adverse_event": "Psoriatic arthropathy",
+          "log_ratio": 2.704729737000832,
+          "n_reports": 618,
+          "ror": 14.950275638144822
+        },
+        {
+          "adverse_event": "Wound infection",
+          "log_ratio": 2.67398711199546,
+          "n_reports": 555,
+          "ror": 14.497657896423291
+        },
+        {
+          "adverse_event": "Abdominal distension",
+          "log_ratio": 2.6603859858525483,
+          "n_reports": 426,
+          "ror": 14.301808329117538
+        },
+        {
+          "adverse_event": "Drug-induced liver injury",
+          "log_ratio": 2.566436132787345,
+          "n_reports": 299,
+          "ror": 13.019342454614598
+        }
+      ],
+      "top_10_male_biased_aes": [
+        {
+          "adverse_event": "Nodule",
+          "log_ratio": -2.8214038289666483,
+          "n_reports": 93,
+          "ror": 0.05952232486628739
+        },
+        {
+          "adverse_event": "Pain in extremity",
+          "log_ratio": -2.7450414975369,
+          "n_reports": 105,
+          "ror": 0.06424563485358235
+        },
+        {
+          "adverse_event": "Wheezing",
+          "log_ratio": -2.611460615587681,
+          "n_reports": 98,
+          "ror": 0.0734272164632483
+        },
+        {
+          "adverse_event": "Full blood count abnormal",
+          "log_ratio": -2.5785458236932115,
+          "n_reports": 148,
+          "ror": 0.07588427293995786
+        },
+        {
+          "adverse_event": "Hypothyroidism",
+          "log_ratio": -2.4891620180199454,
+          "n_reports": 154,
+          "ror": 0.0829794727515239
+        },
+        {
+          "adverse_event": "Asthma",
+          "log_ratio": -2.4659683858038592,
+          "n_reports": 91,
+          "ror": 0.08492656086209728
+        },
+        {
+          "adverse_event": "Gingival pain",
+          "log_ratio": -2.3453600745996406,
+          "n_reports": 105,
+          "ror": 0.09581269620029216
+        },
+        {
+          "adverse_event": "Adrenal insufficiency",
+          "log_ratio": -2.2731857387046137,
+          "n_reports": 93,
+          "ror": 0.10298357817018075
+        },
+        {
+          "adverse_event": "Parosmia",
+          "log_ratio": -2.2503067902437834,
+          "n_reports": 102,
+          "ror": 0.10536689406766005
+        },
+        {
+          "adverse_event": "Anxiety",
+          "log_ratio": -2.245281696516956,
+          "n_reports": 130,
+          "ror": 0.10589770515680803
+        }
+      ]
+    },
+    {
+      "cv_class": "statins",
+      "total_signals": 1201,
+      "unique_drugs": 13,
+      "female_higher": 564,
+      "male_higher": 637,
+      "pct_female": 46.96,
+      "median_log_ratio": -0.5263,
+      "mean_log_ratio": -0.0261,
+      "strong_signals": 364,
+      "strong_female": 164,
+      "top_5_drugs": {
+        "ATORVASTATIN": 388,
+        "ROSUVASTATIN": 337,
+        "SIMVASTATIN": 261,
+        "PRAVASTATIN": 67,
+        "ATORVASTATIN CALCIUM": 63
+      },
+      "top_10_female_biased_aes": [
+        {
+          "adverse_event": "Creatinine renal clearance decreased",
+          "log_ratio": 3.4994198464618775,
+          "n_reports": 379,
+          "ror": 33.09624548396278
+        },
+        {
+          "adverse_event": "Gynaecomastia",
+          "log_ratio": 3.3229628046850297,
+          "n_reports": 147,
+          "ror": 27.74242429893402
+        },
+        {
+          "adverse_event": "Type 2 diabetes mellitus",
+          "log_ratio": 3.3183718127034725,
+          "n_reports": 6891,
+          "ror": 27.615350970939435
+        },
+        {
+          "adverse_event": "Macular degeneration",
+          "log_ratio": 3.1809165906985033,
+          "n_reports": 573,
+          "ror": 24.068804687088313
+        },
+        {
+          "adverse_event": "Orthostatic hypotension",
+          "log_ratio": 3.0886767120207628,
+          "n_reports": 467,
+          "ror": 21.94801520610716
+        },
+        {
+          "adverse_event": "Type 2 diabetes mellitus",
+          "log_ratio": 3.0422313204655764,
+          "n_reports": 797,
+          "ror": 20.951941612308353
+        },
+        {
+          "adverse_event": "Emotional distress",
+          "log_ratio": 2.9584755388407813,
+          "n_reports": 353,
+          "ror": 19.268575159787076
+        },
+        {
+          "adverse_event": "Hemiplegia",
+          "log_ratio": 2.83253343399272,
+          "n_reports": 287,
+          "ror": 16.988445457390586
+        },
+        {
+          "adverse_event": "Motor dysfunction",
+          "log_ratio": 2.775173697603662,
+          "n_reports": 255,
+          "ror": 16.041413108694424
+        },
+        {
+          "adverse_event": "Arteriosclerosis coronary artery",
+          "log_ratio": 2.6701226736299812,
+          "n_reports": 73,
+          "ror": 14.441740704897269
+        }
+      ],
+      "top_10_male_biased_aes": [
+        {
+          "adverse_event": "Micturition urgency",
+          "log_ratio": -3.0891984273495177,
+          "n_reports": 183,
+          "ror": 0.04553844214865098
+        },
+        {
+          "adverse_event": "Sensation of foreign body",
+          "log_ratio": -3.0552454772474062,
+          "n_reports": 102,
+          "ror": 0.04711115463421263
+        },
+        {
+          "adverse_event": "Ascites",
+          "log_ratio": -2.973572008369469,
+          "n_reports": 267,
+          "ror": 0.05112038138440071
+        },
+        {
+          "adverse_event": "Systemic lupus erythematosus",
+          "log_ratio": -2.886688777263561,
+          "n_reports": 129,
+          "ror": 0.055760542841091665
+        },
+        {
+          "adverse_event": "Stress",
+          "log_ratio": -2.4216672714070424,
+          "n_reports": 295,
+          "ror": 0.08877348451235675
+        },
+        {
+          "adverse_event": "Secretion discharge",
+          "log_ratio": -2.3471164146214702,
+          "n_reports": 91,
+          "ror": 0.09564456421904016
+        },
+        {
+          "adverse_event": "Neuralgia",
+          "log_ratio": -2.2747677311212313,
+          "n_reports": 189,
+          "ror": 0.10282078773105081
+        },
+        {
+          "adverse_event": "Bone erosion",
+          "log_ratio": -2.240512964186876,
+          "n_reports": 73,
+          "ror": 0.10640390898305652
+        },
+        {
+          "adverse_event": "Pulmonary hypertension",
+          "log_ratio": -2.1579768560290207,
+          "n_reports": 66,
+          "ror": 0.11555867653993183
+        },
+        {
+          "adverse_event": "Tenderness",
+          "log_ratio": -2.1360667459269282,
+          "n_reports": 106,
+          "ror": 0.11811852069558429
+        }
+      ]
+    },
+    {
+      "cv_class": "diuretics",
+      "total_signals": 1071,
+      "unique_drugs": 27,
+      "female_higher": 548,
+      "male_higher": 523,
+      "pct_female": 51.17,
+      "median_log_ratio": 0.51,
+      "mean_log_ratio": 0.0001,
+      "strong_signals": 323,
+      "strong_female": 159,
+      "top_5_drugs": {
+        "FUROSEMIDE": 385,
+        "HYDROCHLOROTHIAZIDE": 171,
+        "SPIRONOLACTONE": 162,
+        "HYDROCHLOROTHIAZIDE;VALSARTAN": 78,
+        "INDAPAMIDE": 62
+      },
+      "top_10_female_biased_aes": [
+        {
+          "adverse_event": "Creatinine renal clearance decreased",
+          "log_ratio": 3.680096809438612,
+          "n_reports": 475,
+          "ror": 39.6502324035161
+        },
+        {
+          "adverse_event": "Blood calcium decreased",
+          "log_ratio": 3.0599401732903058,
+          "n_reports": 497,
+          "ror": 21.326281242623494
+        },
+        {
+          "adverse_event": "Cognitive disorder",
+          "log_ratio": 2.995588705623445,
+          "n_reports": 712,
+          "ror": 19.997128847496725
+        },
+        {
+          "adverse_event": "Sleep apnoea syndrome",
+          "log_ratio": 2.899730154276934,
+          "n_reports": 253,
+          "ror": 18.169241815675996
+        },
+        {
+          "adverse_event": "Therapeutic product effect incomplete",
+          "log_ratio": 2.737583722827606,
+          "n_reports": 300,
+          "ror": 15.449609420962549
+        },
+        {
+          "adverse_event": "Prescribed overdose",
+          "log_ratio": 2.6876359490197843,
+          "n_reports": 277,
+          "ror": 14.696890620853917
+        },
+        {
+          "adverse_event": "Haematochezia",
+          "log_ratio": 2.661321265184321,
+          "n_reports": 212,
+          "ror": 14.315190772040358
+        },
+        {
+          "adverse_event": "Pneumonia aspiration",
+          "log_ratio": 2.549841819788539,
+          "n_reports": 335,
+          "ror": 12.80507811249318
+        },
+        {
+          "adverse_event": "Hypothyroidism",
+          "log_ratio": 2.4578360909112877,
+          "n_reports": 277,
+          "ror": 11.6795107760569
+        },
+        {
+          "adverse_event": "Coma",
+          "log_ratio": 2.391114773757295,
+          "n_reports": 325,
+          "ror": 10.925666803422109
+        }
+      ],
+      "top_10_male_biased_aes": [
+        {
+          "adverse_event": "Breast pain",
+          "log_ratio": -2.893161312656212,
+          "n_reports": 103,
+          "ror": 0.055400796246248905
+        },
+        {
+          "adverse_event": "Type 2 diabetes mellitus",
+          "log_ratio": -2.839847328832253,
+          "n_reports": 93,
+          "ror": 0.05843458656009156
+        },
+        {
+          "adverse_event": "Vasculitis",
+          "log_ratio": -2.833528487765386,
+          "n_reports": 176,
+          "ror": 0.0588049944672584
+        },
+        {
+          "adverse_event": "Pain in extremity",
+          "log_ratio": -2.7450414975369,
+          "n_reports": 105,
+          "ror": 0.06424563485358235
+        },
+        {
+          "adverse_event": "Pulmonary fibrosis",
+          "log_ratio": -2.7019269903937704,
+          "n_reports": 198,
+          "ror": 0.06707613305902817
+        },
+        {
+          "adverse_event": "Fungal infection",
+          "log_ratio": -2.626832084729344,
+          "n_reports": 95,
+          "ror": 0.07230716276065169
+        },
+        {
+          "adverse_event": "Systemic lupus erythematosus",
+          "log_ratio": -2.604672761406675,
+          "n_reports": 142,
+          "ror": 0.07392732511360876
+        },
+        {
+          "adverse_event": "Neurological symptom",
+          "log_ratio": -2.5682397460794233,
+          "n_reports": 101,
+          "ror": 0.07667038605986959
+        },
+        {
+          "adverse_event": "Oropharyngeal pain",
+          "log_ratio": -2.49252722242423,
+          "n_reports": 80,
+          "ror": 0.08270069919244288
+        },
+        {
+          "adverse_event": "Pulmonary embolism",
+          "log_ratio": -2.4685745615949557,
+          "n_reports": 88,
+          "ror": 0.08470551548183129
+        }
+      ]
+    },
+    {
+      "cv_class": "beta_blockers",
+      "total_signals": 1046,
+      "unique_drugs": 16,
+      "female_higher": 538,
+      "male_higher": 508,
+      "pct_female": 51.43,
+      "median_log_ratio": 0.5086,
+      "mean_log_ratio": 0.0191,
+      "strong_signals": 295,
+      "strong_female": 140,
+      "top_5_drugs": {
+        "BISOPROLOL": 270,
+        "METOPROLOL": 244,
+        "ATENOLOL": 136,
+        "PROPRANOLOL": 123,
+        "CARVEDILOL": 112
+      },
+      "top_10_female_biased_aes": [
+        {
+          "adverse_event": "Haemarthrosis",
+          "log_ratio": 3.3503262221419803,
+          "n_reports": 54,
+          "ror": 28.512033383396865
+        },
+        {
+          "adverse_event": "Arterial occlusive disease",
+          "log_ratio": 2.9166480302975586,
+          "n_reports": 142,
+          "ror": 18.479241671832153
+        },
+        {
+          "adverse_event": "Haemoglobin decreased",
+          "log_ratio": 2.903387649159077,
+          "n_reports": 226,
+          "ror": 18.235817400342743
+        },
+        {
+          "adverse_event": "Vital capacity decreased",
+          "log_ratio": 2.802638624801771,
+          "n_reports": 108,
+          "ror": 16.48809532092558
+        },
+        {
+          "adverse_event": "Blood test abnormal",
+          "log_ratio": 2.7325682523859918,
+          "n_reports": 255,
+          "ror": 15.372316354148355
+        },
+        {
+          "adverse_event": "Sensory loss",
+          "log_ratio": 2.6159212155393554,
+          "n_reports": 155,
+          "ror": 13.679812631042097
+        },
+        {
+          "adverse_event": "Congenital hydronephrosis",
+          "log_ratio": 2.344145693684594,
+          "n_reports": 51,
+          "ror": 10.424363322989576
+        },
+        {
+          "adverse_event": "Eating disorder",
+          "log_ratio": 2.2879466529382455,
+          "n_reports": 160,
+          "ror": 9.854681810184083
+        },
+        {
+          "adverse_event": "Musculoskeletal pain",
+          "log_ratio": 2.27838228334709,
+          "n_reports": 227,
+          "ror": 9.760877296745994
+        },
+        {
+          "adverse_event": "Affect lability",
+          "log_ratio": 2.1862361680312077,
+          "n_reports": 150,
+          "ror": 8.901645684640403
+        }
+      ],
+      "top_10_male_biased_aes": [
+        {
+          "adverse_event": "Abortion spontaneous",
+          "log_ratio": -5.678888909227175,
+          "n_reports": 63,
+          "ror": 0.00341735332452268
+        },
+        {
+          "adverse_event": "Polyhydramnios",
+          "log_ratio": -3.1127990217042036,
+          "n_reports": 21,
+          "ror": 0.04447629084894792
+        },
+        {
+          "adverse_event": "Drug ineffective",
+          "log_ratio": -2.9761770227885522,
+          "n_reports": 283,
+          "ror": 0.05098738535727983
+        },
+        {
+          "adverse_event": "Nausea",
+          "log_ratio": -2.8115997389970637,
+          "n_reports": 207,
+          "ror": 0.06010875711441256
+        },
+        {
+          "adverse_event": "Sedation",
+          "log_ratio": -2.772857762304355,
+          "n_reports": 320,
+          "ror": 0.06248318725771617
+        },
+        {
+          "adverse_event": "Off label use",
+          "log_ratio": -2.3019523133153728,
+          "n_reports": 226,
+          "ror": 0.10006329799259689
+        },
+        {
+          "adverse_event": "Multiple sclerosis",
+          "log_ratio": -2.203756188372929,
+          "n_reports": 40,
+          "ror": 0.11038774150761384
+        },
+        {
+          "adverse_event": "Facial paralysis",
+          "log_ratio": -2.154606459494783,
+          "n_reports": 57,
+          "ror": 0.11594881218944919
+        },
+        {
+          "adverse_event": "Systemic lupus erythematosus",
+          "log_ratio": -2.1039608735217765,
+          "n_reports": 42,
+          "ror": 0.12197235314175693
+        },
+        {
+          "adverse_event": "Facial pain",
+          "log_ratio": -2.0982904363725945,
+          "n_reports": 43,
+          "ror": 0.12266595435673795
+        }
+      ]
+    },
+    {
+      "cv_class": "ACE_inhibitors",
+      "total_signals": 926,
+      "unique_drugs": 19,
+      "female_higher": 665,
+      "male_higher": 261,
+      "pct_female": 71.81,
+      "median_log_ratio": 0.7077,
+      "mean_log_ratio": 0.5463,
+      "strong_signals": 353,
+      "strong_female": 274,
+      "top_5_drugs": {
+        "RAMIPRIL": 368,
+        "LISINOPRIL": 252,
+        "PERINDOPRIL": 123,
+        "ENALAPRIL": 72,
+        "HYDROCHLOROTHIAZIDE;LISINOPRIL": 24
+      },
+      "top_10_female_biased_aes": [
+        {
+          "adverse_event": "Liver injury",
+          "log_ratio": 3.702398043946487,
+          "n_reports": 773,
+          "ror": 40.544415164891355
+        },
+        {
+          "adverse_event": "Road traffic accident",
+          "log_ratio": 3.510098147578669,
+          "n_reports": 383,
+          "ror": 33.45155081154655
+        },
+        {
+          "adverse_event": "Treatment failure",
+          "log_ratio": 3.504911460531321,
+          "n_reports": 644,
+          "ror": 33.27849726149492
+        },
+        {
+          "adverse_event": "Hepatic cirrhosis",
+          "log_ratio": 3.3793106751212574,
+          "n_reports": 256,
+          "ror": 29.350532086486954
+        },
+        {
+          "adverse_event": "Blister",
+          "log_ratio": 3.370083372350841,
+          "n_reports": 783,
+          "ror": 29.080951504021364
+        },
+        {
+          "adverse_event": "Lip dry",
+          "log_ratio": 3.1961706653540767,
+          "n_reports": 587,
+          "ror": 24.43876657000389
+        },
+        {
+          "adverse_event": "Prescribed overdose",
+          "log_ratio": 3.1408965672376796,
+          "n_reports": 289,
+          "ror": 23.12459031741029
+        },
+        {
+          "adverse_event": "Arterial occlusive disease",
+          "log_ratio": 3.121146497610106,
+          "n_reports": 191,
+          "ror": 22.67235855284709
+        },
+        {
+          "adverse_event": "Joint range of motion decreased",
+          "log_ratio": 2.9508465214396273,
+          "n_reports": 635,
+          "ror": 19.122134175268542
+        },
+        {
+          "adverse_event": "Back injury",
+          "log_ratio": 2.941069900140151,
+          "n_reports": 273,
+          "ror": 18.936095209092827
+        }
+      ],
+      "top_10_male_biased_aes": [
+        {
+          "adverse_event": "Breath sounds abnormal",
+          "log_ratio": -2.820910387960528,
+          "n_reports": 165,
+          "ror": 0.05955170286971569
+        },
+        {
+          "adverse_event": "Micturition urgency",
+          "log_ratio": -2.4919828516329185,
+          "n_reports": 137,
+          "ror": 0.08274573129347244
+        },
+        {
+          "adverse_event": "Dyspnoea exertional",
+          "log_ratio": -2.2953827072774047,
+          "n_reports": 142,
+          "ror": 0.10072283852787894
+        },
+        {
+          "adverse_event": "Chronic obstructive pulmonary disease",
+          "log_ratio": -2.253074292920868,
+          "n_reports": 227,
+          "ror": 0.10507569404053921
+        },
+        {
+          "adverse_event": "Middle insomnia",
+          "log_ratio": -2.1337036670981853,
+          "n_reports": 81,
+          "ror": 0.11839797412632307
+        },
+        {
+          "adverse_event": "Arthralgia",
+          "log_ratio": -2.0622697797532115,
+          "n_reports": 39,
+          "ror": 0.1271650055212889
+        },
+        {
+          "adverse_event": "Chest discomfort",
+          "log_ratio": -1.9965339867601064,
+          "n_reports": 108,
+          "ror": 0.1358051709682788
+        },
+        {
+          "adverse_event": "Drug intolerance",
+          "log_ratio": -1.9693999898521157,
+          "n_reports": 48,
+          "ror": 0.13954055685207672
+        },
+        {
+          "adverse_event": "Rales",
+          "log_ratio": -1.8995902160110645,
+          "n_reports": 106,
+          "ror": 0.14962992260775465
+        },
+        {
+          "adverse_event": "Muscular weakness",
+          "log_ratio": -1.8793940343441082,
+          "n_reports": 78,
+          "ror": 0.15268259814117535
+        }
+      ]
+    },
+    {
+      "cv_class": "calcium_channel_blockers",
+      "total_signals": 895,
+      "unique_drugs": 17,
+      "female_higher": 434,
+      "male_higher": 461,
+      "pct_female": 48.49,
+      "median_log_ratio": -0.5085,
+      "mean_log_ratio": -0.0256,
+      "strong_signals": 334,
+      "strong_female": 162,
+      "top_5_drugs": {
+        "AMLODIPINE": 422,
+        "DILTIAZEM": 169,
+        "FELODIPINE": 79,
+        "VERAPAMIL": 62,
+        "NIFEDIPINE": 60
+      },
+      "top_10_female_biased_aes": [
+        {
+          "adverse_event": "Sedation",
+          "log_ratio": 3.599707890376825,
+          "n_reports": 530,
+          "ror": 36.5875453084814
+        },
+        {
+          "adverse_event": "Orthostatic hypotension",
+          "log_ratio": 3.414046337096921,
+          "n_reports": 498,
+          "ror": 30.38795573857151
+        },
+        {
+          "adverse_event": "Motor dysfunction",
+          "log_ratio": 2.8761179736500595,
+          "n_reports": 262,
+          "ror": 17.745251759889058
+        },
+        {
+          "adverse_event": "Balance disorder",
+          "log_ratio": 2.8146131885768444,
+          "n_reports": 566,
+          "ror": 16.686719917931892
+        },
+        {
+          "adverse_event": "Hemiplegia",
+          "log_ratio": 2.5715718936326994,
+          "n_reports": 287,
+          "ror": 13.086378677483808
+        },
+        {
+          "adverse_event": "Pain",
+          "log_ratio": 2.5243884978821916,
+          "n_reports": 945,
+          "ror": 12.483259389614288
+        },
+        {
+          "adverse_event": "Cognitive disorder",
+          "log_ratio": 2.5027446662324992,
+          "n_reports": 719,
+          "ror": 12.215976769052395
+        },
+        {
+          "adverse_event": "Sensory loss",
+          "log_ratio": 2.4011681722822655,
+          "n_reports": 262,
+          "ror": 11.036060873940752
+        },
+        {
+          "adverse_event": "Hypoaesthesia",
+          "log_ratio": 2.400353307310536,
+          "n_reports": 408,
+          "ror": 11.027071637513059
+        },
+        {
+          "adverse_event": "Joint swelling",
+          "log_ratio": 2.3619537124732206,
+          "n_reports": 409,
+          "ror": 10.611663352350183
+        }
+      ],
+      "top_10_male_biased_aes": [
+        {
+          "adverse_event": "Systemic lupus erythematosus",
+          "log_ratio": -3.9092499714442517,
+          "n_reports": 98,
+          "ror": 0.020055537647981438
+        },
+        {
+          "adverse_event": "Thrombosis",
+          "log_ratio": -3.0097264416445775,
+          "n_reports": 217,
+          "ror": 0.049305164755559114
+        },
+        {
+          "adverse_event": "Pemphigus",
+          "log_ratio": -2.8312391044382625,
+          "n_reports": 32,
+          "ror": 0.05893977586541734
+        },
+        {
+          "adverse_event": "Stress",
+          "log_ratio": -2.5832301378170515,
+          "n_reports": 98,
+          "ror": 0.0755296384266502
+        },
+        {
+          "adverse_event": "Central nervous system lesion",
+          "log_ratio": -2.5627948880927587,
+          "n_reports": 69,
+          "ror": 0.07708898399273488
+        },
+        {
+          "adverse_event": "Injection site swelling",
+          "log_ratio": -2.534168357755647,
+          "n_reports": 68,
+          "ror": 0.07932766407627694
+        },
+        {
+          "adverse_event": "Swollen tongue",
+          "log_ratio": -2.5322681215647984,
+          "n_reports": 103,
+          "ror": 0.07947854868728702
+        },
+        {
+          "adverse_event": "Joint injury",
+          "log_ratio": -2.4365574285662817,
+          "n_reports": 148,
+          "ror": 0.08746142599716734
+        },
+        {
+          "adverse_event": "Breath sounds abnormal",
+          "log_ratio": -2.3878806479542107,
+          "n_reports": 231,
+          "ror": 0.09182408536531578
+        },
+        {
+          "adverse_event": "Vertigo",
+          "log_ratio": -2.3556442696495137,
+          "n_reports": 101,
+          "ror": 0.09483238921855686
+        }
+      ]
+    },
+    {
+      "cv_class": "antiplatelets",
+      "total_signals": 666,
+      "unique_drugs": 10,
+      "female_higher": 543,
+      "male_higher": 123,
+      "pct_female": 81.53,
+      "median_log_ratio": 0.7055,
+      "mean_log_ratio": 0.5744,
+      "strong_signals": 170,
+      "strong_female": 145,
+      "top_5_drugs": {
+        "CLOPIDOGREL": 300,
+        "ASPIRIN": 137,
+        "TICAGRELOR": 136,
+        "PRASUGREL": 50,
+        "CLOPIDOGREL BISULFATE": 22
+      },
+      "top_10_female_biased_aes": [
+        {
+          "adverse_event": "Cognitive disorder",
+          "log_ratio": 3.3971471067203405,
+          "n_reports": 473,
+          "ror": 29.878737490769964
+        },
+        {
+          "adverse_event": "Hypotension",
+          "log_ratio": 2.842295148473359,
+          "n_reports": 463,
+          "ror": 17.155093875212184
+        },
+        {
+          "adverse_event": "Neutrophilia",
+          "log_ratio": 2.8399085807704925,
+          "n_reports": 74,
+          "ror": 17.114200898568157
+        },
+        {
+          "adverse_event": "Haemarthrosis",
+          "log_ratio": 2.734291486816251,
+          "n_reports": 110,
+          "ror": 15.398829296409215
+        },
+        {
+          "adverse_event": "Fall",
+          "log_ratio": 2.7102408922463246,
+          "n_reports": 416,
+          "ror": 15.032896386917304
+        },
+        {
+          "adverse_event": "Haemarthrosis",
+          "log_ratio": 2.5623257549876803,
+          "n_reports": 65,
+          "ror": 12.965937870122264
+        },
+        {
+          "adverse_event": "Agitation",
+          "log_ratio": 2.4814237161629795,
+          "n_reports": 206,
+          "ror": 11.958277497031366
+        },
+        {
+          "adverse_event": "Arterial haemorrhage",
+          "log_ratio": 2.2116312476579494,
+          "n_reports": 89,
+          "ror": 9.13059851897345
+        },
+        {
+          "adverse_event": "Cachexia",
+          "log_ratio": 2.1776729298537276,
+          "n_reports": 45,
+          "ror": 8.825744217456675
+        },
+        {
+          "adverse_event": "Feeding disorder",
+          "log_ratio": 2.1103465969663127,
+          "n_reports": 103,
+          "ror": 8.251100595518945
+        }
+      ],
+      "top_10_male_biased_aes": [
+        {
+          "adverse_event": "Psychological trauma",
+          "log_ratio": -2.491185594812588,
+          "n_reports": 43,
+          "ror": 0.08281172719644561
+        },
+        {
+          "adverse_event": "Dizziness",
+          "log_ratio": -2.3738150612065803,
+          "n_reports": 42,
+          "ror": 0.0931247710129685
+        },
+        {
+          "adverse_event": "Drug ineffective",
+          "log_ratio": -1.850177321105336,
+          "n_reports": 50,
+          "ror": 0.15720928731733724
+        },
+        {
+          "adverse_event": "Developmental delay",
+          "log_ratio": -1.6602946987352425,
+          "n_reports": 52,
+          "ror": 0.19008295464028618
+        },
+        {
+          "adverse_event": "Rheumatoid arthritis",
+          "log_ratio": -1.5352351614225592,
+          "n_reports": 36,
+          "ror": 0.21540503025988736
+        },
+        {
+          "adverse_event": "Contraindicated product administered",
+          "log_ratio": -1.4528824312422466,
+          "n_reports": 278,
+          "ror": 0.23389512888435096
+        },
+        {
+          "adverse_event": "Polyarthritis",
+          "log_ratio": -1.3609376771929358,
+          "n_reports": 50,
+          "ror": 0.25642022479444726
+        },
+        {
+          "adverse_event": "Sleep apnoea syndrome",
+          "log_ratio": -1.3469422808500502,
+          "n_reports": 88,
+          "ror": 0.26003415769385513
+        },
+        {
+          "adverse_event": "Sleep disorder due to general medical condition, insomnia type",
+          "log_ratio": -1.286462546858753,
+          "n_reports": 27,
+          "ror": 0.2762462649295057
+        },
+        {
+          "adverse_event": "Oedema",
+          "log_ratio": -1.2806582130566593,
+          "n_reports": 46,
+          "ror": 0.2778543528876408
+        }
+      ]
+    },
+    {
+      "cv_class": "antiarrhythmics",
+      "total_signals": 372,
+      "unique_drugs": 8,
+      "female_higher": 207,
+      "male_higher": 165,
+      "pct_female": 55.65,
+      "median_log_ratio": 0.5531,
+      "mean_log_ratio": 0.0963,
+      "strong_signals": 95,
+      "strong_female": 56,
+      "top_5_drugs": {
+        "AMIODARONE": 228,
+        "FLECAINIDE": 36,
+        "AMIODARONE HYDROCHLORIDE": 30,
+        "SOTALOL": 24,
+        "DOFETILIDE": 22
+      },
+      "top_10_female_biased_aes": [
+        {
+          "adverse_event": "Haemarthrosis",
+          "log_ratio": 3.266490448458771,
+          "n_reports": 49,
+          "ror": 26.219160190080334
+        },
+        {
+          "adverse_event": "Sudden death",
+          "log_ratio": 1.96156593601176,
+          "n_reports": 47,
+          "ror": 7.110452865939761
+        },
+        {
+          "adverse_event": "Tubulointerstitial nephritis",
+          "log_ratio": 1.782816452135887,
+          "n_reports": 45,
+          "ror": 5.9465811164667315
+        },
+        {
+          "adverse_event": "Tachyarrhythmia",
+          "log_ratio": 1.7474764567003018,
+          "n_reports": 98,
+          "ror": 5.740098995010713
+        },
+        {
+          "adverse_event": "Hyperkalaemia",
+          "log_ratio": 1.7237245989060552,
+          "n_reports": 50,
+          "ror": 5.605367377089981
+        },
+        {
+          "adverse_event": "Head injury",
+          "log_ratio": 1.6665895103334274,
+          "n_reports": 71,
+          "ror": 5.294081562790272
+        },
+        {
+          "adverse_event": "Myocardial ischaemia",
+          "log_ratio": 1.6601976177233113,
+          "n_reports": 33,
+          "ror": 5.2603502801842446
+        },
+        {
+          "adverse_event": "Renal failure",
+          "log_ratio": 1.5846279881163532,
+          "n_reports": 40,
+          "ror": 4.8774765617237845
+        },
+        {
+          "adverse_event": "Acute kidney injury",
+          "log_ratio": 1.5356504195155267,
+          "n_reports": 54,
+          "ror": 4.6443453206154865
+        },
+        {
+          "adverse_event": "Hyperkalaemia",
+          "log_ratio": 1.5300904048414747,
+          "n_reports": 295,
+          "ror": 4.618594346716135
+        }
+      ],
+      "top_10_male_biased_aes": [
+        {
+          "adverse_event": "Stress",
+          "log_ratio": -2.78324971435721,
+          "n_reports": 242,
+          "ror": 0.06183722717794848
+        },
+        {
+          "adverse_event": "Blood cholesterol increased",
+          "log_ratio": -2.7129456259585236,
+          "n_reports": 142,
+          "ror": 0.06634110254710412
+        },
+        {
+          "adverse_event": "Neuralgia",
+          "log_ratio": -2.2884608919673615,
+          "n_reports": 127,
+          "ror": 0.10142244188302633
+        },
+        {
+          "adverse_event": "Diabetes mellitus",
+          "log_ratio": -2.0161482530575494,
+          "n_reports": 151,
+          "ror": 0.1331674056620018
+        },
+        {
+          "adverse_event": "Abdominal distension",
+          "log_ratio": -2.0011843822081476,
+          "n_reports": 295,
+          "ror": 0.1351750894190924
+        },
+        {
+          "adverse_event": "Myasthenia gravis",
+          "log_ratio": -1.7936050308009213,
+          "n_reports": 134,
+          "ror": 0.16635935673811378
+        },
+        {
+          "adverse_event": "Blood phosphorus increased",
+          "log_ratio": -1.6024676923305923,
+          "n_reports": 152,
+          "ror": 0.20139891372526003
+        },
+        {
+          "adverse_event": "Ascites",
+          "log_ratio": -1.6016624904657402,
+          "n_reports": 279,
+          "ror": 0.201561145812195
+        },
+        {
+          "adverse_event": "Drug intolerance",
+          "log_ratio": -1.5512648350147358,
+          "n_reports": 196,
+          "ror": 0.21197968486404486
+        },
+        {
+          "adverse_event": "Musculoskeletal stiffness",
+          "log_ratio": -1.5467043136401482,
+          "n_reports": 81,
+          "ror": 0.2129486305171542
+        }
+      ]
+    }
+  ],
+  "cross_class_comparison": {
+    "chi_square": {
+      "statistic": 385.8907,
+      "p_value": "1.9490e-78",
+      "dof": 8,
+      "interpretation": "Significant heterogeneity across CV classes"
+    }
+  },
+  "key_findings": [
+    "CV drugs overall: 57.3% female-biased (8,332 signals)",
+    "Comparison to baseline (53.8%F): chi2=38.26, p=6.21e-10",
+    "anticoagulants: 64.0% female-biased (1,262 signals)",
+    "Chi-square across classes: p=1.95e-78 (significant heterogeneity)",
+    "9 CV drug classes analyzed"
+  ],
+  "figures_generated": [
+    "wave_267_v2_cv_comparison.png",
+    "wave_267_v2_cv_comparison.pdf",
+    "wave_267_v2_cv_violin.png",
+    "wave_267_v2_cv_violin.pdf"
+  ]
+}
