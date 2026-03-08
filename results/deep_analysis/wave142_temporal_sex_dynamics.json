@@ -1,0 +1,584 @@
+{
+  "wave": 142,
+  "title": "Temporal Sex Bias Dynamics",
+  "description": "Analysis of how sex-differential signals evolve with evidence accumulation (volume as temporal proxy)",
+  "total_signals": 96281,
+  "volume_quintile_analysis": [
+    {
+      "quintile": "Q1(lowest)",
+      "n_signals": 19913,
+      "pct_female_direction": 42.9,
+      "mean_abs_logR": 0.8724,
+      "median_abs_logR": 0.7693,
+      "mean_pct_female_reports": 50.7,
+      "min_reports": 20,
+      "max_reports": 37
+    },
+    {
+      "quintile": "Q2",
+      "n_signals": 19241,
+      "pct_female_direction": 46.4,
+      "mean_abs_logR": 0.8995,
+      "median_abs_logR": 0.7824,
+      "mean_pct_female_reports": 52.6,
+      "min_reports": 38,
+      "max_reports": 57
+    },
+    {
+      "quintile": "Q3",
+      "n_signals": 18761,
+      "pct_female_direction": 51.3,
+      "mean_abs_logR": 0.9255,
+      "median_abs_logR": 0.7945,
+      "mean_pct_female_reports": 55.3,
+      "min_reports": 58,
+      "max_reports": 95
+    },
+    {
+      "quintile": "Q4",
+      "n_signals": 19147,
+      "pct_female_direction": 55.2,
+      "mean_abs_logR": 1.016,
+      "median_abs_logR": 0.8261,
+      "mean_pct_female_reports": 58.6,
+      "min_reports": 96,
+      "max_reports": 212
+    },
+    {
+      "quintile": "Q5(highest)",
+      "n_signals": 19219,
+      "pct_female_direction": 73.3,
+      "mean_abs_logR": 1.2235,
+      "median_abs_logR": 0.9456,
+      "mean_pct_female_reports": 73.4,
+      "min_reports": 213,
+      "max_reports": 55041
+    }
+  ],
+  "sliding_window_analysis": [
+    {
+      "center_volume": 23,
+      "pct_female": 41.3,
+      "mean_abs_logR": 0.8715,
+      "n": 4814
+    },
+    {
+      "center_volume": 26,
+      "pct_female": 42.9,
+      "mean_abs_logR": 0.863,
+      "n": 4814
+    },
+    {
+      "center_volume": 28,
+      "pct_female": 43.0,
+      "mean_abs_logR": 0.871,
+      "n": 4814
+    },
+    {
+      "center_volume": 29,
+      "pct_female": 42.7,
+      "mean_abs_logR": 0.8751,
+      "n": 4814
+    },
+    {
+      "center_volume": 31,
+      "pct_female": 42.9,
+      "mean_abs_logR": 0.8764,
+      "n": 4814
+    },
+    {
+      "center_volume": 33,
+      "pct_female": 43.9,
+      "mean_abs_logR": 0.8741,
+      "n": 4814
+    },
+    {
+      "center_volume": 35,
+      "pct_female": 44.4,
+      "mean_abs_logR": 0.8711,
+      "n": 4814
+    },
+    {
+      "center_volume": 37,
+      "pct_female": 44.2,
+      "mean_abs_logR": 0.8813,
+      "n": 4814
+    },
+    {
+      "center_volume": 39,
+      "pct_female": 44.6,
+      "mean_abs_logR": 0.8887,
+      "n": 4814
+    },
+    {
+      "center_volume": 41,
+      "pct_female": 45.0,
+      "mean_abs_logR": 0.8954,
+      "n": 4814
+    },
+    {
+      "center_volume": 43,
+      "pct_female": 45.8,
+      "mean_abs_logR": 0.8908,
+      "n": 4814
+    },
+    {
+      "center_volume": 46,
+      "pct_female": 46.3,
+      "mean_abs_logR": 0.9031,
+      "n": 4814
+    },
+    {
+      "center_volume": 48,
+      "pct_female": 46.5,
+      "mean_abs_logR": 0.9123,
+      "n": 4814
+    },
+    {
+      "center_volume": 51,
+      "pct_female": 47.5,
+      "mean_abs_logR": 0.8993,
+      "n": 4814
+    },
+    {
+      "center_volume": 53,
+      "pct_female": 48.1,
+      "mean_abs_logR": 0.902,
+      "n": 4814
+    },
+    {
+      "center_volume": 57,
+      "pct_female": 48.7,
+      "mean_abs_logR": 0.9084,
+      "n": 4814
+    },
+    {
+      "center_volume": 60,
+      "pct_female": 50.3,
+      "mean_abs_logR": 0.9163,
+      "n": 4814
+    },
+    {
+      "center_volume": 64,
+      "pct_female": 51.3,
+      "mean_abs_logR": 0.9188,
+      "n": 4814
+    },
+    {
+      "center_volume": 68,
+      "pct_female": 51.7,
+      "mean_abs_logR": 0.9134,
+      "n": 4814
+    },
+    {
+      "center_volume": 72,
+      "pct_female": 51.5,
+      "mean_abs_logR": 0.9159,
+      "n": 4814
+    },
+    {
+      "center_volume": 77,
+      "pct_female": 51.7,
+      "mean_abs_logR": 0.9254,
+      "n": 4814
+    },
+    {
+      "center_volume": 82,
+      "pct_female": 52.0,
+      "mean_abs_logR": 0.9345,
+      "n": 4814
+    },
+    {
+      "center_volume": 88,
+      "pct_female": 51.2,
+      "mean_abs_logR": 0.9438,
+      "n": 4814
+    },
+    {
+      "center_volume": 95,
+      "pct_female": 50.6,
+      "mean_abs_logR": 0.9717,
+      "n": 4814
+    },
+    {
+      "center_volume": 103,
+      "pct_female": 51.4,
+      "mean_abs_logR": 1.0023,
+      "n": 4814
+    },
+    {
+      "center_volume": 111,
+      "pct_female": 52.8,
+      "mean_abs_logR": 1.0088,
+      "n": 4814
+    },
+    {
+      "center_volume": 122,
+      "pct_female": 53.3,
+      "mean_abs_logR": 1.0027,
+      "n": 4814
+    },
+    {
+      "center_volume": 134,
+      "pct_female": 54.7,
+      "mean_abs_logR": 0.9918,
+      "n": 4814
+    },
+    {
+      "center_volume": 148,
+      "pct_female": 56.4,
+      "mean_abs_logR": 1.0094,
+      "n": 4814
+    },
+    {
+      "center_volume": 165,
+      "pct_female": 58.5,
+      "mean_abs_logR": 1.0354,
+      "n": 4814
+    },
+    {
+      "center_volume": 185,
+      "pct_female": 59.7,
+      "mean_abs_logR": 1.0457,
+      "n": 4814
+    },
+    {
+      "center_volume": 212,
+      "pct_female": 59.6,
+      "mean_abs_logR": 1.0636,
+      "n": 4814
+    },
+    {
+      "center_volume": 248,
+      "pct_female": 61.0,
+      "mean_abs_logR": 1.0858,
+      "n": 4814
+    },
+    {
+      "center_volume": 296,
+      "pct_female": 63.5,
+      "mean_abs_logR": 1.092,
+      "n": 4814
+    },
+    {
+      "center_volume": 361,
+      "pct_female": 67.0,
+      "mean_abs_logR": 1.1048,
+      "n": 4814
+    },
+    {
+      "center_volume": 463,
+      "pct_female": 72.6,
+      "mean_abs_logR": 1.191,
+      "n": 4814
+    },
+    {
+      "center_volume": 618,
+      "pct_female": 78.1,
+      "mean_abs_logR": 1.2715,
+      "n": 4814
+    },
+    {
+      "center_volume": 927,
+      "pct_female": 83.1,
+      "mean_abs_logR": 1.3327,
+      "n": 4814
+    },
+    {
+      "center_volume": 1766,
+      "pct_female": 86.9,
+      "mean_abs_logR": 1.4312,
+      "n": 4814
+    }
+  ],
+  "drug_maturity_analysis": [
+    {
+      "maturity_class": "Nascent(1-5)",
+      "n_drugs": 869,
+      "n_signals": 1964,
+      "pct_female": 43.1,
+      "mean_abs_logR": 0.9767,
+      "mean_reports": 70.4
+    },
+    {
+      "maturity_class": "Emerging(6-20)",
+      "n_drugs": 522,
+      "n_signals": 5984,
+      "pct_female": 41.9,
+      "mean_abs_logR": 0.94,
+      "mean_reports": 109.1
+    },
+    {
+      "maturity_class": "Established(21-50)",
+      "n_drugs": 320,
+      "n_signals": 10454,
+      "pct_female": 50.8,
+      "mean_abs_logR": 0.9101,
+      "mean_reports": 116.9
+    },
+    {
+      "maturity_class": "Mature(51-100)",
+      "n_drugs": 196,
+      "n_signals": 14049,
+      "pct_female": 49.9,
+      "mean_abs_logR": 0.9795,
+      "mean_reports": 156.0
+    },
+    {
+      "maturity_class": "Well-characterized(100+)",
+      "n_drugs": 271,
+      "n_signals": 63830,
+      "pct_female": 56.5,
+      "mean_abs_logR": 1.0057,
+      "mean_reports": 313.2
+    }
+  ],
+  "report_ratio_analysis": [
+    {
+      "report_ratio_bin": "<40%F",
+      "n_signals": 20624,
+      "pct_female_direction": 9.0,
+      "mean_abs_logR": 1.0896
+    },
+    {
+      "report_ratio_bin": "40-50%F",
+      "n_signals": 16416,
+      "pct_female_direction": 34.3,
+      "mean_abs_logR": 0.8279
+    },
+    {
+      "report_ratio_bin": "50-60%F",
+      "n_signals": 15962,
+      "pct_female_direction": 53.5,
+      "mean_abs_logR": 0.8114
+    },
+    {
+      "report_ratio_bin": "60-70%F",
+      "n_signals": 13739,
+      "pct_female_direction": 69.8,
+      "mean_abs_logR": 0.8382
+    },
+    {
+      "report_ratio_bin": "70-80%F",
+      "n_signals": 12407,
+      "pct_female_direction": 81.8,
+      "mean_abs_logR": 0.8834
+    },
+    {
+      "report_ratio_bin": ">80%F",
+      "n_signals": 17133,
+      "pct_female_direction": 93.4,
+      "mean_abs_logR": 1.3727
+    }
+  ],
+  "top20_highest_volume_signals": [
+    {
+      "drug": "OXYCODONE",
+      "ae": "Pain",
+      "direction": "male_higher",
+      "log_ratio": -0.5786,
+      "n_female": 24048,
+      "n_male": 30993,
+      "total": 55041
+    },
+    {
+      "drug": "RANITIDINE",
+      "ae": "Prostate cancer",
+      "direction": "female_higher",
+      "log_ratio": 1.1696,
+      "n_female": 322,
+      "n_male": 53808,
+      "total": 54130
+    },
+    {
+      "drug": "ADAPALENE",
+      "ae": "Drug ineffective",
+      "direction": "male_higher",
+      "log_ratio": -0.5391,
+      "n_female": 31658,
+      "n_male": 11658,
+      "total": 43316
+    },
+    {
+      "drug": "RANITIDINE",
+      "ae": "Colorectal cancer",
+      "direction": "female_higher",
+      "log_ratio": 0.6662,
+      "n_female": 15580,
+      "n_male": 19532,
+      "total": 35112
+    },
+    {
+      "drug": "EVOLOCUMAB",
+      "ae": "Device difficult to use",
+      "direction": "male_higher",
+      "log_ratio": -0.9638,
+      "n_female": 19866,
+      "n_male": 10807,
+      "total": 30673
+    },
+    {
+      "drug": "INFLIXIMAB",
+      "ae": "Drug ineffective",
+      "direction": "female_higher",
+      "log_ratio": 0.5534,
+      "n_female": 21731,
+      "n_male": 7344,
+      "total": 29075
+    },
+    {
+      "drug": "SKIN CARE",
+      "ae": "Drug ineffective",
+      "direction": "male_higher",
+      "log_ratio": -0.5221,
+      "n_female": 20903,
+      "n_male": 7572,
+      "total": 28475
+    },
+    {
+      "drug": "TOCILIZUMAB",
+      "ae": "Drug ineffective",
+      "direction": "female_higher",
+      "log_ratio": 0.5199,
+      "n_female": 24243,
+      "n_male": 4099,
+      "total": 28342
+    },
+    {
+      "drug": "RITUXIMAB",
+      "ae": "Drug ineffective",
+      "direction": "female_higher",
+      "log_ratio": 0.9594,
+      "n_female": 20758,
+      "n_male": 5664,
+      "total": 26422
+    },
+    {
+      "drug": "PREDNISONE",
+      "ae": "Drug ineffective",
+      "direction": "female_higher",
+      "log_ratio": 0.6811,
+      "n_female": 18363,
+      "n_male": 7257,
+      "total": 25620
+    },
+    {
+      "drug": "RISPERIDONE",
+      "ae": "Gynaecomastia",
+      "direction": "male_higher",
+      "log_ratio": -1.8948,
+      "n_female": 34,
+      "n_male": 24373,
+      "total": 24407
+    },
+    {
+      "drug": "HYDROXYCHLOROQUINE",
+      "ae": "Drug ineffective",
+      "direction": "female_higher",
+      "log_ratio": 0.7069,
+      "n_female": 19946,
+      "n_male": 3092,
+      "total": 23038
+    },
+    {
+      "drug": "ETANERCEPT",
+      "ae": "Fatigue",
+      "direction": "female_higher",
+      "log_ratio": 0.6436,
+      "n_female": 19520,
+      "n_male": 2887,
+      "total": 22407
+    },
+    {
+      "drug": "MORPHINE",
+      "ae": "Pain",
+      "direction": "male_higher",
+      "log_ratio": -0.5033,
+      "n_female": 10245,
+      "n_male": 11601,
+      "total": 21846
+    },
+    {
+      "drug": "OMEPRAZOLE",
+      "ae": "Chronic kidney disease",
+      "direction": "female_higher",
+      "log_ratio": 0.6542,
+      "n_female": 12393,
+      "n_male": 8847,
+      "total": 21240
+    },
+    {
+      "drug": "HYDROMORPHONE",
+      "ae": "Pain",
+      "direction": "male_higher",
+      "log_ratio": -0.5317,
+      "n_female": 9623,
+      "n_male": 11219,
+      "total": 20842
+    },
+    {
+      "drug": "ESOMEPRAZOLE",
+      "ae": "Chronic kidney disease",
+      "direction": "female_higher",
+      "log_ratio": 0.5839,
+      "n_female": 12106,
+      "n_male": 8320,
+      "total": 20426
+    },
+    {
+      "drug": "DOCETAXEL",
+      "ae": "Alopecia",
+      "direction": "female_higher",
+      "log_ratio": 2.1288,
+      "n_female": 20045,
+      "n_male": 274,
+      "total": 20319
+    },
+    {
+      "drug": "DUPILUMAB",
+      "ae": "Dry skin",
+      "direction": "male_higher",
+      "log_ratio": -0.747,
+      "n_female": 11411,
+      "n_male": 8198,
+      "total": 19609
+    },
+    {
+      "drug": "ADALIMUMAB",
+      "ae": "Rash",
+      "direction": "female_higher",
+      "log_ratio": 0.6392,
+      "n_female": 15749,
+      "n_male": 3490,
+      "total": 19239
+    }
+  ],
+  "correlations": {
+    "volume_vs_female_direction": {
+      "rho": 0.2065,
+      "p": 0.0
+    },
+    "volume_vs_log_ratio": {
+      "rho": 0.2438,
+      "p": 0.0
+    },
+    "volume_vs_abs_log_ratio": {
+      "rho": 0.1519,
+      "p": 0.0
+    }
+  },
+  "top100_volume_stats": {
+    "pct_female": 81.0,
+    "mean_abs_logR": 0.9149,
+    "report_range": [
+      9544,
+      55041
+    ]
+  },
+  "key_findings": [
+    "Female bias intensifies with volume: 42.9%F (Q1) -> 73.3%F (Q5), 30.4pp gradient",
+    "Volume-direction correlation: rho=0.2065 (p=0.00e+00)",
+    "Top 100 signals by volume: 81.0%F, mean|logR|=0.9149",
+    "Well-characterized drugs (100+ signals): 56.5%F from 271 drugs"
+  ]
+}
