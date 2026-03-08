@@ -1,0 +1,42 @@
+{
+  "wave": 216,
+  "title": "AE Severity Ladder \u2014 Sex Bias vs Clinical Severity",
+  "severity_profile": [
+    {
+      "level": 1,
+      "name": "Fatal",
+      "n_signals": 2520,
+      "pct_female": 73.8
+    },
+    {
+      "level": 2,
+      "name": "Severe",
+      "n_signals": 3786,
+      "pct_female": 64.9
+    },
+    {
+      "level": 3,
+      "name": "Moderate",
+      "n_signals": 6852,
+      "pct_female": 56.8
+    },
+    {
+      "level": 4,
+      "name": "Mild",
+      "n_signals": 6695,
+      "pct_female": 51.5
+    }
+  ],
+  "severity_vs_female": {
+    "rho": -0.145,
+    "p": 3.362389993528703e-93
+  },
+  "severity_vs_logr": {
+    "rho": 0.057,
+    "p": 6.937478734511437e-16
+  },
+  "drug_severity_vs_pctf": {
+    "rho": -0.323,
+    "p": 2.3420242455671213e-16
+  }
+}

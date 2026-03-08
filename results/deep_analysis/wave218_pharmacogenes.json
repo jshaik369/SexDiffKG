@@ -1,0 +1,19 @@
+{
+  "wave": 218,
+  "title": "Pharmacogene Drug Metabolism \u00d7 Sex Bias",
+  "pharmacogene_categories": [
+    {
+      "category": "Hormone_receptor",
+      "n_drugs": 7,
+      "mean_pct_f": 38.3
+    },
+    {
+      "category": "Non-pharmacogene",
+      "n_drugs": 1078,
+      "mean_pct_f": 49.1
+    }
+  ],
+  "cyp_enzymes": [],
+  "total_pharmacogenes": 83,
+  "sde_pharmacogenes": 83
+}
