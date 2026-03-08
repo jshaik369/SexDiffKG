@@ -1,0 +1,187 @@
+{
+  "wave": 157,
+  "title": "Polypharmacy Sex-Differential Patterns",
+  "ae_sharing": {
+    "total_unique_aes": 5069,
+    "shared_50plus": 521,
+    "shared_100plus": 246,
+    "consistently_female": 224,
+    "consistently_male": 128,
+    "mixed": 169
+  },
+  "top_female_shared_aes": [
+    {
+      "ae": "Osteonecrosis",
+      "n_drugs": 57,
+      "pct_female": 96.5
+    },
+    {
+      "ae": "Blood creatine phosphokinase increased",
+      "n_drugs": 105,
+      "pct_female": 94.3
+    },
+    {
+      "ae": "Tooth loss",
+      "n_drugs": 53,
+      "pct_female": 94.3
+    },
+    {
+      "ae": "Subdural haematoma",
+      "n_drugs": 52,
+      "pct_female": 94.2
+    },
+    {
+      "ae": "Adverse drug reaction",
+      "n_drugs": 206,
+      "pct_female": 93.7
+    },
+    {
+      "ae": "Haematuria",
+      "n_drugs": 134,
+      "pct_female": 93.3
+    },
+    {
+      "ae": "Pathogen resistance",
+      "n_drugs": 57,
+      "pct_female": 93.0
+    },
+    {
+      "ae": "Neurotoxicity",
+      "n_drugs": 64,
+      "pct_female": 90.6
+    },
+    {
+      "ae": "Angioedema",
+      "n_drugs": 121,
+      "pct_female": 89.3
+    },
+    {
+      "ae": "Hyperkalaemia",
+      "n_drugs": 154,
+      "pct_female": 89.0
+    }
+  ],
+  "top_male_shared_aes": [
+    {
+      "ae": "Pain of skin",
+      "n_drugs": 61,
+      "pct_female": 0.0
+    },
+    {
+      "ae": "Skin irritation",
+      "n_drugs": 58,
+      "pct_female": 1.7
+    },
+    {
+      "ae": "Abdominal pain lower",
+      "n_drugs": 91,
+      "pct_female": 2.2
+    },
+    {
+      "ae": "Spinal fracture",
+      "n_drugs": 52,
+      "pct_female": 3.8
+    },
+    {
+      "ae": "Impaired quality of life",
+      "n_drugs": 60,
+      "pct_female": 5.0
+    },
+    {
+      "ae": "Skin burning sensation",
+      "n_drugs": 73,
+      "pct_female": 5.5
+    },
+    {
+      "ae": "Neoplasm progression",
+      "n_drugs": 66,
+      "pct_female": 6.1
+    },
+    {
+      "ae": "Injection site erythema",
+      "n_drugs": 66,
+      "pct_female": 7.6
+    },
+    {
+      "ae": "Acne",
+      "n_drugs": 103,
+      "pct_female": 7.8
+    },
+    {
+      "ae": "Rash papular",
+      "n_drugs": 61,
+      "pct_female": 8.2
+    }
+  ],
+  "drug_pairs": {
+    "active_drugs": 500,
+    "pairs_20plus_shared": 48354,
+    "mean_direction_agreement": 56.9,
+    "top_pairs": [
+      {
+        "drug1": "PREDNISONE",
+        "drug2": "RITUXIMAB",
+        "shared_aes": 401,
+        "direction_agreement": 90.5
+      },
+      {
+        "drug1": "PREDNISONE",
+        "drug2": "METHOTREXATE",
+        "shared_aes": 366,
+        "direction_agreement": 81.7
+      },
+      {
+        "drug1": "METHOTREXATE",
+        "drug2": "RITUXIMAB",
+        "shared_aes": 366,
+        "direction_agreement": 91.8
+      },
+      {
+        "drug1": "PREDNISONE",
+        "drug2": "INFLIXIMAB",
+        "shared_aes": 285,
+        "direction_agreement": 80.7
+      },
+      {
+        "drug1": "RITUXIMAB",
+        "drug2": "TOCILIZUMAB",
+        "shared_aes": 285,
+        "direction_agreement": 90.2
+      },
+      {
+        "drug1": "PREDNISONE",
+        "drug2": "MYCOPHENOLIC ACID",
+        "shared_aes": 282,
+        "direction_agreement": 88.7
+      },
+      {
+        "drug1": "METHOTREXATE",
+        "drug2": "INFLIXIMAB",
+        "shared_aes": 282,
+        "direction_agreement": 90.4
+      },
+      {
+        "drug1": "RITUXIMAB",
+        "drug2": "INFLIXIMAB",
+        "shared_aes": 276,
+        "direction_agreement": 86.2
+      },
+      {
+        "drug1": "RITUXIMAB",
+        "drug2": "METHYLPREDNISOLONE",
+        "shared_aes": 275,
+        "direction_agreement": 88.0
+      },
+      {
+        "drug1": "PREDNISONE",
+        "drug2": "PANTOPRAZOLE",
+        "shared_aes": 273,
+        "direction_agreement": 76.9
+      }
+    ]
+  },
+  "breadth_correlation": {
+    "rho": 0.1321,
+    "p": 6.136939883149402e-10
+  }
+}
