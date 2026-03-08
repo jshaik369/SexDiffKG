@@ -1,0 +1,78 @@
+{
+  "wave": 235,
+  "title": "GLP-1 Agonist Deep Dive \u2014 Most Male-Biased Class",
+  "glp1_signals": 531,
+  "glp1_drugs": 6,
+  "diabetes_classes": {
+    "GLP-1": {
+      "n": 531,
+      "pct_f": 24.5,
+      "n_drugs": 6
+    },
+    "SGLT2i": {
+      "n": 320,
+      "pct_f": 59.7,
+      "n_drugs": 4
+    },
+    "DPP4i": {
+      "n": 248,
+      "pct_f": 57.7,
+      "n_drugs": 5
+    },
+    "Metformin": {
+      "n": 458,
+      "pct_f": 60.9,
+      "n_drugs": 2
+    },
+    "Sulfonylurea": {
+      "n": 148,
+      "pct_f": 73.6,
+      "n_drugs": 4
+    },
+    "Insulin": {
+      "n": 339,
+      "pct_f": 39.5,
+      "n_drugs": 1
+    }
+  },
+  "gi_aes": {
+    "n": 26,
+    "pct_f": 0.0
+  },
+  "non_gi_aes": {
+    "n": 505,
+    "pct_f": 25.7
+  },
+  "per_glp1": [
+    {
+      "drug": "SEMAGLUTIDE",
+      "n_signals": 152,
+      "pct_female": 31.6
+    },
+    {
+      "drug": "LIRAGLUTIDE",
+      "n_signals": 101,
+      "pct_female": 13.9
+    },
+    {
+      "drug": "TIRZEPATIDE",
+      "n_signals": 95,
+      "pct_female": 8.4
+    },
+    {
+      "drug": "EXENATIDE",
+      "n_signals": 92,
+      "pct_female": 39.1
+    },
+    {
+      "drug": "DULAGLUTIDE",
+      "n_signals": 77,
+      "pct_female": 27.3
+    },
+    {
+      "drug": "ALBIGLUTIDE",
+      "n_signals": 14,
+      "pct_female": 21.4
+    }
+  ]
+}

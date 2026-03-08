@@ -1,0 +1,160 @@
+{
+  "wave": 233,
+  "title": "Anticoagulant/Antiplatelet Deep Dive",
+  "anticoagulant": {
+    "n": 1395,
+    "pct_f": 63.2
+  },
+  "antiplatelet": {
+    "n": 1067,
+    "pct_f": 78.6
+  },
+  "bleeding_aes": {
+    "n": 274,
+    "pct_f": 90.9
+  },
+  "non_bleeding_aes": {
+    "n": 2188,
+    "pct_f": 67.2
+  },
+  "per_drug": [
+    {
+      "drug": "ACETYLSALICYLIC ACID",
+      "n_signals": 433,
+      "pct_female": 73.0,
+      "type": "antiplatelet"
+    },
+    {
+      "drug": "CLOPIDOGREL",
+      "n_signals": 300,
+      "pct_female": 82.3,
+      "type": "antiplatelet"
+    },
+    {
+      "drug": "APIXABAN",
+      "n_signals": 275,
+      "pct_female": 58.5,
+      "type": "anticoagulant"
+    },
+    {
+      "drug": "RIVAROXABAN",
+      "n_signals": 243,
+      "pct_female": 68.7,
+      "type": "anticoagulant"
+    },
+    {
+      "drug": "WARFARIN",
+      "n_signals": 220,
+      "pct_female": 56.8,
+      "type": "anticoagulant"
+    },
+    {
+      "drug": "DABIGATRAN",
+      "n_signals": 176,
+      "pct_female": 79.5,
+      "type": "anticoagulant"
+    },
+    {
+      "drug": "HEPARIN",
+      "n_signals": 144,
+      "pct_female": 63.9,
+      "type": "anticoagulant"
+    },
+    {
+      "drug": "ASPIRIN",
+      "n_signals": 137,
+      "pct_female": 82.5,
+      "type": "antiplatelet"
+    },
+    {
+      "drug": "TICAGRELOR",
+      "n_signals": 136,
+      "pct_female": 79.4,
+      "type": "antiplatelet"
+    },
+    {
+      "drug": "ENOXAPARIN",
+      "n_signals": 105,
+      "pct_female": 52.4,
+      "type": "anticoagulant"
+    },
+    {
+      "drug": "DALTEPARIN",
+      "n_signals": 58,
+      "pct_female": 25.9,
+      "type": "anticoagulant"
+    },
+    {
+      "drug": "PRASUGREL",
+      "n_signals": 50,
+      "pct_female": 96.0,
+      "type": "antiplatelet"
+    },
+    {
+      "drug": "EDOXABAN",
+      "n_signals": 50,
+      "pct_female": 74.0,
+      "type": "anticoagulant"
+    },
+    {
+      "drug": "FLUINDIONE",
+      "n_signals": 24,
+      "pct_female": 95.8,
+      "type": "anticoagulant"
+    },
+    {
+      "drug": "FONDAPARINUX",
+      "n_signals": 24,
+      "pct_female": 58.3,
+      "type": "anticoagulant"
+    },
+    {
+      "drug": "PHENPROCOUMON",
+      "n_signals": 23,
+      "pct_female": 78.3,
+      "type": "anticoagulant"
+    },
+    {
+      "drug": "WARFARIN SODIUM",
+      "n_signals": 20,
+      "pct_female": 75.0,
+      "type": "anticoagulant"
+    },
+    {
+      "drug": "ACENOCOUMAROL",
+      "n_signals": 13,
+      "pct_female": 76.9,
+      "type": "anticoagulant"
+    },
+    {
+      "drug": "ENOXAPARIN SODIUM",
+      "n_signals": 11,
+      "pct_female": 54.5,
+      "type": "anticoagulant"
+    },
+    {
+      "drug": "TINZAPARIN",
+      "n_signals": 9,
+      "pct_female": 33.3,
+      "type": "anticoagulant"
+    },
+    {
+      "drug": "DIPYRIDAMOLE",
+      "n_signals": 8,
+      "pct_female": 50.0,
+      "type": "antiplatelet"
+    },
+    {
+      "drug": "TICLOPIDINE",
+      "n_signals": 2,
+      "pct_female": 100.0,
+      "type": "antiplatelet"
+    },
+    {
+      "drug": "ACETYLSALICYLIC ACID;CLOPIDOGREL",
+      "n_signals": 1,
+      "pct_female": 100.0,
+      "type": "antiplatelet"
+    }
+  ]
+}

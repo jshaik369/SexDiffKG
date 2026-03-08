@@ -1,0 +1,100 @@
+{
+  "wave": 231,
+  "title": "Corticosteroid Deep Dive",
+  "steroid_signals": 4043,
+  "steroid_drugs": 18,
+  "steroid_pct_f": 65.2,
+  "non_steroid_pct_f": 53.3,
+  "per_steroid": [
+    {
+      "drug": "PREDNISONE",
+      "n_signals": 926,
+      "pct_female": 70.2
+    },
+    {
+      "drug": "PREDNISOLONE",
+      "n_signals": 542,
+      "pct_female": 82.5
+    },
+    {
+      "drug": "DEXAMETHASONE",
+      "n_signals": 537,
+      "pct_female": 80.3
+    },
+    {
+      "drug": "METHYLPREDNISOLONE",
+      "n_signals": 521,
+      "pct_female": 77.2
+    },
+    {
+      "drug": "HYDROCORTISONE",
+      "n_signals": 302,
+      "pct_female": 50.7
+    },
+    {
+      "drug": "BUDESONIDE",
+      "n_signals": 259,
+      "pct_female": 45.2
+    },
+    {
+      "drug": "FLUTICASONE",
+      "n_signals": 221,
+      "pct_female": 33.5
+    },
+    {
+      "drug": "CORTISONE",
+      "n_signals": 188,
+      "pct_female": 45.7
+    },
+    {
+      "drug": "TRIAMCINOLONE",
+      "n_signals": 170,
+      "pct_female": 60.0
+    },
+    {
+      "drug": "BETAMETHASONE",
+      "n_signals": 130,
+      "pct_female": 35.4
+    },
+    {
+      "drug": "MOMETASONE",
+      "n_signals": 119,
+      "pct_female": 47.1
+    },
+    {
+      "drug": "METHYLPREDNISOLONE SODIUM SUCCINATE",
+      "n_signals": 68,
+      "pct_female": 91.2
+    },
+    {
+      "drug": "CLOBETASOL",
+      "n_signals": 39,
+      "pct_female": 15.4
+    },
+    {
+      "drug": "PREDNISOLONE ACETATE",
+      "n_signals": 8,
+      "pct_female": 12.5
+    },
+    {
+      "drug": "FLUDROCORTISONE",
+      "n_signals": 5,
+      "pct_female": 20.0
+    },
+    {
+      "drug": "DEXAMETHASONE SODIUM PHOSPHATE",
+      "n_signals": 4,
+      "pct_female": 25.0
+    },
+    {
+      "drug": "FLUOCINONIDE",
+      "n_signals": 3,
+      "pct_female": 0.0
+    },
+    {
+      "drug": "HYDROCORTISONE ACETATE",
+      "n_signals": 1,
+      "pct_female": 100.0
+    }
+  ]
+}
