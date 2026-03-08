@@ -1,0 +1,436 @@
+{
+  "wave": 146,
+  "title": "Drug-AE Concordance Analysis",
+  "description": "How consistent is sex-bias direction for the same AE across different drugs?",
+  "total_signals": 96281,
+  "ae_concordance": {
+    "n_aes_analyzed": 2358,
+    "mean_concordance": 64.5,
+    "median_concordance": 58.7,
+    "high_concordance_aes": 341,
+    "low_concordance_aes": 964,
+    "top_concordant": [
+      {
+        "ae": "Abdominal pain lower",
+        "n_drugs": 91,
+        "concordance": 95.7,
+        "pct_female": 2.2
+      },
+      {
+        "ae": "Pain of skin",
+        "n_drugs": 61,
+        "concordance": 100.0,
+        "pct_female": 0.0
+      },
+      {
+        "ae": "Impaired quality of life",
+        "n_drugs": 60,
+        "concordance": 90.3,
+        "pct_female": 5.0
+      },
+      {
+        "ae": "Skin irritation",
+        "n_drugs": 58,
+        "concordance": 96.6,
+        "pct_female": 1.7
+      },
+      {
+        "ae": "Osteonecrosis",
+        "n_drugs": 57,
+        "concordance": 93.1,
+        "pct_female": 96.5
+      },
+      {
+        "ae": "Spinal fracture",
+        "n_drugs": 52,
+        "concordance": 92.5,
+        "pct_female": 3.8
+      },
+      {
+        "ae": "Scar",
+        "n_drugs": 44,
+        "concordance": 91.1,
+        "pct_female": 4.5
+      },
+      {
+        "ae": "Device leakage",
+        "n_drugs": 43,
+        "concordance": 90.9,
+        "pct_female": 95.3
+      },
+      {
+        "ae": "Haemorrhage intracranial",
+        "n_drugs": 41,
+        "concordance": 95.1,
+        "pct_female": 97.6
+      },
+      {
+        "ae": "Pemphigoid",
+        "n_drugs": 40,
+        "concordance": 90.3,
+        "pct_female": 95.0
+      },
+      {
+        "ae": "Acute coronary syndrome",
+        "n_drugs": 39,
+        "concordance": 90.0,
+        "pct_female": 94.9
+      },
+      {
+        "ae": "Hepatitis C",
+        "n_drugs": 38,
+        "concordance": 94.7,
+        "pct_female": 97.4
+      },
+      {
+        "ae": "Parosmia",
+        "n_drugs": 37,
+        "concordance": 94.6,
+        "pct_female": 2.7
+      },
+      {
+        "ae": "Viral load increased",
+        "n_drugs": 36,
+        "concordance": 100.0,
+        "pct_female": 100.0
+      },
+      {
+        "ae": "Viral mutation identified",
+        "n_drugs": 36,
+        "concordance": 100.0,
+        "pct_female": 100.0
+      }
+    ],
+    "top_discordant": [
+      {
+        "ae": "Drug ineffective",
+        "n_drugs": 501,
+        "concordance": 52.9,
+        "pct_female": 37.7
+      },
+      {
+        "ae": "Off label use",
+        "n_drugs": 445,
+        "concordance": 49.9,
+        "pct_female": 50.8
+      },
+      {
+        "ae": "Vomiting",
+        "n_drugs": 362,
+        "concordance": 49.9,
+        "pct_female": 48.9
+      },
+      {
+        "ae": "Dyspnoea",
+        "n_drugs": 349,
+        "concordance": 49.9,
+        "pct_female": 51.9
+      },
+      {
+        "ae": "Nausea",
+        "n_drugs": 339,
+        "concordance": 52.1,
+        "pct_female": 39.5
+      },
+      {
+        "ae": "Headache",
+        "n_drugs": 327,
+        "concordance": 49.8,
+        "pct_female": 50.2
+      },
+      {
+        "ae": "Product use in unapproved indication",
+        "n_drugs": 304,
+        "concordance": 49.8,
+        "pct_female": 50.7
+      },
+      {
+        "ae": "Drug hypersensitivity",
+        "n_drugs": 299,
+        "concordance": 50.1,
+        "pct_female": 46.2
+      },
+      {
+        "ae": "Dizziness",
+        "n_drugs": 289,
+        "concordance": 50.4,
+        "pct_female": 55.4
+      },
+      {
+        "ae": "Hypersensitivity",
+        "n_drugs": 281,
+        "concordance": 50.0,
+        "pct_female": 47.3
+      },
+      {
+        "ae": "Drug intolerance",
+        "n_drugs": 279,
+        "concordance": 50.4,
+        "pct_female": 44.8
+      },
+      {
+        "ae": "Malaise",
+        "n_drugs": 275,
+        "concordance": 50.3,
+        "pct_female": 54.9
+      },
+      {
+        "ae": "Abdominal pain",
+        "n_drugs": 261,
+        "concordance": 50.1,
+        "pct_female": 46.4
+      },
+      {
+        "ae": "Anxiety",
+        "n_drugs": 260,
+        "concordance": 51.1,
+        "pct_female": 41.9
+      },
+      {
+        "ae": "Product use issue",
+        "n_drugs": 256,
+        "concordance": 50.5,
+        "pct_female": 55.9
+      }
+    ]
+  },
+  "drug_concordance": {
+    "n_drugs_analyzed": 1090,
+    "mean_concordance": 70.6,
+    "most_concordant": [
+      {
+        "drug": "OLOPATADINE",
+        "n_aes": 10,
+        "concordance": 100.0,
+        "pct_female": 0.0,
+        "dominant_direction": "male"
+      },
+      {
+        "drug": "TALC",
+        "n_aes": 11,
+        "concordance": 100.0,
+        "pct_female": 0.0,
+        "dominant_direction": "male"
+      },
+      {
+        "drug": "AZELASTINE",
+        "n_aes": 11,
+        "concordance": 100.0,
+        "pct_female": 0.0,
+        "dominant_direction": "male"
+      },
+      {
+        "drug": "SOTROVIMAB",
+        "n_aes": 26,
+        "concordance": 100.0,
+        "pct_female": 0.0,
+        "dominant_direction": "male"
+      },
+      {
+        "drug": "HYDROXYQUINOLINE",
+        "n_aes": 14,
+        "concordance": 100.0,
+        "pct_female": 0.0,
+        "dominant_direction": "male"
+      },
+      {
+        "drug": "CASIRIVIMAB;IMDEVIMAB",
+        "n_aes": 15,
+        "concordance": 100.0,
+        "pct_female": 0.0,
+        "dominant_direction": "male"
+      },
+      {
+        "drug": "VITAMIN B7",
+        "n_aes": 18,
+        "concordance": 100.0,
+        "pct_female": 0.0,
+        "dominant_direction": "male"
+      },
+      {
+        "drug": "RIMEGEPANT",
+        "n_aes": 12,
+        "concordance": 100.0,
+        "pct_female": 0.0,
+        "dominant_direction": "male"
+      },
+      {
+        "drug": "METFORMIN;ROSIGLITAZONE",
+        "n_aes": 20,
+        "concordance": 100.0,
+        "pct_female": 100.0,
+        "dominant_direction": "female"
+      },
+      {
+        "drug": "MACROGOL;PROPYLENE GLYCOL",
+        "n_aes": 12,
+        "concordance": 100.0,
+        "pct_female": 0.0,
+        "dominant_direction": "male"
+      },
+      {
+        "drug": "CENEGERMIN",
+        "n_aes": 20,
+        "concordance": 100.0,
+        "pct_female": 0.0,
+        "dominant_direction": "male"
+      },
+      {
+        "drug": "RANITIDINE HYDROCHLORIDE",
+        "n_aes": 50,
+        "concordance": 100.0,
+        "pct_female": 100.0,
+        "dominant_direction": "female"
+      },
+      {
+        "drug": "PROPYLENE GLYCOL",
+        "n_aes": 17,
+        "concordance": 100.0,
+        "pct_female": 0.0,
+        "dominant_direction": "male"
+      },
+      {
+        "drug": "ESTRADIOL",
+        "n_aes": 18,
+        "concordance": 100.0,
+        "pct_female": 0.0,
+        "dominant_direction": "male"
+      },
+      {
+        "drug": "AZELASTINE;FLUTICASONE",
+        "n_aes": 12,
+        "concordance": 100.0,
+        "pct_female": 0.0,
+        "dominant_direction": "male"
+      }
+    ],
+    "most_discordant": [
+      {
+        "drug": "FARICIMAB",
+        "n_aes": 10,
+        "concordance": 50.0,
+        "pct_female": 50.0
+      },
+      {
+        "drug": "MIDOSTAURIN",
+        "n_aes": 18,
+        "concordance": 50.0,
+        "pct_female": 50.0
+      },
+      {
+        "drug": "SEVOFLURANE",
+        "n_aes": 30,
+        "concordance": 50.0,
+        "pct_female": 50.0
+      },
+      {
+        "drug": "PROPAFENONE",
+        "n_aes": 16,
+        "concordance": 50.0,
+        "pct_female": 50.0
+      },
+      {
+        "drug": "AVACOPAN",
+        "n_aes": 10,
+        "concordance": 50.0,
+        "pct_female": 50.0
+      },
+      {
+        "drug": "GEFITINIB",
+        "n_aes": 12,
+        "concordance": 50.0,
+        "pct_female": 50.0
+      },
+      {
+        "drug": "LEVOCETIRIZINE",
+        "n_aes": 36,
+        "concordance": 50.0,
+        "pct_female": 50.0
+      },
+      {
+        "drug": "VITAMIN B2",
+        "n_aes": 34,
+        "concordance": 50.0,
+        "pct_female": 50.0
+      },
+      {
+        "drug": "NEBIVOLOL",
+        "n_aes": 38,
+        "concordance": 50.0,
+        "pct_female": 50.0
+      },
+      {
+        "drug": "ENZALUTAMIDE",
+        "n_aes": 10,
+        "concordance": 50.0,
+        "pct_female": 50.0
+      },
+      {
+        "drug": "NUTRIENTS, UNSPECIFIED",
+        "n_aes": 42,
+        "concordance": 50.0,
+        "pct_female": 50.0
+      },
+      {
+        "drug": "OLAPARIB",
+        "n_aes": 44,
+        "concordance": 50.0,
+        "pct_female": 50.0
+      },
+      {
+        "drug": "ALISKIREN",
+        "n_aes": 38,
+        "concordance": 50.0,
+        "pct_female": 50.0
+      },
+      {
+        "drug": "COBIMETINIB",
+        "n_aes": 20,
+        "concordance": 50.0,
+        "pct_female": 50.0
+      },
+      {
+        "drug": "AMBROXOL",
+        "n_aes": 14,
+        "concordance": 50.0,
+        "pct_female": 50.0
+      }
+    ]
+  },
+  "concordance_by_strength": [
+    {
+      "strength": "Weak",
+      "range": "0.5-0.75",
+      "n_aes": 1555,
+      "mean_concordance": 59.9,
+      "median_concordance": 55.5
+    },
+    {
+      "strength": "Moderate",
+      "range": "0.75-1.0",
+      "n_aes": 1135,
+      "mean_concordance": 61.6,
+      "median_concordance": 56.1
+    },
+    {
+      "strength": "Strong",
+      "range": "1.0-1.5",
+      "n_aes": 1047,
+      "mean_concordance": 64.3,
+      "median_concordance": 59.1
+    },
+    {
+      "strength": "Very strong",
+      "range": "1.5-10",
+      "n_aes": 613,
+      "mean_concordance": 75.4,
+      "median_concordance": 75.4
+    }
+  ],
+  "key_findings": [
+    "Mean AE concordance: 64.5% (same AE, different drugs)",
+    "341 AEs show >=90% concordance (sex-intrinsic)",
+    "964 AEs show <=55% concordance (drug-dependent)",
+    "Mean drug concordance: 70.6% across AEs"
+  ]
+}
