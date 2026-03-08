@@ -1,0 +1,108 @@
+{
+  "wave": 174,
+  "title": "Statin Sex-Differential Profile",
+  "total_signals": 1085,
+  "statin_pct_f": 48.1,
+  "per_drug": [
+    {
+      "drug": "LOVASTATIN",
+      "solubility": "Lipophilic",
+      "potency": "Moderate",
+      "n_signals": 8,
+      "pct_female": 62.5
+    },
+    {
+      "drug": "SIMVASTATIN",
+      "solubility": "Lipophilic",
+      "potency": "Moderate",
+      "n_signals": 261,
+      "pct_female": 52.5
+    },
+    {
+      "drug": "ROSUVASTATIN",
+      "solubility": "Hydrophilic",
+      "potency": "High",
+      "n_signals": 337,
+      "pct_female": 49.0
+    },
+    {
+      "drug": "ATORVASTATIN",
+      "solubility": "Lipophilic",
+      "potency": "High",
+      "n_signals": 388,
+      "pct_female": 46.4
+    },
+    {
+      "drug": "FLUVASTATIN",
+      "solubility": "Lipophilic",
+      "potency": "Low",
+      "n_signals": 21,
+      "pct_female": 42.9
+    },
+    {
+      "drug": "PRAVASTATIN",
+      "solubility": "Hydrophilic",
+      "potency": "Moderate",
+      "n_signals": 67,
+      "pct_female": 37.3
+    },
+    {
+      "drug": "PITAVASTATIN",
+      "solubility": "Lipophilic",
+      "potency": "Moderate",
+      "n_signals": 3,
+      "pct_female": 33.3
+    }
+  ],
+  "by_solubility": [
+    {
+      "class": "Lipophilic",
+      "n_drugs": 5,
+      "n_signals": 681,
+      "pct_female": 48.8
+    },
+    {
+      "class": "Hydrophilic",
+      "n_drugs": 2,
+      "n_signals": 404,
+      "pct_female": 47.0
+    }
+  ],
+  "ae_categories": [
+    {
+      "category": "Metabolic",
+      "n": 14,
+      "pct_female": 78.6
+    },
+    {
+      "category": "Hepatic",
+      "n": 26,
+      "pct_female": 69.2
+    },
+    {
+      "category": "Renal",
+      "n": 21,
+      "pct_female": 57.1
+    },
+    {
+      "category": "GI",
+      "n": 13,
+      "pct_female": 53.8
+    },
+    {
+      "category": "Neurological",
+      "n": 12,
+      "pct_female": 50.0
+    },
+    {
+      "category": "Other",
+      "n": 960,
+      "pct_female": 47.0
+    },
+    {
+      "category": "Musculoskeletal",
+      "n": 39,
+      "pct_female": 43.6
+    }
+  ]
+}
