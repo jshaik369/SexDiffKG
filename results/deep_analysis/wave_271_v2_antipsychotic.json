@@ -1,0 +1,1735 @@
+{
+  "wave": 271,
+  "version": 2,
+  "title": "Antipsychotic First vs Second Generation",
+  "description": "Per-drug sex bias profiles for 1st gen (haloperidol, chlorpromazine) vs 2nd gen (risperidone, olanzapine, quetiapine, aripiprazole, clozapine)",
+  "overall_baseline": {
+    "total_signals": 96281,
+    "pct_female": 53.8
+  },
+  "antipsychotic_overall": {
+    "total_signals": 2706,
+    "unique_drugs": 25,
+    "female_higher": 1729,
+    "male_higher": 977,
+    "pct_female": 63.9,
+    "median_log_ratio": 0.6409,
+    "mean_log_ratio": 0.3204
+  },
+  "antipsychotic_vs_baseline": {
+    "chi_square": 108.2195,
+    "p_value": "2.4060e-25",
+    "interpretation": "Antipsychotics show significantly different sex bias than overall"
+  },
+  "generation_comparison": [
+    {
+      "generation": "first_generation",
+      "total_signals": 266,
+      "unique_drugs": 9,
+      "female_higher": 151,
+      "male_higher": 115,
+      "pct_female": 56.77,
+      "median_log_ratio": 0.5775,
+      "mean_log_ratio": 0.0874
+    },
+    {
+      "generation": "second_generation",
+      "total_signals": 2440,
+      "unique_drugs": 16,
+      "female_higher": 1578,
+      "male_higher": 862,
+      "pct_female": 64.67,
+      "median_log_ratio": 0.654,
+      "mean_log_ratio": 0.3458
+    }
+  ],
+  "first_vs_second_gen_test": {
+    "chi_square": 6.1592,
+    "p_value": "1.3073e-02",
+    "interpretation": "Significant difference between 1st and 2nd generation"
+  },
+  "per_drug_statistics": [
+    {
+      "antipsychotic": "RISPERIDONE",
+      "generation": "second_generation",
+      "total_signals": 518,
+      "female_higher": 481,
+      "male_higher": 37,
+      "pct_female": 92.86,
+      "median_log_ratio": 0.9747,
+      "mean_log_ratio": 0.9402,
+      "strong_signals": 273,
+      "strong_female": 252,
+      "total_reports": 182301,
+      "metabolic_ae_signals": 11,
+      "eps_ae_signals": 7,
+      "top_10_female_biased": [
+        {
+          "adverse_event": "Blood bilirubin increased",
+          "log_ratio": 3.2927745167646965,
+          "n_reports": 192,
+          "ror": 26.91744304416353
+        },
+        {
+          "adverse_event": "Cholelithiasis",
+          "log_ratio": 3.229149328726414,
+          "n_reports": 238,
+          "ror": 25.258161437084432
+        },
+        {
+          "adverse_event": "Lung neoplasm malignant",
+          "log_ratio": 3.1415127461949868,
+          "n_reports": 84,
+          "ror": 23.138843594193876
+        },
+        {
+          "adverse_event": "Hypomania",
+          "log_ratio": 3.0697329757116227,
+          "n_reports": 196,
+          "ror": 21.53615123169203
+        },
+        {
+          "adverse_event": "Disturbance in social behaviour",
+          "log_ratio": 2.931755598898557,
+          "n_reports": 477,
+          "ror": 18.760537581514416
+        },
+        {
+          "adverse_event": "Personality change",
+          "log_ratio": 2.9079203565833596,
+          "n_reports": 435,
+          "ror": 18.318662640036735
+        },
+        {
+          "adverse_event": "Cardiac murmur",
+          "log_ratio": 2.837085331050558,
+          "n_reports": 104,
+          "ror": 17.065951377945858
+        },
+        {
+          "adverse_event": "Sexual dysfunction",
+          "log_ratio": 2.7652247285733127,
+          "n_reports": 700,
+          "ror": 15.882608865615556
+        },
+        {
+          "adverse_event": "Wheezing",
+          "log_ratio": 2.761438199023453,
+          "n_reports": 131,
+          "ror": 15.822582615123043
+        },
+        {
+          "adverse_event": "Septic shock",
+          "log_ratio": 2.578049046162191,
+          "n_reports": 43,
+          "ror": 13.171416251603894
+        }
+      ],
+      "top_10_male_biased": [
+        {
+          "adverse_event": "Emotional disorder",
+          "log_ratio": -4.577727249457449,
+          "n_reports": 5774,
+          "ror": 0.010278229622896878
+        },
+        {
+          "adverse_event": "Abnormal weight gain",
+          "log_ratio": -4.564312156651608,
+          "n_reports": 9412,
+          "ror": 0.010417042036098854
+        },
+        {
+          "adverse_event": "Injury",
+          "log_ratio": -3.883899541735918,
+          "n_reports": 2388,
+          "ror": 0.020570453235761628
+        },
+        {
+          "adverse_event": "Galactorrhoea",
+          "log_ratio": -3.309224044818933,
+          "n_reports": 3486,
+          "ror": 0.03654451966411307
+        },
+        {
+          "adverse_event": "Breast disorder",
+          "log_ratio": -3.2792856237473527,
+          "n_reports": 120,
+          "ror": 0.03765514714403323
+        },
+        {
+          "adverse_event": "Obesity",
+          "log_ratio": -3.077293441913318,
+          "n_reports": 3030,
+          "ror": 0.04608381653503077
+        },
+        {
+          "adverse_event": "Emotional distress",
+          "log_ratio": -2.967156846497228,
+          "n_reports": 3206,
+          "ror": 0.051449381070762364
+        },
+        {
+          "adverse_event": "Overweight",
+          "log_ratio": -2.742073076972453,
+          "n_reports": 512,
+          "ror": 0.06443662624840603
+        },
+        {
+          "adverse_event": "Breast discharge",
+          "log_ratio": -2.6373082543478668,
+          "n_reports": 177,
+          "ror": 0.0715536146994101
+        },
+        {
+          "adverse_event": "Hyperglycaemia",
+          "log_ratio": -1.9898916677427372,
+          "n_reports": 559,
+          "ror": 0.13671023477166927
+        }
+      ]
+    },
+    {
+      "antipsychotic": "QUETIAPINE",
+      "generation": "second_generation",
+      "total_signals": 476,
+      "female_higher": 296,
+      "male_higher": 180,
+      "pct_female": 62.18,
+      "median_log_ratio": 0.6599,
+      "mean_log_ratio": 0.3403,
+      "strong_signals": 187,
+      "strong_female": 137,
+      "total_reports": 116244,
+      "metabolic_ae_signals": 13,
+      "eps_ae_signals": 5,
+      "top_10_female_biased": [
+        {
+          "adverse_event": "Joint swelling",
+          "log_ratio": 3.0822676245801515,
+          "n_reports": 728,
+          "ror": 21.8077982687763
+        },
+        {
+          "adverse_event": "Upper respiratory tract infection",
+          "log_ratio": 2.797468196819815,
+          "n_reports": 504,
+          "ror": 16.403064822971004
+        },
+        {
+          "adverse_event": "Wound",
+          "log_ratio": 2.7887266887747977,
+          "n_reports": 786,
+          "ror": 16.260302189300493
+        },
+        {
+          "adverse_event": "Hepatic cirrhosis",
+          "log_ratio": 2.723538977786222,
+          "n_reports": 303,
+          "ror": 15.234140242345443
+        },
+        {
+          "adverse_event": "Arthropathy",
+          "log_ratio": 2.6455488881227405,
+          "n_reports": 526,
+          "ror": 14.091177440763307
+        },
+        {
+          "adverse_event": "Urticaria",
+          "log_ratio": 2.620956042736032,
+          "n_reports": 558,
+          "ror": 13.748861803183862
+        },
+        {
+          "adverse_event": "Blister",
+          "log_ratio": 2.616608591802307,
+          "n_reports": 478,
+          "ror": 13.689219042027752
+        },
+        {
+          "adverse_event": "Osteoarthritis",
+          "log_ratio": 2.5365270214277404,
+          "n_reports": 469,
+          "ror": 12.635711125235193
+        },
+        {
+          "adverse_event": "Sinusitis",
+          "log_ratio": 2.336392784714158,
+          "n_reports": 425,
+          "ror": 10.343856666715231
+        },
+        {
+          "adverse_event": "Sexual dysfunction",
+          "log_ratio": 2.311294777437101,
+          "n_reports": 223,
+          "ror": 10.087477241022103
+        }
+      ],
+      "top_10_male_biased": [
+        {
+          "adverse_event": "Tearfulness",
+          "log_ratio": -2.5725666697683893,
+          "n_reports": 129,
+          "ror": 0.07633935583790911
+        },
+        {
+          "adverse_event": "Candida infection",
+          "log_ratio": -1.981798660778292,
+          "n_reports": 50,
+          "ror": 0.13782112079466793
+        },
+        {
+          "adverse_event": "Depression suicidal",
+          "log_ratio": -1.813674903003416,
+          "n_reports": 133,
+          "ror": 0.1630538274387822
+        },
+        {
+          "adverse_event": "Pituitary tumour benign",
+          "log_ratio": -1.7866896084752597,
+          "n_reports": 71,
+          "ror": 0.16751378904053807
+        },
+        {
+          "adverse_event": "Caesarean section",
+          "log_ratio": -1.663892135358909,
+          "n_reports": 120,
+          "ror": 0.1894003717681797
+        },
+        {
+          "adverse_event": "Loss of libido",
+          "log_ratio": -1.641149017893027,
+          "n_reports": 109,
+          "ror": 0.1937572837526906
+        },
+        {
+          "adverse_event": "Antipsychotic drug level below therapeutic",
+          "log_ratio": -1.593764083121095,
+          "n_reports": 144,
+          "ror": 0.20315946161208537
+        },
+        {
+          "adverse_event": "Multiple drug therapy",
+          "log_ratio": -1.5781831153802774,
+          "n_reports": 85,
+          "ror": 0.20634967136792629
+        },
+        {
+          "adverse_event": "Lymphoedema",
+          "log_ratio": -1.556201809671525,
+          "n_reports": 33,
+          "ror": 0.21093572565263144
+        },
+        {
+          "adverse_event": "Acute pulmonary oedema",
+          "log_ratio": -1.5338321055040798,
+          "n_reports": 81,
+          "ror": 0.2157074676811567
+        }
+      ]
+    },
+    {
+      "antipsychotic": "OLANZAPINE",
+      "generation": "second_generation",
+      "total_signals": 343,
+      "female_higher": 198,
+      "male_higher": 145,
+      "pct_female": 57.73,
+      "median_log_ratio": 0.5589,
+      "mean_log_ratio": 0.1971,
+      "strong_signals": 103,
+      "strong_female": 67,
+      "total_reports": 51219,
+      "metabolic_ae_signals": 10,
+      "eps_ae_signals": 3,
+      "top_10_female_biased": [
+        {
+          "adverse_event": "Gynaecomastia",
+          "log_ratio": 3.0154225726609067,
+          "n_reports": 383,
+          "ror": 20.397708633633947
+        },
+        {
+          "adverse_event": "Sexual dysfunction",
+          "log_ratio": 2.4595107422239955,
+          "n_reports": 680,
+          "ror": 11.699086270598743
+        },
+        {
+          "adverse_event": "Blood bilirubin increased",
+          "log_ratio": 2.390347631453252,
+          "n_reports": 208,
+          "ror": 10.917288476312796
+        },
+        {
+          "adverse_event": "Cholelithiasis",
+          "log_ratio": 2.310244607228448,
+          "n_reports": 267,
+          "ror": 10.076889233521225
+        },
+        {
+          "adverse_event": "Orthostatic hypertension",
+          "log_ratio": 2.2748601187169033,
+          "n_reports": 100,
+          "ror": 9.726558353934099
+        },
+        {
+          "adverse_event": "Disturbance in social behaviour",
+          "log_ratio": 2.2485601497333048,
+          "n_reports": 442,
+          "ror": 9.474084747504596
+        },
+        {
+          "adverse_event": "Hyperprolactinaemia",
+          "log_ratio": 2.1138566977234716,
+          "n_reports": 497,
+          "ror": 8.280113679602165
+        },
+        {
+          "adverse_event": "Galactorrhoea",
+          "log_ratio": 2.092144152881116,
+          "n_reports": 157,
+          "ror": 8.1022690564986
+        },
+        {
+          "adverse_event": "Hepatotoxicity",
+          "log_ratio": 2.079499644210513,
+          "n_reports": 200,
+          "ror": 8.000464833749295
+        },
+        {
+          "adverse_event": "Blood urine present",
+          "log_ratio": 1.9046069170424709,
+          "n_reports": 65,
+          "ror": 6.716766862065807
+        }
+      ],
+      "top_10_male_biased": [
+        {
+          "adverse_event": "COVID-19",
+          "log_ratio": -1.7591074010854189,
+          "n_reports": 139,
+          "ror": 0.1721984994390497
+        },
+        {
+          "adverse_event": "Paradoxical drug reaction",
+          "log_ratio": -1.5851345386207596,
+          "n_reports": 96,
+          "ror": 0.2049202215781436
+        },
+        {
+          "adverse_event": "Faecaloma",
+          "log_ratio": -1.5836743192092915,
+          "n_reports": 112,
+          "ror": 0.20521966863949248
+        },
+        {
+          "adverse_event": "Lymphocyte count decreased",
+          "log_ratio": -1.5171589178941192,
+          "n_reports": 148,
+          "ror": 0.21933414891067404
+        },
+        {
+          "adverse_event": "Alopecia",
+          "log_ratio": -1.50327903727627,
+          "n_reports": 262,
+          "ror": 0.2223997062830613
+        },
+        {
+          "adverse_event": "Red blood cell count decreased",
+          "log_ratio": -1.4336640741946818,
+          "n_reports": 57,
+          "ror": 0.23843368105074678
+        },
+        {
+          "adverse_event": "Dyspepsia",
+          "log_ratio": -1.4001434554607133,
+          "n_reports": 128,
+          "ror": 0.24656159079782972
+        },
+        {
+          "adverse_event": "Product dose omission issue",
+          "log_ratio": -1.3902807997428477,
+          "n_reports": 78,
+          "ror": 0.24900537416886534
+        },
+        {
+          "adverse_event": "Rebound effect",
+          "log_ratio": -1.3665699032845249,
+          "n_reports": 75,
+          "ror": 0.25498006756655633
+        },
+        {
+          "adverse_event": "Anticholinergic syndrome",
+          "log_ratio": -1.3266269317230335,
+          "n_reports": 99,
+          "ror": 0.2653708674098474
+        }
+      ]
+    },
+    {
+      "antipsychotic": "ARIPIPRAZOLE",
+      "generation": "second_generation",
+      "total_signals": 342,
+      "female_higher": 162,
+      "male_higher": 180,
+      "pct_female": 47.37,
+      "median_log_ratio": -0.5201,
+      "mean_log_ratio": -0.0372,
+      "strong_signals": 75,
+      "strong_female": 34,
+      "total_reports": 47729,
+      "metabolic_ae_signals": 9,
+      "eps_ae_signals": 2,
+      "top_10_female_biased": [
+        {
+          "adverse_event": "Gynaecomastia",
+          "log_ratio": 2.41289024920614,
+          "n_reports": 388,
+          "ror": 11.166187616258656
+        },
+        {
+          "adverse_event": "Agitation neonatal",
+          "log_ratio": 2.025078246432077,
+          "n_reports": 32,
+          "ror": 7.576703771480272
+        },
+        {
+          "adverse_event": "Disturbance in social behaviour",
+          "log_ratio": 1.9098208227387152,
+          "n_reports": 427,
+          "ror": 6.751878906970917
+        },
+        {
+          "adverse_event": "Orthostatic hypertension",
+          "log_ratio": 1.858681795518594,
+          "n_reports": 115,
+          "ror": 6.415274551523138
+        },
+        {
+          "adverse_event": "Compulsive sexual behaviour",
+          "log_ratio": 1.7643458298257428,
+          "n_reports": 544,
+          "ror": 5.83775222532326
+        },
+        {
+          "adverse_event": "Metabolic syndrome",
+          "log_ratio": 1.7070910478507768,
+          "n_reports": 131,
+          "ror": 5.51290136362732
+        },
+        {
+          "adverse_event": "Galactorrhoea",
+          "log_ratio": 1.657764336384638,
+          "n_reports": 209,
+          "ror": 5.2475659282829
+        },
+        {
+          "adverse_event": "Sexual dysfunction",
+          "log_ratio": 1.6540802858323773,
+          "n_reports": 1003,
+          "ror": 5.228269197018486
+        },
+        {
+          "adverse_event": "Drug level increased",
+          "log_ratio": 1.6314490586053576,
+          "n_reports": 254,
+          "ror": 5.111275893191135
+        },
+        {
+          "adverse_event": "Transient ischaemic attack",
+          "log_ratio": 1.5779686472472108,
+          "n_reports": 70,
+          "ror": 4.845103693336824
+        }
+      ],
+      "top_10_male_biased": [
+        {
+          "adverse_event": "Pericarditis",
+          "log_ratio": -1.8106591297592232,
+          "n_reports": 60,
+          "ror": 0.16354630303304482
+        },
+        {
+          "adverse_event": "Antipsychotic drug level below therapeutic",
+          "log_ratio": -1.7579730391098032,
+          "n_reports": 159,
+          "ror": 0.17239394570151764
+        },
+        {
+          "adverse_event": "Platelet count decreased",
+          "log_ratio": -1.751409841135386,
+          "n_reports": 137,
+          "ror": 0.17352912241664417
+        },
+        {
+          "adverse_event": "Skin irritation",
+          "log_ratio": -1.7245179252553773,
+          "n_reports": 43,
+          "ror": 0.17825896520801535
+        },
+        {
+          "adverse_event": "Nicotine dependence",
+          "log_ratio": -1.626921616305249,
+          "n_reports": 48,
+          "ror": 0.19653364984460017
+        },
+        {
+          "adverse_event": "Breech presentation",
+          "log_ratio": -1.617560239220588,
+          "n_reports": 92,
+          "ror": 0.19838211403656553
+        },
+        {
+          "adverse_event": "Femur fracture",
+          "log_ratio": -1.5595433554460831,
+          "n_reports": 25,
+          "ror": 0.2102320506058285
+        },
+        {
+          "adverse_event": "Loss of libido",
+          "log_ratio": -1.5533128151117894,
+          "n_reports": 104,
+          "ror": 0.2115459989301254
+        },
+        {
+          "adverse_event": "Blood thyroid stimulating hormone increased",
+          "log_ratio": -1.5255886975381332,
+          "n_reports": 36,
+          "ror": 0.21749298158730968
+        },
+        {
+          "adverse_event": "Tenderness",
+          "log_ratio": -1.5071690481226472,
+          "n_reports": 49,
+          "ror": 0.22153624953028794
+        }
+      ]
+    },
+    {
+      "antipsychotic": "CLOZAPINE",
+      "generation": "second_generation",
+      "total_signals": 287,
+      "female_higher": 197,
+      "male_higher": 90,
+      "pct_female": 68.64,
+      "median_log_ratio": 0.6407,
+      "mean_log_ratio": 0.3907,
+      "strong_signals": 83,
+      "strong_female": 62,
+      "total_reports": 42825,
+      "metabolic_ae_signals": 8,
+      "eps_ae_signals": 6,
+      "top_10_female_biased": [
+        {
+          "adverse_event": "Gynaecomastia",
+          "log_ratio": 5.447611088396968,
+          "n_reports": 42,
+          "ror": 232.20279085949568
+        },
+        {
+          "adverse_event": "Sexual dysfunction",
+          "log_ratio": 3.0479281380139223,
+          "n_reports": 477,
+          "ror": 21.07164163181726
+        },
+        {
+          "adverse_event": "Disturbance in social behaviour",
+          "log_ratio": 2.751887487533255,
+          "n_reports": 430,
+          "ror": 15.672185038688356
+        },
+        {
+          "adverse_event": "Hyperprolactinaemia",
+          "log_ratio": 2.7051085525182526,
+          "n_reports": 164,
+          "ror": 14.955940107372957
+        },
+        {
+          "adverse_event": "Parkinson's disease psychosis",
+          "log_ratio": 2.4839934204252763,
+          "n_reports": 52,
+          "ror": 11.989046250051633
+        },
+        {
+          "adverse_event": "Personality change",
+          "log_ratio": 2.206644030877573,
+          "n_reports": 423,
+          "ror": 9.085175605929594
+        },
+        {
+          "adverse_event": "Anosognosia",
+          "log_ratio": 1.912352745324089,
+          "n_reports": 485,
+          "ror": 6.768995801851382
+        },
+        {
+          "adverse_event": "Refusal of examination",
+          "log_ratio": 1.9064730475135159,
+          "n_reports": 74,
+          "ror": 6.729312928031095
+        },
+        {
+          "adverse_event": "Visceral congestion",
+          "log_ratio": 1.8792585203124308,
+          "n_reports": 25,
+          "ror": 6.548647372540954
+        },
+        {
+          "adverse_event": "Metabolic disorder",
+          "log_ratio": 1.8571823713599986,
+          "n_reports": 456,
+          "ror": 6.40566254191714
+        }
+      ],
+      "top_10_male_biased": [
+        {
+          "adverse_event": "Alopecia",
+          "log_ratio": -2.973072993983381,
+          "n_reports": 88,
+          "ror": 0.05114589755607269
+        },
+        {
+          "adverse_event": "Arthropathy",
+          "log_ratio": -1.6449805556563684,
+          "n_reports": 51,
+          "ror": 0.19301631583284545
+        },
+        {
+          "adverse_event": "Dyslipidaemia",
+          "log_ratio": -1.531316619335477,
+          "n_reports": 121,
+          "ror": 0.21625075986808268
+        },
+        {
+          "adverse_event": "Prescribed overdose",
+          "log_ratio": -1.3462970993867864,
+          "n_reports": 121,
+          "ror": 0.26020198104465064
+        },
+        {
+          "adverse_event": "Neoplasm progression",
+          "log_ratio": -1.3250200814000093,
+          "n_reports": 63,
+          "ror": 0.26579762144697533
+        },
+        {
+          "adverse_event": "Pericarditis",
+          "log_ratio": -1.1683560906916746,
+          "n_reports": 332,
+          "ror": 0.3108775759728055
+        },
+        {
+          "adverse_event": "Vitamin D decreased",
+          "log_ratio": -1.1645226586275754,
+          "n_reports": 39,
+          "ror": 0.3120715911664224
+        },
+        {
+          "adverse_event": "Antipsychotic drug level below therapeutic",
+          "log_ratio": -1.157011941985048,
+          "n_reports": 302,
+          "ror": 0.31442429665214394
+        },
+        {
+          "adverse_event": "Blood thyroid stimulating hormone increased",
+          "log_ratio": -1.1459916396167062,
+          "n_reports": 45,
+          "ror": 0.3179085107574555
+        },
+        {
+          "adverse_event": "Hypoaesthesia",
+          "log_ratio": -1.1365748484878975,
+          "n_reports": 62,
+          "ror": 0.32091632857065233
+        }
+      ]
+    },
+    {
+      "antipsychotic": "PALIPERIDONE",
+      "generation": "second_generation",
+      "total_signals": 161,
+      "female_higher": 138,
+      "male_higher": 23,
+      "pct_female": 85.71,
+      "median_log_ratio": 0.7446,
+      "mean_log_ratio": 0.6897,
+      "strong_signals": 60,
+      "strong_female": 53,
+      "total_reports": 26483,
+      "metabolic_ae_signals": 5,
+      "eps_ae_signals": 5,
+      "top_10_female_biased": [
+        {
+          "adverse_event": "Disturbance in social behaviour",
+          "log_ratio": 2.725509645056319,
+          "n_reports": 465,
+          "ror": 15.264191264466636
+        },
+        {
+          "adverse_event": "Sexual dysfunction",
+          "log_ratio": 2.637447125993921,
+          "n_reports": 612,
+          "ror": 13.977475288853759
+        },
+        {
+          "adverse_event": "Personality change",
+          "log_ratio": 2.5925199645917885,
+          "n_reports": 415,
+          "ror": 13.363404514727508
+        },
+        {
+          "adverse_event": "Blood prolactin abnormal",
+          "log_ratio": 2.1397497657518976,
+          "n_reports": 493,
+          "ror": 8.49731104458497
+        },
+        {
+          "adverse_event": "Metabolic disorder",
+          "log_ratio": 2.0861004117628252,
+          "n_reports": 440,
+          "ror": 8.053448717200569
+        },
+        {
+          "adverse_event": "Myoclonus",
+          "log_ratio": 2.0513238734036925,
+          "n_reports": 42,
+          "ror": 7.778191634159025
+        },
+        {
+          "adverse_event": "Anosognosia",
+          "log_ratio": 2.0144923266853647,
+          "n_reports": 429,
+          "ror": 7.496920428497081
+        },
+        {
+          "adverse_event": "Blood glucose increased",
+          "log_ratio": 1.945031748928535,
+          "n_reports": 507,
+          "ror": 6.993853898875742
+        },
+        {
+          "adverse_event": "Sepsis",
+          "log_ratio": 1.944485115288533,
+          "n_reports": 34,
+          "ror": 6.990031867781913
+        },
+        {
+          "adverse_event": "Atrial fibrillation",
+          "log_ratio": 1.9238668318451386,
+          "n_reports": 39,
+          "ror": 6.847385029317765
+        }
+      ],
+      "top_10_male_biased": [
+        {
+          "adverse_event": "Emotional disorder",
+          "log_ratio": -2.576981108096381,
+          "n_reports": 678,
+          "ror": 0.07600310318890838
+        },
+        {
+          "adverse_event": "Obesity",
+          "log_ratio": -2.187973687382835,
+          "n_reports": 578,
+          "ror": 0.11214375685427805
+        },
+        {
+          "adverse_event": "Overweight",
+          "log_ratio": -1.7237662047437858,
+          "n_reports": 124,
+          "ror": 0.17839301650678016
+        },
+        {
+          "adverse_event": "Abnormal weight gain",
+          "log_ratio": -1.5344021138592638,
+          "n_reports": 1812,
+          "ror": 0.21558454765835103
+        },
+        {
+          "adverse_event": "Hyperglycaemia",
+          "log_ratio": -1.4949969500567628,
+          "n_reports": 137,
+          "ror": 0.2242492886770938
+        },
+        {
+          "adverse_event": "Emotional distress",
+          "log_ratio": -1.4134405476037644,
+          "n_reports": 400,
+          "ror": 0.24330473991674872
+        },
+        {
+          "adverse_event": "Hepatic enzyme increased",
+          "log_ratio": -1.069066032928765,
+          "n_reports": 60,
+          "ror": 0.34332902572793417
+        },
+        {
+          "adverse_event": "Breast tenderness",
+          "log_ratio": -0.9509074437770133,
+          "n_reports": 57,
+          "ror": 0.38639023690305974
+        },
+        {
+          "adverse_event": "Sedation complication",
+          "log_ratio": -0.904381034538575,
+          "n_reports": 87,
+          "ror": 0.4047923600672764
+        },
+        {
+          "adverse_event": "Dysphonia",
+          "log_ratio": -0.8703741432828694,
+          "n_reports": 48,
+          "ror": 0.41879483065907197
+        }
+      ]
+    },
+    {
+      "antipsychotic": "HALOPERIDOL",
+      "generation": "first_generation",
+      "total_signals": 159,
+      "female_higher": 90,
+      "male_higher": 69,
+      "pct_female": 56.6,
+      "median_log_ratio": 0.5623,
+      "mean_log_ratio": 0.1351,
+      "strong_signals": 38,
+      "strong_female": 24,
+      "total_reports": 15805,
+      "metabolic_ae_signals": 3,
+      "eps_ae_signals": 1,
+      "top_10_female_biased": [
+        {
+          "adverse_event": "Abnormal weight gain",
+          "log_ratio": 1.8395978467731702,
+          "n_reports": 40,
+          "ror": 6.2940065969396874
+        },
+        {
+          "adverse_event": "Multiple organ dysfunction syndrome",
+          "log_ratio": 1.7477752822112147,
+          "n_reports": 69,
+          "ror": 5.74181453933703
+        },
+        {
+          "adverse_event": "Hypernatraemia",
+          "log_ratio": 1.7049715995289285,
+          "n_reports": 38,
+          "ror": 5.5012294274856535
+        },
+        {
+          "adverse_event": "Hyperprolactinaemia",
+          "log_ratio": 1.7008079964740839,
+          "n_reports": 217,
+          "ror": 5.478372109256392
+        },
+        {
+          "adverse_event": "Galactorrhoea",
+          "log_ratio": 1.6451740257710736,
+          "n_reports": 52,
+          "ror": 5.181911614650415
+        },
+        {
+          "adverse_event": "Blood creatinine increased",
+          "log_ratio": 1.5644798523830947,
+          "n_reports": 49,
+          "ror": 4.780187885797595
+        },
+        {
+          "adverse_event": "Renal impairment",
+          "log_ratio": 1.4415720352064494,
+          "n_reports": 69,
+          "ror": 4.227336117442114
+        },
+        {
+          "adverse_event": "Psychomotor skills impaired",
+          "log_ratio": 1.4011242776234205,
+          "n_reports": 34,
+          "ror": 4.059761701273363
+        },
+        {
+          "adverse_event": "Intentional product use issue",
+          "log_ratio": 1.3206899968308226,
+          "n_reports": 40,
+          "ror": 3.7460052174658696
+        },
+        {
+          "adverse_event": "Loss of personal independence in daily activities",
+          "log_ratio": 1.3069809669367596,
+          "n_reports": 49,
+          "ror": 3.695001524323031
+        }
+      ],
+      "top_10_male_biased": [
+        {
+          "adverse_event": "COVID-19",
+          "log_ratio": -2.0867320376242944,
+          "n_reports": 100,
+          "ror": 0.12409200190692227
+        },
+        {
+          "adverse_event": "Alopecia",
+          "log_ratio": -1.8567553003209052,
+          "n_reports": 129,
+          "ror": 0.15617856165546576
+        },
+        {
+          "adverse_event": "Choking",
+          "log_ratio": -1.5705986691869716,
+          "n_reports": 59,
+          "ror": 0.2079206693916022
+        },
+        {
+          "adverse_event": "Heart rate increased",
+          "log_ratio": -1.4841419090337857,
+          "n_reports": 92,
+          "ror": 0.22669678370180035
+        },
+        {
+          "adverse_event": "Euphoric mood",
+          "log_ratio": -1.4669775870680746,
+          "n_reports": 155,
+          "ror": 0.230621466187706
+        },
+        {
+          "adverse_event": "Increased appetite",
+          "log_ratio": -1.3951857797010805,
+          "n_reports": 189,
+          "ror": 0.24778699829641646
+        },
+        {
+          "adverse_event": "Swollen tongue",
+          "log_ratio": -1.3709448537865145,
+          "n_reports": 63,
+          "ror": 0.25386697902099775
+        },
+        {
+          "adverse_event": "Nervous system disorder",
+          "log_ratio": -1.2373381023670265,
+          "n_reports": 70,
+          "ror": 0.29015555525884007
+        },
+        {
+          "adverse_event": "Peripheral swelling",
+          "log_ratio": -1.221614955876818,
+          "n_reports": 52,
+          "ror": 0.29475376801607506
+        },
+        {
+          "adverse_event": "Body temperature increased",
+          "log_ratio": -1.210431305636554,
+          "n_reports": 59,
+          "ror": 0.29806869299448474
+        }
+      ]
+    },
+    {
+      "antipsychotic": "ZIPRASIDONE",
+      "generation": "second_generation",
+      "total_signals": 100,
+      "female_higher": 51,
+      "male_higher": 49,
+      "pct_female": 51.0,
+      "median_log_ratio": 0.5314,
+      "mean_log_ratio": 0.0614,
+      "strong_signals": 44,
+      "strong_female": 25,
+      "total_reports": 11789,
+      "metabolic_ae_signals": 9,
+      "eps_ae_signals": 7,
+      "top_10_female_biased": [
+        {
+          "adverse_event": "Sexual dysfunction",
+          "log_ratio": 3.031460933916627,
+          "n_reports": 349,
+          "ror": 20.727491976560213
+        },
+        {
+          "adverse_event": "Sexual dysfunction",
+          "log_ratio": 2.6190597848623725,
+          "n_reports": 186,
+          "ror": 13.722815119155417
+        },
+        {
+          "adverse_event": "Disturbance in social behaviour",
+          "log_ratio": 2.188011238674525,
+          "n_reports": 275,
+          "ror": 8.917460766863895
+        },
+        {
+          "adverse_event": "Personality change",
+          "log_ratio": 1.9304441513611361,
+          "n_reports": 268,
+          "ror": 6.892570906581601
+        },
+        {
+          "adverse_event": "Sedation",
+          "log_ratio": 1.8147985056482367,
+          "n_reports": 183,
+          "ror": 6.139838909936831
+        },
+        {
+          "adverse_event": "Coma",
+          "log_ratio": 1.7320762579391467,
+          "n_reports": 81,
+          "ror": 5.652377527304496
+        },
+        {
+          "adverse_event": "Drug withdrawal syndrome",
+          "log_ratio": 1.69255198400386,
+          "n_reports": 61,
+          "ror": 5.43332879573717
+        },
+        {
+          "adverse_event": "Blood prolactin abnormal",
+          "log_ratio": 1.662634108326328,
+          "n_reports": 328,
+          "ror": 5.273182700898445
+        },
+        {
+          "adverse_event": "Schizophrenia",
+          "log_ratio": 1.6317858315751845,
+          "n_reports": 264,
+          "ror": 5.1129975226361495
+        },
+        {
+          "adverse_event": "Metabolic disorder",
+          "log_ratio": 1.5432415364971552,
+          "n_reports": 290,
+          "ror": 4.6797352438255215
+        }
+      ],
+      "top_10_male_biased": [
+        {
+          "adverse_event": "Maternal exposure during pregnancy",
+          "log_ratio": -3.1267936961438876,
+          "n_reports": 25,
+          "ror": 0.04385819475290791
+        },
+        {
+          "adverse_event": "Therapeutic product effect incomplete",
+          "log_ratio": -2.7870347829242688,
+          "n_reports": 136,
+          "ror": 0.06160361143779326
+        },
+        {
+          "adverse_event": "Increased appetite",
+          "log_ratio": -2.768977129546757,
+          "n_reports": 144,
+          "ror": 0.06272613264702322
+        },
+        {
+          "adverse_event": "Bruxism",
+          "log_ratio": -1.8775859526837153,
+          "n_reports": 42,
+          "ror": 0.1529589104690862
+        },
+        {
+          "adverse_event": "Prescribed overdose",
+          "log_ratio": -1.8562597525766997,
+          "n_reports": 80,
+          "ror": 0.15625597476875
+        },
+        {
+          "adverse_event": "Crying",
+          "log_ratio": -1.7841084363905748,
+          "n_reports": 62,
+          "ror": 0.16794672946310554
+        },
+        {
+          "adverse_event": "Schizoaffective disorder",
+          "log_ratio": -1.7422886925401384,
+          "n_reports": 56,
+          "ror": 0.17511914773285467
+        },
+        {
+          "adverse_event": "Irritability",
+          "log_ratio": -1.5617618310108867,
+          "n_reports": 125,
+          "ror": 0.20976617289884877
+        },
+        {
+          "adverse_event": "Tachycardia",
+          "log_ratio": -1.3033635596193514,
+          "n_reports": 70,
+          "ror": 0.2716166560217103
+        },
+        {
+          "adverse_event": "Hypertension",
+          "log_ratio": -1.2992617661860606,
+          "n_reports": 121,
+          "ror": 0.27273305950071886
+        }
+      ]
+    },
+    {
+      "antipsychotic": "LURASIDONE",
+      "generation": "second_generation",
+      "total_signals": 81,
+      "female_higher": 19,
+      "male_higher": 62,
+      "pct_female": 23.46,
+      "median_log_ratio": -0.7036,
+      "mean_log_ratio": -0.5076,
+      "strong_signals": 21,
+      "strong_female": 5,
+      "total_reports": 9800,
+      "metabolic_ae_signals": 4,
+      "eps_ae_signals": 2,
+      "top_10_female_biased": [
+        {
+          "adverse_event": "Sexual dysfunction",
+          "log_ratio": 1.9971112098364663,
+          "n_reports": 436,
+          "ror": 7.367741467925197
+        },
+        {
+          "adverse_event": "Disturbance in social behaviour",
+          "log_ratio": 1.4197401428020298,
+          "n_reports": 390,
+          "ror": 4.136045519395134
+        },
+        {
+          "adverse_event": "Blood prolactin increased",
+          "log_ratio": 1.3573671595715742,
+          "n_reports": 99,
+          "ror": 3.885948738621147
+        },
+        {
+          "adverse_event": "Personality change",
+          "log_ratio": 1.1136169440379966,
+          "n_reports": 384,
+          "ror": 3.045353371060535
+        },
+        {
+          "adverse_event": "Adverse drug reaction",
+          "log_ratio": 1.0506302216718693,
+          "n_reports": 192,
+          "ror": 2.8594526393476594
+        },
+        {
+          "adverse_event": "Metabolic disorder",
+          "log_ratio": 0.7479036120398819,
+          "n_reports": 413,
+          "ror": 2.112566611958025
+        },
+        {
+          "adverse_event": "Sedation",
+          "log_ratio": 0.7033135582053132,
+          "n_reports": 536,
+          "ror": 2.020436461666617
+        },
+        {
+          "adverse_event": "Schizophrenia",
+          "log_ratio": 0.6982934049696654,
+          "n_reports": 389,
+          "ror": 2.01031897793385
+        },
+        {
+          "adverse_event": "Blood prolactin abnormal",
+          "log_ratio": 0.6340818290012287,
+          "n_reports": 402,
+          "ror": 1.8852903276266946
+        },
+        {
+          "adverse_event": "Suicide attempt",
+          "log_ratio": 0.6277113056900827,
+          "n_reports": 619,
+          "ror": 1.8733182164421833
+        }
+      ],
+      "top_10_male_biased": [
+        {
+          "adverse_event": "Sedation complication",
+          "log_ratio": -2.116124951599581,
+          "n_reports": 44,
+          "ror": 0.12049765924418278
+        },
+        {
+          "adverse_event": "Joint swelling",
+          "log_ratio": -1.8484381036472513,
+          "n_reports": 35,
+          "ror": 0.15748294636172433
+        },
+        {
+          "adverse_event": "Intentional product misuse",
+          "log_ratio": -1.6899492195579144,
+          "n_reports": 52,
+          "ror": 0.18452889421390103
+        },
+        {
+          "adverse_event": "Blepharospasm",
+          "log_ratio": -1.605518213977511,
+          "n_reports": 35,
+          "ror": 0.20078547810429845
+        },
+        {
+          "adverse_event": "Arrhythmia",
+          "log_ratio": -1.5854043857918674,
+          "n_reports": 53,
+          "ror": 0.20486493189626562
+        },
+        {
+          "adverse_event": "Oedema",
+          "log_ratio": -1.5238779466549912,
+          "n_reports": 31,
+          "ror": 0.21786537634414388
+        },
+        {
+          "adverse_event": "Night sweats",
+          "log_ratio": -1.4864010222112443,
+          "n_reports": 35,
+          "ror": 0.2261852280590632
+        },
+        {
+          "adverse_event": "Pain in jaw",
+          "log_ratio": -1.4805513395675156,
+          "n_reports": 38,
+          "ror": 0.2275122173109108
+        },
+        {
+          "adverse_event": "Dysstasia",
+          "log_ratio": -1.3872195488722838,
+          "n_reports": 39,
+          "ror": 0.24976881002545917
+        },
+        {
+          "adverse_event": "Skin discolouration",
+          "log_ratio": -1.2897032594580455,
+          "n_reports": 28,
+          "ror": 0.2753524792117869
+        }
+      ]
+    },
+    {
+      "antipsychotic": "CHLORPROMAZINE",
+      "generation": "first_generation",
+      "total_signals": 60,
+      "female_higher": 37,
+      "male_higher": 23,
+      "pct_female": 61.67,
+      "median_log_ratio": 0.6357,
+      "mean_log_ratio": 0.1771,
+      "strong_signals": 25,
+      "strong_female": 14,
+      "total_reports": 4892,
+      "metabolic_ae_signals": 0,
+      "eps_ae_signals": 3,
+      "top_10_female_biased": [
+        {
+          "adverse_event": "Drug abuse",
+          "log_ratio": 1.915006431635699,
+          "n_reports": 213,
+          "ror": 6.7869824482575405
+        },
+        {
+          "adverse_event": "Cardio-respiratory arrest",
+          "log_ratio": 1.6725894080066042,
+          "n_reports": 50,
+          "ror": 5.325940991521653
+        },
+        {
+          "adverse_event": "Respiratory failure",
+          "log_ratio": 1.39730578312985,
+          "n_reports": 39,
+          "ror": 4.044289083425254
+        },
+        {
+          "adverse_event": "Drug abuse",
+          "log_ratio": 1.3830938366342003,
+          "n_reports": 33,
+          "ror": 3.9872183669326033
+        },
+        {
+          "adverse_event": "Poisoning deliberate",
+          "log_ratio": 1.2900532880349949,
+          "n_reports": 63,
+          "ror": 3.63298014496787
+        },
+        {
+          "adverse_event": "Peritonitis",
+          "log_ratio": 1.2502980506771257,
+          "n_reports": 29,
+          "ror": 3.49138341159004
+        },
+        {
+          "adverse_event": "Cardiac arrest",
+          "log_ratio": 1.2367500624890067,
+          "n_reports": 60,
+          "ror": 3.444401166443272
+        },
+        {
+          "adverse_event": "Hypotension",
+          "log_ratio": 1.2005363027503886,
+          "n_reports": 98,
+          "ror": 3.3218979881262674
+        },
+        {
+          "adverse_event": "Death",
+          "log_ratio": 1.1438235719782432,
+          "n_reports": 69,
+          "ror": 3.138746674460309
+        },
+        {
+          "adverse_event": "Toxicity to various agents",
+          "log_ratio": 1.141816324660923,
+          "n_reports": 264,
+          "ror": 3.1324527524604826
+        }
+      ],
+      "top_10_male_biased": [
+        {
+          "adverse_event": "Diarrhoea",
+          "log_ratio": -1.911150314718295,
+          "n_reports": 85,
+          "ror": 0.14791014548147266
+        },
+        {
+          "adverse_event": "Neutropenia",
+          "log_ratio": -1.8805259758029775,
+          "n_reports": 146,
+          "ror": 0.15250986815684983
+        },
+        {
+          "adverse_event": "Leukopenia",
+          "log_ratio": -1.7606051444142514,
+          "n_reports": 85,
+          "ror": 0.17194078332974816
+        },
+        {
+          "adverse_event": "Extrapyramidal disorder",
+          "log_ratio": -1.4975265334733363,
+          "n_reports": 118,
+          "ror": 0.2236827482530064
+        },
+        {
+          "adverse_event": "Psychotic disorder",
+          "log_ratio": -1.3139681149474338,
+          "n_reports": 127,
+          "ror": 0.2687515008635141
+        },
+        {
+          "adverse_event": "Schizophrenia",
+          "log_ratio": -1.3106419600655537,
+          "n_reports": 112,
+          "ror": 0.2696468982698465
+        },
+        {
+          "adverse_event": "Treatment failure",
+          "log_ratio": -1.2865717471804485,
+          "n_reports": 82,
+          "ror": 0.27621610039552663
+        },
+        {
+          "adverse_event": "Nausea",
+          "log_ratio": -1.2307506696202009,
+          "n_reports": 101,
+          "ror": 0.29207324485612796
+        },
+        {
+          "adverse_event": "Headache",
+          "log_ratio": -1.2145917605201926,
+          "n_reports": 30,
+          "ror": 0.2968311677640666
+        },
+        {
+          "adverse_event": "Fatigue",
+          "log_ratio": -1.1419240428704196,
+          "n_reports": 132,
+          "ror": 0.31920426790364353
+        }
+      ]
+    },
+    {
+      "antipsychotic": "ASENAPINE",
+      "generation": "second_generation",
+      "total_signals": 47,
+      "female_higher": 20,
+      "male_higher": 27,
+      "pct_female": 42.55,
+      "median_log_ratio": -0.5732,
+      "mean_log_ratio": -0.1219,
+      "strong_signals": 18,
+      "strong_female": 11,
+      "total_reports": 8171,
+      "metabolic_ae_signals": 3,
+      "eps_ae_signals": 3,
+      "top_10_female_biased": [
+        {
+          "adverse_event": "Sexual dysfunction",
+          "log_ratio": 2.486205310796189,
+          "n_reports": 427,
+          "ror": 12.015594055602605
+        },
+        {
+          "adverse_event": "Disturbance in social behaviour",
+          "log_ratio": 1.9167994667619368,
+          "n_reports": 407,
+          "ror": 6.799162662701342
+        },
+        {
+          "adverse_event": "Personality change",
+          "log_ratio": 1.6231582449956132,
+          "n_reports": 387,
+          "ror": 5.0690744413734805
+        },
+        {
+          "adverse_event": "Schizophrenia",
+          "log_ratio": 1.3572465107059628,
+          "n_reports": 332,
+          "ror": 3.885479931595097
+        },
+        {
+          "adverse_event": "Adverse drug reaction",
+          "log_ratio": 1.249431169037718,
+          "n_reports": 149,
+          "ror": 3.488358106894404
+        },
+        {
+          "adverse_event": "Metabolic disorder",
+          "log_ratio": 1.174595794431653,
+          "n_reports": 414,
+          "ror": 3.236834332920683
+        },
+        {
+          "adverse_event": "Blood prolactin abnormal",
+          "log_ratio": 1.1293372216030084,
+          "n_reports": 411,
+          "ror": 3.0936054456443065
+        },
+        {
+          "adverse_event": "Anosognosia",
+          "log_ratio": 1.129248488354058,
+          "n_reports": 426,
+          "ror": 3.09333095216067
+        },
+        {
+          "adverse_event": "Blood glucose increased",
+          "log_ratio": 1.0814334440998925,
+          "n_reports": 437,
+          "ror": 2.9489036113479306
+        },
+        {
+          "adverse_event": "Completed suicide",
+          "log_ratio": 1.0786913327106855,
+          "n_reports": 144,
+          "ror": 2.9408284657038695
+        }
+      ],
+      "top_10_male_biased": [
+        {
+          "adverse_event": "Therapeutic product effect incomplete",
+          "log_ratio": -2.882156531602999,
+          "n_reports": 146,
+          "ror": 0.05601383688123971
+        },
+        {
+          "adverse_event": "Increased appetite",
+          "log_ratio": -2.491833989730311,
+          "n_reports": 163,
+          "ror": 0.08275804989732813
+        },
+        {
+          "adverse_event": "Prescribed overdose",
+          "log_ratio": -2.1170406050599415,
+          "n_reports": 79,
+          "ror": 0.12038737564401594
+        },
+        {
+          "adverse_event": "Product use in unapproved indication",
+          "log_ratio": -1.952436119600291,
+          "n_reports": 105,
+          "ror": 0.1419278967649454
+        },
+        {
+          "adverse_event": "Toxicity to various agents",
+          "log_ratio": -1.9212926992690618,
+          "n_reports": 227,
+          "ror": 0.14641756586014945
+        },
+        {
+          "adverse_event": "Irritability",
+          "log_ratio": -1.21486730613273,
+          "n_reports": 92,
+          "ror": 0.2967493885056002
+        },
+        {
+          "adverse_event": "Akathisia",
+          "log_ratio": -1.1380915964400096,
+          "n_reports": 283,
+          "ror": 0.32042994833784855
+        },
+        {
+          "adverse_event": "Gait disturbance",
+          "log_ratio": -0.958522566985827,
+          "n_reports": 45,
+          "ror": 0.38345900266250854
+        },
+        {
+          "adverse_event": "Pain",
+          "log_ratio": -0.9503810651204737,
+          "n_reports": 43,
+          "ror": 0.3865936780156931
+        },
+        {
+          "adverse_event": "Serotonin syndrome",
+          "log_ratio": -0.8675040061240367,
+          "n_reports": 40,
+          "ror": 0.419998555866371
+        }
+      ]
+    },
+    {
+      "antipsychotic": "BREXPIPRAZOLE",
+      "generation": "second_generation",
+      "total_signals": 43,
+      "female_higher": 14,
+      "male_higher": 29,
+      "pct_female": 32.56,
+      "median_log_ratio": -0.5722,
+      "mean_log_ratio": -0.1951,
+      "strong_signals": 6,
+      "strong_female": 3,
+      "total_reports": 3284,
+      "metabolic_ae_signals": 1,
+      "eps_ae_signals": 2,
+      "top_10_female_biased": [
+        {
+          "adverse_event": "Schizoaffective disorder",
+          "log_ratio": 1.7686828162407164,
+          "n_reports": 122,
+          "ror": 5.863125459332698
+        },
+        {
+          "adverse_event": "Drug interaction",
+          "log_ratio": 1.760113148226384,
+          "n_reports": 177,
+          "ror": 5.813095098593062
+        },
+        {
+          "adverse_event": "Electrocardiogram QT prolonged",
+          "log_ratio": 1.5866925424194585,
+          "n_reports": 149,
+          "ror": 4.887556778945026
+        },
+        {
+          "adverse_event": "Parkinson's disease",
+          "log_ratio": 0.9516585238163182,
+          "n_reports": 49,
+          "ror": 2.590001678592162
+        },
+        {
+          "adverse_event": "Hallucination",
+          "log_ratio": 0.7575062769403091,
+          "n_reports": 133,
+          "ror": 2.1329505948553638
+        },
+        {
+          "adverse_event": "Extrapyramidal disorder",
+          "log_ratio": 0.7497201546827887,
+          "n_reports": 155,
+          "ror": 2.1164076669584926
+        },
+        {
+          "adverse_event": "Weight decreased",
+          "log_ratio": 0.7452706742173639,
+          "n_reports": 115,
+          "ror": 2.107011671538249
+        },
+        {
+          "adverse_event": "Blood prolactin increased",
+          "log_ratio": 0.7340788303612511,
+          "n_reports": 52,
+          "ror": 2.083561794361272
+        },
+        {
+          "adverse_event": "Constipation",
+          "log_ratio": 0.729616296602752,
+          "n_reports": 67,
+          "ror": 2.074284544931151
+        },
+        {
+          "adverse_event": "Adverse drug reaction",
+          "log_ratio": 0.6259519182186819,
+          "n_reports": 109,
+          "ror": 1.8700252215186743
+        }
+      ],
+      "top_10_male_biased": [
+        {
+          "adverse_event": "Dissociation",
+          "log_ratio": -1.5976199031952572,
+          "n_reports": 33,
+          "ror": 0.20237762356382089
+        },
+        {
+          "adverse_event": "Feeling jittery",
+          "log_ratio": -1.3218987655550505,
+          "n_reports": 40,
+          "ror": 0.2666285559041713
+        },
+        {
+          "adverse_event": "Chest discomfort",
+          "log_ratio": -1.2308204496339097,
+          "n_reports": 31,
+          "ror": 0.29205286469217023
+        },
+        {
+          "adverse_event": "Orthostatic hypotension",
+          "log_ratio": -0.8809430448644394,
+          "n_reports": 33,
+          "ror": 0.4143919371690915
+        },
+        {
+          "adverse_event": "Hunger",
+          "log_ratio": -0.8379607306236427,
+          "n_reports": 58,
+          "ror": 0.43259179574938095
+        },
+        {
+          "adverse_event": "Feeling hot",
+          "log_ratio": -0.7794747693809704,
+          "n_reports": 30,
+          "ror": 0.4586468434189719
+        },
+        {
+          "adverse_event": "Tachycardia",
+          "log_ratio": -0.7621358853184903,
+          "n_reports": 44,
+          "ror": 0.46666861114397407
+        },
+        {
+          "adverse_event": "Product administered to patient of inappropriate age",
+          "log_ratio": -0.7313759440264009,
+          "n_reports": 35,
+          "ror": 0.48124636626520695
+        },
+        {
+          "adverse_event": "Dysstasia",
+          "log_ratio": -0.729021277247122,
+          "n_reports": 26,
+          "ror": 0.4823808762688218
+        },
+        {
+          "adverse_event": "Gambling",
+          "log_ratio": -0.7251115154075256,
+          "n_reports": 31,
+          "ror": 0.4842705623150232
+        }
+      ]
+    }
+  ],
+  "key_findings": [
+    "Antipsychotic overall: 63.9% female-biased (2,706 signals)",
+    "Comparison to baseline (53.8%F): chi2=108.22, p=2.41e-25",
+    "1st gen: 56.8% female-biased (266 signals)",
+    "2nd gen: 64.7% female-biased (2,440 signals)",
+    "1st vs 2nd gen: chi2=6.16, p=1.31e-02 (significant difference)",
+    "Most common antipsychotic: RISPERIDONE (518 signals)"
+  ],
+  "figures_generated": [
+    "wave_271_v2_antipsych_generation.png",
+    "wave_271_v2_antipsych_generation.pdf",
+    "wave_271_v2_antipsych_drugs.png",
+    "wave_271_v2_antipsych_drugs.pdf"
+  ]
+}
