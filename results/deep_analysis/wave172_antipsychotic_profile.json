@@ -1,0 +1,172 @@
+{
+  "wave": 172,
+  "title": "Antipsychotic Sex-Differential Profile",
+  "total_signals": 2654,
+  "per_drug": [
+    {
+      "drug": "PIMOZIDE",
+      "generation": "SGA",
+      "n_signals": 1,
+      "pct_female": 100.0
+    },
+    {
+      "drug": "RISPERIDONE",
+      "generation": "SGA",
+      "n_signals": 518,
+      "pct_female": 92.9
+    },
+    {
+      "drug": "FLUPHENAZINE",
+      "generation": "FGA",
+      "n_signals": 7,
+      "pct_female": 85.7
+    },
+    {
+      "drug": "PALIPERIDONE",
+      "generation": "SGA",
+      "n_signals": 161,
+      "pct_female": 85.7
+    },
+    {
+      "drug": "CLOZAPINE",
+      "generation": "SGA",
+      "n_signals": 287,
+      "pct_female": 68.6
+    },
+    {
+      "drug": "LOXAPINE",
+      "generation": "FGA",
+      "n_signals": 45,
+      "pct_female": 66.7
+    },
+    {
+      "drug": "QUETIAPINE",
+      "generation": "SGA",
+      "n_signals": 426,
+      "pct_female": 63.4
+    },
+    {
+      "drug": "CHLORPROMAZINE",
+      "generation": "FGA",
+      "n_signals": 57,
+      "pct_female": 61.4
+    },
+    {
+      "drug": "OLANZAPINE",
+      "generation": "SGA",
+      "n_signals": 336,
+      "pct_female": 58.9
+    },
+    {
+      "drug": "HALOPERIDOL",
+      "generation": "FGA",
+      "n_signals": 158,
+      "pct_female": 56.3
+    },
+    {
+      "drug": "PERPHENAZINE",
+      "generation": "FGA",
+      "n_signals": 15,
+      "pct_female": 53.3
+    },
+    {
+      "drug": "ARIPIPRAZOLE",
+      "generation": "SGA",
+      "n_signals": 342,
+      "pct_female": 47.4
+    },
+    {
+      "drug": "ZIPRASIDONE",
+      "generation": "SGA",
+      "n_signals": 87,
+      "pct_female": 44.8
+    },
+    {
+      "drug": "ASENAPINE",
+      "generation": "SGA",
+      "n_signals": 47,
+      "pct_female": 42.6
+    },
+    {
+      "drug": "ILOPERIDONE",
+      "generation": "SGA",
+      "n_signals": 3,
+      "pct_female": 33.3
+    },
+    {
+      "drug": "BREXPIPRAZOLE",
+      "generation": "SGA",
+      "n_signals": 43,
+      "pct_female": 32.6
+    },
+    {
+      "drug": "LURASIDONE",
+      "generation": "SGA",
+      "n_signals": 81,
+      "pct_female": 23.5
+    },
+    {
+      "drug": "CARIPRAZINE",
+      "generation": "SGA",
+      "n_signals": 39,
+      "pct_female": 2.6
+    },
+    {
+      "drug": "THIORIDAZINE",
+      "generation": "FGA",
+      "n_signals": 1,
+      "pct_female": 0.0
+    }
+  ],
+  "per_generation": [
+    {
+      "generation": "SGA",
+      "n_drugs": 13,
+      "n_signals": 2371,
+      "pct_female": 65.0
+    },
+    {
+      "generation": "FGA",
+      "n_drugs": 6,
+      "n_signals": 283,
+      "pct_female": 59.4
+    }
+  ],
+  "ae_categories": [
+    {
+      "category": "Hormonal",
+      "n": 40,
+      "pct_female": 90.0
+    },
+    {
+      "category": "Extrapyramidal",
+      "n": 33,
+      "pct_female": 84.8
+    },
+    {
+      "category": "Cardiac",
+      "n": 43,
+      "pct_female": 74.4
+    },
+    {
+      "category": "Psychiatric",
+      "n": 56,
+      "pct_female": 73.2
+    },
+    {
+      "category": "Other",
+      "n": 2392,
+      "pct_female": 63.5
+    },
+    {
+      "category": "Metabolic",
+      "n": 74,
+      "pct_female": 62.2
+    },
+    {
+      "category": "Sedation",
+      "n": 16,
+      "pct_female": 50.0
+    }
+  ]
+}
