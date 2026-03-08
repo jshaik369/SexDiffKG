@@ -1,0 +1,53 @@
+{
+  "wave": 161,
+  "title": "KG Centrality vs Sex-Differential Bias",
+  "drugs_matched": 2178,
+  "mean_degree": 247.2,
+  "max_degree": 8203,
+  "correlations": {
+    "degree_vs_pct_female": {
+      "rho": 0.0905,
+      "p": 2.3604875603557846e-05
+    },
+    "degree_vs_logr": {
+      "rho": 0.2317,
+      "p": 6.227732399351767e-28
+    },
+    "degree_vs_signals": {
+      "rho": 0.9365,
+      "p": 0.0
+    }
+  },
+  "degree_quintiles": [
+    {
+      "quintile": "Q1_low",
+      "n_drugs": 438,
+      "mean_degree": 17.0,
+      "mean_pct_female": 47.8
+    },
+    {
+      "quintile": "Q2",
+      "n_drugs": 437,
+      "mean_degree": 59.0,
+      "mean_pct_female": 41.9
+    },
+    {
+      "quintile": "Q3",
+      "n_drugs": 432,
+      "mean_degree": 146.0,
+      "mean_pct_female": 41.0
+    },
+    {
+      "quintile": "Q4",
+      "n_drugs": 435,
+      "mean_degree": 371.0,
+      "mean_pct_female": 48.3
+    },
+    {
+      "quintile": "Q5_high",
+      "n_drugs": 436,
+      "mean_degree": 1561.0,
+      "mean_pct_female": 51.8
+    }
+  ]
+}
