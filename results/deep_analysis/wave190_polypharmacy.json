@@ -1,0 +1,189 @@
+{
+  "wave": 190,
+  "title": "Polypharmacy and Sex Bias \u2014 Shared AE Analysis",
+  "top_shared_aes": [
+    {
+      "ae": "Cough",
+      "n_drugs": 220,
+      "mean_pct_f": 51.4,
+      "std_pct_f": 50.1
+    },
+    {
+      "ae": "Product use in unapproved indication",
+      "n_drugs": 304,
+      "mean_pct_f": 50.7,
+      "std_pct_f": 50.1
+    },
+    {
+      "ae": "Headache",
+      "n_drugs": 327,
+      "mean_pct_f": 50.2,
+      "std_pct_f": 50.1
+    },
+    {
+      "ae": "Vomiting",
+      "n_drugs": 362,
+      "mean_pct_f": 48.9,
+      "std_pct_f": 50.1
+    },
+    {
+      "ae": "Off label use",
+      "n_drugs": 445,
+      "mean_pct_f": 50.8,
+      "std_pct_f": 50.1
+    },
+    {
+      "ae": "Dyspnoea",
+      "n_drugs": 349,
+      "mean_pct_f": 51.9,
+      "std_pct_f": 50.0
+    },
+    {
+      "ae": "Asthma",
+      "n_drugs": 217,
+      "mean_pct_f": 47.0,
+      "std_pct_f": 50.0
+    },
+    {
+      "ae": "Hypersensitivity",
+      "n_drugs": 281,
+      "mean_pct_f": 47.3,
+      "std_pct_f": 50.0
+    },
+    {
+      "ae": "Insomnia",
+      "n_drugs": 224,
+      "mean_pct_f": 46.9,
+      "std_pct_f": 50.0
+    },
+    {
+      "ae": "Urticaria",
+      "n_drugs": 219,
+      "mean_pct_f": 53.4,
+      "std_pct_f": 50.0
+    },
+    {
+      "ae": "Abdominal pain",
+      "n_drugs": 261,
+      "mean_pct_f": 46.4,
+      "std_pct_f": 50.0
+    },
+    {
+      "ae": "Therapeutic product effect incomplete",
+      "n_drugs": 238,
+      "mean_pct_f": 46.2,
+      "std_pct_f": 50.0
+    },
+    {
+      "ae": "Treatment failure",
+      "n_drugs": 233,
+      "mean_pct_f": 45.9,
+      "std_pct_f": 49.9
+    },
+    {
+      "ae": "Drug hypersensitivity",
+      "n_drugs": 299,
+      "mean_pct_f": 46.2,
+      "std_pct_f": 49.9
+    },
+    {
+      "ae": "Malaise",
+      "n_drugs": 275,
+      "mean_pct_f": 54.9,
+      "std_pct_f": 49.8
+    },
+    {
+      "ae": "Drug intolerance",
+      "n_drugs": 279,
+      "mean_pct_f": 44.8,
+      "std_pct_f": 49.8
+    },
+    {
+      "ae": "Dizziness",
+      "n_drugs": 289,
+      "mean_pct_f": 55.4,
+      "std_pct_f": 49.8
+    },
+    {
+      "ae": "Product use issue",
+      "n_drugs": 256,
+      "mean_pct_f": 55.9,
+      "std_pct_f": 49.8
+    },
+    {
+      "ae": "Constipation",
+      "n_drugs": 246,
+      "mean_pct_f": 56.1,
+      "std_pct_f": 49.7
+    },
+    {
+      "ae": "Arthralgia",
+      "n_drugs": 238,
+      "mean_pct_f": 57.6,
+      "std_pct_f": 49.5
+    }
+  ],
+  "mean_concordance": 62.6,
+  "top_drug_pairs": [
+    {
+      "drug1": "ADALIMUMAB",
+      "drug2": "ETANERCEPT",
+      "shared_aes": 266,
+      "delta_pct_f": 4.4
+    },
+    {
+      "drug1": "ETANERCEPT",
+      "drug2": "INFLIXIMAB",
+      "shared_aes": 246,
+      "delta_pct_f": 7.8
+    },
+    {
+      "drug1": "ADALIMUMAB",
+      "drug2": "INFLIXIMAB",
+      "shared_aes": 232,
+      "delta_pct_f": 12.2
+    },
+    {
+      "drug1": "ABATACEPT",
+      "drug2": "LEFLUNOMIDE",
+      "shared_aes": 197,
+      "delta_pct_f": 3.2
+    },
+    {
+      "drug1": "HYDROXYCHLOROQUINE",
+      "drug2": "LEFLUNOMIDE",
+      "shared_aes": 192,
+      "delta_pct_f": 10.0
+    },
+    {
+      "drug1": "HYDROXYCHLOROQUINE",
+      "drug2": "INFLIXIMAB",
+      "shared_aes": 190,
+      "delta_pct_f": 1.5
+    },
+    {
+      "drug1": "ABATACEPT",
+      "drug2": "HYDROXYCHLOROQUINE",
+      "shared_aes": 189,
+      "delta_pct_f": 6.8
+    },
+    {
+      "drug1": "INFLIXIMAB",
+      "drug2": "LEFLUNOMIDE",
+      "shared_aes": 187,
+      "delta_pct_f": 8.5
+    },
+    {
+      "drug1": "GOLIMUMAB",
+      "drug2": "INFLIXIMAB",
+      "shared_aes": 185,
+      "delta_pct_f": 5.3
+    },
+    {
+      "drug1": "ABATACEPT",
+      "drug2": "INFLIXIMAB",
+      "shared_aes": 184,
+      "delta_pct_f": 5.3
+    }
+  ]
+}

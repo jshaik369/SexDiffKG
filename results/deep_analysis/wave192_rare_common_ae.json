@@ -1,0 +1,98 @@
+{
+  "wave": 192,
+  "title": "Rare vs Common AE Sex Differential",
+  "total_aes": 5069,
+  "rarity_profile": [
+    {
+      "rarity": "Unique (1 drug)",
+      "n_aes": 1418,
+      "n_signals": 1418,
+      "pct_female": 45.1,
+      "mean_abs_logr": 0.9484
+    },
+    {
+      "rarity": "Rare (2-5 drugs)",
+      "n_aes": 1478,
+      "n_signals": 4456,
+      "pct_female": 47.5,
+      "mean_abs_logr": 0.9138
+    },
+    {
+      "rarity": "Uncommon (6-20)",
+      "n_aes": 1127,
+      "n_signals": 12509,
+      "pct_female": 50.1,
+      "mean_abs_logr": 0.9606
+    },
+    {
+      "rarity": "Common (21-100)",
+      "n_aes": 805,
+      "n_signals": 36877,
+      "pct_female": 52.2,
+      "mean_abs_logr": 0.9682
+    },
+    {
+      "rarity": "Very common (100+)",
+      "n_aes": 241,
+      "n_signals": 41021,
+      "pct_female": 57.3,
+      "mean_abs_logr": 1.0208
+    }
+  ],
+  "ae_freq_vs_pctf": {
+    "rho": 0.08,
+    "p": 1.3898350327045955e-08
+  },
+  "common_biased_aes": [
+    {
+      "ae": "Osteonecrosis",
+      "pct_female": 96.5,
+      "n_drugs": 57
+    },
+    {
+      "ae": "Tooth loss",
+      "pct_female": 94.3,
+      "n_drugs": 53
+    },
+    {
+      "ae": "Blood creatine phosphokinase increased",
+      "pct_female": 94.3,
+      "n_drugs": 105
+    },
+    {
+      "ae": "Subdural haematoma",
+      "pct_female": 94.2,
+      "n_drugs": 52
+    },
+    {
+      "ae": "Adverse drug reaction",
+      "pct_female": 93.7,
+      "n_drugs": 206
+    },
+    {
+      "ae": "Haematuria",
+      "pct_female": 93.3,
+      "n_drugs": 134
+    },
+    {
+      "ae": "Pathogen resistance",
+      "pct_female": 93.0,
+      "n_drugs": 57
+    },
+    {
+      "ae": "Neurotoxicity",
+      "pct_female": 90.6,
+      "n_drugs": 64
+    },
+    {
+      "ae": "Angioedema",
+      "pct_female": 89.3,
+      "n_drugs": 121
+    },
+    {
+      "ae": "Hyperkalaemia",
+      "pct_female": 89.0,
+      "n_drugs": 154
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "wave": 191,
+  "title": "Signal Strength and Confidence Analysis",
+  "female_signals": 51771,
+  "male_signals": 44510,
+  "female_mean_abs_logr": 1.0072,
+  "male_mean_abs_logr": 0.9631,
+  "mannwhitney_p": 2.802259731947894e-41,
+  "effect_vs_pctf": {
+    "rho": -0.018,
+    "p": 0.6109222879906684
+  },
+  "confidence_tiers": [
+    {
+      "tier": "Very low (<20)",
+      "n_signals": 46882,
+      "pct_female": 51.4
+    },
+    {
+      "tier": "Low (20-49)",
+      "n_signals": 30628,
+      "pct_female": 53.8
+    },
+    {
+      "tier": "Medium (50-99)",
+      "n_signals": 10284,
+      "pct_female": 57.5
+    },
+    {
+      "tier": "High (100+)",
+      "n_signals": 8487,
+      "pct_female": 62.2
+    }
+  ],
+  "top1pct_pct_female": 58.6
+}
