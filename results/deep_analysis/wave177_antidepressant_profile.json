@@ -1,0 +1,235 @@
+{
+  "wave": 177,
+  "title": "Antidepressant Sex-Differential Profile",
+  "total_signals": 2663,
+  "per_drug": [
+    {
+      "drug": "TRAZODONE",
+      "class": "Atypical",
+      "n_signals": 151,
+      "pct_female": 65.6
+    },
+    {
+      "drug": "MIRTAZAPINE",
+      "class": "Atypical",
+      "n_signals": 193,
+      "pct_female": 57.0
+    },
+    {
+      "drug": "CITALOPRAM",
+      "class": "SSRI",
+      "n_signals": 237,
+      "pct_female": 56.5
+    },
+    {
+      "drug": "BUPROPION",
+      "class": "Atypical",
+      "n_signals": 174,
+      "pct_female": 54.0
+    },
+    {
+      "drug": "AMITRIPTYLINE",
+      "class": "TCA",
+      "n_signals": 189,
+      "pct_female": 54.0
+    },
+    {
+      "drug": "LEVOMILNACIPRAN",
+      "class": "SNRI",
+      "n_signals": 4,
+      "pct_female": 50.0
+    },
+    {
+      "drug": "NORTRIPTYLINE",
+      "class": "TCA",
+      "n_signals": 64,
+      "pct_female": 48.4
+    },
+    {
+      "drug": "PAROXETINE",
+      "class": "SSRI",
+      "n_signals": 186,
+      "pct_female": 48.4
+    },
+    {
+      "drug": "DULOXETINE",
+      "class": "SNRI",
+      "n_signals": 189,
+      "pct_female": 45.0
+    },
+    {
+      "drug": "SERTRALINE",
+      "class": "SSRI",
+      "n_signals": 302,
+      "pct_female": 42.1
+    },
+    {
+      "drug": "CLOMIPRAMINE",
+      "class": "TCA",
+      "n_signals": 43,
+      "pct_female": 41.9
+    },
+    {
+      "drug": "VENLAFAXINE",
+      "class": "SNRI",
+      "n_signals": 287,
+      "pct_female": 40.8
+    },
+    {
+      "drug": "FLUOXETINE",
+      "class": "SSRI",
+      "n_signals": 204,
+      "pct_female": 36.3
+    },
+    {
+      "drug": "VILAZODONE",
+      "class": "Atypical",
+      "n_signals": 17,
+      "pct_female": 35.3
+    },
+    {
+      "drug": "FLUVOXAMINE",
+      "class": "SSRI",
+      "n_signals": 30,
+      "pct_female": 33.3
+    },
+    {
+      "drug": "VORTIOXETINE",
+      "class": "Atypical",
+      "n_signals": 61,
+      "pct_female": 31.1
+    },
+    {
+      "drug": "DOXEPIN",
+      "class": "TCA",
+      "n_signals": 37,
+      "pct_female": 29.7
+    },
+    {
+      "drug": "ESCITALOPRAM",
+      "class": "SSRI",
+      "n_signals": 217,
+      "pct_female": 28.1
+    },
+    {
+      "drug": "MILNACIPRAN",
+      "class": "SNRI",
+      "n_signals": 11,
+      "pct_female": 27.3
+    },
+    {
+      "drug": "IMIPRAMINE",
+      "class": "TCA",
+      "n_signals": 7,
+      "pct_female": 14.3
+    },
+    {
+      "drug": "SELEGILINE",
+      "class": "MAOI",
+      "n_signals": 8,
+      "pct_female": 12.5
+    },
+    {
+      "drug": "DESVENLAFAXINE",
+      "class": "SNRI",
+      "n_signals": 46,
+      "pct_female": 10.9
+    },
+    {
+      "drug": "PHENELZINE",
+      "class": "MAOI",
+      "n_signals": 4,
+      "pct_female": 0.0
+    },
+    {
+      "drug": "TRANYLCYPROMINE",
+      "class": "MAOI",
+      "n_signals": 2,
+      "pct_female": 0.0
+    }
+  ],
+  "per_class": [
+    {
+      "class": "Atypical",
+      "n_drugs": 5,
+      "n_signals": 596,
+      "pct_female": 55.0
+    },
+    {
+      "class": "TCA",
+      "n_drugs": 5,
+      "n_signals": 340,
+      "pct_female": 47.9
+    },
+    {
+      "class": "SSRI",
+      "n_drugs": 6,
+      "n_signals": 1176,
+      "pct_female": 42.2
+    },
+    {
+      "class": "SNRI",
+      "n_drugs": 5,
+      "n_signals": 537,
+      "pct_female": 39.5
+    },
+    {
+      "class": "MAOI",
+      "n_drugs": 3,
+      "n_signals": 14,
+      "pct_female": 7.1
+    }
+  ],
+  "ae_categories": [
+    {
+      "category": "GI",
+      "n": 22,
+      "pct_female": 77.3
+    },
+    {
+      "category": "Sexual dysfunction",
+      "n": 19,
+      "pct_female": 68.4
+    },
+    {
+      "category": "Weight/Metabolic",
+      "n": 47,
+      "pct_female": 57.4
+    },
+    {
+      "category": "Cardiac",
+      "n": 32,
+      "pct_female": 53.1
+    },
+    {
+      "category": "Sedation",
+      "n": 20,
+      "pct_female": 50.0
+    },
+    {
+      "category": "Other",
+      "n": 2447,
+      "pct_female": 44.4
+    },
+    {
+      "category": "Withdrawal",
+      "n": 21,
+      "pct_female": 42.9
+    },
+    {
+      "category": "CNS",
+      "n": 33,
+      "pct_female": 39.4
+    },
+    {
+      "category": "Serotonergic",
+      "n": 8,
+      "pct_female": 37.5
+    },
+    {
+      "category": "Suicidality",
+      "n": 14,
+      "pct_female": 35.7
+    }
+  ]
+}
