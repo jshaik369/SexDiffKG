@@ -1,0 +1,95 @@
+{
+  "wave": 201,
+  "title": "FDA Black Box Warning Drugs Sex Differential",
+  "bbw_n_drugs": 57,
+  "bbw_pct_f": 59.4,
+  "non_bbw_pct_f": 52.6,
+  "chi2": 253.0,
+  "p": 5.622412886117891e-57,
+  "per_class": [
+    {
+      "class": "Endo",
+      "n_drugs": 2,
+      "n_signals": 108,
+      "pct_female": 91.7
+    },
+    {
+      "class": "Opioid",
+      "n_drugs": 6,
+      "n_signals": 2002,
+      "pct_female": 79.5
+    },
+    {
+      "class": "Antiinfect",
+      "n_drugs": 2,
+      "n_signals": 209,
+      "pct_female": 78.5
+    },
+    {
+      "class": "Anticoag",
+      "n_drugs": 4,
+      "n_signals": 783,
+      "pct_female": 66.9
+    },
+    {
+      "class": "CV",
+      "n_drugs": 2,
+      "n_signals": 51,
+      "pct_female": 66.7
+    },
+    {
+      "class": "Onc",
+      "n_drugs": 7,
+      "n_signals": 2524,
+      "pct_female": 62.3
+    },
+    {
+      "class": "Other",
+      "n_drugs": 2,
+      "n_signals": 354,
+      "pct_female": 62.1
+    },
+    {
+      "class": "NSAID",
+      "n_drugs": 3,
+      "n_signals": 977,
+      "pct_female": 58.6
+    },
+    {
+      "class": "Psych",
+      "n_drugs": 12,
+      "n_signals": 3409,
+      "pct_female": 58.2
+    },
+    {
+      "class": "Sedative",
+      "n_drugs": 2,
+      "n_signals": 154,
+      "pct_female": 57.1
+    },
+    {
+      "class": "Immuno",
+      "n_drugs": 8,
+      "n_signals": 4019,
+      "pct_female": 53.4
+    },
+    {
+      "class": "FQ",
+      "n_drugs": 3,
+      "n_signals": 771,
+      "pct_female": 47.0
+    },
+    {
+      "class": "AED",
+      "n_drugs": 3,
+      "n_signals": 838,
+      "pct_female": 44.9
+    },
+    {
+      "class": "Derm",
+      "n_drugs": 1,
+      "n_signals": 217,
+      "pct_female": 9.2
+    }
+  ]
+}
