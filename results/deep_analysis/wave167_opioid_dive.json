@@ -1,0 +1,157 @@
+{
+  "wave": 167,
+  "title": "Opioid Sex-Differential Deep Dive",
+  "opioid_signals": 3460,
+  "opioid_pct_f": 74.3,
+  "non_opioid_pct_f": 53.0,
+  "excess_pp": 21.3,
+  "per_drug": [
+    {
+      "drug": "NALOXONE",
+      "n_signals": 21,
+      "pct_female": 90.5
+    },
+    {
+      "drug": "OXYCODONE",
+      "n_signals": 492,
+      "pct_female": 85.0
+    },
+    {
+      "drug": "CODEINE;PARACETAMOL",
+      "n_signals": 141,
+      "pct_female": 83.7
+    },
+    {
+      "drug": "MORPHINE",
+      "n_signals": 441,
+      "pct_female": 83.4
+    },
+    {
+      "drug": "OXYCODONE;PARACETAMOL",
+      "n_signals": 265,
+      "pct_female": 80.8
+    },
+    {
+      "drug": "HYDROMORPHONE",
+      "n_signals": 311,
+      "pct_female": 76.5
+    },
+    {
+      "drug": "CODEINE",
+      "n_signals": 190,
+      "pct_female": 75.8
+    },
+    {
+      "drug": "HYDROCODONE;PARACETAMOL",
+      "n_signals": 197,
+      "pct_female": 75.6
+    },
+    {
+      "drug": "TRAMADOL",
+      "n_signals": 360,
+      "pct_female": 75.3
+    },
+    {
+      "drug": "FENTANYL",
+      "n_signals": 291,
+      "pct_female": 74.6
+    },
+    {
+      "drug": "METHADONE",
+      "n_signals": 107,
+      "pct_female": 73.8
+    },
+    {
+      "drug": "HYDROCODONE",
+      "n_signals": 76,
+      "pct_female": 68.4
+    },
+    {
+      "drug": "OXYMORPHONE",
+      "n_signals": 50,
+      "pct_female": 68.0
+    },
+    {
+      "drug": "BUPRENORPHINE",
+      "n_signals": 261,
+      "pct_female": 54.0
+    },
+    {
+      "drug": "NALTREXONE",
+      "n_signals": 95,
+      "pct_female": 49.5
+    },
+    {
+      "drug": "SUFENTANIL",
+      "n_signals": 33,
+      "pct_female": 48.5
+    },
+    {
+      "drug": "TAPENTADOL",
+      "n_signals": 39,
+      "pct_female": 43.6
+    },
+    {
+      "drug": "BUPRENORPHINE;NALOXONE",
+      "n_signals": 90,
+      "pct_female": 31.1
+    }
+  ],
+  "ae_categories": [
+    {
+      "category": "Urinary",
+      "n": 7,
+      "pct_female": 100.0
+    },
+    {
+      "category": "Pruritus",
+      "n": 18,
+      "pct_female": 94.4
+    },
+    {
+      "category": "Cardiovascular",
+      "n": 55,
+      "pct_female": 90.9
+    },
+    {
+      "category": "GI",
+      "n": 33,
+      "pct_female": 87.9
+    },
+    {
+      "category": "Withdrawal",
+      "n": 63,
+      "pct_female": 87.3
+    },
+    {
+      "category": "Tolerance",
+      "n": 16,
+      "pct_female": 81.2
+    },
+    {
+      "category": "Respiratory depression",
+      "n": 41,
+      "pct_female": 80.5
+    },
+    {
+      "category": "Psychiatric",
+      "n": 44,
+      "pct_female": 77.3
+    },
+    {
+      "category": "Other",
+      "n": 3050,
+      "pct_female": 73.6
+    },
+    {
+      "category": "Pain",
+      "n": 109,
+      "pct_female": 67.0
+    },
+    {
+      "category": "Sedation/CNS",
+      "n": 24,
+      "pct_female": 58.3
+    }
+  ]
+}
