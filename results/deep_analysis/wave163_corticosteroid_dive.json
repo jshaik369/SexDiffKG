@@ -1,0 +1,165 @@
+{
+  "wave": 163,
+  "title": "Corticosteroid Sex-Differential Deep Dive",
+  "steroid_signals": 3928,
+  "overall_steroid_pct_f": 65.5,
+  "overall_nonsteroid_pct_f": 53.3,
+  "difference_pp": 12.2,
+  "steroids": [
+    {
+      "drug": "DEFLAZACORT",
+      "n_signals": 8,
+      "pct_female": 87.5,
+      "mean_logr": 0.984
+    },
+    {
+      "drug": "PREDNISOLONE",
+      "n_signals": 542,
+      "pct_female": 82.5,
+      "mean_logr": 0.607
+    },
+    {
+      "drug": "DEXAMETHASONE",
+      "n_signals": 537,
+      "pct_female": 80.3,
+      "mean_logr": 0.545
+    },
+    {
+      "drug": "METHYLPREDNISOLONE",
+      "n_signals": 521,
+      "pct_female": 77.2,
+      "mean_logr": 0.781
+    },
+    {
+      "drug": "PREDNISONE",
+      "n_signals": 926,
+      "pct_female": 70.2,
+      "mean_logr": 0.556
+    },
+    {
+      "drug": "TRIAMCINOLONE",
+      "n_signals": 170,
+      "pct_female": 60.0,
+      "mean_logr": 0.701
+    },
+    {
+      "drug": "HYDROCORTISONE",
+      "n_signals": 302,
+      "pct_female": 50.7,
+      "mean_logr": 0.279
+    },
+    {
+      "drug": "MOMETASONE",
+      "n_signals": 119,
+      "pct_female": 47.1,
+      "mean_logr": -0.042
+    },
+    {
+      "drug": "CORTISONE",
+      "n_signals": 188,
+      "pct_female": 45.7,
+      "mean_logr": -0.234
+    },
+    {
+      "drug": "BUDESONIDE",
+      "n_signals": 259,
+      "pct_female": 45.2,
+      "mean_logr": -0.138
+    },
+    {
+      "drug": "BETAMETHASONE",
+      "n_signals": 130,
+      "pct_female": 35.4,
+      "mean_logr": -0.425
+    },
+    {
+      "drug": "FLUTICASONE",
+      "n_signals": 221,
+      "pct_female": 33.5,
+      "mean_logr": -0.378
+    },
+    {
+      "drug": "FLUDROCORTISONE",
+      "n_signals": 5,
+      "pct_female": 20.0,
+      "mean_logr": -0.77
+    }
+  ],
+  "top_female_steroid_aes": [
+    {
+      "ae": "Liver injury",
+      "n_drugs": 4,
+      "pct_female": 100.0
+    },
+    {
+      "ae": "Liver function test increased",
+      "n_drugs": 7,
+      "pct_female": 100.0
+    },
+    {
+      "ae": "Listeriosis",
+      "n_drugs": 3,
+      "pct_female": 100.0
+    },
+    {
+      "ae": "Lipase increased",
+      "n_drugs": 3,
+      "pct_female": 100.0
+    },
+    {
+      "ae": "Lower respiratory tract infection",
+      "n_drugs": 7,
+      "pct_female": 100.0
+    },
+    {
+      "ae": "Maternal exposure during pregnancy",
+      "n_drugs": 5,
+      "pct_female": 100.0
+    },
+    {
+      "ae": "Malaise",
+      "n_drugs": 7,
+      "pct_female": 100.0
+    },
+    {
+      "ae": "Lupus nephritis",
+      "n_drugs": 3,
+      "pct_female": 100.0
+    },
+    {
+      "ae": "Insomnia",
+      "n_drugs": 7,
+      "pct_female": 100.0
+    },
+    {
+      "ae": "Injury",
+      "n_drugs": 4,
+      "pct_female": 100.0
+    },
+    {
+      "ae": "Laboratory test abnormal",
+      "n_drugs": 3,
+      "pct_female": 100.0
+    },
+    {
+      "ae": "Kaposi's sarcoma",
+      "n_drugs": 3,
+      "pct_female": 100.0
+    },
+    {
+      "ae": "Joint swelling",
+      "n_drugs": 8,
+      "pct_female": 100.0
+    },
+    {
+      "ae": "Joint stiffness",
+      "n_drugs": 4,
+      "pct_female": 100.0
+    },
+    {
+      "ae": "Joint range of motion decreased",
+      "n_drugs": 3,
+      "pct_female": 100.0
+    }
+  ]
+}
