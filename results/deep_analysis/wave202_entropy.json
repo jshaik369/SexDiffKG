@@ -1,0 +1,80 @@
+{
+  "wave": 202,
+  "title": "Signal Entropy \u2014 Drug Information Content",
+  "drugs_analyzed": 1090,
+  "mean_entropy": 0.7977,
+  "entropy_vs_pctf": {
+    "rho": 0.078,
+    "p": 0.009705553716202362
+  },
+  "dist50_vs_entropy": {
+    "rho": -1.0,
+    "p": 0.0
+  },
+  "entropy_vs_effect": {
+    "rho": 0.045,
+    "p": 0.13532905350507538
+  },
+  "most_consistent": [
+    {
+      "drug": "ALFUZOSIN",
+      "entropy": -0.0,
+      "pct_female": 100.0,
+      "n_signals": 10
+    },
+    {
+      "drug": "AZELASTINE",
+      "entropy": -0.0,
+      "pct_female": 0.0,
+      "n_signals": 11
+    },
+    {
+      "drug": "AZELASTINE;FLUTICASONE",
+      "entropy": -0.0,
+      "pct_female": 0.0,
+      "n_signals": 12
+    },
+    {
+      "drug": "BRIMONIDINE;TIMOLOL",
+      "entropy": -0.0,
+      "pct_female": 0.0,
+      "n_signals": 20
+    },
+    {
+      "drug": "BUPROPION;NALTREXONE",
+      "entropy": -0.0,
+      "pct_female": 0.0,
+      "n_signals": 23
+    },
+    {
+      "drug": "CASIRIVIMAB;IMDEVIMAB",
+      "entropy": -0.0,
+      "pct_female": 0.0,
+      "n_signals": 15
+    },
+    {
+      "drug": "CENEGERMIN",
+      "entropy": -0.0,
+      "pct_female": 0.0,
+      "n_signals": 20
+    },
+    {
+      "drug": "CHORIONIC GONADOTROPHIN",
+      "entropy": -0.0,
+      "pct_female": 0.0,
+      "n_signals": 14
+    },
+    {
+      "drug": "CITRIC ACID;MAGNESIUM;SODIUM PICOSULFATE",
+      "entropy": -0.0,
+      "pct_female": 0.0,
+      "n_signals": 10
+    },
+    {
+      "drug": "CLIOQUINOL",
+      "entropy": -0.0,
+      "pct_female": 0.0,
+      "n_signals": 10
+    }
+  ]
+}
