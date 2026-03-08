@@ -1,0 +1,150 @@
+{
+  "wave": 188,
+  "title": "Suffix-Based Drug Class Sex-Differential Analysis",
+  "total_classified": 377,
+  "pct_classified": 17.3,
+  "per_class": [
+    {
+      "class": "ACE inhibitor",
+      "n_drugs": 17,
+      "n_signals": 927,
+      "pct_female": 72.1,
+      "mean_abs_logr": 1.053
+    },
+    {
+      "class": "Benzodiazepine",
+      "n_drugs": 22,
+      "n_signals": 1502,
+      "pct_female": 65.0,
+      "mean_abs_logr": 0.941
+    },
+    {
+      "class": "Kinase inhibitor",
+      "n_drugs": 72,
+      "n_signals": 3048,
+      "pct_female": 59.9,
+      "mean_abs_logr": 0.784
+    },
+    {
+      "class": "SGLT2i",
+      "n_drugs": 4,
+      "n_signals": 320,
+      "pct_female": 59.7,
+      "mean_abs_logr": 0.793
+    },
+    {
+      "class": "DPP-4i",
+      "n_drugs": 11,
+      "n_signals": 348,
+      "pct_female": 57.8,
+      "mean_abs_logr": 0.826
+    },
+    {
+      "class": "Alpha-blocker",
+      "n_drugs": 4,
+      "n_signals": 76,
+      "pct_female": 56.6,
+      "mean_abs_logr": 1.083
+    },
+    {
+      "class": "PPI",
+      "n_drugs": 10,
+      "n_signals": 1899,
+      "pct_female": 54.7,
+      "mean_abs_logr": 0.984
+    },
+    {
+      "class": "ARB",
+      "n_drugs": 16,
+      "n_signals": 1142,
+      "pct_female": 52.6,
+      "mean_abs_logr": 0.93
+    },
+    {
+      "class": "Aminoglycoside/Macrolide",
+      "n_drugs": 25,
+      "n_signals": 1026,
+      "pct_female": 51.2,
+      "mean_abs_logr": 0.915
+    },
+    {
+      "class": "Beta-blocker",
+      "n_drugs": 17,
+      "n_signals": 935,
+      "pct_female": 50.7,
+      "mean_abs_logr": 0.93
+    },
+    {
+      "class": "mAb",
+      "n_drugs": 112,
+      "n_signals": 9476,
+      "pct_female": 49.7,
+      "mean_abs_logr": 0.985
+    },
+    {
+      "class": "Statin",
+      "n_drugs": 10,
+      "n_signals": 1119,
+      "pct_female": 48.3,
+      "mean_abs_logr": 0.942
+    },
+    {
+      "class": "Fluoroquinolone",
+      "n_drugs": 6,
+      "n_signals": 818,
+      "pct_female": 45.4,
+      "mean_abs_logr": 0.981
+    },
+    {
+      "class": "Fusion protein",
+      "n_drugs": 7,
+      "n_signals": 1057,
+      "pct_female": 44.0,
+      "mean_abs_logr": 1.084
+    },
+    {
+      "class": "CCB",
+      "n_drugs": 7,
+      "n_signals": 607,
+      "pct_female": 43.0,
+      "mean_abs_logr": 0.988
+    },
+    {
+      "class": "Prostaglandin",
+      "n_drugs": 7,
+      "n_signals": 129,
+      "pct_female": 42.6,
+      "mean_abs_logr": 0.76
+    },
+    {
+      "class": "Penicillin",
+      "n_drugs": 10,
+      "n_signals": 322,
+      "pct_female": 39.4,
+      "mean_abs_logr": 0.913
+    },
+    {
+      "class": "5-HT3 antagonist",
+      "n_drugs": 4,
+      "n_signals": 293,
+      "pct_female": 37.9,
+      "mean_abs_logr": 1.036
+    },
+    {
+      "class": "GLP-1/peptide",
+      "n_drugs": 9,
+      "n_signals": 530,
+      "pct_female": 32.5,
+      "mean_abs_logr": 0.786
+    },
+    {
+      "class": "Triptan",
+      "n_drugs": 5,
+      "n_signals": 93,
+      "pct_female": 16.1,
+      "mean_abs_logr": 1.217
+    }
+  ],
+  "small_molecule_pct_f": 55.0,
+  "biologic_pct_f": 48.3
+}

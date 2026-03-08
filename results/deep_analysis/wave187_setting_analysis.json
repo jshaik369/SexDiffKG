@@ -1,0 +1,43 @@
+{
+  "wave": 187,
+  "title": "Hospital vs Outpatient Drug Setting Analysis",
+  "total_signals": 16885,
+  "per_setting": [
+    {
+      "setting": "Hospital-IV",
+      "n_drugs": 21,
+      "n_signals": 5483,
+      "pct_female": 65.1
+    },
+    {
+      "setting": "Topical",
+      "n_drugs": 4,
+      "n_signals": 1142,
+      "pct_female": 60.3
+    },
+    {
+      "setting": "Outpatient-oral",
+      "n_drugs": 20,
+      "n_signals": 5673,
+      "pct_female": 50.9
+    },
+    {
+      "setting": "Outpatient-SC",
+      "n_drugs": 10,
+      "n_signals": 3374,
+      "pct_female": 38.2
+    },
+    {
+      "setting": "Inhaled",
+      "n_drugs": 5,
+      "n_signals": 1213,
+      "pct_female": 37.8
+    }
+  ],
+  "hospital_vs_oral": {
+    "hospital_pct_f": 65.1,
+    "oral_pct_f": 50.9,
+    "chi2": 229.6,
+    "p": 7.412568195980456e-52
+  }
+}
