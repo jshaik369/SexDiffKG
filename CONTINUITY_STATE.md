@@ -1,75 +1,58 @@
 # SexDiffKG v5.2 Continuity State
 
-## Updated: 2026-03-07T14:30Z
+## Updated: 2026-03-08T15:45Z
 
-## Current Status: ALL 29 PAPERS EXPANDED — RotatE v5.2 TRAINING IN PROGRESS
+## Current Status: AUDIT-PROOF — RotatE v5.2 EVALUATION IN PROGRESS
 
-### Training Status:
-- **ComplEx v5.2 DONE**: MRR 0.1629, Hits@10 37.0%, AMRI 0.983, epoch 25 (early stopped)
-- **DistMult v5.2 DONE**: MRR 0.0548, Hits@10 9.9%, AMRI 0.9884
-- **RotatE v5.2 IN PROGRESS**: PID 408479, ~24h elapsed, epoch 6 evaluation in progress
-  - RSS cycling: ~6 GB (training) ↔ ~15 GB (evaluation)
-  - Checkpoint at epoch 5: rotate_v52_checkpoint.pt (1.0 GB), saved 10:44 Mar 7
-  - Early stopping patience=5, best loss 0.00393 (epoch 5)
-  - Log: eval_rotate.log (3.1 MB, tqdm carriage returns)
+### Embedding Training Status:
+- **ComplEx v5.2 DONE**: MRR 0.1629, Hits@1 4.72%, Hits@10 37.0%, AMRI 0.983 (epoch 25, early stopped)
+- **DistMult v5.2 DONE**: MRR 0.0548, Hits@1 2.87%, Hits@10 9.95%, AMRI 0.983 (epoch 10, eval 485 min)
+- **RotatE v5.2 IN PROGRESS**: PID 408479, ~42h elapsed, epoch 5 evaluation (~27h/~28h estimated)
+  - Process: R state, 1107% CPU, 15.7 GB RSS, 50 threads
+  - Training loss: 0.176 → 0.0549 → 0.0142 → 0.00535 → 0.00393 (epochs 1-5)
+  - Checkpoint: rotate_v52_checkpoint.pt (1.0 GB), mtime 1772876649 (Mar 7 10:44)
+  - DGX monitor: PID 2813207 checking every 5 min
+  - After eval: epochs 6-10 training (~6h48m), then next eval cycle
+  - Estimated completion: Mar 13-16 (6-10 total eval cycles, 23h each)
 
-### Publication Status: ALL 29 PAPERS >= 15 KB
-Total manuscript volume: ~890 KB across 29 papers
-- Smallest: two_axis_model_paper.md (15.5 KB)
-- Largest: drug_safety_sex_atlas_paper.md (56.9 KB)
-- Git commit: 60a6575, pushed to GitHub
-- All papers in Publication/drafts/
+### Publication Status: 29 PAPERS — ALL AUDITED ✓
+Total: 1.31 MB across 29 papers (all >= 35 KB)
+- Git: Publication/papers/01-29_*.md (commit d778a7a)
+- All numbers verified against GROUND_TRUTH.json (Mar 8 audit)
+- Fixes applied: 5,658→5,069 AEs (24 files), F/M counts (4 files), quarters 86→87 (3 files)
 
-### Paper List (29 papers, all >= 15 KB):
-1. drug_safety_sex_atlas_paper.md (56.9 KB) — Capstone atlas
-2. comprehensive_methods_paper.md (56.0 KB) — Analytical methods companion
-3. sexdiffkg_methods_paper.md (52.4 KB) — KG construction paper
-4. clinical_urgency_paper.md (46.0 KB) — 108 urgent signals
-5. organ_system_landscape_paper.md (43.5 KB) — Cross-organ drug class effects
-6. extreme_signals_paper.md (43.5 KB) — 14.4:1 female:male asymmetry
-7. rare_disease_paradox_paper.md (42.8 KB) — Orphan vs common drugs
-8. network_topology_paper.md (41.9 KB) — Bipartite drug-AE network
-9. bidirectional_ae_paper.md (39.5 KB) — 1,178 context-dependent AEs
-10. glp1ra_diabetes_paper.md (37.0 KB) — GLP-1 male bias
-11. CPI_irAE_paper.md (36.8 KB) — Checkpoint inhibitor irAEs
-12. organ_system_architecture_paper.md (36.2 KB) — SOC anti-regression
-13. cardiac_reversal_paper.md (35.2 KB) — Cardiotoxicity sex reversal
-14. embedding_paper.md (32.0 KB) — KG embedding methods
-15. severity_sex_gradient_paper.md (29.4 KB) — Severity-sex correlation
-16. anti_regression_unified_paper.md (27.5 KB) — Anti-regression phenomenon
-17. soc_atlas_paper.md (24.6 KB) — 20-SOC atlas
-18. regulatory_paper.md (22.1 KB) — Regulatory implications
-19. age_sex_interaction_paper.md (21.5 KB) — Age-sex-severity
-20. cardiotoxicity_sex_paper.md (20.6 KB) — Cardiotoxicity spectrum
-21. information_theory_paper.md (19.1 KB) — Entropy analysis
-22. drug_target_sex_paper.md (18.9 KB) — Molecular sex axis
-23. hepatotoxicity_paper.md (18.4 KB) — DILI sex patterns
-24. temporal_instability_paper.md (17.7 KB) — Volume-sex gradient
-25. cross_therapeutic_spectrum_paper.md (17.7 KB) — 68pp pan-therapeutic
-26. nephrotoxicity_sex_paper.md (17.0 KB) — Renal male enrichment
-27. sex_paradox_paper.md (16.2 KB) — Sex paradox framework
-28. reproductive_paradox_paper.md (16.1 KB) — HRT inversion
-29. two_axis_model_paper.md (15.5 KB) — Strength x volume 2D
+### GitHub Pushes (Session 20):
+- d778a7a: 29 audited papers
+- 328a990: v5.2 KG data + embeddings via Git LFS (921 MB)
+- 5b78498: Publishing strategy v2 + medRxiv checklist
+- be20435: v5.1 gitignore
+- a8f6f36: GROUND_TRUTH.json ComplEx v5.2 exact metrics
 
-### KG v5.2 (Merged SexDiffKG v4 + VEDA-KG):
-- Nodes: 217,993 (13 types)
-- Edges: 3,194,017 (18 types)
-- Path: data/kg_v5.2/
+### Zenodo Deposit: READY FOR UPLOAD
+- Archive: zenodo/SexDiffKG_v4_deposit.tar.gz (274 MB, 48 files)
+- Contains: KG (nodes/edges/triples), signals (96,281 + 32,244 strong), 
+  ComplEx model (181 MB), DistMult model (87 MB), figures, validation, GROUND_TRUTH.json
+- User action required: Upload via Zenodo web UI
 
-### Deep Analysis: 130 WAVES COMPLETE
-- Total JSON results: ~200+
-- Total figures: ~390+
-- All pushed to GitHub (deep-analysis repo)
+### GROUND_TRUTH.json: CURRENT ✓
+- 4 copies synced (md5: all match)
+- ComplEx v5.2 exact metrics filled (hits_at_1 was null → 0.0472)
+- Last verified: 2026-03-08T15:30
 
-### Next Steps:
-1. Wait for RotatE v5.2 to complete (epoch 6+ evaluation, early stopping at patience 5)
-2. Extract RotatE embeddings and save results JSON
-3. Update GROUND_TRUTH.json with RotatE metrics
-4. Push RotatE results to GitHub
-5. Begin Zenodo upload preparation
-6. medRxiv preprint submission
+### What to Do Next:
+1. Monitor RotatE v5.2 (eval should complete ~Mar 8 17:00, then epochs 6-10)
+2. When RotatE completes: extract results → update GROUND_TRUTH → commit → push
+3. Upload Zenodo deposit (user action)
+4. Submit medRxiv preprint (user action)
+5. Begin journal submissions per publishing_strategy.md timeline
 
-### External Databases Integrated:
-- CTD: 7 files, 3.3GB — 3M human chem-gene interactions
-- NPASS 3.0: 8 files, 215MB — 204K natural products
-- LOTUS: 5 files, 268MB — 222K compounds, 37K taxa
+### Critical Files:
+| File | Status |
+|------|--------|
+| GROUND_TRUTH.json (4 copies) | CURRENT ✓ |
+| Publication/papers/ (29 files) | AUDITED ✓ |
+| Publication/publishing_strategy.md | UPDATED v2 ✓ |
+| Publication/medrxiv_submission_checklist.md | NEW ✓ |
+| zenodo/SexDiffKG_v4_deposit.tar.gz | READY (274 MB) ✓ |
+| data/kg_v5.2/ | IN GITHUB (LFS) ✓ |
+| results/kg_embeddings_v5.2/ | ComplEx+DistMult DONE, RotatE IN PROGRESS |
