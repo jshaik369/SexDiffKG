@@ -1,0 +1,210 @@
+{
+  "wave": 229,
+  "title": "Opioid Deep Dive \u2014 Sex Bias Analysis",
+  "opioid_signals": 3726,
+  "opioid_drugs": 27,
+  "opioid_pct_f": 72.2,
+  "non_opioid_pct_f": 53.0,
+  "delta_pp": 19.2,
+  "per_opioid": [
+    {
+      "drug": "OXYCODONE",
+      "n_signals": 492,
+      "pct_female": 85.0
+    },
+    {
+      "drug": "MORPHINE",
+      "n_signals": 441,
+      "pct_female": 83.4
+    },
+    {
+      "drug": "TRAMADOL",
+      "n_signals": 360,
+      "pct_female": 75.3
+    },
+    {
+      "drug": "HYDROMORPHONE",
+      "n_signals": 311,
+      "pct_female": 76.5
+    },
+    {
+      "drug": "FENTANYL",
+      "n_signals": 291,
+      "pct_female": 74.6
+    },
+    {
+      "drug": "OXYCODONE;PARACETAMOL",
+      "n_signals": 265,
+      "pct_female": 80.8
+    },
+    {
+      "drug": "BUPRENORPHINE",
+      "n_signals": 261,
+      "pct_female": 54.0
+    },
+    {
+      "drug": "HYDROCODONE;PARACETAMOL",
+      "n_signals": 197,
+      "pct_female": 75.6
+    },
+    {
+      "drug": "CODEINE",
+      "n_signals": 190,
+      "pct_female": 75.8
+    },
+    {
+      "drug": "CODEINE;PARACETAMOL",
+      "n_signals": 141,
+      "pct_female": 83.7
+    },
+    {
+      "drug": "METHADONE",
+      "n_signals": 107,
+      "pct_female": 73.8
+    },
+    {
+      "drug": "NALTREXONE",
+      "n_signals": 95,
+      "pct_female": 49.5
+    },
+    {
+      "drug": "BUPRENORPHINE;NALOXONE",
+      "n_signals": 90,
+      "pct_female": 31.1
+    },
+    {
+      "drug": "MORPHINE SULFATE",
+      "n_signals": 86,
+      "pct_female": 12.8
+    },
+    {
+      "drug": "HYDROCODONE",
+      "n_signals": 76,
+      "pct_female": 68.4
+    },
+    {
+      "drug": "OXYCODONE HYDROCHLORIDE",
+      "n_signals": 67,
+      "pct_female": 59.7
+    },
+    {
+      "drug": "OXYMORPHONE",
+      "n_signals": 50,
+      "pct_female": 68.0
+    },
+    {
+      "drug": "TRAMADOL HYDROCHLORIDE",
+      "n_signals": 39,
+      "pct_female": 59.0
+    },
+    {
+      "drug": "TAPENTADOL",
+      "n_signals": 39,
+      "pct_female": 43.6
+    },
+    {
+      "drug": "SUFENTANIL",
+      "n_signals": 33,
+      "pct_female": 48.5
+    },
+    {
+      "drug": "FENTANYL CITRATE",
+      "n_signals": 29,
+      "pct_female": 72.4
+    },
+    {
+      "drug": "NALOXONE",
+      "n_signals": 21,
+      "pct_female": 90.5
+    },
+    {
+      "drug": "HYDROMORPHONE HYDROCHLORIDE",
+      "n_signals": 20,
+      "pct_female": 50.0
+    },
+    {
+      "drug": "REMIFENTANIL",
+      "n_signals": 10,
+      "pct_female": 70.0
+    },
+    {
+      "drug": "METHADONE HYDROCHLORIDE",
+      "n_signals": 7,
+      "pct_female": 57.1
+    },
+    {
+      "drug": "DIHYDROCODEINE",
+      "n_signals": 7,
+      "pct_female": 57.1
+    },
+    {
+      "drug": "ALFENTANIL",
+      "n_signals": 1,
+      "pct_female": 0.0
+    }
+  ],
+  "class_comparison": {
+    "Opioid": {
+      "n": 3726,
+      "pct_f": 72.2
+    },
+    "NSAID": {
+      "n": 1562,
+      "pct_f": 55.4
+    },
+    "Statin": {
+      "n": 1148,
+      "pct_f": 46.5
+    },
+    "SSRI": {
+      "n": 1200,
+      "pct_f": 42.1
+    },
+    "PPI": {
+      "n": 1449,
+      "pct_f": 57.6
+    }
+  },
+  "top_female_aes": [
+    {
+      "ae": "Rash",
+      "n_drugs": 15
+    },
+    {
+      "ae": "Completed suicide",
+      "n_drugs": 14
+    },
+    {
+      "ae": "Pyrexia",
+      "n_drugs": 14
+    },
+    {
+      "ae": "Hypersensitivity",
+      "n_drugs": 13
+    },
+    {
+      "ae": "Drug hypersensitivity",
+      "n_drugs": 13
+    },
+    {
+      "ae": "Hypotension",
+      "n_drugs": 13
+    },
+    {
+      "ae": "Drug intolerance",
+      "n_drugs": 13
+    },
+    {
+      "ae": "Tooth loss",
+      "n_drugs": 13
+    },
+    {
+      "ae": "Condition aggravated",
+      "n_drugs": 12
+    },
+    {
+      "ae": "Drug ineffective",
+      "n_drugs": 12
+    }
+  ]
+}

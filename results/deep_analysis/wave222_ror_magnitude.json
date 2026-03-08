@@ -1,0 +1,31 @@
+{
+  "wave": 222,
+  "title": "ROR Magnitude Asymmetry Analysis",
+  "mean_ror_female": 54.258,
+  "mean_ror_male": 45.903,
+  "median_ror_ratio": 1.706,
+  "extreme_female_count": 3250,
+  "extreme_male_count": 2217,
+  "ror_patterns": [
+    {
+      "pattern": "Both elevated",
+      "count": 48572,
+      "pct_female": 54.6
+    },
+    {
+      "pattern": "Neither elevated",
+      "count": 21261,
+      "pct_female": 51.1
+    },
+    {
+      "pattern": "F only elevated",
+      "count": 14382,
+      "pct_female": 100.0
+    },
+    {
+      "pattern": "M only elevated",
+      "count": 12066,
+      "pct_female": 0.0
+    }
+  ]
+}

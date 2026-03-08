@@ -1,0 +1,47 @@
+{
+  "wave": 223,
+  "title": "Drug Polypharmacy \u2014 Multi-Target Sex Bias",
+  "drugs_with_targets": 846,
+  "mean_targets": 1.3,
+  "n_targets_vs_pct_f": {
+    "rho": 0.054,
+    "p": 0.11589295329931193
+  },
+  "selective_1target": {
+    "n": 677,
+    "pct_f": 46.5
+  },
+  "promiscuous_5plus": {
+    "n": 13,
+    "pct_f": 59.6
+  },
+  "delta_pp": 13.1,
+  "mann_whitney_p": 0.15160270218857894,
+  "target_bins": [
+    {
+      "bin": "1",
+      "n_drugs": 677,
+      "pct_f": 46.5
+    },
+    {
+      "bin": "2",
+      "n_drugs": 113,
+      "pct_f": 48.0
+    },
+    {
+      "bin": "3-5",
+      "n_drugs": 45,
+      "pct_f": 52.9
+    },
+    {
+      "bin": "6-10",
+      "n_drugs": 10,
+      "pct_f": 65.0
+    },
+    {
+      "bin": "11-50",
+      "n_drugs": 1,
+      "pct_f": 74.3
+    }
+  ]
+}

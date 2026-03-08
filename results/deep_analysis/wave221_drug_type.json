@@ -1,0 +1,22 @@
+{
+  "wave": 221,
+  "title": "Drug Type Classification \u2014 Biologics vs Small Molecules",
+  "biologics": {
+    "n": 80,
+    "mean_pct_f": 45.2
+  },
+  "small_molecules": {
+    "n": 1010,
+    "mean_pct_f": 49.3
+  },
+  "delta_pp": -4.1,
+  "mann_whitney_p": 0.1864704649079567,
+  "combinations": {
+    "n": 98,
+    "mean_pct_f": 44.8
+  },
+  "monotherapy": {
+    "n": 992,
+    "mean_pct_f": 49.4
+  }
+}

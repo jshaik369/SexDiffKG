@@ -1,0 +1,95 @@
+{
+  "wave": 227,
+  "title": "Signal Confidence Gradient",
+  "total_signals": 96281,
+  "confidence_tiers": [
+    {
+      "threshold": 0,
+      "n_signals": 96281,
+      "pct_female": 53.8,
+      "mean_abs_logr": 0.9868,
+      "median_abs_logr": 0.8116
+    },
+    {
+      "threshold": 5,
+      "n_signals": 96281,
+      "pct_female": 53.8,
+      "mean_abs_logr": 0.9868,
+      "median_abs_logr": 0.8116
+    },
+    {
+      "threshold": 10,
+      "n_signals": 96281,
+      "pct_female": 53.8,
+      "mean_abs_logr": 0.9868,
+      "median_abs_logr": 0.8116
+    },
+    {
+      "threshold": 20,
+      "n_signals": 96281,
+      "pct_female": 53.8,
+      "mean_abs_logr": 0.9868,
+      "median_abs_logr": 0.8116
+    },
+    {
+      "threshold": 50,
+      "n_signals": 63751,
+      "pct_female": 58.8,
+      "mean_abs_logr": 1.0401,
+      "median_abs_logr": 0.8365
+    },
+    {
+      "threshold": 100,
+      "n_signals": 37075,
+      "pct_female": 64.8,
+      "mean_abs_logr": 1.1245,
+      "median_abs_logr": 0.8803
+    },
+    {
+      "threshold": 200,
+      "n_signals": 20318,
+      "pct_female": 72.6,
+      "mean_abs_logr": 1.2149,
+      "median_abs_logr": 0.9397
+    },
+    {
+      "threshold": 500,
+      "n_signals": 8881,
+      "pct_female": 83.2,
+      "mean_abs_logr": 1.3587,
+      "median_abs_logr": 1.0863
+    },
+    {
+      "threshold": 1000,
+      "n_signals": 4475,
+      "pct_female": 87.4,
+      "mean_abs_logr": 1.4391,
+      "median_abs_logr": 1.1525
+    },
+    {
+      "threshold": 2000,
+      "n_signals": 2083,
+      "pct_female": 87.9,
+      "mean_abs_logr": 1.4843,
+      "median_abs_logr": 1.1397
+    },
+    {
+      "threshold": 5000,
+      "n_signals": 478,
+      "pct_female": 86.8,
+      "mean_abs_logr": 1.3166,
+      "median_abs_logr": 1.0328
+    }
+  ],
+  "reports_vs_female": {
+    "rho": 0.206,
+    "p": 0.0
+  },
+  "reports_vs_logr": {
+    "rho": 0.152,
+    "p": 0.0
+  },
+  "female_mean_abs_logr": 1.0072,
+  "male_mean_abs_logr": 0.9631,
+  "strength_p": 2.802259731947894e-41
+}
