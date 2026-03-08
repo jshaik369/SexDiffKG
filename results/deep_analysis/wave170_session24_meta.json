@@ -1,0 +1,41 @@
+{
+  "wave": 170,
+  "title": "Session 24 Meta-Analysis",
+  "session_waves": {
+    "156": "AE severity gradient \u2014 fatal 72.8%F vs mild 48.8%F, sudden death 94.6%F",
+    "157": "Polypharmacy patterns \u2014 48K drug pairs, immunosuppressant cluster 90% agreement",
+    "158": "Signal confidence scoring \u2014 perfect monotonicity rho=1.0, top 10% are 97.2%F",
+    "159": "Anatomical dimorphism \u2014 5/7 expectations reversed, cardio 64.3%F not male",
+    "160": "Drug maturity \u2014 14.3pp mean female shift with evidence, 65% drugs shift female-ward",
+    "161": "KG centrality \u2014 degree weakly predicts sex bias rho=0.09",
+    "162": "Bootstrap stability \u2014 ALL 4 core findings 100% stable",
+    "163": "Corticosteroid dive \u2014 systemic 70-82%F vs topical 33-47%F",
+    "164": "Biologic vs small molecule \u2014 mAbs 47.4%F near neutral, ICIs 73-83%F",
+    "165": "ICI profile \u2014 74.6%F (+20.8pp), PD-L1>CTLA-4>PD-1, neurologic irAEs 100%F",
+    "166": "Top 50 drugs \u2014 ranitidine 93.5%F, opioids dominant female, docetaxel 11.2%F",
+    "167": "Opioid dive \u2014 74.3%F, mu-agonists 78.3%F vs partial 61.2%F",
+    "168": "Two-axis validation \u2014 volume axis confirmed, strength gradient discrepancy found",
+    "169": "Ranitidine anomaly \u2014 93.5%F despite F:M=1.05, 48 cancer signals"
+  },
+  "n_waves_this_session": 14,
+  "cumulative": {
+    "total_waves": 170,
+    "total_jsons": 39,
+    "total_pngs": 318,
+    "total_pdfs": 318
+  },
+  "key_discoveries": [
+    "Severity gradient: fatal AEs 72.8%F vs mild 48.8%F (24pp gradient)",
+    "Immunosuppressant pairs: prednisone+rituximab 401 shared AEs, 90.5% direction agreement",
+    "Confidence scoring: composite score achieves perfect monotonicity (rho=1.000) with 35.3pp gradient",
+    "Anatomical expectations reversed: cardiovascular 64.3%F (expected male), dermatological 43.9%F (expected female)",
+    "Evidence-direction shift: 65.1% of drugs shift toward female with more evidence (+14.3pp mean)",
+    "Bootstrap stability: all 4 core findings (female predominance, anti-regression, strength gradient, effect asymmetry) 100% stable",
+    "Steroid route effect: systemic steroids 70-82%F vs topical/inhaled 33-47%F",
+    "ICI sex disparity: checkpoint inhibitors 74.6%F, PD-L1 most female (82.8%F), thyroid irAEs paradoxically male",
+    "Opioid receptor effect: mu-agonists 78.3%F vs partial/antagonists 61.2%F",
+    "Ranitidine anomaly: 93.5%F despite near-parity F:M reporting ratio (1.05) \u2014 strongest evidence against reporting bias explanation",
+    "Two-axis model discrepancy: paper's strength gradient inflated (23.9pp paper vs 7.4pp actual)",
+    "Male reversal in opioids: buprenorphine+naloxone flips to 31.1%F"
+  ]
+}
