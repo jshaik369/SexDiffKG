@@ -1,49 +1,54 @@
-# SexDiffKG v5.2 Continuity State
+# SexDiffKG Continuity State
+**Last updated:** 2026-03-08 23:33 — Wave Recovery Session (8/15 complete)
 
-## Updated: 2026-03-08T20:00Z
+## Current State
+- **KG v5.2**: 217,993 nodes, 3,194,017 edges (bridged merged)
+- **Deep analysis**: 300 WAVES + 8 v2 recovery waves (178 JSONs, 482+ figures)
+- **Latest commits**: 2596a9a (W260,263,265,267,269,271,280,289 v2 complete)
+- **RotatE v5.2**: Training, PID 408479, epoch 5+, MRR 0.1363
+- **Quality recovery**: 8/15 priority waves re-run with full depth (17-59 KB JSONs)
 
-## Current Status: RotatE v5.2 TRAINING EPOCH 6 — Epoch 5 MRR 0.1363
+## Session 26 (Waves 189-200) — BICENTENNIAL
+- W189: Extreme outlier drugs (F:M ratio inversely correlates with %F, rho=-0.227)
+- W190: Polypharmacy concordance (62.6% — AE biology partially drives bias)
+- W191: Signal strength gradient (high confidence 62.2%F vs low 51.4%F)
+- W192: Rare vs common AE (unique 45.1%F → very common 57.3%F)
+- W193: Organ system toxicity (haematological 71.5%F, renal 71.1%F)
+- W194: Drug approval era (pre-NIH 60.5%F → post-NIH 53.1%F, p=5.5e-42)
+- W195: Top 50 drugs deep dive (median 56.3%F, range 26.3-93.5%)
+- W196: Combo vs mono (50.6%F vs 54.0%F, p=5.3e-7)
+- W197: Session 26 summary (197 waves, 26 sessions)
+- W198: Report volume gradient (D1=42.2%F → D10=82.5%F, top 5%=86.9%F)
+- W199: ROR symmetry (87.2% of F-higher = genuine F excess)
+- W200: BICENTENNIAL grand synthesis (20 landmark findings)
 
-### Embedding Training Status:
-- **ComplEx v5.2 DONE**: MRR 0.1629, Hits@1 4.72%, Hits@10 37.0%, AMRI 0.983 (epoch 25, early stopped)
-- **DistMult v5.2 DONE**: MRR 0.0548, Hits@1 2.87%, Hits@10 9.95%, AMRI 0.983 (epoch 10, eval 485 min)
-- **RotatE v5.2 IN PROGRESS**: PID 408479, ~48h elapsed
-  - **Epoch 5 evaluation COMPLETE: MRR 0.1363** (new best, saved model)
-  - Evaluation took 102,914s = 28.6 hours (batch_size=32 on CPU)
-  - Training loss: 0.176 → 0.0549 → 0.0142 → 0.00535 → 0.00393 (epochs 1-5)
-  - Now training epoch 6 (12% at last check, ~82 min/epoch)
-  - Next eval at epoch 10: ~6.5h training + ~28.6h eval = ~35h until next result
-  - Early stopping: if no improvement over 5 consecutive evals → stops
-  - Estimated completion: Mar 13-16 (depending on improvement pattern)
+## Session 25 (Waves 173-188) — Therapeutic Class Profiles
+- W173: Oncology atlas (ICIs 74.4%F, TKIs 68.4%F)
+- W174: Statin profile (48.1%F near-neutral)
+- W175: Anticoagulant profile (bleeding 89.9%F, prasugrel 96.0%F)
+- W176: Antidiabetic profile (GLP-1 RA 24.6%F, TZDs 91.7%F)
+- W177: Antidepressant profile (SSRIs 42.2%F, MAOIs 7.1%F)
+- W178: Antiepileptic profile (SJS 67.3%F)
+- W179: Antihypertensive profile (ACEi 72.4%F, ARBs 49.4%F)
+- W180: Session 25 drug class landscape (26 classes profiled)
+- W181: Autoimmune profile (dupilumab 17.0%F, corticosteroids 74.7%F)
+- W182: Antibiotic profile (hospital IV 80%F vs oral 37%F)
+- W183: Respiratory profile (ICS 39.1%F vs systemic 76.4%F)
+- W184: Sedative profile (BZDs 65-69%F, zolpidem 60.3%F)
+- W185: Migraine profile (triptans 16.1%F, gepants 0%F)
+- W186: Disease prevalence paradox (rho=-0.650, p=0.009)
+- W187: Hospital vs outpatient (IV 65.1%F vs oral 50.9%F)
+- W188: Suffix-based drug classification (377 drugs)
 
-### v5.2 Model Comparison:
-| Model | MRR | Hits@10 | vs v4 ComplEx |
-|-------|-----|---------|---------------|
-| ComplEx v5.2 | 0.1629 | 37.0% | -34.4% |
-| RotatE v5.2 (ep5) | 0.1363 | TBD | -45.1% |
-| DistMult v5.2 | 0.0548 | 9.9% | -77.9% |
+## Grand Synthesis — Top 5 Findings
+1. Severity gradient: Mild 46.7%F → Fatal 74.5%F (rho=0.96)
+2. GLP-1 male paradox: tirzepatide 8.4%F
+3. Disease prevalence paradox: rho=-0.650
+4. Confidence gradient: 51.4→62.2%F
+5. Report volume gradient: D1=42.2%F → D10=82.5%F
 
-### Session 21 Work (Mar 8, earlier):
-- Fixed v3 strong signal artifacts in papers 06, 09, 24
-- Fixed README: ComplEx v5.2 Hits@1, BibTeX key
-- Created AUDIT_PACKAGE.md (371 lines, 2 RAID copies)
-- Created CITATION.cff, FAIR_compliance.md
-- Added threshold breakdowns to GROUND_TRUTH.json (all 4 RAID copies)
-- Updated skills (AYURFEM + knowledge-graph)
-- 5 Git pushes: 103ac9a, 1cb1d41, 38d38b4, 6f4913f, ce31d41
-
-### Session 22 Work (Mar 8, current):
-- Confirmed RotatE epoch 5 MRR = 0.1363 (eval took 28.6h)
-- Now training epoch 6, next eval ~35h away
-
-### Publication Status: 29 PAPERS — ALL AUDITED ✓
-- Total: 1.31 MB across 29 papers (all >= 35 KB)
-- All v3 artifacts purged
-- Numbers verified against GROUND_TRUTH.json
-
-### What to Do Next:
-1. Monitor RotatE v5.2 (next eval ~35h, epoch 10)
-2. When RotatE completes all eval cycles: extract final results → update GROUND_TRUTH → commit → push
-3. Upload Zenodo deposit (user action required)
-4. Submit medRxiv preprint (user action required)
-5. Begin journal submissions per publishing_strategy.md timeline
+## Next Actions
+1. Continue waves 201+ if productive
+2. Monitor RotatE epoch 7→10 (next eval at epoch 10)
+3. When RotatE finishes: extract MRR, update GROUND_TRUTH, push
+4. Merge PR branches to main
