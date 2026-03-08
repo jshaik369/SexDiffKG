@@ -1,0 +1,589 @@
+{
+  "wave": 137,
+  "title": "Drug Class Sex Bias Taxonomy",
+  "timestamp": "2026-03-08T17:32:47.302063",
+  "classified_drugs": 5866,
+  "class_stats": {
+    "Oncology": {
+      "n_drugs": 2674,
+      "n_signals": 52098,
+      "pct_female": 57.6,
+      "mean_logR": 0.185,
+      "median_logR": 0.568,
+      "n_strong": 17435,
+      "pct_strong_female": 61.1
+    },
+    "Psychiatric": {
+      "n_drugs": 262,
+      "n_signals": 6744,
+      "pct_female": 56.3,
+      "mean_logR": 0.139,
+      "median_logR": 0.559,
+      "n_strong": 2228,
+      "pct_strong_female": 60.1
+    },
+    "Infectious": {
+      "n_drugs": 794,
+      "n_signals": 3397,
+      "pct_female": 55.7,
+      "mean_logR": 0.103,
+      "median_logR": 0.543,
+      "n_strong": 1039,
+      "pct_strong_female": 56.0
+    },
+    "Cardiovascular": {
+      "n_drugs": 484,
+      "n_signals": 4568,
+      "pct_female": 53.8,
+      "mean_logR": 0.068,
+      "median_logR": 0.527,
+      "n_strong": 1248,
+      "pct_strong_female": 53.8
+    },
+    "Neurological": {
+      "n_drugs": 205,
+      "n_signals": 546,
+      "pct_female": 53.7,
+      "mean_logR": 0.034,
+      "median_logR": 0.523,
+      "n_strong": 122,
+      "pct_strong_female": 55.7
+    },
+    "Pain/Inflammation": {
+      "n_drugs": 238,
+      "n_signals": 1160,
+      "pct_female": 51.7,
+      "mean_logR": 0.119,
+      "median_logR": 0.518,
+      "n_strong": 440,
+      "pct_strong_female": 56.1
+    },
+    "Autoimmune": {
+      "n_drugs": 615,
+      "n_signals": 10312,
+      "pct_female": 47.1,
+      "mean_logR": -0.003,
+      "median_logR": -0.524,
+      "n_strong": 3478,
+      "pct_strong_female": 53.8
+    },
+    "Metabolic": {
+      "n_drugs": 331,
+      "n_signals": 1042,
+      "pct_female": 46.6,
+      "mean_logR": -0.043,
+      "median_logR": -0.528,
+      "n_strong": 223,
+      "pct_strong_female": 48.9
+    },
+    "Respiratory": {
+      "n_drugs": 209,
+      "n_signals": 3150,
+      "pct_female": 34.6,
+      "mean_logR": -0.362,
+      "median_logR": -0.653,
+      "n_strong": 1243,
+      "pct_strong_female": 30.9
+    },
+    "Reproductive": {
+      "n_drugs": 54,
+      "n_signals": 3,
+      "pct_female": 0.0,
+      "mean_logR": -2.841,
+      "median_logR": -3.239,
+      "n_strong": 3,
+      "pct_strong_female": 0.0
+    }
+  },
+  "top_variable_aes": [
+    {
+      "ae": "Fall",
+      "range_pp": 60.0,
+      "n_classes": 3,
+      "class_data": {
+        "Metabolic": {
+          "pct_female": 80.0,
+          "n": 5
+        },
+        "Pain/Inflammation": {
+          "pct_female": 22.2,
+          "n": 9
+        },
+        "Neurological": {
+          "pct_female": 20.0,
+          "n": 5
+        }
+      }
+    },
+    {
+      "ae": "Condition aggravated",
+      "range_pp": 47.5,
+      "n_classes": 8,
+      "class_data": {
+        "Oncology": {
+          "pct_female": 41.5,
+          "n": 147
+        },
+        "Autoimmune": {
+          "pct_female": 44.1,
+          "n": 34
+        },
+        "Cardiovascular": {
+          "pct_female": 35.7,
+          "n": 28
+        },
+        "Psychiatric": {
+          "pct_female": 42.9,
+          "n": 21
+        },
+        "Infectious": {
+          "pct_female": 12.5,
+          "n": 32
+        },
+        "Pain/Inflammation": {
+          "pct_female": 60.0,
+          "n": 10
+        },
+        "Respiratory": {
+          "pct_female": 17.6,
+          "n": 17
+        },
+        "Neurological": {
+          "pct_female": 14.3,
+          "n": 7
+        }
+      }
+    },
+    {
+      "ae": "Off label use",
+      "range_pp": 43.5,
+      "n_classes": 6,
+      "class_data": {
+        "Oncology": {
+          "pct_female": 54.2,
+          "n": 155
+        },
+        "Autoimmune": {
+          "pct_female": 65.7,
+          "n": 35
+        },
+        "Cardiovascular": {
+          "pct_female": 53.3,
+          "n": 30
+        },
+        "Infectious": {
+          "pct_female": 59.4,
+          "n": 32
+        },
+        "Pain/Inflammation": {
+          "pct_female": 22.2,
+          "n": 18
+        },
+        "Neurological": {
+          "pct_female": 57.1,
+          "n": 7
+        }
+      }
+    },
+    {
+      "ae": "Nausea",
+      "range_pp": 42.9,
+      "n_classes": 5,
+      "class_data": {
+        "Autoimmune": {
+          "pct_female": 41.9,
+          "n": 31
+        },
+        "Infectious": {
+          "pct_female": 52.0,
+          "n": 25
+        },
+        "Metabolic": {
+          "pct_female": 33.3,
+          "n": 6
+        },
+        "Pain/Inflammation": {
+          "pct_female": 9.1,
+          "n": 11
+        },
+        "Respiratory": {
+          "pct_female": 46.2,
+          "n": 13
+        }
+      }
+    },
+    {
+      "ae": "Headache",
+      "range_pp": 40.2,
+      "n_classes": 5,
+      "class_data": {
+        "Autoimmune": {
+          "pct_female": 46.7,
+          "n": 30
+        },
+        "Cardiovascular": {
+          "pct_female": 34.8,
+          "n": 23
+        },
+        "Infectious": {
+          "pct_female": 47.6,
+          "n": 21
+        },
+        "Metabolic": {
+          "pct_female": 75.0,
+          "n": 8
+        },
+        "Pain/Inflammation": {
+          "pct_female": 37.5,
+          "n": 16
+        }
+      }
+    },
+    {
+      "ae": "Diarrhoea",
+      "range_pp": 35.7,
+      "n_classes": 3,
+      "class_data": {
+        "Cardiovascular": {
+          "pct_female": 85.7,
+          "n": 21
+        },
+        "Infectious": {
+          "pct_female": 53.8,
+          "n": 26
+        },
+        "Metabolic": {
+          "pct_female": 50.0,
+          "n": 10
+        }
+      }
+    },
+    {
+      "ae": "Dizziness",
+      "range_pp": 33.9,
+      "n_classes": 3,
+      "class_data": {
+        "Cardiovascular": {
+          "pct_female": 26.1,
+          "n": 23
+        },
+        "Infectious": {
+          "pct_female": 38.5,
+          "n": 26
+        },
+        "Metabolic": {
+          "pct_female": 60.0,
+          "n": 5
+        }
+      }
+    },
+    {
+      "ae": "Fatigue",
+      "range_pp": 31.1,
+      "n_classes": 4,
+      "class_data": {
+        "Oncology": {
+          "pct_female": 76.5,
+          "n": 132
+        },
+        "Autoimmune": {
+          "pct_female": 81.1,
+          "n": 37
+        },
+        "Cardiovascular": {
+          "pct_female": 52.4,
+          "n": 21
+        },
+        "Metabolic": {
+          "pct_female": 50.0,
+          "n": 6
+        }
+      }
+    },
+    {
+      "ae": "Vomiting",
+      "range_pp": 31.0,
+      "n_classes": 4,
+      "class_data": {
+        "Oncology": {
+          "pct_female": 63.0,
+          "n": 138
+        },
+        "Autoimmune": {
+          "pct_female": 64.3,
+          "n": 28
+        },
+        "Psychiatric": {
+          "pct_female": 33.3,
+          "n": 27
+        },
+        "Metabolic": {
+          "pct_female": 50.0,
+          "n": 6
+        }
+      }
+    },
+    {
+      "ae": "Acute kidney injury",
+      "range_pp": 28.8,
+      "n_classes": 4,
+      "class_data": {
+        "Cardiovascular": {
+          "pct_female": 84.4,
+          "n": 32
+        },
+        "Infectious": {
+          "pct_female": 76.2,
+          "n": 21
+        },
+        "Metabolic": {
+          "pct_female": 66.7,
+          "n": 6
+        },
+        "Pain/Inflammation": {
+          "pct_female": 55.6,
+          "n": 9
+        }
+      }
+    },
+    {
+      "ae": "Drug ineffective",
+      "range_pp": 28.2,
+      "n_classes": 8,
+      "class_data": {
+        "Oncology": {
+          "pct_female": 44.9,
+          "n": 147
+        },
+        "Autoimmune": {
+          "pct_female": 41.0,
+          "n": 39
+        },
+        "Cardiovascular": {
+          "pct_female": 37.5,
+          "n": 32
+        },
+        "Psychiatric": {
+          "pct_female": 25.8,
+          "n": 31
+        },
+        "Infectious": {
+          "pct_female": 41.5,
+          "n": 41
+        },
+        "Metabolic": {
+          "pct_female": 33.3,
+          "n": 9
+        },
+        "Pain/Inflammation": {
+          "pct_female": 26.1,
+          "n": 23
+        },
+        "Neurological": {
+          "pct_female": 16.7,
+          "n": 6
+        }
+      }
+    },
+    {
+      "ae": "Hypertension",
+      "range_pp": 25.9,
+      "n_classes": 3,
+      "class_data": {
+        "Oncology": {
+          "pct_female": 74.6,
+          "n": 130
+        },
+        "Autoimmune": {
+          "pct_female": 82.4,
+          "n": 34
+        },
+        "Cardiovascular": {
+          "pct_female": 56.5,
+          "n": 23
+        }
+      }
+    },
+    {
+      "ae": "Rash",
+      "range_pp": 25.5,
+      "n_classes": 3,
+      "class_data": {
+        "Oncology": {
+          "pct_female": 77.8,
+          "n": 135
+        },
+        "Autoimmune": {
+          "pct_female": 80.0,
+          "n": 30
+        },
+        "Pain/Inflammation": {
+          "pct_female": 54.5,
+          "n": 11
+        }
+      }
+    },
+    {
+      "ae": "Pyrexia",
+      "range_pp": 24.0,
+      "n_classes": 4,
+      "class_data": {
+        "Oncology": {
+          "pct_female": 72.4,
+          "n": 123
+        },
+        "Autoimmune": {
+          "pct_female": 73.0,
+          "n": 37
+        },
+        "Psychiatric": {
+          "pct_female": 79.2,
+          "n": 24
+        },
+        "Infectious": {
+          "pct_female": 55.2,
+          "n": 29
+        }
+      }
+    },
+    {
+      "ae": "Pain",
+      "range_pp": 20.8,
+      "n_classes": 4,
+      "class_data": {
+        "Oncology": {
+          "pct_female": 75.0,
+          "n": 136
+        },
+        "Infectious": {
+          "pct_female": 54.2,
+          "n": 24
+        },
+        "Pain/Inflammation": {
+          "pct_female": 63.6,
+          "n": 11
+        },
+        "Respiratory": {
+          "pct_female": 72.7,
+          "n": 11
+        }
+      }
+    },
+    {
+      "ae": "Toxicity to various agents",
+      "range_pp": 19.0,
+      "n_classes": 3,
+      "class_data": {
+        "Cardiovascular": {
+          "pct_female": 77.3,
+          "n": 22
+        },
+        "Psychiatric": {
+          "pct_female": 60.9,
+          "n": 23
+        },
+        "Pain/Inflammation": {
+          "pct_female": 58.3,
+          "n": 12
+        }
+      }
+    },
+    {
+      "ae": "Therapeutic product effect incomplete",
+      "range_pp": 18.3,
+      "n_classes": 3,
+      "class_data": {
+        "Psychiatric": {
+          "pct_female": 21.7,
+          "n": 23
+        },
+        "Metabolic": {
+          "pct_female": 40.0,
+          "n": 5
+        },
+        "Respiratory": {
+          "pct_female": 23.5,
+          "n": 17
+        }
+      }
+    },
+    {
+      "ae": "Dyspnoea",
+      "range_pp": 17.7,
+      "n_classes": 5,
+      "class_data": {
+        "Oncology": {
+          "pct_female": 60.0,
+          "n": 125
+        },
+        "Autoimmune": {
+          "pct_female": 58.8,
+          "n": 34
+        },
+        "Cardiovascular": {
+          "pct_female": 42.3,
+          "n": 26
+        },
+        "Infectious": {
+          "pct_female": 50.0,
+          "n": 26
+        },
+        "Metabolic": {
+          "pct_female": 50.0,
+          "n": 6
+        }
+      }
+    },
+    {
+      "ae": "Hypotension",
+      "range_pp": 15.2,
+      "n_classes": 3,
+      "class_data": {
+        "Cardiovascular": {
+          "pct_female": 77.4,
+          "n": 31
+        },
+        "Psychiatric": {
+          "pct_female": 92.6,
+          "n": 27
+        },
+        "Infectious": {
+          "pct_female": 90.5,
+          "n": 21
+        }
+      }
+    },
+    {
+      "ae": "Death",
+      "range_pp": 11.3,
+      "n_classes": 4,
+      "class_data": {
+        "Oncology": {
+          "pct_female": 79.5,
+          "n": 146
+        },
+        "Cardiovascular": {
+          "pct_female": 68.2,
+          "n": 22
+        },
+        "Infectious": {
+          "pct_female": 76.0,
+          "n": 25
+        },
+        "Metabolic": {
+          "pct_female": 75.0,
+          "n": 8
+        }
+      }
+    }
+  ],
+  "key_findings": {
+    "most_female_class": "Oncology",
+    "most_female_pct": 57.6,
+    "least_female_class": "Reproductive",
+    "least_female_pct": 0.0,
+    "class_spectrum_pp": 57.6,
+    "most_variable_ae": "Fall",
+    "most_variable_ae_range": 60.0
+  }
+}
