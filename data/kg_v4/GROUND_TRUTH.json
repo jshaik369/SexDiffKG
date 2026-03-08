@@ -1,8 +1,8 @@
 {
   "_meta": {
     "description": "SexDiffKG v4 Ground Truth \u2014 ONE absolute source of truth",
-    "last_verified": "2026-03-05T04:35:21.143772",
-    "verified_by": "Session 11 vault audit - RotatE duplicate removed",
+    "last_verified": "2026-03-08T15:36:54.517054",
+    "verified_by": "Session 20 - ComplEx v5.2 exact metrics filled",
     "md5_nodes": "5a7331b1b0e7f11853444eb59e2b9166",
     "md5_edges": "b8e4890c2063bdf9357c76730881b440",
     "md5_triples": "2d4e46b1265a9a9bd44bbfc7372a9e44"
@@ -136,13 +136,19 @@
       "note": "Best hyperparams: margin=6.0, lr=1e-3, batch=4096, 256d, 200 epochs, CPU training (382 min)"
     },
     "ComplEx_v52": {
-      "mrr": 0.1629,
-      "hits_at_1": null,
-      "hits_at_10": 0.37,
-      "amri": 0.983,
+      "mrr": 0.16293975710868835,
+      "hits_at_1": 0.04722262227537711,
+      "hits_at_3": 0.21383397724497655,
+      "hits_at_5": 0.2784797840965304,
+      "hits_at_10": 0.3704360022792594,
+      "amri": 0.9831125485079029,
       "kg_version": "v5.2",
       "epochs": 25,
-      "note": "Early stopped. 6.6x over v5, 34% below v4."
+      "embedding_dim": 200,
+      "device": "cpu",
+      "training_time_min": 568.0,
+      "eval_time_min": 104.9,
+      "note": "Early stopped at epoch 25. Recovered from best weights after eval crash."
     },
     "DistMult_v52": {
       "mrr": 0.054753903299570084,
