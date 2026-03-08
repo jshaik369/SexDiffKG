@@ -1,0 +1,541 @@
+{
+  "wave": 138,
+  "title": "Combination Drug Sex Bias Analysis",
+  "timestamp": "2026-03-08T17:34:10.743267",
+  "single_drugs": {
+    "n_drugs": 1858,
+    "n_signals": 90279,
+    "pct_female": 54.0,
+    "mean_logR": 0.1011
+  },
+  "combo_drugs": {
+    "n_drugs": 320,
+    "n_signals": 6002,
+    "pct_female": 1.4,
+    "mean_logR": 0.0254
+  },
+  "delta_pp": -52.5,
+  "top_combos": [
+    {
+      "drug": "SULFAMETHOXAZOLE;TRIMETHOPRIM",
+      "n": 327,
+      "pct_f": 63.6
+    },
+    {
+      "drug": "OXYCODONE;PARACETAMOL",
+      "n": 265,
+      "pct_f": 80.8
+    },
+    {
+      "drug": "FLUTICASONE;SALMETEROL",
+      "n": 252,
+      "pct_f": 35.7
+    },
+    {
+      "drug": "BUDESONIDE;FORMOTEROL",
+      "n": 245,
+      "pct_f": 37.6
+    },
+    {
+      "drug": "CARBIDOPA;LEVODOPA",
+      "n": 217,
+      "pct_f": 61.8
+    },
+    {
+      "drug": "HYDROCODONE;PARACETAMOL",
+      "n": 197,
+      "pct_f": 75.6
+    },
+    {
+      "drug": "EMTRICITABINE;TENOFOVIR",
+      "n": 181,
+      "pct_f": 47.5
+    },
+    {
+      "drug": "FLUTICASONE;VILANTEROL",
+      "n": 175,
+      "pct_f": 18.9
+    },
+    {
+      "drug": "AMOXICILLIN;CLAVULANIC ACID",
+      "n": 162,
+      "pct_f": 42.6
+    },
+    {
+      "drug": "SACUBITRIL;VALSARTAN",
+      "n": 157,
+      "pct_f": 67.5
+    },
+    {
+      "drug": "CODEINE;PARACETAMOL",
+      "n": 141,
+      "pct_f": 83.7
+    },
+    {
+      "drug": "PIPERACILLIN;TAZOBACTAM",
+      "n": 136,
+      "pct_f": 86.0
+    },
+    {
+      "drug": "GLUCOSE;MAGNESIUM;SODIUM CHLORIDE;SODIUM LACTATE",
+      "n": 122,
+      "pct_f": 57.4
+    },
+    {
+      "drug": "FORMOTEROL;MOMETASONE",
+      "n": 118,
+      "pct_f": 14.4
+    },
+    {
+      "drug": "BUPRENORPHINE;NALOXONE",
+      "n": 90,
+      "pct_f": 31.1
+    },
+    {
+      "drug": "CALCIUM;VITAMIN D3",
+      "n": 84,
+      "pct_f": 51.2
+    },
+    {
+      "drug": "PARACETAMOL;TRAMADOL",
+      "n": 83,
+      "pct_f": 73.5
+    },
+    {
+      "drug": "LEDIPASVIR;SOFOSBUVIR",
+      "n": 80,
+      "pct_f": 85.0
+    },
+    {
+      "drug": "FLUTICASONE;UMECLIDINIUM;VILANTEROL",
+      "n": 79,
+      "pct_f": 15.2
+    },
+    {
+      "drug": "HYDROCHLOROTHIAZIDE;VALSARTAN",
+      "n": 78,
+      "pct_f": 52.6
+    }
+  ],
+  "component_vs_combo": [
+    {
+      "combination": "SULFAMETHOXAZOLE;TRIMETHOPRIM",
+      "combo_signals": 327,
+      "combo_pct_female": 63.6,
+      "component_avg_pct_female": 43.8,
+      "delta_pp": 19.9,
+      "components": [
+        {
+          "component": "SULFAMETHOXAZOLE",
+          "n_signals": 75,
+          "pct_female": 57.3,
+          "mean_logR": 0.3433
+        },
+        {
+          "component": "TRIMETHOPRIM",
+          "n_signals": 53,
+          "pct_female": 30.2,
+          "mean_logR": -0.4148
+        }
+      ]
+    },
+    {
+      "combination": "OXYCODONE;PARACETAMOL",
+      "combo_signals": 265,
+      "combo_pct_female": 80.8,
+      "component_avg_pct_female": 71.0,
+      "delta_pp": 9.8,
+      "components": [
+        {
+          "component": "OXYCODONE",
+          "n_signals": 492,
+          "pct_female": 85.0,
+          "mean_logR": 1.0913
+        },
+        {
+          "component": "PARACETAMOL",
+          "n_signals": 487,
+          "pct_female": 56.9,
+          "mean_logR": 0.3364
+        }
+      ]
+    },
+    {
+      "combination": "FLUTICASONE;SALMETEROL",
+      "combo_signals": 252,
+      "combo_pct_female": 35.7,
+      "component_avg_pct_female": 26.8,
+      "delta_pp": 9.0,
+      "components": [
+        {
+          "component": "FLUTICASONE",
+          "n_signals": 221,
+          "pct_female": 33.5,
+          "mean_logR": -0.3784
+        },
+        {
+          "component": "SALMETEROL",
+          "n_signals": 30,
+          "pct_female": 20.0,
+          "mean_logR": -0.8223
+        }
+      ]
+    },
+    {
+      "combination": "BUDESONIDE;FORMOTEROL",
+      "combo_signals": 245,
+      "combo_pct_female": 37.6,
+      "component_avg_pct_female": 46.2,
+      "delta_pp": -8.7,
+      "components": [
+        {
+          "component": "BUDESONIDE",
+          "n_signals": 259,
+          "pct_female": 45.2,
+          "mean_logR": -0.1379
+        },
+        {
+          "component": "FORMOTEROL",
+          "n_signals": 55,
+          "pct_female": 47.3,
+          "mean_logR": -0.1325
+        }
+      ]
+    },
+    {
+      "combination": "CARBIDOPA;LEVODOPA",
+      "combo_signals": 217,
+      "combo_pct_female": 61.8,
+      "component_avg_pct_female": 73.8,
+      "delta_pp": -12.0,
+      "components": [
+        {
+          "component": "LEVODOPA",
+          "n_signals": 42,
+          "pct_female": 73.8,
+          "mean_logR": 0.4441
+        }
+      ]
+    },
+    {
+      "combination": "HYDROCODONE;PARACETAMOL",
+      "combo_signals": 197,
+      "combo_pct_female": 75.6,
+      "component_avg_pct_female": 62.6,
+      "delta_pp": 13.0,
+      "components": [
+        {
+          "component": "HYDROCODONE",
+          "n_signals": 76,
+          "pct_female": 68.4,
+          "mean_logR": 0.3338
+        },
+        {
+          "component": "PARACETAMOL",
+          "n_signals": 487,
+          "pct_female": 56.9,
+          "mean_logR": 0.3364
+        }
+      ]
+    },
+    {
+      "combination": "EMTRICITABINE;TENOFOVIR",
+      "combo_signals": 181,
+      "combo_pct_female": 47.5,
+      "component_avg_pct_female": 63.8,
+      "delta_pp": -16.3,
+      "components": [
+        {
+          "component": "EMTRICITABINE",
+          "n_signals": 22,
+          "pct_female": 63.6,
+          "mean_logR": 0.2253
+        },
+        {
+          "component": "TENOFOVIR",
+          "n_signals": 114,
+          "pct_female": 64.0,
+          "mean_logR": 0.297
+        }
+      ]
+    },
+    {
+      "combination": "FLUTICASONE;VILANTEROL",
+      "combo_signals": 175,
+      "combo_pct_female": 18.9,
+      "component_avg_pct_female": 41.8,
+      "delta_pp": -22.9,
+      "components": [
+        {
+          "component": "FLUTICASONE",
+          "n_signals": 221,
+          "pct_female": 33.5,
+          "mean_logR": -0.3784
+        },
+        {
+          "component": "VILANTEROL",
+          "n_signals": 12,
+          "pct_female": 50.0,
+          "mean_logR": -0.3577
+        }
+      ]
+    },
+    {
+      "combination": "AMOXICILLIN;CLAVULANIC ACID",
+      "combo_signals": 162,
+      "combo_pct_female": 42.6,
+      "component_avg_pct_female": 42.9,
+      "delta_pp": -0.3,
+      "components": [
+        {
+          "component": "AMOXICILLIN",
+          "n_signals": 212,
+          "pct_female": 42.9,
+          "mean_logR": -0.1256
+        }
+      ]
+    },
+    {
+      "combination": "SACUBITRIL;VALSARTAN",
+      "combo_signals": 157,
+      "combo_pct_female": 67.5,
+      "component_avg_pct_female": 49.3,
+      "delta_pp": 18.2,
+      "components": [
+        {
+          "component": "VALSARTAN",
+          "n_signals": 219,
+          "pct_female": 49.3,
+          "mean_logR": -0.0085
+        }
+      ]
+    },
+    {
+      "combination": "CODEINE;PARACETAMOL",
+      "combo_signals": 141,
+      "combo_pct_female": 83.7,
+      "component_avg_pct_female": 66.4,
+      "delta_pp": 17.3,
+      "components": [
+        {
+          "component": "CODEINE",
+          "n_signals": 190,
+          "pct_female": 75.8,
+          "mean_logR": 0.832
+        },
+        {
+          "component": "PARACETAMOL",
+          "n_signals": 487,
+          "pct_female": 56.9,
+          "mean_logR": 0.3364
+        }
+      ]
+    },
+    {
+      "combination": "GLUCOSE;MAGNESIUM;SODIUM CHLORIDE;SODIUM LACTATE",
+      "combo_signals": 122,
+      "combo_pct_female": 57.4,
+      "component_avg_pct_female": 32.1,
+      "delta_pp": 25.3,
+      "components": [
+        {
+          "component": "GLUCOSE",
+          "n_signals": 70,
+          "pct_female": 20.0,
+          "mean_logR": -0.9873
+        },
+        {
+          "component": "MAGNESIUM",
+          "n_signals": 136,
+          "pct_female": 50.0,
+          "mean_logR": 0.0365
+        },
+        {
+          "component": "SODIUM CHLORIDE",
+          "n_signals": 152,
+          "pct_female": 26.3,
+          "mean_logR": -0.4675
+        }
+      ]
+    },
+    {
+      "combination": "FORMOTEROL;MOMETASONE",
+      "combo_signals": 118,
+      "combo_pct_female": 14.4,
+      "component_avg_pct_female": 47.2,
+      "delta_pp": -32.8,
+      "components": [
+        {
+          "component": "FORMOTEROL",
+          "n_signals": 55,
+          "pct_female": 47.3,
+          "mean_logR": -0.1325
+        },
+        {
+          "component": "MOMETASONE",
+          "n_signals": 119,
+          "pct_female": 47.1,
+          "mean_logR": -0.0417
+        }
+      ]
+    },
+    {
+      "combination": "BUPRENORPHINE;NALOXONE",
+      "combo_signals": 90,
+      "combo_pct_female": 31.1,
+      "component_avg_pct_female": 72.2,
+      "delta_pp": -41.1,
+      "components": [
+        {
+          "component": "BUPRENORPHINE",
+          "n_signals": 261,
+          "pct_female": 54.0,
+          "mean_logR": 0.2293
+        },
+        {
+          "component": "NALOXONE",
+          "n_signals": 21,
+          "pct_female": 90.5,
+          "mean_logR": 0.6929
+        }
+      ]
+    },
+    {
+      "combination": "CALCIUM;VITAMIN D3",
+      "combo_signals": 84,
+      "combo_pct_female": 51.2,
+      "component_avg_pct_female": 43.0,
+      "delta_pp": 8.1,
+      "components": [
+        {
+          "component": "CALCIUM",
+          "n_signals": 219,
+          "pct_female": 40.2,
+          "mean_logR": -0.258
+        },
+        {
+          "component": "VITAMIN D3",
+          "n_signals": 242,
+          "pct_female": 45.9,
+          "mean_logR": -0.0361
+        }
+      ]
+    },
+    {
+      "combination": "PARACETAMOL;TRAMADOL",
+      "combo_signals": 83,
+      "combo_pct_female": 73.5,
+      "component_avg_pct_female": 66.1,
+      "delta_pp": 7.4,
+      "components": [
+        {
+          "component": "PARACETAMOL",
+          "n_signals": 487,
+          "pct_female": 56.9,
+          "mean_logR": 0.3364
+        },
+        {
+          "component": "TRAMADOL",
+          "n_signals": 360,
+          "pct_female": 75.3,
+          "mean_logR": 0.7217
+        }
+      ]
+    },
+    {
+      "combination": "LEDIPASVIR;SOFOSBUVIR",
+      "combo_signals": 80,
+      "combo_pct_female": 85.0,
+      "component_avg_pct_female": 81.3,
+      "delta_pp": 3.7,
+      "components": [
+        {
+          "component": "SOFOSBUVIR",
+          "n_signals": 75,
+          "pct_female": 81.3,
+          "mean_logR": 0.5189
+        }
+      ]
+    },
+    {
+      "combination": "FLUTICASONE;UMECLIDINIUM;VILANTEROL",
+      "combo_signals": 79,
+      "combo_pct_female": 15.2,
+      "component_avg_pct_female": 33.2,
+      "delta_pp": -18.0,
+      "components": [
+        {
+          "component": "FLUTICASONE",
+          "n_signals": 221,
+          "pct_female": 33.5,
+          "mean_logR": -0.3784
+        },
+        {
+          "component": "UMECLIDINIUM",
+          "n_signals": 80,
+          "pct_female": 16.2,
+          "mean_logR": -1.096
+        },
+        {
+          "component": "VILANTEROL",
+          "n_signals": 12,
+          "pct_female": 50.0,
+          "mean_logR": -0.3577
+        }
+      ]
+    },
+    {
+      "combination": "HYDROCHLOROTHIAZIDE;VALSARTAN",
+      "combo_signals": 78,
+      "combo_pct_female": 52.6,
+      "component_avg_pct_female": 45.1,
+      "delta_pp": 7.5,
+      "components": [
+        {
+          "component": "HYDROCHLOROTHIAZIDE",
+          "n_signals": 171,
+          "pct_female": 40.9,
+          "mean_logR": -0.1675
+        },
+        {
+          "component": "VALSARTAN",
+          "n_signals": 219,
+          "pct_female": 49.3,
+          "mean_logR": -0.0085
+        }
+      ]
+    },
+    {
+      "combination": "IPRATROPIUM;SALBUTAMOL",
+      "combo_signals": 76,
+      "combo_pct_female": 30.3,
+      "component_avg_pct_female": 44.0,
+      "delta_pp": -13.7,
+      "components": [
+        {
+          "component": "IPRATROPIUM",
+          "n_signals": 129,
+          "pct_female": 45.7,
+          "mean_logR": -0.2012
+        },
+        {
+          "component": "SALBUTAMOL",
+          "n_signals": 418,
+          "pct_female": 42.3,
+          "mean_logR": -0.2191
+        }
+      ]
+    }
+  ],
+  "ae_overlap": {
+    "combo_only": 66,
+    "shared": 1451,
+    "single_only": 3552
+  },
+  "key_findings": {
+    "combo_more_female": -52.5,
+    "combos_more_female_than_components": "13/29",
+    "mean_component_delta": -0.8,
+    "combo_only_aes": 66
+  }
+}
