@@ -1,0 +1,323 @@
+{
+  "wave": 179,
+  "title": "Antihypertensive Drug Sex-Differential Profile",
+  "total_signals": 4323,
+  "overall_pct_f": 55.1,
+  "per_drug": [
+    {
+      "drug": "TERAZOSIN",
+      "class": "Alpha-blocker",
+      "n_signals": 6,
+      "pct_female": 100.0
+    },
+    {
+      "drug": "TRANDOLAPRIL",
+      "class": "ACEi",
+      "n_signals": 8,
+      "pct_female": 87.5
+    },
+    {
+      "drug": "LISINOPRIL",
+      "class": "ACEi",
+      "n_signals": 252,
+      "pct_female": 84.5
+    },
+    {
+      "drug": "FOSINOPRIL",
+      "class": "ACEi",
+      "n_signals": 4,
+      "pct_female": 75.0
+    },
+    {
+      "drug": "EPLERENONE",
+      "class": "Diuretic",
+      "n_signals": 37,
+      "pct_female": 73.0
+    },
+    {
+      "drug": "RAMIPRIL",
+      "class": "ACEi",
+      "n_signals": 368,
+      "pct_female": 71.2
+    },
+    {
+      "drug": "PERINDOPRIL",
+      "class": "ACEi",
+      "n_signals": 123,
+      "pct_female": 68.3
+    },
+    {
+      "drug": "DILTIAZEM",
+      "class": "CCB",
+      "n_signals": 169,
+      "pct_female": 66.9
+    },
+    {
+      "drug": "ENALAPRIL",
+      "class": "ACEi",
+      "n_signals": 72,
+      "pct_female": 66.7
+    },
+    {
+      "drug": "BENAZEPRIL",
+      "class": "ACEi",
+      "n_signals": 9,
+      "pct_female": 66.7
+    },
+    {
+      "drug": "ATENOLOL",
+      "class": "BB",
+      "n_signals": 136,
+      "pct_female": 66.2
+    },
+    {
+      "drug": "LERCANIDIPINE",
+      "class": "CCB",
+      "n_signals": 29,
+      "pct_female": 62.1
+    },
+    {
+      "drug": "BISOPROLOL",
+      "class": "BB",
+      "n_signals": 270,
+      "pct_female": 60.4
+    },
+    {
+      "drug": "FUROSEMIDE",
+      "class": "Diuretic",
+      "n_signals": 385,
+      "pct_female": 56.9
+    },
+    {
+      "drug": "METOPROLOL",
+      "class": "BB",
+      "n_signals": 244,
+      "pct_female": 53.7
+    },
+    {
+      "drug": "INDAPAMIDE",
+      "class": "Diuretic",
+      "n_signals": 62,
+      "pct_female": 53.2
+    },
+    {
+      "drug": "CARVEDILOL",
+      "class": "BB",
+      "n_signals": 112,
+      "pct_female": 52.7
+    },
+    {
+      "drug": "CANDESARTAN",
+      "class": "ARB",
+      "n_signals": 198,
+      "pct_female": 52.5
+    },
+    {
+      "drug": "TELMISARTAN",
+      "class": "ARB",
+      "n_signals": 73,
+      "pct_female": 50.7
+    },
+    {
+      "drug": "AMLODIPINE",
+      "class": "CCB",
+      "n_signals": 422,
+      "pct_female": 50.5
+    },
+    {
+      "drug": "NEBIVOLOL",
+      "class": "BB",
+      "n_signals": 38,
+      "pct_female": 50.0
+    },
+    {
+      "drug": "CHLORTHALIDONE",
+      "class": "Diuretic",
+      "n_signals": 2,
+      "pct_female": 50.0
+    },
+    {
+      "drug": "SPIRONOLACTONE",
+      "class": "Diuretic",
+      "n_signals": 162,
+      "pct_female": 50.0
+    },
+    {
+      "drug": "VALSARTAN",
+      "class": "ARB",
+      "n_signals": 219,
+      "pct_female": 49.3
+    },
+    {
+      "drug": "OLMESARTAN",
+      "class": "ARB",
+      "n_signals": 67,
+      "pct_female": 49.3
+    },
+    {
+      "drug": "LOSARTAN",
+      "class": "ARB",
+      "n_signals": 130,
+      "pct_female": 49.2
+    },
+    {
+      "drug": "DOXAZOSIN",
+      "class": "Alpha-blocker",
+      "n_signals": 51,
+      "pct_female": 47.1
+    },
+    {
+      "drug": "IRBESARTAN",
+      "class": "ARB",
+      "n_signals": 97,
+      "pct_female": 43.3
+    },
+    {
+      "drug": "VERAPAMIL",
+      "class": "CCB",
+      "n_signals": 62,
+      "pct_female": 41.9
+    },
+    {
+      "drug": "HYDROCHLOROTHIAZIDE",
+      "class": "Diuretic",
+      "n_signals": 171,
+      "pct_female": 40.9
+    },
+    {
+      "drug": "PRAZOSIN",
+      "class": "Alpha-blocker",
+      "n_signals": 9,
+      "pct_female": 33.3
+    },
+    {
+      "drug": "NIFEDIPINE",
+      "class": "CCB",
+      "n_signals": 60,
+      "pct_female": 30.0
+    },
+    {
+      "drug": "PROPRANOLOL",
+      "class": "BB",
+      "n_signals": 123,
+      "pct_female": 27.6
+    },
+    {
+      "drug": "QUINAPRIL",
+      "class": "ACEi",
+      "n_signals": 15,
+      "pct_female": 26.7
+    },
+    {
+      "drug": "TORSEMIDE",
+      "class": "Diuretic",
+      "n_signals": 4,
+      "pct_female": 25.0
+    },
+    {
+      "drug": "NADOLOL",
+      "class": "BB",
+      "n_signals": 12,
+      "pct_female": 25.0
+    },
+    {
+      "drug": "CAPTOPRIL",
+      "class": "ACEi",
+      "n_signals": 20,
+      "pct_female": 20.0
+    },
+    {
+      "drug": "LABETALOL",
+      "class": "BB",
+      "n_signals": 22,
+      "pct_female": 18.2
+    },
+    {
+      "drug": "FELODIPINE",
+      "class": "CCB",
+      "n_signals": 79,
+      "pct_female": 7.6
+    },
+    {
+      "drug": "AZILSARTAN",
+      "class": "ARB",
+      "n_signals": 1,
+      "pct_female": 0.0
+    }
+  ],
+  "per_class": [
+    {
+      "class": "ACEi",
+      "n_drugs": 9,
+      "n_signals": 871,
+      "pct_female": 72.4
+    },
+    {
+      "class": "BB",
+      "n_drugs": 8,
+      "n_signals": 957,
+      "pct_female": 52.6
+    },
+    {
+      "class": "Diuretic",
+      "n_drugs": 7,
+      "n_signals": 823,
+      "pct_female": 52.5
+    },
+    {
+      "class": "Alpha-blocker",
+      "n_drugs": 3,
+      "n_signals": 66,
+      "pct_female": 50.0
+    },
+    {
+      "class": "ARB",
+      "n_drugs": 7,
+      "n_signals": 785,
+      "pct_female": 49.4
+    },
+    {
+      "class": "CCB",
+      "n_drugs": 6,
+      "n_signals": 821,
+      "pct_female": 48.0
+    }
+  ],
+  "ae_categories": [
+    {
+      "category": "Electrolyte",
+      "n": 42,
+      "pct_female": 81.0
+    },
+    {
+      "category": "Renal",
+      "n": 87,
+      "pct_female": 72.4
+    },
+    {
+      "category": "Bradycardia",
+      "n": 10,
+      "pct_female": 70.0
+    },
+    {
+      "category": "Other",
+      "n": 4002,
+      "pct_female": 55.1
+    },
+    {
+      "category": "Cough",
+      "n": 22,
+      "pct_female": 50.0
+    },
+    {
+      "category": "Oedema",
+      "n": 126,
+      "pct_female": 40.5
+    },
+    {
+      "category": "Hypotension",
+      "n": 34,
+      "pct_female": 29.4
+    }
+  ]
+}
