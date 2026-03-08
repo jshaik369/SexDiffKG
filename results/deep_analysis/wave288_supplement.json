@@ -1,0 +1,28 @@
+{
+  "wave": 288,
+  "title": "Supplement & OTC Drug Sex Bias",
+  "supp_signals": 2838,
+  "supp_pct_f": 50.6,
+  "classes": {
+    "Vitamin": {
+      "n": 602,
+      "pct_f": 44.9,
+      "n_drugs": 8
+    },
+    "Mineral": {
+      "n": 743,
+      "pct_f": 39.8,
+      "n_drugs": 8
+    },
+    "Supplement": {
+      "n": 77,
+      "pct_f": 27.3,
+      "n_drugs": 3
+    },
+    "OTC analgesic": {
+      "n": 1416,
+      "pct_f": 59.9,
+      "n_drugs": 5
+    }
+  }
+}

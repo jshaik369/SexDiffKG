@@ -1,0 +1,87 @@
+{
+  "wave": 286,
+  "title": "Polypharmacy Interaction Risk",
+  "n_divergent_pairs": 2014,
+  "top_divergent": [
+    {
+      "drug1": "RANITIDINE",
+      "drug2": "DOCETAXEL",
+      "overlap": 99,
+      "pct_f_1": 93.5,
+      "pct_f_2": 11.2,
+      "bias_diff": 82.3
+    },
+    {
+      "drug1": "RISPERIDONE",
+      "drug2": "DOCETAXEL",
+      "overlap": 128,
+      "pct_f_1": 92.9,
+      "pct_f_2": 11.2,
+      "bias_diff": 81.7
+    },
+    {
+      "drug1": "RANITIDINE",
+      "drug2": "DUPILUMAB",
+      "overlap": 29,
+      "pct_f_1": 93.5,
+      "pct_f_2": 17.0,
+      "bias_diff": 76.6
+    },
+    {
+      "drug1": "DOCETAXEL",
+      "drug2": "SILDENAFIL",
+      "overlap": 103,
+      "pct_f_1": 11.2,
+      "pct_f_2": 87.5,
+      "bias_diff": 76.3
+    },
+    {
+      "drug1": "RISPERIDONE",
+      "drug2": "DUPILUMAB",
+      "overlap": 37,
+      "pct_f_1": 92.9,
+      "pct_f_2": 17.0,
+      "bias_diff": 75.9
+    },
+    {
+      "drug1": "OXYCODONE",
+      "drug2": "DOCETAXEL",
+      "overlap": 136,
+      "pct_f_1": 85.0,
+      "pct_f_2": 11.2,
+      "bias_diff": 73.8
+    },
+    {
+      "drug1": "DOCETAXEL",
+      "drug2": "LISINOPRIL",
+      "overlap": 93,
+      "pct_f_1": 11.2,
+      "pct_f_2": 84.5,
+      "bias_diff": 73.3
+    },
+    {
+      "drug1": "RANITIDINE",
+      "drug2": "LEVOTHYROXINE",
+      "overlap": 84,
+      "pct_f_1": 93.5,
+      "pct_f_2": 20.5,
+      "bias_diff": 73.0
+    },
+    {
+      "drug1": "RISPERIDONE",
+      "drug2": "LEVOTHYROXINE",
+      "overlap": 150,
+      "pct_f_1": 92.9,
+      "pct_f_2": 20.5,
+      "bias_diff": 72.4
+    },
+    {
+      "drug1": "MORPHINE",
+      "drug2": "DOCETAXEL",
+      "overlap": 119,
+      "pct_f_1": 83.4,
+      "pct_f_2": 11.2,
+      "bias_diff": 72.3
+    }
+  ]
+}
