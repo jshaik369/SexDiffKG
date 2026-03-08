@@ -1,0 +1,1242 @@
+{
+  "wave": 237,
+  "title": "Rare vs Common AE Sex Bias",
+  "total_aes": 5069,
+  "prevalence_categories": [
+    {
+      "category": "Rare (1-3 drugs)",
+      "n_aes": 2425,
+      "pct_female": 45.9,
+      "mean_abs_logr": 0.9315
+    },
+    {
+      "category": "Uncommon (4-20)",
+      "n_aes": 1598,
+      "pct_female": 49.6,
+      "mean_abs_logr": 0.9473
+    },
+    {
+      "category": "Common (21-100)",
+      "n_aes": 805,
+      "pct_female": 51.8,
+      "mean_abs_logr": 0.966
+    },
+    {
+      "category": "Very common (100+)",
+      "n_aes": 241,
+      "pct_female": 57.4,
+      "mean_abs_logr": 1.0222
+    }
+  ],
+  "n_drugs_vs_pct_f": {
+    "rho": 0.08,
+    "p": 1.3898350327045955e-08
+  },
+  "very_common_aes": [
+    {
+      "ae": "Drug ineffective",
+      "n_drugs": 501,
+      "pct_female": 37.7
+    },
+    {
+      "ae": "Off label use",
+      "n_drugs": 445,
+      "pct_female": 50.8
+    },
+    {
+      "ae": "Condition aggravated",
+      "n_drugs": 392,
+      "pct_female": 33.7
+    },
+    {
+      "ae": "Vomiting",
+      "n_drugs": 362,
+      "pct_female": 48.9
+    },
+    {
+      "ae": "Dyspnoea",
+      "n_drugs": 349,
+      "pct_female": 51.9
+    },
+    {
+      "ae": "Nausea",
+      "n_drugs": 339,
+      "pct_female": 39.5
+    },
+    {
+      "ae": "Death",
+      "n_drugs": 337,
+      "pct_female": 74.5
+    },
+    {
+      "ae": "Fatigue",
+      "n_drugs": 332,
+      "pct_female": 66.3
+    },
+    {
+      "ae": "Headache",
+      "n_drugs": 327,
+      "pct_female": 50.2
+    },
+    {
+      "ae": "Pain",
+      "n_drugs": 327,
+      "pct_female": 69.4
+    },
+    {
+      "ae": "Pyrexia",
+      "n_drugs": 322,
+      "pct_female": 68.6
+    },
+    {
+      "ae": "Hypertension",
+      "n_drugs": 313,
+      "pct_female": 66.1
+    },
+    {
+      "ae": "Product use in unapproved indication",
+      "n_drugs": 304,
+      "pct_female": 50.7
+    },
+    {
+      "ae": "Rash",
+      "n_drugs": 301,
+      "pct_female": 73.4
+    },
+    {
+      "ae": "Drug hypersensitivity",
+      "n_drugs": 299,
+      "pct_female": 46.2
+    },
+    {
+      "ae": "Diarrhoea",
+      "n_drugs": 296,
+      "pct_female": 68.6
+    },
+    {
+      "ae": "Dizziness",
+      "n_drugs": 289,
+      "pct_female": 55.4
+    },
+    {
+      "ae": "Hypersensitivity",
+      "n_drugs": 281,
+      "pct_female": 47.3
+    },
+    {
+      "ae": "Drug intolerance",
+      "n_drugs": 279,
+      "pct_female": 44.8
+    },
+    {
+      "ae": "Malaise",
+      "n_drugs": 275,
+      "pct_female": 54.9
+    },
+    {
+      "ae": "Hypotension",
+      "n_drugs": 274,
+      "pct_female": 81.0
+    },
+    {
+      "ae": "Acute kidney injury",
+      "n_drugs": 267,
+      "pct_female": 71.5
+    },
+    {
+      "ae": "Pneumonia",
+      "n_drugs": 267,
+      "pct_female": 73.0
+    },
+    {
+      "ae": "Asthenia",
+      "n_drugs": 266,
+      "pct_female": 73.7
+    },
+    {
+      "ae": "Weight decreased",
+      "n_drugs": 261,
+      "pct_female": 79.7
+    },
+    {
+      "ae": "Abdominal pain",
+      "n_drugs": 261,
+      "pct_female": 46.4
+    },
+    {
+      "ae": "Anxiety",
+      "n_drugs": 260,
+      "pct_female": 41.9
+    },
+    {
+      "ae": "Product use issue",
+      "n_drugs": 256,
+      "pct_female": 55.9
+    },
+    {
+      "ae": "Toxicity to various agents",
+      "n_drugs": 255,
+      "pct_female": 70.2
+    },
+    {
+      "ae": "Fall",
+      "n_drugs": 250,
+      "pct_female": 58.8
+    },
+    {
+      "ae": "Constipation",
+      "n_drugs": 246,
+      "pct_female": 56.1
+    },
+    {
+      "ae": "Pruritus",
+      "n_drugs": 244,
+      "pct_female": 64.8
+    },
+    {
+      "ae": "Decreased appetite",
+      "n_drugs": 243,
+      "pct_female": 77.4
+    },
+    {
+      "ae": "Drug interaction",
+      "n_drugs": 243,
+      "pct_female": 80.2
+    },
+    {
+      "ae": "Anaemia",
+      "n_drugs": 242,
+      "pct_female": 65.3
+    },
+    {
+      "ae": "Overdose",
+      "n_drugs": 241,
+      "pct_female": 81.7
+    },
+    {
+      "ae": "General physical health deterioration",
+      "n_drugs": 239,
+      "pct_female": 61.5
+    },
+    {
+      "ae": "Therapeutic product effect incomplete",
+      "n_drugs": 238,
+      "pct_female": 46.2
+    },
+    {
+      "ae": "Arthralgia",
+      "n_drugs": 238,
+      "pct_female": 57.6
+    },
+    {
+      "ae": "Weight increased",
+      "n_drugs": 237,
+      "pct_female": 60.3
+    },
+    {
+      "ae": "Pain in extremity",
+      "n_drugs": 235,
+      "pct_female": 33.2
+    },
+    {
+      "ae": "Confusional state",
+      "n_drugs": 234,
+      "pct_female": 65.4
+    },
+    {
+      "ae": "Treatment failure",
+      "n_drugs": 233,
+      "pct_female": 45.9
+    },
+    {
+      "ae": "Abdominal discomfort",
+      "n_drugs": 229,
+      "pct_female": 62.4
+    },
+    {
+      "ae": "Insomnia",
+      "n_drugs": 224,
+      "pct_female": 46.9
+    },
+    {
+      "ae": "Erythema",
+      "n_drugs": 222,
+      "pct_female": 40.5
+    },
+    {
+      "ae": "Cough",
+      "n_drugs": 220,
+      "pct_female": 51.4
+    },
+    {
+      "ae": "Urticaria",
+      "n_drugs": 219,
+      "pct_female": 53.4
+    },
+    {
+      "ae": "Thrombocytopenia",
+      "n_drugs": 217,
+      "pct_female": 79.3
+    },
+    {
+      "ae": "Asthma",
+      "n_drugs": 217,
+      "pct_female": 47.0
+    },
+    {
+      "ae": "Oedema peripheral",
+      "n_drugs": 214,
+      "pct_female": 68.7
+    },
+    {
+      "ae": "Depression",
+      "n_drugs": 214,
+      "pct_female": 56.1
+    },
+    {
+      "ae": "Somnolence",
+      "n_drugs": 213,
+      "pct_female": 38.5
+    },
+    {
+      "ae": "Sleep disorder",
+      "n_drugs": 212,
+      "pct_female": 42.0
+    },
+    {
+      "ae": "Cardiac arrest",
+      "n_drugs": 210,
+      "pct_female": 84.8
+    },
+    {
+      "ae": "Swelling",
+      "n_drugs": 209,
+      "pct_female": 42.1
+    },
+    {
+      "ae": "Gastrointestinal disorder",
+      "n_drugs": 209,
+      "pct_female": 58.9
+    },
+    {
+      "ae": "Abdominal pain upper",
+      "n_drugs": 209,
+      "pct_female": 64.6
+    },
+    {
+      "ae": "Adverse drug reaction",
+      "n_drugs": 206,
+      "pct_female": 93.7
+    },
+    {
+      "ae": "Musculoskeletal stiffness",
+      "n_drugs": 206,
+      "pct_female": 47.1
+    },
+    {
+      "ae": "Foetal exposure during pregnancy",
+      "n_drugs": 203,
+      "pct_female": 65.0
+    },
+    {
+      "ae": "Sepsis",
+      "n_drugs": 202,
+      "pct_female": 48.5
+    },
+    {
+      "ae": "Renal failure",
+      "n_drugs": 202,
+      "pct_female": 78.7
+    },
+    {
+      "ae": "Alopecia",
+      "n_drugs": 198,
+      "pct_female": 32.3
+    },
+    {
+      "ae": "Hypoaesthesia",
+      "n_drugs": 197,
+      "pct_female": 48.7
+    },
+    {
+      "ae": "Paraesthesia",
+      "n_drugs": 197,
+      "pct_female": 40.6
+    },
+    {
+      "ae": "Pulmonary embolism",
+      "n_drugs": 196,
+      "pct_female": 22.4
+    },
+    {
+      "ae": "Gait disturbance",
+      "n_drugs": 193,
+      "pct_female": 49.2
+    },
+    {
+      "ae": "Hyponatraemia",
+      "n_drugs": 193,
+      "pct_female": 57.5
+    },
+    {
+      "ae": "Multiple organ dysfunction syndrome",
+      "n_drugs": 192,
+      "pct_female": 67.2
+    },
+    {
+      "ae": "Chest pain",
+      "n_drugs": 192,
+      "pct_female": 62.0
+    },
+    {
+      "ae": "Respiratory failure",
+      "n_drugs": 192,
+      "pct_female": 67.7
+    },
+    {
+      "ae": "Intentional product misuse",
+      "n_drugs": 188,
+      "pct_female": 22.9
+    },
+    {
+      "ae": "Infection",
+      "n_drugs": 184,
+      "pct_female": 60.9
+    },
+    {
+      "ae": "Cardiac failure",
+      "n_drugs": 184,
+      "pct_female": 79.9
+    },
+    {
+      "ae": "Myocardial infarction",
+      "n_drugs": 182,
+      "pct_female": 82.4
+    },
+    {
+      "ae": "Hepatic enzyme increased",
+      "n_drugs": 181,
+      "pct_female": 61.3
+    },
+    {
+      "ae": "Wheezing",
+      "n_drugs": 181,
+      "pct_female": 56.4
+    },
+    {
+      "ae": "Back pain",
+      "n_drugs": 181,
+      "pct_female": 45.9
+    },
+    {
+      "ae": "Dry mouth",
+      "n_drugs": 180,
+      "pct_female": 45.6
+    },
+    {
+      "ae": "Atrial fibrillation",
+      "n_drugs": 180,
+      "pct_female": 62.8
+    },
+    {
+      "ae": "Abdominal distension",
+      "n_drugs": 178,
+      "pct_female": 34.8
+    },
+    {
+      "ae": "Blood creatinine increased",
+      "n_drugs": 178,
+      "pct_female": 78.1
+    },
+    {
+      "ae": "Dysphagia",
+      "n_drugs": 177,
+      "pct_female": 68.4
+    },
+    {
+      "ae": "Renal impairment",
+      "n_drugs": 177,
+      "pct_female": 81.4
+    },
+    {
+      "ae": "Loss of personal independence in daily activities",
+      "n_drugs": 177,
+      "pct_female": 32.2
+    },
+    {
+      "ae": "Drug abuse",
+      "n_drugs": 176,
+      "pct_female": 80.1
+    },
+    {
+      "ae": "Muscle spasms",
+      "n_drugs": 176,
+      "pct_female": 53.4
+    },
+    {
+      "ae": "Nasopharyngitis",
+      "n_drugs": 174,
+      "pct_female": 52.3
+    },
+    {
+      "ae": "Urinary tract infection",
+      "n_drugs": 172,
+      "pct_female": 34.9
+    },
+    {
+      "ae": "Tachycardia",
+      "n_drugs": 172,
+      "pct_female": 58.1
+    },
+    {
+      "ae": "Haemorrhage",
+      "n_drugs": 170,
+      "pct_female": 84.7
+    },
+    {
+      "ae": "Lung disorder",
+      "n_drugs": 170,
+      "pct_female": 53.5
+    },
+    {
+      "ae": "Hyperhidrosis",
+      "n_drugs": 170,
+      "pct_female": 45.3
+    },
+    {
+      "ae": "Joint swelling",
+      "n_drugs": 169,
+      "pct_female": 51.5
+    },
+    {
+      "ae": "Muscular weakness",
+      "n_drugs": 168,
+      "pct_female": 61.9
+    },
+    {
+      "ae": "Chest discomfort",
+      "n_drugs": 165,
+      "pct_female": 32.1
+    },
+    {
+      "ae": "Mobility decreased",
+      "n_drugs": 162,
+      "pct_female": 57.4
+    },
+    {
+      "ae": "Feeling abnormal",
+      "n_drugs": 162,
+      "pct_female": 37.0
+    },
+    {
+      "ae": "Dyspepsia",
+      "n_drugs": 160,
+      "pct_female": 65.6
+    },
+    {
+      "ae": "Gastrooesophageal reflux disease",
+      "n_drugs": 160,
+      "pct_female": 62.5
+    },
+    {
+      "ae": "Peripheral swelling",
+      "n_drugs": 159,
+      "pct_female": 66.7
+    },
+    {
+      "ae": "Contraindicated product administered",
+      "n_drugs": 158,
+      "pct_female": 48.7
+    },
+    {
+      "ae": "Lower respiratory tract infection",
+      "n_drugs": 158,
+      "pct_female": 48.7
+    },
+    {
+      "ae": "Inflammation",
+      "n_drugs": 156,
+      "pct_female": 46.8
+    },
+    {
+      "ae": "Stress",
+      "n_drugs": 156,
+      "pct_female": 13.5
+    },
+    {
+      "ae": "Tremor",
+      "n_drugs": 155,
+      "pct_female": 47.1
+    },
+    {
+      "ae": "Septic shock",
+      "n_drugs": 155,
+      "pct_female": 86.5
+    },
+    {
+      "ae": "Blood pressure increased",
+      "n_drugs": 155,
+      "pct_female": 58.7
+    },
+    {
+      "ae": "Hyperkalaemia",
+      "n_drugs": 154,
+      "pct_female": 89.0
+    },
+    {
+      "ae": "Discomfort",
+      "n_drugs": 154,
+      "pct_female": 43.5
+    },
+    {
+      "ae": "Memory impairment",
+      "n_drugs": 154,
+      "pct_female": 51.9
+    },
+    {
+      "ae": "Dehydration",
+      "n_drugs": 154,
+      "pct_female": 70.1
+    },
+    {
+      "ae": "Migraine",
+      "n_drugs": 153,
+      "pct_female": 25.5
+    },
+    {
+      "ae": "Palpitations",
+      "n_drugs": 153,
+      "pct_female": 18.3
+    },
+    {
+      "ae": "Bradycardia",
+      "n_drugs": 152,
+      "pct_female": 61.2
+    },
+    {
+      "ae": "Coma",
+      "n_drugs": 151,
+      "pct_female": 72.2
+    },
+    {
+      "ae": "COVID-19",
+      "n_drugs": 151,
+      "pct_female": 19.2
+    },
+    {
+      "ae": "Cerebrovascular accident",
+      "n_drugs": 151,
+      "pct_female": 64.9
+    },
+    {
+      "ae": "Hallucination",
+      "n_drugs": 151,
+      "pct_female": 81.5
+    },
+    {
+      "ae": "Premature baby",
+      "n_drugs": 149,
+      "pct_female": 61.1
+    },
+    {
+      "ae": "Intentional product use issue",
+      "n_drugs": 149,
+      "pct_female": 68.5
+    },
+    {
+      "ae": "Chills",
+      "n_drugs": 147,
+      "pct_female": 38.8
+    },
+    {
+      "ae": "Treatment noncompliance",
+      "n_drugs": 147,
+      "pct_female": 87.8
+    },
+    {
+      "ae": "Seizure",
+      "n_drugs": 147,
+      "pct_female": 61.2
+    },
+    {
+      "ae": "Completed suicide",
+      "n_drugs": 147,
+      "pct_female": 61.9
+    },
+    {
+      "ae": "Sinusitis",
+      "n_drugs": 145,
+      "pct_female": 44.8
+    },
+    {
+      "ae": "Skin exfoliation",
+      "n_drugs": 144,
+      "pct_female": 20.8
+    },
+    {
+      "ae": "Pleural effusion",
+      "n_drugs": 143,
+      "pct_female": 60.1
+    },
+    {
+      "ae": "Loss of consciousness",
+      "n_drugs": 142,
+      "pct_female": 69.0
+    },
+    {
+      "ae": "Productive cough",
+      "n_drugs": 142,
+      "pct_female": 28.9
+    },
+    {
+      "ae": "Alanine aminotransferase increased",
+      "n_drugs": 142,
+      "pct_female": 83.1
+    },
+    {
+      "ae": "Neutropenia",
+      "n_drugs": 142,
+      "pct_female": 59.2
+    },
+    {
+      "ae": "Cardio-respiratory arrest",
+      "n_drugs": 141,
+      "pct_female": 77.3
+    },
+    {
+      "ae": "Oedema",
+      "n_drugs": 141,
+      "pct_female": 68.8
+    },
+    {
+      "ae": "Pancytopenia",
+      "n_drugs": 141,
+      "pct_female": 71.6
+    },
+    {
+      "ae": "Myalgia",
+      "n_drugs": 141,
+      "pct_female": 55.3
+    },
+    {
+      "ae": "Thrombosis",
+      "n_drugs": 140,
+      "pct_female": 37.1
+    },
+    {
+      "ae": "Hypokalaemia",
+      "n_drugs": 140,
+      "pct_female": 75.7
+    },
+    {
+      "ae": "Pulmonary oedema",
+      "n_drugs": 140,
+      "pct_female": 45.0
+    },
+    {
+      "ae": "Visual impairment",
+      "n_drugs": 138,
+      "pct_female": 56.5
+    },
+    {
+      "ae": "Upper respiratory tract infection",
+      "n_drugs": 138,
+      "pct_female": 42.8
+    },
+    {
+      "ae": "Liver disorder",
+      "n_drugs": 137,
+      "pct_female": 67.2
+    },
+    {
+      "ae": "Bronchitis",
+      "n_drugs": 137,
+      "pct_female": 26.3
+    },
+    {
+      "ae": "C-reactive protein increased",
+      "n_drugs": 136,
+      "pct_female": 64.0
+    },
+    {
+      "ae": "Drug ineffective for unapproved indication",
+      "n_drugs": 136,
+      "pct_female": 39.0
+    },
+    {
+      "ae": "Vertigo",
+      "n_drugs": 136,
+      "pct_female": 21.3
+    },
+    {
+      "ae": "Hypoxia",
+      "n_drugs": 136,
+      "pct_female": 52.9
+    },
+    {
+      "ae": "Contusion",
+      "n_drugs": 135,
+      "pct_female": 72.6
+    },
+    {
+      "ae": "Febrile neutropenia",
+      "n_drugs": 135,
+      "pct_female": 68.9
+    },
+    {
+      "ae": "Haemoglobin decreased",
+      "n_drugs": 135,
+      "pct_female": 68.9
+    },
+    {
+      "ae": "Drug-induced liver injury",
+      "n_drugs": 135,
+      "pct_female": 77.8
+    },
+    {
+      "ae": "Haematuria",
+      "n_drugs": 134,
+      "pct_female": 93.3
+    },
+    {
+      "ae": "Hepatic function abnormal",
+      "n_drugs": 132,
+      "pct_female": 80.3
+    },
+    {
+      "ae": "Arthropathy",
+      "n_drugs": 132,
+      "pct_female": 47.0
+    },
+    {
+      "ae": "Aspartate aminotransferase increased",
+      "n_drugs": 131,
+      "pct_female": 61.1
+    },
+    {
+      "ae": "Drug resistance",
+      "n_drugs": 130,
+      "pct_female": 80.8
+    },
+    {
+      "ae": "Platelet count decreased",
+      "n_drugs": 130,
+      "pct_female": 58.5
+    },
+    {
+      "ae": "Syncope",
+      "n_drugs": 129,
+      "pct_female": 57.4
+    },
+    {
+      "ae": "Anaphylactic reaction",
+      "n_drugs": 128,
+      "pct_female": 49.2
+    },
+    {
+      "ae": "Type 2 diabetes mellitus",
+      "n_drugs": 127,
+      "pct_female": 35.4
+    },
+    {
+      "ae": "Blister",
+      "n_drugs": 127,
+      "pct_female": 71.7
+    },
+    {
+      "ae": "Product dose omission issue",
+      "n_drugs": 126,
+      "pct_female": 38.9
+    },
+    {
+      "ae": "Delirium",
+      "n_drugs": 125,
+      "pct_female": 88.0
+    },
+    {
+      "ae": "Disease progression",
+      "n_drugs": 125,
+      "pct_female": 67.2
+    },
+    {
+      "ae": "Interstitial lung disease",
+      "n_drugs": 124,
+      "pct_female": 59.7
+    },
+    {
+      "ae": "Heart rate increased",
+      "n_drugs": 124,
+      "pct_female": 28.2
+    },
+    {
+      "ae": "Urinary retention",
+      "n_drugs": 124,
+      "pct_female": 79.0
+    },
+    {
+      "ae": "Depressed level of consciousness",
+      "n_drugs": 124,
+      "pct_female": 74.2
+    },
+    {
+      "ae": "Rhabdomyolysis",
+      "n_drugs": 123,
+      "pct_female": 78.9
+    },
+    {
+      "ae": "Diabetes mellitus",
+      "n_drugs": 122,
+      "pct_female": 39.3
+    },
+    {
+      "ae": "Medication error",
+      "n_drugs": 122,
+      "pct_female": 72.1
+    },
+    {
+      "ae": "Therapy non-responder",
+      "n_drugs": 122,
+      "pct_female": 65.6
+    },
+    {
+      "ae": "Blood cholesterol increased",
+      "n_drugs": 122,
+      "pct_female": 47.5
+    },
+    {
+      "ae": "Electrocardiogram QT prolonged",
+      "n_drugs": 122,
+      "pct_female": 68.9
+    },
+    {
+      "ae": "Angioedema",
+      "n_drugs": 121,
+      "pct_female": 89.3
+    },
+    {
+      "ae": "Vision blurred",
+      "n_drugs": 120,
+      "pct_female": 39.2
+    },
+    {
+      "ae": "Transaminases increased",
+      "n_drugs": 120,
+      "pct_female": 62.5
+    },
+    {
+      "ae": "Therapeutic product effect decreased",
+      "n_drugs": 119,
+      "pct_female": 52.9
+    },
+    {
+      "ae": "Intentional overdose",
+      "n_drugs": 118,
+      "pct_female": 51.7
+    },
+    {
+      "ae": "Balance disorder",
+      "n_drugs": 118,
+      "pct_female": 41.5
+    },
+    {
+      "ae": "Influenza",
+      "n_drugs": 118,
+      "pct_female": 40.7
+    },
+    {
+      "ae": "Neck pain",
+      "n_drugs": 118,
+      "pct_female": 48.3
+    },
+    {
+      "ae": "Inappropriate schedule of product administration",
+      "n_drugs": 118,
+      "pct_female": 28.8
+    },
+    {
+      "ae": "Hot flush",
+      "n_drugs": 117,
+      "pct_female": 81.2
+    },
+    {
+      "ae": "Drug dependence",
+      "n_drugs": 117,
+      "pct_female": 75.2
+    },
+    {
+      "ae": "Rectal haemorrhage",
+      "n_drugs": 117,
+      "pct_female": 79.5
+    },
+    {
+      "ae": "Liver injury",
+      "n_drugs": 116,
+      "pct_female": 66.4
+    },
+    {
+      "ae": "Chronic obstructive pulmonary disease",
+      "n_drugs": 116,
+      "pct_female": 31.9
+    },
+    {
+      "ae": "Eosinophilia",
+      "n_drugs": 116,
+      "pct_female": 58.6
+    },
+    {
+      "ae": "Arthritis",
+      "n_drugs": 115,
+      "pct_female": 43.5
+    },
+    {
+      "ae": "Deep vein thrombosis",
+      "n_drugs": 113,
+      "pct_female": 31.9
+    },
+    {
+      "ae": "Eye pain",
+      "n_drugs": 112,
+      "pct_female": 33.9
+    },
+    {
+      "ae": "Agitation",
+      "n_drugs": 112,
+      "pct_female": 75.0
+    },
+    {
+      "ae": "Pneumonia aspiration",
+      "n_drugs": 112,
+      "pct_female": 77.7
+    },
+    {
+      "ae": "Wound",
+      "n_drugs": 111,
+      "pct_female": 40.5
+    },
+    {
+      "ae": "Cardiac disorder",
+      "n_drugs": 110,
+      "pct_female": 66.4
+    },
+    {
+      "ae": "Blood glucose increased",
+      "n_drugs": 110,
+      "pct_female": 54.5
+    },
+    {
+      "ae": "Hypoglycaemia",
+      "n_drugs": 110,
+      "pct_female": 80.9
+    },
+    {
+      "ae": "Musculoskeletal pain",
+      "n_drugs": 110,
+      "pct_female": 60.9
+    },
+    {
+      "ae": "Stomatitis",
+      "n_drugs": 110,
+      "pct_female": 56.4
+    },
+    {
+      "ae": "Fungal infection",
+      "n_drugs": 110,
+      "pct_female": 19.1
+    },
+    {
+      "ae": "Tinnitus",
+      "n_drugs": 109,
+      "pct_female": 33.9
+    },
+    {
+      "ae": "Pancreatitis",
+      "n_drugs": 109,
+      "pct_female": 72.5
+    },
+    {
+      "ae": "Blood pressure decreased",
+      "n_drugs": 109,
+      "pct_female": 62.4
+    },
+    {
+      "ae": "Psoriasis",
+      "n_drugs": 109,
+      "pct_female": 75.2
+    },
+    {
+      "ae": "Neuropathy peripheral",
+      "n_drugs": 109,
+      "pct_female": 65.1
+    },
+    {
+      "ae": "Dry skin",
+      "n_drugs": 108,
+      "pct_female": 22.2
+    },
+    {
+      "ae": "Swelling face",
+      "n_drugs": 108,
+      "pct_female": 39.8
+    },
+    {
+      "ae": "No adverse event",
+      "n_drugs": 108,
+      "pct_female": 31.5
+    },
+    {
+      "ae": "Cognitive disorder",
+      "n_drugs": 108,
+      "pct_female": 57.4
+    },
+    {
+      "ae": "Dysarthria",
+      "n_drugs": 107,
+      "pct_female": 56.1
+    },
+    {
+      "ae": "Osteoporosis",
+      "n_drugs": 107,
+      "pct_female": 78.5
+    },
+    {
+      "ae": "Leukopenia",
+      "n_drugs": 107,
+      "pct_female": 50.5
+    },
+    {
+      "ae": "Amnesia",
+      "n_drugs": 107,
+      "pct_female": 64.5
+    },
+    {
+      "ae": "Rheumatoid arthritis",
+      "n_drugs": 107,
+      "pct_female": 56.1
+    },
+    {
+      "ae": "Dysuria",
+      "n_drugs": 107,
+      "pct_female": 68.2
+    },
+    {
+      "ae": "Hepatitis",
+      "n_drugs": 107,
+      "pct_female": 76.6
+    },
+    {
+      "ae": "Drug reaction with eosinophilia and systemic symptoms",
+      "n_drugs": 107,
+      "pct_female": 68.2
+    },
+    {
+      "ae": "Gait inability",
+      "n_drugs": 107,
+      "pct_female": 55.1
+    },
+    {
+      "ae": "Cholestasis",
+      "n_drugs": 106,
+      "pct_female": 77.4
+    },
+    {
+      "ae": "Cardiac failure congestive",
+      "n_drugs": 106,
+      "pct_female": 73.6
+    },
+    {
+      "ae": "Pulmonary fibrosis",
+      "n_drugs": 106,
+      "pct_female": 56.6
+    },
+    {
+      "ae": "Metabolic acidosis",
+      "n_drugs": 105,
+      "pct_female": 60.0
+    },
+    {
+      "ae": "Suicide attempt",
+      "n_drugs": 105,
+      "pct_female": 51.4
+    },
+    {
+      "ae": "Haemoptysis",
+      "n_drugs": 105,
+      "pct_female": 53.3
+    },
+    {
+      "ae": "Blood creatine phosphokinase increased",
+      "n_drugs": 105,
+      "pct_female": 94.3
+    },
+    {
+      "ae": "Rhinorrhoea",
+      "n_drugs": 105,
+      "pct_female": 62.9
+    },
+    {
+      "ae": "Hepatocellular injury",
+      "n_drugs": 104,
+      "pct_female": 76.0
+    },
+    {
+      "ae": "Ascites",
+      "n_drugs": 104,
+      "pct_female": 48.1
+    },
+    {
+      "ae": "Gastrointestinal haemorrhage",
+      "n_drugs": 104,
+      "pct_female": 83.7
+    },
+    {
+      "ae": "Night sweats",
+      "n_drugs": 104,
+      "pct_female": 52.9
+    },
+    {
+      "ae": "Epistaxis",
+      "n_drugs": 103,
+      "pct_female": 62.1
+    },
+    {
+      "ae": "Acne",
+      "n_drugs": 103,
+      "pct_female": 7.8
+    },
+    {
+      "ae": "Respiratory disorder",
+      "n_drugs": 103,
+      "pct_female": 59.2
+    },
+    {
+      "ae": "Toxic epidermal necrolysis",
+      "n_drugs": 102,
+      "pct_female": 58.8
+    },
+    {
+      "ae": "Rash erythematous",
+      "n_drugs": 102,
+      "pct_female": 41.2
+    },
+    {
+      "ae": "Lymphadenopathy",
+      "n_drugs": 102,
+      "pct_female": 27.5
+    },
+    {
+      "ae": "Dysphonia",
+      "n_drugs": 101,
+      "pct_female": 49.5
+    },
+    {
+      "ae": "Ill-defined disorder",
+      "n_drugs": 101,
+      "pct_female": 58.4
+    },
+    {
+      "ae": "Hypothyroidism",
+      "n_drugs": 101,
+      "pct_female": 51.5
+    }
+  ]
+}

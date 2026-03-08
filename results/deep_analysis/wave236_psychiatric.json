@@ -1,0 +1,46 @@
+{
+  "wave": 236,
+  "title": "Psychiatric Drug Deep Dive",
+  "psych_signals": 7015,
+  "psych_drugs": 44,
+  "classes": {
+    "Antipsychotic": {
+      "n": 2583,
+      "pct_f": 64.4,
+      "n_drugs": 14
+    },
+    "SSRI": {
+      "n": 1176,
+      "pct_f": 42.2,
+      "n_drugs": 6
+    },
+    "SNRI": {
+      "n": 537,
+      "pct_f": 39.5,
+      "n_drugs": 5
+    },
+    "Anxiolytic": {
+      "n": 1352,
+      "pct_f": 65.5,
+      "n_drugs": 8
+    },
+    "Mood stabilizer": {
+      "n": 1027,
+      "pct_f": 46.4,
+      "n_drugs": 6
+    },
+    "TCA": {
+      "n": 340,
+      "pct_f": 47.9,
+      "n_drugs": 5
+    }
+  },
+  "sexual_dysfunction": {
+    "n": 56,
+    "pct_f": 80.4
+  },
+  "metabolic_aes": {
+    "n": 160,
+    "pct_f": 57.5
+  }
+}
