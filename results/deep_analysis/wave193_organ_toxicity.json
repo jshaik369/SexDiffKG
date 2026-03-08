@@ -1,0 +1,130 @@
+{
+  "wave": 193,
+  "title": "Organ System Toxicity Sex Differential",
+  "organs_analyzed": 15,
+  "per_organ": [
+    {
+      "organ": "Cardiovascular",
+      "n_aes": 248,
+      "n_signals": 5215,
+      "n_drugs": 985,
+      "pct_female": 61.6,
+      "mean_abs_logr": 0.9449
+    },
+    {
+      "organ": "Dermatological",
+      "n_aes": 166,
+      "n_signals": 4363,
+      "n_drugs": 894,
+      "pct_female": 43.8,
+      "mean_abs_logr": 0.9777
+    },
+    {
+      "organ": "Endocrine",
+      "n_aes": 70,
+      "n_signals": 1020,
+      "n_drugs": 383,
+      "pct_female": 54.1,
+      "mean_abs_logr": 1.1045
+    },
+    {
+      "organ": "Gastrointestinal",
+      "n_aes": 131,
+      "n_signals": 3880,
+      "n_drugs": 1079,
+      "pct_female": 55.3,
+      "mean_abs_logr": 1.0014
+    },
+    {
+      "organ": "Haematological",
+      "n_aes": 115,
+      "n_signals": 2477,
+      "n_drugs": 708,
+      "pct_female": 71.5,
+      "mean_abs_logr": 0.9043
+    },
+    {
+      "organ": "Hepatic",
+      "n_aes": 126,
+      "n_signals": 2749,
+      "n_drugs": 588,
+      "pct_female": 65.6,
+      "mean_abs_logr": 1.006
+    },
+    {
+      "organ": "Immune",
+      "n_aes": 61,
+      "n_signals": 1334,
+      "n_drugs": 651,
+      "pct_female": 58.4,
+      "mean_abs_logr": 0.9987
+    },
+    {
+      "organ": "Metabolic",
+      "n_aes": 42,
+      "n_signals": 2108,
+      "n_drugs": 749,
+      "pct_female": 65.8,
+      "mean_abs_logr": 1.0529
+    },
+    {
+      "organ": "Musculoskeletal",
+      "n_aes": 138,
+      "n_signals": 2915,
+      "n_drugs": 733,
+      "pct_female": 46.7,
+      "mean_abs_logr": 1.0169
+    },
+    {
+      "organ": "Neurological",
+      "n_aes": 115,
+      "n_signals": 2741,
+      "n_drugs": 942,
+      "pct_female": 56.6,
+      "mean_abs_logr": 0.8783
+    },
+    {
+      "organ": "Ocular",
+      "n_aes": 58,
+      "n_signals": 859,
+      "n_drugs": 379,
+      "pct_female": 39.6,
+      "mean_abs_logr": 0.8874
+    },
+    {
+      "organ": "Psychiatric",
+      "n_aes": 69,
+      "n_signals": 2872,
+      "n_drugs": 802,
+      "pct_female": 52.0,
+      "mean_abs_logr": 1.0057
+    },
+    {
+      "organ": "Renal",
+      "n_aes": 121,
+      "n_signals": 2500,
+      "n_drugs": 752,
+      "pct_female": 71.1,
+      "mean_abs_logr": 0.8917
+    },
+    {
+      "organ": "Reproductive",
+      "n_aes": 30,
+      "n_signals": 447,
+      "n_drugs": 294,
+      "pct_female": 53.5,
+      "mean_abs_logr": 1.2165
+    },
+    {
+      "organ": "Respiratory",
+      "n_aes": 139,
+      "n_signals": 4558,
+      "n_drugs": 990,
+      "pct_female": 54.2,
+      "mean_abs_logr": 1.0029
+    }
+  ],
+  "multi_organ_aes": 99,
+  "most_female_organ": "Haematological",
+  "most_male_organ": "Ocular"
+}
