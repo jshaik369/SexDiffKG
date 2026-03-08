@@ -1,0 +1,913 @@
+{
+  "wave": 280,
+  "version": 2,
+  "title": "Hormonal Drugs: HRT, Contraceptives, Reporting Paradox",
+  "description": "Sex bias analysis for hormonal drugs across 6 classes, with reporting paradox analysis for sex-specific drugs",
+  "overall_baseline": {
+    "total_signals": 96281,
+    "pct_female": 53.8
+  },
+  "hormonal_overall": {
+    "total_signals": 679,
+    "unique_drugs": 27,
+    "female_higher": 218,
+    "male_higher": 461,
+    "pct_female": 32.11,
+    "median_log_ratio": -0.7638,
+    "mean_log_ratio": -0.582
+  },
+  "hormonal_vs_baseline": {
+    "chi_square": 126.3822,
+    "p_value": "2.5362e-29",
+    "interpretation": "Hormonal drugs show significantly different sex bias than overall"
+  },
+  "hormonal_class_statistics": [
+    {
+      "hormonal_class": "androgens",
+      "total_signals": 49,
+      "unique_drugs": 3,
+      "female_higher": 36,
+      "male_higher": 13,
+      "pct_female": 73.47,
+      "median_log_ratio": 1.805,
+      "mean_log_ratio": 1.3232,
+      "strong_signals": 38,
+      "strong_female": 31,
+      "top_5_drugs": {
+        "TESTOSTERONE": 46,
+        "DANAZOL": 2,
+        "TESTOSTERONE CYPIONATE": 1
+      },
+      "top_10_female_biased_aes": [
+        {
+          "adverse_event": "Prostatic disorder",
+          "log_ratio": 8.869498849549007,
+          "n_reports": 46,
+          "ror": 7111.716040259621
+        },
+        {
+          "adverse_event": "Accidental exposure to product",
+          "log_ratio": 3.7473044591531632,
+          "n_reports": 412,
+          "ror": 42.40661902579796
+        },
+        {
+          "adverse_event": "Accidental exposure to product by child",
+          "log_ratio": 3.7000988313628587,
+          "n_reports": 50,
+          "ror": 40.45130201982508
+        },
+        {
+          "adverse_event": "Laceration",
+          "log_ratio": 3.413510273391146,
+          "n_reports": 47,
+          "ror": 30.371670223834055
+        },
+        {
+          "adverse_event": "Off label use",
+          "log_ratio": 3.233299734895912,
+          "n_reports": 64,
+          "ror": 25.363210914344982
+        },
+        {
+          "adverse_event": "Product use issue",
+          "log_ratio": 2.951041850218855,
+          "n_reports": 233,
+          "ror": 19.125869643203544
+        },
+        {
+          "adverse_event": "Blood testosterone increased",
+          "log_ratio": 2.774926277916429,
+          "n_reports": 678,
+          "ror": 16.037444638239403
+        },
+        {
+          "adverse_event": "Off label use",
+          "log_ratio": 2.7269770954052177,
+          "n_reports": 1027,
+          "ror": 15.28660715034055
+        },
+        {
+          "adverse_event": "Product availability issue",
+          "log_ratio": 2.6454378220906154,
+          "n_reports": 36,
+          "ror": 14.089612476505788
+        },
+        {
+          "adverse_event": "Idiopathic intracranial hypertension",
+          "log_ratio": 2.568658828109006,
+          "n_reports": 93,
+          "ror": 13.048312670233955
+        }
+      ],
+      "top_10_male_biased_aes": [
+        {
+          "adverse_event": "Cerebrovascular accident",
+          "log_ratio": -2.4065053695867817,
+          "n_reports": 2419,
+          "ror": 0.09012971490367172
+        },
+        {
+          "adverse_event": "Pulmonary embolism",
+          "log_ratio": -2.0794669627302214,
+          "n_reports": 2207,
+          "ror": 0.12499682240909082
+        },
+        {
+          "adverse_event": "Asthenia",
+          "log_ratio": -1.8757679729286785,
+          "n_reports": 1147,
+          "ror": 0.15323723959337038
+        },
+        {
+          "adverse_event": "Pain",
+          "log_ratio": -1.7442093355482369,
+          "n_reports": 1590,
+          "ror": 0.17478312915533717
+        },
+        {
+          "adverse_event": "Drug ineffective",
+          "log_ratio": -1.5475333313763135,
+          "n_reports": 2843,
+          "ror": 0.21277216548199196
+        },
+        {
+          "adverse_event": "Incorrect dose administered",
+          "log_ratio": -1.5106905098047199,
+          "n_reports": 872,
+          "ror": 0.22075749010687432
+        },
+        {
+          "adverse_event": "Drug ineffective",
+          "log_ratio": -1.1397770143288821,
+          "n_reports": 124,
+          "ror": 0.3198903448272291
+        },
+        {
+          "adverse_event": "Fatigue",
+          "log_ratio": -0.9713503604732705,
+          "n_reports": 1102,
+          "ror": 0.37857148482105657
+        },
+        {
+          "adverse_event": "Pain in extremity",
+          "log_ratio": -0.8609683980494578,
+          "n_reports": 330,
+          "ror": 0.42275249133819
+        },
+        {
+          "adverse_event": "Dyspnoea",
+          "log_ratio": -0.7676032968164997,
+          "n_reports": 539,
+          "ror": 0.46412410408570764
+        }
+      ]
+    },
+    {
+      "hormonal_class": "anti_androgens",
+      "total_signals": 190,
+      "unique_drugs": 8,
+      "female_higher": 102,
+      "male_higher": 88,
+      "pct_female": 53.68,
+      "median_log_ratio": 0.5669,
+      "mean_log_ratio": 0.2185,
+      "strong_signals": 74,
+      "strong_female": 45,
+      "top_5_drugs": {
+        "SPIRONOLACTONE": 162,
+        "FINASTERIDE": 15,
+        "CYPROTERONE": 4,
+        "DUTASTERIDE": 4,
+        "ALTIZIDE;SPIRONOLACTONE": 2
+      },
+      "top_10_female_biased_aes": [
+        {
+          "adverse_event": "Product prescribing issue",
+          "log_ratio": 5.088759044734165,
+          "n_reports": 132,
+          "ror": 162.18846848510535
+        },
+        {
+          "adverse_event": "Product use issue",
+          "log_ratio": 3.8732351525039945,
+          "n_reports": 78,
+          "ror": 48.0977381695499
+        },
+        {
+          "adverse_event": "Exposure via father",
+          "log_ratio": 3.8532285884731117,
+          "n_reports": 27,
+          "ror": 47.14502968040204
+        },
+        {
+          "adverse_event": "Product use issue",
+          "log_ratio": 3.4389084662389506,
+          "n_reports": 176,
+          "ror": 31.1529351225939
+        },
+        {
+          "adverse_event": "Fall",
+          "log_ratio": 3.2710503667812167,
+          "n_reports": 45,
+          "ror": 26.338990419425105
+        },
+        {
+          "adverse_event": "Sleep apnoea syndrome",
+          "log_ratio": 2.899730154276934,
+          "n_reports": 253,
+          "ror": 18.169241815675996
+        },
+        {
+          "adverse_event": "Therapeutic product effect incomplete",
+          "log_ratio": 2.737583722827606,
+          "n_reports": 300,
+          "ror": 15.449609420962549
+        },
+        {
+          "adverse_event": "No adverse event",
+          "log_ratio": 2.6465489909346394,
+          "n_reports": 59,
+          "ror": 14.105277116332157
+        },
+        {
+          "adverse_event": "Overdose",
+          "log_ratio": 2.549257805683543,
+          "n_reports": 66,
+          "ror": 12.7976019495647
+        },
+        {
+          "adverse_event": "Hypothyroidism",
+          "log_ratio": 2.4578360909112877,
+          "n_reports": 277,
+          "ror": 11.6795107760569
+        }
+      ],
+      "top_10_male_biased_aes": [
+        {
+          "adverse_event": "Malaise",
+          "log_ratio": -4.088963197997113,
+          "n_reports": 22,
+          "ror": 0.016756597829560935
+        },
+        {
+          "adverse_event": "Breast pain",
+          "log_ratio": -2.893161312656212,
+          "n_reports": 103,
+          "ror": 0.055400796246248905
+        },
+        {
+          "adverse_event": "Type 2 diabetes mellitus",
+          "log_ratio": -2.839847328832253,
+          "n_reports": 93,
+          "ror": 0.05843458656009156
+        },
+        {
+          "adverse_event": "Maternal exposure during pregnancy",
+          "log_ratio": -1.5952910937905873,
+          "n_reports": 115,
+          "ror": 0.20284947168579315
+        },
+        {
+          "adverse_event": "Alopecia",
+          "log_ratio": -1.5533986210641508,
+          "n_reports": 340,
+          "ror": 0.21152784780296746
+        },
+        {
+          "adverse_event": "Bronchitis",
+          "log_ratio": -1.53543722212837,
+          "n_reports": 92,
+          "ror": 0.21536150976447696
+        },
+        {
+          "adverse_event": "Depression",
+          "log_ratio": -1.5335907808613793,
+          "n_reports": 2550,
+          "ror": 0.21575952949036875
+        },
+        {
+          "adverse_event": "Rales",
+          "log_ratio": -1.5137301905275402,
+          "n_reports": 55,
+          "ror": 0.22008747664916525
+        },
+        {
+          "adverse_event": "Wound",
+          "log_ratio": -1.4989591484730393,
+          "n_reports": 31,
+          "ror": 0.2233625264247498
+        },
+        {
+          "adverse_event": "Upper respiratory tract infection",
+          "log_ratio": -1.462368051466896,
+          "n_reports": 44,
+          "ror": 0.23168697791696966
+        }
+      ]
+    },
+    {
+      "hormonal_class": "thyroid",
+      "total_signals": 370,
+      "unique_drugs": 7,
+      "female_higher": 76,
+      "male_higher": 294,
+      "pct_female": 20.54,
+      "median_log_ratio": -0.9251,
+      "mean_log_ratio": -0.8224,
+      "strong_signals": 186,
+      "strong_female": 18,
+      "top_5_drugs": {
+        "LEVOTHYROXINE": 322,
+        "LIOTHYRONINE": 23,
+        "LEVOTHYROXINE SODIUM": 17,
+        "PROPYLTHIOURACIL": 4,
+        "METHIMAZOLE": 2
+      },
+      "top_10_female_biased_aes": [
+        {
+          "adverse_event": "Depressed level of consciousness",
+          "log_ratio": 2.14955327192555,
+          "n_reports": 414,
+          "ror": 8.58102415641196
+        },
+        {
+          "adverse_event": "Orthostatic hypotension",
+          "log_ratio": 1.5013337895219758,
+          "n_reports": 426,
+          "ror": 4.487670688483867
+        },
+        {
+          "adverse_event": "Angina pectoris",
+          "log_ratio": 1.4220914567593952,
+          "n_reports": 399,
+          "ror": 4.145782103350193
+        },
+        {
+          "adverse_event": "Libido decreased",
+          "log_ratio": 1.27263819696216,
+          "n_reports": 163,
+          "ror": 3.570259195587924
+        },
+        {
+          "adverse_event": "Osteoporosis",
+          "log_ratio": 1.2580776717249207,
+          "n_reports": 320,
+          "ror": 3.51865097961284
+        },
+        {
+          "adverse_event": "Renal disorder",
+          "log_ratio": 1.1872387139054479,
+          "n_reports": 268,
+          "ror": 3.2780171557326216
+        },
+        {
+          "adverse_event": "Constipation",
+          "log_ratio": 1.181099349270202,
+          "n_reports": 186,
+          "ror": 3.2579538640830203
+        },
+        {
+          "adverse_event": "Orthostatic hypotension",
+          "log_ratio": 1.1801161039753167,
+          "n_reports": 158,
+          "ror": 3.2547520706073434
+        },
+        {
+          "adverse_event": "Hypertension",
+          "log_ratio": 1.174247933401743,
+          "n_reports": 257,
+          "ror": 3.235708560213566
+        },
+        {
+          "adverse_event": "Cardiac disorder",
+          "log_ratio": 1.1631514190514947,
+          "n_reports": 628,
+          "ror": 3.2000019495871976
+        }
+      ],
+      "top_10_male_biased_aes": [
+        {
+          "adverse_event": "Neurological symptom",
+          "log_ratio": -3.9141194067922296,
+          "n_reports": 98,
+          "ror": 0.01995811589100964
+        },
+        {
+          "adverse_event": "Systemic lupus erythematosus",
+          "log_ratio": -3.4262198070330414,
+          "n_reports": 192,
+          "ror": 0.03250960135290217
+        },
+        {
+          "adverse_event": "Burns second degree",
+          "log_ratio": -3.1549831387021916,
+          "n_reports": 101,
+          "ror": 0.042639119937491365
+        },
+        {
+          "adverse_event": "Normochromic normocytic anaemia",
+          "log_ratio": -3.005390795672823,
+          "n_reports": 90,
+          "ror": 0.049519398579933004
+        },
+        {
+          "adverse_event": "Catarrh",
+          "log_ratio": -2.914615505936054,
+          "n_reports": 102,
+          "ror": 0.0542248761683062
+        },
+        {
+          "adverse_event": "Gingival pain",
+          "log_ratio": -2.897255484874466,
+          "n_reports": 121,
+          "ror": 0.05517443953325838
+        },
+        {
+          "adverse_event": "Laryngitis",
+          "log_ratio": -2.8351667637536346,
+          "n_reports": 22,
+          "ror": 0.05870873452853643
+        },
+        {
+          "adverse_event": "Hypopnoea",
+          "log_ratio": -2.6686142020555996,
+          "n_reports": 111,
+          "ror": 0.06934826142878402
+        },
+        {
+          "adverse_event": "Maternal exposure during breast feeding",
+          "log_ratio": -2.5900940333916393,
+          "n_reports": 78,
+          "ror": 0.07501298602818049
+        },
+        {
+          "adverse_event": "Parosmia",
+          "log_ratio": -2.559260354993686,
+          "n_reports": 130,
+          "ror": 0.07736193965948267
+        }
+      ]
+    },
+    {
+      "hormonal_class": "fertility",
+      "total_signals": 17,
+      "unique_drugs": 1,
+      "female_higher": 3,
+      "male_higher": 14,
+      "pct_female": 17.65,
+      "median_log_ratio": -1.0346,
+      "mean_log_ratio": -1.6084,
+      "strong_signals": 9,
+      "strong_female": 0,
+      "top_5_drugs": {
+        "LETROZOLE": 17
+      },
+      "top_10_female_biased_aes": [
+        {
+          "adverse_event": "Diarrhoea",
+          "log_ratio": 0.6416025315928108,
+          "n_reports": 1956,
+          "ror": 1.8995224863139306
+        },
+        {
+          "adverse_event": "Malignant neoplasm progression",
+          "log_ratio": 0.55220128188778,
+          "n_reports": 3267,
+          "ror": 1.737072598787356
+        },
+        {
+          "adverse_event": "Anaemia",
+          "log_ratio": 0.5299732126546006,
+          "n_reports": 1336,
+          "ror": 1.6988867993415286
+        },
+        {
+          "adverse_event": "Drug ineffective",
+          "log_ratio": -0.5964768975347925,
+          "n_reports": 1033,
+          "ror": 0.5507485657193819
+        },
+        {
+          "adverse_event": "Hot flush",
+          "log_ratio": -0.6895649836571653,
+          "n_reports": 898,
+          "ror": 0.5017943103190884
+        },
+        {
+          "adverse_event": "Insomnia",
+          "log_ratio": -0.7576335734463323,
+          "n_reports": 588,
+          "ror": 0.4687744357546337
+        },
+        {
+          "adverse_event": "Metastases to lung",
+          "log_ratio": -0.8168954656555885,
+          "n_reports": 615,
+          "ror": 0.4418011143714525
+        },
+        {
+          "adverse_event": "Product use in unapproved indication",
+          "log_ratio": -0.819662590525868,
+          "n_reports": 468,
+          "ror": 0.4405802853922617
+        },
+        {
+          "adverse_event": "Anxiety",
+          "log_ratio": -1.0345650875587253,
+          "n_reports": 503,
+          "ror": 0.35538090689768315
+        },
+        {
+          "adverse_event": "Off label use",
+          "log_ratio": -1.7414479107862444,
+          "n_reports": 921,
+          "ror": 0.17526644663146176
+        }
+      ],
+      "top_10_male_biased_aes": [
+        {
+          "adverse_event": "Cardio-respiratory arrest",
+          "log_ratio": -4.209615265030269,
+          "n_reports": 24,
+          "ror": 0.014852081354088047
+        },
+        {
+          "adverse_event": "Anal incontinence",
+          "log_ratio": -3.903998684444825,
+          "n_reports": 30,
+          "ror": 0.0201611320426789
+        },
+        {
+          "adverse_event": "Abnormal behaviour",
+          "log_ratio": -3.576607595324024,
+          "n_reports": 23,
+          "ror": 0.027970424488366626
+        },
+        {
+          "adverse_event": "Foetal exposure during pregnancy",
+          "log_ratio": -3.0988957990962414,
+          "n_reports": 38,
+          "ror": 0.04509897323700256
+        },
+        {
+          "adverse_event": "Product use issue",
+          "log_ratio": -3.0969752362158736,
+          "n_reports": 169,
+          "ror": 0.045185671879392
+        },
+        {
+          "adverse_event": "Palpitations",
+          "log_ratio": -2.4672184992406305,
+          "n_reports": 203,
+          "ror": 0.08482045936049903
+        },
+        {
+          "adverse_event": "Lymphopenia",
+          "log_ratio": -2.257385057729044,
+          "n_reports": 98,
+          "ror": 0.1046237123298204
+        },
+        {
+          "adverse_event": "Off label use",
+          "log_ratio": -1.7414479107862444,
+          "n_reports": 921,
+          "ror": 0.17526644663146176
+        },
+        {
+          "adverse_event": "Anxiety",
+          "log_ratio": -1.0345650875587253,
+          "n_reports": 503,
+          "ror": 0.35538090689768315
+        },
+        {
+          "adverse_event": "Product use in unapproved indication",
+          "log_ratio": -0.819662590525868,
+          "n_reports": 468,
+          "ror": 0.4405802853922617
+        }
+      ]
+    },
+    {
+      "hormonal_class": "hrt",
+      "total_signals": 44,
+      "unique_drugs": 6,
+      "female_higher": 1,
+      "male_higher": 43,
+      "pct_female": 2.27,
+      "median_log_ratio": -2.8328,
+      "mean_log_ratio": -2.907,
+      "strong_signals": 41,
+      "strong_female": 1,
+      "top_5_drugs": {
+        "ESTRADIOL": 18,
+        "PROGESTERONE": 10,
+        "HYDROXYPROGESTERONE": 8,
+        "MEDROXYPROGESTERONE": 5,
+        "ETHINYLESTRADIOL;ETONOGESTREL": 2
+      },
+      "top_10_female_biased_aes": [
+        {
+          "adverse_event": "Off label use",
+          "log_ratio": 1.0894237689031572,
+          "n_reports": 671,
+          "ror": 2.972560697049456
+        },
+        {
+          "adverse_event": "Dyspnoea",
+          "log_ratio": -0.7590103519421709,
+          "n_reports": 387,
+          "ror": 0.4681294812736948
+        },
+        {
+          "adverse_event": "Off label use",
+          "log_ratio": -0.9580686465400182,
+          "n_reports": 3057,
+          "ror": 0.38363310205459394
+        },
+        {
+          "adverse_event": "Off label use",
+          "log_ratio": -0.9923586153062625,
+          "n_reports": 365,
+          "ror": 0.37070131729190353
+        },
+        {
+          "adverse_event": "Dyspnoea",
+          "log_ratio": -1.0135581413680201,
+          "n_reports": 127,
+          "ror": 0.36292533979472397
+        },
+        {
+          "adverse_event": "Pulmonary embolism",
+          "log_ratio": -1.4550367070814023,
+          "n_reports": 228,
+          "ror": 0.2333917966122353
+        },
+        {
+          "adverse_event": "Pain",
+          "log_ratio": -1.632307670752637,
+          "n_reports": 202,
+          "ror": 0.1954779544742711
+        },
+        {
+          "adverse_event": "Product use in unapproved indication",
+          "log_ratio": -1.7054343532169636,
+          "n_reports": 401,
+          "ror": 0.1816934498990309
+        },
+        {
+          "adverse_event": "Product use issue",
+          "log_ratio": -1.7078090503488506,
+          "n_reports": 676,
+          "ror": 0.18126249488101526
+        },
+        {
+          "adverse_event": "Deep vein thrombosis",
+          "log_ratio": -1.8165754558683045,
+          "n_reports": 139,
+          "ror": 0.16258156643258329
+        }
+      ],
+      "top_10_male_biased_aes": [
+        {
+          "adverse_event": "Abortion spontaneous",
+          "log_ratio": -6.45611994771499,
+          "n_reports": 117,
+          "ror": 0.0015708789936625424
+        },
+        {
+          "adverse_event": "Medical device discomfort",
+          "log_ratio": -6.030045047468779,
+          "n_reports": 119,
+          "ror": 0.002405385619645277
+        },
+        {
+          "adverse_event": "Invasive ductal breast carcinoma",
+          "log_ratio": -5.864613801833109,
+          "n_reports": 52,
+          "ror": 0.0028381189101819777
+        },
+        {
+          "adverse_event": "Stillbirth",
+          "log_ratio": -5.540308462788479,
+          "n_reports": 123,
+          "ror": 0.003925315837671961
+        },
+        {
+          "adverse_event": "Medical device site discomfort",
+          "log_ratio": -4.548101229219121,
+          "n_reports": 173,
+          "ror": 0.010587288143966686
+        },
+        {
+          "adverse_event": "Premature baby",
+          "log_ratio": -4.287320385065003,
+          "n_reports": 1542,
+          "ror": 0.013741698466838197
+        },
+        {
+          "adverse_event": "Drug intolerance",
+          "log_ratio": -4.199706797826167,
+          "n_reports": 26,
+          "ror": 0.014999974200828593
+        },
+        {
+          "adverse_event": "Premature baby",
+          "log_ratio": -4.185471068281794,
+          "n_reports": 32,
+          "ror": 0.015215036932196498
+        },
+        {
+          "adverse_event": "Foetal exposure during pregnancy",
+          "log_ratio": -4.145877619531925,
+          "n_reports": 56,
+          "ror": 0.015829537542127185
+        },
+        {
+          "adverse_event": "Malaise",
+          "log_ratio": -4.088963197997113,
+          "n_reports": 22,
+          "ror": 0.016756597829560935
+        }
+      ]
+    },
+    {
+      "hormonal_class": "contraceptives",
+      "total_signals": 17,
+      "unique_drugs": 5,
+      "female_higher": 0,
+      "male_higher": 17,
+      "pct_female": 0.0,
+      "median_log_ratio": -4.1997,
+      "mean_log_ratio": -4.0195,
+      "strong_signals": 15,
+      "strong_female": 0,
+      "top_5_drugs": {
+        "ETONOGESTREL": 5,
+        "MEDROXYPROGESTERONE": 5,
+        "INTRAUTERINE CONTRACEPTIVE DEVICE;LEVONORGESTREL": 4,
+        "ETHINYLESTRADIOL;ETONOGESTREL": 2,
+        "LEVONORGESTREL": 1
+      },
+      "top_10_female_biased_aes": [
+        {
+          "adverse_event": "Product quality issue",
+          "log_ratio": -0.5194039291399344,
+          "n_reports": 4980,
+          "ror": 0.5948750299822527
+        },
+        {
+          "adverse_event": "Off label use",
+          "log_ratio": -0.9923586153062625,
+          "n_reports": 365,
+          "ror": 0.37070131729190353
+        },
+        {
+          "adverse_event": "Pain",
+          "log_ratio": -1.632307670752637,
+          "n_reports": 202,
+          "ror": 0.1954779544742711
+        },
+        {
+          "adverse_event": "Asthenia",
+          "log_ratio": -1.8796736599739108,
+          "n_reports": 108,
+          "ror": 0.1526399101421177
+        },
+        {
+          "adverse_event": "Product use issue",
+          "log_ratio": -2.926044588788075,
+          "n_reports": 116,
+          "ror": 0.05360866364558711
+        },
+        {
+          "adverse_event": "Dyspareunia",
+          "log_ratio": -3.3179139932364663,
+          "n_reports": 1313,
+          "ror": 0.0362283255184824
+        },
+        {
+          "adverse_event": "Premature baby",
+          "log_ratio": -3.8944304767736853,
+          "n_reports": 56,
+          "ror": 0.02035496377329242
+        },
+        {
+          "adverse_event": "Foetal exposure during pregnancy",
+          "log_ratio": -4.134789330637704,
+          "n_reports": 53,
+          "ror": 0.016006036756213857
+        },
+        {
+          "adverse_event": "Drug intolerance",
+          "log_ratio": -4.199706797826167,
+          "n_reports": 26,
+          "ror": 0.014999974200828593
+        },
+        {
+          "adverse_event": "Low birth weight baby",
+          "log_ratio": -4.5022761402502,
+          "n_reports": 30,
+          "ror": 0.011083739659086161
+        }
+      ],
+      "top_10_male_biased_aes": [
+        {
+          "adverse_event": "Foetal exposure during pregnancy",
+          "log_ratio": -6.568155804227702,
+          "n_reports": 70,
+          "ror": 0.0014043849862610109
+        },
+        {
+          "adverse_event": "Premature baby",
+          "log_ratio": -6.421162224144812,
+          "n_reports": 41,
+          "ror": 0.0016267644707284885
+        },
+        {
+          "adverse_event": "Injury associated with device",
+          "log_ratio": -6.3274744571603785,
+          "n_reports": 55,
+          "ror": 0.0017865400597468163
+        },
+        {
+          "adverse_event": "Medical device discomfort",
+          "log_ratio": -6.030045047468779,
+          "n_reports": 119,
+          "ror": 0.002405385619645277
+        },
+        {
+          "adverse_event": "Accidental exposure to product",
+          "log_ratio": -5.490578318549268,
+          "n_reports": 43,
+          "ror": 0.00412545765555151
+        },
+        {
+          "adverse_event": "Foetal exposure during pregnancy",
+          "log_ratio": -4.946367043524655,
+          "n_reports": 33,
+          "ror": 0.00710918944678278
+        },
+        {
+          "adverse_event": "Medical device site discomfort",
+          "log_ratio": -4.548101229219121,
+          "n_reports": 173,
+          "ror": 0.010587288143966686
+        },
+        {
+          "adverse_event": "Low birth weight baby",
+          "log_ratio": -4.5022761402502,
+          "n_reports": 30,
+          "ror": 0.011083739659086161
+        },
+        {
+          "adverse_event": "Drug intolerance",
+          "log_ratio": -4.199706797826167,
+          "n_reports": 26,
+          "ror": 0.014999974200828593
+        },
+        {
+          "adverse_event": "Foetal exposure during pregnancy",
+          "log_ratio": -4.134789330637704,
+          "n_reports": 53,
+          "ror": 0.016006036756213857
+        }
+      ]
+    }
+  ],
+  "cross_class_comparison": {
+    "chi_square": {
+      "statistic": 130.1476,
+      "p_value": "2.2144e-26",
+      "dof": 5,
+      "interpretation": "Significant heterogeneity across hormonal classes"
+    }
+  },
+  "reporting_paradox_analysis": {
+    "contraceptives": {
+      "expected": "Female reporters (sex-specific drug)",
+      "actual_pct_f": 0.0,
+      "interpretation": "Lower %F than baseline suggests male reports included (partner/family reporting)"
+    },
+    "androgens": {
+      "expected": "Male reporters (sex-specific drug)",
+      "actual_pct_f": 73.47,
+      "interpretation": "Higher %F than expected suggests female reports included (partner/AAS abuse in males)"
+    }
+  },
+  "key_findings": [
+    "Hormonal drugs overall: 32.1% female-biased (679 signals)",
+    "Comparison to baseline (53.8%F): chi2=126.38, p=2.54e-29",
+    "androgens: 73.5% female-biased (highest)",
+    "contraceptives: 0.0% female-biased (lowest)",
+    "REPORTING PARADOX: Female-specific drugs (contraceptives) show 0.0% F-bias",
+    "REPORTING PARADOX: Male-specific drugs (androgens) show 73.5% F-bias",
+    "Chi-square across classes: p=2.21e-26 (significant heterogeneity)"
+  ],
+  "figures_generated": [
+    "wave_280_v2_hormonal_comparison.png",
+    "wave_280_v2_hormonal_comparison.pdf",
+    "wave_280_v2_hormonal_top_drugs.png",
+    "wave_280_v2_hormonal_top_drugs.pdf"
+  ]
+}
