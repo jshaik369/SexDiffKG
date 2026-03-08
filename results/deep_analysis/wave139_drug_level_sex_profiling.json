@@ -1,0 +1,814 @@
+{
+  "wave": 139,
+  "title": "Drug-Level Sex Bias Profiling",
+  "timestamp": "2026-03-08T17:35:47.057202",
+  "signal_count_vs_sex_bias": {
+    "spearman_rho": 0.1321,
+    "p_value": 6.136939883149402e-10
+  },
+  "heterogeneity": {
+    "median_std_logR": 0.841,
+    "mean_std_logR": 0.89
+  },
+  "extreme_female_drugs": [
+    {
+      "drug": "RANITIDINE HYDROCHLORIDE",
+      "pct_female": 100.0,
+      "n": 50,
+      "mean_logR": 0.791
+    },
+    {
+      "drug": "PRASUGREL",
+      "pct_female": 96.0,
+      "n": 50,
+      "mean_logR": 0.756
+    },
+    {
+      "drug": "AXICABTAGENE CILOLEUCEL",
+      "pct_female": 93.5,
+      "n": 62,
+      "mean_logR": 0.708
+    },
+    {
+      "drug": "RANITIDINE",
+      "pct_female": 93.5,
+      "n": 324,
+      "mean_logR": 1.339
+    },
+    {
+      "drug": "RISPERIDONE",
+      "pct_female": 92.9,
+      "n": 518,
+      "mean_logR": 0.94
+    },
+    {
+      "drug": "METHYLPREDNISOLONE SODIUM SUCCINATE",
+      "pct_female": 91.2,
+      "n": 68,
+      "mean_logR": 0.772
+    },
+    {
+      "drug": "PIOGLITAZONE",
+      "pct_female": 90.2,
+      "n": 61,
+      "mean_logR": 0.755
+    },
+    {
+      "drug": "POSACONAZOLE",
+      "pct_female": 89.9,
+      "n": 69,
+      "mean_logR": 0.688
+    },
+    {
+      "drug": "BASILIXIMAB",
+      "pct_female": 88.1,
+      "n": 101,
+      "mean_logR": 0.785
+    },
+    {
+      "drug": "VORICONAZOLE",
+      "pct_female": 87.6,
+      "n": 145,
+      "mean_logR": 0.733
+    }
+  ],
+  "extreme_male_drugs": [
+    {
+      "drug": "MEBEVERINE",
+      "pct_female": 0.0,
+      "n": 52,
+      "mean_logR": -1.921
+    },
+    {
+      "drug": "ALBENDAZOLE",
+      "pct_female": 5.2,
+      "n": 58,
+      "mean_logR": -1.076
+    },
+    {
+      "drug": "INTERFERON BETA-1B",
+      "pct_female": 5.7,
+      "n": 70,
+      "mean_logR": -0.688
+    },
+    {
+      "drug": "SOLIFENACIN",
+      "pct_female": 5.8,
+      "n": 52,
+      "mean_logR": -0.885
+    },
+    {
+      "drug": "PERTUZUMAB",
+      "pct_female": 7.5,
+      "n": 53,
+      "mean_logR": -2.013
+    },
+    {
+      "drug": "FELODIPINE",
+      "pct_female": 7.6,
+      "n": 79,
+      "mean_logR": -1.199
+    },
+    {
+      "drug": "TERIFLUNOMIDE",
+      "pct_female": 7.8,
+      "n": 77,
+      "mean_logR": -0.659
+    },
+    {
+      "drug": "TIRZEPATIDE",
+      "pct_female": 8.4,
+      "n": 95,
+      "mean_logR": -0.58
+    },
+    {
+      "drug": "METHOTREXATE SODIUM",
+      "pct_female": 8.6,
+      "n": 186,
+      "mean_logR": -0.738
+    },
+    {
+      "drug": "ISOTRETINOIN",
+      "pct_female": 9.2,
+      "n": 217,
+      "mean_logR": -0.76
+    }
+  ],
+  "sex_neutral_drugs": [
+    {
+      "drug": "ALISKIREN",
+      "pct_female": 50.0,
+      "n": 38
+    },
+    {
+      "drug": "LEVOCETIRIZINE",
+      "pct_female": 50.0,
+      "n": 36
+    },
+    {
+      "drug": "MAGNESIUM",
+      "pct_female": 50.0,
+      "n": 136
+    },
+    {
+      "drug": "NEBIVOLOL",
+      "pct_female": 50.0,
+      "n": 38
+    },
+    {
+      "drug": "NUTRIENTS, UNSPECIFIED",
+      "pct_female": 50.0,
+      "n": 42
+    },
+    {
+      "drug": "OLAPARIB",
+      "pct_female": 50.0,
+      "n": 44
+    },
+    {
+      "drug": "SEVOFLURANE",
+      "pct_female": 50.0,
+      "n": 30
+    },
+    {
+      "drug": "SPIRONOLACTONE",
+      "pct_female": 50.0,
+      "n": 162
+    },
+    {
+      "drug": "TORASEMIDE",
+      "pct_female": 50.0,
+      "n": 116
+    },
+    {
+      "drug": "VITAMIN B2",
+      "pct_female": 50.0,
+      "n": 34
+    },
+    {
+      "drug": "LITHIUM",
+      "pct_female": 49.7,
+      "n": 143
+    },
+    {
+      "drug": "INFLIXIMAB",
+      "pct_female": 50.4,
+      "n": 623
+    },
+    {
+      "drug": "AMLODIPINE",
+      "pct_female": 50.5,
+      "n": 422
+    },
+    {
+      "drug": "NALTREXONE",
+      "pct_female": 49.5,
+      "n": 95
+    },
+    {
+      "drug": "TOCILIZUMAB",
+      "pct_female": 49.4,
+      "n": 508
+    }
+  ],
+  "universal_female_aes": [
+    {
+      "ae": "Acute coronary syndrome",
+      "pct_female": 94.9,
+      "n_drugs": 39
+    },
+    {
+      "ae": "Acute graft versus host disease",
+      "pct_female": 95.2,
+      "n_drugs": 21
+    },
+    {
+      "ae": "Acute lymphocytic leukaemia recurrent",
+      "pct_female": 100.0,
+      "n_drugs": 20
+    },
+    {
+      "ae": "Adverse drug reaction",
+      "pct_female": 93.7,
+      "n_drugs": 206
+    },
+    {
+      "ae": "Angina unstable",
+      "pct_female": 90.9,
+      "n_drugs": 22
+    },
+    {
+      "ae": "Anhedonia",
+      "pct_female": 90.0,
+      "n_drugs": 20
+    },
+    {
+      "ae": "Bladder cancer",
+      "pct_female": 95.5,
+      "n_drugs": 22
+    },
+    {
+      "ae": "Blood creatine phosphokinase increased",
+      "pct_female": 94.3,
+      "n_drugs": 105
+    },
+    {
+      "ae": "Bone density decreased",
+      "pct_female": 100.0,
+      "n_drugs": 27
+    },
+    {
+      "ae": "Cholangitis",
+      "pct_female": 95.0,
+      "n_drugs": 20
+    },
+    {
+      "ae": "Cytomegalovirus infection reactivation",
+      "pct_female": 90.9,
+      "n_drugs": 33
+    },
+    {
+      "ae": "Device leakage",
+      "pct_female": 95.3,
+      "n_drugs": 43
+    },
+    {
+      "ae": "Drug tolerance",
+      "pct_female": 100.0,
+      "n_drugs": 20
+    },
+    {
+      "ae": "Encephalitis",
+      "pct_female": 90.0,
+      "n_drugs": 20
+    },
+    {
+      "ae": "Graft versus host disease",
+      "pct_female": 90.9,
+      "n_drugs": 44
+    },
+    {
+      "ae": "Graft versus host disease in gastrointestinal tract",
+      "pct_female": 100.0,
+      "n_drugs": 21
+    },
+    {
+      "ae": "Graft versus host disease in skin",
+      "pct_female": 100.0,
+      "n_drugs": 24
+    },
+    {
+      "ae": "Haematuria",
+      "pct_female": 93.3,
+      "n_drugs": 134
+    },
+    {
+      "ae": "Haemorrhage intracranial",
+      "pct_female": 97.6,
+      "n_drugs": 41
+    },
+    {
+      "ae": "Hepatitis B reactivation",
+      "pct_female": 96.3,
+      "n_drugs": 27
+    },
+    {
+      "ae": "Hepatitis C",
+      "pct_female": 97.4,
+      "n_drugs": 38
+    },
+    {
+      "ae": "Hepatocellular carcinoma",
+      "pct_female": 95.2,
+      "n_drugs": 21
+    },
+    {
+      "ae": "Human herpesvirus 6 infection",
+      "pct_female": 90.9,
+      "n_drugs": 22
+    },
+    {
+      "ae": "Hyperprolactinaemia",
+      "pct_female": 95.7,
+      "n_drugs": 23
+    },
+    {
+      "ae": "Hyperuricaemia",
+      "pct_female": 100.0,
+      "n_drugs": 26
+    },
+    {
+      "ae": "Hypoalbuminaemia",
+      "pct_female": 90.6,
+      "n_drugs": 32
+    },
+    {
+      "ae": "Ileus paralytic",
+      "pct_female": 96.2,
+      "n_drugs": 26
+    },
+    {
+      "ae": "Mouth haemorrhage",
+      "pct_female": 91.3,
+      "n_drugs": 23
+    },
+    {
+      "ae": "Mucormycosis",
+      "pct_female": 93.8,
+      "n_drugs": 32
+    },
+    {
+      "ae": "Multi-organ failure",
+      "pct_female": 92.7,
+      "n_drugs": 41
+    },
+    {
+      "ae": "Multiple fractures",
+      "pct_female": 100.0,
+      "n_drugs": 22
+    },
+    {
+      "ae": "Neurotoxicity",
+      "pct_female": 90.6,
+      "n_drugs": 64
+    },
+    {
+      "ae": "Osteonecrosis",
+      "pct_female": 96.5,
+      "n_drugs": 57
+    },
+    {
+      "ae": "Pathogen resistance",
+      "pct_female": 93.0,
+      "n_drugs": 57
+    },
+    {
+      "ae": "Pemphigoid",
+      "pct_female": 95.0,
+      "n_drugs": 40
+    },
+    {
+      "ae": "Renal injury",
+      "pct_female": 90.3,
+      "n_drugs": 31
+    },
+    {
+      "ae": "Renal tubular disorder",
+      "pct_female": 90.0,
+      "n_drugs": 20
+    },
+    {
+      "ae": "Subdural haematoma",
+      "pct_female": 94.2,
+      "n_drugs": 52
+    },
+    {
+      "ae": "Substance use disorder",
+      "pct_female": 90.9,
+      "n_drugs": 33
+    },
+    {
+      "ae": "Sudden death",
+      "pct_female": 94.6,
+      "n_drugs": 37
+    },
+    {
+      "ae": "Syringe issue",
+      "pct_female": 92.9,
+      "n_drugs": 28
+    },
+    {
+      "ae": "Tooth loss",
+      "pct_female": 94.3,
+      "n_drugs": 53
+    },
+    {
+      "ae": "Tumour lysis syndrome",
+      "pct_female": 91.9,
+      "n_drugs": 37
+    },
+    {
+      "ae": "Venoocclusive liver disease",
+      "pct_female": 93.3,
+      "n_drugs": 30
+    },
+    {
+      "ae": "Viral load increased",
+      "pct_female": 100.0,
+      "n_drugs": 36
+    },
+    {
+      "ae": "Viral mutation identified",
+      "pct_female": 100.0,
+      "n_drugs": 36
+    },
+    {
+      "ae": "Virologic failure",
+      "pct_female": 100.0,
+      "n_drugs": 32
+    }
+  ],
+  "universal_male_aes": [
+    {
+      "ae": "Abdominal pain lower",
+      "pct_female": 2.2,
+      "n_drugs": 91
+    },
+    {
+      "ae": "Acne",
+      "pct_female": 7.8,
+      "n_drugs": 103
+    },
+    {
+      "ae": "Anosmia",
+      "pct_female": 9.1,
+      "n_drugs": 22
+    },
+    {
+      "ae": "Blood thyroid stimulating hormone increased",
+      "pct_female": 0.0,
+      "n_drugs": 26
+    },
+    {
+      "ae": "Burns second degree",
+      "pct_female": 6.5,
+      "n_drugs": 31
+    },
+    {
+      "ae": "Catarrh",
+      "pct_female": 0.0,
+      "n_drugs": 28
+    },
+    {
+      "ae": "Central nervous system lesion",
+      "pct_female": 0.0,
+      "n_drugs": 35
+    },
+    {
+      "ae": "Complication associated with device",
+      "pct_female": 0.0,
+      "n_drugs": 30
+    },
+    {
+      "ae": "Decreased immune responsiveness",
+      "pct_female": 3.8,
+      "n_drugs": 26
+    },
+    {
+      "ae": "Dermatitis contact",
+      "pct_female": 4.0,
+      "n_drugs": 25
+    },
+    {
+      "ae": "Device breakage",
+      "pct_female": 0.0,
+      "n_drugs": 30
+    },
+    {
+      "ae": "Device dislocation",
+      "pct_female": 0.0,
+      "n_drugs": 29
+    },
+    {
+      "ae": "Eosinophilic granulomatosis with polyangiitis",
+      "pct_female": 10.0,
+      "n_drugs": 20
+    },
+    {
+      "ae": "Facial pain",
+      "pct_female": 0.0,
+      "n_drugs": 33
+    },
+    {
+      "ae": "Femur fracture",
+      "pct_female": 9.8,
+      "n_drugs": 61
+    },
+    {
+      "ae": "Forced expiratory volume decreased",
+      "pct_female": 7.7,
+      "n_drugs": 26
+    },
+    {
+      "ae": "Gastrointestinal infection",
+      "pct_female": 8.3,
+      "n_drugs": 24
+    },
+    {
+      "ae": "Generalised erythema",
+      "pct_female": 9.5,
+      "n_drugs": 21
+    },
+    {
+      "ae": "Gingival pain",
+      "pct_female": 0.0,
+      "n_drugs": 34
+    },
+    {
+      "ae": "Hypopnoea",
+      "pct_female": 0.0,
+      "n_drugs": 35
+    },
+    {
+      "ae": "Impaired driving ability",
+      "pct_female": 8.8,
+      "n_drugs": 34
+    },
+    {
+      "ae": "Impaired quality of life",
+      "pct_female": 5.0,
+      "n_drugs": 60
+    },
+    {
+      "ae": "Incorrect drug administration duration",
+      "pct_female": 10.0,
+      "n_drugs": 30
+    },
+    {
+      "ae": "Injection site bruising",
+      "pct_female": 2.9,
+      "n_drugs": 34
+    },
+    {
+      "ae": "Injection site erythema",
+      "pct_female": 7.6,
+      "n_drugs": 66
+    },
+    {
+      "ae": "Injection site pruritus",
+      "pct_female": 6.7,
+      "n_drugs": 30
+    },
+    {
+      "ae": "Injection site rash",
+      "pct_female": 3.4,
+      "n_drugs": 29
+    },
+    {
+      "ae": "Injection site swelling",
+      "pct_female": 5.4,
+      "n_drugs": 37
+    },
+    {
+      "ae": "Multiple allergies",
+      "pct_female": 10.0,
+      "n_drugs": 20
+    },
+    {
+      "ae": "Multiple sclerosis relapse",
+      "pct_female": 7.4,
+      "n_drugs": 27
+    },
+    {
+      "ae": "Neoplasm progression",
+      "pct_female": 6.1,
+      "n_drugs": 66
+    },
+    {
+      "ae": "Ocular discomfort",
+      "pct_female": 3.2,
+      "n_drugs": 31
+    },
+    {
+      "ae": "Optic neuritis",
+      "pct_female": 4.3,
+      "n_drugs": 23
+    },
+    {
+      "ae": "Oropharyngeal discomfort",
+      "pct_female": 3.0,
+      "n_drugs": 33
+    },
+    {
+      "ae": "Pain of skin",
+      "pct_female": 0.0,
+      "n_drugs": 61
+    },
+    {
+      "ae": "Parosmia",
+      "pct_female": 2.7,
+      "n_drugs": 37
+    },
+    {
+      "ae": "Pelvic pain",
+      "pct_female": 2.9,
+      "n_drugs": 34
+    },
+    {
+      "ae": "Rash papular",
+      "pct_female": 8.2,
+      "n_drugs": 61
+    },
+    {
+      "ae": "Respiratory symptom",
+      "pct_female": 8.3,
+      "n_drugs": 24
+    },
+    {
+      "ae": "Rhinitis",
+      "pct_female": 8.5,
+      "n_drugs": 47
+    },
+    {
+      "ae": "Scar",
+      "pct_female": 4.5,
+      "n_drugs": 44
+    },
+    {
+      "ae": "Sensation of foreign body",
+      "pct_female": 0.0,
+      "n_drugs": 28
+    },
+    {
+      "ae": "Skin burning sensation",
+      "pct_female": 5.5,
+      "n_drugs": 73
+    },
+    {
+      "ae": "Skin hyperpigmentation",
+      "pct_female": 4.2,
+      "n_drugs": 24
+    },
+    {
+      "ae": "Skin irritation",
+      "pct_female": 1.7,
+      "n_drugs": 58
+    },
+    {
+      "ae": "Skin mass",
+      "pct_female": 9.5,
+      "n_drugs": 21
+    },
+    {
+      "ae": "Spinal compression fracture",
+      "pct_female": 10.0,
+      "n_drugs": 20
+    },
+    {
+      "ae": "Spinal fracture",
+      "pct_female": 3.8,
+      "n_drugs": 52
+    },
+    {
+      "ae": "Spinal operation",
+      "pct_female": 9.5,
+      "n_drugs": 21
+    },
+    {
+      "ae": "Spinal pain",
+      "pct_female": 8.1,
+      "n_drugs": 37
+    },
+    {
+      "ae": "Tooth extraction",
+      "pct_female": 0.0,
+      "n_drugs": 22
+    },
+    {
+      "ae": "Tooth fracture",
+      "pct_female": 9.7,
+      "n_drugs": 31
+    }
+  ],
+  "most_heterogeneous_drugs": [
+    {
+      "drug": "TESTOSTERONE",
+      "logR_range": 11.28,
+      "std": 2.019,
+      "n": 46
+    },
+    {
+      "drug": "MINOXIDIL",
+      "logR_range": 10.91,
+      "std": 1.399,
+      "n": 125
+    },
+    {
+      "drug": "VITAMIN B9",
+      "logR_range": 9.99,
+      "std": 1.85,
+      "n": 250
+    },
+    {
+      "drug": "ETANERCEPT",
+      "logR_range": 8.96,
+      "std": 1.123,
+      "n": 618
+    },
+    {
+      "drug": "OXYCODONE",
+      "logR_range": 8.82,
+      "std": 1.22,
+      "n": 492
+    },
+    {
+      "drug": "HYDROXYCHLOROQUINE",
+      "logR_range": 8.8,
+      "std": 1.473,
+      "n": 376
+    },
+    {
+      "drug": "SULFASALAZINE",
+      "logR_range": 8.75,
+      "std": 1.576,
+      "n": 318
+    },
+    {
+      "drug": "LEFLUNOMIDE",
+      "logR_range": 8.62,
+      "std": 1.489,
+      "n": 370
+    },
+    {
+      "drug": "CARBIDOPA;LEVODOPA",
+      "logR_range": 8.61,
+      "std": 1.147,
+      "n": 217
+    },
+    {
+      "drug": "DOCETAXEL",
+      "logR_range": 8.49,
+      "std": 0.808,
+      "n": 304
+    },
+    {
+      "drug": "CLOZAPINE",
+      "logR_range": 8.42,
+      "std": 0.958,
+      "n": 287
+    },
+    {
+      "drug": "PERTUZUMAB",
+      "logR_range": 8.41,
+      "std": 1.559,
+      "n": 53
+    },
+    {
+      "drug": "VITAMIN B12",
+      "logR_range": 8.4,
+      "std": 1.309,
+      "n": 74
+    },
+    {
+      "drug": "DESOXIMETASONE",
+      "logR_range": 8.33,
+      "std": 2.074,
+      "n": 79
+    },
+    {
+      "drug": "ABATACEPT",
+      "logR_range": 8.11,
+      "std": 1.524,
+      "n": 344
+    }
+  ],
+  "key_findings": {
+    "signal_count_correlation": 0.1321,
+    "n_universal_female_aes": 47,
+    "n_universal_male_aes": 52,
+    "most_female_drug": "RANITIDINE HYDROCHLORIDE",
+    "most_female_pct": 100.0,
+    "most_male_drug": "MEBEVERINE",
+    "most_male_pct": 0.0
+  }
+}
