@@ -1,0 +1,110 @@
+{
+  "wave": 158,
+  "title": "Signal Confidence Scoring",
+  "confidence_deciles": [
+    {
+      "decile": 0,
+      "mean_confidence": 0.183,
+      "pct_female": 45.7,
+      "mean_logr": 0.613,
+      "mean_volume": 37.0,
+      "n_signals": 9631
+    },
+    {
+      "decile": 1,
+      "mean_confidence": 0.293,
+      "pct_female": 47.5,
+      "mean_logr": 0.707,
+      "mean_volume": 51.0,
+      "n_signals": 9626
+    },
+    {
+      "decile": 2,
+      "mean_confidence": 0.36,
+      "pct_female": 48.3,
+      "mean_logr": 0.78,
+      "mean_volume": 75.0,
+      "n_signals": 9628
+    },
+    {
+      "decile": 3,
+      "mean_confidence": 0.415,
+      "pct_female": 49.3,
+      "mean_logr": 0.831,
+      "mean_volume": 95.0,
+      "n_signals": 9628
+    },
+    {
+      "decile": 4,
+      "mean_confidence": 0.468,
+      "pct_female": 50.4,
+      "mean_logr": 0.871,
+      "mean_volume": 125.0,
+      "n_signals": 9628
+    },
+    {
+      "decile": 5,
+      "mean_confidence": 0.52,
+      "pct_female": 50.7,
+      "mean_logr": 0.927,
+      "mean_volume": 149.0,
+      "n_signals": 9628
+    },
+    {
+      "decile": 6,
+      "mean_confidence": 0.574,
+      "pct_female": 51.4,
+      "mean_logr": 1.004,
+      "mean_volume": 193.0,
+      "n_signals": 9628
+    },
+    {
+      "decile": 7,
+      "mean_confidence": 0.634,
+      "pct_female": 53.3,
+      "mean_logr": 1.11,
+      "mean_volume": 284.0,
+      "n_signals": 9628
+    },
+    {
+      "decile": 8,
+      "mean_confidence": 0.711,
+      "pct_female": 60.1,
+      "mean_logr": 1.285,
+      "mean_volume": 441.0,
+      "n_signals": 9628
+    },
+    {
+      "decile": 9,
+      "mean_confidence": 0.842,
+      "pct_female": 81.0,
+      "mean_logr": 1.74,
+      "mean_volume": 1063.0,
+      "n_signals": 9628
+    }
+  ],
+  "confidence_female_correlation": {
+    "rho": 1.0,
+    "p": 6.646897422032013e-64
+  },
+  "gradient_pp": 35.3,
+  "component_correlations": {
+    "volume": {
+      "rho": 0.2065,
+      "p": 0.0
+    },
+    "strength": {
+      "rho": 0.0434,
+      "p": 2.57569766101265e-41
+    },
+    "breadth": {
+      "rho": 0.0898,
+      "p": 1.1988932182477935e-171
+    }
+  },
+  "female_mean_confidence": 0.5303,
+  "male_mean_confidence": 0.4648,
+  "confidence_asymmetry_p": 0.0,
+  "high_confidence_pct_female": 97.2,
+  "low_confidence_pct_female": 44.9
+}
