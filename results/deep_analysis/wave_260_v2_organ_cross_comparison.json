@@ -1,0 +1,954 @@
+{
+  "wave": 260,
+  "version": 2,
+  "title": "Organ System Cross-Comparison",
+  "description": "Sex bias comparison across cardiac, hepatic, renal, neurological, and dermatological AE categories",
+  "overall_baseline": {
+    "total_signals": 96281,
+    "pct_female": 53.8,
+    "pct_female_strong": 56.4
+  },
+  "organ_systems_analyzed": [
+    "cardiac",
+    "hepatic",
+    "renal",
+    "neurological",
+    "dermatological"
+  ],
+  "organ_system_statistics": [
+    {
+      "organ_system": "renal",
+      "total_signals": 2038,
+      "female_higher": 1514,
+      "male_higher": 524,
+      "pct_female": 74.29,
+      "median_log_ratio": 0.6518,
+      "mean_log_ratio": 0.4214,
+      "strong_signals_total": 547,
+      "strong_signals_female": 410,
+      "strong_signals_male": 137,
+      "pct_strong_female": 74.95,
+      "top_10_female_biased": [
+        {
+          "adverse_event": "Creatinine renal clearance decreased",
+          "log_ratio": 3.680096809438612,
+          "n_reports": 475,
+          "ror": 39.6502324035161
+        },
+        {
+          "adverse_event": "Creatinine renal clearance decreased",
+          "log_ratio": 3.4994198464618775,
+          "n_reports": 379,
+          "ror": 33.09624548396278
+        },
+        {
+          "adverse_event": "Adrenal insufficiency",
+          "log_ratio": 2.9548464526168288,
+          "n_reports": 401,
+          "ror": 19.198774571903144
+        },
+        {
+          "adverse_event": "Adenovirus interstitial nephritis",
+          "log_ratio": 2.9390346293795604,
+          "n_reports": 33,
+          "ror": 18.897594321349814
+        },
+        {
+          "adverse_event": "Adrenal insufficiency",
+          "log_ratio": 2.7113195183266625,
+          "n_reports": 263,
+          "ror": 15.049120009061301
+        },
+        {
+          "adverse_event": "Renal disorder",
+          "log_ratio": 2.640613379070805,
+          "n_reports": 284,
+          "ror": 14.021801650201601
+        },
+        {
+          "adverse_event": "Adrenal insufficiency",
+          "log_ratio": 2.576356268205641,
+          "n_reports": 343,
+          "ror": 13.149138829201082
+        },
+        {
+          "adverse_event": "Adrenal insufficiency",
+          "log_ratio": 2.5171038314847034,
+          "n_reports": 268,
+          "ror": 12.39265342718965
+        },
+        {
+          "adverse_event": "Renal disorder",
+          "log_ratio": 2.5158242422850954,
+          "n_reports": 248,
+          "ror": 12.376806062930108
+        },
+        {
+          "adverse_event": "Adrenal insufficiency",
+          "log_ratio": 2.4491714785389105,
+          "n_reports": 334,
+          "ror": 11.578749501567367
+        }
+      ],
+      "top_10_male_biased": [
+        {
+          "adverse_event": "Renal failure",
+          "log_ratio": -3.6079607562094784,
+          "n_reports": 177,
+          "ror": 0.02710706846310725
+        },
+        {
+          "adverse_event": "Renal failure",
+          "log_ratio": -3.045223806910756,
+          "n_reports": 356,
+          "ror": 0.04758566079593061
+        },
+        {
+          "adverse_event": "Renal failure",
+          "log_ratio": -3.012746190187559,
+          "n_reports": 171,
+          "ror": 0.049156500133985495
+        },
+        {
+          "adverse_event": "Renal failure",
+          "log_ratio": -2.7700592302022073,
+          "n_reports": 300,
+          "ror": 0.06265829336885533
+        },
+        {
+          "adverse_event": "Kidney infection",
+          "log_ratio": -2.62633370972775,
+          "n_reports": 72,
+          "ror": 0.07234320782424099
+        },
+        {
+          "adverse_event": "Renal failure",
+          "log_ratio": -2.427500533347912,
+          "n_reports": 492,
+          "ror": 0.08825715293655552
+        },
+        {
+          "adverse_event": "Renal disorder",
+          "log_ratio": -2.42186467387304,
+          "n_reports": 59,
+          "ror": 0.08875596213713581
+        },
+        {
+          "adverse_event": "Kidney infection",
+          "log_ratio": -2.3367624748803344,
+          "n_reports": 60,
+          "ror": 0.09664000675661462
+        },
+        {
+          "adverse_event": "Renal disorder",
+          "log_ratio": -2.3344626424469093,
+          "n_reports": 71,
+          "ror": 0.09686251835013349
+        },
+        {
+          "adverse_event": "End stage renal disease",
+          "log_ratio": -2.286647615174253,
+          "n_reports": 58,
+          "ror": 0.10160651568113055
+        }
+      ]
+    },
+    {
+      "organ_system": "hepatic",
+      "total_signals": 2505,
+      "female_higher": 1660,
+      "male_higher": 845,
+      "pct_female": 66.27,
+      "median_log_ratio": 0.649,
+      "mean_log_ratio": 0.4143,
+      "strong_signals_total": 858,
+      "strong_signals_female": 641,
+      "strong_signals_male": 217,
+      "pct_strong_female": 74.71,
+      "top_10_female_biased": [
+        {
+          "adverse_event": "Hepatic enzyme increased",
+          "log_ratio": 4.432569067188,
+          "n_reports": 3861,
+          "ror": 84.14731957497287
+        },
+        {
+          "adverse_event": "Hepatic enzyme increased",
+          "log_ratio": 4.345509184155896,
+          "n_reports": 1457,
+          "ror": 77.13130151879739
+        },
+        {
+          "adverse_event": "Hepatic enzyme increased",
+          "log_ratio": 4.118615026820804,
+          "n_reports": 2610,
+          "ror": 61.474043377665915
+        },
+        {
+          "adverse_event": "Liver injury",
+          "log_ratio": 3.9708246605864597,
+          "n_reports": 1117,
+          "ror": 53.02824311536989
+        },
+        {
+          "adverse_event": "Liver injury",
+          "log_ratio": 3.9238312380720535,
+          "n_reports": 1341,
+          "ror": 50.59391125236073
+        },
+        {
+          "adverse_event": "Liver injury",
+          "log_ratio": 3.8109886380302607,
+          "n_reports": 1895,
+          "ror": 45.19509837967404
+        },
+        {
+          "adverse_event": "Hepatic enzyme increased",
+          "log_ratio": 3.7682394234334544,
+          "n_reports": 4309,
+          "ror": 43.30375810188046
+        },
+        {
+          "adverse_event": "Hepatic enzyme increased",
+          "log_ratio": 3.757362149606199,
+          "n_reports": 555,
+          "ror": 42.83528374812668
+        },
+        {
+          "adverse_event": "Drug-induced liver injury",
+          "log_ratio": 3.7165901480724575,
+          "n_reports": 416,
+          "ror": 41.12392825480259
+        },
+        {
+          "adverse_event": "Liver injury",
+          "log_ratio": 3.702398043946487,
+          "n_reports": 773,
+          "ror": 40.544415164891355
+        }
+      ],
+      "top_10_male_biased": [
+        {
+          "adverse_event": "Foetal exposure during delivery",
+          "log_ratio": -3.5966794944233866,
+          "n_reports": 86,
+          "ror": 0.02741460181928223
+        },
+        {
+          "adverse_event": "Transaminases increased",
+          "log_ratio": -2.947636597611415,
+          "n_reports": 39,
+          "ror": 0.05246355202589945
+        },
+        {
+          "adverse_event": "Hepatic function abnormal",
+          "log_ratio": -2.8730378313819473,
+          "n_reports": 186,
+          "ror": 0.05652694615738107
+        },
+        {
+          "adverse_event": "Hepatic function abnormal",
+          "log_ratio": -2.7823438067093007,
+          "n_reports": 311,
+          "ror": 0.061893271376575756
+        },
+        {
+          "adverse_event": "Hepatic lesion",
+          "log_ratio": -2.614862303913205,
+          "n_reports": 36,
+          "ror": 0.07317786430783535
+        },
+        {
+          "adverse_event": "Transaminases increased",
+          "log_ratio": -2.5319445640719604,
+          "n_reports": 60,
+          "ror": 0.07950426872796618
+        },
+        {
+          "adverse_event": "Hepatic function abnormal",
+          "log_ratio": -2.386901713105554,
+          "n_reports": 321,
+          "ror": 0.09191401917491401
+        },
+        {
+          "adverse_event": "Hepatic function abnormal",
+          "log_ratio": -2.3009394181024114,
+          "n_reports": 350,
+          "ror": 0.10016470297576799
+        },
+        {
+          "adverse_event": "Hepatic fibrosis",
+          "log_ratio": -2.193815584552305,
+          "n_reports": 64,
+          "ror": 0.11149053444535874
+        },
+        {
+          "adverse_event": "Delayed delivery",
+          "log_ratio": -2.090698311296331,
+          "n_reports": 62,
+          "ror": 0.12360079384359908
+        }
+      ]
+    },
+    {
+      "organ_system": "cardiac",
+      "total_signals": 3164,
+      "female_higher": 2076,
+      "male_higher": 1088,
+      "pct_female": 65.61,
+      "median_log_ratio": 0.6248,
+      "mean_log_ratio": 0.2662,
+      "strong_signals_total": 918,
+      "strong_signals_female": 602,
+      "strong_signals_male": 316,
+      "pct_strong_female": 65.58,
+      "top_10_female_biased": [
+        {
+          "adverse_event": "Cardiac disorder",
+          "log_ratio": 2.937501723706336,
+          "n_reports": 277,
+          "ror": 18.868648283245445
+        },
+        {
+          "adverse_event": "Cardiac murmur",
+          "log_ratio": 2.837085331050558,
+          "n_reports": 104,
+          "ror": 17.065951377945858
+        },
+        {
+          "adverse_event": "Arteriosclerosis coronary artery",
+          "log_ratio": 2.6701226736299812,
+          "n_reports": 73,
+          "ror": 14.441740704897269
+        },
+        {
+          "adverse_event": "Angina pectoris",
+          "log_ratio": 2.5255375167330545,
+          "n_reports": 220,
+          "ror": 12.497611133606377
+        },
+        {
+          "adverse_event": "Acute myocardial infarction",
+          "log_ratio": 2.4922576886966117,
+          "n_reports": 27,
+          "ror": 12.088537489471287
+        },
+        {
+          "adverse_event": "Myocardial infarction",
+          "log_ratio": 2.4611832739438753,
+          "n_reports": 127,
+          "ror": 11.718669735898205
+        },
+        {
+          "adverse_event": "Angina pectoris",
+          "log_ratio": 2.443050012310535,
+          "n_reports": 170,
+          "ror": 11.508087077006598
+        },
+        {
+          "adverse_event": "Cardiac disorder",
+          "log_ratio": 2.4404687612825073,
+          "n_reports": 340,
+          "ror": 11.478420120811252
+        },
+        {
+          "adverse_event": "Cardiac failure congestive",
+          "log_ratio": 2.3219723061579782,
+          "n_reports": 267,
+          "ror": 10.19576365583062
+        },
+        {
+          "adverse_event": "Cardiac arrest",
+          "log_ratio": 2.2702452203490897,
+          "n_reports": 82,
+          "ror": 9.681774691169036
+        }
+      ],
+      "top_10_male_biased": [
+        {
+          "adverse_event": "Heart rate decreased",
+          "log_ratio": -3.6803048984929667,
+          "n_reports": 23,
+          "ror": 0.02521528556049553
+        },
+        {
+          "adverse_event": "Cardiac failure congestive",
+          "log_ratio": -3.6011751170124535,
+          "n_reports": 83,
+          "ror": 0.027291632734477655
+        },
+        {
+          "adverse_event": "Myocardial infarction",
+          "log_ratio": -3.3280105520394865,
+          "n_reports": 130,
+          "ror": 0.03586438446735103
+        },
+        {
+          "adverse_event": "Ventricular fibrillation",
+          "log_ratio": -3.298056150861942,
+          "n_reports": 183,
+          "ror": 0.03695493244201077
+        },
+        {
+          "adverse_event": "Ventricular hypokinesia",
+          "log_ratio": -3.2482938342672405,
+          "n_reports": 44,
+          "ror": 0.03884041952443813
+        },
+        {
+          "adverse_event": "Foetal heart rate decreased",
+          "log_ratio": -3.081591498125597,
+          "n_reports": 29,
+          "ror": 0.04588617075169415
+        },
+        {
+          "adverse_event": "Ventricular fibrillation",
+          "log_ratio": -2.8971507038181197,
+          "n_reports": 233,
+          "ror": 0.055180221072208574
+        },
+        {
+          "adverse_event": "Atrial fibrillation",
+          "log_ratio": -2.79770681529546,
+          "n_reports": 101,
+          "ror": 0.06094967134382131
+        },
+        {
+          "adverse_event": "Cardiac murmur",
+          "log_ratio": -2.763885915774805,
+          "n_reports": 111,
+          "ror": 0.06304629912383355
+        },
+        {
+          "adverse_event": "Cardiac failure acute",
+          "log_ratio": -2.758329664650155,
+          "n_reports": 26,
+          "ror": 0.06339757517952148
+        }
+      ]
+    },
+    {
+      "organ_system": "other",
+      "total_signals": 80483,
+      "female_higher": 42787,
+      "male_higher": 37696,
+      "pct_female": 53.16,
+      "median_log_ratio": 0.5288,
+      "mean_log_ratio": 0.0865,
+      "strong_signals_total": 27309,
+      "strong_signals_female": 15238,
+      "strong_signals_male": 12071,
+      "pct_strong_female": 55.8,
+      "top_10_female_biased": [
+        {
+          "adverse_event": "Prostatic disorder",
+          "log_ratio": 8.869498849549007,
+          "n_reports": 46,
+          "ror": 7111.716040259621
+        },
+        {
+          "adverse_event": "Infusion related reaction",
+          "log_ratio": 5.49607360941596,
+          "n_reports": 2533,
+          "ror": 243.73305985106947
+        },
+        {
+          "adverse_event": "Gynaecomastia",
+          "log_ratio": 5.447611088396968,
+          "n_reports": 42,
+          "ror": 232.20279085949568
+        },
+        {
+          "adverse_event": "Pericarditis",
+          "log_ratio": 5.396185812256093,
+          "n_reports": 2519,
+          "ror": 220.56353903281675
+        },
+        {
+          "adverse_event": "Product prescribing issue",
+          "log_ratio": 5.088759044734165,
+          "n_reports": 132,
+          "ror": 162.18846848510535
+        },
+        {
+          "adverse_event": "Blister",
+          "log_ratio": 5.055572366021432,
+          "n_reports": 2936,
+          "ror": 156.89430561905124
+        },
+        {
+          "adverse_event": "Duodenal ulcer perforation",
+          "log_ratio": 4.827950638154627,
+          "n_reports": 3349,
+          "ror": 124.95462084560555
+        },
+        {
+          "adverse_event": "Pericarditis",
+          "log_ratio": 4.810226860461381,
+          "n_reports": 4072,
+          "ror": 122.75946362711255
+        },
+        {
+          "adverse_event": "Impaired healing",
+          "log_ratio": 4.808073222879093,
+          "n_reports": 2955,
+          "ror": 122.49536871710139
+        },
+        {
+          "adverse_event": "Pericarditis",
+          "log_ratio": 4.769659061626444,
+          "n_reports": 4079,
+          "ror": 117.87904561873275
+        }
+      ],
+      "top_10_male_biased": [
+        {
+          "adverse_event": "Carbohydrate antigen 15-3 increased",
+          "log_ratio": -7.391389912032977,
+          "n_reports": 21,
+          "ror": 0.0006165384235283613
+        },
+        {
+          "adverse_event": "Foetal exposure during pregnancy",
+          "log_ratio": -6.568155804227702,
+          "n_reports": 70,
+          "ror": 0.0014043849862610109
+        },
+        {
+          "adverse_event": "Abortion spontaneous",
+          "log_ratio": -6.45611994771499,
+          "n_reports": 117,
+          "ror": 0.0015708789936625424
+        },
+        {
+          "adverse_event": "Adverse drug reaction",
+          "log_ratio": -6.447868373787949,
+          "n_reports": 8480,
+          "ror": 0.001583894844584873
+        },
+        {
+          "adverse_event": "Embedded device",
+          "log_ratio": -6.447123659548959,
+          "n_reports": 717,
+          "ror": 0.0015850748329512337
+        },
+        {
+          "adverse_event": "Premature baby",
+          "log_ratio": -6.421162224144812,
+          "n_reports": 41,
+          "ror": 0.0016267644707284885
+        },
+        {
+          "adverse_event": "Device expulsion",
+          "log_ratio": -6.411558803376324,
+          "n_reports": 127,
+          "ror": 0.0016424622298807136
+        },
+        {
+          "adverse_event": "Injury associated with device",
+          "log_ratio": -6.3274744571603785,
+          "n_reports": 55,
+          "ror": 0.0017865400597468163
+        },
+        {
+          "adverse_event": "Medical device discomfort",
+          "log_ratio": -6.030045047468779,
+          "n_reports": 119,
+          "ror": 0.002405385619645277
+        },
+        {
+          "adverse_event": "Carbohydrate antigen 15-3 increased",
+          "log_ratio": -5.864657873936223,
+          "n_reports": 29,
+          "ror": 0.0028379938310689867
+        }
+      ]
+    },
+    {
+      "organ_system": "neurological",
+      "total_signals": 3636,
+      "female_higher": 1811,
+      "male_higher": 1825,
+      "pct_female": 49.81,
+      "median_log_ratio": -0.5023,
+      "mean_log_ratio": -0.0041,
+      "strong_signals_total": 1139,
+      "strong_signals_female": 595,
+      "strong_signals_male": 544,
+      "pct_strong_female": 52.24,
+      "top_10_female_biased": [
+        {
+          "adverse_event": "Confusional state",
+          "log_ratio": 4.302615856099923,
+          "n_reports": 2881,
+          "ror": 73.89283412742175
+        },
+        {
+          "adverse_event": "Anxiety",
+          "log_ratio": 3.7018637276759296,
+          "n_reports": 4404,
+          "ror": 40.52275741074899
+        },
+        {
+          "adverse_event": "Confusional state",
+          "log_ratio": 3.608074757561733,
+          "n_reports": 3160,
+          "ror": 36.89495266564189
+        },
+        {
+          "adverse_event": "Sleep disorder due to general medical condition, insomnia type",
+          "log_ratio": 3.5466468903464152,
+          "n_reports": 1893,
+          "ror": 34.69678010715785
+        },
+        {
+          "adverse_event": "Confusional state",
+          "log_ratio": 3.4498838598469037,
+          "n_reports": 715,
+          "ror": 31.496734060801447
+        },
+        {
+          "adverse_event": "Confusional state",
+          "log_ratio": 3.181880219664001,
+          "n_reports": 599,
+          "ror": 24.092009262954797
+        },
+        {
+          "adverse_event": "Confusional state",
+          "log_ratio": 3.1745847699500707,
+          "n_reports": 550,
+          "ror": 23.91688679616429
+        },
+        {
+          "adverse_event": "Confusional state",
+          "log_ratio": 3.1731756677494674,
+          "n_reports": 3017,
+          "ror": 23.883209191514084
+        },
+        {
+          "adverse_event": "Confusional state",
+          "log_ratio": 3.1254844747692268,
+          "n_reports": 470,
+          "ror": 22.77092435993471
+        },
+        {
+          "adverse_event": "Confusional state",
+          "log_ratio": 3.059234211874432,
+          "n_reports": 2732,
+          "ror": 21.311231023984014
+        }
+      ],
+      "top_10_male_biased": [
+        {
+          "adverse_event": "Somnolence",
+          "log_ratio": -4.4112063288955605,
+          "n_reports": 71,
+          "ror": 0.012140524027796027
+        },
+        {
+          "adverse_event": "Vertigo",
+          "log_ratio": -4.1491352050774,
+          "n_reports": 85,
+          "ror": 0.015778055368757107
+        },
+        {
+          "adverse_event": "Insomnia",
+          "log_ratio": -3.663580433114196,
+          "n_reports": 79,
+          "ror": 0.025640543927998062
+        },
+        {
+          "adverse_event": "Anxiety",
+          "log_ratio": -3.411874166852671,
+          "n_reports": 135,
+          "ror": 0.03297933364576634
+        },
+        {
+          "adverse_event": "Neuralgia",
+          "log_ratio": -3.316388696314458,
+          "n_reports": 117,
+          "ror": 0.03628362663647616
+        },
+        {
+          "adverse_event": "Migraine",
+          "log_ratio": -3.1379060358272284,
+          "n_reports": 97,
+          "ror": 0.043373525487075286
+        },
+        {
+          "adverse_event": "Anxiety",
+          "log_ratio": -3.110250687051122,
+          "n_reports": 113,
+          "ror": 0.04458977585963711
+        },
+        {
+          "adverse_event": "Somnolence",
+          "log_ratio": -3.0678539201419763,
+          "n_reports": 145,
+          "ror": 0.0465208853393692
+        },
+        {
+          "adverse_event": "Depression",
+          "log_ratio": -3.0617818482727865,
+          "n_reports": 373,
+          "ror": 0.04680422285087947
+        },
+        {
+          "adverse_event": "Vertigo",
+          "log_ratio": -3.0485336421328872,
+          "n_reports": 91,
+          "ror": 0.04742842046310323
+        }
+      ]
+    },
+    {
+      "organ_system": "dermatological",
+      "total_signals": 4490,
+      "female_higher": 1950,
+      "male_higher": 2540,
+      "pct_female": 43.43,
+      "median_log_ratio": -0.5507,
+      "mean_log_ratio": -0.0878,
+      "strong_signals_total": 1483,
+      "strong_signals_female": 697,
+      "strong_signals_male": 786,
+      "pct_strong_female": 47.0,
+      "top_10_female_biased": [
+        {
+          "adverse_event": "Pemphigus",
+          "log_ratio": 4.742840780858185,
+          "n_reports": 6782,
+          "ror": 114.75974635141891
+        },
+        {
+          "adverse_event": "Pemphigus",
+          "log_ratio": 4.370921860017574,
+          "n_reports": 6702,
+          "ror": 79.11653246025763
+        },
+        {
+          "adverse_event": "Pruritus",
+          "log_ratio": 3.7536293805269167,
+          "n_reports": 1638,
+          "ror": 42.67568757858473
+        },
+        {
+          "adverse_event": "Systemic lupus erythematosus",
+          "log_ratio": 3.554830124076607,
+          "n_reports": 6241,
+          "ror": 34.98187688427675
+        },
+        {
+          "adverse_event": "Rash",
+          "log_ratio": 3.4409678772421057,
+          "n_reports": 1857,
+          "ror": 31.217157927843495
+        },
+        {
+          "adverse_event": "Rash",
+          "log_ratio": 3.403785025220642,
+          "n_reports": 2260,
+          "ror": 30.077729831931467
+        },
+        {
+          "adverse_event": "Pemphigus",
+          "log_ratio": 3.3283143435820652,
+          "n_reports": 6756,
+          "ror": 27.891286928471477
+        },
+        {
+          "adverse_event": "Alopecia",
+          "log_ratio": 3.282566557690993,
+          "n_reports": 1348,
+          "ror": 26.644068558831975
+        },
+        {
+          "adverse_event": "Psoriasis",
+          "log_ratio": 3.2606818696750692,
+          "n_reports": 292,
+          "ror": 26.06730558913944
+        },
+        {
+          "adverse_event": "Alopecia",
+          "log_ratio": 3.2020666123267505,
+          "n_reports": 4969,
+          "ror": 24.5832818503543
+        }
+      ],
+      "top_10_male_biased": [
+        {
+          "adverse_event": "Hyperhidrosis",
+          "log_ratio": -4.674945851296158,
+          "n_reports": 268,
+          "ror": 0.00932603011649903
+        },
+        {
+          "adverse_event": "Eczema",
+          "log_ratio": -4.015189234712602,
+          "n_reports": 75,
+          "ror": 0.018039540520468016
+        },
+        {
+          "adverse_event": "Hyperhidrosis",
+          "log_ratio": -3.9968550816776816,
+          "n_reports": 264,
+          "ror": 0.01837333074760217
+        },
+        {
+          "adverse_event": "Systemic lupus erythematosus",
+          "log_ratio": -3.9092499714442517,
+          "n_reports": 98,
+          "ror": 0.020055537647981438
+        },
+        {
+          "adverse_event": "Acne",
+          "log_ratio": -3.8867379450300277,
+          "n_reports": 39,
+          "ror": 0.020512148778462046
+        },
+        {
+          "adverse_event": "Systemic lupus erythematosus",
+          "log_ratio": -3.882838542441731,
+          "n_reports": 97,
+          "ror": 0.020592290054502013
+        },
+        {
+          "adverse_event": "Systemic lupus erythematosus",
+          "log_ratio": -3.637010887941504,
+          "n_reports": 97,
+          "ror": 0.026330932560142874
+        },
+        {
+          "adverse_event": "Alopecia",
+          "log_ratio": -3.5656966087469066,
+          "n_reports": 38,
+          "ror": 0.0282772804207441
+        },
+        {
+          "adverse_event": "Systemic lupus erythematosus",
+          "log_ratio": -3.5085802349919955,
+          "n_reports": 109,
+          "ror": 0.0299393911762501
+        },
+        {
+          "adverse_event": "Photosensitivity reaction",
+          "log_ratio": -3.4738765427679814,
+          "n_reports": 106,
+          "ror": 0.030996637665955857
+        }
+      ]
+    }
+  ],
+  "chi_square_test": {
+    "statistic": 845.6936,
+    "p_value": "9.7091e-182",
+    "degrees_of_freedom": 4,
+    "interpretation": "Significant heterogeneity in sex bias across organ systems"
+  },
+  "pairwise_fisher_tests": [
+    {
+      "organ_a": "renal",
+      "organ_b": "dermatological",
+      "pct_f_a": 74.29,
+      "pct_f_b": 43.43,
+      "odds_ratio": 3.7635,
+      "p_value": "1.5878e-122",
+      "significant": true
+    },
+    {
+      "organ_a": "cardiac",
+      "organ_b": "dermatological",
+      "pct_f_a": 65.61,
+      "pct_f_b": 43.43,
+      "odds_ratio": 2.4854,
+      "p_value": "1.7152e-82",
+      "significant": true
+    },
+    {
+      "organ_a": "hepatic",
+      "organ_b": "dermatological",
+      "pct_f_a": 66.27,
+      "pct_f_b": 43.43,
+      "odds_ratio": 2.5589,
+      "p_value": "6.2979e-76",
+      "significant": true
+    },
+    {
+      "organ_a": "renal",
+      "organ_b": "neurological",
+      "pct_f_a": 74.29,
+      "pct_f_b": 49.81,
+      "odds_ratio": 2.9116,
+      "p_value": "2.2834e-74",
+      "significant": true
+    },
+    {
+      "organ_a": "cardiac",
+      "organ_b": "neurological",
+      "pct_f_a": 65.61,
+      "pct_f_b": 49.81,
+      "odds_ratio": 1.9228,
+      "p_value": "1.2742e-39",
+      "significant": true
+    },
+    {
+      "organ_a": "hepatic",
+      "organ_b": "neurological",
+      "pct_f_a": 66.27,
+      "pct_f_b": 49.81,
+      "odds_ratio": 1.9797,
+      "p_value": "9.6919e-38",
+      "significant": true
+    },
+    {
+      "organ_a": "renal",
+      "organ_b": "cardiac",
+      "pct_f_a": 74.29,
+      "pct_f_b": 65.61,
+      "odds_ratio": 1.5142,
+      "p_value": "3.1354e-11",
+      "significant": true
+    },
+    {
+      "organ_a": "renal",
+      "organ_b": "hepatic",
+      "pct_f_a": 74.29,
+      "pct_f_b": 66.27,
+      "odds_ratio": 1.4708,
+      "p_value": "4.7020e-09",
+      "significant": true
+    },
+    {
+      "organ_a": "neurological",
+      "organ_b": "dermatological",
+      "pct_f_a": 49.81,
+      "pct_f_b": 43.43,
+      "odds_ratio": 1.2926,
+      "p_value": "1.0145e-08",
+      "significant": true
+    },
+    {
+      "organ_a": "hepatic",
+      "organ_b": "cardiac",
+      "pct_f_a": 66.27,
+      "pct_f_b": 65.61,
+      "odds_ratio": 1.0296,
+      "p_value": "6.1170e-01",
+      "significant": false
+    }
+  ],
+  "key_findings": [
+    "Cardiac AEs show 65.6% female bias",
+    "Hepatic AEs show 66.3% female bias",
+    "Renal AEs show 74.3% female bias",
+    "Neurological AEs show 49.8% female bias",
+    "Dermatological AEs show 43.4% female bias",
+    "Chi-square test p=9.71e-182 indicates significant heterogeneity"
+  ],
+  "figures_generated": [
+    "wave_260_v2_organ_comparison.png",
+    "wave_260_v2_organ_comparison.pdf",
+    "wave_260_v2_organ_violin.png",
+    "wave_260_v2_organ_violin.pdf"
+  ]
+}
