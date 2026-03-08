@@ -1,0 +1,25 @@
+{
+  "wave": 243,
+  "title": "Drug Approval Era Sex Bias",
+  "eras": {
+    "Pre-2000": {
+      "n": 14477,
+      "pct_f": 62.5,
+      "n_drugs": 55,
+      "mean_abs_logr": 1.0132
+    },
+    "2000-2010": {
+      "n": 11727,
+      "pct_f": 55.7,
+      "n_drugs": 43,
+      "mean_abs_logr": 0.9812
+    },
+    "Post-2010": {
+      "n": 6239,
+      "pct_f": 56.1,
+      "n_drugs": 44,
+      "mean_abs_logr": 0.9066
+    }
+  },
+  "pre_vs_post_p": 9.21916792631164e-18
+}

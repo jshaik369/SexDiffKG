@@ -1,0 +1,152 @@
+{
+  "wave": 250,
+  "title": "250 Waves Milestone",
+  "total_jsons": 119,
+  "total_figures_png": 398,
+  "total_figures_pdf": 398,
+  "session28_waves": [
+    {
+      "wave": "W221",
+      "finding": "Biologics 45.2%F vs small molecules 49.3%F"
+    },
+    {
+      "wave": "W222",
+      "finding": "ROR pattern: 14.9% F-only, 12.5% M-only"
+    },
+    {
+      "wave": "W223",
+      "finding": "Promiscuous drugs (5+ targets) +13.1pp more female"
+    },
+    {
+      "wave": "W224",
+      "finding": "Top 100 drugs 57.8%F vs bottom 100 40.4%F"
+    },
+    {
+      "wave": "W225",
+      "finding": "Body systems: Renal 69.0%F, Ocular 32.4%F"
+    },
+    {
+      "wave": "W226",
+      "finding": "Risperidone 92.9%F, shared AEs 100%F across drugs"
+    },
+    {
+      "wave": "W227",
+      "finding": "D1=42.2%F\u2192D10=82.5%F confidence gradient"
+    },
+    {
+      "wave": "W228",
+      "finding": "Drug concordance 66.8%, rheumatoid 98.8%"
+    },
+    {
+      "wave": "W229",
+      "finding": "Opioids 72.2%F (+19.2pp vs non-opioid)"
+    },
+    {
+      "wave": "W231",
+      "finding": "Steroids 65.2%F, prednisolone 82.5%F"
+    },
+    {
+      "wave": "W232",
+      "finding": "CPIs 74.6%F, irAEs 82.7%F, 100%F immune-mediated"
+    },
+    {
+      "wave": "W233",
+      "finding": "Bleeding AEs 90.9%F on anticoagulants"
+    },
+    {
+      "wave": "W234",
+      "finding": "Low entropy = male-biased (32.4%F)"
+    },
+    {
+      "wave": "W235",
+      "finding": "GLP-1 24.5%F, tirzepatide 8.4%F"
+    },
+    {
+      "wave": "W236",
+      "finding": "Psychiatric: SSRIs 42.2%F, antipsychotics 64.4%F"
+    },
+    {
+      "wave": "W237",
+      "finding": "Rare AEs 45.9%F, very common 57.4%F"
+    },
+    {
+      "wave": "W238",
+      "finding": "Oncology 65.4%F, CPIs 74.6%F, alkylating 70.7%F"
+    },
+    {
+      "wave": "W239",
+      "finding": "BBW drugs 59.7%F vs non-BBW 52.8%F (+6.9pp)"
+    },
+    {
+      "wave": "W240",
+      "finding": "240 Waves Milestone"
+    },
+    {
+      "wave": "W241",
+      "finding": "Age-related: renal aging 74.1%F, falls 42.4%F"
+    },
+    {
+      "wave": "W242",
+      "finding": "Inhaled drugs 38.6%F, injectable 55.5%F"
+    },
+    {
+      "wave": "W243",
+      "finding": "Pre-2000 62.5%F, post-2010 56.1%F \u2014 converging"
+    },
+    {
+      "wave": "W244",
+      "finding": "Hepatotoxicity 66.1%F, DILI 77.8%F"
+    },
+    {
+      "wave": "W245",
+      "finding": "Cardiotoxicity 61.3%F, cardiac arrest 83.3%F"
+    },
+    {
+      "wave": "W246",
+      "finding": "Nephrotoxicity \u2014 pending"
+    },
+    {
+      "wave": "W247",
+      "finding": "Dermatology \u2014 pending"
+    },
+    {
+      "wave": "W248",
+      "finding": "Neurotoxicity \u2014 pending"
+    },
+    {
+      "wave": "W249",
+      "finding": "Autoimmune drugs \u2014 pending"
+    },
+    {
+      "wave": "W250",
+      "finding": "250 Waves Milestone"
+    }
+  ],
+  "organ_toxicity_summary": {
+    "Hepatotoxicity (W244)": {
+      "signals": 2828,
+      "pct_f": 66.1,
+      "delta": 12.7
+    },
+    "Cardiotoxicity (W245)": {
+      "signals": 5324,
+      "pct_f": 61.3,
+      "delta": 8.0
+    },
+    "Nephrotoxicity (W246)": {
+      "signals": 2768,
+      "pct_f": 73.8,
+      "delta": 20.7
+    },
+    "Dermatotoxicity (W247)": {
+      "signals": 4169,
+      "pct_f": 45.8,
+      "delta": -8.3
+    },
+    "Neurotoxicity (W248)": {
+      "signals": 6713,
+      "pct_f": 48.0,
+      "delta": -6.2
+    }
+  }
+}

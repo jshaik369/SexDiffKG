@@ -1,0 +1,31 @@
+{
+  "wave": 242,
+  "title": "Route of Administration Sex Bias",
+  "routes": {
+    "Injectable": {
+      "n": 11319,
+      "pct_f": 55.5,
+      "n_drugs": 43,
+      "mean_logr": 0.9609
+    },
+    "Inhaled": {
+      "n": 1591,
+      "pct_f": 38.6,
+      "n_drugs": 11,
+      "mean_logr": 1.1087
+    },
+    "Topical": {
+      "n": 1782,
+      "pct_f": 53.5,
+      "n_drugs": 14,
+      "mean_logr": 1.1346
+    },
+    "Oral (presumed)": {
+      "n": 81589,
+      "pct_f": 53.8,
+      "n_drugs": 2110,
+      "mean_logr": 0.9848
+    }
+  },
+  "injectable_vs_oral_p": 0.0009815111754467646
+}

@@ -1,0 +1,12 @@
+{
+  "wave": 244,
+  "title": "Hepatotoxicity Sex Bias Deep Dive",
+  "liver_signals": 2828,
+  "liver_aes": 107,
+  "liver_drugs": 592,
+  "liver_pct_f": 66.1,
+  "non_liver_pct_f": 53.4,
+  "delta_pp": 12.7,
+  "mann_whitney_p": 1.4248620988150288e-40,
+  "known_hepatotoxic_pct_f": 64.1
+}
