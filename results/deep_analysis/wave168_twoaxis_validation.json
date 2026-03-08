@@ -1,0 +1,30 @@
+{
+  "wave": 168,
+  "title": "Two-Axis Model Empirical Validation",
+  "strength_axis": {
+    "gradient_pp": 7.4,
+    "rho": 0.9879,
+    "lowest_pct_f": 51.0,
+    "highest_pct_f": 58.4
+  },
+  "volume_axis": {
+    "gradient_pp": 40.3,
+    "rho": 1.0,
+    "lowest_pct_f": 42.2,
+    "highest_pct_f": 82.5
+  },
+  "two_d_landscape": {
+    "quiet_corner": 43.7,
+    "dominant_corner": 97.5,
+    "min_pct_f": 0.0,
+    "max_pct_f": 97.9
+  },
+  "direction_asymmetry": {
+    "n_female": 51771,
+    "n_male": 44510,
+    "female_mean_logr": 1.0072,
+    "male_mean_logr": 0.9631,
+    "p_value": 1.401129865973947e-41
+  },
+  "overall_pct_female": 53.8
+}
