@@ -1,0 +1,926 @@
+{
+  "wave": 147,
+  "title": "Extreme Signal Characterization",
+  "description": "Deep dive into distributional tails: drugs and AEs producing extreme sex-differential signals",
+  "total_signals": 96281,
+  "extreme_thresholds": [
+    {
+      "min_abs_logR": 3.0,
+      "n_signals": 1028,
+      "pct_female": 58.5,
+      "n_drugs": 256,
+      "n_aes": 351,
+      "mean_reports": 1068.2,
+      "median_reports": 432,
+      "mean_min_reports": 24.1
+    },
+    {
+      "min_abs_logR": 4.0,
+      "n_signals": 146,
+      "pct_female": 47.9,
+      "n_drugs": 68,
+      "n_aes": 89,
+      "mean_reports": 1583.5,
+      "median_reports": 353,
+      "mean_min_reports": 23.1
+    },
+    {
+      "min_abs_logR": 5.0,
+      "n_signals": 28,
+      "pct_female": 21.4,
+      "n_drugs": 20,
+      "n_aes": 22,
+      "mean_reports": 667.8,
+      "median_reports": 62,
+      "mean_min_reports": 22.1
+    },
+    {
+      "min_abs_logR": 6.0,
+      "n_signals": 10,
+      "pct_female": 10.0,
+      "n_drugs": 7,
+      "n_aes": 10,
+      "mean_reports": 979.3,
+      "median_reports": 93,
+      "mean_min_reports": 36.2
+    },
+    {
+      "min_abs_logR": 7.0,
+      "n_signals": 2,
+      "pct_female": 50.0,
+      "n_drugs": 2,
+      "n_aes": 2,
+      "mean_reports": 33.5,
+      "median_reports": 33,
+      "mean_min_reports": 15.5
+    },
+    {
+      "min_abs_logR": 8.0,
+      "n_signals": 1,
+      "pct_female": 100.0,
+      "n_drugs": 1,
+      "n_aes": 1,
+      "mean_reports": 46.0,
+      "median_reports": 46,
+      "mean_min_reports": 21.0
+    }
+  ],
+  "top50_extreme_signals": [
+    {
+      "drug": "TESTOSTERONE",
+      "ae": "Prostatic disorder",
+      "log_ratio": 8.8695,
+      "abs_log_ratio": 8.8695,
+      "direction": "female_higher",
+      "n_female": 25,
+      "n_male": 21,
+      "ror_female": 7197.74,
+      "ror_male": 1.01
+    },
+    {
+      "drug": "PERTUZUMAB",
+      "ae": "Carbohydrate antigen 15-3 increased",
+      "log_ratio": -7.3914,
+      "abs_log_ratio": 7.3914,
+      "direction": "male_higher",
+      "n_female": 11,
+      "n_male": 10,
+      "ror_female": 8.59,
+      "ror_male": 13927.37
+    },
+    {
+      "drug": "ETONOGESTREL",
+      "ae": "Foetal exposure during pregnancy",
+      "log_ratio": -6.5682,
+      "abs_log_ratio": 6.5682,
+      "direction": "male_higher",
+      "n_female": 30,
+      "n_male": 40,
+      "ror_female": 0.26,
+      "ror_male": 183.26
+    },
+    {
+      "drug": "HYDROXYPROGESTERONE",
+      "ae": "Abortion spontaneous",
+      "log_ratio": -6.4561,
+      "abs_log_ratio": 6.4561,
+      "direction": "male_higher",
+      "n_female": 105,
+      "n_male": 12,
+      "ror_female": 2.62,
+      "ror_male": 1665.77
+    },
+    {
+      "drug": "MINOXIDIL",
+      "ae": "Adverse drug reaction",
+      "log_ratio": -6.4479,
+      "abs_log_ratio": 6.4479,
+      "direction": "male_higher",
+      "n_female": 20,
+      "n_male": 8460,
+      "ror_female": 0.18,
+      "ror_male": 115.64
+    },
+    {
+      "drug": "CARBIDOPA;LEVODOPA",
+      "ae": "Embedded device",
+      "log_ratio": -6.4471,
+      "abs_log_ratio": 6.4471,
+      "direction": "male_higher",
+      "n_female": 169,
+      "n_male": 548,
+      "ror_female": 8.58,
+      "ror_male": 5412.58
+    },
+    {
+      "drug": "ETONOGESTREL",
+      "ae": "Premature baby",
+      "log_ratio": -6.4212,
+      "abs_log_ratio": 6.4212,
+      "direction": "male_higher",
+      "n_female": 18,
+      "n_male": 23,
+      "ror_female": 0.45,
+      "ror_male": 277.37
+    },
+    {
+      "drug": "CARBIDOPA;LEVODOPA",
+      "ae": "Device expulsion",
+      "log_ratio": -6.4116,
+      "abs_log_ratio": 6.4116,
+      "direction": "male_higher",
+      "n_female": 48,
+      "n_male": 79,
+      "ror_female": 0.36,
+      "ror_male": 216.32
+    },
+    {
+      "drug": "ETONOGESTREL",
+      "ae": "Injury associated with device",
+      "log_ratio": -6.3275,
+      "abs_log_ratio": 6.3275,
+      "direction": "male_higher",
+      "n_female": 40,
+      "n_male": 15,
+      "ror_female": 0.55,
+      "ror_male": 305.19
+    },
+    {
+      "drug": "ETHINYLESTRADIOL;ETONOGESTREL",
+      "ae": "Medical device discomfort",
+      "log_ratio": -6.03,
+      "abs_log_ratio": 6.03,
+      "direction": "male_higher",
+      "n_female": 100,
+      "n_male": 19,
+      "ror_female": 25.9,
+      "ror_male": 10766.75
+    },
+    {
+      "drug": "TRASTUZUMAB",
+      "ae": "Carbohydrate antigen 15-3 increased",
+      "log_ratio": -5.8647,
+      "abs_log_ratio": 5.8647,
+      "direction": "male_higher",
+      "n_female": 19,
+      "n_male": 10,
+      "ror_female": 6.9,
+      "ror_male": 2431.3
+    },
+    {
+      "drug": "ESTRADIOL",
+      "ae": "Invasive ductal breast carcinoma",
+      "log_ratio": -5.8646,
+      "abs_log_ratio": 5.8646,
+      "direction": "male_higher",
+      "n_female": 42,
+      "n_male": 10,
+      "ror_female": 5.37,
+      "ror_male": 1892.47
+    },
+    {
+      "drug": "VITAMIN B12",
+      "ae": "Abortion spontaneous",
+      "log_ratio": -5.8581,
+      "abs_log_ratio": 5.8581,
+      "direction": "male_higher",
+      "n_female": 24,
+      "n_male": 11,
+      "ror_female": 2.97,
+      "ror_male": 1039.5
+    },
+    {
+      "drug": "FEZOLINETANT",
+      "ae": "Off label use",
+      "log_ratio": -5.7443,
+      "abs_log_ratio": 5.7443,
+      "direction": "male_higher",
+      "n_female": 65,
+      "n_male": 16,
+      "ror_female": 1.09,
+      "ror_male": 340.43
+    },
+    {
+      "drug": "LABETALOL",
+      "ae": "Abortion spontaneous",
+      "log_ratio": -5.6789,
+      "abs_log_ratio": 5.6789,
+      "direction": "male_higher",
+      "n_female": 48,
+      "n_male": 15,
+      "ror_female": 7.91,
+      "ror_male": 2315.89
+    },
+    {
+      "drug": "HISTRELIN",
+      "ae": "Device expulsion",
+      "log_ratio": -5.5981,
+      "abs_log_ratio": 5.5981,
+      "direction": "male_higher",
+      "n_female": 21,
+      "n_male": 11,
+      "ror_female": 7.01,
+      "ror_male": 1892.55
+    },
+    {
+      "drug": "TAMOXIFEN",
+      "ae": "Carbohydrate antigen 15-3 increased",
+      "log_ratio": -5.5617,
+      "abs_log_ratio": 5.5617,
+      "direction": "male_higher",
+      "n_female": 44,
+      "n_male": 10,
+      "ror_female": 90.82,
+      "ror_male": 23637.73
+    },
+    {
+      "drug": "HYDROXYPROGESTERONE",
+      "ae": "Stillbirth",
+      "log_ratio": -5.5403,
+      "abs_log_ratio": 5.5403,
+      "direction": "male_higher",
+      "n_female": 71,
+      "n_male": 52,
+      "ror_female": 20.5,
+      "ror_male": 5222.64
+    },
+    {
+      "drug": "VITAMIN B9",
+      "ae": "Abortion spontaneous",
+      "log_ratio": -5.5057,
+      "abs_log_ratio": 5.5057,
+      "direction": "male_higher",
+      "n_female": 99,
+      "n_male": 14,
+      "ror_female": 2.82,
+      "ror_male": 692.92
+    },
+    {
+      "drug": "OXYCODONE",
+      "ae": "Infusion related reaction",
+      "log_ratio": 5.4961,
+      "abs_log_ratio": 5.4961,
+      "direction": "female_higher",
+      "n_female": 2523,
+      "n_male": 10,
+      "ror_female": 11.61,
+      "ror_male": 0.05
+    },
+    {
+      "drug": "ETONOGESTREL",
+      "ae": "Accidental exposure to product",
+      "log_ratio": -5.4906,
+      "abs_log_ratio": 5.4906,
+      "direction": "male_higher",
+      "n_female": 33,
+      "n_male": 10,
+      "ror_female": 0.11,
+      "ror_male": 25.62
+    },
+    {
+      "drug": "DESOXIMETASONE",
+      "ae": "Stress",
+      "log_ratio": -5.456,
+      "abs_log_ratio": 5.456,
+      "direction": "male_higher",
+      "n_female": 12,
+      "n_male": 49,
+      "ror_female": 0.28,
+      "ror_male": 66.19
+    },
+    {
+      "drug": "CLOZAPINE",
+      "ae": "Gynaecomastia",
+      "log_ratio": 5.4476,
+      "abs_log_ratio": 5.4476,
+      "direction": "female_higher",
+      "n_female": 11,
+      "n_male": 31,
+      "ror_female": 26.72,
+      "ror_male": 0.12
+    },
+    {
+      "drug": "PERTUZUMAB",
+      "ae": "Oligohydramnios",
+      "log_ratio": -5.4453,
+      "abs_log_ratio": 5.4453,
+      "direction": "male_higher",
+      "n_female": 18,
+      "n_male": 11,
+      "ror_female": 4.5,
+      "ror_male": 1042.91
+    },
+    {
+      "drug": "OXYCODONE",
+      "ae": "Pericarditis",
+      "log_ratio": 5.3962,
+      "abs_log_ratio": 5.3962,
+      "direction": "female_higher",
+      "n_female": 2508,
+      "n_male": 11,
+      "ror_female": 51.53,
+      "ror_male": 0.23
+    },
+    {
+      "drug": "DENOSUMAB",
+      "ae": "Peri-implantitis",
+      "log_ratio": -5.3463,
+      "abs_log_ratio": 5.3463,
+      "direction": "male_higher",
+      "n_female": 13,
+      "n_male": 14,
+      "ror_female": 19.47,
+      "ror_male": 4084.79
+    },
+    {
+      "drug": "DUTASTERIDE",
+      "ae": "Product prescribing issue",
+      "log_ratio": 5.0888,
+      "abs_log_ratio": 5.0888,
+      "direction": "female_higher",
+      "n_female": 120,
+      "n_male": 12,
+      "ror_female": 566.63,
+      "ror_male": 3.49
+    },
+    {
+      "drug": "OXYCODONE",
+      "ae": "Blister",
+      "log_ratio": 5.0556,
+      "abs_log_ratio": 5.0556,
+      "direction": "female_higher",
+      "n_female": 2917,
+      "n_male": 19,
+      "ror_female": 14.54,
+      "ror_male": 0.09
+    },
+    {
+      "drug": "INTRAUTERINE CONTRACEPTIVE DEVICE",
+      "ae": "Dyspareunia",
+      "log_ratio": -4.9888,
+      "abs_log_ratio": 4.9888,
+      "direction": "male_higher",
+      "n_female": 823,
+      "n_male": 31,
+      "ror_female": 85.23,
+      "ror_male": 12509.16
+    },
+    {
+      "drug": "LEVONORGESTREL",
+      "ae": "Foetal exposure during pregnancy",
+      "log_ratio": -4.9464,
+      "abs_log_ratio": 4.9464,
+      "direction": "male_higher",
+      "n_female": 23,
+      "n_male": 10,
+      "ror_female": 0.24,
+      "ror_male": 33.39
+    },
+    {
+      "drug": "ALENDRONIC ACID",
+      "ae": "Vasculitis",
+      "log_ratio": -4.9131,
+      "abs_log_ratio": 4.9131,
+      "direction": "male_higher",
+      "n_female": 16,
+      "n_male": 139,
+      "ror_female": 1.15,
+      "ror_male": 156.54
+    },
+    {
+      "drug": "VITAMIN D2",
+      "ae": "Nodule",
+      "log_ratio": -4.8935,
+      "abs_log_ratio": 4.8935,
+      "direction": "male_higher",
+      "n_female": 14,
+      "n_male": 169,
+      "ror_female": 5.99,
+      "ror_male": 799.26
+    },
+    {
+      "drug": "ALENDRONIC ACID",
+      "ae": "Eosinophilic granulomatosis with polyangiitis",
+      "log_ratio": -4.8573,
+      "abs_log_ratio": 4.8573,
+      "direction": "male_higher",
+      "n_female": 12,
+      "n_male": 147,
+      "ror_female": 5.69,
+      "ror_male": 732.1
+    },
+    {
+      "drug": "PREDNISONE",
+      "ae": "Duodenal ulcer perforation",
+      "log_ratio": 4.828,
+      "abs_log_ratio": 4.828,
+      "direction": "female_higher",
+      "n_female": 3339,
+      "n_male": 10,
+      "ror_female": 283.76,
+      "ror_male": 2.27
+    },
+    {
+      "drug": "GOLIMUMAB",
+      "ae": "Pericarditis",
+      "log_ratio": 4.8102,
+      "abs_log_ratio": 4.8102,
+      "direction": "female_higher",
+      "n_female": 4061,
+      "n_male": 11,
+      "ror_female": 177.33,
+      "ror_male": 1.44
+    },
+    {
+      "drug": "OXYCODONE",
+      "ae": "Impaired healing",
+      "log_ratio": 4.8081,
+      "abs_log_ratio": 4.8081,
+      "direction": "female_higher",
+      "n_female": 2933,
+      "n_male": 22,
+      "ror_female": 27.42,
+      "ror_male": 0.22
+    },
+    {
+      "drug": "DESOXIMETASONE",
+      "ae": "Pulmonary embolism",
+      "log_ratio": -4.7955,
+      "abs_log_ratio": 4.7955,
+      "direction": "male_higher",
+      "n_female": 10,
+      "n_male": 47,
+      "ror_female": 0.28,
+      "ror_male": 33.28
+    },
+    {
+      "drug": "DOCETAXEL",
+      "ae": "Carbohydrate antigen 15-3 increased",
+      "log_ratio": -4.7855,
+      "abs_log_ratio": 4.7855,
+      "direction": "male_higher",
+      "n_female": 16,
+      "n_male": 10,
+      "ror_female": 5.37,
+      "ror_male": 642.74
+    },
+    {
+      "drug": "HYDROXYCHLOROQUINE",
+      "ae": "Pericarditis",
+      "log_ratio": 4.7697,
+      "abs_log_ratio": 4.7697,
+      "direction": "female_higher",
+      "n_female": 4069,
+      "n_male": 10,
+      "ror_female": 215.82,
+      "ror_male": 1.83
+    },
+    {
+      "drug": "METHOTREXATE",
+      "ae": "Glossodynia",
+      "log_ratio": 4.7448,
+      "abs_log_ratio": 4.7448,
+      "direction": "female_higher",
+      "n_female": 6104,
+      "n_male": 14,
+      "ror_female": 60.67,
+      "ror_male": 0.53
+    },
+    {
+      "drug": "ADALIMUMAB",
+      "ae": "Pemphigus",
+      "log_ratio": 4.7428,
+      "abs_log_ratio": 4.7428,
+      "direction": "female_higher",
+      "n_female": 6766,
+      "n_male": 16,
+      "ror_female": 87.41,
+      "ror_male": 0.76
+    },
+    {
+      "drug": "PREDNISONE",
+      "ae": "Helicobacter infection",
+      "log_ratio": 4.7079,
+      "abs_log_ratio": 4.7079,
+      "direction": "female_higher",
+      "n_female": 3295,
+      "n_male": 12,
+      "ror_female": 132.41,
+      "ror_male": 1.19
+    },
+    {
+      "drug": "DESOXIMETASONE",
+      "ae": "COVID-19",
+      "log_ratio": -4.6993,
+      "abs_log_ratio": 4.6993,
+      "direction": "male_higher",
+      "n_female": 15,
+      "n_male": 52,
+      "ror_female": 0.15,
+      "ror_male": 16.13
+    },
+    {
+      "drug": "RIZATRIPTAN",
+      "ae": "Hyperhidrosis",
+      "log_ratio": -4.6749,
+      "abs_log_ratio": 4.6749,
+      "direction": "male_higher",
+      "n_female": 13,
+      "n_male": 255,
+      "ror_female": 1.17,
+      "ror_male": 125.57
+    },
+    {
+      "drug": "DESOXIMETASONE",
+      "ae": "Accidental overdose",
+      "log_ratio": -4.6727,
+      "abs_log_ratio": 4.6727,
+      "direction": "male_higher",
+      "n_female": 10,
+      "n_male": 49,
+      "ror_female": 0.72,
+      "ror_male": 76.7
+    },
+    {
+      "drug": "ALENDRONIC ACID",
+      "ae": "Neuritis",
+      "log_ratio": -4.6422,
+      "abs_log_ratio": 4.6422,
+      "direction": "male_higher",
+      "n_female": 21,
+      "n_male": 141,
+      "ror_female": 12.0,
+      "ror_male": 1245.21
+    },
+    {
+      "drug": "LOPINAVIR",
+      "ae": "Abortion spontaneous",
+      "log_ratio": -4.6324,
+      "abs_log_ratio": 4.6324,
+      "direction": "male_higher",
+      "n_female": 19,
+      "n_male": 11,
+      "ror_female": 35.19,
+      "ror_male": 3615.78
+    },
+    {
+      "drug": "FLIBANSERIN",
+      "ae": "Product use issue",
+      "log_ratio": -4.6306,
+      "abs_log_ratio": 4.6306,
+      "direction": "male_higher",
+      "n_female": 23,
+      "n_male": 28,
+      "ror_female": 1.29,
+      "ror_male": 132.81
+    },
+    {
+      "drug": "ETANERCEPT",
+      "ae": "Breast feeding",
+      "log_ratio": -4.6128,
+      "abs_log_ratio": 4.6128,
+      "direction": "male_higher",
+      "n_female": 11,
+      "n_male": 11,
+      "ror_female": 0.47,
+      "ror_male": 47.35
+    },
+    {
+      "drug": "RISPERIDONE",
+      "ae": "Emotional disorder",
+      "log_ratio": -4.5777,
+      "abs_log_ratio": 4.5777,
+      "direction": "male_higher",
+      "n_female": 39,
+      "n_male": 5735,
+      "ror_female": 1.51,
+      "ror_male": 146.93
+    }
+  ],
+  "top_drugs_by_extreme_count": [
+    {
+      "drug": "OXYCODONE",
+      "n_extreme": 38,
+      "pct_female": 97.4,
+      "max_abs_logR": 5.4961
+    },
+    {
+      "drug": "OXYCODONE;PARACETAMOL",
+      "n_extreme": 26,
+      "pct_female": 96.2,
+      "max_abs_logR": 4.3455
+    },
+    {
+      "drug": "RITUXIMAB",
+      "n_extreme": 24,
+      "pct_female": 100.0,
+      "max_abs_logR": 4.5591
+    },
+    {
+      "drug": "USTEKINUMAB",
+      "n_extreme": 24,
+      "pct_female": 100.0,
+      "max_abs_logR": 4.0769
+    },
+    {
+      "drug": "RANITIDINE",
+      "n_extreme": 22,
+      "pct_female": 100.0,
+      "max_abs_logR": 3.9115
+    },
+    {
+      "drug": "HYDROCORTISONE",
+      "n_extreme": 22,
+      "pct_female": 95.5,
+      "max_abs_logR": 4.2408
+    },
+    {
+      "drug": "DICLOFENAC",
+      "n_extreme": 21,
+      "pct_female": 95.2,
+      "max_abs_logR": 4.2344
+    },
+    {
+      "drug": "SULFAMETHOXAZOLE;TRIMETHOPRIM",
+      "n_extreme": 20,
+      "pct_female": 100.0,
+      "max_abs_logR": 4.3974
+    },
+    {
+      "drug": "GOLIMUMAB",
+      "n_extreme": 20,
+      "pct_female": 90.0,
+      "max_abs_logR": 4.8102
+    },
+    {
+      "drug": "CETIRIZINE",
+      "n_extreme": 19,
+      "pct_female": 94.7,
+      "max_abs_logR": 4.4326
+    },
+    {
+      "drug": "PREDNISONE",
+      "n_extreme": 18,
+      "pct_female": 100.0,
+      "max_abs_logR": 4.828
+    },
+    {
+      "drug": "PARACETAMOL",
+      "n_extreme": 16,
+      "pct_female": 87.5,
+      "max_abs_logR": 3.9142
+    },
+    {
+      "drug": "METHYLPREDNISOLONE",
+      "n_extreme": 15,
+      "pct_female": 100.0,
+      "max_abs_logR": 3.8813
+    },
+    {
+      "drug": "ALENDRONIC ACID",
+      "n_extreme": 15,
+      "pct_female": 13.3,
+      "max_abs_logR": 4.9131
+    },
+    {
+      "drug": "DESOXIMETASONE",
+      "n_extreme": 15,
+      "pct_female": 0.0,
+      "max_abs_logR": 5.456
+    },
+    {
+      "drug": "INFLIXIMAB",
+      "n_extreme": 15,
+      "pct_female": 86.7,
+      "max_abs_logR": 4.3651
+    },
+    {
+      "drug": "LEFLUNOMIDE",
+      "n_extreme": 15,
+      "pct_female": 53.3,
+      "max_abs_logR": 4.3891
+    },
+    {
+      "drug": "HYDROXYCHLOROQUINE",
+      "n_extreme": 14,
+      "pct_female": 71.4,
+      "max_abs_logR": 4.7697
+    },
+    {
+      "drug": "CERTOLIZUMAB",
+      "n_extreme": 13,
+      "pct_female": 100.0,
+      "max_abs_logR": 3.811
+    },
+    {
+      "drug": "CORTISONE",
+      "n_extreme": 13,
+      "pct_female": 7.7,
+      "max_abs_logR": 3.9772
+    }
+  ],
+  "top_aes_by_extreme_count": [
+    {
+      "ae": "Pericarditis",
+      "n_extreme": 17,
+      "n_drugs": 17,
+      "pct_female": 100.0,
+      "max_abs_logR": 5.3962
+    },
+    {
+      "ae": "Wound",
+      "n_extreme": 16,
+      "n_drugs": 16,
+      "pct_female": 100.0,
+      "max_abs_logR": 4.4025
+    },
+    {
+      "ae": "Injury",
+      "n_extreme": 16,
+      "n_drugs": 16,
+      "pct_female": 87.5,
+      "max_abs_logR": 4.2344
+    },
+    {
+      "ae": "Blood cholesterol increased",
+      "n_extreme": 16,
+      "n_drugs": 16,
+      "pct_female": 75.0,
+      "max_abs_logR": 3.9497
+    },
+    {
+      "ae": "Discomfort",
+      "n_extreme": 15,
+      "n_drugs": 15,
+      "pct_female": 100.0,
+      "max_abs_logR": 4.2409
+    },
+    {
+      "ae": "Folliculitis",
+      "n_extreme": 15,
+      "n_drugs": 15,
+      "pct_female": 100.0,
+      "max_abs_logR": 4.1605
+    },
+    {
+      "ae": "Infusion related reaction",
+      "n_extreme": 15,
+      "n_drugs": 15,
+      "pct_female": 100.0,
+      "max_abs_logR": 5.4961
+    },
+    {
+      "ae": "Stress",
+      "n_extreme": 14,
+      "n_drugs": 14,
+      "pct_female": 0.0,
+      "max_abs_logR": 5.456
+    },
+    {
+      "ae": "Liver injury",
+      "n_extreme": 13,
+      "n_drugs": 13,
+      "pct_female": 100.0,
+      "max_abs_logR": 3.9708
+    },
+    {
+      "ae": "Blister",
+      "n_extreme": 12,
+      "n_drugs": 12,
+      "pct_female": 100.0,
+      "max_abs_logR": 5.0556
+    },
+    {
+      "ae": "Obesity",
+      "n_extreme": 12,
+      "n_drugs": 12,
+      "pct_female": 91.7,
+      "max_abs_logR": 4.3349
+    },
+    {
+      "ae": "Impaired healing",
+      "n_extreme": 12,
+      "n_drugs": 12,
+      "pct_female": 100.0,
+      "max_abs_logR": 4.8081
+    },
+    {
+      "ae": "Intentional product use issue",
+      "n_extreme": 11,
+      "n_drugs": 11,
+      "pct_female": 100.0,
+      "max_abs_logR": 3.7425
+    },
+    {
+      "ae": "Irritable bowel syndrome",
+      "n_extreme": 11,
+      "n_drugs": 11,
+      "pct_female": 100.0,
+      "max_abs_logR": 4.2351
+    },
+    {
+      "ae": "Wheezing",
+      "n_extreme": 11,
+      "n_drugs": 11,
+      "pct_female": 90.9,
+      "max_abs_logR": 4.462
+    },
+    {
+      "ae": "Prescribed overdose",
+      "n_extreme": 10,
+      "n_drugs": 10,
+      "pct_female": 100.0,
+      "max_abs_logR": 4.5591
+    },
+    {
+      "ae": "Abortion spontaneous",
+      "n_extreme": 10,
+      "n_drugs": 10,
+      "pct_female": 0.0,
+      "max_abs_logR": 6.4561
+    },
+    {
+      "ae": "Hypercholesterolaemia",
+      "n_extreme": 10,
+      "n_drugs": 10,
+      "pct_female": 80.0,
+      "max_abs_logR": 3.9039
+    },
+    {
+      "ae": "Apparent death",
+      "n_extreme": 10,
+      "n_drugs": 10,
+      "pct_female": 0.0,
+      "max_abs_logR": 4.4654
+    },
+    {
+      "ae": "Nodule",
+      "n_extreme": 10,
+      "n_drugs": 10,
+      "pct_female": 0.0,
+      "max_abs_logR": 4.8935
+    }
+  ],
+  "extreme_volume_direction": [
+    {
+      "volume_group": "10-50",
+      "n_signals": 86,
+      "pct_female": 15.1,
+      "mean_abs_logR": 3.83
+    },
+    {
+      "volume_group": "50-200",
+      "n_signals": 274,
+      "pct_female": 10.6,
+      "mean_abs_logR": 3.5919
+    },
+    {
+      "volume_group": "200-1K",
+      "n_signals": 315,
+      "pct_female": 68.3,
+      "mean_abs_logR": 3.3683
+    },
+    {
+      "volume_group": "1K+",
+      "n_signals": 353,
+      "pct_female": 97.5,
+      "mean_abs_logR": 3.5975
+    }
+  ],
+  "extreme_stats": {
+    "n_extreme_3": 1028,
+    "pct_female_extreme": 58.5,
+    "n_female_extreme": 601,
+    "n_male_extreme": 427,
+    "mean_abs_logR_female": 3.4893,
+    "mean_abs_logR_male": 3.624,
+    "max_logR": 8.8695,
+    "min_logR": -7.3914
+  },
+  "key_findings": [
+    "Most extreme signal: TESTOSTERONE + Prostatic disorder, logR=8.8695",
+    "|logR|>=3: 1028 signals, 58.5%F",
+    "|logR|>=5: 28 signals, 21.4%F \u2014 MALE REVERSAL confirmed",
+    "Top drug by extreme count: OXYCODONE (38 signals)"
+  ]
+}
