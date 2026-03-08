@@ -1,0 +1,80 @@
+{
+  "wave": 164,
+  "title": "Biologic vs Small Molecule Sex-Differential Comparison",
+  "type_summary": [
+    {
+      "type": "CV small molecule",
+      "n_drugs": 33,
+      "total_signals": 2069,
+      "mean_pct_female": 55.7,
+      "mean_abs_logr": 0.871
+    },
+    {
+      "type": "Kinase inhibitor",
+      "n_drugs": 72,
+      "total_signals": 3048,
+      "mean_pct_female": 54.9,
+      "mean_abs_logr": 0.744
+    },
+    {
+      "type": "Lipid-lowering",
+      "n_drugs": 11,
+      "total_signals": 1176,
+      "mean_pct_female": 52.0,
+      "mean_abs_logr": 0.865
+    },
+    {
+      "type": "Other biologic",
+      "n_drugs": 28,
+      "total_signals": 1306,
+      "mean_pct_female": 51.9,
+      "mean_abs_logr": 0.847
+    },
+    {
+      "type": "Antibiotic",
+      "n_drugs": 45,
+      "total_signals": 2485,
+      "mean_pct_female": 51.0,
+      "mean_abs_logr": 0.928
+    },
+    {
+      "type": "Fusion protein",
+      "n_drugs": 7,
+      "total_signals": 1057,
+      "mean_pct_female": 48.5,
+      "mean_abs_logr": 0.891
+    },
+    {
+      "type": "mAb",
+      "n_drugs": 112,
+      "total_signals": 9476,
+      "mean_pct_female": 47.4,
+      "mean_abs_logr": 0.865
+    },
+    {
+      "type": "Other",
+      "n_drugs": 1824,
+      "total_signals": 71960,
+      "mean_pct_female": 45.5,
+      "mean_abs_logr": 0.976
+    },
+    {
+      "type": "Azole",
+      "n_drugs": 29,
+      "total_signals": 2769,
+      "mean_pct_female": 44.5,
+      "mean_abs_logr": 0.996
+    },
+    {
+      "type": "Beta-blocker",
+      "n_drugs": 17,
+      "total_signals": 935,
+      "mean_pct_female": 35.8,
+      "mean_abs_logr": 1.144
+    }
+  ],
+  "n_biologics": 147,
+  "biologic_pct_f": 48.3,
+  "n_kinase_inhibitors": 72,
+  "kinase_pct_f": 54.9
+}
