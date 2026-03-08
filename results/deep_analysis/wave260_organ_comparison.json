@@ -1,0 +1,120 @@
+{
+  "wave": 260,
+  "title": "Grand Organ System Toxicity Comparison",
+  "organ_systems": {
+    "Hepato (W244)": {
+      "pct_f": 66.1,
+      "n_signals": 2828,
+      "delta_pp": 12.7
+    },
+    "Cardio (W245)": {
+      "pct_f": 61.3,
+      "n_signals": 5324,
+      "delta_pp": 8.0
+    },
+    "Nephro (W246)": {
+      "pct_f": 73.8,
+      "n_signals": 2768,
+      "delta_pp": 20.7
+    },
+    "Derm (W247)": {
+      "pct_f": 45.8,
+      "n_signals": 4169,
+      "delta_pp": -8.3
+    },
+    "Neuro (W248)": {
+      "pct_f": 48.0,
+      "n_signals": 6713,
+      "delta_pp": -6.2
+    },
+    "GI (W253)": {
+      "pct_f": 58.0,
+      "n_signals": 4466,
+      "delta_pp": 4.4
+    },
+    "Endo (W254)": {
+      "pct_f": 62.4,
+      "n_signals": 2327,
+      "delta_pp": 8.8
+    },
+    "Heme (W256)": {
+      "pct_f": 63.2,
+      "n_signals": 2665,
+      "delta_pp": 0
+    },
+    "Resp (W257)": {
+      "pct_f": 57.1,
+      "n_signals": 3709,
+      "delta_pp": 0
+    },
+    "MSK (W258)": {
+      "pct_f": 49.8,
+      "n_signals": 3646,
+      "delta_pp": 0
+    },
+    "Psych (W259)": {
+      "pct_f": 55.0,
+      "n_signals": 4719,
+      "delta_pp": 0
+    }
+  },
+  "ranking": [
+    {
+      "rank": 1,
+      "organ": "Nephro (W246)",
+      "pct_f": 73.8
+    },
+    {
+      "rank": 2,
+      "organ": "Hepato (W244)",
+      "pct_f": 66.1
+    },
+    {
+      "rank": 3,
+      "organ": "Heme (W256)",
+      "pct_f": 63.2
+    },
+    {
+      "rank": 4,
+      "organ": "Endo (W254)",
+      "pct_f": 62.4
+    },
+    {
+      "rank": 5,
+      "organ": "Cardio (W245)",
+      "pct_f": 61.3
+    },
+    {
+      "rank": 6,
+      "organ": "GI (W253)",
+      "pct_f": 58.0
+    },
+    {
+      "rank": 7,
+      "organ": "Resp (W257)",
+      "pct_f": 57.1
+    },
+    {
+      "rank": 8,
+      "organ": "Psych (W259)",
+      "pct_f": 55.0
+    },
+    {
+      "rank": 9,
+      "organ": "MSK (W258)",
+      "pct_f": 49.8
+    },
+    {
+      "rank": 10,
+      "organ": "Neuro (W248)",
+      "pct_f": 48.0
+    },
+    {
+      "rank": 11,
+      "organ": "Derm (W247)",
+      "pct_f": 45.8
+    }
+  ],
+  "total_jsons": 129,
+  "total_pngs": 408
+}
