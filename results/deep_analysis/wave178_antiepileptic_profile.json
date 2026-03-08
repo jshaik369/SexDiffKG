@@ -1,0 +1,184 @@
+{
+  "wave": 178,
+  "title": "Antiepileptic Drug Sex-Differential Profile",
+  "total_signals": 2590,
+  "per_drug": [
+    {
+      "drug": "ZONISAMIDE",
+      "generation": "2nd-gen",
+      "n_signals": 30,
+      "pct_female": 66.7
+    },
+    {
+      "drug": "PHENOBARBITAL",
+      "generation": "1st-gen",
+      "n_signals": 66,
+      "pct_female": 60.6
+    },
+    {
+      "drug": "PHENYTOIN",
+      "generation": "1st-gen",
+      "n_signals": 88,
+      "pct_female": 60.2
+    },
+    {
+      "drug": "RUFINAMIDE",
+      "generation": "3rd-gen",
+      "n_signals": 5,
+      "pct_female": 60.0
+    },
+    {
+      "drug": "CANNABIDIOL",
+      "generation": "3rd-gen",
+      "n_signals": 24,
+      "pct_female": 54.2
+    },
+    {
+      "drug": "PREGABALIN",
+      "generation": "2nd-gen",
+      "n_signals": 406,
+      "pct_female": 53.9
+    },
+    {
+      "drug": "VALPROIC ACID",
+      "generation": "1st-gen",
+      "n_signals": 339,
+      "pct_female": 49.3
+    },
+    {
+      "drug": "LACOSAMIDE",
+      "generation": "3rd-gen",
+      "n_signals": 98,
+      "pct_female": 49.0
+    },
+    {
+      "drug": "TOPIRAMATE",
+      "generation": "2nd-gen",
+      "n_signals": 200,
+      "pct_female": 48.0
+    },
+    {
+      "drug": "OXCARBAZEPINE",
+      "generation": "2nd-gen",
+      "n_signals": 108,
+      "pct_female": 47.2
+    },
+    {
+      "drug": "LEVETIRACETAM",
+      "generation": "2nd-gen",
+      "n_signals": 258,
+      "pct_female": 45.3
+    },
+    {
+      "drug": "LAMOTRIGINE",
+      "generation": "2nd-gen",
+      "n_signals": 319,
+      "pct_female": 43.6
+    },
+    {
+      "drug": "PERAMPANEL",
+      "generation": "3rd-gen",
+      "n_signals": 25,
+      "pct_female": 40.0
+    },
+    {
+      "drug": "CARBAMAZEPINE",
+      "generation": "1st-gen",
+      "n_signals": 180,
+      "pct_female": 38.9
+    },
+    {
+      "drug": "BRIVARACETAM",
+      "generation": "3rd-gen",
+      "n_signals": 27,
+      "pct_female": 37.0
+    },
+    {
+      "drug": "GABAPENTIN",
+      "generation": "2nd-gen",
+      "n_signals": 333,
+      "pct_female": 34.8
+    },
+    {
+      "drug": "CLOBAZAM",
+      "generation": "3rd-gen",
+      "n_signals": 64,
+      "pct_female": 34.4
+    },
+    {
+      "drug": "ESLICARBAZEPINE",
+      "generation": "3rd-gen",
+      "n_signals": 11,
+      "pct_female": 27.3
+    },
+    {
+      "drug": "ETHOSUXIMIDE",
+      "generation": "1st-gen",
+      "n_signals": 8,
+      "pct_female": 25.0
+    },
+    {
+      "drug": "TIAGABINE",
+      "generation": "2nd-gen",
+      "n_signals": 1,
+      "pct_female": 0.0
+    }
+  ],
+  "per_generation": [
+    {
+      "generation": "1st-gen",
+      "n_drugs": 5,
+      "n_signals": 681,
+      "pct_female": 48.8
+    },
+    {
+      "generation": "2nd-gen",
+      "n_drugs": 8,
+      "n_signals": 1655,
+      "pct_female": 45.8
+    },
+    {
+      "generation": "3rd-gen",
+      "n_drugs": 7,
+      "n_signals": 254,
+      "pct_female": 42.9
+    }
+  ],
+  "ae_categories": [
+    {
+      "category": "Metabolic",
+      "n": 31,
+      "pct_female": 67.7
+    },
+    {
+      "category": "Dermatological",
+      "n": 52,
+      "pct_female": 67.3
+    },
+    {
+      "category": "Hepatic",
+      "n": 68,
+      "pct_female": 55.9
+    },
+    {
+      "category": "Psychiatric",
+      "n": 27,
+      "pct_female": 51.9
+    },
+    {
+      "category": "CNS",
+      "n": 24,
+      "pct_female": 50.0
+    },
+    {
+      "category": "Other",
+      "n": 2358,
+      "pct_female": 45.5
+    },
+    {
+      "category": "Teratogenicity",
+      "n": 30,
+      "pct_female": 23.3
+    }
+  ]
+}
