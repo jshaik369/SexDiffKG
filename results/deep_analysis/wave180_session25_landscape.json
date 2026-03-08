@@ -1,0 +1,218 @@
+{
+  "wave": 180,
+  "title": "Session 25 Drug Class Landscape",
+  "session_waves": {
+    "171": "NSAID profile \u2014 aspirin 73.0%F, ketorolac 20.0%F",
+    "172": "Antipsychotic profile \u2014 risperidone 92.9%F, cariprazine 2.6%F",
+    "173": "Oncology atlas \u2014 ICIs 74.4%F, TKIs 68.4%F, overall +11.4pp",
+    "174": "Statin profile \u2014 48.1%F near-neutral, myopathy male-biased",
+    "175": "Anticoagulant profile \u2014 bleeding AEs 89.9%F, prasugrel 96.0%F",
+    "176": "Antidiabetic profile \u2014 GLP-1 RAs 24.6%F MALE-biased, TZDs 91.7%F",
+    "177": "Antidepressant profile \u2014 SSRIs 42.2%F, MAOIs 7.1%F",
+    "178": "Antiepileptic profile \u2014 1st-gen 48.8%F, dermatological 67.3%F",
+    "179": "Antihypertensive profile \u2014 ACEi 72.4%F, ARBs 49.4%F",
+    "180": "Session 25 drug class landscape (this wave)"
+  },
+  "n_waves_this_session": 10,
+  "drug_class_landscape": [
+    {
+      "class": "Antiplatelet",
+      "n_drugs": 4,
+      "n_signals": 623,
+      "pct_female": 82.8,
+      "mean_abs_logr": 0.863
+    },
+    {
+      "class": "Opioid",
+      "n_drugs": 8,
+      "n_signals": 2231,
+      "pct_female": 78.5,
+      "mean_abs_logr": 1.142
+    },
+    {
+      "class": "Sulfonylurea",
+      "n_drugs": 3,
+      "n_signals": 146,
+      "pct_female": 74.7,
+      "mean_abs_logr": 0.979
+    },
+    {
+      "class": "ACEi",
+      "n_drugs": 4,
+      "n_signals": 815,
+      "pct_female": 74.5,
+      "mean_abs_logr": 1.075
+    },
+    {
+      "class": "ICI",
+      "n_drugs": 6,
+      "n_signals": 940,
+      "pct_female": 74.4,
+      "mean_abs_logr": 0.831
+    },
+    {
+      "class": "SGA",
+      "n_drugs": 6,
+      "n_signals": 2070,
+      "pct_female": 69.9,
+      "mean_abs_logr": 0.991
+    },
+    {
+      "class": "TKI",
+      "n_drugs": 18,
+      "n_signals": 1764,
+      "pct_female": 68.4,
+      "mean_abs_logr": 0.759
+    },
+    {
+      "class": "DOAC",
+      "n_drugs": 4,
+      "n_signals": 744,
+      "pct_female": 67.9,
+      "mean_abs_logr": 0.825
+    },
+    {
+      "class": "Cytotoxic",
+      "n_drugs": 15,
+      "n_signals": 3745,
+      "pct_female": 64.0,
+      "mean_abs_logr": 0.886
+    },
+    {
+      "class": "Biguanide",
+      "n_drugs": 1,
+      "n_signals": 399,
+      "pct_female": 62.4,
+      "mean_abs_logr": 0.954
+    },
+    {
+      "class": "SGLT2i",
+      "n_drugs": 3,
+      "n_signals": 319,
+      "pct_female": 59.9,
+      "mean_abs_logr": 0.794
+    },
+    {
+      "class": "FGA",
+      "n_drugs": 2,
+      "n_signals": 215,
+      "pct_female": 57.7,
+      "mean_abs_logr": 0.884
+    },
+    {
+      "class": "Paracetamol",
+      "n_drugs": 1,
+      "n_signals": 487,
+      "pct_female": 56.9,
+      "mean_abs_logr": 1.176
+    },
+    {
+      "class": "VKA",
+      "n_drugs": 1,
+      "n_signals": 220,
+      "pct_female": 56.8,
+      "mean_abs_logr": 0.929
+    },
+    {
+      "class": "NSAID",
+      "n_drugs": 6,
+      "n_signals": 1411,
+      "pct_female": 56.6,
+      "mean_abs_logr": 1.169
+    },
+    {
+      "class": "Beta-blocker",
+      "n_drugs": 5,
+      "n_signals": 885,
+      "pct_female": 53.9,
+      "mean_abs_logr": 0.904
+    },
+    {
+      "class": "CCB",
+      "n_drugs": 4,
+      "n_signals": 713,
+      "pct_female": 51.9,
+      "mean_abs_logr": 0.997
+    },
+    {
+      "class": "ARB",
+      "n_drugs": 6,
+      "n_signals": 784,
+      "pct_female": 49.5,
+      "mean_abs_logr": 0.996
+    },
+    {
+      "class": "TCA",
+      "n_drugs": 4,
+      "n_signals": 333,
+      "pct_female": 48.6,
+      "mean_abs_logr": 1.017
+    },
+    {
+      "class": "Statin",
+      "n_drugs": 7,
+      "n_signals": 1085,
+      "pct_female": 48.1,
+      "mean_abs_logr": 0.943
+    },
+    {
+      "class": "AED-1st",
+      "n_drugs": 3,
+      "n_signals": 607,
+      "pct_female": 47.8,
+      "mean_abs_logr": 0.863
+    },
+    {
+      "class": "AED-2nd",
+      "n_drugs": 5,
+      "n_signals": 1516,
+      "pct_female": 45.3,
+      "mean_abs_logr": 0.983
+    },
+    {
+      "class": "SSRI",
+      "n_drugs": 6,
+      "n_signals": 1176,
+      "pct_female": 42.2,
+      "mean_abs_logr": 0.95
+    },
+    {
+      "class": "SNRI",
+      "n_drugs": 3,
+      "n_signals": 522,
+      "pct_female": 39.7,
+      "mean_abs_logr": 0.888
+    },
+    {
+      "class": "Insulin",
+      "n_drugs": 1,
+      "n_signals": 339,
+      "pct_female": 39.5,
+      "mean_abs_logr": 0.852
+    },
+    {
+      "class": "GLP-1 RA",
+      "n_drugs": 5,
+      "n_signals": 517,
+      "pct_female": 24.6,
+      "mean_abs_logr": 0.78
+    }
+  ],
+  "discoveries": [
+    "GLP-1 RAs are MALE-biased (24.6%F) \u2014 tirzepatide 8.4%F, liraglutide 13.9%F",
+    "Antiplatelets bleeding AEs 89.9%F \u2014 prasugrel 96.0%F",
+    "ACE inhibitors 72.4%F \u2014 most female-biased antihypertensives, lisinopril 84.5%F",
+    "Antidepressants male-biased: SSRIs 42.2%F, SNRIs 39.5%F, MAOIs 7.1%F",
+    "TZDs extremely female-biased: rosiglitazone 93.6%F, pioglitazone 90.2%F",
+    "Risperidone 92.9%F driven by weight gain/obesity male AEs",
+    "Statins near sex-neutral (48.1%F) despite other CV drugs being 58.9%F",
+    "Oncology ICIs 74.4%F, TKIs 68.4%F, overall +11.4pp vs all drugs",
+    "Sexual dysfunction AEs in antidepressants 68.4%F (female-biased)",
+    "Felodipine extreme at 7.6%F, captopril only ACEi at 20%F"
+  ],
+  "cumulative": {
+    "total_waves": 180,
+    "total_jsons": 49,
+    "total_figures": 328
+  }
+}
