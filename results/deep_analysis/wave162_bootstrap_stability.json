@@ -1,0 +1,47 @@
+{
+  "wave": 162,
+  "title": "Signal Stability Under Bootstrap Resampling",
+  "n_bootstrap": 1000,
+  "n_signals": 96281,
+  "overall_pct_female": {
+    "mean": 53.77,
+    "ci95": [
+      53.44857760098046,
+      54.075051152356124
+    ],
+    "std": 0.1628,
+    "excludes_50": true,
+    "stability": 100.0
+  },
+  "anti_regression_rho": {
+    "mean": 0.994,
+    "ci95": [
+      0.9636363636363635,
+      0.9999999999999999
+    ],
+    "std": 0.0086,
+    "excludes_0": true,
+    "stability": 100.0
+  },
+  "strength_gradient_rho": {
+    "mean": 0.9642,
+    "ci95": [
+      0.9030303030303028,
+      0.9999999999999999
+    ],
+    "std": 0.0272,
+    "excludes_0": true,
+    "stability": 100.0
+  },
+  "effect_size_asymmetry": {
+    "female_mean": 1.0073,
+    "male_mean": 0.963,
+    "difference": 0.0442,
+    "ci95": [
+      0.03702666324452088,
+      0.0513237977238062
+    ],
+    "excludes_0": true,
+    "stability": 100.0
+  }
+}
