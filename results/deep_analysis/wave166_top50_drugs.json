@@ -1,0 +1,415 @@
+{
+  "wave": 166,
+  "title": "Most Prescribed Drugs Sex-Differential Landscape",
+  "top50": [
+    {
+      "rank": 1,
+      "drug": "METHOTREXATE",
+      "total_volume": 686275,
+      "n_signals": 892,
+      "pct_female": 48.5,
+      "mean_logr": 0.081
+    },
+    {
+      "rank": 2,
+      "drug": "RITUXIMAB",
+      "total_volume": 683563,
+      "n_signals": 755,
+      "pct_female": 66.6,
+      "mean_logr": 0.572
+    },
+    {
+      "rank": 3,
+      "drug": "PREDNISONE",
+      "total_volume": 628550,
+      "n_signals": 926,
+      "pct_female": 70.2,
+      "mean_logr": 0.556
+    },
+    {
+      "rank": 4,
+      "drug": "TOCILIZUMAB",
+      "total_volume": 544873,
+      "n_signals": 508,
+      "pct_female": 49.4,
+      "mean_logr": 0.092
+    },
+    {
+      "rank": 5,
+      "drug": "ADALIMUMAB",
+      "total_volume": 539426,
+      "n_signals": 807,
+      "pct_female": 38.2,
+      "mean_logr": -0.127
+    },
+    {
+      "rank": 6,
+      "drug": "INFLIXIMAB",
+      "total_volume": 536319,
+      "n_signals": 623,
+      "pct_female": 50.4,
+      "mean_logr": 0.225
+    },
+    {
+      "rank": 7,
+      "drug": "ETANERCEPT",
+      "total_volume": 531404,
+      "n_signals": 618,
+      "pct_female": 42.6,
+      "mean_logr": -0.065
+    },
+    {
+      "rank": 8,
+      "drug": "HYDROXYCHLOROQUINE",
+      "total_volume": 401102,
+      "n_signals": 376,
+      "pct_female": 51.9,
+      "mean_logr": 0.146
+    },
+    {
+      "rank": 9,
+      "drug": "GOLIMUMAB",
+      "total_volume": 382592,
+      "n_signals": 334,
+      "pct_female": 55.7,
+      "mean_logr": 0.511
+    },
+    {
+      "rank": 10,
+      "drug": "ABATACEPT",
+      "total_volume": 381099,
+      "n_signals": 344,
+      "pct_female": 45.1,
+      "mean_logr": -0.128
+    },
+    {
+      "rank": 11,
+      "drug": "CERTOLIZUMAB",
+      "total_volume": 372488,
+      "n_signals": 314,
+      "pct_female": 52.5,
+      "mean_logr": 0.254
+    },
+    {
+      "rank": 12,
+      "drug": "LEFLUNOMIDE",
+      "total_volume": 366621,
+      "n_signals": 370,
+      "pct_female": 41.9,
+      "mean_logr": -0.223
+    },
+    {
+      "rank": 13,
+      "drug": "OXYCODONE",
+      "total_volume": 365911,
+      "n_signals": 492,
+      "pct_female": 85.0,
+      "mean_logr": 1.091
+    },
+    {
+      "rank": 14,
+      "drug": "DICLOFENAC",
+      "total_volume": 344093,
+      "n_signals": 401,
+      "pct_female": 50.6,
+      "mean_logr": 0.319
+    },
+    {
+      "rank": 15,
+      "drug": "TOFACITINIB",
+      "total_volume": 319088,
+      "n_signals": 331,
+      "pct_female": 51.4,
+      "mean_logr": 0.096
+    },
+    {
+      "rank": 16,
+      "drug": "PARACETAMOL",
+      "total_volume": 310400,
+      "n_signals": 487,
+      "pct_female": 56.9,
+      "mean_logr": 0.336
+    },
+    {
+      "rank": 17,
+      "drug": "SULFASALAZINE",
+      "total_volume": 300132,
+      "n_signals": 318,
+      "pct_female": 46.5,
+      "mean_logr": -0.193
+    },
+    {
+      "rank": 18,
+      "drug": "SECUKINUMAB",
+      "total_volume": 283760,
+      "n_signals": 456,
+      "pct_female": 52.2,
+      "mean_logr": 0.276
+    },
+    {
+      "rank": 19,
+      "drug": "ALENDRONIC ACID",
+      "total_volume": 277606,
+      "n_signals": 241,
+      "pct_female": 44.4,
+      "mean_logr": -0.261
+    },
+    {
+      "rank": 20,
+      "drug": "RANITIDINE",
+      "total_volume": 245940,
+      "n_signals": 324,
+      "pct_female": 93.5,
+      "mean_logr": 1.339
+    },
+    {
+      "rank": 21,
+      "drug": "USTEKINUMAB",
+      "total_volume": 242119,
+      "n_signals": 314,
+      "pct_female": 65.0,
+      "mean_logr": 0.757
+    },
+    {
+      "rank": 22,
+      "drug": "CETIRIZINE",
+      "total_volume": 231245,
+      "n_signals": 244,
+      "pct_female": 44.3,
+      "mean_logr": 0.261
+    },
+    {
+      "rank": 23,
+      "drug": "VITAMIN B9",
+      "total_volume": 227101,
+      "n_signals": 250,
+      "pct_female": 46.8,
+      "mean_logr": 0.109
+    },
+    {
+      "rank": 24,
+      "drug": "PANTOPRAZOLE",
+      "total_volume": 224632,
+      "n_signals": 501,
+      "pct_female": 60.3,
+      "mean_logr": 0.358
+    },
+    {
+      "rank": 25,
+      "drug": "NAPROXEN",
+      "total_volume": 199970,
+      "n_signals": 331,
+      "pct_female": 54.1,
+      "mean_logr": 0.376
+    },
+    {
+      "rank": 26,
+      "drug": "RISPERIDONE",
+      "total_volume": 182301,
+      "n_signals": 518,
+      "pct_female": 92.9,
+      "mean_logr": 0.94
+    },
+    {
+      "rank": 27,
+      "drug": "METHYLPREDNISOLONE",
+      "total_volume": 181085,
+      "n_signals": 521,
+      "pct_female": 77.2,
+      "mean_logr": 0.781
+    },
+    {
+      "rank": 28,
+      "drug": "CELECOXIB",
+      "total_volume": 168177,
+      "n_signals": 274,
+      "pct_female": 63.1,
+      "mean_logr": 0.505
+    },
+    {
+      "rank": 29,
+      "drug": "HYDROCORTISONE",
+      "total_volume": 165025,
+      "n_signals": 302,
+      "pct_female": 50.7,
+      "mean_logr": 0.279
+    },
+    {
+      "rank": 30,
+      "drug": "SULFAMETHOXAZOLE;TRIMETHOPRIM",
+      "total_volume": 163748,
+      "n_signals": 327,
+      "pct_female": 63.6,
+      "mean_logr": 0.685
+    },
+    {
+      "rank": 31,
+      "drug": "MORPHINE",
+      "total_volume": 159810,
+      "n_signals": 441,
+      "pct_female": 83.4,
+      "mean_logr": 0.847
+    },
+    {
+      "rank": 32,
+      "drug": "PREGABALIN",
+      "total_volume": 154608,
+      "n_signals": 406,
+      "pct_female": 53.9,
+      "mean_logr": 0.173
+    },
+    {
+      "rank": 33,
+      "drug": "CORTISONE",
+      "total_volume": 150522,
+      "n_signals": 188,
+      "pct_female": 45.7,
+      "mean_logr": -0.234
+    },
+    {
+      "rank": 34,
+      "drug": "MYCOPHENOLIC ACID",
+      "total_volume": 146088,
+      "n_signals": 507,
+      "pct_female": 76.3,
+      "mean_logr": 0.711
+    },
+    {
+      "rank": 35,
+      "drug": "DUPILUMAB",
+      "total_volume": 144936,
+      "n_signals": 289,
+      "pct_female": 17.0,
+      "mean_logr": -0.513
+    },
+    {
+      "rank": 36,
+      "drug": "APREMILAST",
+      "total_volume": 144587,
+      "n_signals": 214,
+      "pct_female": 66.8,
+      "mean_logr": 0.794
+    },
+    {
+      "rank": 37,
+      "drug": "TRAMADOL",
+      "total_volume": 140351,
+      "n_signals": 360,
+      "pct_female": 75.3,
+      "mean_logr": 0.722
+    },
+    {
+      "rank": 38,
+      "drug": "OXYCODONE;PARACETAMOL",
+      "total_volume": 139675,
+      "n_signals": 265,
+      "pct_female": 80.8,
+      "mean_logr": 1.069
+    },
+    {
+      "rank": 39,
+      "drug": "RAMIPRIL",
+      "total_volume": 124477,
+      "n_signals": 368,
+      "pct_female": 71.2,
+      "mean_logr": 0.675
+    },
+    {
+      "rank": 40,
+      "drug": "AZATHIOPRINE",
+      "total_volume": 123205,
+      "n_signals": 337,
+      "pct_female": 59.3,
+      "mean_logr": 0.327
+    },
+    {
+      "rank": 41,
+      "drug": "SALBUTAMOL",
+      "total_volume": 118985,
+      "n_signals": 418,
+      "pct_female": 42.3,
+      "mean_logr": -0.219
+    },
+    {
+      "rank": 42,
+      "drug": "DESOXIMETASONE",
+      "total_volume": 117813,
+      "n_signals": 79,
+      "pct_female": 43.0,
+      "mean_logr": -0.905
+    },
+    {
+      "rank": 43,
+      "drug": "QUETIAPINE",
+      "total_volume": 111493,
+      "n_signals": 426,
+      "pct_female": 63.4,
+      "mean_logr": 0.37
+    },
+    {
+      "rank": 44,
+      "drug": "LEUPRORELIN",
+      "total_volume": 104017,
+      "n_signals": 294,
+      "pct_female": 69.7,
+      "mean_logr": 0.474
+    },
+    {
+      "rank": 45,
+      "drug": "CALCIUM",
+      "total_volume": 99044,
+      "n_signals": 219,
+      "pct_female": 40.2,
+      "mean_logr": -0.258
+    },
+    {
+      "rank": 46,
+      "drug": "HYDROMORPHONE",
+      "total_volume": 98640,
+      "n_signals": 311,
+      "pct_female": 76.5,
+      "mean_logr": 0.654
+    },
+    {
+      "rank": 47,
+      "drug": "VITAMIN D3",
+      "total_volume": 91423,
+      "n_signals": 242,
+      "pct_female": 45.9,
+      "mean_logr": -0.036
+    },
+    {
+      "rank": 48,
+      "drug": "LEVOTHYROXINE",
+      "total_volume": 87725,
+      "n_signals": 322,
+      "pct_female": 20.5,
+      "mean_logr": -0.818
+    },
+    {
+      "rank": 49,
+      "drug": "DOCETAXEL",
+      "total_volume": 87064,
+      "n_signals": 304,
+      "pct_female": 11.2,
+      "mean_logr": -0.754
+    },
+    {
+      "rank": 50,
+      "drug": "ESOMEPRAZOLE",
+      "total_volume": 86361,
+      "n_signals": 308,
+      "pct_female": 60.4,
+      "mean_logr": 0.177
+    }
+  ],
+  "direction_counts": {
+    "Neutral": 26,
+    "Female-biased": 20,
+    "Male-biased": 4
+  },
+  "volume_rank_correlation": {
+    "rho": 0.0533,
+    "p": 0.7134
+  }
+}
