@@ -1,0 +1,1018 @@
+{
+  "wave": 289,
+  "version": 2,
+  "title": "GLP-1 Receptor Agonist Per-Drug Profiles",
+  "description": "Sex bias analysis for GLP-1 RAs: semaglutide, liraglutide, tirzepatide, dulaglutide, exenatide",
+  "overall_baseline": {
+    "total_signals": 96281,
+    "pct_female": 53.8
+  },
+  "glp1_class_overall": {
+    "total_signals": 541,
+    "unique_drugs": 8,
+    "unique_glp1s": 7,
+    "female_higher": 137,
+    "male_higher": 404,
+    "pct_female": 25.32,
+    "median_log_ratio": -0.6088,
+    "mean_log_ratio": -0.4178
+  },
+  "glp1_vs_baseline": {
+    "chi_square": 173.9139,
+    "p_value": "1.0337e-39",
+    "interpretation": "GLP-1s show significantly different sex bias than overall"
+  },
+  "per_glp1_statistics": [
+    {
+      "glp1": "SEMAGLUTIDE",
+      "total_signals": 152,
+      "female_higher": 48,
+      "male_higher": 104,
+      "pct_female": 31.58,
+      "median_log_ratio": -0.5874,
+      "mean_log_ratio": -0.2785,
+      "strong_signals": 22,
+      "strong_female": 7,
+      "total_reports": 16845,
+      "gi_ae_signals": 6,
+      "gi_female": 0,
+      "pancreatitis_signals": 6,
+      "thyroid_signals": 0,
+      "top_10_female_biased": [
+        {
+          "adverse_event": "Counterfeit product administered",
+          "log_ratio": 1.5923329174771261,
+          "n_reports": 229,
+          "ror": 4.915202324624556
+        },
+        {
+          "adverse_event": "Device leakage",
+          "log_ratio": 1.4436163584300608,
+          "n_reports": 362,
+          "ror": 4.2359869984266085
+        },
+        {
+          "adverse_event": "Suspected counterfeit product",
+          "log_ratio": 1.3980701523853412,
+          "n_reports": 176,
+          "ror": 4.04738159542092
+        },
+        {
+          "adverse_event": "Angina pectoris",
+          "log_ratio": 1.3366452318539284,
+          "n_reports": 99,
+          "ror": 3.8062529665081284
+        },
+        {
+          "adverse_event": "Prescription drug used without a prescription",
+          "log_ratio": 1.2743178804277515,
+          "n_reports": 103,
+          "ror": 3.5762611401990663
+        },
+        {
+          "adverse_event": "Emotional distress",
+          "log_ratio": 1.2290207287334045,
+          "n_reports": 88,
+          "ror": 3.4178808644050425
+        },
+        {
+          "adverse_event": "Productive cough",
+          "log_ratio": 1.1004905558020097,
+          "n_reports": 102,
+          "ror": 3.0056400965475536
+        },
+        {
+          "adverse_event": "Device mechanical issue",
+          "log_ratio": 0.9851234857274518,
+          "n_reports": 48,
+          "ror": 2.678142576387025
+        },
+        {
+          "adverse_event": "Loss of personal independence in daily activities",
+          "log_ratio": 0.9627156017657337,
+          "n_reports": 145,
+          "ror": 2.618798439669496
+        },
+        {
+          "adverse_event": "Blood creatine phosphokinase increased",
+          "log_ratio": 0.9432113211237783,
+          "n_reports": 53,
+          "ror": 2.5682155548864958
+        }
+      ],
+      "top_10_male_biased": [
+        {
+          "adverse_event": "Cholecystitis chronic",
+          "log_ratio": -1.6218442365534806,
+          "n_reports": 29,
+          "ror": 0.19753406340944804
+        },
+        {
+          "adverse_event": "Metastases to liver",
+          "log_ratio": -1.51992742113113,
+          "n_reports": 35,
+          "ror": 0.2187277613896456
+        },
+        {
+          "adverse_event": "Aggression",
+          "log_ratio": -1.3808313501756133,
+          "n_reports": 62,
+          "ror": 0.25136949009979503
+        },
+        {
+          "adverse_event": "Spinal fracture",
+          "log_ratio": -1.2228592961486113,
+          "n_reports": 22,
+          "ror": 0.29438722213346746
+        },
+        {
+          "adverse_event": "Pharyngeal swelling",
+          "log_ratio": -1.1948660790951084,
+          "n_reports": 65,
+          "ror": 0.3027444952841912
+        },
+        {
+          "adverse_event": "Injection site pruritus",
+          "log_ratio": -1.1736145744169855,
+          "n_reports": 30,
+          "ror": 0.30924712191411524
+        },
+        {
+          "adverse_event": "Injection site urticaria",
+          "log_ratio": -1.1423735079826272,
+          "n_reports": 50,
+          "ror": 0.31906082895936844
+        },
+        {
+          "adverse_event": "Lack of satiety",
+          "log_ratio": -1.1309968731100115,
+          "n_reports": 29,
+          "ror": 0.3227113937100822
+        },
+        {
+          "adverse_event": "Completed suicide",
+          "log_ratio": -1.1305848432038252,
+          "n_reports": 48,
+          "ror": 0.322844387852258
+        },
+        {
+          "adverse_event": "Optic neuritis",
+          "log_ratio": -1.1184306305502187,
+          "n_reports": 37,
+          "ror": 0.3267922501756681
+        }
+      ]
+    },
+    {
+      "glp1": "LIRAGLUTIDE",
+      "total_signals": 102,
+      "female_higher": 15,
+      "male_higher": 87,
+      "pct_female": 14.71,
+      "median_log_ratio": -0.7419,
+      "mean_log_ratio": -0.7795,
+      "strong_signals": 29,
+      "strong_female": 0,
+      "total_reports": 8719,
+      "gi_ae_signals": 4,
+      "gi_female": 1,
+      "pancreatitis_signals": 4,
+      "thyroid_signals": 4,
+      "top_10_female_biased": [
+        {
+          "adverse_event": "Adverse drug reaction",
+          "log_ratio": 0.9924297816651361,
+          "n_reports": 84,
+          "ror": 2.697781535272417
+        },
+        {
+          "adverse_event": "Product dose omission issue",
+          "log_ratio": 0.8943690947275356,
+          "n_reports": 83,
+          "ror": 2.445792239377391
+        },
+        {
+          "adverse_event": "Device leakage",
+          "log_ratio": 0.8340791674374806,
+          "n_reports": 36,
+          "ror": 2.3026926773244254
+        },
+        {
+          "adverse_event": "Product use in unapproved indication",
+          "log_ratio": 0.7785224249021656,
+          "n_reports": 264,
+          "ror": 2.178251356555506
+        },
+        {
+          "adverse_event": "Dysuria",
+          "log_ratio": 0.7213973052020735,
+          "n_reports": 39,
+          "ror": 2.0573058873921157
+        },
+        {
+          "adverse_event": "Seizure",
+          "log_ratio": 0.6576666314640143,
+          "n_reports": 75,
+          "ror": 1.9302830138445821
+        },
+        {
+          "adverse_event": "Somnolence",
+          "log_ratio": 0.6124313648029209,
+          "n_reports": 169,
+          "ror": 1.8449116032054251
+        },
+        {
+          "adverse_event": "Disability",
+          "log_ratio": 0.6051871151225167,
+          "n_reports": 59,
+          "ror": 1.8315948959271617
+        },
+        {
+          "adverse_event": "Colitis",
+          "log_ratio": 0.6026293660832311,
+          "n_reports": 56,
+          "ror": 1.8269161219572996
+        },
+        {
+          "adverse_event": "Rhabdomyolysis",
+          "log_ratio": 0.5803139705527172,
+          "n_reports": 29,
+          "ror": 1.7865992822641727
+        }
+      ],
+      "top_10_male_biased": [
+        {
+          "adverse_event": "Lung disorder",
+          "log_ratio": -2.691165860046669,
+          "n_reports": 120,
+          "ror": 0.0678018458115873
+        },
+        {
+          "adverse_event": "Nodule",
+          "log_ratio": -2.6273649810514446,
+          "n_reports": 93,
+          "ror": 0.07226864080457093
+        },
+        {
+          "adverse_event": "Full blood count abnormal",
+          "log_ratio": -2.4128706869934406,
+          "n_reports": 113,
+          "ror": 0.08955783269734342
+        },
+        {
+          "adverse_event": "Cholecystitis chronic",
+          "log_ratio": -2.2378237017413793,
+          "n_reports": 20,
+          "ror": 0.10669044212826505
+        },
+        {
+          "adverse_event": "Therapeutic product effect incomplete",
+          "log_ratio": -2.2126926174567583,
+          "n_reports": 124,
+          "ror": 0.10940566395281674
+        },
+        {
+          "adverse_event": "Obstructive airways disorder",
+          "log_ratio": -2.185359617536365,
+          "n_reports": 127,
+          "ror": 0.11243729196102381
+        },
+        {
+          "adverse_event": "Sleep disorder due to a general medical condition",
+          "log_ratio": -2.1839729751147567,
+          "n_reports": 103,
+          "ror": 0.11259331042573953
+        },
+        {
+          "adverse_event": "Wheezing",
+          "log_ratio": -2.1506572108024544,
+          "n_reports": 126,
+          "ror": 0.1164076282774538
+        },
+        {
+          "adverse_event": "Productive cough",
+          "log_ratio": -2.1316035569363523,
+          "n_reports": 87,
+          "ror": 0.11864688419272208
+        },
+        {
+          "adverse_event": "Loss of personal independence in daily activities",
+          "log_ratio": -2.1244286074524776,
+          "n_reports": 116,
+          "ror": 0.11950123087523132
+        }
+      ]
+    },
+    {
+      "glp1": "TIRZEPATIDE",
+      "total_signals": 95,
+      "female_higher": 8,
+      "male_higher": 87,
+      "pct_female": 8.42,
+      "median_log_ratio": -0.6334,
+      "mean_log_ratio": -0.5797,
+      "strong_signals": 10,
+      "strong_female": 1,
+      "total_reports": 25182,
+      "gi_ae_signals": 6,
+      "gi_female": 0,
+      "pancreatitis_signals": 4,
+      "thyroid_signals": 0,
+      "top_10_female_biased": [
+        {
+          "adverse_event": "Lymphadenopathy",
+          "log_ratio": 1.0508291325494503,
+          "n_reports": 140,
+          "ror": 2.860021472153194
+        },
+        {
+          "adverse_event": "Hot flush",
+          "log_ratio": 0.9307530602521348,
+          "n_reports": 99,
+          "ror": 2.5364185345783734
+        },
+        {
+          "adverse_event": "Product administered at inappropriate site",
+          "log_ratio": 0.9020887725502653,
+          "n_reports": 855,
+          "ror": 2.4647460319461
+        },
+        {
+          "adverse_event": "Ketoacidosis",
+          "log_ratio": 0.6815054740674824,
+          "n_reports": 69,
+          "ror": 1.9768515919413632
+        },
+        {
+          "adverse_event": "Thirst",
+          "log_ratio": 0.6200481950907568,
+          "n_reports": 96,
+          "ror": 1.859017635210992
+        },
+        {
+          "adverse_event": "Wrong technique in product usage process",
+          "log_ratio": 0.5908668233264687,
+          "n_reports": 831,
+          "ror": 1.8055528325756978
+        },
+        {
+          "adverse_event": "Overdose",
+          "log_ratio": 0.5489451159243609,
+          "n_reports": 316,
+          "ror": 1.7314256008857898
+        },
+        {
+          "adverse_event": "Fluid intake reduced",
+          "log_ratio": 0.5131715796100238,
+          "n_reports": 89,
+          "ror": 1.6705811829192305
+        },
+        {
+          "adverse_event": "Renal pain",
+          "log_ratio": -0.5011240206182004,
+          "n_reports": 52,
+          "ror": 0.6058492897542249
+        },
+        {
+          "adverse_event": "Hyponatraemia",
+          "log_ratio": -0.5087516534301171,
+          "n_reports": 31,
+          "ror": 0.6012456734999609
+        }
+      ],
+      "top_10_male_biased": [
+        {
+          "adverse_event": "Sleep disorder due to general medical condition, insomnia type",
+          "log_ratio": -1.5614410892687083,
+          "n_reports": 185,
+          "ror": 0.20983346445762344
+        },
+        {
+          "adverse_event": "Small intestinal obstruction",
+          "log_ratio": -1.3867912852751445,
+          "n_reports": 84,
+          "ror": 0.24987579982277636
+        },
+        {
+          "adverse_event": "Bowel movement irregularity",
+          "log_ratio": -1.3675664869696984,
+          "n_reports": 54,
+          "ror": 0.25472608516955253
+        },
+        {
+          "adverse_event": "Skin burning sensation",
+          "log_ratio": -1.1960850681843218,
+          "n_reports": 87,
+          "ror": 0.30237567788548264
+        },
+        {
+          "adverse_event": "Discomfort",
+          "log_ratio": -1.1233993965913067,
+          "n_reports": 115,
+          "ror": 0.3251725232948676
+        },
+        {
+          "adverse_event": "Disturbance in attention",
+          "log_ratio": -1.1195720316725288,
+          "n_reports": 51,
+          "ror": 0.32641946192549115
+        },
+        {
+          "adverse_event": "Therapy interrupted",
+          "log_ratio": -1.0782133776136944,
+          "n_reports": 32,
+          "ror": 0.34020279693405026
+        },
+        {
+          "adverse_event": "Cognitive disorder",
+          "log_ratio": -1.0578055217746567,
+          "n_reports": 33,
+          "ror": 0.3472169348920616
+        },
+        {
+          "adverse_event": "Arthropathy",
+          "log_ratio": -1.0259765750625256,
+          "n_reports": 42,
+          "ror": 0.3584462447615215
+        },
+        {
+          "adverse_event": "Hypovolaemia",
+          "log_ratio": -0.9586552839450428,
+          "n_reports": 24,
+          "ror": 0.38340811452662527
+        }
+      ]
+    },
+    {
+      "glp1": "EXENATIDE",
+      "total_signals": 92,
+      "female_higher": 36,
+      "male_higher": 56,
+      "pct_female": 39.13,
+      "median_log_ratio": -0.5642,
+      "mean_log_ratio": -0.1988,
+      "strong_signals": 9,
+      "strong_female": 1,
+      "total_reports": 22354,
+      "gi_ae_signals": 0,
+      "gi_female": 0,
+      "pancreatitis_signals": 3,
+      "thyroid_signals": 1,
+      "top_10_female_biased": [
+        {
+          "adverse_event": "Hyperkalaemia",
+          "log_ratio": 1.0856779569125157,
+          "n_reports": 36,
+          "ror": 2.9614468716926168
+        },
+        {
+          "adverse_event": "Feeding disorder",
+          "log_ratio": 0.9126398181705699,
+          "n_reports": 52,
+          "ror": 2.4908893569465973
+        },
+        {
+          "adverse_event": "Fungal infection",
+          "log_ratio": 0.9007175071541371,
+          "n_reports": 93,
+          "ror": 2.4613685272591455
+        },
+        {
+          "adverse_event": "Adverse drug reaction",
+          "log_ratio": 0.8799634807100228,
+          "n_reports": 56,
+          "ror": 2.410811663679364
+        },
+        {
+          "adverse_event": "Hot flush",
+          "log_ratio": 0.8164658381886344,
+          "n_reports": 55,
+          "ror": 2.2624896866360182
+        },
+        {
+          "adverse_event": "Dysuria",
+          "log_ratio": 0.8046673936248744,
+          "n_reports": 43,
+          "ror": 2.2359526830110554
+        },
+        {
+          "adverse_event": "Glomerular filtration rate decreased",
+          "log_ratio": 0.7792400475077159,
+          "n_reports": 33,
+          "ror": 2.179815079984074
+        },
+        {
+          "adverse_event": "Thirst",
+          "log_ratio": 0.7788357399153341,
+          "n_reports": 47,
+          "ror": 2.1789339423345715
+        },
+        {
+          "adverse_event": "Gout",
+          "log_ratio": 0.739897750593601,
+          "n_reports": 54,
+          "ror": 2.0957212172882245
+        },
+        {
+          "adverse_event": "Hiccups",
+          "log_ratio": 0.7049907885220844,
+          "n_reports": 39,
+          "ror": 2.023828042389168
+        }
+      ],
+      "top_10_male_biased": [
+        {
+          "adverse_event": "Device misuse",
+          "log_ratio": -1.6465338442582116,
+          "n_reports": 53,
+          "ror": 0.19271673851474203
+        },
+        {
+          "adverse_event": "Intentional device use issue",
+          "log_ratio": -1.3200075651175678,
+          "n_reports": 23,
+          "ror": 0.26713328106352874
+        },
+        {
+          "adverse_event": "Scar",
+          "log_ratio": -1.2334254278812622,
+          "n_reports": 60,
+          "ror": 0.2912930633951576
+        },
+        {
+          "adverse_event": "Multiple use of single-use product",
+          "log_ratio": -1.2277850095107612,
+          "n_reports": 43,
+          "ror": 0.2929407205106071
+        },
+        {
+          "adverse_event": "Incorrect route of product administration",
+          "log_ratio": -1.22421632690389,
+          "n_reports": 38,
+          "ror": 0.2939880005583141
+        },
+        {
+          "adverse_event": "Injury associated with device",
+          "log_ratio": -1.2087551568358061,
+          "n_reports": 386,
+          "ror": 0.2985687194190663
+        },
+        {
+          "adverse_event": "Product closure removal difficult",
+          "log_ratio": -1.187687767038497,
+          "n_reports": 33,
+          "ror": 0.3049255083757558
+        },
+        {
+          "adverse_event": "Injection site urticaria",
+          "log_ratio": -1.0611266745205286,
+          "n_reports": 227,
+          "ror": 0.3460656872082284
+        },
+        {
+          "adverse_event": "Injection site scar",
+          "log_ratio": -0.9981920702260396,
+          "n_reports": 116,
+          "ror": 0.3685451429560759
+        },
+        {
+          "adverse_event": "Drug delivery system malfunction",
+          "log_ratio": -0.9926457525753989,
+          "n_reports": 240,
+          "ror": 0.3705948904082845
+        }
+      ]
+    },
+    {
+      "glp1": "DULAGLUTIDE",
+      "total_signals": 77,
+      "female_higher": 21,
+      "male_higher": 56,
+      "pct_female": 27.27,
+      "median_log_ratio": -0.6094,
+      "mean_log_ratio": -0.3414,
+      "strong_signals": 8,
+      "strong_female": 2,
+      "total_reports": 9143,
+      "gi_ae_signals": 1,
+      "gi_female": 0,
+      "pancreatitis_signals": 1,
+      "thyroid_signals": 0,
+      "top_10_female_biased": [
+        {
+          "adverse_event": "Diabetic metabolic decompensation",
+          "log_ratio": 1.4880667164281254,
+          "n_reports": 47,
+          "ror": 4.428525641800562
+        },
+        {
+          "adverse_event": "Haemorrhage",
+          "log_ratio": 1.0514971326856994,
+          "n_reports": 72,
+          "ror": 2.861932605133747
+        },
+        {
+          "adverse_event": "Wrong patient received product",
+          "log_ratio": 0.8925859002274967,
+          "n_reports": 88,
+          "ror": 2.4414348023414156
+        },
+        {
+          "adverse_event": "Thinking abnormal",
+          "log_ratio": 0.8631393709230952,
+          "n_reports": 53,
+          "ror": 2.3705911891121323
+        },
+        {
+          "adverse_event": "Diabetic neuropathy",
+          "log_ratio": 0.8200917828163934,
+          "n_reports": 52,
+          "ror": 2.27070823996585
+        },
+        {
+          "adverse_event": "Glycosylated haemoglobin decreased",
+          "log_ratio": 0.757584853678368,
+          "n_reports": 90,
+          "ror": 2.133118201740464
+        },
+        {
+          "adverse_event": "Fluid intake reduced",
+          "log_ratio": 0.716942936546983,
+          "n_reports": 41,
+          "ror": 2.048162268177308
+        },
+        {
+          "adverse_event": "Fungal infection",
+          "log_ratio": 0.7086480509444304,
+          "n_reports": 150,
+          "ror": 2.0312432640784746
+        },
+        {
+          "adverse_event": "Retinal detachment",
+          "log_ratio": 0.7074141301208932,
+          "n_reports": 38,
+          "ror": 2.028738416426912
+        },
+        {
+          "adverse_event": "Product administered at inappropriate site",
+          "log_ratio": 0.7026636716319916,
+          "n_reports": 454,
+          "ror": 2.019123833713771
+        }
+      ],
+      "top_10_male_biased": [
+        {
+          "adverse_event": "Coma",
+          "log_ratio": -1.363939270451628,
+          "n_reports": 71,
+          "ror": 0.2556517095384164
+        },
+        {
+          "adverse_event": "Wound",
+          "log_ratio": -1.2359683067322154,
+          "n_reports": 34,
+          "ror": 0.29055328141143455
+        },
+        {
+          "adverse_event": "Sleep disorder due to general medical condition, insomnia type",
+          "log_ratio": -1.1515921252172765,
+          "n_reports": 82,
+          "ror": 0.3161330450962805
+        },
+        {
+          "adverse_event": "Blood cholesterol increased",
+          "log_ratio": -1.1194743286955324,
+          "n_reports": 80,
+          "ror": 0.32645135563670064
+        },
+        {
+          "adverse_event": "Nerve injury",
+          "log_ratio": -1.0921599551376966,
+          "n_reports": 35,
+          "ror": 0.33549106489265507
+        },
+        {
+          "adverse_event": "Skin irritation",
+          "log_ratio": -1.0598604849435576,
+          "n_reports": 21,
+          "ror": 0.3465041495039333
+        },
+        {
+          "adverse_event": "Procedural pain",
+          "log_ratio": -0.9832274550795229,
+          "n_reports": 38,
+          "ror": 0.37410175174550026
+        },
+        {
+          "adverse_event": "Cellulitis",
+          "log_ratio": -0.9671565997456396,
+          "n_reports": 62,
+          "ror": 0.3801624567928022
+        },
+        {
+          "adverse_event": "Injection site urticaria",
+          "log_ratio": -0.9296044644041828,
+          "n_reports": 417,
+          "ror": 0.3947098012762343
+        },
+        {
+          "adverse_event": "Flushing",
+          "log_ratio": -0.9080348703124845,
+          "n_reports": 49,
+          "ror": 0.40331601406647155
+        }
+      ]
+    },
+    {
+      "glp1": "ALBIGLUTIDE",
+      "total_signals": 14,
+      "female_higher": 3,
+      "male_higher": 11,
+      "pct_female": 21.43,
+      "median_log_ratio": -0.5493,
+      "mean_log_ratio": -0.377,
+      "strong_signals": 0,
+      "strong_female": 0,
+      "total_reports": 2861,
+      "gi_ae_signals": 1,
+      "gi_female": 0,
+      "pancreatitis_signals": 0,
+      "thyroid_signals": 0,
+      "top_10_female_biased": [
+        {
+          "adverse_event": "Pruritus",
+          "log_ratio": 0.6134735433075356,
+          "n_reports": 73,
+          "ror": 1.8468353326818352
+        },
+        {
+          "adverse_event": "Injection site pruritus",
+          "log_ratio": 0.5929801236937438,
+          "n_reports": 143,
+          "ror": 1.8093725427157545
+        },
+        {
+          "adverse_event": "Product use issue",
+          "log_ratio": 0.5182902269010994,
+          "n_reports": 66,
+          "ror": 1.6791542212271724
+        },
+        {
+          "adverse_event": "Accidental exposure to product",
+          "log_ratio": -0.5031510020674683,
+          "n_reports": 1168,
+          "ror": 0.6046224882548235
+        },
+        {
+          "adverse_event": "Device failure",
+          "log_ratio": -0.503663105789093,
+          "n_reports": 29,
+          "ror": 0.6043129380960692
+        },
+        {
+          "adverse_event": "Intentional product misuse",
+          "log_ratio": -0.5126582930340162,
+          "n_reports": 23,
+          "ror": 0.5989014054269259
+        },
+        {
+          "adverse_event": "Product quality issue",
+          "log_ratio": -0.5463047144298208,
+          "n_reports": 998,
+          "ror": 0.5790857487100038
+        },
+        {
+          "adverse_event": "Exposure via direct contact",
+          "log_ratio": -0.5523674893358379,
+          "n_reports": 148,
+          "ror": 0.5755855034853553
+        },
+        {
+          "adverse_event": "Accidental underdose",
+          "log_ratio": -0.5703428325469213,
+          "n_reports": 41,
+          "ror": 0.5653315914035189
+        },
+        {
+          "adverse_event": "Influenza",
+          "log_ratio": -0.6202884514412761,
+          "n_reports": 25,
+          "ror": 0.5377892891237996
+        }
+      ],
+      "top_10_male_biased": [
+        {
+          "adverse_event": "Injury associated with device",
+          "log_ratio": -0.9902761430580986,
+          "n_reports": 55,
+          "ror": 0.37147409686425287
+        },
+        {
+          "adverse_event": "Abdominal distension",
+          "log_ratio": -0.9361890709528534,
+          "n_reports": 49,
+          "ror": 0.3921193305089051
+        },
+        {
+          "adverse_event": "Needle issue",
+          "log_ratio": -0.6392477745688837,
+          "n_reports": 23,
+          "ror": 0.5276892160338517
+        },
+        {
+          "adverse_event": "Intentional underdose",
+          "log_ratio": -0.6289523854980472,
+          "n_reports": 20,
+          "ror": 0.5331500442620621
+        },
+        {
+          "adverse_event": "Influenza",
+          "log_ratio": -0.6202884514412761,
+          "n_reports": 25,
+          "ror": 0.5377892891237996
+        },
+        {
+          "adverse_event": "Accidental underdose",
+          "log_ratio": -0.5703428325469213,
+          "n_reports": 41,
+          "ror": 0.5653315914035189
+        },
+        {
+          "adverse_event": "Exposure via direct contact",
+          "log_ratio": -0.5523674893358379,
+          "n_reports": 148,
+          "ror": 0.5755855034853553
+        },
+        {
+          "adverse_event": "Product quality issue",
+          "log_ratio": -0.5463047144298208,
+          "n_reports": 998,
+          "ror": 0.5790857487100038
+        },
+        {
+          "adverse_event": "Intentional product misuse",
+          "log_ratio": -0.5126582930340162,
+          "n_reports": 23,
+          "ror": 0.5989014054269259
+        },
+        {
+          "adverse_event": "Device failure",
+          "log_ratio": -0.503663105789093,
+          "n_reports": 29,
+          "ror": 0.6043129380960692
+        }
+      ]
+    },
+    {
+      "glp1": "LIXISENATIDE",
+      "total_signals": 9,
+      "female_higher": 6,
+      "male_higher": 3,
+      "pct_female": 66.67,
+      "median_log_ratio": 0.5676,
+      "mean_log_ratio": 0.0828,
+      "strong_signals": 2,
+      "strong_female": 0,
+      "total_reports": 720,
+      "gi_ae_signals": 0,
+      "gi_female": 0,
+      "pancreatitis_signals": 0,
+      "thyroid_signals": 0,
+      "top_10_female_biased": [
+        {
+          "adverse_event": "Malaise",
+          "log_ratio": 0.7840224744232696,
+          "n_reports": 52,
+          "ror": 2.190264854016898
+        },
+        {
+          "adverse_event": "Device leakage",
+          "log_ratio": 0.6899195293122105,
+          "n_reports": 25,
+          "ror": 1.9935551040378767
+        },
+        {
+          "adverse_event": "Wrong technique in device usage process",
+          "log_ratio": 0.6553386392205316,
+          "n_reports": 48,
+          "ror": 1.9257945565346444
+        },
+        {
+          "adverse_event": "Diabetes mellitus inadequate control",
+          "log_ratio": 0.5867987183220094,
+          "n_reports": 33,
+          "ror": 1.798222574301192
+        },
+        {
+          "adverse_event": "Glycosylated haemoglobin increased",
+          "log_ratio": 0.5676187166716122,
+          "n_reports": 52,
+          "ror": 1.76406131609513
+        },
+        {
+          "adverse_event": "Blood glucose abnormal",
+          "log_ratio": 0.5095616327634311,
+          "n_reports": 63,
+          "ror": 1.664561345829333
+        },
+        {
+          "adverse_event": "Injection site pain",
+          "log_ratio": -0.5619727446358325,
+          "n_reports": 67,
+          "ror": 0.5700833249948993
+        },
+        {
+          "adverse_event": "Exposure via skin contact",
+          "log_ratio": -1.240110804250473,
+          "n_reports": 124,
+          "ror": 0.28935215471408693
+        },
+        {
+          "adverse_event": "Accidental exposure to product",
+          "log_ratio": -1.2460084846886526,
+          "n_reports": 256,
+          "ror": 0.2876506705083815
+        }
+      ],
+      "top_10_male_biased": [
+        {
+          "adverse_event": "Accidental exposure to product",
+          "log_ratio": -1.2460084846886526,
+          "n_reports": 256,
+          "ror": 0.2876506705083815
+        },
+        {
+          "adverse_event": "Exposure via skin contact",
+          "log_ratio": -1.240110804250473,
+          "n_reports": 124,
+          "ror": 0.28935215471408693
+        },
+        {
+          "adverse_event": "Injection site pain",
+          "log_ratio": -0.5619727446358325,
+          "n_reports": 67,
+          "ror": 0.5700833249948993
+        },
+        {
+          "adverse_event": "Blood glucose abnormal",
+          "log_ratio": 0.5095616327634311,
+          "n_reports": 63,
+          "ror": 1.664561345829333
+        },
+        {
+          "adverse_event": "Glycosylated haemoglobin increased",
+          "log_ratio": 0.5676187166716122,
+          "n_reports": 52,
+          "ror": 1.76406131609513
+        },
+        {
+          "adverse_event": "Diabetes mellitus inadequate control",
+          "log_ratio": 0.5867987183220094,
+          "n_reports": 33,
+          "ror": 1.798222574301192
+        },
+        {
+          "adverse_event": "Wrong technique in device usage process",
+          "log_ratio": 0.6553386392205316,
+          "n_reports": 48,
+          "ror": 1.9257945565346444
+        },
+        {
+          "adverse_event": "Device leakage",
+          "log_ratio": 0.6899195293122105,
+          "n_reports": 25,
+          "ror": 1.9935551040378767
+        },
+        {
+          "adverse_event": "Malaise",
+          "log_ratio": 0.7840224744232696,
+          "n_reports": 52,
+          "ror": 2.190264854016898
+        }
+      ]
+    }
+  ],
+  "cross_glp1_comparison": {
+    "chi_square": {
+      "statistic": 41.2538,
+      "p_value": "2.5806e-07",
+      "dof": 6,
+      "interpretation": "Significant heterogeneity across GLP-1s"
+    }
+  },
+  "key_findings": [
+    "GLP-1 class overall: 25.3% female-biased (541 signals)",
+    "Comparison to baseline (53.8%F): chi2=173.91, p=1.03e-39",
+    "SEMAGLUTIDE has the most signals (152), 31.6% female-biased",
+    "7 GLP-1 drugs analyzed",
+    "Total GI AE signals: 18",
+    "Total pancreatitis signals: 18",
+    "Total thyroid signals: 5"
+  ],
+  "figures_generated": [
+    "wave_289_v2_glp1_comparison.png",
+    "wave_289_v2_glp1_comparison.pdf",
+    "wave_289_v2_glp1_violin.png",
+    "wave_289_v2_glp1_violin.pdf"
+  ]
+}
