@@ -1,0 +1,28 @@
+{
+  "wave": 282,
+  "title": "Rare/Orphan Drug Sex Bias",
+  "categories": {
+    "Rare (1-5 signals)": {
+      "n_signals": 1964,
+      "pct_f": 43.1,
+      "n_drugs": 869
+    },
+    "Uncommon (6-20)": {
+      "n_signals": 5984,
+      "pct_f": 41.9,
+      "n_drugs": 522
+    },
+    "Common (21-100)": {
+      "n_signals": 24503,
+      "pct_f": 50.3,
+      "n_drugs": 516
+    },
+    "Blockbuster (>100)": {
+      "n_signals": 63830,
+      "pct_f": 56.5,
+      "n_drugs": 271
+    }
+  },
+  "orphan_signals": 908,
+  "orphan_pct_f": 48.9
+}

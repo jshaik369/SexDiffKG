@@ -1,0 +1,13 @@
+{
+  "wave": 285,
+  "title": "Most Extreme Sex-Biased Pairs",
+  "mean_lr": 0.0964,
+  "median_lr": 0.5343,
+  "std_lr": 1.1187,
+  "skewness": -0.0572,
+  "kurtosis": 0.1698,
+  "extreme_f_count": 251,
+  "extreme_m_count": 270,
+  "max_pair": "TESTOSTERONE + Prostatic disorder",
+  "min_pair": "PERTUZUMAB + Carbohydrate antigen 15-3 increased"
+}
