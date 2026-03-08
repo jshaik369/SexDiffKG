@@ -1,0 +1,2085 @@
+{
+  "wave": 269,
+  "version": 2,
+  "title": "Opioid Deep Dive",
+  "description": "Per-opioid sex bias analysis: morphine, oxycodone, fentanyl, tramadol, hydrocodone, codeine, buprenorphine, methadone, and more",
+  "overall_baseline": {
+    "total_signals": 96281,
+    "pct_female": 53.8
+  },
+  "opioid_class_overall": {
+    "total_signals": 3966,
+    "unique_drugs": 59,
+    "unique_opioids": 18,
+    "female_higher": 2830,
+    "male_higher": 1136,
+    "pct_female": 71.36,
+    "median_log_ratio": 0.7014,
+    "mean_log_ratio": 0.5889
+  },
+  "opioid_vs_baseline": {
+    "chi_square": 474.2823,
+    "p_value": "3.7491e-105",
+    "interpretation": "Opioids show significantly different sex bias than overall"
+  },
+  "per_opioid_statistics": [
+    {
+      "opioid": "OXYCODONE",
+      "total_signals": 890,
+      "female_higher": 712,
+      "male_higher": 178,
+      "pct_female": 80.0,
+      "median_log_ratio": 0.8015,
+      "mean_log_ratio": 0.964,
+      "strong_signals": 386,
+      "strong_female": 363,
+      "strong_male": 23,
+      "total_reports": 521582,
+      "addiction_signals": 30,
+      "addiction_female": 21,
+      "top_10_female_biased": [
+        {
+          "adverse_event": "Infusion related reaction",
+          "log_ratio": 5.49607360941596,
+          "n_reports": 2533,
+          "ror": 243.73305985106947
+        },
+        {
+          "adverse_event": "Pericarditis",
+          "log_ratio": 5.396185812256093,
+          "n_reports": 2519,
+          "ror": 220.56353903281675
+        },
+        {
+          "adverse_event": "Blister",
+          "log_ratio": 5.055572366021432,
+          "n_reports": 2936,
+          "ror": 156.89430561905124
+        },
+        {
+          "adverse_event": "Impaired healing",
+          "log_ratio": 4.808073222879093,
+          "n_reports": 2955,
+          "ror": 122.49536871710139
+        },
+        {
+          "adverse_event": "Wheezing",
+          "log_ratio": 4.462003340046337,
+          "n_reports": 1550,
+          "ror": 86.66094665600868
+        },
+        {
+          "adverse_event": "Wound",
+          "log_ratio": 4.358493627600622,
+          "n_reports": 2461,
+          "ror": 78.13933878006239
+        },
+        {
+          "adverse_event": "Hepatic enzyme increased",
+          "log_ratio": 4.345509184155896,
+          "n_reports": 1457,
+          "ror": 77.13130151879739
+        },
+        {
+          "adverse_event": "Synovitis",
+          "log_ratio": 4.315676223529395,
+          "n_reports": 2523,
+          "ror": 74.86423128561319
+        },
+        {
+          "adverse_event": "Wound",
+          "log_ratio": 4.222798528156514,
+          "n_reports": 1162,
+          "ror": 68.22414457043799
+        },
+        {
+          "adverse_event": "Joint swelling",
+          "log_ratio": 4.180333098010459,
+          "n_reports": 1812,
+          "ror": 65.38763007638094
+        }
+      ],
+      "top_10_male_biased": [
+        {
+          "adverse_event": "Psychological trauma",
+          "log_ratio": -3.351826994748954,
+          "n_reports": 113,
+          "ror": 0.03502031368869413
+        },
+        {
+          "adverse_event": "Psychological trauma",
+          "log_ratio": -3.3227454653242154,
+          "n_reports": 202,
+          "ror": 0.03605371153591494
+        },
+        {
+          "adverse_event": "Nephrolithiasis",
+          "log_ratio": -1.724745134639929,
+          "n_reports": 226,
+          "ror": 0.17821846769912084
+        },
+        {
+          "adverse_event": "Developmental delay",
+          "log_ratio": -1.6602946987352425,
+          "n_reports": 52,
+          "ror": 0.19008295464028618
+        },
+        {
+          "adverse_event": "Nightmare",
+          "log_ratio": -1.4939184793813631,
+          "n_reports": 357,
+          "ror": 0.22449126541786718
+        },
+        {
+          "adverse_event": "Ligament sprain",
+          "log_ratio": -1.2957291827486819,
+          "n_reports": 40,
+          "ror": 0.27369821553295026
+        },
+        {
+          "adverse_event": "Cognitive disorder",
+          "log_ratio": -1.2920887508140968,
+          "n_reports": 41,
+          "ror": 0.2746964110862978
+        },
+        {
+          "adverse_event": "Cerebral disorder",
+          "log_ratio": -1.2682834036710178,
+          "n_reports": 93,
+          "ror": 0.2813141103099285
+        },
+        {
+          "adverse_event": "Learning disability",
+          "log_ratio": -1.2622612730058034,
+          "n_reports": 44,
+          "ror": 0.2830133319722873
+        },
+        {
+          "adverse_event": "Concussion",
+          "log_ratio": -1.2172912670327822,
+          "n_reports": 39,
+          "ror": 0.2960309506751235
+        }
+      ]
+    },
+    {
+      "opioid": "MORPHINE",
+      "total_signals": 612,
+      "female_higher": 422,
+      "male_higher": 190,
+      "pct_female": 68.95,
+      "median_log_ratio": 0.7237,
+      "mean_log_ratio": 0.5281,
+      "strong_signals": 247,
+      "strong_female": 202,
+      "strong_male": 45,
+      "total_reports": 180259,
+      "addiction_signals": 15,
+      "addiction_female": 10,
+      "top_10_female_biased": [
+        {
+          "adverse_event": "Orthostatic hypotension",
+          "log_ratio": 3.7782610412577746,
+          "n_reports": 397,
+          "ror": 43.73991365772558
+        },
+        {
+          "adverse_event": "Upper respiratory tract infection",
+          "log_ratio": 3.1520023555028853,
+          "n_reports": 648,
+          "ror": 23.38283849164274
+        },
+        {
+          "adverse_event": "Psoriasis",
+          "log_ratio": 3.0951900461101207,
+          "n_reports": 735,
+          "ror": 22.091436530206444
+        },
+        {
+          "adverse_event": "Joint stiffness",
+          "log_ratio": 3.0918478255963064,
+          "n_reports": 367,
+          "ror": 22.01772532602044
+        },
+        {
+          "adverse_event": "Osteoporosis",
+          "log_ratio": 2.874414875467994,
+          "n_reports": 444,
+          "ror": 17.715055574709325
+        },
+        {
+          "adverse_event": "Personality disorder",
+          "log_ratio": 2.8657122771304193,
+          "n_reports": 181,
+          "ror": 17.56155744655886
+        },
+        {
+          "adverse_event": "Radiculopathy",
+          "log_ratio": 2.8381140147591655,
+          "n_reports": 197,
+          "ror": 17.083515876708212
+        },
+        {
+          "adverse_event": "Colitis ulcerative",
+          "log_ratio": 2.806857252648318,
+          "n_reports": 341,
+          "ror": 16.557799383356503
+        },
+        {
+          "adverse_event": "Infusion related reaction",
+          "log_ratio": 2.802286786459657,
+          "n_reports": 926,
+          "ror": 16.482295197216047
+        },
+        {
+          "adverse_event": "Thrombocytopenia",
+          "log_ratio": 2.802097468510735,
+          "n_reports": 410,
+          "ror": 16.47917509825047
+        }
+      ],
+      "top_10_male_biased": [
+        {
+          "adverse_event": "Psychological trauma",
+          "log_ratio": -3.3586410805692006,
+          "n_reports": 68,
+          "ror": 0.03478249344972688
+        },
+        {
+          "adverse_event": "Psychomotor skills impaired",
+          "log_ratio": -1.7779740576845162,
+          "n_reports": 52,
+          "ror": 0.16898014474375436
+        },
+        {
+          "adverse_event": "Febrile neutropenia",
+          "log_ratio": -1.7777262280391608,
+          "n_reports": 113,
+          "ror": 0.16902202822286785
+        },
+        {
+          "adverse_event": "Suicide attempt",
+          "log_ratio": -1.7126641746809437,
+          "n_reports": 43,
+          "ror": 0.18038457585916678
+        },
+        {
+          "adverse_event": "Nightmare",
+          "log_ratio": -1.6567794056497742,
+          "n_reports": 33,
+          "ror": 0.1907523277684602
+        },
+        {
+          "adverse_event": "Swelling face",
+          "log_ratio": -1.6292703882715944,
+          "n_reports": 31,
+          "ror": 0.1960725788047351
+        },
+        {
+          "adverse_event": "Sleep disorder",
+          "log_ratio": -1.6162481473833117,
+          "n_reports": 37,
+          "ror": 0.1986425804296007
+        },
+        {
+          "adverse_event": "Depression",
+          "log_ratio": -1.5758829788865913,
+          "n_reports": 87,
+          "ror": 0.2068248500559209
+        },
+        {
+          "adverse_event": "Irritability",
+          "log_ratio": -1.5462044406504478,
+          "n_reports": 31,
+          "ror": 0.21305510439523417
+        },
+        {
+          "adverse_event": "Ankle fracture",
+          "log_ratio": -1.4615305224888477,
+          "n_reports": 63,
+          "ror": 0.231881103756472
+        }
+      ]
+    },
+    {
+      "opioid": "TRAMADOL",
+      "total_signals": 484,
+      "female_higher": 356,
+      "male_higher": 128,
+      "pct_female": 73.55,
+      "median_log_ratio": 0.7512,
+      "mean_log_ratio": 0.6191,
+      "strong_signals": 186,
+      "strong_female": 165,
+      "strong_male": 21,
+      "total_reports": 155850,
+      "addiction_signals": 12,
+      "addiction_female": 7,
+      "top_10_female_biased": [
+        {
+          "adverse_event": "Wheezing",
+          "log_ratio": 3.5535661308197937,
+          "n_reports": 1486,
+          "ror": 34.937687960918225
+        },
+        {
+          "adverse_event": "Wound",
+          "log_ratio": 3.5484916006710776,
+          "n_reports": 915,
+          "ror": 34.760844687783305
+        },
+        {
+          "adverse_event": "Obesity",
+          "log_ratio": 3.4647827975402343,
+          "n_reports": 478,
+          "ror": 31.969515161633876
+        },
+        {
+          "adverse_event": "Type 2 diabetes mellitus",
+          "log_ratio": 3.339734829737416,
+          "n_reports": 934,
+          "ror": 28.21164482420029
+        },
+        {
+          "adverse_event": "Hypercholesterolaemia",
+          "log_ratio": 3.085412243601599,
+          "n_reports": 521,
+          "ror": 21.876483423750443
+        },
+        {
+          "adverse_event": "C-reactive protein increased",
+          "log_ratio": 3.0722309400975067,
+          "n_reports": 638,
+          "ror": 21.590015017378587
+        },
+        {
+          "adverse_event": "Joint swelling",
+          "log_ratio": 3.0703759340957446,
+          "n_reports": 973,
+          "ror": 21.550002533116185
+        },
+        {
+          "adverse_event": "Pulmonary fibrosis",
+          "log_ratio": 3.0382942267102537,
+          "n_reports": 286,
+          "ror": 20.869614025882473
+        },
+        {
+          "adverse_event": "Prescribed underdose",
+          "log_ratio": 2.990134937912572,
+          "n_reports": 280,
+          "ror": 19.88836600509999
+        },
+        {
+          "adverse_event": "Swelling",
+          "log_ratio": 2.9839010765182232,
+          "n_reports": 968,
+          "ror": 19.76477032748006
+        }
+      ],
+      "top_10_male_biased": [
+        {
+          "adverse_event": "Nightmare",
+          "log_ratio": -3.428261323586362,
+          "n_reports": 248,
+          "ror": 0.03244330016411301
+        },
+        {
+          "adverse_event": "Psychological trauma",
+          "log_ratio": -3.0823040490386955,
+          "n_reports": 84,
+          "ror": 0.045853486164925406
+        },
+        {
+          "adverse_event": "Sedation",
+          "log_ratio": -2.7614107014910867,
+          "n_reports": 265,
+          "ror": 0.06320254551583833
+        },
+        {
+          "adverse_event": "Hyperhidrosis",
+          "log_ratio": -2.1442231265444867,
+          "n_reports": 325,
+          "ror": 0.1171590194309197
+        },
+        {
+          "adverse_event": "Expired product administered",
+          "log_ratio": -1.816830256998618,
+          "n_reports": 50,
+          "ror": 0.16254014574293144
+        },
+        {
+          "adverse_event": "Aphonia",
+          "log_ratio": -1.5895876093488865,
+          "n_reports": 45,
+          "ror": 0.20400972609281068
+        },
+        {
+          "adverse_event": "Bronchitis",
+          "log_ratio": -1.4039259595565183,
+          "n_reports": 43,
+          "ror": 0.24563073216889905
+        },
+        {
+          "adverse_event": "Product use in unapproved indication",
+          "log_ratio": -1.3039108650123932,
+          "n_reports": 309,
+          "ror": 0.2714680394340693
+        },
+        {
+          "adverse_event": "Coordination abnormal",
+          "log_ratio": -1.2744279393578832,
+          "n_reports": 84,
+          "ror": 0.27959086541159944
+        },
+        {
+          "adverse_event": "Hepatic cytolysis",
+          "log_ratio": -1.2606033937669454,
+          "n_reports": 54,
+          "ror": 0.28348292305477896
+        }
+      ]
+    },
+    {
+      "opioid": "CODEINE",
+      "total_signals": 374,
+      "female_higher": 291,
+      "male_higher": 83,
+      "pct_female": 77.81,
+      "median_log_ratio": 0.9957,
+      "mean_log_ratio": 0.8583,
+      "strong_signals": 211,
+      "strong_female": 186,
+      "strong_male": 25,
+      "total_reports": 134103,
+      "addiction_signals": 22,
+      "addiction_female": 15,
+      "top_10_female_biased": [
+        {
+          "adverse_event": "Epilepsy",
+          "log_ratio": 3.279296498606077,
+          "n_reports": 419,
+          "ror": 26.557083181556912
+        },
+        {
+          "adverse_event": "Delirium",
+          "log_ratio": 2.9858544905884745,
+          "n_reports": 308,
+          "ror": 19.803416841966605
+        },
+        {
+          "adverse_event": "Nasopharyngitis",
+          "log_ratio": 2.9788039816449396,
+          "n_reports": 549,
+          "ror": 19.664283730388213
+        },
+        {
+          "adverse_event": "Gastrointestinal disorder",
+          "log_ratio": 2.9162347636882413,
+          "n_reports": 543,
+          "ror": 18.471606396094607
+        },
+        {
+          "adverse_event": "Infusion related reaction",
+          "log_ratio": 2.7645930082569077,
+          "n_reports": 996,
+          "ror": 15.87257866739119
+        },
+        {
+          "adverse_event": "Prescribed overdose",
+          "log_ratio": 2.7502646791063388,
+          "n_reports": 327,
+          "ror": 15.646772709986926
+        },
+        {
+          "adverse_event": "General physical health deterioration",
+          "log_ratio": 2.74007041796088,
+          "n_reports": 640,
+          "ror": 15.48807569664907
+        },
+        {
+          "adverse_event": "Therapeutic product effect decreased",
+          "log_ratio": 2.733186679743827,
+          "n_reports": 513,
+          "ror": 15.381825955330745
+        },
+        {
+          "adverse_event": "Angioedema",
+          "log_ratio": 2.7004743267422615,
+          "n_reports": 239,
+          "ror": 14.886791253676904
+        },
+        {
+          "adverse_event": "Drug intolerance",
+          "log_ratio": 2.6786816561745534,
+          "n_reports": 639,
+          "ror": 14.565877797290653
+        }
+      ],
+      "top_10_male_biased": [
+        {
+          "adverse_event": "Nephrolithiasis",
+          "log_ratio": -3.2410779703968657,
+          "n_reports": 205,
+          "ror": 0.039121700325888506
+        },
+        {
+          "adverse_event": "Toxicity to various agents",
+          "log_ratio": -2.2559083397182733,
+          "n_reports": 111,
+          "ror": 0.10477832618260496
+        },
+        {
+          "adverse_event": "Sedation",
+          "log_ratio": -2.2487083508023424,
+          "n_reports": 313,
+          "ror": 0.10553545134537164
+        },
+        {
+          "adverse_event": "Nightmare",
+          "log_ratio": -2.1323455380932463,
+          "n_reports": 73,
+          "ror": 0.11855888309194348
+        },
+        {
+          "adverse_event": "Pulmonary congestion",
+          "log_ratio": -2.1204887019161487,
+          "n_reports": 80,
+          "ror": 0.11997298315582076
+        },
+        {
+          "adverse_event": "Nightmare",
+          "log_ratio": -1.9653629389294796,
+          "n_reports": 367,
+          "ror": 0.14010502781824383
+        },
+        {
+          "adverse_event": "Nephrolithiasis",
+          "log_ratio": -1.962691825028918,
+          "n_reports": 58,
+          "ror": 0.14047976456504688
+        },
+        {
+          "adverse_event": "Oropharyngeal discomfort",
+          "log_ratio": -1.7712044375953446,
+          "n_reports": 54,
+          "ror": 0.17012795686882518
+        },
+        {
+          "adverse_event": "Impaired driving ability",
+          "log_ratio": -1.6919824607901002,
+          "n_reports": 33,
+          "ror": 0.1841540836269499
+        },
+        {
+          "adverse_event": "Acne",
+          "log_ratio": -1.5427093406394252,
+          "n_reports": 24,
+          "ror": 0.2138010561215363
+        }
+      ]
+    },
+    {
+      "opioid": "BUPRENORPHINE",
+      "total_signals": 355,
+      "female_higher": 170,
+      "male_higher": 185,
+      "pct_female": 47.89,
+      "median_log_ratio": -0.5202,
+      "mean_log_ratio": 0.0903,
+      "strong_signals": 126,
+      "strong_female": 74,
+      "strong_male": 52,
+      "total_reports": 83008,
+      "addiction_signals": 10,
+      "addiction_female": 2,
+      "top_10_female_biased": [
+        {
+          "adverse_event": "Epilepsy",
+          "log_ratio": 3.9855976563579762,
+          "n_reports": 560,
+          "ror": 53.817444205893494
+        },
+        {
+          "adverse_event": "Obesity",
+          "log_ratio": 3.8169455936608045,
+          "n_reports": 348,
+          "ror": 45.465127051343856
+        },
+        {
+          "adverse_event": "Psoriatic arthropathy",
+          "log_ratio": 3.1889674358578493,
+          "n_reports": 482,
+          "ror": 24.263361027415716
+        },
+        {
+          "adverse_event": "C-reactive protein increased",
+          "log_ratio": 3.132498633816394,
+          "n_reports": 449,
+          "ror": 22.93120470383056
+        },
+        {
+          "adverse_event": "Arthropathy",
+          "log_ratio": 2.9035876613712235,
+          "n_reports": 476,
+          "ror": 18.23946515130649
+        },
+        {
+          "adverse_event": "Inflammation",
+          "log_ratio": 2.89827321336716,
+          "n_reports": 444,
+          "ror": 18.142789578327665
+        },
+        {
+          "adverse_event": "Musculoskeletal pain",
+          "log_ratio": 2.7842758748925194,
+          "n_reports": 330,
+          "ror": 16.188091428121822
+        },
+        {
+          "adverse_event": "Hepatic enzyme increased",
+          "log_ratio": 2.4481688898894785,
+          "n_reports": 483,
+          "ror": 11.567146596185014
+        },
+        {
+          "adverse_event": "Dyspepsia",
+          "log_ratio": 2.4352958251031853,
+          "n_reports": 356,
+          "ror": 11.419196298678397
+        },
+        {
+          "adverse_event": "Joint swelling",
+          "log_ratio": 2.434171375823629,
+          "n_reports": 460,
+          "ror": 11.40636320805915
+        }
+      ],
+      "top_10_male_biased": [
+        {
+          "adverse_event": "Psychological trauma",
+          "log_ratio": -3.090475466320547,
+          "n_reports": 30,
+          "ror": 0.045480324900241016
+        },
+        {
+          "adverse_event": "Maternal exposure during breast feeding",
+          "log_ratio": -2.3097821839351016,
+          "n_reports": 27,
+          "ror": 0.09928287460969565
+        },
+        {
+          "adverse_event": "Injection site warmth",
+          "log_ratio": -2.28961099890389,
+          "n_reports": 63,
+          "ror": 0.10130586228145164
+        },
+        {
+          "adverse_event": "Breech presentation",
+          "log_ratio": -1.9251172486900066,
+          "n_reports": 28,
+          "ror": 0.1458586541174887
+        },
+        {
+          "adverse_event": "Injection site induration",
+          "log_ratio": -1.78436107691333,
+          "n_reports": 70,
+          "ror": 0.16790430467291523
+        },
+        {
+          "adverse_event": "Bradypnoea",
+          "log_ratio": -1.7452088818784777,
+          "n_reports": 86,
+          "ror": 0.17460851260320703
+        },
+        {
+          "adverse_event": "Injection site erosion",
+          "log_ratio": -1.7026231883135567,
+          "n_reports": 48,
+          "ror": 0.18220493875147825
+        },
+        {
+          "adverse_event": "Drug delivery system removal",
+          "log_ratio": -1.6458601429663116,
+          "n_reports": 64,
+          "ror": 0.1928466157747767
+        },
+        {
+          "adverse_event": "Injection site irritation",
+          "log_ratio": -1.6456997957387187,
+          "n_reports": 49,
+          "ror": 0.1928775406742616
+        },
+        {
+          "adverse_event": "Injection site erythema",
+          "log_ratio": -1.6424372626043682,
+          "n_reports": 291,
+          "ror": 0.19350783766491184
+        }
+      ]
+    },
+    {
+      "opioid": "HYDROMORPHONE",
+      "total_signals": 331,
+      "female_higher": 248,
+      "male_higher": 83,
+      "pct_female": 74.92,
+      "median_log_ratio": 0.7684,
+      "mean_log_ratio": 0.6197,
+      "strong_signals": 137,
+      "strong_female": 111,
+      "strong_male": 26,
+      "total_reports": 100251,
+      "addiction_signals": 7,
+      "addiction_female": 6,
+      "top_10_female_biased": [
+        {
+          "adverse_event": "Hepatic enzyme increased",
+          "log_ratio": 3.757362149606199,
+          "n_reports": 555,
+          "ror": 42.83528374812668
+        },
+        {
+          "adverse_event": "Immunodeficiency",
+          "log_ratio": 3.2803203314537996,
+          "n_reports": 423,
+          "ror": 26.584287119424147
+        },
+        {
+          "adverse_event": "Rectal haemorrhage",
+          "log_ratio": 3.194953795488974,
+          "n_reports": 255,
+          "ror": 24.409045858211325
+        },
+        {
+          "adverse_event": "Oedema",
+          "log_ratio": 3.186856564873044,
+          "n_reports": 598,
+          "ror": 24.212198220668718
+        },
+        {
+          "adverse_event": "Prescribed overdose",
+          "log_ratio": 3.0231369221118367,
+          "n_reports": 368,
+          "ror": 20.555672195708745
+        },
+        {
+          "adverse_event": "Colitis",
+          "log_ratio": 2.9824720197284535,
+          "n_reports": 215,
+          "ror": 19.736545520474785
+        },
+        {
+          "adverse_event": "Frequent bowel movements",
+          "log_ratio": 2.9567001345986355,
+          "n_reports": 243,
+          "ror": 19.234395999599183
+        },
+        {
+          "adverse_event": "Therapeutic product effect incomplete",
+          "log_ratio": 2.9473343545252324,
+          "n_reports": 467,
+          "ror": 19.0550918491211
+        },
+        {
+          "adverse_event": "Angioedema",
+          "log_ratio": 2.933100442315309,
+          "n_reports": 192,
+          "ror": 18.785784539773307
+        },
+        {
+          "adverse_event": "Haematochezia",
+          "log_ratio": 2.8937368849875273,
+          "n_reports": 279,
+          "ror": 18.060674318784745
+        }
+      ],
+      "top_10_male_biased": [
+        {
+          "adverse_event": "Psychological trauma",
+          "log_ratio": -3.1206488495056415,
+          "n_reports": 49,
+          "ror": 0.044128526355992535
+        },
+        {
+          "adverse_event": "Appendicitis",
+          "log_ratio": -2.8833198775641162,
+          "n_reports": 237,
+          "ror": 0.05594871129947343
+        },
+        {
+          "adverse_event": "Cardiogenic shock",
+          "log_ratio": -2.5894175186374846,
+          "n_reports": 225,
+          "ror": 0.07506375058953299
+        },
+        {
+          "adverse_event": "Iron deficiency",
+          "log_ratio": -2.1480047871913204,
+          "n_reports": 115,
+          "ror": 0.11671680046575782
+        },
+        {
+          "adverse_event": "Ascites",
+          "log_ratio": -2.03961593629089,
+          "n_reports": 258,
+          "ror": 0.1300786597785826
+        },
+        {
+          "adverse_event": "Myasthenia gravis",
+          "log_ratio": -1.993563878861264,
+          "n_reports": 134,
+          "ror": 0.13620912657818998
+        },
+        {
+          "adverse_event": "Nightmare",
+          "log_ratio": -1.8780021176001995,
+          "n_reports": 339,
+          "ror": 0.15289526758077243
+        },
+        {
+          "adverse_event": "Hypophosphataemia",
+          "log_ratio": -1.861407255505446,
+          "n_reports": 125,
+          "ror": 0.15545371327413554
+        },
+        {
+          "adverse_event": "Pelvic pain",
+          "log_ratio": -1.795832367030489,
+          "n_reports": 29,
+          "ror": 0.1659892308661225
+        },
+        {
+          "adverse_event": "Multiple organ dysfunction syndrome",
+          "log_ratio": -1.6721690634087425,
+          "n_reports": 267,
+          "ror": 0.1878391883326529
+        }
+      ]
+    },
+    {
+      "opioid": "FENTANYL",
+      "total_signals": 323,
+      "female_higher": 241,
+      "male_higher": 82,
+      "pct_female": 74.61,
+      "median_log_ratio": 0.6707,
+      "mean_log_ratio": 0.4677,
+      "strong_signals": 92,
+      "strong_female": 72,
+      "strong_male": 20,
+      "total_reports": 51624,
+      "addiction_signals": 6,
+      "addiction_female": 5,
+      "top_10_female_biased": [
+        {
+          "adverse_event": "Rectal haemorrhage",
+          "log_ratio": 2.7629878919147584,
+          "n_reports": 164,
+          "ror": 15.84712176808825
+        },
+        {
+          "adverse_event": "Haematuria",
+          "log_ratio": 2.7347107851636085,
+          "n_reports": 69,
+          "ror": 15.405287353916242
+        },
+        {
+          "adverse_event": "Proctitis",
+          "log_ratio": 2.5667068275833143,
+          "n_reports": 152,
+          "ror": 13.02286719990758
+        },
+        {
+          "adverse_event": "Haematochezia",
+          "log_ratio": 2.4375269006133955,
+          "n_reports": 167,
+          "ror": 11.444701829689569
+        },
+        {
+          "adverse_event": "Colitis ulcerative",
+          "log_ratio": 2.198474595772379,
+          "n_reports": 167,
+          "ror": 9.01125720031358
+        },
+        {
+          "adverse_event": "Coronary artery disease",
+          "log_ratio": 2.189121073730409,
+          "n_reports": 81,
+          "ror": 8.92736317143387
+        },
+        {
+          "adverse_event": "Frequent bowel movements",
+          "log_ratio": 2.1543244028345017,
+          "n_reports": 177,
+          "ror": 8.622063169396824
+        },
+        {
+          "adverse_event": "Oral candidiasis",
+          "log_ratio": 2.1322907170330554,
+          "n_reports": 153,
+          "ror": 8.434164985064758
+        },
+        {
+          "adverse_event": "Rheumatoid arthritis",
+          "log_ratio": 2.0444312435102185,
+          "n_reports": 281,
+          "ror": 7.7247637787232675
+        },
+        {
+          "adverse_event": "White blood cell count abnormal",
+          "log_ratio": 2.025445682618626,
+          "n_reports": 204,
+          "ror": 7.579488238146254
+        }
+      ],
+      "top_10_male_biased": [
+        {
+          "adverse_event": "Pelvic pain",
+          "log_ratio": -3.6654461805041523,
+          "n_reports": 62,
+          "ror": 0.025592749749883223
+        },
+        {
+          "adverse_event": "Psychological trauma",
+          "log_ratio": -2.887249542051313,
+          "n_reports": 43,
+          "ror": 0.055729283057632514
+        },
+        {
+          "adverse_event": "Ocular hyperaemia",
+          "log_ratio": -2.2634370735526415,
+          "n_reports": 76,
+          "ror": 0.10399244012874567
+        },
+        {
+          "adverse_event": "Synovitis",
+          "log_ratio": -2.056819720292001,
+          "n_reports": 28,
+          "ror": 0.12785995439893802
+        },
+        {
+          "adverse_event": "Injection site erythema",
+          "log_ratio": -1.886207203176888,
+          "n_reports": 58,
+          "ror": 0.15164588149528158
+        },
+        {
+          "adverse_event": "Scoliosis",
+          "log_ratio": -1.640991330737506,
+          "n_reports": 35,
+          "ror": 0.19378783919666426
+        },
+        {
+          "adverse_event": "Atelectasis",
+          "log_ratio": -1.4801570312545471,
+          "n_reports": 63,
+          "ror": 0.22760194495851457
+        },
+        {
+          "adverse_event": "Kidney infection",
+          "log_ratio": -1.4130396677491621,
+          "n_reports": 62,
+          "ror": 0.2434022954382258
+        },
+        {
+          "adverse_event": "Motor dysfunction",
+          "log_ratio": -1.3787309598439998,
+          "n_reports": 69,
+          "ror": 0.2518980190106639
+        },
+        {
+          "adverse_event": "Intentional self-injury",
+          "log_ratio": -1.306338217381785,
+          "n_reports": 60,
+          "ror": 0.2708098899488446
+        }
+      ]
+    },
+    {
+      "opioid": "HYDROCODONE",
+      "total_signals": 286,
+      "female_higher": 212,
+      "male_higher": 74,
+      "pct_female": 74.13,
+      "median_log_ratio": 0.6356,
+      "mean_log_ratio": 0.4053,
+      "strong_signals": 41,
+      "strong_female": 38,
+      "strong_male": 3,
+      "total_reports": 68692,
+      "addiction_signals": 11,
+      "addiction_female": 9,
+      "top_10_female_biased": [
+        {
+          "adverse_event": "Hypotension",
+          "log_ratio": 2.14748546671029,
+          "n_reports": 121,
+          "ror": 8.56329860272118
+        },
+        {
+          "adverse_event": "Drug diversion",
+          "log_ratio": 1.621681055312083,
+          "n_reports": 291,
+          "ror": 5.061591984768105
+        },
+        {
+          "adverse_event": "Condition aggravated",
+          "log_ratio": 1.5977421660789348,
+          "n_reports": 95,
+          "ror": 4.941861915098015
+        },
+        {
+          "adverse_event": "Hepatic encephalopathy",
+          "log_ratio": 1.5870187161076437,
+          "n_reports": 35,
+          "ror": 4.889151231385911
+        },
+        {
+          "adverse_event": "Metabolic acidosis",
+          "log_ratio": 1.436177267291618,
+          "n_reports": 170,
+          "ror": 4.204592024901944
+        },
+        {
+          "adverse_event": "Drug withdrawal syndrome neonatal",
+          "log_ratio": 1.4274703594761564,
+          "n_reports": 57,
+          "ror": 4.168141943761513
+        },
+        {
+          "adverse_event": "Acute myocardial infarction",
+          "log_ratio": 1.3757002026727385,
+          "n_reports": 23,
+          "ror": 3.957847047994175
+        },
+        {
+          "adverse_event": "Acute hepatic failure",
+          "log_ratio": 1.3648643571029795,
+          "n_reports": 141,
+          "ror": 3.9151919479950763
+        },
+        {
+          "adverse_event": "Blood creatinine increased",
+          "log_ratio": 1.3390061584283641,
+          "n_reports": 40,
+          "ror": 3.815249866617019
+        },
+        {
+          "adverse_event": "Accidental death",
+          "log_ratio": 1.3311177324605796,
+          "n_reports": 43,
+          "ror": 3.785271945255783
+        }
+      ],
+      "top_10_male_biased": [
+        {
+          "adverse_event": "Psychological trauma",
+          "log_ratio": -2.963185807249659,
+          "n_reports": 117,
+          "ror": 0.05165409477632376
+        },
+        {
+          "adverse_event": "Deformity",
+          "log_ratio": -1.1923850668528795,
+          "n_reports": 22,
+          "ror": 0.303496540614331
+        },
+        {
+          "adverse_event": "Spinal pain",
+          "log_ratio": -1.0055535314478015,
+          "n_reports": 38,
+          "ror": 0.3658420736545075
+        },
+        {
+          "adverse_event": "Hormone level abnormal",
+          "log_ratio": -0.9861306574155507,
+          "n_reports": 21,
+          "ror": 0.3730172337153058
+        },
+        {
+          "adverse_event": "Spinal operation",
+          "log_ratio": -0.9735610422284457,
+          "n_reports": 40,
+          "ror": 0.37773550812620593
+        },
+        {
+          "adverse_event": "Stress",
+          "log_ratio": -0.9394558207164234,
+          "n_reports": 64,
+          "ror": 0.39084046478312834
+        },
+        {
+          "adverse_event": "Spinal fracture",
+          "log_ratio": -0.9365461850102635,
+          "n_reports": 62,
+          "ror": 0.39197932418439935
+        },
+        {
+          "adverse_event": "Tooth disorder",
+          "log_ratio": -0.936012004944193,
+          "n_reports": 31,
+          "ror": 0.39218876766097516
+        },
+        {
+          "adverse_event": "Type 2 diabetes mellitus",
+          "log_ratio": -0.9066763429114093,
+          "n_reports": 31,
+          "ror": 0.40386430227082143
+        },
+        {
+          "adverse_event": "Formication",
+          "log_ratio": -0.8859501139388843,
+          "n_reports": 26,
+          "ror": 0.4123222340132061
+        }
+      ]
+    },
+    {
+      "opioid": "METHADONE",
+      "total_signals": 118,
+      "female_higher": 87,
+      "male_higher": 31,
+      "pct_female": 73.73,
+      "median_log_ratio": 0.6726,
+      "mean_log_ratio": 0.4185,
+      "strong_signals": 28,
+      "strong_female": 23,
+      "strong_male": 5,
+      "total_reports": 26936,
+      "addiction_signals": 8,
+      "addiction_female": 7,
+      "top_10_female_biased": [
+        {
+          "adverse_event": "Affective disorder",
+          "log_ratio": 1.772258064928248,
+          "n_reports": 54,
+          "ror": 5.884125108050443
+        },
+        {
+          "adverse_event": "Acute myocardial infarction",
+          "log_ratio": 1.6443818570120532,
+          "n_reports": 33,
+          "ror": 5.177808291634016
+        },
+        {
+          "adverse_event": "Ileus",
+          "log_ratio": 1.5990114466180796,
+          "n_reports": 42,
+          "ror": 4.948138506789162
+        },
+        {
+          "adverse_event": "Treatment failure",
+          "log_ratio": 1.3990777656586193,
+          "n_reports": 52,
+          "ror": 4.051461846150667
+        },
+        {
+          "adverse_event": "Accidental exposure to product by child",
+          "log_ratio": 1.3949609512614491,
+          "n_reports": 51,
+          "ror": 4.0348170150412885
+        },
+        {
+          "adverse_event": "Accidental death",
+          "log_ratio": 1.3836068722147146,
+          "n_reports": 27,
+          "ror": 3.989264476640783
+        },
+        {
+          "adverse_event": "Septic shock",
+          "log_ratio": 1.3658008650466393,
+          "n_reports": 34,
+          "ror": 3.918860273795345
+        },
+        {
+          "adverse_event": "Ventricular tachycardia",
+          "log_ratio": 1.3485642550214298,
+          "n_reports": 79,
+          "ror": 3.851891225237389
+        },
+        {
+          "adverse_event": "Abnormal behaviour",
+          "log_ratio": 1.3164872275088557,
+          "n_reports": 56,
+          "ror": 3.730294658710142
+        },
+        {
+          "adverse_event": "Low birth weight baby",
+          "log_ratio": 1.2974512484983984,
+          "n_reports": 40,
+          "ror": 3.6599564502306507
+        }
+      ],
+      "top_10_male_biased": [
+        {
+          "adverse_event": "Psychological trauma",
+          "log_ratio": -2.356430370489978,
+          "n_reports": 31,
+          "ror": 0.09475787069106494
+        },
+        {
+          "adverse_event": "Drug level increased",
+          "log_ratio": -1.1416119776011733,
+          "n_reports": 123,
+          "ror": 0.3193038960138795
+        },
+        {
+          "adverse_event": "Palpitations",
+          "log_ratio": -1.1170511162757575,
+          "n_reports": 50,
+          "ror": 0.32724337584517577
+        },
+        {
+          "adverse_event": "Prescription drug used without a prescription",
+          "log_ratio": -1.0709785232061557,
+          "n_reports": 80,
+          "ror": 0.34267303978759556
+        },
+        {
+          "adverse_event": "Sleep disorder",
+          "log_ratio": -1.0505034815620355,
+          "n_reports": 80,
+          "ror": 0.3497616062526794
+        },
+        {
+          "adverse_event": "Intentional product misuse",
+          "log_ratio": -0.9397058053896139,
+          "n_reports": 617,
+          "ror": 0.3907427728685194
+        },
+        {
+          "adverse_event": "Rhabdomyolysis",
+          "log_ratio": -0.8950310994204868,
+          "n_reports": 159,
+          "ror": 0.40859489137891947
+        },
+        {
+          "adverse_event": "Pulmonary oedema",
+          "log_ratio": -0.8933246158565744,
+          "n_reports": 290,
+          "ror": 0.40929274711567726
+        },
+        {
+          "adverse_event": "Electrocardiogram QT prolonged",
+          "log_ratio": -0.8605443106781014,
+          "n_reports": 53,
+          "ror": 0.4229318133523891
+        },
+        {
+          "adverse_event": "Impaired driving ability",
+          "log_ratio": -0.8494741382539259,
+          "n_reports": 65,
+          "ror": 0.42763975221814815
+        }
+      ]
+    },
+    {
+      "opioid": "OXYMORPHONE",
+      "total_signals": 53,
+      "female_higher": 37,
+      "male_higher": 16,
+      "pct_female": 69.81,
+      "median_log_ratio": 0.5704,
+      "mean_log_ratio": 0.2986,
+      "strong_signals": 9,
+      "strong_female": 7,
+      "strong_male": 2,
+      "total_reports": 8967,
+      "addiction_signals": 5,
+      "addiction_female": 5,
+      "top_10_female_biased": [
+        {
+          "adverse_event": "Drug diversion",
+          "log_ratio": 1.5107702457855723,
+          "n_reports": 265,
+          "ror": 4.530218832782011
+        },
+        {
+          "adverse_event": "Staphylococcal bacteraemia",
+          "log_ratio": 1.1438998665041589,
+          "n_reports": 37,
+          "ror": 3.1389861527851326
+        },
+        {
+          "adverse_event": "Tooth loss",
+          "log_ratio": 1.124586716854899,
+          "n_reports": 66,
+          "ror": 3.0789441102299575
+        },
+        {
+          "adverse_event": "Microangiopathic haemolytic anaemia",
+          "log_ratio": 1.1014903047063407,
+          "n_reports": 28,
+          "ror": 3.0086464845070187
+        },
+        {
+          "adverse_event": "Renal failure acute",
+          "log_ratio": 1.090155461098367,
+          "n_reports": 29,
+          "ror": 2.974736492420449
+        },
+        {
+          "adverse_event": "Hepatitis C",
+          "log_ratio": 1.0244032152581044,
+          "n_reports": 55,
+          "ror": 2.785432660736912
+        },
+        {
+          "adverse_event": "Thrombotic thrombocytopenic purpura",
+          "log_ratio": 1.015096802089499,
+          "n_reports": 41,
+          "ror": 2.7596305224477584
+        },
+        {
+          "adverse_event": "Substance use disorder",
+          "log_ratio": 0.9773345294457916,
+          "n_reports": 31,
+          "ror": 2.6573636689949676
+        },
+        {
+          "adverse_event": "Autism spectrum disorder",
+          "log_ratio": 0.9634243567849503,
+          "n_reports": 43,
+          "ror": 2.6206551841186765
+        },
+        {
+          "adverse_event": "Septic shock",
+          "log_ratio": 0.959970880840238,
+          "n_reports": 25,
+          "ror": 2.6116204241235095
+        }
+      ],
+      "top_10_male_biased": [
+        {
+          "adverse_event": "Crying",
+          "log_ratio": -1.5797675486042753,
+          "n_reports": 33,
+          "ror": 0.20602298296917027
+        },
+        {
+          "adverse_event": "Joint injury",
+          "log_ratio": -1.105207404516221,
+          "n_reports": 39,
+          "ror": 0.3311421947324786
+        },
+        {
+          "adverse_event": "Abdominal discomfort",
+          "log_ratio": -0.9322132890129227,
+          "n_reports": 86,
+          "ror": 0.39368141465677775
+        },
+        {
+          "adverse_event": "Illness",
+          "log_ratio": -0.8800193658716742,
+          "n_reports": 50,
+          "ror": 0.41477487912672006
+        },
+        {
+          "adverse_event": "Intervertebral disc degeneration",
+          "log_ratio": -0.8695349349744099,
+          "n_reports": 39,
+          "ror": 0.41914643427420334
+        },
+        {
+          "adverse_event": "Seizure",
+          "log_ratio": -0.8521513419398297,
+          "n_reports": 56,
+          "ror": 0.4264964046673138
+        },
+        {
+          "adverse_event": "Tremor",
+          "log_ratio": -0.7666532551371246,
+          "n_reports": 83,
+          "ror": 0.4645652508497172
+        },
+        {
+          "adverse_event": "Hypertension",
+          "log_ratio": -0.7001924262993611,
+          "n_reports": 41,
+          "ror": 0.49648975691224484
+        },
+        {
+          "adverse_event": "Heart rate increased",
+          "log_ratio": -0.6838270753204649,
+          "n_reports": 29,
+          "ror": 0.5046818363330646
+        },
+        {
+          "adverse_event": "Memory impairment",
+          "log_ratio": -0.6054982475212667,
+          "n_reports": 38,
+          "ror": 0.5458024141806032
+        }
+      ]
+    },
+    {
+      "opioid": "PETHIDINE",
+      "total_signals": 48,
+      "female_higher": 13,
+      "male_higher": 35,
+      "pct_female": 27.08,
+      "median_log_ratio": -0.7471,
+      "mean_log_ratio": -0.4504,
+      "strong_signals": 24,
+      "strong_female": 7,
+      "strong_male": 17,
+      "total_reports": 11100,
+      "addiction_signals": 4,
+      "addiction_female": 0,
+      "top_10_female_biased": [
+        {
+          "adverse_event": "Pyrexia",
+          "log_ratio": 2.3393685673484743,
+          "n_reports": 369,
+          "ror": 10.37468358010425
+        },
+        {
+          "adverse_event": "Infection",
+          "log_ratio": 2.101039695578772,
+          "n_reports": 285,
+          "ror": 8.174664658530947
+        },
+        {
+          "adverse_event": "Rash",
+          "log_ratio": 2.091855129769914,
+          "n_reports": 540,
+          "ror": 8.099927651864425
+        },
+        {
+          "adverse_event": "Hypertension",
+          "log_ratio": 2.0400888016281997,
+          "n_reports": 435,
+          "ror": 7.691292167821635
+        },
+        {
+          "adverse_event": "Hypersensitivity",
+          "log_ratio": 1.3278946911328005,
+          "n_reports": 375,
+          "ror": 3.7730914969277185
+        },
+        {
+          "adverse_event": "Hallucination",
+          "log_ratio": 1.187447964125333,
+          "n_reports": 86,
+          "ror": 3.278703153313316
+        },
+        {
+          "adverse_event": "Headache",
+          "log_ratio": 1.15384117217477,
+          "n_reports": 326,
+          "ror": 3.1703474012197996
+        },
+        {
+          "adverse_event": "Drug hypersensitivity",
+          "log_ratio": 0.8729742761069801,
+          "n_reports": 3054,
+          "ror": 2.3940207536070055
+        },
+        {
+          "adverse_event": "Hypotension",
+          "log_ratio": 0.6465571244111825,
+          "n_reports": 93,
+          "ror": 1.908957200065191
+        },
+        {
+          "adverse_event": "Malaise",
+          "log_ratio": 0.6269920634673415,
+          "n_reports": 155,
+          "ror": 1.8719713313106792
+        }
+      ],
+      "top_10_male_biased": [
+        {
+          "adverse_event": "Product use in unapproved indication",
+          "log_ratio": -3.6417617652170886,
+          "n_reports": 206,
+          "ror": 0.026206134216538758
+        },
+        {
+          "adverse_event": "Insomnia",
+          "log_ratio": -1.9044664061042649,
+          "n_reports": 38,
+          "ror": 0.14890207466613298
+        },
+        {
+          "adverse_event": "Tremor",
+          "log_ratio": -1.8803336179869676,
+          "n_reports": 32,
+          "ror": 0.15253920744373853
+        },
+        {
+          "adverse_event": "Chills",
+          "log_ratio": -1.619799254362417,
+          "n_reports": 37,
+          "ror": 0.19793843037194708
+        },
+        {
+          "adverse_event": "Unevaluable event",
+          "log_ratio": -1.4320873499644107,
+          "n_reports": 29,
+          "ror": 0.23880992174893842
+        },
+        {
+          "adverse_event": "Withdrawal syndrome",
+          "log_ratio": -1.422328993468811,
+          "n_reports": 35,
+          "ror": 0.24115172157559606
+        },
+        {
+          "adverse_event": "Road traffic accident",
+          "log_ratio": -1.3911595385901596,
+          "n_reports": 24,
+          "ror": 0.24878665958396878
+        },
+        {
+          "adverse_event": "Gastrooesophageal reflux disease",
+          "log_ratio": -1.3468936923523553,
+          "n_reports": 29,
+          "ror": 0.2600467926698816
+        },
+        {
+          "adverse_event": "Gastrointestinal disorder",
+          "log_ratio": -1.2745397706957897,
+          "n_reports": 38,
+          "ror": 0.2795596001393052
+        },
+        {
+          "adverse_event": "Hyperhidrosis",
+          "log_ratio": -1.2693087372640215,
+          "n_reports": 545,
+          "ror": 0.2810258173259394
+        }
+      ]
+    },
+    {
+      "opioid": "TAPENTADOL",
+      "total_signals": 39,
+      "female_higher": 17,
+      "male_higher": 22,
+      "pct_female": 43.59,
+      "median_log_ratio": -0.5777,
+      "mean_log_ratio": -0.1629,
+      "strong_signals": 6,
+      "strong_female": 2,
+      "strong_male": 4,
+      "total_reports": 2472,
+      "addiction_signals": 1,
+      "addiction_female": 1,
+      "top_10_female_biased": [
+        {
+          "adverse_event": "Drug withdrawal syndrome neonatal",
+          "log_ratio": 1.1464786761974308,
+          "n_reports": 36,
+          "ror": 3.1470914472170475
+        },
+        {
+          "adverse_event": "Miosis",
+          "log_ratio": 1.0657230324821438,
+          "n_reports": 33,
+          "ror": 2.902937143297814
+        },
+        {
+          "adverse_event": "Pneumonia aspiration",
+          "log_ratio": 0.8491339727772447,
+          "n_reports": 47,
+          "ror": 2.337621531178624
+        },
+        {
+          "adverse_event": "Product quality issue",
+          "log_ratio": 0.8364067414690974,
+          "n_reports": 71,
+          "ror": 2.308058607380148
+        },
+        {
+          "adverse_event": "Amnesia",
+          "log_ratio": 0.8176230643531689,
+          "n_reports": 62,
+          "ror": 2.265109414414792
+        },
+        {
+          "adverse_event": "Altered state of consciousness",
+          "log_ratio": 0.7371571414655047,
+          "n_reports": 40,
+          "ror": 2.089985527821667
+        },
+        {
+          "adverse_event": "Completed suicide",
+          "log_ratio": 0.7132522133064891,
+          "n_reports": 171,
+          "ror": 2.0406170004061837
+        },
+        {
+          "adverse_event": "Pruritus",
+          "log_ratio": 0.6660374784050465,
+          "n_reports": 90,
+          "ror": 1.9465089351108416
+        },
+        {
+          "adverse_event": "Restlessness",
+          "log_ratio": 0.621787702875028,
+          "n_reports": 48,
+          "ror": 1.8622542250790444
+        },
+        {
+          "adverse_event": "Foetal exposure during pregnancy",
+          "log_ratio": 0.5861372006686034,
+          "n_reports": 42,
+          "ror": 1.7970334116929336
+        }
+      ],
+      "top_10_male_biased": [
+        {
+          "adverse_event": "Hyperaesthesia",
+          "log_ratio": -1.3098445580498836,
+          "n_reports": 40,
+          "ror": 0.26986200100032376
+        },
+        {
+          "adverse_event": "Constipation",
+          "log_ratio": -1.0822872752181754,
+          "n_reports": 205,
+          "ror": 0.3388196648567563
+        },
+        {
+          "adverse_event": "Hypoaesthesia",
+          "log_ratio": -1.0685337455870685,
+          "n_reports": 56,
+          "ror": 0.34351182406867153
+        },
+        {
+          "adverse_event": "Balance disorder",
+          "log_ratio": -1.047517374173366,
+          "n_reports": 42,
+          "ror": 0.3508075929063799
+        },
+        {
+          "adverse_event": "Mental impairment",
+          "log_ratio": -0.976333270319514,
+          "n_reports": 29,
+          "ror": 0.37668978929486174
+        },
+        {
+          "adverse_event": "Abdominal distension",
+          "log_ratio": -0.9701847627968856,
+          "n_reports": 22,
+          "ror": 0.3790130041310625
+        },
+        {
+          "adverse_event": "Palpitations",
+          "log_ratio": -0.9613792290640576,
+          "n_reports": 45,
+          "ror": 0.3823651529943445
+        },
+        {
+          "adverse_event": "Abdominal discomfort",
+          "log_ratio": -0.930266207104816,
+          "n_reports": 27,
+          "ror": 0.3944486913496938
+        },
+        {
+          "adverse_event": "Therapeutic product effect incomplete",
+          "log_ratio": -0.8729354824201035,
+          "n_reports": 35,
+          "ror": 0.4177235276396958
+        },
+        {
+          "adverse_event": "Intentional product use issue",
+          "log_ratio": -0.8645209203669023,
+          "n_reports": 29,
+          "ror": 0.42125331817769296
+        }
+      ]
+    },
+    {
+      "opioid": "SUFENTANIL",
+      "total_signals": 33,
+      "female_higher": 16,
+      "male_higher": 17,
+      "pct_female": 48.48,
+      "median_log_ratio": -0.5333,
+      "mean_log_ratio": -0.1178,
+      "strong_signals": 8,
+      "strong_female": 2,
+      "strong_male": 6,
+      "total_reports": 2519,
+      "addiction_signals": 1,
+      "addiction_female": 1,
+      "top_10_female_biased": [
+        {
+          "adverse_event": "Multiple organ dysfunction syndrome",
+          "log_ratio": 1.4643857142529357,
+          "n_reports": 55,
+          "ror": 4.3248857084939765
+        },
+        {
+          "adverse_event": "Hyperkalaemia",
+          "log_ratio": 1.2277245811399338,
+          "n_reports": 32,
+          "ror": 3.4134536561253612
+        },
+        {
+          "adverse_event": "Pyrexia",
+          "log_ratio": 0.966522588251074,
+          "n_reports": 64,
+          "ror": 2.6287871713564077
+        },
+        {
+          "adverse_event": "Acute kidney injury",
+          "log_ratio": 0.9328676181781329,
+          "n_reports": 56,
+          "ror": 2.5417876131075063
+        },
+        {
+          "adverse_event": "Dyspnoea",
+          "log_ratio": 0.7900148328669467,
+          "n_reports": 53,
+          "ror": 2.2034291091843485
+        },
+        {
+          "adverse_event": "Foetal exposure during pregnancy",
+          "log_ratio": 0.7635944508057599,
+          "n_reports": 64,
+          "ror": 2.145975979092144
+        },
+        {
+          "adverse_event": "Cardiac arrest",
+          "log_ratio": 0.7447186825557395,
+          "n_reports": 123,
+          "ror": 2.1058489396033035
+        },
+        {
+          "adverse_event": "Myoclonus",
+          "log_ratio": 0.7197881579199095,
+          "n_reports": 45,
+          "ror": 2.0539980413343506
+        },
+        {
+          "adverse_event": "Oxygen saturation decreased",
+          "log_ratio": 0.6324428114817606,
+          "n_reports": 73,
+          "ror": 1.8822028346691357
+        },
+        {
+          "adverse_event": "Respiratory depression",
+          "log_ratio": 0.6312901402172582,
+          "n_reports": 46,
+          "ror": 1.8800345234627351
+        }
+      ],
+      "top_10_male_biased": [
+        {
+          "adverse_event": "Back pain",
+          "log_ratio": -1.611254354776153,
+          "n_reports": 50,
+          "ror": 0.1996370412781822
+        },
+        {
+          "adverse_event": "Urticaria",
+          "log_ratio": -1.489246365713081,
+          "n_reports": 115,
+          "ror": 0.22554256811791767
+        },
+        {
+          "adverse_event": "Condition aggravated",
+          "log_ratio": -1.4821547980351597,
+          "n_reports": 67,
+          "ror": 0.22714770323925812
+        },
+        {
+          "adverse_event": "Face oedema",
+          "log_ratio": -1.2835819404162543,
+          "n_reports": 40,
+          "ror": 0.27704316893232817
+        },
+        {
+          "adverse_event": "Hypersensitivity",
+          "log_ratio": -1.2236033135601943,
+          "n_reports": 68,
+          "ror": 0.29416827437502496
+        },
+        {
+          "adverse_event": "Anaesthetic complication neurological",
+          "log_ratio": -1.1041156212319745,
+          "n_reports": 94,
+          "ror": 0.33150392767645476
+        },
+        {
+          "adverse_event": "Thrombocytopenia",
+          "log_ratio": -0.891907488534276,
+          "n_reports": 62,
+          "ror": 0.4098731782256882
+        },
+        {
+          "adverse_event": "Erythema",
+          "log_ratio": -0.8769540567794357,
+          "n_reports": 101,
+          "ror": 0.4160482429647581
+        },
+        {
+          "adverse_event": "Toxic epidermal necrolysis",
+          "log_ratio": -0.8501773514891506,
+          "n_reports": 76,
+          "ror": 0.4273391359955217
+        },
+        {
+          "adverse_event": "Pleural effusion",
+          "log_ratio": -0.8441879414344631,
+          "n_reports": 32,
+          "ror": 0.4299063256146714
+        }
+      ]
+    },
+    {
+      "opioid": "REMIFENTANIL",
+      "total_signals": 10,
+      "female_higher": 7,
+      "male_higher": 3,
+      "pct_female": 70.0,
+      "median_log_ratio": 0.5943,
+      "mean_log_ratio": 0.3354,
+      "strong_signals": 1,
+      "strong_female": 1,
+      "strong_male": 0,
+      "total_reports": 496,
+      "addiction_signals": 0,
+      "addiction_female": 0,
+      "top_10_female_biased": [
+        {
+          "adverse_event": "Circulatory collapse",
+          "log_ratio": 1.288478517542503,
+          "n_reports": 39,
+          "ror": 3.6272635373896174
+        },
+        {
+          "adverse_event": "Foetal exposure during pregnancy",
+          "log_ratio": 0.8011895398157192,
+          "n_reports": 42,
+          "ror": 2.228189873238689
+        },
+        {
+          "adverse_event": "Hypoxia",
+          "log_ratio": 0.70256930802601,
+          "n_reports": 33,
+          "ror": 2.0189333108972507
+        },
+        {
+          "adverse_event": "Respiratory failure",
+          "log_ratio": 0.6107031416185288,
+          "n_reports": 21,
+          "ror": 1.8417259377629496
+        },
+        {
+          "adverse_event": "Oxygen saturation decreased",
+          "log_ratio": 0.6051826316753572,
+          "n_reports": 51,
+          "ror": 1.8315866840866368
+        },
+        {
+          "adverse_event": "Haemodynamic instability",
+          "log_ratio": 0.5834476062707741,
+          "n_reports": 21,
+          "ror": 1.7922066146689706
+        },
+        {
+          "adverse_event": "Rash",
+          "log_ratio": 0.5498084185975343,
+          "n_reports": 54,
+          "ror": 1.7329209906295417
+        },
+        {
+          "adverse_event": "Drug interaction",
+          "log_ratio": -0.5680530700168138,
+          "n_reports": 78,
+          "ror": 0.5666275496506911
+        },
+        {
+          "adverse_event": "Anaesthetic complication neurological",
+          "log_ratio": -0.604325057143722,
+          "n_reports": 91,
+          "ror": 0.5464431200824716
+        },
+        {
+          "adverse_event": "Toxic epidermal necrolysis",
+          "log_ratio": -0.6145736306391996,
+          "n_reports": 66,
+          "ror": 0.540871457171036
+        }
+      ],
+      "top_10_male_biased": [
+        {
+          "adverse_event": "Toxic epidermal necrolysis",
+          "log_ratio": -0.6145736306391996,
+          "n_reports": 66,
+          "ror": 0.540871457171036
+        },
+        {
+          "adverse_event": "Anaesthetic complication neurological",
+          "log_ratio": -0.604325057143722,
+          "n_reports": 91,
+          "ror": 0.5464431200824716
+        },
+        {
+          "adverse_event": "Drug interaction",
+          "log_ratio": -0.5680530700168138,
+          "n_reports": 78,
+          "ror": 0.5666275496506911
+        },
+        {
+          "adverse_event": "Rash",
+          "log_ratio": 0.5498084185975343,
+          "n_reports": 54,
+          "ror": 1.7329209906295417
+        },
+        {
+          "adverse_event": "Haemodynamic instability",
+          "log_ratio": 0.5834476062707741,
+          "n_reports": 21,
+          "ror": 1.7922066146689706
+        },
+        {
+          "adverse_event": "Oxygen saturation decreased",
+          "log_ratio": 0.6051826316753572,
+          "n_reports": 51,
+          "ror": 1.8315866840866368
+        },
+        {
+          "adverse_event": "Respiratory failure",
+          "log_ratio": 0.6107031416185288,
+          "n_reports": 21,
+          "ror": 1.8417259377629496
+        },
+        {
+          "adverse_event": "Hypoxia",
+          "log_ratio": 0.70256930802601,
+          "n_reports": 33,
+          "ror": 2.0189333108972507
+        },
+        {
+          "adverse_event": "Foetal exposure during pregnancy",
+          "log_ratio": 0.8011895398157192,
+          "n_reports": 42,
+          "ror": 2.228189873238689
+        },
+        {
+          "adverse_event": "Circulatory collapse",
+          "log_ratio": 1.288478517542503,
+          "n_reports": 39,
+          "ror": 3.6272635373896174
+        }
+      ]
+    },
+    {
+      "opioid": "MEPERIDINE",
+      "total_signals": 5,
+      "female_higher": 0,
+      "male_higher": 5,
+      "pct_female": 0.0,
+      "median_log_ratio": -1.0349,
+      "mean_log_ratio": -0.943,
+      "strong_signals": 3,
+      "strong_female": 0,
+      "strong_male": 3,
+      "total_reports": 442,
+      "addiction_signals": 2,
+      "addiction_female": 0,
+      "top_10_female_biased": [
+        {
+          "adverse_event": "Learning disability",
+          "log_ratio": -0.5607947416710681,
+          "n_reports": 75,
+          "ror": 0.5707552805470166
+        },
+        {
+          "adverse_event": "Developmental delay",
+          "log_ratio": -0.767171274760222,
+          "n_reports": 83,
+          "ror": 0.46432465925453165
+        },
+        {
+          "adverse_event": "Drug dependence",
+          "log_ratio": -1.0349097397058484,
+          "n_reports": 98,
+          "ror": 0.35525844520962835
+        },
+        {
+          "adverse_event": "Drug withdrawal syndrome neonatal",
+          "log_ratio": -1.1339009673897156,
+          "n_reports": 93,
+          "ror": 0.32177556891703757
+        },
+        {
+          "adverse_event": "Foetal exposure during pregnancy",
+          "log_ratio": -1.218315634639887,
+          "n_reports": 93,
+          "ror": 0.2957278614224611
+        }
+      ],
+      "top_10_male_biased": [
+        {
+          "adverse_event": "Foetal exposure during pregnancy",
+          "log_ratio": -1.218315634639887,
+          "n_reports": 93,
+          "ror": 0.2957278614224611
+        },
+        {
+          "adverse_event": "Drug withdrawal syndrome neonatal",
+          "log_ratio": -1.1339009673897156,
+          "n_reports": 93,
+          "ror": 0.32177556891703757
+        },
+        {
+          "adverse_event": "Drug dependence",
+          "log_ratio": -1.0349097397058484,
+          "n_reports": 98,
+          "ror": 0.35525844520962835
+        },
+        {
+          "adverse_event": "Developmental delay",
+          "log_ratio": -0.767171274760222,
+          "n_reports": 83,
+          "ror": 0.46432465925453165
+        },
+        {
+          "adverse_event": "Learning disability",
+          "log_ratio": -0.5607947416710681,
+          "n_reports": 75,
+          "ror": 0.5707552805470166
+        }
+      ]
+    }
+  ],
+  "cross_opioid_comparison": {
+    "chi_square": {
+      "statistic": 225.8361,
+      "p_value": "2.7736e-40",
+      "dof": 14,
+      "interpretation": "Significant heterogeneity across opioids"
+    },
+    "kruskal_wallis": {
+      "statistic": 280.6918,
+      "p_value": "1.2395e-51",
+      "interpretation": "Log ratio distributions differ across opioids"
+    }
+  },
+  "addiction_analysis": {
+    "total_addiction_signals": 134,
+    "addiction_female_higher": 89,
+    "addiction_pct_female": 66.42
+  },
+  "key_findings": [
+    "Opioid class overall: 71.4% female-biased (3,966 signals)",
+    "Comparison to baseline (53.8%F): chi2=474.28, p=3.75e-105",
+    "OXYCODONE has the most signals (890), 80.0% female-biased",
+    "Addiction-related signals: 134 total, 66.4% female-biased",
+    "Chi-square across opioids: p=2.77e-40 (significant heterogeneity)"
+  ],
+  "figures_generated": [
+    "wave_269_v2_opioid_comparison.png",
+    "wave_269_v2_opioid_comparison.pdf",
+    "wave_269_v2_opioid_violin.png",
+    "wave_269_v2_opioid_violin.pdf",
+    "wave_269_v2_opioid_addiction.png",
+    "wave_269_v2_opioid_addiction.pdf"
+  ]
+}
