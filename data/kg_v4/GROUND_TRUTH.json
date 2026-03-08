@@ -1,8 +1,8 @@
 {
   "_meta": {
     "description": "SexDiffKG v4 Ground Truth \u2014 ONE absolute source of truth",
-    "last_verified": "2026-03-08T15:36:54.517054",
-    "verified_by": "Session 20 - ComplEx v5.2 exact metrics filled",
+    "last_verified": "2026-03-08T17:00:00",
+    "verified_by": "Session 21 - Added threshold breakdowns, fixed v3 strong signal artifacts in papers",
     "md5_nodes": "5a7331b1b0e7f11853444eb59e2b9166",
     "md5_edges": "b8e4890c2063bdf9357c76730881b440",
     "md5_triples": "2d4e46b1265a9a9bd44bbfc7372a9e44"
@@ -73,7 +73,67 @@
       "sex_differential": "results/signals_v4/sex_differential_v4.parquet",
       "summary": "results/signals_v4/signal_computation_v4_summary.json"
     },
-    "note": "v4 DiAna-normalized signals. 96,281 = edges in KG (sex_differential_adverse_event). Previous v3 numbers (183,544/49,026) are WRONG."
+    "note": "v4 DiAna-normalized signals. 96,281 = edges in KG (sex_differential_adverse_event). Previous v3 numbers (183,544/49,026) are WRONG.",
+    "threshold_breakdowns": {
+      "logR_gte_0.5": {
+        "total": 96281,
+        "female": 51771,
+        "male": 44510,
+        "pct_female": 53.8
+      },
+      "logR_gte_0.75": {
+        "total": 55247,
+        "female": 30490,
+        "male": 24757,
+        "pct_female": 55.2
+      },
+      "logR_gte_1.0": {
+        "total": 32244,
+        "female": 18174,
+        "male": 14070,
+        "pct_female": 56.4
+      },
+      "logR_gte_1.5": {
+        "total": 12518,
+        "female": 7299,
+        "male": 5219,
+        "pct_female": 58.3
+      },
+      "logR_gte_2.0": {
+        "total": 5467,
+        "female": 3250,
+        "male": 2217,
+        "pct_female": 59.4
+      },
+      "logR_gte_3.0": {
+        "total": 1028,
+        "female": 601,
+        "male": 427,
+        "pct_female": 58.5
+      }
+    },
+    "confidence_tiers": {
+      "ultra_high_n1000_lr1": {
+        "total": 2540,
+        "pct_female": 95.9
+      },
+      "high_n100_lr1": {
+        "total": 15497,
+        "pct_female": 70.8
+      },
+      "moderate_n100_lr05": {
+        "total": 37075,
+        "pct_female": 64.8
+      },
+      "strong_n10_lr1": {
+        "total": 32244,
+        "pct_female": 56.4
+      },
+      "all_differential_n10_lr05": {
+        "total": 96281,
+        "pct_female": 53.8
+      }
+    }
   },
   "models": {
     "ComplEx_v4": {
