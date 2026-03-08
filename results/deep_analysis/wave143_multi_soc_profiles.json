@@ -1,0 +1,1503 @@
+{
+  "wave": 143,
+  "title": "Multi-SOC Drug Sex Bias Profiles",
+  "description": "Analyzing drug sex-differential breadth across organ system classes",
+  "total_signals": 96281,
+  "total_drugs": 2178,
+  "breadth_distribution": [
+    {
+      "n_socs": 1,
+      "n_drugs": 385,
+      "mean_pct_female": 42.5,
+      "mean_consistency": 0.8158,
+      "mean_signals": 3.0
+    },
+    {
+      "n_socs": 2,
+      "n_drugs": 220,
+      "mean_pct_female": 36.9,
+      "mean_consistency": 0.6766,
+      "mean_signals": 6.0
+    },
+    {
+      "n_socs": 3,
+      "n_drugs": 158,
+      "mean_pct_female": 40.2,
+      "mean_consistency": 0.5576,
+      "mean_signals": 10.0
+    },
+    {
+      "n_socs": 4,
+      "n_drugs": 123,
+      "mean_pct_female": 46.2,
+      "mean_consistency": 0.5551,
+      "mean_signals": 13.0
+    },
+    {
+      "n_socs": 5,
+      "n_drugs": 92,
+      "mean_pct_female": 44.6,
+      "mean_consistency": 0.4883,
+      "mean_signals": 16.1
+    },
+    {
+      "n_socs": 6,
+      "n_drugs": 93,
+      "mean_pct_female": 45.2,
+      "mean_consistency": 0.4884,
+      "mean_signals": 22.3
+    },
+    {
+      "n_socs": 7,
+      "n_drugs": 93,
+      "mean_pct_female": 48.1,
+      "mean_consistency": 0.4048,
+      "mean_signals": 26.2
+    },
+    {
+      "n_socs": 8,
+      "n_drugs": 65,
+      "mean_pct_female": 46.5,
+      "mean_consistency": 0.4018,
+      "mean_signals": 33.8
+    },
+    {
+      "n_socs": 9,
+      "n_drugs": 68,
+      "mean_pct_female": 51.7,
+      "mean_consistency": 0.4328,
+      "mean_signals": 41.9
+    },
+    {
+      "n_socs": 10,
+      "n_drugs": 60,
+      "mean_pct_female": 49.3,
+      "mean_consistency": 0.4271,
+      "mean_signals": 56.9
+    },
+    {
+      "n_socs": 11,
+      "n_drugs": 65,
+      "mean_pct_female": 54.5,
+      "mean_consistency": 0.3697,
+      "mean_signals": 65.2
+    },
+    {
+      "n_socs": 12,
+      "n_drugs": 84,
+      "mean_pct_female": 52.4,
+      "mean_consistency": 0.3937,
+      "mean_signals": 86.6
+    },
+    {
+      "n_socs": 13,
+      "n_drugs": 76,
+      "mean_pct_female": 54.9,
+      "mean_consistency": 0.3194,
+      "mean_signals": 112.9
+    },
+    {
+      "n_socs": 14,
+      "n_drugs": 98,
+      "mean_pct_female": 52.7,
+      "mean_consistency": 0.3061,
+      "mean_signals": 174.2
+    },
+    {
+      "n_socs": 15,
+      "n_drugs": 121,
+      "mean_pct_female": 57.9,
+      "mean_consistency": 0.2812,
+      "mean_signals": 316.7
+    }
+  ],
+  "broad_spectrum_drugs": {
+    "count": 915,
+    "min_socs": 5
+  },
+  "cross_soc_profiles": [
+    {
+      "drug": "PREDNISONE",
+      "n_signals": 926,
+      "n_socs_with_data": 15,
+      "overall_pct_female": 70.2,
+      "soc_range": 41.8,
+      "soc_std": 10.5,
+      "soc_details": [
+        {
+          "soc": "Cardiac",
+          "n": 17,
+          "pct_female": 58.8
+        },
+        {
+          "soc": "Dermatological",
+          "n": 39,
+          "pct_female": 69.2
+        },
+        {
+          "soc": "Endocrine",
+          "n": 5,
+          "pct_female": 60.0
+        },
+        {
+          "soc": "Gastrointestinal",
+          "n": 21,
+          "pct_female": 61.9
+        },
+        {
+          "soc": "Hematological",
+          "n": 19,
+          "pct_female": 52.6
+        },
+        {
+          "soc": "Hepatic",
+          "n": 25,
+          "pct_female": 68.0
+        },
+        {
+          "soc": "Immune",
+          "n": 17,
+          "pct_female": 58.8
+        },
+        {
+          "soc": "Metabolic",
+          "n": 17,
+          "pct_female": 76.5
+        },
+        {
+          "soc": "Musculoskeletal",
+          "n": 39,
+          "pct_female": 76.9
+        },
+        {
+          "soc": "Neurological",
+          "n": 11,
+          "pct_female": 54.5
+        },
+        {
+          "soc": "Ocular",
+          "n": 13,
+          "pct_female": 61.5
+        },
+        {
+          "soc": "Psychiatric",
+          "n": 18,
+          "pct_female": 94.4
+        },
+        {
+          "soc": "Renal",
+          "n": 20,
+          "pct_female": 75.0
+        },
+        {
+          "soc": "Respiratory",
+          "n": 37,
+          "pct_female": 67.6
+        },
+        {
+          "soc": "Vascular",
+          "n": 20,
+          "pct_female": 60.0
+        }
+      ]
+    },
+    {
+      "drug": "METHOTREXATE",
+      "n_signals": 892,
+      "n_socs_with_data": 15,
+      "overall_pct_female": 48.5,
+      "soc_range": 65.8,
+      "soc_std": 18.6,
+      "soc_details": [
+        {
+          "soc": "Cardiac",
+          "n": 16,
+          "pct_female": 31.2
+        },
+        {
+          "soc": "Dermatological",
+          "n": 39,
+          "pct_female": 48.7
+        },
+        {
+          "soc": "Endocrine",
+          "n": 7,
+          "pct_female": 42.9
+        },
+        {
+          "soc": "Gastrointestinal",
+          "n": 24,
+          "pct_female": 50.0
+        },
+        {
+          "soc": "Hematological",
+          "n": 23,
+          "pct_female": 47.8
+        },
+        {
+          "soc": "Hepatic",
+          "n": 25,
+          "pct_female": 48.0
+        },
+        {
+          "soc": "Immune",
+          "n": 14,
+          "pct_female": 71.4
+        },
+        {
+          "soc": "Metabolic",
+          "n": 11,
+          "pct_female": 63.6
+        },
+        {
+          "soc": "Musculoskeletal",
+          "n": 28,
+          "pct_female": 67.9
+        },
+        {
+          "soc": "Neurological",
+          "n": 18,
+          "pct_female": 5.6
+        },
+        {
+          "soc": "Ocular",
+          "n": 12,
+          "pct_female": 25.0
+        },
+        {
+          "soc": "Psychiatric",
+          "n": 10,
+          "pct_female": 70.0
+        },
+        {
+          "soc": "Renal",
+          "n": 18,
+          "pct_female": 66.7
+        },
+        {
+          "soc": "Respiratory",
+          "n": 42,
+          "pct_female": 45.2
+        },
+        {
+          "soc": "Vascular",
+          "n": 24,
+          "pct_female": 25.0
+        }
+      ]
+    },
+    {
+      "drug": "ADALIMUMAB",
+      "n_signals": 807,
+      "n_socs_with_data": 15,
+      "overall_pct_female": 38.2,
+      "soc_range": 52.4,
+      "soc_std": 16.0,
+      "soc_details": [
+        {
+          "soc": "Cardiac",
+          "n": 13,
+          "pct_female": 38.5
+        },
+        {
+          "soc": "Dermatological",
+          "n": 42,
+          "pct_female": 40.5
+        },
+        {
+          "soc": "Endocrine",
+          "n": 6,
+          "pct_female": 50.0
+        },
+        {
+          "soc": "Gastrointestinal",
+          "n": 31,
+          "pct_female": 22.6
+        },
+        {
+          "soc": "Hematological",
+          "n": 16,
+          "pct_female": 62.5
+        },
+        {
+          "soc": "Hepatic",
+          "n": 23,
+          "pct_female": 60.9
+        },
+        {
+          "soc": "Immune",
+          "n": 16,
+          "pct_female": 75.0
+        },
+        {
+          "soc": "Metabolic",
+          "n": 6,
+          "pct_female": 66.7
+        },
+        {
+          "soc": "Musculoskeletal",
+          "n": 37,
+          "pct_female": 40.5
+        },
+        {
+          "soc": "Neurological",
+          "n": 8,
+          "pct_female": 25.0
+        },
+        {
+          "soc": "Ocular",
+          "n": 10,
+          "pct_female": 50.0
+        },
+        {
+          "soc": "Psychiatric",
+          "n": 6,
+          "pct_female": 66.7
+        },
+        {
+          "soc": "Renal",
+          "n": 8,
+          "pct_female": 50.0
+        },
+        {
+          "soc": "Respiratory",
+          "n": 25,
+          "pct_female": 64.0
+        },
+        {
+          "soc": "Vascular",
+          "n": 22,
+          "pct_female": 27.3
+        }
+      ]
+    },
+    {
+      "drug": "RITUXIMAB",
+      "n_signals": 755,
+      "n_socs_with_data": 15,
+      "overall_pct_female": 66.6,
+      "soc_range": 57.9,
+      "soc_std": 17.2,
+      "soc_details": [
+        {
+          "soc": "Cardiac",
+          "n": 15,
+          "pct_female": 86.7
+        },
+        {
+          "soc": "Dermatological",
+          "n": 36,
+          "pct_female": 72.2
+        },
+        {
+          "soc": "Endocrine",
+          "n": 4,
+          "pct_female": 100.0
+        },
+        {
+          "soc": "Gastrointestinal",
+          "n": 24,
+          "pct_female": 66.7
+        },
+        {
+          "soc": "Hematological",
+          "n": 17,
+          "pct_female": 64.7
+        },
+        {
+          "soc": "Hepatic",
+          "n": 20,
+          "pct_female": 50.0
+        },
+        {
+          "soc": "Immune",
+          "n": 12,
+          "pct_female": 100.0
+        },
+        {
+          "soc": "Metabolic",
+          "n": 13,
+          "pct_female": 84.6
+        },
+        {
+          "soc": "Musculoskeletal",
+          "n": 32,
+          "pct_female": 71.9
+        },
+        {
+          "soc": "Neurological",
+          "n": 16,
+          "pct_female": 56.2
+        },
+        {
+          "soc": "Ocular",
+          "n": 11,
+          "pct_female": 72.7
+        },
+        {
+          "soc": "Psychiatric",
+          "n": 11,
+          "pct_female": 100.0
+        },
+        {
+          "soc": "Renal",
+          "n": 19,
+          "pct_female": 73.7
+        },
+        {
+          "soc": "Respiratory",
+          "n": 33,
+          "pct_female": 66.7
+        },
+        {
+          "soc": "Vascular",
+          "n": 19,
+          "pct_female": 42.1
+        }
+      ]
+    },
+    {
+      "drug": "INFLIXIMAB",
+      "n_signals": 623,
+      "n_socs_with_data": 15,
+      "overall_pct_female": 50.4,
+      "soc_range": 83.3,
+      "soc_std": 23.8,
+      "soc_details": [
+        {
+          "soc": "Cardiac",
+          "n": 8,
+          "pct_female": 37.5
+        },
+        {
+          "soc": "Dermatological",
+          "n": 32,
+          "pct_female": 50.0
+        },
+        {
+          "soc": "Endocrine",
+          "n": 3,
+          "pct_female": 100.0
+        },
+        {
+          "soc": "Gastrointestinal",
+          "n": 16,
+          "pct_female": 37.5
+        },
+        {
+          "soc": "Hematological",
+          "n": 8,
+          "pct_female": 75.0
+        },
+        {
+          "soc": "Hepatic",
+          "n": 18,
+          "pct_female": 61.1
+        },
+        {
+          "soc": "Immune",
+          "n": 8,
+          "pct_female": 75.0
+        },
+        {
+          "soc": "Metabolic",
+          "n": 4,
+          "pct_female": 100.0
+        },
+        {
+          "soc": "Musculoskeletal",
+          "n": 29,
+          "pct_female": 37.9
+        },
+        {
+          "soc": "Neurological",
+          "n": 7,
+          "pct_female": 28.6
+        },
+        {
+          "soc": "Ocular",
+          "n": 12,
+          "pct_female": 16.7
+        },
+        {
+          "soc": "Psychiatric",
+          "n": 9,
+          "pct_female": 77.8
+        },
+        {
+          "soc": "Renal",
+          "n": 12,
+          "pct_female": 50.0
+        },
+        {
+          "soc": "Respiratory",
+          "n": 20,
+          "pct_female": 60.0
+        },
+        {
+          "soc": "Vascular",
+          "n": 16,
+          "pct_female": 50.0
+        }
+      ]
+    },
+    {
+      "drug": "ETANERCEPT",
+      "n_signals": 618,
+      "n_socs_with_data": 15,
+      "overall_pct_female": 42.6,
+      "soc_range": 100.0,
+      "soc_std": 24.9,
+      "soc_details": [
+        {
+          "soc": "Cardiac",
+          "n": 10,
+          "pct_female": 10.0
+        },
+        {
+          "soc": "Dermatological",
+          "n": 32,
+          "pct_female": 50.0
+        },
+        {
+          "soc": "Endocrine",
+          "n": 5,
+          "pct_female": 100.0
+        },
+        {
+          "soc": "Gastrointestinal",
+          "n": 18,
+          "pct_female": 61.1
+        },
+        {
+          "soc": "Hematological",
+          "n": 16,
+          "pct_female": 56.2
+        },
+        {
+          "soc": "Hepatic",
+          "n": 25,
+          "pct_female": 36.0
+        },
+        {
+          "soc": "Immune",
+          "n": 14,
+          "pct_female": 64.3
+        },
+        {
+          "soc": "Metabolic",
+          "n": 9,
+          "pct_female": 77.8
+        },
+        {
+          "soc": "Musculoskeletal",
+          "n": 31,
+          "pct_female": 32.3
+        },
+        {
+          "soc": "Neurological",
+          "n": 5,
+          "pct_female": 20.0
+        },
+        {
+          "soc": "Ocular",
+          "n": 5,
+          "pct_female": 0.0
+        },
+        {
+          "soc": "Psychiatric",
+          "n": 7,
+          "pct_female": 57.1
+        },
+        {
+          "soc": "Renal",
+          "n": 10,
+          "pct_female": 60.0
+        },
+        {
+          "soc": "Respiratory",
+          "n": 21,
+          "pct_female": 47.6
+        },
+        {
+          "soc": "Vascular",
+          "n": 12,
+          "pct_female": 41.7
+        }
+      ]
+    },
+    {
+      "drug": "TACROLIMUS",
+      "n_signals": 572,
+      "n_socs_with_data": 14,
+      "overall_pct_female": 75.9,
+      "soc_range": 65.2,
+      "soc_std": 17.7,
+      "soc_details": [
+        {
+          "soc": "Cardiac",
+          "n": 10,
+          "pct_female": 90.0
+        },
+        {
+          "soc": "Dermatological",
+          "n": 23,
+          "pct_female": 69.6
+        },
+        {
+          "soc": "Gastrointestinal",
+          "n": 21,
+          "pct_female": 71.4
+        },
+        {
+          "soc": "Hematological",
+          "n": 21,
+          "pct_female": 95.2
+        },
+        {
+          "soc": "Hepatic",
+          "n": 20,
+          "pct_female": 75.0
+        },
+        {
+          "soc": "Immune",
+          "n": 8,
+          "pct_female": 62.5
+        },
+        {
+          "soc": "Metabolic",
+          "n": 4,
+          "pct_female": 50.0
+        },
+        {
+          "soc": "Musculoskeletal",
+          "n": 8,
+          "pct_female": 50.0
+        },
+        {
+          "soc": "Neurological",
+          "n": 13,
+          "pct_female": 84.6
+        },
+        {
+          "soc": "Ocular",
+          "n": 10,
+          "pct_female": 30.0
+        },
+        {
+          "soc": "Psychiatric",
+          "n": 6,
+          "pct_female": 83.3
+        },
+        {
+          "soc": "Renal",
+          "n": 26,
+          "pct_female": 92.3
+        },
+        {
+          "soc": "Respiratory",
+          "n": 23,
+          "pct_female": 69.6
+        },
+        {
+          "soc": "Vascular",
+          "n": 15,
+          "pct_female": 73.3
+        }
+      ]
+    },
+    {
+      "drug": "PREDNISOLONE",
+      "n_signals": 542,
+      "n_socs_with_data": 15,
+      "overall_pct_female": 82.5,
+      "soc_range": 66.7,
+      "soc_std": 15.7,
+      "soc_details": [
+        {
+          "soc": "Cardiac",
+          "n": 17,
+          "pct_female": 94.1
+        },
+        {
+          "soc": "Dermatological",
+          "n": 25,
+          "pct_female": 72.0
+        },
+        {
+          "soc": "Endocrine",
+          "n": 4,
+          "pct_female": 75.0
+        },
+        {
+          "soc": "Gastrointestinal",
+          "n": 19,
+          "pct_female": 68.4
+        },
+        {
+          "soc": "Hematological",
+          "n": 18,
+          "pct_female": 77.8
+        },
+        {
+          "soc": "Hepatic",
+          "n": 15,
+          "pct_female": 73.3
+        },
+        {
+          "soc": "Immune",
+          "n": 9,
+          "pct_female": 100.0
+        },
+        {
+          "soc": "Metabolic",
+          "n": 7,
+          "pct_female": 71.4
+        },
+        {
+          "soc": "Musculoskeletal",
+          "n": 21,
+          "pct_female": 76.2
+        },
+        {
+          "soc": "Neurological",
+          "n": 11,
+          "pct_female": 72.7
+        },
+        {
+          "soc": "Ocular",
+          "n": 6,
+          "pct_female": 33.3
+        },
+        {
+          "soc": "Psychiatric",
+          "n": 10,
+          "pct_female": 100.0
+        },
+        {
+          "soc": "Renal",
+          "n": 12,
+          "pct_female": 91.7
+        },
+        {
+          "soc": "Respiratory",
+          "n": 21,
+          "pct_female": 81.0
+        },
+        {
+          "soc": "Vascular",
+          "n": 11,
+          "pct_female": 72.7
+        }
+      ]
+    },
+    {
+      "drug": "DEXAMETHASONE",
+      "n_signals": 537,
+      "n_socs_with_data": 15,
+      "overall_pct_female": 80.3,
+      "soc_range": 62.5,
+      "soc_std": 19.6,
+      "soc_details": [
+        {
+          "soc": "Cardiac",
+          "n": 18,
+          "pct_female": 94.4
+        },
+        {
+          "soc": "Dermatological",
+          "n": 19,
+          "pct_female": 78.9
+        },
+        {
+          "soc": "Endocrine",
+          "n": 4,
+          "pct_female": 75.0
+        },
+        {
+          "soc": "Gastrointestinal",
+          "n": 19,
+          "pct_female": 94.7
+        },
+        {
+          "soc": "Hematological",
+          "n": 21,
+          "pct_female": 95.2
+        },
+        {
+          "soc": "Hepatic",
+          "n": 11,
+          "pct_female": 90.9
+        },
+        {
+          "soc": "Immune",
+          "n": 7,
+          "pct_female": 85.7
+        },
+        {
+          "soc": "Metabolic",
+          "n": 8,
+          "pct_female": 100.0
+        },
+        {
+          "soc": "Musculoskeletal",
+          "n": 16,
+          "pct_female": 50.0
+        },
+        {
+          "soc": "Neurological",
+          "n": 13,
+          "pct_female": 100.0
+        },
+        {
+          "soc": "Ocular",
+          "n": 8,
+          "pct_female": 37.5
+        },
+        {
+          "soc": "Psychiatric",
+          "n": 13,
+          "pct_female": 92.3
+        },
+        {
+          "soc": "Renal",
+          "n": 10,
+          "pct_female": 60.0
+        },
+        {
+          "soc": "Respiratory",
+          "n": 18,
+          "pct_female": 83.3
+        },
+        {
+          "soc": "Vascular",
+          "n": 6,
+          "pct_female": 50.0
+        }
+      ]
+    },
+    {
+      "drug": "METHYLPREDNISOLONE",
+      "n_signals": 521,
+      "n_socs_with_data": 15,
+      "overall_pct_female": 77.2,
+      "soc_range": 42.1,
+      "soc_std": 12.7,
+      "soc_details": [
+        {
+          "soc": "Cardiac",
+          "n": 18,
+          "pct_female": 88.9
+        },
+        {
+          "soc": "Dermatological",
+          "n": 26,
+          "pct_female": 65.4
+        },
+        {
+          "soc": "Endocrine",
+          "n": 3,
+          "pct_female": 66.7
+        },
+        {
+          "soc": "Gastrointestinal",
+          "n": 20,
+          "pct_female": 70.0
+        },
+        {
+          "soc": "Hematological",
+          "n": 13,
+          "pct_female": 61.5
+        },
+        {
+          "soc": "Hepatic",
+          "n": 19,
+          "pct_female": 57.9
+        },
+        {
+          "soc": "Immune",
+          "n": 13,
+          "pct_female": 84.6
+        },
+        {
+          "soc": "Metabolic",
+          "n": 8,
+          "pct_female": 100.0
+        },
+        {
+          "soc": "Musculoskeletal",
+          "n": 14,
+          "pct_female": 78.6
+        },
+        {
+          "soc": "Neurological",
+          "n": 11,
+          "pct_female": 100.0
+        },
+        {
+          "soc": "Ocular",
+          "n": 7,
+          "pct_female": 85.7
+        },
+        {
+          "soc": "Psychiatric",
+          "n": 13,
+          "pct_female": 92.3
+        },
+        {
+          "soc": "Renal",
+          "n": 16,
+          "pct_female": 81.2
+        },
+        {
+          "soc": "Respiratory",
+          "n": 21,
+          "pct_female": 76.2
+        },
+        {
+          "soc": "Vascular",
+          "n": 10,
+          "pct_female": 80.0
+        }
+      ]
+    },
+    {
+      "drug": "RISPERIDONE",
+      "n_signals": 518,
+      "n_socs_with_data": 15,
+      "overall_pct_female": 92.9,
+      "soc_range": 75.0,
+      "soc_std": 21.7,
+      "soc_details": [
+        {
+          "soc": "Cardiac",
+          "n": 20,
+          "pct_female": 100.0
+        },
+        {
+          "soc": "Dermatological",
+          "n": 8,
+          "pct_female": 62.5
+        },
+        {
+          "soc": "Endocrine",
+          "n": 4,
+          "pct_female": 25.0
+        },
+        {
+          "soc": "Gastrointestinal",
+          "n": 10,
+          "pct_female": 100.0
+        },
+        {
+          "soc": "Hematological",
+          "n": 5,
+          "pct_female": 100.0
+        },
+        {
+          "soc": "Hepatic",
+          "n": 22,
+          "pct_female": 68.2
+        },
+        {
+          "soc": "Immune",
+          "n": 3,
+          "pct_female": 100.0
+        },
+        {
+          "soc": "Metabolic",
+          "n": 18,
+          "pct_female": 66.7
+        },
+        {
+          "soc": "Musculoskeletal",
+          "n": 9,
+          "pct_female": 100.0
+        },
+        {
+          "soc": "Neurological",
+          "n": 14,
+          "pct_female": 100.0
+        },
+        {
+          "soc": "Ocular",
+          "n": 6,
+          "pct_female": 100.0
+        },
+        {
+          "soc": "Psychiatric",
+          "n": 22,
+          "pct_female": 100.0
+        },
+        {
+          "soc": "Renal",
+          "n": 8,
+          "pct_female": 100.0
+        },
+        {
+          "soc": "Respiratory",
+          "n": 19,
+          "pct_female": 100.0
+        },
+        {
+          "soc": "Vascular",
+          "n": 12,
+          "pct_female": 100.0
+        }
+      ]
+    },
+    {
+      "drug": "TOCILIZUMAB",
+      "n_signals": 508,
+      "n_socs_with_data": 15,
+      "overall_pct_female": 49.4,
+      "soc_range": 80.0,
+      "soc_std": 20.5,
+      "soc_details": [
+        {
+          "soc": "Cardiac",
+          "n": 5,
+          "pct_female": 20.0
+        },
+        {
+          "soc": "Dermatological",
+          "n": 18,
+          "pct_female": 72.2
+        },
+        {
+          "soc": "Endocrine",
+          "n": 4,
+          "pct_female": 50.0
+        },
+        {
+          "soc": "Gastrointestinal",
+          "n": 19,
+          "pct_female": 52.6
+        },
+        {
+          "soc": "Hematological",
+          "n": 10,
+          "pct_female": 40.0
+        },
+        {
+          "soc": "Hepatic",
+          "n": 21,
+          "pct_female": 42.9
+        },
+        {
+          "soc": "Immune",
+          "n": 10,
+          "pct_female": 80.0
+        },
+        {
+          "soc": "Metabolic",
+          "n": 9,
+          "pct_female": 55.6
+        },
+        {
+          "soc": "Musculoskeletal",
+          "n": 26,
+          "pct_female": 57.7
+        },
+        {
+          "soc": "Neurological",
+          "n": 9,
+          "pct_female": 33.3
+        },
+        {
+          "soc": "Ocular",
+          "n": 6,
+          "pct_female": 50.0
+        },
+        {
+          "soc": "Psychiatric",
+          "n": 7,
+          "pct_female": 100.0
+        },
+        {
+          "soc": "Renal",
+          "n": 11,
+          "pct_female": 54.5
+        },
+        {
+          "soc": "Respiratory",
+          "n": 24,
+          "pct_female": 33.3
+        },
+        {
+          "soc": "Vascular",
+          "n": 13,
+          "pct_female": 23.1
+        }
+      ]
+    },
+    {
+      "drug": "MYCOPHENOLIC ACID",
+      "n_signals": 507,
+      "n_socs_with_data": 15,
+      "overall_pct_female": 76.3,
+      "soc_range": 66.7,
+      "soc_std": 20.2,
+      "soc_details": [
+        {
+          "soc": "Cardiac",
+          "n": 11,
+          "pct_female": 72.7
+        },
+        {
+          "soc": "Dermatological",
+          "n": 22,
+          "pct_female": 54.5
+        },
+        {
+          "soc": "Endocrine",
+          "n": 3,
+          "pct_female": 33.3
+        },
+        {
+          "soc": "Gastrointestinal",
+          "n": 18,
+          "pct_female": 77.8
+        },
+        {
+          "soc": "Hematological",
+          "n": 8,
+          "pct_female": 87.5
+        },
+        {
+          "soc": "Hepatic",
+          "n": 28,
+          "pct_female": 78.6
+        },
+        {
+          "soc": "Immune",
+          "n": 12,
+          "pct_female": 100.0
+        },
+        {
+          "soc": "Metabolic",
+          "n": 14,
+          "pct_female": 57.1
+        },
+        {
+          "soc": "Musculoskeletal",
+          "n": 11,
+          "pct_female": 90.9
+        },
+        {
+          "soc": "Neurological",
+          "n": 13,
+          "pct_female": 92.3
+        },
+        {
+          "soc": "Ocular",
+          "n": 5,
+          "pct_female": 40.0
+        },
+        {
+          "soc": "Psychiatric",
+          "n": 10,
+          "pct_female": 100.0
+        },
+        {
+          "soc": "Renal",
+          "n": 10,
+          "pct_female": 80.0
+        },
+        {
+          "soc": "Respiratory",
+          "n": 22,
+          "pct_female": 95.5
+        },
+        {
+          "soc": "Vascular",
+          "n": 10,
+          "pct_female": 80.0
+        }
+      ]
+    },
+    {
+      "drug": "PANTOPRAZOLE",
+      "n_signals": 501,
+      "n_socs_with_data": 14,
+      "overall_pct_female": 60.3,
+      "soc_range": 78.6,
+      "soc_std": 18.7,
+      "soc_details": [
+        {
+          "soc": "Cardiac",
+          "n": 14,
+          "pct_female": 21.4
+        },
+        {
+          "soc": "Dermatological",
+          "n": 24,
+          "pct_female": 58.3
+        },
+        {
+          "soc": "Gastrointestinal",
+          "n": 16,
+          "pct_female": 62.5
+        },
+        {
+          "soc": "Hematological",
+          "n": 14,
+          "pct_female": 57.1
+        },
+        {
+          "soc": "Hepatic",
+          "n": 20,
+          "pct_female": 80.0
+        },
+        {
+          "soc": "Immune",
+          "n": 12,
+          "pct_female": 41.7
+        },
+        {
+          "soc": "Metabolic",
+          "n": 10,
+          "pct_female": 70.0
+        },
+        {
+          "soc": "Musculoskeletal",
+          "n": 16,
+          "pct_female": 75.0
+        },
+        {
+          "soc": "Neurological",
+          "n": 8,
+          "pct_female": 62.5
+        },
+        {
+          "soc": "Ocular",
+          "n": 5,
+          "pct_female": 80.0
+        },
+        {
+          "soc": "Psychiatric",
+          "n": 5,
+          "pct_female": 100.0
+        },
+        {
+          "soc": "Renal",
+          "n": 19,
+          "pct_female": 73.7
+        },
+        {
+          "soc": "Respiratory",
+          "n": 23,
+          "pct_female": 52.2
+        },
+        {
+          "soc": "Vascular",
+          "n": 13,
+          "pct_female": 46.2
+        }
+      ]
+    },
+    {
+      "drug": "CYCLOPHOSPHAMIDE",
+      "n_signals": 498,
+      "n_socs_with_data": 15,
+      "overall_pct_female": 64.7,
+      "soc_range": 66.7,
+      "soc_std": 17.1,
+      "soc_details": [
+        {
+          "soc": "Cardiac",
+          "n": 20,
+          "pct_female": 100.0
+        },
+        {
+          "soc": "Dermatological",
+          "n": 19,
+          "pct_female": 68.4
+        },
+        {
+          "soc": "Endocrine",
+          "n": 5,
+          "pct_female": 80.0
+        },
+        {
+          "soc": "Gastrointestinal",
+          "n": 13,
+          "pct_female": 69.2
+        },
+        {
+          "soc": "Hematological",
+          "n": 17,
+          "pct_female": 82.4
+        },
+        {
+          "soc": "Hepatic",
+          "n": 12,
+          "pct_female": 66.7
+        },
+        {
+          "soc": "Immune",
+          "n": 9,
+          "pct_female": 33.3
+        },
+        {
+          "soc": "Metabolic",
+          "n": 3,
+          "pct_female": 66.7
+        },
+        {
+          "soc": "Musculoskeletal",
+          "n": 13,
+          "pct_female": 69.2
+        },
+        {
+          "soc": "Neurological",
+          "n": 12,
+          "pct_female": 58.3
+        },
+        {
+          "soc": "Ocular",
+          "n": 7,
+          "pct_female": 42.9
+        },
+        {
+          "soc": "Psychiatric",
+          "n": 5,
+          "pct_female": 100.0
+        },
+        {
+          "soc": "Renal",
+          "n": 11,
+          "pct_female": 63.6
+        },
+        {
+          "soc": "Respiratory",
+          "n": 30,
+          "pct_female": 66.7
+        },
+        {
+          "soc": "Vascular",
+          "n": 13,
+          "pct_female": 61.5
+        }
+      ]
+    }
+  ],
+  "top_soc_pairs": [
+    {
+      "pair": "Gastrointestinal-Respiratory",
+      "n_drugs": 773,
+      "mean_pct_female": 51.0
+    },
+    {
+      "pair": "Gastrointestinal-Neurological",
+      "n_drugs": 736,
+      "mean_pct_female": 50.6
+    },
+    {
+      "pair": "Dermatological-Gastrointestinal",
+      "n_drugs": 688,
+      "mean_pct_female": 50.1
+    },
+    {
+      "pair": "Neurological-Respiratory",
+      "n_drugs": 685,
+      "mean_pct_female": 51.8
+    },
+    {
+      "pair": "Gastrointestinal-Vascular",
+      "n_drugs": 678,
+      "mean_pct_female": 52.1
+    },
+    {
+      "pair": "Respiratory-Vascular",
+      "n_drugs": 678,
+      "mean_pct_female": 52.9
+    },
+    {
+      "pair": "Dermatological-Respiratory",
+      "n_drugs": 656,
+      "mean_pct_female": 50.8
+    },
+    {
+      "pair": "Gastrointestinal-Metabolic",
+      "n_drugs": 651,
+      "mean_pct_female": 52.3
+    },
+    {
+      "pair": "Gastrointestinal-Renal",
+      "n_drugs": 633,
+      "mean_pct_female": 54.5
+    },
+    {
+      "pair": "Cardiac-Gastrointestinal",
+      "n_drugs": 628,
+      "mean_pct_female": 52.7
+    },
+    {
+      "pair": "Cardiac-Respiratory",
+      "n_drugs": 627,
+      "mean_pct_female": 53.4
+    },
+    {
+      "pair": "Gastrointestinal-Musculoskeletal",
+      "n_drugs": 619,
+      "mean_pct_female": 50.7
+    },
+    {
+      "pair": "Neurological-Vascular",
+      "n_drugs": 617,
+      "mean_pct_female": 52.5
+    },
+    {
+      "pair": "Dermatological-Neurological",
+      "n_drugs": 616,
+      "mean_pct_female": 51.3
+    },
+    {
+      "pair": "Metabolic-Respiratory",
+      "n_drugs": 613,
+      "mean_pct_female": 52.8
+    },
+    {
+      "pair": "Renal-Respiratory",
+      "n_drugs": 612,
+      "mean_pct_female": 55.3
+    },
+    {
+      "pair": "Gastrointestinal-Psychiatric",
+      "n_drugs": 608,
+      "mean_pct_female": 50.1
+    },
+    {
+      "pair": "Musculoskeletal-Respiratory",
+      "n_drugs": 597,
+      "mean_pct_female": 51.2
+    },
+    {
+      "pair": "Psychiatric-Respiratory",
+      "n_drugs": 593,
+      "mean_pct_female": 51.2
+    },
+    {
+      "pair": "Dermatological-Vascular",
+      "n_drugs": 591,
+      "mean_pct_female": 52.0
+    }
+  ],
+  "consistency_stats": {
+    "mean": 0.4121,
+    "median": 0.3846,
+    "highly_consistent": 107,
+    "mixed": 299
+  },
+  "key_findings": [
+    "SOC breadth vs female bias: rho=0.1869 (p=1.27e-15)",
+    "Highest cross-SOC range: ETANERCEPT (100.0pp across 15 SOCs)",
+    "915 drugs span 5+ SOC categories",
+    "Direction consistency: 107 highly consistent, 299 mixed"
+  ],
+  "breadth_vs_female": {
+    "rho": 0.1869,
+    "p": 1.27e-15
+  }
+}
