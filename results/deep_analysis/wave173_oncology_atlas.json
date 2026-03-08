@@ -1,0 +1,50 @@
+{
+  "wave": 173,
+  "title": "Oncology Drug Sex-Differential Atlas",
+  "oncology_signals": 8779,
+  "oncology_pct_f": 65.2,
+  "per_mechanism": [
+    {
+      "mechanism": "ICI",
+      "n_drugs": 6,
+      "n_signals": 940,
+      "pct_female": 74.4
+    },
+    {
+      "mechanism": "TKI",
+      "n_drugs": 18,
+      "n_signals": 1764,
+      "pct_female": 68.4
+    },
+    {
+      "mechanism": "Cytotoxic",
+      "n_drugs": 15,
+      "n_signals": 3745,
+      "pct_female": 64.0
+    },
+    {
+      "mechanism": "Hormonal",
+      "n_drugs": 7,
+      "n_signals": 351,
+      "pct_female": 63.0
+    },
+    {
+      "mechanism": "IMiD",
+      "n_drugs": 3,
+      "n_signals": 482,
+      "pct_female": 60.8
+    },
+    {
+      "mechanism": "mAb",
+      "n_drugs": 8,
+      "n_signals": 1497,
+      "pct_female": 60.8
+    }
+  ],
+  "range": {
+    "most_female": "ABIRATERONE",
+    "most_female_pct": 100.0,
+    "most_male": "PERTUZUMAB",
+    "most_male_pct": 7.5
+  }
+}
