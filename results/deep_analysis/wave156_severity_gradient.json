@@ -1,0 +1,109 @@
+{
+  "wave": 156,
+  "title": "AE Severity Sex-Differential Gradient",
+  "description": "How does AE severity relate to sex-differential signal direction and strength?",
+  "total_signals": 96281,
+  "severity_analysis": [
+    {
+      "severity": "Fatal",
+      "n_signals": 999,
+      "n_drugs": 671,
+      "n_aes": 15,
+      "pct_female": 72.8,
+      "mean_abs_logR": 0.9158,
+      "mean_reports": 253.0
+    },
+    {
+      "severity": "Life-threatening",
+      "n_signals": 2410,
+      "n_drugs": 768,
+      "n_aes": 50,
+      "pct_female": 66.4,
+      "mean_abs_logR": 0.9353,
+      "mean_reports": 126.2
+    },
+    {
+      "severity": "Serious",
+      "n_signals": 1733,
+      "n_drugs": 495,
+      "n_aes": 230,
+      "pct_female": 71.5,
+      "mean_abs_logR": 0.8836,
+      "mean_reports": 227.5
+    },
+    {
+      "severity": "Moderate",
+      "n_signals": 6821,
+      "n_drugs": 897,
+      "n_aes": 435,
+      "pct_female": 58.3,
+      "mean_abs_logR": 0.9642,
+      "mean_reports": 185.3
+    },
+    {
+      "severity": "Mild",
+      "n_signals": 8255,
+      "n_drugs": 1414,
+      "n_aes": 165,
+      "pct_female": 48.8,
+      "mean_abs_logR": 0.984,
+      "mean_reports": 417.7
+    },
+    {
+      "severity": "Unclassified",
+      "n_signals": 76063,
+      "n_drugs": 2069,
+      "n_aes": 4174,
+      "pct_female": 52.8,
+      "mean_abs_logR": 0.994,
+      "mean_reports": 243.6
+    }
+  ],
+  "severity_by_direction": [
+    {
+      "severity": "Fatal",
+      "female_mean_logR": 0.8283,
+      "male_mean_logR": 1.1495,
+      "difference": -0.3212
+    },
+    {
+      "severity": "Life-threatening",
+      "female_mean_logR": 0.8604,
+      "male_mean_logR": 1.0836,
+      "difference": -0.2232
+    },
+    {
+      "severity": "Serious",
+      "female_mean_logR": 0.8933,
+      "male_mean_logR": 0.8593,
+      "difference": 0.034
+    },
+    {
+      "severity": "Moderate",
+      "female_mean_logR": 0.9866,
+      "male_mean_logR": 0.9327,
+      "difference": 0.0539
+    },
+    {
+      "severity": "Mild",
+      "female_mean_logR": 1.0348,
+      "male_mean_logR": 0.9356,
+      "difference": 0.0992
+    },
+    {
+      "severity": "Unclassified",
+      "female_mean_logR": 1.0191,
+      "male_mean_logR": 0.966,
+      "difference": 0.0531
+    }
+  ],
+  "severity_sex_correlation": {
+    "rho": 0.1625,
+    "p": 1.18e-119
+  },
+  "key_findings": [
+    "Fatal AEs: 72.8%F vs Mild AEs: 48.8%F",
+    "Life-threatening AEs: 66.4%F (2410 signals)",
+    "Severity-direction correlation: rho=0.1625"
+  ]
+}
