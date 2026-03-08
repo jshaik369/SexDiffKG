@@ -1,0 +1,261 @@
+{
+  "wave": 182,
+  "title": "Antibiotic Sex-Differential Profile",
+  "total_signals": 3082,
+  "per_drug": [
+    {
+      "drug": "LINEZOLID",
+      "class": "Oxazolidinone",
+      "n_signals": 124,
+      "pct_female": 80.6
+    },
+    {
+      "drug": "DAPTOMYCIN",
+      "class": "Lipopeptide",
+      "n_signals": 56,
+      "pct_female": 78.6
+    },
+    {
+      "drug": "RIFAMPICIN",
+      "class": "Ansamycin",
+      "n_signals": 83,
+      "pct_female": 78.3
+    },
+    {
+      "drug": "VANCOMYCIN",
+      "class": "Glycopeptide",
+      "n_signals": 191,
+      "pct_female": 76.4
+    },
+    {
+      "drug": "PIPERACILLIN",
+      "class": "Penicillin",
+      "n_signals": 3,
+      "pct_female": 66.7
+    },
+    {
+      "drug": "CEFTRIAXONE",
+      "class": "Cephalosporin",
+      "n_signals": 167,
+      "pct_female": 64.1
+    },
+    {
+      "drug": "GENTAMICIN",
+      "class": "Aminoglycoside",
+      "n_signals": 45,
+      "pct_female": 62.2
+    },
+    {
+      "drug": "MOXIFLOXACIN",
+      "class": "FQ",
+      "n_signals": 175,
+      "pct_female": 58.9
+    },
+    {
+      "drug": "DOXYCYCLINE",
+      "class": "Tetracycline",
+      "n_signals": 223,
+      "pct_female": 58.7
+    },
+    {
+      "drug": "SULFAMETHOXAZOLE",
+      "class": "Sulfonamide",
+      "n_signals": 75,
+      "pct_female": 57.3
+    },
+    {
+      "drug": "MINOCYCLINE",
+      "class": "Tetracycline",
+      "n_signals": 100,
+      "pct_female": 55.0
+    },
+    {
+      "drug": "CEFAZOLIN",
+      "class": "Cephalosporin",
+      "n_signals": 31,
+      "pct_female": 48.4
+    },
+    {
+      "drug": "LEVOFLOXACIN",
+      "class": "FQ",
+      "n_signals": 254,
+      "pct_female": 46.5
+    },
+    {
+      "drug": "AMOXICILLIN",
+      "class": "Penicillin",
+      "n_signals": 212,
+      "pct_female": 42.9
+    },
+    {
+      "drug": "CLINDAMYCIN",
+      "class": "Lincosamide",
+      "n_signals": 98,
+      "pct_female": 42.9
+    },
+    {
+      "drug": "CIPROFLOXACIN",
+      "class": "FQ",
+      "n_signals": 342,
+      "pct_female": 41.2
+    },
+    {
+      "drug": "AZITHROMYCIN",
+      "class": "Macrolide",
+      "n_signals": 189,
+      "pct_female": 40.7
+    },
+    {
+      "drug": "AMPICILLIN",
+      "class": "Penicillin",
+      "n_signals": 23,
+      "pct_female": 39.1
+    },
+    {
+      "drug": "CLARITHROMYCIN",
+      "class": "Macrolide",
+      "n_signals": 175,
+      "pct_female": 37.1
+    },
+    {
+      "drug": "CEFUROXIME",
+      "class": "Cephalosporin",
+      "n_signals": 87,
+      "pct_female": 33.3
+    },
+    {
+      "drug": "TRIMETHOPRIM",
+      "class": "Sulfonamide",
+      "n_signals": 53,
+      "pct_female": 30.2
+    },
+    {
+      "drug": "METRONIDAZOLE",
+      "class": "Nitroimidazole",
+      "n_signals": 209,
+      "pct_female": 23.9
+    },
+    {
+      "drug": "ERYTHROMYCIN",
+      "class": "Macrolide",
+      "n_signals": 55,
+      "pct_female": 21.8
+    },
+    {
+      "drug": "NITROFURANTOIN",
+      "class": "Nitrofuran",
+      "n_signals": 45,
+      "pct_female": 20.0
+    },
+    {
+      "drug": "OFLOXACIN",
+      "class": "FQ",
+      "n_signals": 40,
+      "pct_female": 20.0
+    },
+    {
+      "drug": "CEPHALEXIN",
+      "class": "Cephalosporin",
+      "n_signals": 11,
+      "pct_female": 18.2
+    },
+    {
+      "drug": "TETRACYCLINE",
+      "class": "Tetracycline",
+      "n_signals": 11,
+      "pct_female": 18.2
+    },
+    {
+      "drug": "NORFLOXACIN",
+      "class": "FQ",
+      "n_signals": 5,
+      "pct_female": 0.0
+    }
+  ],
+  "per_class": [
+    {
+      "class": "Oxazolidinone",
+      "n_drugs": 1,
+      "n_signals": 124,
+      "pct_female": 80.6
+    },
+    {
+      "class": "Lipopeptide",
+      "n_drugs": 1,
+      "n_signals": 56,
+      "pct_female": 78.6
+    },
+    {
+      "class": "Ansamycin",
+      "n_drugs": 1,
+      "n_signals": 83,
+      "pct_female": 78.3
+    },
+    {
+      "class": "Glycopeptide",
+      "n_drugs": 1,
+      "n_signals": 191,
+      "pct_female": 76.4
+    },
+    {
+      "class": "Aminoglycoside",
+      "n_drugs": 1,
+      "n_signals": 45,
+      "pct_female": 62.2
+    },
+    {
+      "class": "Tetracycline",
+      "n_drugs": 3,
+      "n_signals": 334,
+      "pct_female": 56.3
+    },
+    {
+      "class": "Cephalosporin",
+      "n_drugs": 4,
+      "n_signals": 296,
+      "pct_female": 51.7
+    },
+    {
+      "class": "Sulfonamide",
+      "n_drugs": 2,
+      "n_signals": 128,
+      "pct_female": 46.1
+    },
+    {
+      "class": "FQ",
+      "n_drugs": 5,
+      "n_signals": 816,
+      "pct_female": 45.3
+    },
+    {
+      "class": "Lincosamide",
+      "n_drugs": 1,
+      "n_signals": 98,
+      "pct_female": 42.9
+    },
+    {
+      "class": "Penicillin",
+      "n_drugs": 3,
+      "n_signals": 238,
+      "pct_female": 42.9
+    },
+    {
+      "class": "Macrolide",
+      "n_drugs": 3,
+      "n_signals": 419,
+      "pct_female": 36.8
+    },
+    {
+      "class": "Nitroimidazole",
+      "n_drugs": 1,
+      "n_signals": 209,
+      "pct_female": 23.9
+    },
+    {
+      "class": "Nitrofuran",
+      "n_drugs": 1,
+      "n_signals": 45,
+      "pct_female": 20.0
+    }
+  ]
+}

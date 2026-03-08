@@ -1,0 +1,274 @@
+{
+  "wave": 181,
+  "title": "Autoimmune Drug Sex-Differential Profile",
+  "total_signals": 10147,
+  "per_drug": [
+    {
+      "drug": "PREDNISOLONE",
+      "mechanism": "Corticosteroid",
+      "n_signals": 542,
+      "pct_female": 82.5
+    },
+    {
+      "drug": "MYCOPHENOLATE MOFETIL",
+      "mechanism": "csDMARD",
+      "n_signals": 277,
+      "pct_female": 81.2
+    },
+    {
+      "drug": "PREDNISONE",
+      "mechanism": "Corticosteroid",
+      "n_signals": 926,
+      "pct_female": 70.2
+    },
+    {
+      "drug": "RITUXIMAB",
+      "mechanism": "anti-CD20",
+      "n_signals": 755,
+      "pct_female": 66.6
+    },
+    {
+      "drug": "USTEKINUMAB",
+      "mechanism": "IL-12/23i",
+      "n_signals": 314,
+      "pct_female": 65.0
+    },
+    {
+      "drug": "AZATHIOPRINE",
+      "mechanism": "csDMARD",
+      "n_signals": 337,
+      "pct_female": 59.3
+    },
+    {
+      "drug": "SARILUMAB",
+      "mechanism": "IL-6i",
+      "n_signals": 103,
+      "pct_female": 58.3
+    },
+    {
+      "drug": "GOLIMUMAB",
+      "mechanism": "TNFi",
+      "n_signals": 334,
+      "pct_female": 55.7
+    },
+    {
+      "drug": "SECUKINUMAB",
+      "mechanism": "IL-17i",
+      "n_signals": 456,
+      "pct_female": 52.2
+    },
+    {
+      "drug": "HYDROXYCHLOROQUINE",
+      "mechanism": "csDMARD",
+      "n_signals": 376,
+      "pct_female": 51.9
+    },
+    {
+      "drug": "TOFACITINIB",
+      "mechanism": "JAKi",
+      "n_signals": 331,
+      "pct_female": 51.4
+    },
+    {
+      "drug": "INFLIXIMAB",
+      "mechanism": "TNFi",
+      "n_signals": 623,
+      "pct_female": 50.4
+    },
+    {
+      "drug": "TOCILIZUMAB",
+      "mechanism": "IL-6i",
+      "n_signals": 508,
+      "pct_female": 49.4
+    },
+    {
+      "drug": "CICLOSPORIN",
+      "mechanism": "csDMARD",
+      "n_signals": 409,
+      "pct_female": 49.4
+    },
+    {
+      "drug": "METHOTREXATE",
+      "mechanism": "csDMARD",
+      "n_signals": 892,
+      "pct_female": 48.5
+    },
+    {
+      "drug": "SULFASALAZINE",
+      "mechanism": "csDMARD",
+      "n_signals": 318,
+      "pct_female": 46.5
+    },
+    {
+      "drug": "ETANERCEPT",
+      "mechanism": "TNFi",
+      "n_signals": 618,
+      "pct_female": 42.6
+    },
+    {
+      "drug": "LEFLUNOMIDE",
+      "mechanism": "csDMARD",
+      "n_signals": 370,
+      "pct_female": 41.9
+    },
+    {
+      "drug": "ADALIMUMAB",
+      "mechanism": "TNFi",
+      "n_signals": 807,
+      "pct_female": 38.2
+    },
+    {
+      "drug": "GUSELKUMAB",
+      "mechanism": "IL-23i",
+      "n_signals": 38,
+      "pct_female": 28.9
+    },
+    {
+      "drug": "OCRELIZUMAB",
+      "mechanism": "anti-CD20",
+      "n_signals": 136,
+      "pct_female": 28.7
+    },
+    {
+      "drug": "BARICITINIB",
+      "mechanism": "JAKi",
+      "n_signals": 36,
+      "pct_female": 25.0
+    },
+    {
+      "drug": "UPADACITINIB",
+      "mechanism": "JAKi",
+      "n_signals": 181,
+      "pct_female": 24.3
+    },
+    {
+      "drug": "IXEKIZUMAB",
+      "mechanism": "IL-17i",
+      "n_signals": 82,
+      "pct_female": 17.1
+    },
+    {
+      "drug": "DUPILUMAB",
+      "mechanism": "IL-4/13i",
+      "n_signals": 289,
+      "pct_female": 17.0
+    },
+    {
+      "drug": "OFATUMUMAB",
+      "mechanism": "anti-CD20",
+      "n_signals": 67,
+      "pct_female": 11.9
+    },
+    {
+      "drug": "BELIMUMAB",
+      "mechanism": "anti-BLyS",
+      "n_signals": 22,
+      "pct_female": 9.1
+    }
+  ],
+  "per_mechanism": [
+    {
+      "mechanism": "Corticosteroid",
+      "n_drugs": 2,
+      "n_signals": 1468,
+      "pct_female": 74.7
+    },
+    {
+      "mechanism": "IL-12/23i",
+      "n_drugs": 1,
+      "n_signals": 314,
+      "pct_female": 65.0
+    },
+    {
+      "mechanism": "anti-CD20",
+      "n_drugs": 3,
+      "n_signals": 958,
+      "pct_female": 57.4
+    },
+    {
+      "mechanism": "csDMARD",
+      "n_drugs": 7,
+      "n_signals": 2979,
+      "pct_female": 52.3
+    },
+    {
+      "mechanism": "IL-6i",
+      "n_drugs": 2,
+      "n_signals": 611,
+      "pct_female": 50.9
+    },
+    {
+      "mechanism": "IL-17i",
+      "n_drugs": 2,
+      "n_signals": 538,
+      "pct_female": 46.8
+    },
+    {
+      "mechanism": "TNFi",
+      "n_drugs": 4,
+      "n_signals": 2382,
+      "pct_female": 45.0
+    },
+    {
+      "mechanism": "JAKi",
+      "n_drugs": 3,
+      "n_signals": 548,
+      "pct_female": 40.7
+    },
+    {
+      "mechanism": "IL-23i",
+      "n_drugs": 1,
+      "n_signals": 38,
+      "pct_female": 28.9
+    },
+    {
+      "mechanism": "IL-4/13i",
+      "n_drugs": 1,
+      "n_signals": 289,
+      "pct_female": 17.0
+    },
+    {
+      "mechanism": "anti-BLyS",
+      "n_drugs": 1,
+      "n_signals": 22,
+      "pct_female": 9.1
+    }
+  ],
+  "ae_categories": [
+    {
+      "category": "GI",
+      "n": 43,
+      "pct_female": 79.1
+    },
+    {
+      "category": "Hepatic",
+      "n": 277,
+      "pct_female": 61.0
+    },
+    {
+      "category": "Other",
+      "n": 8912,
+      "pct_female": 53.4
+    },
+    {
+      "category": "Hematologic",
+      "n": 37,
+      "pct_female": 43.2
+    },
+    {
+      "category": "Malignancy",
+      "n": 159,
+      "pct_female": 41.5
+    },
+    {
+      "category": "Infection",
+      "n": 623,
+      "pct_female": 39.8
+    },
+    {
+      "category": "Injection/Infusion",
+      "n": 96,
+      "pct_female": 37.5
+    }
+  ]
+}

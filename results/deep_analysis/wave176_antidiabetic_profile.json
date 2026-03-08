@@ -1,0 +1,220 @@
+{
+  "wave": 176,
+  "title": "Antidiabetic Drug Sex-Differential Profile",
+  "total_signals": 2079,
+  "per_drug": [
+    {
+      "drug": "ROSIGLITAZONE",
+      "class": "TZD",
+      "n_signals": 47,
+      "pct_female": 93.6
+    },
+    {
+      "drug": "PIOGLITAZONE",
+      "class": "TZD",
+      "n_signals": 61,
+      "pct_female": 90.2
+    },
+    {
+      "drug": "GLIMEPIRIDE",
+      "class": "SU",
+      "n_signals": 38,
+      "pct_female": 81.6
+    },
+    {
+      "drug": "ALOGLIPTIN",
+      "class": "DPP-4i",
+      "n_signals": 9,
+      "pct_female": 77.8
+    },
+    {
+      "drug": "GLICLAZIDE",
+      "class": "SU",
+      "n_signals": 91,
+      "pct_female": 76.9
+    },
+    {
+      "drug": "VILDAGLIPTIN",
+      "class": "DPP-4i",
+      "n_signals": 25,
+      "pct_female": 68.0
+    },
+    {
+      "drug": "SAXAGLIPTIN",
+      "class": "DPP-4i",
+      "n_signals": 18,
+      "pct_female": 66.7
+    },
+    {
+      "drug": "METFORMIN",
+      "class": "Biguanide",
+      "n_signals": 399,
+      "pct_female": 62.4
+    },
+    {
+      "drug": "CANAGLIFLOZIN",
+      "class": "SGLT2i",
+      "n_signals": 69,
+      "pct_female": 60.9
+    },
+    {
+      "drug": "EMPAGLIFLOZIN",
+      "class": "SGLT2i",
+      "n_signals": 96,
+      "pct_female": 60.4
+    },
+    {
+      "drug": "DAPAGLIFLOZIN",
+      "class": "SGLT2i",
+      "n_signals": 154,
+      "pct_female": 59.1
+    },
+    {
+      "drug": "SITAGLIPTIN",
+      "class": "DPP-4i",
+      "n_signals": 154,
+      "pct_female": 55.2
+    },
+    {
+      "drug": "LINAGLIPTIN",
+      "class": "DPP-4i",
+      "n_signals": 42,
+      "pct_female": 52.4
+    },
+    {
+      "drug": "GLIPIZIDE",
+      "class": "SU",
+      "n_signals": 17,
+      "pct_female": 47.1
+    },
+    {
+      "drug": "INSULIN",
+      "class": "Insulin",
+      "n_signals": 339,
+      "pct_female": 39.5
+    },
+    {
+      "drug": "EXENATIDE",
+      "class": "GLP-1 RA",
+      "n_signals": 92,
+      "pct_female": 39.1
+    },
+    {
+      "drug": "SEMAGLUTIDE",
+      "class": "GLP-1 RA",
+      "n_signals": 152,
+      "pct_female": 31.6
+    },
+    {
+      "drug": "DULAGLUTIDE",
+      "class": "GLP-1 RA",
+      "n_signals": 77,
+      "pct_female": 27.3
+    },
+    {
+      "drug": "LIRAGLUTIDE",
+      "class": "GLP-1 RA",
+      "n_signals": 101,
+      "pct_female": 13.9
+    },
+    {
+      "drug": "TIRZEPATIDE",
+      "class": "GLP-1 RA",
+      "n_signals": 95,
+      "pct_female": 8.4
+    },
+    {
+      "drug": "ERTUGLIFLOZIN",
+      "class": "SGLT2i",
+      "n_signals": 1,
+      "pct_female": 0.0
+    },
+    {
+      "drug": "GLYBURIDE",
+      "class": "SU",
+      "n_signals": 2,
+      "pct_female": 0.0
+    }
+  ],
+  "per_class": [
+    {
+      "class": "TZD",
+      "n_drugs": 2,
+      "n_signals": 108,
+      "pct_female": 91.7
+    },
+    {
+      "class": "SU",
+      "n_drugs": 4,
+      "n_signals": 148,
+      "pct_female": 73.6
+    },
+    {
+      "class": "Biguanide",
+      "n_drugs": 1,
+      "n_signals": 399,
+      "pct_female": 62.4
+    },
+    {
+      "class": "SGLT2i",
+      "n_drugs": 4,
+      "n_signals": 320,
+      "pct_female": 59.7
+    },
+    {
+      "class": "DPP-4i",
+      "n_drugs": 5,
+      "n_signals": 248,
+      "pct_female": 57.7
+    },
+    {
+      "class": "Insulin",
+      "n_drugs": 1,
+      "n_signals": 339,
+      "pct_female": 39.5
+    },
+    {
+      "class": "GLP-1 RA",
+      "n_drugs": 5,
+      "n_signals": 517,
+      "pct_female": 24.6
+    }
+  ],
+  "glp1_ae_cats": [
+    {
+      "category": "Metabolic",
+      "n": 3,
+      "pct_female": 66.7
+    },
+    {
+      "category": "Renal",
+      "n": 9,
+      "pct_female": 44.4
+    },
+    {
+      "category": "Other",
+      "n": 429,
+      "pct_female": 26.8
+    },
+    {
+      "category": "Gallbladder",
+      "n": 9,
+      "pct_female": 22.2
+    },
+    {
+      "category": "Thyroid",
+      "n": 5,
+      "pct_female": 20.0
+    },
+    {
+      "category": "Injection site",
+      "n": 42,
+      "pct_female": 7.1
+    },
+    {
+      "category": "GI",
+      "n": 20,
+      "pct_female": 0.0
+    }
+  ]
+}

@@ -1,0 +1,227 @@
+{
+  "wave": 183,
+  "title": "Respiratory Drug Sex-Differential Profile",
+  "total_signals": 3216,
+  "per_drug": [
+    {
+      "drug": "ROFLUMILAST",
+      "class": "PDE4i",
+      "n_signals": 17,
+      "pct_female": 82.4
+    },
+    {
+      "drug": "INDACATEROL",
+      "class": "LABA",
+      "n_signals": 41,
+      "pct_female": 80.5
+    },
+    {
+      "drug": "VILANTEROL",
+      "class": "LABA",
+      "n_signals": 12,
+      "pct_female": 50.0
+    },
+    {
+      "drug": "MEPOLIZUMAB",
+      "class": "Anti-IL5",
+      "n_signals": 254,
+      "pct_female": 48.4
+    },
+    {
+      "drug": "FORMOTEROL",
+      "class": "LABA",
+      "n_signals": 55,
+      "pct_female": 47.3
+    },
+    {
+      "drug": "MOMETASONE",
+      "class": "ICS",
+      "n_signals": 119,
+      "pct_female": 47.1
+    },
+    {
+      "drug": "IPRATROPIUM",
+      "class": "SAMA",
+      "n_signals": 129,
+      "pct_female": 45.7
+    },
+    {
+      "drug": "BUDESONIDE",
+      "class": "ICS",
+      "n_signals": 259,
+      "pct_female": 45.2
+    },
+    {
+      "drug": "SALBUTAMOL",
+      "class": "SABA",
+      "n_signals": 418,
+      "pct_female": 42.3
+    },
+    {
+      "drug": "MONTELUKAST",
+      "class": "LTRA",
+      "n_signals": 281,
+      "pct_female": 40.6
+    },
+    {
+      "drug": "ACLIDINIUM",
+      "class": "LAMA",
+      "n_signals": 52,
+      "pct_female": 38.5
+    },
+    {
+      "drug": "GLYCOPYRRONIUM",
+      "class": "LAMA",
+      "n_signals": 91,
+      "pct_female": 38.5
+    },
+    {
+      "drug": "CICLESONIDE",
+      "class": "ICS",
+      "n_signals": 123,
+      "pct_female": 35.0
+    },
+    {
+      "drug": "FLUTICASONE",
+      "class": "ICS",
+      "n_signals": 221,
+      "pct_female": 33.5
+    },
+    {
+      "drug": "BENRALIZUMAB",
+      "class": "Anti-IL5R",
+      "n_signals": 33,
+      "pct_female": 33.3
+    },
+    {
+      "drug": "THEOPHYLLINE",
+      "class": "Xanthine",
+      "n_signals": 80,
+      "pct_female": 30.0
+    },
+    {
+      "drug": "TIOTROPIUM",
+      "class": "LAMA",
+      "n_signals": 257,
+      "pct_female": 29.6
+    },
+    {
+      "drug": "OMALIZUMAB",
+      "class": "Anti-IgE",
+      "n_signals": 306,
+      "pct_female": 27.8
+    },
+    {
+      "drug": "BECLOMETASONE",
+      "class": "ICS",
+      "n_signals": 58,
+      "pct_female": 25.9
+    },
+    {
+      "drug": "SALMETEROL",
+      "class": "LABA",
+      "n_signals": 30,
+      "pct_female": 20.0
+    },
+    {
+      "drug": "DUPILUMAB",
+      "class": "Anti-IL4/13",
+      "n_signals": 289,
+      "pct_female": 17.0
+    },
+    {
+      "drug": "UMECLIDINIUM",
+      "class": "LAMA",
+      "n_signals": 80,
+      "pct_female": 16.2
+    },
+    {
+      "drug": "OLODATEROL",
+      "class": "LABA",
+      "n_signals": 7,
+      "pct_female": 14.3
+    },
+    {
+      "drug": "ZAFIRLUKAST",
+      "class": "LTRA",
+      "n_signals": 4,
+      "pct_female": 0.0
+    }
+  ],
+  "per_class": [
+    {
+      "class": "PDE4i",
+      "n_drugs": 1,
+      "n_signals": 17,
+      "pct_female": 82.4
+    },
+    {
+      "class": "LABA",
+      "n_drugs": 5,
+      "n_signals": 145,
+      "pct_female": 49.7
+    },
+    {
+      "class": "Anti-IL5",
+      "n_drugs": 1,
+      "n_signals": 254,
+      "pct_female": 48.4
+    },
+    {
+      "class": "SAMA",
+      "n_drugs": 1,
+      "n_signals": 129,
+      "pct_female": 45.7
+    },
+    {
+      "class": "SABA",
+      "n_drugs": 1,
+      "n_signals": 418,
+      "pct_female": 42.3
+    },
+    {
+      "class": "LTRA",
+      "n_drugs": 2,
+      "n_signals": 285,
+      "pct_female": 40.0
+    },
+    {
+      "class": "ICS",
+      "n_drugs": 5,
+      "n_signals": 780,
+      "pct_female": 39.1
+    },
+    {
+      "class": "Anti-IL5R",
+      "n_drugs": 1,
+      "n_signals": 33,
+      "pct_female": 33.3
+    },
+    {
+      "class": "LAMA",
+      "n_drugs": 4,
+      "n_signals": 480,
+      "pct_female": 30.0
+    },
+    {
+      "class": "Xanthine",
+      "n_drugs": 1,
+      "n_signals": 80,
+      "pct_female": 30.0
+    },
+    {
+      "class": "Anti-IgE",
+      "n_drugs": 1,
+      "n_signals": 306,
+      "pct_female": 27.8
+    },
+    {
+      "class": "Anti-IL4/13",
+      "n_drugs": 1,
+      "n_signals": 289,
+      "pct_female": 17.0
+    }
+  ],
+  "ics_pct_f": 39.1,
+  "systemic_steroid_pct_f": 76.4
+}
