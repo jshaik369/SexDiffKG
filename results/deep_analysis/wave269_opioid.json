@@ -1,0 +1,28 @@
+{
+  "wave": 269,
+  "title": "Opioid/Analgesic Deep Dive",
+  "op_signals": 3360,
+  "op_pct_f": 70.7,
+  "classes": {
+    "Strong opioid": {
+      "n": 1979,
+      "pct_f": 76.5,
+      "n_drugs": 7
+    },
+    "Weak opioid": {
+      "n": 589,
+      "pct_f": 73.3,
+      "n_drugs": 3
+    },
+    "Opioid antagonist": {
+      "n": 118,
+      "pct_f": 57.6,
+      "n_drugs": 3
+    },
+    "Non-opioid analgesic": {
+      "n": 674,
+      "pct_f": 54.0,
+      "n_drugs": 3
+    }
+  }
+}

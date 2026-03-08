@@ -1,0 +1,43 @@
+{
+  "wave": 268,
+  "title": "Antidiabetic Drug Deep Dive",
+  "dm_signals": 2009,
+  "dm_pct_f": 52.7,
+  "classes": {
+    "Insulin": {
+      "n": 339,
+      "pct_f": 39.5,
+      "n_drugs": 1
+    },
+    "Metformin": {
+      "n": 399,
+      "pct_f": 62.4,
+      "n_drugs": 1
+    },
+    "SGLT2i": {
+      "n": 320,
+      "pct_f": 59.7,
+      "n_drugs": 4
+    },
+    "GLP-1 RA": {
+      "n": 422,
+      "pct_f": 28.2,
+      "n_drugs": 4
+    },
+    "DPP-4i": {
+      "n": 248,
+      "pct_f": 57.7,
+      "n_drugs": 5
+    },
+    "Sulfonylurea": {
+      "n": 173,
+      "pct_f": 71.1,
+      "n_drugs": 5
+    },
+    "TZD": {
+      "n": 108,
+      "pct_f": 91.7,
+      "n_drugs": 2
+    }
+  }
+}

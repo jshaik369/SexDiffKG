@@ -1,0 +1,23 @@
+{
+  "wave": 266,
+  "title": "NSAID Deep Dive",
+  "nsaid_signals": 2217,
+  "nsaid_pct_f": 60.4,
+  "classes": {
+    "Non-selective COX": {
+      "n": 1353,
+      "pct_f": 54.0,
+      "n_drugs": 11
+    },
+    "COX-2 selective": {
+      "n": 294,
+      "pct_f": 60.5,
+      "n_drugs": 2
+    },
+    "Aspirin": {
+      "n": 570,
+      "pct_f": 75.3,
+      "n_drugs": 2
+    }
+  }
+}

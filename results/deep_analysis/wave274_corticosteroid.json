@@ -1,0 +1,23 @@
+{
+  "wave": 274,
+  "title": "Corticosteroid Deep Dive",
+  "st_signals": 4205,
+  "st_pct_f": 63.9,
+  "classes": {
+    "Systemic": {
+      "n": 3316,
+      "pct_f": 69.9,
+      "n_drugs": 8
+    },
+    "Inhaled": {
+      "n": 722,
+      "pct_f": 40.2,
+      "n_drugs": 4
+    },
+    "Mineralocorticoid": {
+      "n": 167,
+      "pct_f": 49.1,
+      "n_drugs": 2
+    }
+  }
+}
