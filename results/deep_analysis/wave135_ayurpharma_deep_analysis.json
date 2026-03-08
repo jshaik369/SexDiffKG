@@ -1,0 +1,534 @@
+{
+  "wave": 135,
+  "title": "AYUR-PHARMA-KG: Ayurvedic-Pharmacovigilance Bridge",
+  "timestamp": "2026-03-08T17:06:33.801988",
+  "kg": {
+    "name": "AYUR-PHARMA-KG",
+    "nodes": 24316,
+    "edges": 293444,
+    "node_types": {
+      "AdverseEvent": 8605,
+      "Compound": 8033,
+      "Protein": 2397,
+      "Unknown": 1664,
+      "Disease": 1519,
+      "Drug": 1407,
+      "Gene": 349,
+      "Pathway": 328,
+      "Rasa": 6,
+      "Herb": 5,
+      "Dosha": 3
+    },
+    "edge_types": {
+      "has_adverse_event": 198129,
+      "sex_differential_adverse_event": 31843,
+      "binds_to": 31239,
+      "treats": 16007,
+      "modulates": 10530,
+      "targets": 3315,
+      "participates_in": 2158,
+      "encoded_by": 205,
+      "pacifies_dosha": 9,
+      "aggravates_dosha": 9
+    },
+    "model": "DistMult",
+    "mrr": 0.0887,
+    "hits_at_10": 0.1756
+  },
+  "sex_differential": {
+    "total": 60490,
+    "female": 33230,
+    "male": 27260,
+    "ayur_aes": 4016,
+    "ayur_female": 2569
+  },
+  "herbs": {
+    "count": 5,
+    "names": [
+      "Turmeric (Curcuma longa)",
+      "Ashwagandha (Withania somnifera)",
+      "Shatavari (Asparagus racemosus)",
+      "Brahmi (Bacopa monnieri)",
+      "Licorice (Glycyrrhiza glabra)"
+    ]
+  },
+  "compounds": {
+    "count": 8033
+  },
+  "predictions": {
+    "herb": {
+      "Turmeric (Curcuma longa)|binds_to": [
+        {
+          "entity": "PROTEIN_VEDA:CHEMBL1785",
+          "score": 0.2954908311367035
+        },
+        {
+          "entity": "PROTEIN_VEDA:CHEMBL252",
+          "score": 0.28049880266189575
+        },
+        {
+          "entity": "PROTEIN_VEDA:CHEMBL250",
+          "score": 0.2743208408355713
+        },
+        {
+          "entity": "COMPOUND:CHEMBL2063869",
+          "score": 0.2716030180454254
+        },
+        {
+          "entity": "PROTEIN_VEDA:CHEMBL3129",
+          "score": 0.26840919256210327
+        }
+      ],
+      "Turmeric (Curcuma longa)|targets": [
+        {
+          "entity": "GENE_KEGG:disgenet:596",
+          "score": 0.7019270658493042
+        },
+        {
+          "entity": "GENE_KEGG:disgenet:6647",
+          "score": 0.6549935340881348
+        },
+        {
+          "entity": "GENE_KEGG:disgenet:836",
+          "score": 0.6161355972290039
+        },
+        {
+          "entity": "GENE:Estrogen receptor beta",
+          "score": 0.5784942507743835
+        },
+        {
+          "entity": "GENE_KEGG:opentargets:ENSG00000113580",
+          "score": 0.5260818004608154
+        }
+      ],
+      "Turmeric (Curcuma longa)|treats": [
+        {
+          "entity": "DISEASE:Carcinoma, Squamous Cell",
+          "score": 0.45204755663871765
+        },
+        {
+          "entity": "DISEASE:Subarachnoid Hemorrhage",
+          "score": 0.4488631784915924
+        },
+        {
+          "entity": "DISEASE:Hepatitis B, Chronic",
+          "score": 0.43488773703575134
+        },
+        {
+          "entity": "DISEASE:Infertility",
+          "score": 0.42956864833831787
+        },
+        {
+          "entity": "DISEASE:Small Cell Lung Carcinoma",
+          "score": 0.4271950125694275
+        }
+      ],
+      "Ashwagandha (Withania somnifera)|binds_to": [
+        {
+          "entity": "PROTEIN_VEDA:CHEMBL4805",
+          "score": 0.36464923620224
+        },
+        {
+          "entity": "PROTEIN_VEDA:CHEMBL1785",
+          "score": 0.3565346896648407
+        },
+        {
+          "entity": "PROTEIN_VEDA:CHEMBL4794",
+          "score": 0.3448624312877655
+        },
+        {
+          "entity": "PROTEIN_VEDA:CHEMBL3129",
+          "score": 0.34300029277801514
+        },
+        {
+          "entity": "PROTEIN_VEDA:CHEMBL1829",
+          "score": 0.34173667430877686
+        }
+      ],
+      "Ashwagandha (Withania somnifera)|targets": [
+        {
+          "entity": "GENE_KEGG:opentargets:ENSG00000112715",
+          "score": 0.710181474685669
+        },
+        {
+          "entity": "GENE_KEGG:disgenet:5970",
+          "score": 0.6830923557281494
+        },
+        {
+          "entity": "GENE_KEGG:opentargets:ENSG00000142208",
+          "score": 0.6729801893234253
+        },
+        {
+          "entity": "GENE_KEGG:disgenet:5743",
+          "score": 0.6512850522994995
+        },
+        {
+          "entity": "GENE_KEGG:disgenet:1956",
+          "score": 0.6313787698745728
+        }
+      ],
+      "Ashwagandha (Withania somnifera)|treats": [
+        {
+          "entity": "DISEASE:Polycystic Ovary Syndrome",
+          "score": 0.43909788131713867
+        },
+        {
+          "entity": "DISEASE:Non-alcoholic Fatty Liver Disease",
+          "score": 0.4283846914768219
+        },
+        {
+          "entity": "DISEASE:Rheumatic Diseases",
+          "score": 0.4016287922859192
+        },
+        {
+          "entity": "DISEASE:Small Cell Lung Carcinoma",
+          "score": 0.3931084871292114
+        },
+        {
+          "entity": "DISEASE:Carcinoma, Hepatocellular",
+          "score": 0.391033411026001
+        }
+      ],
+      "Shatavari (Asparagus racemosus)|binds_to": [
+        {
+          "entity": "PROTEIN_VEDA:CHEMBL252",
+          "score": 0.4678746461868286
+        },
+        {
+          "entity": "PROTEIN_VEDA:CHEMBL1785",
+          "score": 0.4409672021865845
+        },
+        {
+          "entity": "PROTEIN_VEDA:CHEMBL1808",
+          "score": 0.439265638589859
+        },
+        {
+          "entity": "PROTEIN_VEDA:CHEMBL4805",
+          "score": 0.41559121012687683
+        },
+        {
+          "entity": "PROTEIN_VEDA:CHEMBL5857",
+          "score": 0.40701866149902344
+        }
+      ],
+      "Shatavari (Asparagus racemosus)|targets": [
+        {
+          "entity": "GENE_KEGG:disgenet:3290",
+          "score": 0.6950985193252563
+        },
+        {
+          "entity": "GENE_KEGG:opentargets:ENSG00000113580",
+          "score": 0.6635855436325073
+        },
+        {
+          "entity": "GENE_KEGG:disgenet:3291",
+          "score": 0.6579824686050415
+        },
+        {
+          "entity": "GENE_KEGG:opentargets:ENSG00000148795",
+          "score": 0.5897506475448608
+        },
+        {
+          "entity": "GENE:Phosphodiesterase 3",
+          "score": 0.4997907280921936
+        }
+      ],
+      "Shatavari (Asparagus racemosus)|treats": [
+        {
+          "entity": "DISEASE:Asthma",
+          "score": 0.46106982231140137
+        },
+        {
+          "entity": "DISEASE:Parkinson Disease",
+          "score": 0.4586672782897949
+        },
+        {
+          "entity": "DISEASE:Alzheimer Disease",
+          "score": 0.4534440040588379
+        },
+        {
+          "entity": "DISEASE:Neuralgia, Postherpetic",
+          "score": 0.4384264647960663
+        },
+        {
+          "entity": "DISEASE:Diabetic Nephropathies",
+          "score": 0.4339350461959839
+        }
+      ],
+      "Brahmi (Bacopa monnieri)|binds_to": [
+        {
+          "entity": "COMPOUND:CHEMBL1721885",
+          "score": 0.24468395113945007
+        },
+        {
+          "entity": "COMPOUND:CHEMBL572878",
+          "score": 0.24180535972118378
+        },
+        {
+          "entity": "COMPOUND:CHEMBL1908397",
+          "score": 0.2389780580997467
+        },
+        {
+          "entity": "COMPOUND:CHEMBL475251",
+          "score": 0.2357567995786667
+        },
+        {
+          "entity": "COMPOUND:CHEMBL91829",
+          "score": 0.2313675582408905
+        }
+      ],
+      "Brahmi (Bacopa monnieri)|targets": [
+        {
+          "entity": "HERB:Licorice (Glycyrrhiza glabra)",
+          "score": 0.5456224083900452
+        },
+        {
+          "entity": "HERB:Turmeric (Curcuma longa)",
+          "score": 0.4718419909477234
+        },
+        {
+          "entity": "HERB:Ashwagandha (Withania somnifera)",
+          "score": 0.41478535532951355
+        },
+        {
+          "entity": "GENE:Vasopressin V1 receptor",
+          "score": 0.396059513092041
+        },
+        {
+          "entity": "GENE:Acetylcholinesterase",
+          "score": 0.38173800706863403
+        }
+      ],
+      "Brahmi (Bacopa monnieri)|treats": [
+        {
+          "entity": "COMPOUND:CHEMBL5095064",
+          "score": 0.47646626830101013
+        },
+        {
+          "entity": "AE:Granulocytosis",
+          "score": 0.45222848653793335
+        },
+        {
+          "entity": "AE:Dopamine dysregulation syndrome",
+          "score": 0.43954700231552124
+        },
+        {
+          "entity": "AE:Trisomy 18",
+          "score": 0.43530553579330444
+        },
+        {
+          "entity": "AE:Metamyelocyte count increased",
+          "score": 0.426867812871933
+        }
+      ],
+      "Licorice (Glycyrrhiza glabra)|binds_to": [
+        {
+          "entity": "PROTEIN_VEDA:CHEMBL1785",
+          "score": 0.41307610273361206
+        },
+        {
+          "entity": "PROTEIN_VEDA:CHEMBL4805",
+          "score": 0.38301146030426025
+        },
+        {
+          "entity": "PROTEIN_VEDA:CHEMBL252",
+          "score": 0.3809276819229126
+        },
+        {
+          "entity": "PROTEIN_VEDA:CHEMBL3129",
+          "score": 0.3721022307872772
+        },
+        {
+          "entity": "PROTEIN_VEDA:CHEMBL4794",
+          "score": 0.36305850744247437
+        }
+      ],
+      "Licorice (Glycyrrhiza glabra)|targets": [
+        {
+          "entity": "GENE_KEGG:opentargets:ENSG00000147465",
+          "score": 0.8018563985824585
+        },
+        {
+          "entity": "GENE_KEGG:opentargets:ENSG00000140009",
+          "score": 0.7937241792678833
+        },
+        {
+          "entity": "GENE_KEGG:opentargets:ENSG00000137869",
+          "score": 0.7615971565246582
+        },
+        {
+          "entity": "GENE_KEGG:disgenet:596",
+          "score": 0.602675199508667
+        },
+        {
+          "entity": "GENE_KEGG:disgenet:6647",
+          "score": 0.5998333692550659
+        }
+      ],
+      "Licorice (Glycyrrhiza glabra)|treats": [
+        {
+          "entity": "DISEASE:Non-alcoholic Fatty Liver Disease",
+          "score": 0.4544159471988678
+        },
+        {
+          "entity": "DISEASE:Infertility",
+          "score": 0.4301755428314209
+        },
+        {
+          "entity": "DISEASE:Liver Cirrhosis",
+          "score": 0.41266340017318726
+        },
+        {
+          "entity": "DISEASE:Pterygium",
+          "score": 0.4061821699142456
+        },
+        {
+          "entity": "DISEASE:Hypertension, Pulmonary",
+          "score": 0.40477997064590454
+        }
+      ]
+    },
+    "drug": {
+      "ADALIMUMAB": [
+        {
+          "entity": "AE:Spinal stenosis",
+          "score": 0.9760005474090576
+        },
+        {
+          "entity": "AE:Neurological symptom",
+          "score": 0.9750698804855347
+        },
+        {
+          "entity": "AE:Sinus disorder",
+          "score": 0.9732564687728882
+        }
+      ],
+      "METHOTREXATE": [
+        {
+          "entity": "AE:Hypertensive crisis",
+          "score": 1.0453603267669678
+        },
+        {
+          "entity": "AE:Oral candidiasis",
+          "score": 1.044079065322876
+        },
+        {
+          "entity": "AE:Procedural pain",
+          "score": 1.0392776727676392
+        }
+      ],
+      "PREDNISONE": [
+        {
+          "entity": "AE:Oral candidiasis",
+          "score": 1.1256743669509888
+        },
+        {
+          "entity": "AE:Musculoskeletal disorder",
+          "score": 1.124432921409607
+        },
+        {
+          "entity": "AE:Myocardial ischaemia",
+          "score": 1.1198490858078003
+        }
+      ],
+      "ETANERCEPT": [
+        {
+          "entity": "AE:Hypertensive crisis",
+          "score": 1.152424931526184
+        },
+        {
+          "entity": "AE:Musculoskeletal disorder",
+          "score": 1.1511726379394531
+        },
+        {
+          "entity": "AE:Tooth infection",
+          "score": 1.1478724479675293
+        }
+      ],
+      "DEXAMETHASONE": [
+        {
+          "entity": "AE:Musculoskeletal discomfort",
+          "score": 1.2045146226882935
+        },
+        {
+          "entity": "AE:Deafness",
+          "score": 1.2042433023452759
+        },
+        {
+          "entity": "AE:Abdominal pain lower",
+          "score": 1.2030820846557617
+        }
+      ],
+      "INFLIXIMAB": [
+        {
+          "entity": "AE:Fungal infection",
+          "score": 1.1938090324401855
+        },
+        {
+          "entity": "AE:Hypertensive crisis",
+          "score": 1.193132996559143
+        },
+        {
+          "entity": "AE:Musculoskeletal discomfort",
+          "score": 1.1921402215957642
+        }
+      ],
+      "PREDNISOLONE": [
+        {
+          "entity": "AE:Mass",
+          "score": 1.1951541900634766
+        },
+        {
+          "entity": "AE:Oral candidiasis",
+          "score": 1.1950953006744385
+        },
+        {
+          "entity": "AE:Musculoskeletal discomfort",
+          "score": 1.193856954574585
+        }
+      ],
+      "TACROLIMUS": [
+        {
+          "entity": "AE:Lower limb fracture",
+          "score": 1.1735140085220337
+        },
+        {
+          "entity": "AE:Oral candidiasis",
+          "score": 1.1722207069396973
+        },
+        {
+          "entity": "AE:Hypertensive crisis",
+          "score": 1.1720737218856812
+        }
+      ],
+      "METHYLPREDNISOLONE": [
+        {
+          "entity": "AE:Deafness",
+          "score": 1.2363722324371338
+        },
+        {
+          "entity": "AE:Musculoskeletal discomfort",
+          "score": 1.2362282276153564
+        },
+        {
+          "entity": "AE:Mass",
+          "score": 1.235251784324646
+        }
+      ],
+      "MYCOPHENOLIC ACID": [
+        {
+          "entity": "AE:Oral candidiasis",
+          "score": 1.2296128273010254
+        },
+        {
+          "entity": "AE:Mass",
+          "score": 1.226163387298584
+        },
+        {
+          "entity": "AE:Musculoskeletal discomfort",
+          "score": 1.2244091033935547
+        }
+      ]
+    }
+  }
+}

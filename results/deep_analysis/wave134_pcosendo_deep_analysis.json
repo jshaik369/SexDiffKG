@@ -1,0 +1,274 @@
+{
+  "wave": 134,
+  "title": "PCOS-ENDO-KG: Reproductive Endocrine Drug Safety",
+  "timestamp": "2026-03-08T17:05:39.951401",
+  "kg": {
+    "name": "PCOS-ENDO-KG",
+    "nodes": 36903,
+    "edges": 697819,
+    "node_types": {
+      "ClinicalTrial": 12768,
+      "AdverseEvent": 9660,
+      "Drug": 6069,
+      "Disease": 3696,
+      "Compound": 2348,
+      "Symptom": 1012,
+      "Protein": 887,
+      "Intervention": 307,
+      "Gene": 156
+    },
+    "edge_types": {
+      "has_adverse_event": 553478,
+      "sex_differential_adverse_event": 91285,
+      "tests_intervention": 23812,
+      "investigates": 11474,
+      "treats": 9653,
+      "binds_to": 4204,
+      "causes_adverse_event": 2640,
+      "corresponds_to": 1012,
+      "targets": 261
+    },
+    "model": "DistMult",
+    "mrr": 0.0675,
+    "hits_at_10": 0.1337
+  },
+  "sex_differential": {
+    "total": 96277,
+    "female": 51769,
+    "male": 44508,
+    "pcos_endo_aes": 224,
+    "pcos_female": 47,
+    "hormonal_aes": 389,
+    "horm_female": 182
+  },
+  "disease_predictions": {
+    "Polycystic Ovary Syndrome": [
+      {
+        "entity": "DRUG:PIPERACILLIN;TAZOBACTAM",
+        "score": 0.5265027284622192
+      },
+      {
+        "entity": "DRUG:MEROPENEM",
+        "score": 0.5259352326393127
+      },
+      {
+        "entity": "DRUG:FLUCONAZOLE",
+        "score": 0.5159233808517456
+      },
+      {
+        "entity": "DRUG:ACICLOVIR",
+        "score": 0.5157186985015869
+      },
+      {
+        "entity": "DRUG:BLEOMYCIN",
+        "score": 0.5122863054275513
+      }
+    ],
+    "Polycystic Ovarian Syndrome": [
+      {
+        "entity": "DRUG:BLEOMYCIN",
+        "score": 0.20627188682556152
+      },
+      {
+        "entity": "DRUG:DARATUMUMAB",
+        "score": 0.19869092106819153
+      },
+      {
+        "entity": "DRUG:EPOETIN ALFA",
+        "score": 0.19737747311592102
+      },
+      {
+        "entity": "DRUG:BRENTUXIMAB VEDOTIN",
+        "score": 0.19346106052398682
+      },
+      {
+        "entity": "DRUG:BECLOMETASONE",
+        "score": 0.19301381707191467
+      }
+    ],
+    "Polycystic Ovary Syndrome (PCOS)": [
+      {
+        "entity": "DRUG:BLEOMYCIN",
+        "score": 0.20126761496067047
+      },
+      {
+        "entity": "DRUG:DARATUMUMAB",
+        "score": 0.19549061357975006
+      },
+      {
+        "entity": "DRUG:AZACITIDINE",
+        "score": 0.19133202731609344
+      },
+      {
+        "entity": "DRUG:BRENTUXIMAB VEDOTIN",
+        "score": 0.1905563622713089
+      },
+      {
+        "entity": "DRUG:IPILIMUMAB",
+        "score": 0.1894356906414032
+      }
+    ],
+    "Infertility": [
+      {
+        "entity": "DRUG:MEROPENEM",
+        "score": 0.6442387104034424
+      },
+      {
+        "entity": "DRUG:PIPERACILLIN;TAZOBACTAM",
+        "score": 0.6439644694328308
+      },
+      {
+        "entity": "DRUG:ACICLOVIR",
+        "score": 0.6331081390380859
+      },
+      {
+        "entity": "DRUG:FLUCONAZOLE",
+        "score": 0.6301103830337524
+      },
+      {
+        "entity": "DRUG:DARBEPOETIN ALFA",
+        "score": 0.6274716854095459
+      }
+    ],
+    "Infertility, Female": [
+      {
+        "entity": "DRUG:BLEOMYCIN",
+        "score": 0.3236829340457916
+      },
+      {
+        "entity": "DRUG:DARATUMUMAB",
+        "score": 0.31696009635925293
+      },
+      {
+        "entity": "DRUG:MEROPENEM",
+        "score": 0.3161553144454956
+      },
+      {
+        "entity": "DRUG:AZACITIDINE",
+        "score": 0.3137807250022888
+      },
+      {
+        "entity": "DRUG:PIPERACILLIN;TAZOBACTAM",
+        "score": 0.3135429620742798
+      }
+    ],
+    "Primary Ovarian Insufficiency": [
+      {
+        "entity": "DRUG:BLEOMYCIN",
+        "score": 0.8129730820655823
+      },
+      {
+        "entity": "DRUG:VALGANCICLOVIR",
+        "score": 0.8039403557777405
+      },
+      {
+        "entity": "DRUG:PIPERACILLIN;TAZOBACTAM",
+        "score": 0.7955126166343689
+      },
+      {
+        "entity": "DRUG:EPOETIN ALFA",
+        "score": 0.7919659614562988
+      },
+      {
+        "entity": "DRUG:PANITUMUMAB",
+        "score": 0.7908777594566345
+      }
+    ],
+    "PCOS": [
+      {
+        "entity": "DRUG:BLEOMYCIN",
+        "score": 0.1974371373653412
+      },
+      {
+        "entity": "DRUG:DARATUMUMAB",
+        "score": 0.19103200733661652
+      },
+      {
+        "entity": "DRUG:EPOETIN ALFA",
+        "score": 0.19039881229400635
+      },
+      {
+        "entity": "DRUG:BECLOMETASONE",
+        "score": 0.19001981616020203
+      },
+      {
+        "entity": "DRUG:BRENTUXIMAB VEDOTIN",
+        "score": 0.18695800006389618
+      }
+    ],
+    "Polycystic Ovarian Syndrome (PCOS)": [
+      {
+        "entity": "DRUG:EMTRICITABINE",
+        "score": 0.17578114569187164
+      },
+      {
+        "entity": "DRUG:VALGANCICLOVIR",
+        "score": 0.17327608168125153
+      },
+      {
+        "entity": "DRUG:ABACAVIR;LAMIVUDINE",
+        "score": 0.16784462332725525
+      },
+      {
+        "entity": "DRUG:BICTEGRAVIR;EMTRICITABINE;TENOFOVIR",
+        "score": 0.16763964295387268
+      },
+      {
+        "entity": "DRUG:BLEOMYCIN",
+        "score": 0.16578999161720276
+      }
+    ]
+  },
+  "top_pcos_aes": [
+    {
+      "ae": "Acne",
+      "n_drugs": 103,
+      "logR": -0.801
+    },
+    {
+      "ae": "Pelvic pain",
+      "n_drugs": 34,
+      "logR": -1.859
+    },
+    {
+      "ae": "Abnormal weight gain",
+      "n_drugs": 19,
+      "logR": 1.442
+    },
+    {
+      "ae": "Product adhesion issue",
+      "n_drugs": 17,
+      "logR": -0.798
+    },
+    {
+      "ae": "Dermatitis acneiform",
+      "n_drugs": 10,
+      "logR": 0.482
+    },
+    {
+      "ae": "Abdominal adhesions",
+      "n_drugs": 6,
+      "logR": -0.238
+    },
+    {
+      "ae": "Acne cystic",
+      "n_drugs": 6,
+      "logR": -1.193
+    },
+    {
+      "ae": "Infertility",
+      "n_drugs": 4,
+      "logR": 0.062
+    },
+    {
+      "ae": "Device adhesion issue",
+      "n_drugs": 4,
+      "logR": -0.309
+    },
+    {
+      "ae": "Hirsutism",
+      "n_drugs": 3,
+      "logR": -1.332
+    }
+  ]
+}
