@@ -1,0 +1,146 @@
+{
+  "wave": 141,
+  "title": "System Organ Class Sex Bias Taxonomy",
+  "timestamp": "2026-03-08T17:40:14.629912",
+  "n_socs": 16,
+  "soc_stats": {
+    "Hematological": {
+      "n_signals": 916,
+      "n_drugs": 478,
+      "n_aes": 21,
+      "pct_female": 70.0,
+      "mean_logR": 0.342,
+      "mean_abs_logR": 0.885
+    },
+    "Renal": {
+      "n_signals": 2804,
+      "n_drugs": 842,
+      "n_aes": 134,
+      "pct_female": 68.1,
+      "mean_logR": 0.297,
+      "mean_abs_logR": 0.92
+    },
+    "Cardiac": {
+      "n_signals": 3184,
+      "n_drugs": 775,
+      "n_aes": 127,
+      "pct_female": 64.0,
+      "mean_logR": 0.239,
+      "mean_abs_logR": 0.903
+    },
+    "Immunological": {
+      "n_signals": 498,
+      "n_drugs": 215,
+      "n_aes": 54,
+      "pct_female": 63.1,
+      "mean_logR": 0.186,
+      "mean_abs_logR": 1.098
+    },
+    "Hepatic": {
+      "n_signals": 5433,
+      "n_drugs": 892,
+      "n_aes": 311,
+      "pct_female": 61.8,
+      "mean_logR": 0.302,
+      "mean_abs_logR": 1.013
+    },
+    "Metabolic": {
+      "n_signals": 1178,
+      "n_drugs": 560,
+      "n_aes": 27,
+      "pct_female": 60.2,
+      "mean_logR": 0.288,
+      "mean_abs_logR": 1.118
+    },
+    "Vascular": {
+      "n_signals": 1179,
+      "n_drugs": 672,
+      "n_aes": 49,
+      "pct_female": 59.1,
+      "mean_logR": 0.115,
+      "mean_abs_logR": 1.067
+    },
+    "Gastrointestinal": {
+      "n_signals": 2603,
+      "n_drugs": 1014,
+      "n_aes": 53,
+      "pct_female": 55.0,
+      "mean_logR": 0.102,
+      "mean_abs_logR": 0.985
+    },
+    "Psychiatric": {
+      "n_signals": 1815,
+      "n_drugs": 704,
+      "n_aes": 44,
+      "pct_female": 54.8,
+      "mean_logR": 0.097,
+      "mean_abs_logR": 0.958
+    },
+    "Respiratory": {
+      "n_signals": 3897,
+      "n_drugs": 836,
+      "n_aes": 142,
+      "pct_female": 53.7,
+      "mean_logR": 0.065,
+      "mean_abs_logR": 1.004
+    },
+    "Infectious": {
+      "n_signals": 2565,
+      "n_drugs": 566,
+      "n_aes": 188,
+      "pct_female": 52.9,
+      "mean_logR": 0.088,
+      "mean_abs_logR": 0.978
+    },
+    "Neurological": {
+      "n_signals": 1631,
+      "n_drugs": 828,
+      "n_aes": 56,
+      "pct_female": 52.2,
+      "mean_logR": 0.037,
+      "mean_abs_logR": 0.88
+    },
+    "Other": {
+      "n_signals": 63139,
+      "n_drugs": 2042,
+      "n_aes": 3624,
+      "pct_female": 52.1,
+      "mean_logR": 0.067,
+      "mean_abs_logR": 0.993
+    },
+    "Musculoskeletal": {
+      "n_signals": 2258,
+      "n_drugs": 702,
+      "n_aes": 106,
+      "pct_female": 47.2,
+      "mean_logR": 0.002,
+      "mean_abs_logR": 0.955
+    },
+    "Dermatological": {
+      "n_signals": 2664,
+      "n_drugs": 828,
+      "n_aes": 87,
+      "pct_female": 46.5,
+      "mean_logR": 0.025,
+      "mean_abs_logR": 1.01
+    },
+    "Ocular": {
+      "n_signals": 517,
+      "n_drugs": 312,
+      "n_aes": 46,
+      "pct_female": 36.0,
+      "mean_logR": -0.227,
+      "mean_abs_logR": 0.858
+    }
+  },
+  "soc_spectrum_pp": 34.0,
+  "key_findings": {
+    "most_female_soc": "Hematological",
+    "most_female_pct": 70.0,
+    "most_male_soc": "Ocular",
+    "most_male_pct": 36.0,
+    "soc_spectrum_pp": 34.0,
+    "highest_effect_soc": "Metabolic",
+    "highest_effect_logR": 1.118
+  }
+}
