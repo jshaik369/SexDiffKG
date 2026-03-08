@@ -1,0 +1,43 @@
+{
+  "wave": 280,
+  "title": "Hormonal Drug Deep Dive",
+  "horm_signals": 578,
+  "horm_pct_f": 29.2,
+  "classes": {
+    "Estrogen/progestin": {
+      "n": 30,
+      "pct_f": 0.0,
+      "n_drugs": 5
+    },
+    "Androgen": {
+      "n": 46,
+      "pct_f": 73.9,
+      "n_drugs": 1
+    },
+    "Anti-androgen": {
+      "n": 17,
+      "pct_f": 70.6,
+      "n_drugs": 4
+    },
+    "Aromatase inhibitor": {
+      "n": 36,
+      "pct_f": 19.4,
+      "n_drugs": 3
+    },
+    "GnRH": {
+      "n": 82,
+      "pct_f": 53.7,
+      "n_drugs": 2
+    },
+    "SERM": {
+      "n": 12,
+      "pct_f": 8.3,
+      "n_drugs": 1
+    },
+    "Thyroid": {
+      "n": 355,
+      "pct_f": 20.0,
+      "n_drugs": 5
+    }
+  }
+}

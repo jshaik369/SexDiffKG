@@ -1,0 +1,28 @@
+{
+  "wave": 277,
+  "title": "Migraine Drug Deep Dive",
+  "mig_signals": 1414,
+  "mig_pct_f": 41.8,
+  "classes": {
+    "Triptan": {
+      "n": 93,
+      "pct_f": 16.1,
+      "n_drugs": 5
+    },
+    "CGRP inhibitor": {
+      "n": 177,
+      "pct_f": 32.8,
+      "n_drugs": 7
+    },
+    "Ergot": {
+      "n": 6,
+      "pct_f": 33.3,
+      "n_drugs": 1
+    },
+    "Preventive": {
+      "n": 1138,
+      "pct_f": 45.3,
+      "n_drugs": 5
+    }
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "wave": 276,
+  "title": "Antimalarial & Tropical Drug Deep Dive",
+  "trop_signals": 736,
+  "trop_pct_f": 49.9,
+  "classes": {
+    "Antimalarial": {
+      "n": 652,
+      "pct_f": 54.6,
+      "n_drugs": 6
+    },
+    "Anthelmintic": {
+      "n": 79,
+      "pct_f": 8.9,
+      "n_drugs": 3
+    },
+    "Antitrypanosomal": {
+      "n": 5,
+      "pct_f": 80.0,
+      "n_drugs": 1
+    }
+  }
+}
