@@ -1,0 +1,129 @@
+{
+  "wave": 185,
+  "title": "Migraine Drug Sex-Differential Profile",
+  "total_signals": 1121,
+  "per_drug": [
+    {
+      "drug": "ERENUMAB",
+      "class": "CGRP-mAb",
+      "n_signals": 68,
+      "pct_female": 79.4
+    },
+    {
+      "drug": "AMITRIPTYLINE",
+      "class": "Preventive",
+      "n_signals": 189,
+      "pct_female": 54.0
+    },
+    {
+      "drug": "VALPROIC ACID",
+      "class": "Preventive",
+      "n_signals": 339,
+      "pct_female": 49.3
+    },
+    {
+      "drug": "TOPIRAMATE",
+      "class": "Preventive",
+      "n_signals": 200,
+      "pct_female": 48.0
+    },
+    {
+      "drug": "PROPRANOLOL",
+      "class": "Preventive",
+      "n_signals": 123,
+      "pct_female": 27.6
+    },
+    {
+      "drug": "SUMATRIPTAN",
+      "class": "Triptan",
+      "n_signals": 57,
+      "pct_female": 21.1
+    },
+    {
+      "drug": "ZOLMITRIPTAN",
+      "class": "Triptan",
+      "n_signals": 7,
+      "pct_female": 14.3
+    },
+    {
+      "drug": "RIZATRIPTAN",
+      "class": "Triptan",
+      "n_signals": 15,
+      "pct_female": 13.3
+    },
+    {
+      "drug": "FREMANEZUMAB",
+      "class": "CGRP-mAb",
+      "n_signals": 23,
+      "pct_female": 8.7
+    },
+    {
+      "drug": "GALCANEZUMAB",
+      "class": "CGRP-mAb",
+      "n_signals": 36,
+      "pct_female": 5.6
+    },
+    {
+      "drug": "ALMOTRIPTAN",
+      "class": "Triptan",
+      "n_signals": 5,
+      "pct_female": 0.0
+    },
+    {
+      "drug": "ATOGEPANT",
+      "class": "Gepant",
+      "n_signals": 8,
+      "pct_female": 0.0
+    },
+    {
+      "drug": "ELETRIPTAN",
+      "class": "Triptan",
+      "n_signals": 9,
+      "pct_female": 0.0
+    },
+    {
+      "drug": "EPTINEZUMAB",
+      "class": "CGRP-mAb",
+      "n_signals": 27,
+      "pct_female": 0.0
+    },
+    {
+      "drug": "RIMEGEPANT",
+      "class": "Gepant",
+      "n_signals": 12,
+      "pct_female": 0.0
+    },
+    {
+      "drug": "UBROGEPANT",
+      "class": "Gepant",
+      "n_signals": 3,
+      "pct_female": 0.0
+    }
+  ],
+  "per_class": [
+    {
+      "class": "Preventive",
+      "n_drugs": 4,
+      "n_signals": 851,
+      "pct_female": 46.9
+    },
+    {
+      "class": "CGRP-mAb",
+      "n_drugs": 4,
+      "n_signals": 154,
+      "pct_female": 37.7
+    },
+    {
+      "class": "Triptan",
+      "n_drugs": 5,
+      "n_signals": 93,
+      "pct_female": 16.1
+    },
+    {
+      "class": "Gepant",
+      "n_drugs": 3,
+      "n_signals": 23,
+      "pct_female": 0.0
+    }
+  ]
+}
