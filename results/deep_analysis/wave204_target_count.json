@@ -1,0 +1,39 @@
+{
+  "wave": 204,
+  "title": "Drug Target Count vs Sex Bias",
+  "drugs_analyzed": 477,
+  "target_count_vs_pctf": {
+    "rho": 0.069,
+    "p": 0.1308975575480248
+  },
+  "target_count_vs_ae_count": {
+    "rho": -0.109,
+    "p": 0.01766535299594333
+  },
+  "per_class": [
+    {
+      "class": "1 target",
+      "n_drugs": 384,
+      "mean_pct_f": 48.4,
+      "mean_abs_logr": 0.919
+    },
+    {
+      "class": "2-3 targets",
+      "n_drugs": 81,
+      "mean_pct_f": 50.8,
+      "mean_abs_logr": 0.9429
+    },
+    {
+      "class": "4-10 targets",
+      "n_drugs": 11,
+      "mean_pct_f": 61.3,
+      "mean_abs_logr": 0.8971
+    },
+    {
+      "class": "10+ targets",
+      "n_drugs": 1,
+      "mean_pct_f": 74.3,
+      "mean_abs_logr": 0.7851
+    }
+  ]
+}
