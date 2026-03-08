@@ -1,0 +1,141 @@
+{
+  "wave": 171,
+  "title": "NSAID Sex-Differential Profile",
+  "total_signals": 2573,
+  "per_drug": [
+    {
+      "drug": "SULINDAC",
+      "cox_class": "Non-selective",
+      "n_signals": 1,
+      "pct_female": 100.0
+    },
+    {
+      "drug": "PIROXICAM",
+      "cox_class": "Non-selective",
+      "n_signals": 21,
+      "pct_female": 81.0
+    },
+    {
+      "drug": "ACETYLSALICYLIC ACID",
+      "cox_class": "Non-selective (aspirin)",
+      "n_signals": 433,
+      "pct_female": 73.0
+    },
+    {
+      "drug": "KETOPROFEN",
+      "cox_class": "Non-selective",
+      "n_signals": 59,
+      "pct_female": 66.1
+    },
+    {
+      "drug": "CELECOXIB",
+      "cox_class": "COX-2 selective",
+      "n_signals": 274,
+      "pct_female": 63.1
+    },
+    {
+      "drug": "MELOXICAM",
+      "cox_class": "COX-2 preferential",
+      "n_signals": 87,
+      "pct_female": 59.8
+    },
+    {
+      "drug": "IBUPROFEN",
+      "cox_class": "Non-selective",
+      "n_signals": 372,
+      "pct_female": 59.4
+    },
+    {
+      "drug": "PARACETAMOL",
+      "cox_class": "Analgesic (no COX)",
+      "n_signals": 487,
+      "pct_female": 56.9
+    },
+    {
+      "drug": "NAPROXEN",
+      "cox_class": "Non-selective",
+      "n_signals": 331,
+      "pct_female": 54.1
+    },
+    {
+      "drug": "DICLOFENAC",
+      "cox_class": "Non-selective",
+      "n_signals": 401,
+      "pct_female": 50.6
+    },
+    {
+      "drug": "INDOMETHACIN",
+      "cox_class": "Non-selective",
+      "n_signals": 12,
+      "pct_female": 50.0
+    },
+    {
+      "drug": "ETODOLAC",
+      "cox_class": "COX-2 preferential",
+      "n_signals": 3,
+      "pct_female": 33.3
+    },
+    {
+      "drug": "ETORICOXIB",
+      "cox_class": "COX-2 selective",
+      "n_signals": 20,
+      "pct_female": 25.0
+    },
+    {
+      "drug": "KETOROLAC",
+      "cox_class": "Non-selective",
+      "n_signals": 60,
+      "pct_female": 20.0
+    },
+    {
+      "drug": "MEFENAMIC ACID",
+      "cox_class": "Non-selective",
+      "n_signals": 8,
+      "pct_female": 12.5
+    },
+    {
+      "drug": "FLURBIPROFEN",
+      "cox_class": "Non-selective",
+      "n_signals": 1,
+      "pct_female": 0.0
+    },
+    {
+      "drug": "NABUMETONE",
+      "cox_class": "Non-selective",
+      "n_signals": 3,
+      "pct_female": 0.0
+    }
+  ],
+  "per_class": [
+    {
+      "class": "Non-selective (aspirin)",
+      "n_drugs": 1,
+      "n_signals": 433,
+      "pct_female": 73.0
+    },
+    {
+      "class": "COX-2 selective",
+      "n_drugs": 2,
+      "n_signals": 294,
+      "pct_female": 60.5
+    },
+    {
+      "class": "COX-2 preferential",
+      "n_drugs": 2,
+      "n_signals": 90,
+      "pct_female": 58.9
+    },
+    {
+      "class": "Analgesic (no COX)",
+      "n_drugs": 1,
+      "n_signals": 487,
+      "pct_female": 56.9
+    },
+    {
+      "class": "Non-selective",
+      "n_drugs": 11,
+      "n_signals": 1269,
+      "pct_female": 53.5
+    }
+  ]
+}
