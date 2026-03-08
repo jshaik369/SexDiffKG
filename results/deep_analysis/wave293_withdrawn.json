@@ -1,0 +1,37 @@
+{
+  "wave": 293,
+  "title": "Withdrawn Drug Sex Bias",
+  "wd_signals": 449,
+  "wd_pct_f": 88.2,
+  "non_wd_pct_f": 53.6,
+  "withdrawn_drugs": {
+    "Rofecoxib (Vioxx)": {
+      "n": 14,
+      "pct_f": 21.4
+    },
+    "Rofecoxib": {
+      "n": 14,
+      "pct_f": 21.4
+    },
+    "Valdecoxib": {
+      "n": 1,
+      "pct_f": 0.0
+    },
+    "Rosiglitazone (restricted)": {
+      "n": 47,
+      "pct_f": 93.6
+    },
+    "Phenylpropanolamine": {
+      "n": 1,
+      "pct_f": 0.0
+    },
+    "Thalidomide (historical)": {
+      "n": 62,
+      "pct_f": 74.2
+    },
+    "Ranitidine (recalled)": {
+      "n": 324,
+      "pct_f": 93.5
+    }
+  }
+}

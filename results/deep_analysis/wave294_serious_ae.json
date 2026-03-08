@@ -1,0 +1,10 @@
+{
+  "wave": 294,
+  "title": "Serious vs Non-Serious AE Sex Bias",
+  "serious_signals": 6685,
+  "serious_pct_f": 68.8,
+  "nonserious_signals": 6430,
+  "nonserious_pct_f": 51.8,
+  "delta_pp": 16.9,
+  "p_value": 1.2904506414956452e-87
+}
