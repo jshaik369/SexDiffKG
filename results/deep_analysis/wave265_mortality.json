@@ -1,0 +1,10 @@
+{
+  "wave": 265,
+  "title": "Mortality/Fatal AE Analysis",
+  "death_signals": 598,
+  "death_aes": 14,
+  "death_drugs": 501,
+  "death_pct_f": 70.4,
+  "non_death_pct_f": 53.7,
+  "delta_pp": 16.7
+}

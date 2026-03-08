@@ -1,0 +1,33 @@
+{
+  "wave": 264,
+  "title": "Transplant Drug Deep Dive",
+  "tx_signals": 4741,
+  "tx_pct_f": 71.3,
+  "classes": {
+    "Calcineurin inhibitor": {
+      "n": 1033,
+      "pct_f": 64.2,
+      "n_drugs": 3
+    },
+    "mTOR inhibitor": {
+      "n": 328,
+      "pct_f": 56.1,
+      "n_drugs": 2
+    },
+    "Antimetabolite": {
+      "n": 1121,
+      "pct_f": 72.4,
+      "n_drugs": 3
+    },
+    "Anti-thymocyte": {
+      "n": 270,
+      "pct_f": 82.2,
+      "n_drugs": 2
+    },
+    "Steroid (tx)": {
+      "n": 1989,
+      "pct_f": 75.4,
+      "n_drugs": 3
+    }
+  }
+}

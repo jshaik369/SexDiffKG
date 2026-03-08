@@ -1,0 +1,34 @@
+{
+  "wave": 261,
+  "title": "Statin/Lipid-Lowering Deep Dive",
+  "lipid_signals": 1425,
+  "lipid_pct_f": 43.3,
+  "classes": {
+    "Statin": {
+      "n": 1085,
+      "pct_f": 48.1,
+      "n_drugs": 7
+    },
+    "Fibrate": {
+      "n": 61,
+      "pct_f": 37.7,
+      "n_drugs": 2
+    },
+    "PCSK9i": {
+      "n": 184,
+      "pct_f": 18.5,
+      "n_drugs": 2
+    },
+    "Ezetimibe": {
+      "n": 94,
+      "pct_f": 40.4,
+      "n_drugs": 1
+    },
+    "Omega-3": {
+      "n": 1,
+      "pct_f": 0.0,
+      "n_drugs": 1
+    }
+  },
+  "statin_myopathy_pct_f": 47.1
+}
