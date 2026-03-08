@@ -1,0 +1,122 @@
+{
+  "wave": 186,
+  "title": "Disease Prevalence vs Drug Safety Sex Bias",
+  "correlation_spearman": {
+    "rho": -0.65,
+    "p": 0.0087
+  },
+  "correlation_pearson": {
+    "r": -0.363,
+    "p": 0.1839
+  },
+  "disease_profiles": [
+    {
+      "disease": "Migraine",
+      "f_m_prev": 3.0,
+      "n_drugs": 5,
+      "n_signals": 463,
+      "pct_female": 42.8
+    },
+    {
+      "disease": "Rheumatoid arthritis",
+      "f_m_prev": 2.5,
+      "n_drugs": 5,
+      "n_signals": 3201,
+      "pct_female": 45.3
+    },
+    {
+      "disease": "Lupus (SLE)",
+      "f_m_prev": 9.0,
+      "n_drugs": 4,
+      "n_signals": 1012,
+      "pct_female": 61.5
+    },
+    {
+      "disease": "Multiple sclerosis",
+      "f_m_prev": 3.0,
+      "n_drugs": 3,
+      "n_signals": 436,
+      "pct_female": 23.4
+    },
+    {
+      "disease": "Depression",
+      "f_m_prev": 2.0,
+      "n_drugs": 6,
+      "n_signals": 1373,
+      "pct_female": 40.6
+    },
+    {
+      "disease": "Thyroid disease",
+      "f_m_prev": 5.0,
+      "n_drugs": 1,
+      "n_signals": 322,
+      "pct_female": 20.5
+    },
+    {
+      "disease": "Osteoporosis",
+      "f_m_prev": 4.0,
+      "n_drugs": 3,
+      "n_signals": 694,
+      "pct_female": 24.2
+    },
+    {
+      "disease": "Asthma",
+      "f_m_prev": 1.2,
+      "n_drugs": 5,
+      "n_signals": 1485,
+      "pct_female": 38.2
+    },
+    {
+      "disease": "COPD",
+      "f_m_prev": 0.8,
+      "n_drugs": 4,
+      "n_signals": 395,
+      "pct_female": 34.4
+    },
+    {
+      "disease": "Heart failure",
+      "f_m_prev": 0.7,
+      "n_drugs": 5,
+      "n_signals": 1297,
+      "pct_female": 60.4
+    },
+    {
+      "disease": "Gout",
+      "f_m_prev": 0.25,
+      "n_drugs": 3,
+      "n_signals": 326,
+      "pct_female": 66.6
+    },
+    {
+      "disease": "Prostate (BPH)",
+      "f_m_prev": 0.0,
+      "n_drugs": 3,
+      "n_signals": 71,
+      "pct_female": 80.3
+    },
+    {
+      "disease": "Erectile dysfunction",
+      "f_m_prev": 0.0,
+      "n_drugs": 2,
+      "n_signals": 530,
+      "pct_female": 80.6
+    },
+    {
+      "disease": "Type 2 diabetes",
+      "f_m_prev": 0.8,
+      "n_drugs": 5,
+      "n_signals": 1140,
+      "pct_female": 50.4
+    },
+    {
+      "disease": "Hypertension",
+      "f_m_prev": 0.9,
+      "n_drugs": 5,
+      "n_signals": 1219,
+      "pct_female": 56.7
+    }
+  ],
+  "female_prevalent_mean_pct_f": 36.9,
+  "neutral_mean_pct_f": 48.0,
+  "male_prevalent_mean_pct_f": 75.8
+}
