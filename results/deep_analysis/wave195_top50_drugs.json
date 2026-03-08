@@ -1,0 +1,1015 @@
+{
+  "wave": 195,
+  "title": "Top 50 Drugs Deep Dive",
+  "drugs": [
+    {
+      "drug": "PREDNISONE",
+      "n_signals": 926,
+      "pct_female": 70.2,
+      "mean_logr": 0.5557,
+      "mean_abs_logr": 1.0796,
+      "total_f": 519400,
+      "total_m": 109150,
+      "f_m_ratio": 4.76,
+      "top_female_aes": [
+        "Duodenal ulcer perforation",
+        "Helicobacter infection",
+        "Glossodynia"
+      ],
+      "top_male_aes": [
+        "Metastases to bone",
+        "Normochromic normocytic anaemia",
+        "Device dislocation"
+      ]
+    },
+    {
+      "drug": "METHOTREXATE",
+      "n_signals": 892,
+      "pct_female": 48.5,
+      "mean_logr": 0.0815,
+      "mean_abs_logr": 0.9671,
+      "total_f": 581714,
+      "total_m": 104561,
+      "f_m_ratio": 5.56,
+      "top_female_aes": [
+        "Glossodynia",
+        "Pemphigus",
+        "Helicobacter infection"
+      ],
+      "top_male_aes": [
+        "Apparent death",
+        "Chondropathy",
+        "Onychoclasis"
+      ]
+    },
+    {
+      "drug": "ADALIMUMAB",
+      "n_signals": 807,
+      "pct_female": 38.2,
+      "mean_logr": -0.1268,
+      "mean_abs_logr": 0.8792,
+      "total_f": 446574,
+      "total_m": 92852,
+      "f_m_ratio": 4.81,
+      "top_female_aes": [
+        "Pemphigus",
+        "Glossodynia",
+        "Lip dry"
+      ],
+      "top_male_aes": [
+        "Acne cystic",
+        "Post procedural discomfort",
+        "Medical device pain"
+      ]
+    },
+    {
+      "drug": "RITUXIMAB",
+      "n_signals": 755,
+      "pct_female": 66.6,
+      "mean_logr": 0.5724,
+      "mean_abs_logr": 1.1643,
+      "total_f": 585249,
+      "total_m": 98314,
+      "f_m_ratio": 5.95,
+      "top_female_aes": [
+        "Prescribed overdose",
+        "Obesity",
+        "Irritable bowel syndrome"
+      ],
+      "top_male_aes": [
+        "Chondropathy",
+        "Apparent death",
+        "Osteosclerosis"
+      ]
+    },
+    {
+      "drug": "INFLIXIMAB",
+      "n_signals": 623,
+      "pct_female": 50.4,
+      "mean_logr": 0.2247,
+      "mean_abs_logr": 1.0893,
+      "total_f": 449897,
+      "total_m": 86422,
+      "f_m_ratio": 5.21,
+      "top_female_aes": [
+        "Glossodynia",
+        "Obesity",
+        "Sleep disorder due to general medical condition, insomnia type"
+      ],
+      "top_male_aes": [
+        "Onychoclasis",
+        "Apparent death",
+        "Rheumatoid factor negative"
+      ]
+    },
+    {
+      "drug": "ETANERCEPT",
+      "n_signals": 618,
+      "pct_female": 42.6,
+      "mean_logr": -0.0645,
+      "mean_abs_logr": 0.9845,
+      "total_f": 458269,
+      "total_m": 73135,
+      "f_m_ratio": 6.27,
+      "top_female_aes": [
+        "Glossodynia",
+        "Helicobacter infection",
+        "Muscle injury"
+      ],
+      "top_male_aes": [
+        "Breast feeding",
+        "Vein rupture",
+        "Apparent death"
+      ]
+    },
+    {
+      "drug": "TACROLIMUS",
+      "n_signals": 572,
+      "pct_female": 75.9,
+      "mean_logr": 0.4634,
+      "mean_abs_logr": 0.8789,
+      "total_f": 37292,
+      "total_m": 41166,
+      "f_m_ratio": 0.91,
+      "top_female_aes": [
+        "Adenovirus interstitial nephritis",
+        "Infective aneurysm",
+        "Adenovirus reactivation"
+      ],
+      "top_male_aes": [
+        "Polyhydramnios",
+        "Folliculitis",
+        "Sjogren's syndrome"
+      ]
+    },
+    {
+      "drug": "PREDNISOLONE",
+      "n_signals": 542,
+      "pct_female": 82.5,
+      "mean_logr": 0.6072,
+      "mean_abs_logr": 0.8864,
+      "total_f": 49323,
+      "total_m": 26699,
+      "f_m_ratio": 1.85,
+      "top_female_aes": [
+        "Inguinal hernia",
+        "Obesity",
+        "Lower limb fracture"
+      ],
+      "top_male_aes": [
+        "Scleroderma",
+        "Injection site reaction",
+        "Neoplasm progression"
+      ]
+    },
+    {
+      "drug": "DEXAMETHASONE",
+      "n_signals": 537,
+      "pct_female": 80.3,
+      "mean_logr": 0.5446,
+      "mean_abs_logr": 0.8578,
+      "total_f": 37307,
+      "total_m": 31701,
+      "f_m_ratio": 1.18,
+      "top_female_aes": [
+        "Propofol infusion syndrome",
+        "Human herpesvirus 6 infection",
+        "Emotional distress"
+      ],
+      "top_male_aes": [
+        "Complication of device insertion",
+        "Lymphoedema",
+        "Disseminated aspergillosis"
+      ]
+    },
+    {
+      "drug": "METHYLPREDNISOLONE",
+      "n_signals": 521,
+      "pct_female": 77.2,
+      "mean_logr": 0.7814,
+      "mean_abs_logr": 1.1559,
+      "total_f": 150643,
+      "total_m": 30442,
+      "f_m_ratio": 4.95,
+      "top_female_aes": [
+        "Psoriatic arthropathy",
+        "Wound",
+        "Prescribed overdose"
+      ],
+      "top_male_aes": [
+        "Blood immunoglobulin G decreased",
+        "Sjogren's syndrome",
+        "Smooth muscle cell neoplasm"
+      ]
+    },
+    {
+      "drug": "RISPERIDONE",
+      "n_signals": 518,
+      "pct_female": 92.9,
+      "mean_logr": 0.9402,
+      "mean_abs_logr": 1.1677,
+      "total_f": 52031,
+      "total_m": 130270,
+      "f_m_ratio": 0.4,
+      "top_female_aes": [
+        "Blood bilirubin increased",
+        "Cholelithiasis",
+        "Lung neoplasm malignant"
+      ],
+      "top_male_aes": [
+        "Emotional disorder",
+        "Abnormal weight gain",
+        "Injury"
+      ]
+    },
+    {
+      "drug": "TOCILIZUMAB",
+      "n_signals": 508,
+      "pct_female": 49.4,
+      "mean_logr": 0.0924,
+      "mean_abs_logr": 1.1859,
+      "total_f": 497932,
+      "total_m": 46941,
+      "f_m_ratio": 10.61,
+      "top_female_aes": [
+        "Folliculitis",
+        "Pericarditis",
+        "Discomfort"
+      ],
+      "top_male_aes": [
+        "Apparent death",
+        "Joint ankylosis",
+        "Osteolysis"
+      ]
+    },
+    {
+      "drug": "MYCOPHENOLIC ACID",
+      "n_signals": 507,
+      "pct_female": 76.3,
+      "mean_logr": 0.7114,
+      "mean_abs_logr": 1.1122,
+      "total_f": 113435,
+      "total_m": 32653,
+      "f_m_ratio": 3.47,
+      "top_female_aes": [
+        "Injury",
+        "Sciatica",
+        "Gait inability"
+      ],
+      "top_male_aes": [
+        "Rectal prolapse",
+        "Abdominal pain lower",
+        "Procedural pain"
+      ]
+    },
+    {
+      "drug": "PANTOPRAZOLE",
+      "n_signals": 501,
+      "pct_female": 60.3,
+      "mean_logr": 0.3582,
+      "mean_abs_logr": 1.1306,
+      "total_f": 176744,
+      "total_m": 47888,
+      "f_m_ratio": 3.69,
+      "top_female_aes": [
+        "Wound",
+        "Infusion related reaction",
+        "Impaired healing"
+      ],
+      "top_male_aes": [
+        "Juvenile idiopathic arthritis",
+        "Forced expiratory volume decreased",
+        "Spinal osteoarthritis"
+      ]
+    },
+    {
+      "drug": "CYCLOPHOSPHAMIDE",
+      "n_signals": 498,
+      "pct_female": 64.7,
+      "mean_logr": 0.2688,
+      "mean_abs_logr": 0.9085,
+      "total_f": 43272,
+      "total_m": 29050,
+      "f_m_ratio": 1.49,
+      "top_female_aes": [
+        "Disseminated mucormycosis",
+        "Acute promyelocytic leukaemia",
+        "Inguinal hernia"
+      ],
+      "top_male_aes": [
+        "Carbohydrate antigen 15-3 increased",
+        "Diffuse alopecia",
+        "Helicobacter infection"
+      ]
+    },
+    {
+      "drug": "OXYCODONE",
+      "n_signals": 492,
+      "pct_female": 85.0,
+      "mean_logr": 1.0913,
+      "mean_abs_logr": 1.3319,
+      "total_f": 276076,
+      "total_m": 89835,
+      "f_m_ratio": 3.07,
+      "top_female_aes": [
+        "Infusion related reaction",
+        "Pericarditis",
+        "Blister"
+      ],
+      "top_male_aes": [
+        "Psychological trauma",
+        "Ligament sprain",
+        "Burns second degree"
+      ]
+    },
+    {
+      "drug": "PARACETAMOL",
+      "n_signals": 487,
+      "pct_female": 56.9,
+      "mean_logr": 0.3364,
+      "mean_abs_logr": 1.1765,
+      "total_f": 270066,
+      "total_m": 40334,
+      "f_m_ratio": 6.7,
+      "top_female_aes": [
+        "Impaired healing",
+        "Therapeutic product effect decreased",
+        "Irritable bowel syndrome"
+      ],
+      "top_male_aes": [
+        "Device dislocation",
+        "Appendicitis",
+        "Bacterial infection"
+      ]
+    },
+    {
+      "drug": "SECUKINUMAB",
+      "n_signals": 456,
+      "pct_female": 52.2,
+      "mean_logr": 0.2757,
+      "mean_abs_logr": 1.0401,
+      "total_f": 237441,
+      "total_m": 46319,
+      "f_m_ratio": 5.13,
+      "top_female_aes": [
+        "Infusion related reaction",
+        "Delirium",
+        "Intentional product use issue"
+      ],
+      "top_male_aes": [
+        "Pelvic pain",
+        "Injection site warmth",
+        "Lower respiratory tract congestion"
+      ]
+    },
+    {
+      "drug": "MORPHINE",
+      "n_signals": 441,
+      "pct_female": 83.4,
+      "mean_logr": 0.8473,
+      "mean_abs_logr": 1.1171,
+      "total_f": 112230,
+      "total_m": 47580,
+      "f_m_ratio": 2.36,
+      "top_female_aes": [
+        "Orthostatic hypotension",
+        "Upper respiratory tract infection",
+        "Psoriasis"
+      ],
+      "top_male_aes": [
+        "Psychological trauma",
+        "Febrile neutropenia",
+        "Ankle fracture"
+      ]
+    },
+    {
+      "drug": "ACETYLSALICYLIC ACID",
+      "n_signals": 433,
+      "pct_female": 73.0,
+      "mean_logr": 0.4798,
+      "mean_abs_logr": 0.9827,
+      "total_f": 46134,
+      "total_m": 30086,
+      "f_m_ratio": 1.53,
+      "top_female_aes": [
+        "Muscle spasticity",
+        "Coordination abnormal",
+        "Throat clearing"
+      ],
+      "top_male_aes": [
+        "Sensation of foreign body",
+        "Bronchiectasis",
+        "Systemic lupus erythematosus"
+      ]
+    },
+    {
+      "drug": "QUETIAPINE",
+      "n_signals": 426,
+      "pct_female": 63.4,
+      "mean_logr": 0.3701,
+      "mean_abs_logr": 1.0244,
+      "total_f": 82893,
+      "total_m": 28600,
+      "f_m_ratio": 2.9,
+      "top_female_aes": [
+        "Joint swelling",
+        "Upper respiratory tract infection",
+        "Wound"
+      ],
+      "top_male_aes": [
+        "Tearfulness",
+        "Candida infection",
+        "Depression suicidal"
+      ]
+    },
+    {
+      "drug": "AMLODIPINE",
+      "n_signals": 422,
+      "pct_female": 50.5,
+      "mean_logr": 0.0092,
+      "mean_abs_logr": 0.9611,
+      "total_f": 40295,
+      "total_m": 24224,
+      "f_m_ratio": 1.66,
+      "top_female_aes": [
+        "Sedation",
+        "Motor dysfunction",
+        "Hemiplegia"
+      ],
+      "top_male_aes": [
+        "Pemphigus",
+        "Central nervous system lesion",
+        "Injection site swelling"
+      ]
+    },
+    {
+      "drug": "SALBUTAMOL",
+      "n_signals": 418,
+      "pct_female": 42.3,
+      "mean_logr": -0.2191,
+      "mean_abs_logr": 1.0844,
+      "total_f": 77515,
+      "total_m": 41470,
+      "f_m_ratio": 1.87,
+      "top_female_aes": [
+        "Depressed level of consciousness",
+        "Blood lactic acid increased",
+        "Immunodeficiency"
+      ],
+      "top_male_aes": [
+        "Mycotic allergy",
+        "Nodule",
+        "Appendicitis"
+      ]
+    },
+    {
+      "drug": "CICLOSPORIN",
+      "n_signals": 409,
+      "pct_female": 49.4,
+      "mean_logr": -0.0092,
+      "mean_abs_logr": 0.9003,
+      "total_f": 51958,
+      "total_m": 24203,
+      "f_m_ratio": 2.15,
+      "top_female_aes": [
+        "Transplant dysfunction",
+        "Demyelination",
+        "Adverse event"
+      ],
+      "top_male_aes": [
+        "Anti-cyclic citrullinated peptide antibody positive",
+        "Injection site swelling",
+        "Hand deformity"
+      ]
+    },
+    {
+      "drug": "PREGABALIN",
+      "n_signals": 406,
+      "pct_female": 53.9,
+      "mean_logr": 0.173,
+      "mean_abs_logr": 1.0061,
+      "total_f": 120035,
+      "total_m": 34573,
+      "f_m_ratio": 3.47,
+      "top_female_aes": [
+        "Obesity",
+        "Pericarditis",
+        "Psoriatic arthropathy"
+      ],
+      "top_male_aes": [
+        "Full blood count abnormal",
+        "Breath sounds abnormal",
+        "Pelvic pain"
+      ]
+    },
+    {
+      "drug": "DICLOFENAC",
+      "n_signals": 401,
+      "pct_female": 50.6,
+      "mean_logr": 0.3193,
+      "mean_abs_logr": 1.3253,
+      "total_f": 309171,
+      "total_m": 34922,
+      "f_m_ratio": 8.85,
+      "top_female_aes": [
+        "Injury",
+        "Delirium",
+        "Wound"
+      ],
+      "top_male_aes": [
+        "Pelvic pain",
+        "Sensation of foreign body",
+        "Oral herpes"
+      ]
+    },
+    {
+      "drug": "METFORMIN",
+      "n_signals": 399,
+      "pct_female": 62.4,
+      "mean_logr": 0.2421,
+      "mean_abs_logr": 0.9539,
+      "total_f": 45646,
+      "total_m": 24713,
+      "f_m_ratio": 1.85,
+      "top_female_aes": [
+        "Sinus disorder",
+        "Therapeutic product effect decreased",
+        "Sensory loss"
+      ],
+      "top_male_aes": [
+        "Abortion spontaneous",
+        "Neurological symptom",
+        "Vasculitis"
+      ]
+    },
+    {
+      "drug": "ATORVASTATIN",
+      "n_signals": 388,
+      "pct_female": 46.4,
+      "mean_logr": 0.0268,
+      "mean_abs_logr": 0.9567,
+      "total_f": 38452,
+      "total_m": 21663,
+      "f_m_ratio": 1.78,
+      "top_female_aes": [
+        "Gynaecomastia",
+        "Type 2 diabetes mellitus",
+        "Macular degeneration"
+      ],
+      "top_male_aes": [
+        "Pulmonary hypertension",
+        "Tenderness",
+        "Raynaud's phenomenon"
+      ]
+    },
+    {
+      "drug": "FUROSEMIDE",
+      "n_signals": 385,
+      "pct_female": 56.9,
+      "mean_logr": 0.1317,
+      "mean_abs_logr": 0.9661,
+      "total_f": 42278,
+      "total_m": 27454,
+      "f_m_ratio": 1.54,
+      "top_female_aes": [
+        "Creatinine renal clearance decreased",
+        "Blood calcium decreased",
+        "Cognitive disorder"
+      ],
+      "top_male_aes": [
+        "Vasculitis",
+        "Pulmonary fibrosis",
+        "Fungal infection"
+      ]
+    },
+    {
+      "drug": "HYDROXYCHLOROQUINE",
+      "n_signals": 376,
+      "pct_female": 51.9,
+      "mean_logr": 0.1461,
+      "mean_abs_logr": 1.2997,
+      "total_f": 366656,
+      "total_m": 34446,
+      "f_m_ratio": 10.64,
+      "top_female_aes": [
+        "Pericarditis",
+        "Discomfort",
+        "Blister"
+      ],
+      "top_male_aes": [
+        "Apparent death",
+        "Pulmonary thrombosis",
+        "Mass"
+      ]
+    },
+    {
+      "drug": "ZOLEDRONIC ACID",
+      "n_signals": 376,
+      "pct_female": 26.3,
+      "mean_logr": -0.4637,
+      "mean_abs_logr": 0.8516,
+      "total_f": 42911,
+      "total_m": 18012,
+      "f_m_ratio": 2.38,
+      "top_female_aes": [
+        "Neutrophil count decreased",
+        "Skeletal injury",
+        "Iridocyclitis"
+      ],
+      "top_male_aes": [
+        "Facet joint syndrome",
+        "Jaw fistula",
+        "Oroantral fistula"
+      ]
+    },
+    {
+      "drug": "IBUPROFEN",
+      "n_signals": 372,
+      "pct_female": 59.4,
+      "mean_logr": 0.1692,
+      "mean_abs_logr": 0.9171,
+      "total_f": 45970,
+      "total_m": 19412,
+      "f_m_ratio": 2.37,
+      "top_female_aes": [
+        "Ill-defined disorder",
+        "Impaired healing",
+        "Obesity"
+      ],
+      "top_male_aes": [
+        "Plantar fasciitis",
+        "Sensation of foreign body",
+        "Nightmare"
+      ]
+    },
+    {
+      "drug": "LEFLUNOMIDE",
+      "n_signals": 370,
+      "pct_female": 41.9,
+      "mean_logr": -0.2228,
+      "mean_abs_logr": 1.3104,
+      "total_f": 338370,
+      "total_m": 28251,
+      "f_m_ratio": 11.98,
+      "top_female_aes": [
+        "Wound",
+        "Folliculitis",
+        "Pericarditis"
+      ],
+      "top_male_aes": [
+        "Apparent death",
+        "Onychoclasis",
+        "Tooth fracture"
+      ]
+    },
+    {
+      "drug": "RAMIPRIL",
+      "n_signals": 368,
+      "pct_female": 71.2,
+      "mean_logr": 0.6755,
+      "mean_abs_logr": 1.2087,
+      "total_f": 96269,
+      "total_m": 28208,
+      "f_m_ratio": 3.41,
+      "top_female_aes": [
+        "Liver injury",
+        "Road traffic accident",
+        "Treatment failure"
+      ],
+      "top_male_aes": [
+        "Breath sounds abnormal",
+        "Micturition urgency",
+        "Chronic obstructive pulmonary disease"
+      ]
+    },
+    {
+      "drug": "TRAMADOL",
+      "n_signals": 360,
+      "pct_female": 75.3,
+      "mean_logr": 0.7217,
+      "mean_abs_logr": 1.1187,
+      "total_f": 112992,
+      "total_m": 27359,
+      "f_m_ratio": 4.13,
+      "top_female_aes": [
+        "Wheezing",
+        "Wound",
+        "Obesity"
+      ],
+      "top_male_aes": [
+        "Psychological trauma",
+        "Expired product administered",
+        "Aphonia"
+      ]
+    },
+    {
+      "drug": "ABATACEPT",
+      "n_signals": 344,
+      "pct_female": 45.1,
+      "mean_logr": -0.1282,
+      "mean_abs_logr": 1.3424,
+      "total_f": 356683,
+      "total_m": 24416,
+      "f_m_ratio": 14.61,
+      "top_female_aes": [
+        "Liver injury",
+        "Pericarditis",
+        "Discomfort"
+      ],
+      "top_male_aes": [
+        "Apparent death",
+        "Onychoclasis",
+        "Chondropathy"
+      ]
+    },
+    {
+      "drug": "ARIPIPRAZOLE",
+      "n_signals": 342,
+      "pct_female": 47.4,
+      "mean_logr": -0.0372,
+      "mean_abs_logr": 0.8378,
+      "total_f": 26399,
+      "total_m": 21330,
+      "f_m_ratio": 1.24,
+      "top_female_aes": [
+        "Gynaecomastia",
+        "Agitation neonatal",
+        "Disturbance in social behaviour"
+      ],
+      "top_male_aes": [
+        "Pericarditis",
+        "Antipsychotic drug level below therapeutic",
+        "Platelet count decreased"
+      ]
+    },
+    {
+      "drug": "CIPROFLOXACIN",
+      "n_signals": 342,
+      "pct_female": 41.2,
+      "mean_logr": -0.1243,
+      "mean_abs_logr": 0.8965,
+      "total_f": 38629,
+      "total_m": 19573,
+      "f_m_ratio": 1.97,
+      "top_female_aes": [
+        "Loss of employment",
+        "Respiratory tract infection",
+        "Proctitis"
+      ],
+      "top_male_aes": [
+        "Hand deformity",
+        "Muscle injury",
+        "Uveitis"
+      ]
+    },
+    {
+      "drug": "INSULIN",
+      "n_signals": 339,
+      "pct_female": 39.5,
+      "mean_logr": -0.2162,
+      "mean_abs_logr": 0.8519,
+      "total_f": 31181,
+      "total_m": 24189,
+      "f_m_ratio": 1.29,
+      "top_female_aes": [
+        "Malnutrition",
+        "Pharyngitis",
+        "Abnormal weight gain"
+      ],
+      "top_male_aes": [
+        "Pelvic pain",
+        "Abortion spontaneous",
+        "Vasculitis"
+      ]
+    },
+    {
+      "drug": "VALPROIC ACID",
+      "n_signals": 339,
+      "pct_female": 49.3,
+      "mean_logr": -0.0073,
+      "mean_abs_logr": 0.851,
+      "total_f": 20141,
+      "total_m": 21521,
+      "f_m_ratio": 0.94,
+      "top_female_aes": [
+        "Cholelithiasis",
+        "Blood bilirubin increased",
+        "Cardiomegaly"
+      ],
+      "top_male_aes": [
+        "Head discomfort",
+        "Joint laxity",
+        "Middle insomnia"
+      ]
+    },
+    {
+      "drug": "AZATHIOPRINE",
+      "n_signals": 337,
+      "pct_female": 59.3,
+      "mean_logr": 0.3269,
+      "mean_abs_logr": 1.1695,
+      "total_f": 101033,
+      "total_m": 22172,
+      "f_m_ratio": 4.56,
+      "top_female_aes": [
+        "Delirium",
+        "Blood cholesterol increased",
+        "Epilepsy"
+      ],
+      "top_male_aes": [
+        "Polyhydramnios",
+        "Epistaxis",
+        "Scleroderma"
+      ]
+    },
+    {
+      "drug": "ROSUVASTATIN",
+      "n_signals": 337,
+      "pct_female": 49.0,
+      "mean_logr": -0.0486,
+      "mean_abs_logr": 0.9523,
+      "total_f": 33560,
+      "total_m": 23745,
+      "f_m_ratio": 1.41,
+      "top_female_aes": [
+        "Creatinine renal clearance decreased",
+        "Orthostatic hypotension",
+        "Aspiration"
+      ],
+      "top_male_aes": [
+        "Micturition urgency",
+        "Sensation of foreign body",
+        "Systemic lupus erythematosus"
+      ]
+    },
+    {
+      "drug": "OLANZAPINE",
+      "n_signals": 336,
+      "pct_female": 58.9,
+      "mean_logr": 0.2138,
+      "mean_abs_logr": 0.9087,
+      "total_f": 26550,
+      "total_m": 24390,
+      "f_m_ratio": 1.09,
+      "top_female_aes": [
+        "Gynaecomastia",
+        "Sexual dysfunction",
+        "Blood bilirubin increased"
+      ],
+      "top_male_aes": [
+        "COVID-19",
+        "Paradoxical drug reaction",
+        "Faecaloma"
+      ]
+    },
+    {
+      "drug": "GOLIMUMAB",
+      "n_signals": 334,
+      "pct_female": 55.7,
+      "mean_logr": 0.5111,
+      "mean_abs_logr": 1.3765,
+      "total_f": 359858,
+      "total_m": 22734,
+      "f_m_ratio": 15.83,
+      "top_female_aes": [
+        "Pericarditis",
+        "Confusional state",
+        "Ill-defined disorder"
+      ],
+      "top_male_aes": [
+        "Drug specific antibody present",
+        "Pelvic pain",
+        "Medical device complication"
+      ]
+    },
+    {
+      "drug": "GABAPENTIN",
+      "n_signals": 333,
+      "pct_female": 34.8,
+      "mean_logr": -0.4093,
+      "mean_abs_logr": 1.011,
+      "total_f": 26332,
+      "total_m": 21875,
+      "f_m_ratio": 1.2,
+      "top_female_aes": [
+        "Anuria",
+        "Infusion related reaction",
+        "Blood potassium increased"
+      ],
+      "top_male_aes": [
+        "Hand deformity",
+        "Appendicitis",
+        "Myasthenia gravis"
+      ]
+    },
+    {
+      "drug": "NAPROXEN",
+      "n_signals": 331,
+      "pct_female": 54.1,
+      "mean_logr": 0.3764,
+      "mean_abs_logr": 1.2334,
+      "total_f": 173500,
+      "total_m": 26470,
+      "f_m_ratio": 6.55,
+      "top_female_aes": [
+        "Pulmonary fibrosis",
+        "Road traffic accident",
+        "Stomatitis"
+      ],
+      "top_male_aes": [
+        "Micturition urgency",
+        "Full blood count abnormal",
+        "Breath sounds abnormal"
+      ]
+    },
+    {
+      "drug": "TOFACITINIB",
+      "n_signals": 331,
+      "pct_female": 51.4,
+      "mean_logr": 0.0962,
+      "mean_abs_logr": 1.0447,
+      "total_f": 293041,
+      "total_m": 26047,
+      "f_m_ratio": 11.25,
+      "top_female_aes": [
+        "Glossodynia",
+        "Folliculitis",
+        "Pericarditis"
+      ],
+      "top_male_aes": [
+        "Apparent death",
+        "Neoplasm progression",
+        "Stent placement"
+      ]
+    },
+    {
+      "drug": "SULFAMETHOXAZOLE;TRIMETHOPRIM",
+      "n_signals": 327,
+      "pct_female": 63.6,
+      "mean_logr": 0.685,
+      "mean_abs_logr": 1.3294,
+      "total_f": 138392,
+      "total_m": 25356,
+      "f_m_ratio": 5.46,
+      "top_female_aes": [
+        "Wound",
+        "Discomfort",
+        "Joint swelling"
+      ],
+      "top_male_aes": [
+        "Neurological symptom",
+        "Haemoptysis",
+        "Full blood count abnormal"
+      ]
+    },
+    {
+      "drug": "DOXORUBICIN",
+      "n_signals": 325,
+      "pct_female": 71.4,
+      "mean_logr": 0.4281,
+      "mean_abs_logr": 0.8951,
+      "total_f": 24876,
+      "total_m": 16156,
+      "f_m_ratio": 1.54,
+      "top_female_aes": [
+        "Myocarditis",
+        "Inguinal hernia",
+        "Dilated cardiomyopathy"
+      ],
+      "top_male_aes": [
+        "Helicobacter infection",
+        "End stage renal disease",
+        "Crohn's disease"
+      ]
+    },
+    {
+      "drug": "RANITIDINE",
+      "n_signals": 324,
+      "pct_female": 93.5,
+      "mean_logr": 1.3391,
+      "mean_abs_logr": 1.4585,
+      "total_f": 126012,
+      "total_m": 119928,
+      "f_m_ratio": 1.05,
+      "top_female_aes": [
+        "Prescribed overdose",
+        "C-reactive protein increased",
+        "Epilepsy"
+      ],
+      "top_male_aes": [
+        "Uterine cancer",
+        "Seasonal allergy",
+        "Bladder disorder"
+      ]
+    }
+  ],
+  "median_pct_f": 56.3,
+  "count_vs_pctf": {
+    "rho": 0.201,
+    "p": 0.1627
+  },
+  "fm_vs_pctf": {
+    "rho": -0.204,
+    "p": 0.1557
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "wave": 197,
+  "title": "Session 26 Comprehensive Summary",
+  "session": 26,
+  "waves_this_session": [
+    189,
+    190,
+    191,
+    192,
+    193,
+    194,
+    195,
+    196
+  ],
+  "total_waves": 197,
+  "total_jsons": 66,
+  "total_figures": 345,
+  "total_signals": 96281,
+  "total_drugs": 2178,
+  "total_aes": 5069,
+  "global_pct_female": 53.8,
+  "key_findings": [
+    "Wave 189: F:M reporting ratio INVERSELY correlates with %F (\u03c1=-0.227)",
+    "Wave 190: AE direction concordance across drugs = 62.6% \u2192 AE biology partially drives sex bias",
+    "Wave 191: Higher confidence signals MORE female-biased (51.4\u219262.2%F by tier)",
+    "Wave 192: Common AEs more female-biased (57.3%F) vs rare AEs (45.1%F)",
+    "Wave 193: Haematological (71.5%F) and renal (71.1%F) most female-biased organs",
+    "Wave 194: Drug approval era analysis \u2014 pre vs post NIH Revitalization Act",
+    "Wave 195: Top 50 drugs comprehensive profile",
+    "Wave 196: Combination vs monotherapy sex bias comparison"
+  ],
+  "landmarks": {
+    "Severity gradient": "Mild 46.7%F \u2192 Fatal 74.5%F (\u03c1=0.96)",
+    "GLP-1 male bias": "GLP-1 RAs 24.6%F, tirzepatide 8.4%F",
+    "Disease prevalence paradox": "Female diseases \u2192 male-biased drugs (\u03c1=-0.650)",
+    "Route of admin": "Hospital IV 65.1%F vs oral 50.9%F vs SC 38.2%F",
+    "Bleeding female bias": "89.9%F across all anticoagulants",
+    "ACE inhibitor bias": "72.4%F (lisinopril 84.5%F)",
+    "Confidence gradient": "Low conf 51.4%F \u2192 High conf 62.2%F",
+    "Haematological organ": "71.5%F \u2014 most female-biased organ system",
+    "Oncology overall": "65.2%F (+11.4pp above global mean)",
+    "BZD validation": "Zolpidem 60.3%F validates FDA sex-specific dosing"
+  }
+}

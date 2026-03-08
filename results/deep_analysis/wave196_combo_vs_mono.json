@@ -1,0 +1,62 @@
+{
+  "wave": 196,
+  "title": "Drug Combination vs Monotherapy Sex Bias",
+  "mono_signals": 90421,
+  "combo_signals": 5860,
+  "mono_pct_f": 54.0,
+  "combo_pct_f": 50.6,
+  "chi2": 25.1,
+  "p": 5.320459662881721e-07,
+  "top_combos": [
+    {
+      "drug": "SULFAMETHOXAZOLE;TRIMETHOPRIM",
+      "n_signals": 327,
+      "pct_female": 63.6
+    },
+    {
+      "drug": "OXYCODONE;PARACETAMOL",
+      "n_signals": 265,
+      "pct_female": 80.8
+    },
+    {
+      "drug": "FLUTICASONE;SALMETEROL",
+      "n_signals": 252,
+      "pct_female": 35.7
+    },
+    {
+      "drug": "BUDESONIDE;FORMOTEROL",
+      "n_signals": 245,
+      "pct_female": 37.6
+    },
+    {
+      "drug": "CARBIDOPA;LEVODOPA",
+      "n_signals": 217,
+      "pct_female": 61.8
+    },
+    {
+      "drug": "HYDROCODONE;PARACETAMOL",
+      "n_signals": 197,
+      "pct_female": 75.6
+    },
+    {
+      "drug": "EMTRICITABINE;TENOFOVIR",
+      "n_signals": 181,
+      "pct_female": 47.5
+    },
+    {
+      "drug": "FLUTICASONE;VILANTEROL",
+      "n_signals": 175,
+      "pct_female": 18.9
+    },
+    {
+      "drug": "AMOXICILLIN;CLAVULANIC ACID",
+      "n_signals": 162,
+      "pct_female": 42.6
+    },
+    {
+      "drug": "SACUBITRIL;VALSARTAN",
+      "n_signals": 157,
+      "pct_female": 67.5
+    }
+  ]
+}
