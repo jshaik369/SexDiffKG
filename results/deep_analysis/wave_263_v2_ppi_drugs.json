@@ -1,0 +1,597 @@
+{
+  "wave": 263,
+  "version": 2,
+  "title": "Proton Pump Inhibitor (PPI) Drugs Deep Dive",
+  "description": "Per-drug sex bias analysis for PPIs: omeprazole, pantoprazole, esomeprazole, lansoprazole, rabeprazole",
+  "overall_baseline": {
+    "total_signals": 96281,
+    "pct_female": 53.8
+  },
+  "ppi_class_overall": {
+    "total_signals": 1623,
+    "female_higher": 924,
+    "male_higher": 699,
+    "pct_female": 56.93,
+    "median_log_ratio": 0.5589,
+    "mean_log_ratio": 0.1469
+  },
+  "ppi_vs_baseline": {
+    "chi_square": 6.2897,
+    "p_value": "1.2144e-02",
+    "interpretation": "PPIs show significantly different sex bias than overall"
+  },
+  "per_drug_statistics": [
+    {
+      "drug": "OMEPRAZOLE",
+      "total_signals": 721,
+      "female_higher": 407,
+      "male_higher": 314,
+      "pct_female": 56.45,
+      "median_log_ratio": 0.5549,
+      "mean_log_ratio": 0.1058,
+      "strong_signals": 210,
+      "strong_female": 118,
+      "strong_male": 92,
+      "top_10_female_biased": [
+        {
+          "adverse_event": "Sedation",
+          "log_ratio": 2.7764495061781784,
+          "n_reports": 538,
+          "ror": 16.061891941843548
+        },
+        {
+          "adverse_event": "Orthostatic hypotension",
+          "log_ratio": 2.67724004100266,
+          "n_reports": 565,
+          "ror": 14.544894535394537
+        },
+        {
+          "adverse_event": "Coordination abnormal",
+          "log_ratio": 2.549900780391325,
+          "n_reports": 239,
+          "ror": 12.805833129875337
+        },
+        {
+          "adverse_event": "Depressed level of consciousness",
+          "log_ratio": 2.2670643038684397,
+          "n_reports": 523,
+          "ror": 9.65102670380809
+        },
+        {
+          "adverse_event": "Mobility decreased",
+          "log_ratio": 2.206891570424676,
+          "n_reports": 639,
+          "ror": 9.087424824558227
+        },
+        {
+          "adverse_event": "Dysarthria",
+          "log_ratio": 2.1854806530736903,
+          "n_reports": 229,
+          "ror": 8.894922898081822
+        },
+        {
+          "adverse_event": "Malnutrition",
+          "log_ratio": 2.134865307879395,
+          "n_reports": 144,
+          "ror": 8.455907486043778
+        },
+        {
+          "adverse_event": "Arterial occlusive disease",
+          "log_ratio": 1.984814948765743,
+          "n_reports": 190,
+          "ror": 7.277700513374533
+        },
+        {
+          "adverse_event": "Muscle rigidity",
+          "log_ratio": 1.8985586811174588,
+          "n_reports": 99,
+          "ror": 6.67626487767662
+        },
+        {
+          "adverse_event": "Skin exfoliation",
+          "log_ratio": 1.8401668352964973,
+          "n_reports": 168,
+          "ror": 6.297588833488189
+        }
+      ],
+      "top_10_male_biased": [
+        {
+          "adverse_event": "Sedation",
+          "log_ratio": -2.5497361439762973,
+          "n_reports": 222,
+          "ror": 0.07810227103733021
+        },
+        {
+          "adverse_event": "Systemic lupus erythematosus",
+          "log_ratio": -2.348280861394548,
+          "n_reports": 223,
+          "ror": 0.09553325603367871
+        },
+        {
+          "adverse_event": "Hyperhidrosis",
+          "log_ratio": -2.3471779372558688,
+          "n_reports": 244,
+          "ror": 0.0956386800944888
+        },
+        {
+          "adverse_event": "Peripheral venous disease",
+          "log_ratio": -2.317212610393264,
+          "n_reports": 38,
+          "ror": 0.09854789450077076
+        },
+        {
+          "adverse_event": "Systemic lupus erythematosus",
+          "log_ratio": -2.133123489377934,
+          "n_reports": 218,
+          "ror": 0.1184666859236336
+        },
+        {
+          "adverse_event": "Nightmare",
+          "log_ratio": -2.124900581256427,
+          "n_reports": 344,
+          "ror": 0.11944484273262838
+        },
+        {
+          "adverse_event": "Burns second degree",
+          "log_ratio": -2.0966900044856365,
+          "n_reports": 101,
+          "ror": 0.12286243004257347
+        },
+        {
+          "adverse_event": "Gingival pain",
+          "log_ratio": -2.055009830266846,
+          "n_reports": 110,
+          "ror": 0.1280915763969663
+        },
+        {
+          "adverse_event": "Impaired quality of life",
+          "log_ratio": -1.9034287600178401,
+          "n_reports": 93,
+          "ror": 0.14905666251103644
+        },
+        {
+          "adverse_event": "Catarrh",
+          "log_ratio": -1.889319961943075,
+          "n_reports": 97,
+          "ror": 0.1511745783553396
+        }
+      ]
+    },
+    {
+      "drug": "PANTOPRAZOLE",
+      "total_signals": 517,
+      "female_higher": 316,
+      "male_higher": 201,
+      "pct_female": 61.12,
+      "median_log_ratio": 0.6099,
+      "mean_log_ratio": 0.3622,
+      "strong_signals": 231,
+      "strong_female": 161,
+      "strong_male": 70,
+      "top_10_female_biased": [
+        {
+          "adverse_event": "Wound",
+          "log_ratio": 3.854618499446514,
+          "n_reports": 1109,
+          "ror": 47.21060263422376
+        },
+        {
+          "adverse_event": "Infusion related reaction",
+          "log_ratio": 3.5936547867881874,
+          "n_reports": 1451,
+          "ror": 36.366746041268065
+        },
+        {
+          "adverse_event": "Impaired healing",
+          "log_ratio": 3.5319147325383744,
+          "n_reports": 1038,
+          "ror": 34.18936847848462
+        },
+        {
+          "adverse_event": "Bursitis",
+          "log_ratio": 3.2941984853672213,
+          "n_reports": 1061,
+          "ror": 26.9557999409457
+        },
+        {
+          "adverse_event": "Disability",
+          "log_ratio": 3.2707792296774034,
+          "n_reports": 320,
+          "ror": 26.331849909917683
+        },
+        {
+          "adverse_event": "Road traffic accident",
+          "log_ratio": 3.167386589781278,
+          "n_reports": 659,
+          "ror": 23.745346864274136
+        },
+        {
+          "adverse_event": "Gait inability",
+          "log_ratio": 3.1301429549808897,
+          "n_reports": 726,
+          "ror": 22.87724972548808
+        },
+        {
+          "adverse_event": "Wound infection",
+          "log_ratio": 3.1283092501800636,
+          "n_reports": 682,
+          "ror": 22.83533804140882
+        },
+        {
+          "adverse_event": "Injury",
+          "log_ratio": 3.093657192335079,
+          "n_reports": 842,
+          "ror": 22.05759952853829
+        },
+        {
+          "adverse_event": "Hip arthroplasty",
+          "log_ratio": 2.9664304654286457,
+          "n_reports": 433,
+          "ror": 19.42246654644691
+        }
+      ],
+      "top_10_male_biased": [
+        {
+          "adverse_event": "Juvenile idiopathic arthritis",
+          "log_ratio": -2.6240331126054195,
+          "n_reports": 61,
+          "ror": 0.07250983199403271
+        },
+        {
+          "adverse_event": "Forced expiratory volume decreased",
+          "log_ratio": -2.453598264778437,
+          "n_reports": 111,
+          "ror": 0.08598363730052992
+        },
+        {
+          "adverse_event": "Spinal osteoarthritis",
+          "log_ratio": -2.3702797456131086,
+          "n_reports": 60,
+          "ror": 0.09345457911241996
+        },
+        {
+          "adverse_event": "Pulmonary function test abnormal",
+          "log_ratio": -2.271105591395023,
+          "n_reports": 75,
+          "ror": 0.10319802214344534
+        },
+        {
+          "adverse_event": "Pelvic pain",
+          "log_ratio": -2.1788196289290704,
+          "n_reports": 39,
+          "ror": 0.11317504037304317
+        },
+        {
+          "adverse_event": "Conjunctivitis allergic",
+          "log_ratio": -2.0535248924934963,
+          "n_reports": 85,
+          "ror": 0.12828192571067176
+        },
+        {
+          "adverse_event": "Ventricular tachycardia",
+          "log_ratio": -2.019489766470858,
+          "n_reports": 131,
+          "ror": 0.13272316761681283
+        },
+        {
+          "adverse_event": "Swelling of eyelid",
+          "log_ratio": -1.9690392071646636,
+          "n_reports": 41,
+          "ror": 0.13959090975186741
+        },
+        {
+          "adverse_event": "Dyspnoea at rest",
+          "log_ratio": -1.9495945474683116,
+          "n_reports": 91,
+          "ror": 0.14233176866495476
+        },
+        {
+          "adverse_event": "Troponin increased",
+          "log_ratio": -1.910395187608947,
+          "n_reports": 96,
+          "ror": 0.14802187862312613
+        }
+      ]
+    },
+    {
+      "drug": "LANSOPRAZOLE",
+      "total_signals": 320,
+      "female_higher": 180,
+      "male_higher": 140,
+      "pct_female": 56.25,
+      "median_log_ratio": 0.5429,
+      "mean_log_ratio": 0.0445,
+      "strong_signals": 120,
+      "strong_female": 63,
+      "strong_male": 57,
+      "top_10_female_biased": [
+        {
+          "adverse_event": "Hyperglycaemia",
+          "log_ratio": 2.5225087688782053,
+          "n_reports": 183,
+          "ror": 12.459816285119864
+        },
+        {
+          "adverse_event": "Haemoptysis",
+          "log_ratio": 2.3403949755471065,
+          "n_reports": 106,
+          "ror": 10.385337707195424
+        },
+        {
+          "adverse_event": "Delirium",
+          "log_ratio": 2.179253495655721,
+          "n_reports": 189,
+          "ror": 8.839704916939647
+        },
+        {
+          "adverse_event": "Haemoptysis",
+          "log_ratio": 2.150010203560007,
+          "n_reports": 118,
+          "ror": 8.5849459937426
+        },
+        {
+          "adverse_event": "Hypoxia",
+          "log_ratio": 2.1335771899688334,
+          "n_reports": 168,
+          "ror": 8.445022292372517
+        },
+        {
+          "adverse_event": "Osteoporosis",
+          "log_ratio": 2.0097892545035005,
+          "n_reports": 248,
+          "ror": 7.4617446525242945
+        },
+        {
+          "adverse_event": "Blister",
+          "log_ratio": 1.984469105757528,
+          "n_reports": 170,
+          "ror": 7.275184006719298
+        },
+        {
+          "adverse_event": "Injury",
+          "log_ratio": 1.9800414781789695,
+          "n_reports": 153,
+          "ror": 7.243043407181217
+        },
+        {
+          "adverse_event": "C-reactive protein increased",
+          "log_ratio": 1.8965766522946375,
+          "n_reports": 111,
+          "ror": 6.66304543324786
+        },
+        {
+          "adverse_event": "Rales",
+          "log_ratio": 1.8930461122642774,
+          "n_reports": 102,
+          "ror": 6.639562762268684
+        }
+      ],
+      "top_10_male_biased": [
+        {
+          "adverse_event": "Stress",
+          "log_ratio": -3.153882130127531,
+          "n_reports": 295,
+          "ror": 0.042686091827640424
+        },
+        {
+          "adverse_event": "Pelvic pain",
+          "log_ratio": -2.777140472315983,
+          "n_reports": 57,
+          "ror": 0.062216162089907955
+        },
+        {
+          "adverse_event": "Ascites",
+          "log_ratio": -2.696802372395255,
+          "n_reports": 259,
+          "ror": 0.06742075489119902
+        },
+        {
+          "adverse_event": "Sleep disorder",
+          "log_ratio": -2.6593655860403485,
+          "n_reports": 98,
+          "ror": 0.06999261195237785
+        },
+        {
+          "adverse_event": "Neuralgia",
+          "log_ratio": -2.5368126397134283,
+          "n_reports": 131,
+          "ror": 0.07911817645963504
+        },
+        {
+          "adverse_event": "Bacterial infection",
+          "log_ratio": -2.5302597370463715,
+          "n_reports": 133,
+          "ror": 0.07963833257405098
+        },
+        {
+          "adverse_event": "Stress",
+          "log_ratio": -2.526465536889457,
+          "n_reports": 141,
+          "ror": 0.0799410703085967
+        },
+        {
+          "adverse_event": "Ventricular fibrillation",
+          "log_ratio": -2.3302839389373284,
+          "n_reports": 237,
+          "ror": 0.0972681249601822
+        },
+        {
+          "adverse_event": "Thrombosis",
+          "log_ratio": -2.303816131850729,
+          "n_reports": 107,
+          "ror": 0.09987697185608148
+        },
+        {
+          "adverse_event": "Sepsis",
+          "log_ratio": -2.3030182309888128,
+          "n_reports": 117,
+          "ror": 0.0999566955795952
+        }
+      ]
+    },
+    {
+      "drug": "RABEPRAZOLE",
+      "total_signals": 65,
+      "female_higher": 21,
+      "male_higher": 44,
+      "pct_female": 32.31,
+      "median_log_ratio": -0.8487,
+      "mean_log_ratio": -0.6045,
+      "strong_signals": 38,
+      "strong_female": 9,
+      "strong_male": 29,
+      "top_10_female_biased": [
+        {
+          "adverse_event": "Angioedema",
+          "log_ratio": 1.8502027555377853,
+          "n_reports": 203,
+          "ror": 6.361109141963669
+        },
+        {
+          "adverse_event": "Cardiac failure",
+          "log_ratio": 1.577780727407247,
+          "n_reports": 86,
+          "ror": 4.844193287770479
+        },
+        {
+          "adverse_event": "Myocardial infarction",
+          "log_ratio": 1.5121991177286755,
+          "n_reports": 95,
+          "ror": 4.536696562189074
+        },
+        {
+          "adverse_event": "Pneumonia",
+          "log_ratio": 1.5068802280644613,
+          "n_reports": 199,
+          "ror": 4.5126304330146825
+        },
+        {
+          "adverse_event": "Drug intolerance",
+          "log_ratio": 1.506778577683591,
+          "n_reports": 308,
+          "ror": 4.512171745725703
+        },
+        {
+          "adverse_event": "Obstructive airways disorder",
+          "log_ratio": 1.3603690374453774,
+          "n_reports": 252,
+          "ror": 3.8976314083592727
+        },
+        {
+          "adverse_event": "Drug ineffective",
+          "log_ratio": 1.3357745336461888,
+          "n_reports": 655,
+          "ror": 3.8029403112427698
+        },
+        {
+          "adverse_event": "Full blood count abnormal",
+          "log_ratio": 1.304842643452797,
+          "n_reports": 159,
+          "ror": 3.6871088573352684
+        },
+        {
+          "adverse_event": "Pulmonary mass",
+          "log_ratio": 1.0861550012715884,
+          "n_reports": 106,
+          "ror": 2.9628599502412296
+        },
+        {
+          "adverse_event": "Off label use",
+          "log_ratio": 0.9827298758277797,
+          "n_reports": 341,
+          "ror": 2.6717398137184882
+        }
+      ],
+      "top_10_male_biased": [
+        {
+          "adverse_event": "Insomnia",
+          "log_ratio": -2.648495809023908,
+          "n_reports": 107,
+          "ror": 0.07075756594503693
+        },
+        {
+          "adverse_event": "Micturition urgency",
+          "log_ratio": -2.6158006793520543,
+          "n_reports": 85,
+          "ror": 0.07310922820555421
+        },
+        {
+          "adverse_event": "Hypoaesthesia",
+          "log_ratio": -2.492007591808612,
+          "n_reports": 115,
+          "ror": 0.08274368417486551
+        },
+        {
+          "adverse_event": "Chest discomfort",
+          "log_ratio": -2.215407907491835,
+          "n_reports": 71,
+          "ror": 0.10910899879195332
+        },
+        {
+          "adverse_event": "Memory impairment",
+          "log_ratio": -2.1701252004760456,
+          "n_reports": 96,
+          "ror": 0.11416332271368432
+        },
+        {
+          "adverse_event": "Lung disorder",
+          "log_ratio": -2.1260656663518387,
+          "n_reports": 60,
+          "ror": 0.11930576036376711
+        },
+        {
+          "adverse_event": "Chest pain",
+          "log_ratio": -2.1054556551037056,
+          "n_reports": 94,
+          "ror": 0.12179016731270953
+        },
+        {
+          "adverse_event": "Dry mouth",
+          "log_ratio": -2.013087224286309,
+          "n_reports": 46,
+          "ror": 0.13357565944163272
+        },
+        {
+          "adverse_event": "Migraine",
+          "log_ratio": -1.9784355958969935,
+          "n_reports": 37,
+          "ror": 0.13828540243295673
+        },
+        {
+          "adverse_event": "Palpitations",
+          "log_ratio": -1.9783015105939843,
+          "n_reports": 59,
+          "ror": 0.13830394571620677
+        }
+      ]
+    }
+  ],
+  "cross_ppi_comparison": {
+    "chi_square": {
+      "statistic": 19.9049,
+      "p_value": "1.7762e-04",
+      "dof": 3,
+      "interpretation": "Significant heterogeneity across PPIs"
+    },
+    "kruskal_wallis": {
+      "statistic": 39.4735,
+      "p_value": "1.3777e-08",
+      "interpretation": "Log ratio distributions differ across PPIs"
+    }
+  },
+  "key_findings": [
+    "PPI class overall: 56.9% female-biased (1,623 signals)",
+    "Comparison to baseline (53.8%F): chi2=6.29, p=1.21e-02",
+    "OMEPRAZOLE has the most signals (721), 56.5% female-biased",
+    "Chi-square test across PPIs: p=1.78e-04 (significant heterogeneity)",
+    "Kruskal-Wallis test: p=1.38e-08 (significant difference in log ratio distributions)"
+  ],
+  "figures_generated": [
+    "wave_263_v2_ppi_comparison.png",
+    "wave_263_v2_ppi_comparison.pdf",
+    "wave_263_v2_ppi_violin.png",
+    "wave_263_v2_ppi_violin.pdf",
+    "wave_263_v2_ppi_top_aes.png",
+    "wave_263_v2_ppi_top_aes.pdf"
+  ]
+}
