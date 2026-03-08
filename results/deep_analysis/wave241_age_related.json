@@ -1,0 +1,42 @@
+{
+  "wave": 241,
+  "title": "Age-Related AE Sex Bias",
+  "age_signals": 5496,
+  "age_aes": 170,
+  "age_pct_f": 60.1,
+  "non_age_pct_f": 53.4,
+  "delta_pp": 6.7,
+  "mann_whitney_p": 5.776150267511502e-22,
+  "categories": {
+    "Falls/Fractures": {
+      "n": 1012,
+      "pct_f": 42.4,
+      "n_aes": 49
+    },
+    "Cognitive": {
+      "n": 814,
+      "pct_f": 65.2,
+      "n_aes": 15
+    },
+    "Cardiovascular aging": {
+      "n": 1222,
+      "pct_f": 72.3,
+      "n_aes": 31
+    },
+    "Renal aging": {
+      "n": 1372,
+      "pct_f": 74.1,
+      "n_aes": 42
+    },
+    "Visual/Hearing": {
+      "n": 571,
+      "pct_f": 32.4,
+      "n_aes": 19
+    },
+    "Metabolic aging": {
+      "n": 505,
+      "pct_f": 50.9,
+      "n_aes": 14
+    }
+  }
+}

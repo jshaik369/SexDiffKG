@@ -1,0 +1,61 @@
+{
+  "wave": 247,
+  "title": "Dermatological AE Sex Bias",
+  "derm_signals": 4169,
+  "derm_aes": 179,
+  "derm_pct_f": 45.8,
+  "non_derm_pct_f": 54.1,
+  "delta_pp": -8.3,
+  "categories": {
+    "Severe cutaneous": {
+      "n": 315,
+      "pct_f": 67.3,
+      "n_aes": 4
+    },
+    "Rash/Eruption": {
+      "n": 2018,
+      "pct_f": 47.4,
+      "n_aes": 78
+    },
+    "Alopecia": {
+      "n": 208,
+      "pct_f": 30.8,
+      "n_aes": 4
+    },
+    "Photosensitivity": {
+      "n": 75,
+      "pct_f": 21.3,
+      "n_aes": 2
+    },
+    "Pruritus": {
+      "n": 450,
+      "pct_f": 49.1,
+      "n_aes": 13
+    },
+    "Pigmentation": {
+      "n": 50,
+      "pct_f": 16.0,
+      "n_aes": 10
+    },
+    "Blister/Ulcer": {
+      "n": 267,
+      "pct_f": 67.8,
+      "n_aes": 13
+    },
+    "Acne/Skin infection": {
+      "n": 458,
+      "pct_f": 35.4,
+      "n_aes": 47
+    },
+    "Nail": {
+      "n": 56,
+      "pct_f": 42.9,
+      "n_aes": 4
+    },
+    "Dry skin": {
+      "n": 272,
+      "pct_f": 23.9,
+      "n_aes": 4
+    }
+  }
+}

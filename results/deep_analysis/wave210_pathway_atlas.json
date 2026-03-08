@@ -1,0 +1,211 @@
+{
+  "wave": 210,
+  "title": "Reactome Pathway Sex Bias Atlas",
+  "pathways_analyzed": 328,
+  "most_female_pathways": [
+    {
+      "id": "R-HSA-9701898",
+      "name": "STAT3 nuclear events downstream of ALK signaling",
+      "n_drugs": 6,
+      "mean_pct_f": 81.4
+    },
+    {
+      "id": "R-HSA-9710421",
+      "name": "Defective pyroptosis",
+      "n_drugs": 6,
+      "mean_pct_f": 78.4
+    },
+    {
+      "id": "R-HSA-5685942",
+      "name": "HDR through Homologous Recombination (HRR)",
+      "n_drugs": 6,
+      "mean_pct_f": 77.6
+    },
+    {
+      "id": "R-HSA-499943",
+      "name": "Interconversion of nucleotide di- and triphosphates",
+      "n_drugs": 7,
+      "mean_pct_f": 76.1
+    },
+    {
+      "id": "R-HSA-75205",
+      "name": "Dissolution of Fibrin Clot",
+      "n_drugs": 5,
+      "mean_pct_f": 76.0
+    },
+    {
+      "id": "R-HSA-5628897",
+      "name": "TP53 Regulates Metabolic Genes",
+      "n_drugs": 5,
+      "mean_pct_f": 75.3
+    },
+    {
+      "id": "R-HSA-6782135",
+      "name": "Dual incision in TC-NER",
+      "n_drugs": 7,
+      "mean_pct_f": 74.7
+    },
+    {
+      "id": "R-HSA-110314",
+      "name": "Recognition of DNA damage by PCNA-containing replication complex",
+      "n_drugs": 7,
+      "mean_pct_f": 74.7
+    },
+    {
+      "id": "R-HSA-6782210",
+      "name": "Gap-filling DNA repair synthesis and ligation in TC-NER",
+      "n_drugs": 7,
+      "mean_pct_f": 74.7
+    },
+    {
+      "id": "R-HSA-9748787",
+      "name": "Azathioprine ADME",
+      "n_drugs": 5,
+      "mean_pct_f": 74.6
+    }
+  ],
+  "most_male_pathways": [
+    {
+      "id": "R-HSA-9665246",
+      "name": "Resistance of ERBB2 KD mutants to neratinib",
+      "n_drugs": 5,
+      "mean_pct_f": 25.4
+    },
+    {
+      "id": "R-HSA-9652282",
+      "name": "Drug-mediated inhibition of ERBB2 signaling",
+      "n_drugs": 5,
+      "mean_pct_f": 25.4
+    },
+    {
+      "id": "R-HSA-9665251",
+      "name": "Resistance of ERBB2 KD mutants to lapatinib",
+      "n_drugs": 5,
+      "mean_pct_f": 25.4
+    },
+    {
+      "id": "R-HSA-9665249",
+      "name": "Resistance of ERBB2 KD mutants to afatinib",
+      "n_drugs": 5,
+      "mean_pct_f": 25.4
+    },
+    {
+      "id": "R-HSA-9665737",
+      "name": "Drug resistance in ERBB2 TMD/JMD mutants",
+      "n_drugs": 5,
+      "mean_pct_f": 25.4
+    },
+    {
+      "id": "R-HSA-9938206",
+      "name": "Developmental Lineage of Mammary Stem Cells",
+      "n_drugs": 6,
+      "mean_pct_f": 24.9
+    },
+    {
+      "id": "R-HSA-912694",
+      "name": "Regulation of IFNA/IFNB signaling",
+      "n_drugs": 8,
+      "mean_pct_f": 23.8
+    },
+    {
+      "id": "R-HSA-381676",
+      "name": "Glucagon-like Peptide-1 (GLP1) regulates insulin secretion",
+      "n_drugs": 6,
+      "mean_pct_f": 23.6
+    },
+    {
+      "id": "R-HSA-977225",
+      "name": "Amyloid fiber formation",
+      "n_drugs": 5,
+      "mean_pct_f": 22.8
+    },
+    {
+      "id": "R-HSA-419812",
+      "name": "Calcitonin-like ligand receptors",
+      "n_drugs": 5,
+      "mean_pct_f": 13.5
+    }
+  ],
+  "pathway_categories": [
+    {
+      "category": "DNA Processes",
+      "n_pathways": 4,
+      "mean_pct_f": 67.0
+    },
+    {
+      "category": "ECM",
+      "n_pathways": 1,
+      "mean_pct_f": 63.5
+    },
+    {
+      "category": "Cell Cycle",
+      "n_pathways": 6,
+      "mean_pct_f": 59.6
+    },
+    {
+      "category": "Metabolism",
+      "n_pathways": 3,
+      "mean_pct_f": 58.7
+    },
+    {
+      "category": "Transport",
+      "n_pathways": 7,
+      "mean_pct_f": 55.8
+    },
+    {
+      "category": "Disease",
+      "n_pathways": 1,
+      "mean_pct_f": 55.3
+    },
+    {
+      "category": "Other",
+      "n_pathways": 183,
+      "mean_pct_f": 54.4
+    },
+    {
+      "category": "Lipid Metabolism",
+      "n_pathways": 2,
+      "mean_pct_f": 54.0
+    },
+    {
+      "category": "Hemostasis",
+      "n_pathways": 2,
+      "mean_pct_f": 53.9
+    },
+    {
+      "category": "Muscle",
+      "n_pathways": 1,
+      "mean_pct_f": 52.9
+    },
+    {
+      "category": "Signaling",
+      "n_pathways": 88,
+      "mean_pct_f": 52.9
+    },
+    {
+      "category": "Neuronal",
+      "n_pathways": 5,
+      "mean_pct_f": 49.5
+    },
+    {
+      "category": "Gene Expression",
+      "n_pathways": 15,
+      "mean_pct_f": 47.8
+    },
+    {
+      "category": "Development",
+      "n_pathways": 7,
+      "mean_pct_f": 46.2
+    },
+    {
+      "category": "Immune System",
+      "n_pathways": 2,
+      "mean_pct_f": 44.6
+    },
+    {
+      "category": "Cytokines",
+      "n_pathways": 1,
+      "mean_pct_f": 30.5
+    }
+  ]
+}

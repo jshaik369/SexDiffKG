@@ -1,0 +1,106 @@
+{
+  "wave": 208,
+  "title": "Drug-AE Specificity Index",
+  "drugs_analyzed": 1090,
+  "mean_gini": 0.2,
+  "specificity_vs_pctf": {
+    "rho": 0.082,
+    "p": 0.006497713450920348
+  },
+  "gini_vs_pctf": {
+    "rho": -0.016,
+    "p": 0.6026207507008339
+  },
+  "breadth_vs_pctf": {
+    "rho": 0.2,
+    "p": 2.4263280784018702e-11
+  },
+  "quadrants": [
+    {
+      "quadrant": "Focused + Female",
+      "n_drugs": 220,
+      "mean_pct_f": 71.4,
+      "mean_abs_logr": 1.0492
+    },
+    {
+      "quadrant": "Focused + Male",
+      "n_drugs": 325,
+      "mean_pct_f": 33.3,
+      "mean_abs_logr": 1.1284
+    },
+    {
+      "quadrant": "Broad + Female",
+      "n_drugs": 243,
+      "mean_pct_f": 73.8,
+      "mean_abs_logr": 0.8016
+    },
+    {
+      "quadrant": "Broad + Male",
+      "n_drugs": 302,
+      "mean_pct_f": 29.7,
+      "mean_abs_logr": 0.8095
+    }
+  ],
+  "most_focused": [
+    {
+      "drug": "OXYCODONE;PARACETAMOL",
+      "gini": 0.365,
+      "pct_female": 80.8,
+      "n_signals": 265
+    },
+    {
+      "drug": "DESOXIMETASONE",
+      "gini": 0.354,
+      "pct_female": 43.0,
+      "n_signals": 79
+    },
+    {
+      "drug": "OXYCODONE",
+      "gini": 0.353,
+      "pct_female": 85.0,
+      "n_signals": 492
+    },
+    {
+      "drug": "SODIUM CITRATE",
+      "gini": 0.347,
+      "pct_female": 3.7,
+      "n_signals": 27
+    },
+    {
+      "drug": "PERTUZUMAB",
+      "gini": 0.343,
+      "pct_female": 7.5,
+      "n_signals": 53
+    },
+    {
+      "drug": "ATOMOXETINE",
+      "gini": 0.339,
+      "pct_female": 68.6,
+      "n_signals": 105
+    },
+    {
+      "drug": "USTEKINUMAB",
+      "gini": 0.337,
+      "pct_female": 65.0,
+      "n_signals": 314
+    },
+    {
+      "drug": "APREMILAST",
+      "gini": 0.335,
+      "pct_female": 66.8,
+      "n_signals": 214
+    },
+    {
+      "drug": "CANAKINUMAB",
+      "gini": 0.331,
+      "pct_female": 26.5,
+      "n_signals": 68
+    },
+    {
+      "drug": "CETIRIZINE",
+      "gini": 0.33,
+      "pct_female": 44.3,
+      "n_signals": 244
+    }
+  ]
+}

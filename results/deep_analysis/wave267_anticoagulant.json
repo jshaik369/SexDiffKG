@@ -1,0 +1,34 @@
+{
+  "wave": 267,
+  "title": "Anticoagulant/Antithrombotic Deep Dive",
+  "ac_signals": 1911,
+  "ac_pct_f": 68.1,
+  "classes": {
+    "DOAC": {
+      "n": 744,
+      "pct_f": 67.9,
+      "n_drugs": 4
+    },
+    "VKA": {
+      "n": 256,
+      "pct_f": 59.8,
+      "n_drugs": 3
+    },
+    "Heparin": {
+      "n": 340,
+      "pct_f": 52.6,
+      "n_drugs": 5
+    },
+    "Antiplatelet": {
+      "n": 496,
+      "pct_f": 82.5,
+      "n_drugs": 5
+    },
+    "Thrombolytic": {
+      "n": 75,
+      "pct_f": 74.7,
+      "n_drugs": 2
+    }
+  },
+  "bleeding_pct_f": 91.3
+}

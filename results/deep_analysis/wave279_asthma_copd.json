@@ -1,0 +1,48 @@
+{
+  "wave": 279,
+  "title": "Asthma/COPD Drug Deep Dive",
+  "resp_signals": 3214,
+  "resp_pct_f": 36.8,
+  "classes": {
+    "ICS": {
+      "n": 722,
+      "pct_f": 40.2,
+      "n_drugs": 4
+    },
+    "LABA": {
+      "n": 145,
+      "pct_f": 49.7,
+      "n_drugs": 5
+    },
+    "LAMA": {
+      "n": 609,
+      "pct_f": 33.3,
+      "n_drugs": 5
+    },
+    "SABA": {
+      "n": 445,
+      "pct_f": 42.5,
+      "n_drugs": 3
+    },
+    "Leukotriene": {
+      "n": 285,
+      "pct_f": 40.0,
+      "n_drugs": 2
+    },
+    "Biologic (asthma)": {
+      "n": 897,
+      "pct_f": 30.1,
+      "n_drugs": 5
+    },
+    "PDE4i": {
+      "n": 17,
+      "pct_f": 82.4,
+      "n_drugs": 1
+    },
+    "Xanthine": {
+      "n": 94,
+      "pct_f": 31.9,
+      "n_drugs": 2
+    }
+  }
+}

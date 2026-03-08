@@ -1,0 +1,43 @@
+{
+  "wave": 246,
+  "title": "Nephrotoxicity Sex Bias Deep Dive",
+  "nephro_signals": 2768,
+  "nephro_aes": 63,
+  "nephro_drugs": 774,
+  "nephro_pct_f": 73.8,
+  "non_nephro_pct_f": 53.2,
+  "delta_pp": 20.7,
+  "mann_whitney_p": 1.8042949344851158e-102,
+  "categories": {
+    "Acute kidney": {
+      "n": 425,
+      "pct_f": 75.5,
+      "n_aes": 4
+    },
+    "Chronic kidney": {
+      "n": 557,
+      "pct_f": 78.1,
+      "n_aes": 12
+    },
+    "Tubular/Interstitial": {
+      "n": 245,
+      "pct_f": 70.6,
+      "n_aes": 21
+    },
+    "Electrolyte": {
+      "n": 677,
+      "pct_f": 71.6,
+      "n_aes": 9
+    },
+    "Urinary": {
+      "n": 580,
+      "pct_f": 71.7,
+      "n_aes": 7
+    },
+    "Creatinine/GFR": {
+      "n": 284,
+      "pct_f": 75.4,
+      "n_aes": 10
+    }
+  }
+}

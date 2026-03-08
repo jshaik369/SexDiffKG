@@ -1,0 +1,110 @@
+{
+  "wave": 220,
+  "title": "220 Waves Grand Synthesis",
+  "total_jsons": 89,
+  "total_figures_png": 368,
+  "total_figures_pdf": 368,
+  "total_waves": 220,
+  "landmark_discoveries": [
+    {
+      "wave": "W1-10",
+      "finding": "Core signal: 53.8%F overall, 96K signals, 3,441 drugs"
+    },
+    {
+      "wave": "W15",
+      "finding": "Severity gradient: fatal AEs MORE female-biased"
+    },
+    {
+      "wave": "W20",
+      "finding": "Drug class spectrum: GLP-1 24.6%F \u2192 Antiplatelet 82.8%F"
+    },
+    {
+      "wave": "W25",
+      "finding": "Opioid paradox: 75.7%F despite male-dominated prescribing"
+    },
+    {
+      "wave": "W35",
+      "finding": "Anti-regression phenomenon: effect sizes INCREASE with confirmation"
+    },
+    {
+      "wave": "W45",
+      "finding": "Temporal stability: signal direction constant across 20 years"
+    },
+    {
+      "wave": "W55",
+      "finding": "Validation: 82.8% directional precision across 40 benchmarks"
+    },
+    {
+      "wave": "W65",
+      "finding": "SOC atlas: haematological 71.5%F, ocular 39.6%F most polarized"
+    },
+    {
+      "wave": "W75",
+      "finding": "Reproductive paradox: breast cancer drugs 82.1%F even for breast-specific AEs"
+    },
+    {
+      "wave": "W80",
+      "finding": "FDA BBW drugs: +6.8pp more female-biased (p=5.6e-57)"
+    },
+    {
+      "wave": "W100",
+      "finding": "Centennial: 100 waves, 69 JSONs, 279 figures complete"
+    },
+    {
+      "wave": "W106",
+      "finding": "Disease triangulation: 1,084 diseases with sex-biased drug safety"
+    },
+    {
+      "wave": "W110",
+      "finding": "Herb-drug: 873 toxic NPs mapped to sex-biased drug targets"
+    },
+    {
+      "wave": "W121-130",
+      "finding": "External DB: CTD+NPASS+LOTUS integration (577K compounds)"
+    },
+    {
+      "wave": "W190",
+      "finding": "Polypharmacy: AE concordance 62.6% across drug pairs"
+    },
+    {
+      "wave": "W191",
+      "finding": "Confidence gradient: 51.4%F \u2192 62.2%F with higher confidence"
+    },
+    {
+      "wave": "W198",
+      "finding": "Report volume: D1=42.2%F \u2192 D10=82.5%F (most reported=most female)"
+    },
+    {
+      "wave": "W199",
+      "finding": "Asymmetry: 87.2% of female signals are genuine F excess"
+    },
+    {
+      "wave": "W206",
+      "finding": "Pathway atlas: 328 Reactome pathways, STAT3/ALK 81.4%F"
+    },
+    {
+      "wave": "W207",
+      "finding": "PPI hub drugs: +3.4pp more female (hub\u2192%F \u03c1=0.118)"
+    },
+    {
+      "wave": "W212",
+      "finding": "Signal stability: cross-tier \u03c1=0.646, 53.8\u219267.0%F with data"
+    },
+    {
+      "wave": "W213",
+      "finding": "43 SDE pharmacogenes overlap drug targets (CYP3A4, ESR1, AR)"
+    },
+    {
+      "wave": "W214",
+      "finding": "MoA atlas: Activators 58.8%F, Agonists 41.4%F, GLP1R most male"
+    },
+    {
+      "wave": "W209",
+      "finding": "Class interaction: CPI\u00d7Biologic most discordant (\u03c1=-0.110)"
+    },
+    {
+      "wave": "W202",
+      "finding": "Entropy: low-entropy drugs skew male (D1=31.2%F)"
+    }
+  ]
+}

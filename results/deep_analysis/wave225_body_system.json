@@ -1,0 +1,127 @@
+{
+  "wave": 225,
+  "title": "AE Body System Atlas",
+  "classified_pct": 48.4,
+  "body_systems": [
+    {
+      "system": "Renal",
+      "n_signals": 2846,
+      "n_drugs": 762,
+      "n_aes": 140,
+      "pct_female": 69.0,
+      "mean_abs_logr": 0.8912
+    },
+    {
+      "system": "Haematological",
+      "n_signals": 1648,
+      "n_drugs": 650,
+      "n_aes": 41,
+      "pct_female": 64.9,
+      "mean_abs_logr": 0.8894
+    },
+    {
+      "system": "Cardiovascular",
+      "n_signals": 6592,
+      "n_drugs": 1026,
+      "n_aes": 314,
+      "pct_female": 64.3,
+      "mean_abs_logr": 0.9403
+    },
+    {
+      "system": "Metabolic",
+      "n_signals": 3024,
+      "n_drugs": 816,
+      "n_aes": 61,
+      "pct_female": 64.2,
+      "mean_abs_logr": 1.0443
+    },
+    {
+      "system": "Gastrointestinal",
+      "n_signals": 6866,
+      "n_drugs": 1175,
+      "n_aes": 284,
+      "pct_female": 58.9,
+      "mean_abs_logr": 1.0069
+    },
+    {
+      "system": "Infectious",
+      "n_signals": 2840,
+      "n_drugs": 590,
+      "n_aes": 218,
+      "pct_female": 56.1,
+      "mean_abs_logr": 0.9748
+    },
+    {
+      "system": "Neurological",
+      "n_signals": 3898,
+      "n_drugs": 1061,
+      "n_aes": 134,
+      "pct_female": 54.1,
+      "mean_abs_logr": 0.9318
+    },
+    {
+      "system": "Respiratory",
+      "n_signals": 5286,
+      "n_drugs": 1000,
+      "n_aes": 167,
+      "pct_female": 53.6,
+      "mean_abs_logr": 1.0137
+    },
+    {
+      "system": "Psychiatric",
+      "n_signals": 2304,
+      "n_drugs": 730,
+      "n_aes": 61,
+      "pct_female": 53.3,
+      "mean_abs_logr": 0.9835
+    },
+    {
+      "system": "Immunological",
+      "n_signals": 1270,
+      "n_drugs": 615,
+      "n_aes": 77,
+      "pct_female": 51.9,
+      "mean_abs_logr": 1.0849
+    },
+    {
+      "system": "Other",
+      "n_signals": 49662,
+      "n_drugs": 1949,
+      "n_aes": 3114,
+      "pct_female": 51.8,
+      "mean_abs_logr": 0.9957
+    },
+    {
+      "system": "Dermatological",
+      "n_signals": 4538,
+      "n_drugs": 927,
+      "n_aes": 164,
+      "pct_female": 45.2,
+      "mean_abs_logr": 0.9852
+    },
+    {
+      "system": "Musculoskeletal",
+      "n_signals": 3626,
+      "n_drugs": 802,
+      "n_aes": 150,
+      "pct_female": 45.1,
+      "mean_abs_logr": 1.016
+    },
+    {
+      "system": "Endocrine",
+      "n_signals": 466,
+      "n_drugs": 235,
+      "n_aes": 52,
+      "pct_female": 44.8,
+      "mean_abs_logr": 1.06
+    },
+    {
+      "system": "Ocular",
+      "n_signals": 1415,
+      "n_drugs": 473,
+      "n_aes": 92,
+      "pct_female": 32.4,
+      "mean_abs_logr": 0.8768
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "wave": 275,
+  "title": "275 Waves Milestone + Drug Class Atlas",
+  "n_json": 144,
+  "n_png": 423,
+  "n_pdf": 423,
+  "n_deep_dives": 13,
+  "most_female_biased": [
+    "W264: Transplant Drug Deep Dive",
+    71.3
+  ],
+  "most_male_biased": [
+    "W261: Statin/Lipid-Lowering Deep Dive",
+    43.3
+  ],
+  "class_ranking": {
+    "W264: Transplant Drug Deep Dive": 71.3,
+    "W269: Opioid/Analgesic Deep Dive": 70.7,
+    "W265: Mortality/Fatal AE Analysis": 70.4,
+    "W267: Anticoagulant/Antithrombotic Deep Dive": 68.1,
+    "W271: Antipsychotic Deep Dive": 64.4,
+    "W274: Corticosteroid Deep Dive": 63.9,
+    "W272: Antiretroviral Deep Dive": 60.7,
+    "W266: NSAID Deep Dive": 60.4,
+    "W273: Benzodiazepine & Anxiolytic Deep Dive": 57.6,
+    "W268: Antidiabetic Drug Deep Dive": 52.7,
+    "W262: Antiepileptic Drug Deep Dive": 47.8,
+    "W270: Antidepressant Deep Dive": 45.0,
+    "W261: Statin/Lipid-Lowering Deep Dive": 43.3
+  }
+}

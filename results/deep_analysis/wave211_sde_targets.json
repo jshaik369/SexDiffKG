@@ -1,0 +1,11 @@
+{
+  "wave": 211,
+  "title": "Sex-Differential Expression \u00d7 Drug Target Integration",
+  "sde_edges": 289,
+  "overlap_genes": 0,
+  "drugs_targeting_sde_genes": 0,
+  "sde_targeting_pct_f": NaN,
+  "non_sde_targeting_pct_f": 49.0,
+  "delta_pp": NaN,
+  "top_sde_drug_targets": []
+}

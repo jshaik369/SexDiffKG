@@ -1,0 +1,18 @@
+{
+  "wave": 271,
+  "title": "Antipsychotic Deep Dive",
+  "ap_signals": 2654,
+  "ap_pct_f": 64.4,
+  "classes": {
+    "Atypical (2nd gen)": {
+      "n": 2370,
+      "pct_f": 65.0,
+      "n_drugs": 12
+    },
+    "Typical (1st gen)": {
+      "n": 284,
+      "pct_f": 59.5,
+      "n_drugs": 7
+    }
+  }
+}

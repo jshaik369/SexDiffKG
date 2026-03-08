@@ -1,0 +1,165 @@
+{
+  "wave": 217,
+  "title": "AE Co-occurrence Networks \u2014 Sex Bias Clustering",
+  "common_aes": 1668,
+  "ae_pairs_analyzed": 4949,
+  "concordance_rate": 33.5,
+  "jaccard_vs_pf_diff": {
+    "rho": -0.188,
+    "p": 9.577118829991896e-41
+  },
+  "most_similar_pairs": [
+    {
+      "ae1": "Asthma",
+      "ae2": "Wheezing",
+      "shared_drugs": 115,
+      "jaccard": 0.406,
+      "pf1": 47.0,
+      "pf2": 56.4,
+      "same_direction": false,
+      "pf_diff": 9.3
+    },
+    {
+      "ae1": "Sleep disorder",
+      "ae2": "Dry mouth",
+      "shared_drugs": 113,
+      "jaccard": 0.405,
+      "pf1": 42.0,
+      "pf2": 45.6,
+      "same_direction": false,
+      "pf_diff": 3.6
+    },
+    {
+      "ae1": "Hypoaesthesia",
+      "ae2": "Paraesthesia",
+      "shared_drugs": 111,
+      "jaccard": 0.392,
+      "pf1": 48.7,
+      "pf2": 40.6,
+      "same_direction": false,
+      "pf_diff": 8.1
+    },
+    {
+      "ae1": "Swelling",
+      "ae2": "Dry mouth",
+      "shared_drugs": 103,
+      "jaccard": 0.36,
+      "pf1": 42.1,
+      "pf2": 45.6,
+      "same_direction": false,
+      "pf_diff": 3.5
+    },
+    {
+      "ae1": "Sleep disorder",
+      "ae2": "Swelling",
+      "shared_drugs": 111,
+      "jaccard": 0.358,
+      "pf1": 42.0,
+      "pf2": 42.1,
+      "same_direction": true,
+      "pf_diff": 0.1
+    },
+    {
+      "ae1": "Wheezing",
+      "ae2": "Lung disorder",
+      "shared_drugs": 91,
+      "jaccard": 0.35,
+      "pf1": 56.4,
+      "pf2": 53.5,
+      "same_direction": false,
+      "pf_diff": 2.8
+    },
+    {
+      "ae1": "Dry mouth",
+      "ae2": "Abdominal distension",
+      "shared_drugs": 90,
+      "jaccard": 0.336,
+      "pf1": 45.6,
+      "pf2": 34.8,
+      "same_direction": false,
+      "pf_diff": 10.7
+    },
+    {
+      "ae1": "Gastrointestinal disorder",
+      "ae2": "Muscular weakness",
+      "shared_drugs": 94,
+      "jaccard": 0.332,
+      "pf1": 58.9,
+      "pf2": 61.9,
+      "same_direction": true,
+      "pf_diff": 3.1
+    },
+    {
+      "ae1": "General physical health deterioration",
+      "ae2": "Swelling",
+      "shared_drugs": 110,
+      "jaccard": 0.325,
+      "pf1": 61.5,
+      "pf2": 42.1,
+      "same_direction": false,
+      "pf_diff": 19.4
+    },
+    {
+      "ae1": "Musculoskeletal stiffness",
+      "ae2": "Mobility decreased",
+      "shared_drugs": 90,
+      "jaccard": 0.324,
+      "pf1": 47.1,
+      "pf2": 57.4,
+      "same_direction": false,
+      "pf_diff": 10.3
+    }
+  ],
+  "most_divergent_pairs": [
+    {
+      "ae1": "Adverse drug reaction",
+      "ae2": "Pulmonary embolism",
+      "shared_drugs": 74,
+      "jaccard": 0.226,
+      "pf1": 93.7,
+      "pf2": 22.4,
+      "same_direction": false,
+      "pf_diff": 71.2
+    },
+    {
+      "ae1": "Adverse drug reaction",
+      "ae2": "Intentional product misuse",
+      "shared_drugs": 61,
+      "jaccard": 0.183,
+      "pf1": 93.7,
+      "pf2": 22.9,
+      "same_direction": false,
+      "pf_diff": 70.8
+    },
+    {
+      "ae1": "Pulmonary embolism",
+      "ae2": "Haemorrhage",
+      "shared_drugs": 52,
+      "jaccard": 0.166,
+      "pf1": 22.4,
+      "pf2": 84.7,
+      "same_direction": false,
+      "pf_diff": 62.3
+    },
+    {
+      "ae1": "Cardiac arrest",
+      "ae2": "Pulmonary embolism",
+      "shared_drugs": 54,
+      "jaccard": 0.153,
+      "pf1": 84.8,
+      "pf2": 22.4,
+      "same_direction": false,
+      "pf_diff": 62.3
+    },
+    {
+      "ae1": "Cardiac arrest",
+      "ae2": "Intentional product misuse",
+      "shared_drugs": 58,
+      "jaccard": 0.171,
+      "pf1": 84.8,
+      "pf2": 22.9,
+      "same_direction": false,
+      "pf_diff": 61.9
+    }
+  ]
+}

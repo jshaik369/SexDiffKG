@@ -1,0 +1,29 @@
+{
+  "wave": 295,
+  "title": "Reproductive/Pregnancy Drug Sex Bias",
+  "repro_signals": 173,
+  "repro_pct_f": 15.6,
+  "classes": {
+    "Contraceptive": {
+      "n": 12,
+      "pct_f": 0.0,
+      "n_drugs": 4
+    },
+    "Fertility": {
+      "n": 35,
+      "pct_f": 11.4,
+      "n_drugs": 3
+    },
+    "Pregnancy": {
+      "n": 108,
+      "pct_f": 21.3,
+      "n_drugs": 6
+    },
+    "Menopause/HRT": {
+      "n": 18,
+      "pct_f": 0.0,
+      "n_drugs": 1
+    }
+  },
+  "pregnancy_ae_pct_f": 53.1
+}

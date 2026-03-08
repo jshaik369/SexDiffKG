@@ -1,0 +1,41 @@
+{
+  "wave": 259,
+  "title": "Psychiatric AE Deep Dive",
+  "psych_ae_signals": 4719,
+  "psych_ae_pct_f": 55.0,
+  "non_psych_pct_f": 53.7,
+  "categories": {
+    "Suicide/Self-harm": {
+      "n": 961,
+      "pct_f": 59.5
+    },
+    "Depression": {
+      "n": 395,
+      "pct_f": 49.1
+    },
+    "Anxiety": {
+      "n": 523,
+      "pct_f": 27.9
+    },
+    "Psychosis": {
+      "n": 550,
+      "pct_f": 72.2
+    },
+    "Insomnia": {
+      "n": 691,
+      "pct_f": 39.5
+    },
+    "Mania/Agitation": {
+      "n": 440,
+      "pct_f": 55.9
+    },
+    "Cognitive": {
+      "n": 612,
+      "pct_f": 60.6
+    },
+    "Substance use": {
+      "n": 547,
+      "pct_f": 72.4
+    }
+  }
+}

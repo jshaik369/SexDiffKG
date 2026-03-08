@@ -1,0 +1,86 @@
+{
+  "wave": 240,
+  "title": "240 Waves Milestone",
+  "total_jsons": 109,
+  "total_figures_png": 388,
+  "total_figures_pdf": 388,
+  "total_waves": 240,
+  "session_28_discoveries": [
+    {
+      "wave": "W221",
+      "finding": "Biologics 45.2%F vs small molecules 49.3%F"
+    },
+    {
+      "wave": "W222",
+      "finding": "ROR pattern: 14.9% F-only elevated, 12.5% M-only"
+    },
+    {
+      "wave": "W223",
+      "finding": "Promiscuous drugs (5+ targets) +13.1pp more female"
+    },
+    {
+      "wave": "W224",
+      "finding": "Top 100 drugs 57.8%F vs bottom 100 40.4%F"
+    },
+    {
+      "wave": "W225",
+      "finding": "Body systems: Renal 69.0%F, Ocular 32.4%F"
+    },
+    {
+      "wave": "W226",
+      "finding": "Risperidone 92.9%F, shared AEs 100%F across drugs"
+    },
+    {
+      "wave": "W227",
+      "finding": "D1=42.2%F\u2192D10=82.5%F confidence gradient"
+    },
+    {
+      "wave": "W228",
+      "finding": "Drug concordance 66.8%, rheumatoid drugs 98.8%"
+    },
+    {
+      "wave": "W229",
+      "finding": "Opioids 72.2%F (+19.2pp vs non-opioid)"
+    },
+    {
+      "wave": "W231",
+      "finding": "Steroids 65.2%F, prednisolone 82.5%F"
+    },
+    {
+      "wave": "W232",
+      "finding": "CPIs 74.6%F, irAEs 82.7%F, all immune-mediated 100%F"
+    },
+    {
+      "wave": "W233",
+      "finding": "Bleeding AEs 90.9%F on anticoagulants"
+    },
+    {
+      "wave": "W234",
+      "finding": "Low entropy = male-biased (32.4%F)"
+    },
+    {
+      "wave": "W235",
+      "finding": "GLP-1 24.5%F, tirzepatide 8.4%F, GI AEs 0.0%F"
+    },
+    {
+      "wave": "W236",
+      "finding": "Psychiatric drug class spectrum"
+    },
+    {
+      "wave": "W237",
+      "finding": "Rare vs common AE prevalence analysis"
+    },
+    {
+      "wave": "W238",
+      "finding": "Oncology drug atlas by class"
+    },
+    {
+      "wave": "W239",
+      "finding": "FDA BBW drugs sex bias analysis"
+    },
+    {
+      "wave": "W240",
+      "finding": "240 Waves Milestone"
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "wave": 248,
+  "title": "Neurotoxicity Sex Bias Deep Dive",
+  "neuro_signals": 6713,
+  "neuro_aes": 184,
+  "neuro_pct_f": 48.0,
+  "non_neuro_pct_f": 54.2,
+  "delta_pp": -6.2,
+  "categories": {
+    "Seizure": {
+      "n": 430,
+      "pct_f": 65.3,
+      "n_aes": 24
+    },
+    "Neuropathy": {
+      "n": 815,
+      "pct_f": 44.4,
+      "n_aes": 30
+    },
+    "Movement": {
+      "n": 442,
+      "pct_f": 57.5,
+      "n_aes": 14
+    },
+    "Headache": {
+      "n": 515,
+      "pct_f": 39.4,
+      "n_aes": 8
+    },
+    "Cerebrovascular": {
+      "n": 291,
+      "pct_f": 79.4,
+      "n_aes": 16
+    },
+    "CNS depression": {
+      "n": 985,
+      "pct_f": 55.1,
+      "n_aes": 23
+    },
+    "Pain/Sensory": {
+      "n": 2993,
+      "pct_f": 40.6,
+      "n_aes": 67
+    },
+    "Autonomic": {
+      "n": 242,
+      "pct_f": 54.1,
+      "n_aes": 2
+    }
+  }
+}

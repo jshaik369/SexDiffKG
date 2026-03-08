@@ -1,0 +1,43 @@
+{
+  "wave": 245,
+  "title": "Cardiotoxicity Sex Bias Deep Dive",
+  "cardio_signals": 5324,
+  "cardio_aes": 168,
+  "cardio_drugs": 1000,
+  "cardio_pct_f": 61.3,
+  "non_cardio_pct_f": 53.3,
+  "delta_pp": 8.0,
+  "mann_whitney_p": 3.978394342318063e-30,
+  "categories": {
+    "QT/Arrhythmia": {
+      "n": 1377,
+      "pct_f": 56.1,
+      "n_aes": 43
+    },
+    "Heart failure": {
+      "n": 700,
+      "pct_f": 65.4,
+      "n_aes": 17
+    },
+    "Ischemic": {
+      "n": 608,
+      "pct_f": 75.0,
+      "n_aes": 21
+    },
+    "Cardiac arrest": {
+      "n": 395,
+      "pct_f": 83.3,
+      "n_aes": 4
+    },
+    "Vascular": {
+      "n": 1854,
+      "pct_f": 55.0,
+      "n_aes": 68
+    },
+    "Other cardiac": {
+      "n": 390,
+      "pct_f": 59.2,
+      "n_aes": 15
+    }
+  }
+}

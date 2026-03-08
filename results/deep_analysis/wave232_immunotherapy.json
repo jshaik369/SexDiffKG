@@ -1,0 +1,52 @@
+{
+  "wave": 232,
+  "title": "Immunotherapy Deep Dive \u2014 CPI Sex Bias",
+  "cpi_signals": 965,
+  "cpi_drugs": 8,
+  "cpi_pct_f": 74.6,
+  "other_immuno_pct_f": 47.7,
+  "irae_pct_f": 82.7,
+  "non_irae_pct_f": 73.2,
+  "per_cpi": [
+    {
+      "drug": "PEMBROLIZUMAB",
+      "n_signals": 309,
+      "pct_female": 73.1
+    },
+    {
+      "drug": "NIVOLUMAB",
+      "n_signals": 238,
+      "pct_female": 66.8
+    },
+    {
+      "drug": "IPILIMUMAB",
+      "n_signals": 161,
+      "pct_female": 75.8
+    },
+    {
+      "drug": "ATEZOLIZUMAB",
+      "n_signals": 152,
+      "pct_female": 82.9
+    },
+    {
+      "drug": "DURVALUMAB",
+      "n_signals": 61,
+      "pct_female": 85.2
+    },
+    {
+      "drug": "TREMELIMUMAB",
+      "n_signals": 21,
+      "pct_female": 85.7
+    },
+    {
+      "drug": "AVELUMAB",
+      "n_signals": 19,
+      "pct_female": 73.7
+    },
+    {
+      "drug": "CEMIPLIMAB",
+      "n_signals": 4,
+      "pct_female": 75.0
+    }
+  ]
+}

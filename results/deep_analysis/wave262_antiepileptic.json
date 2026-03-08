@@ -1,0 +1,33 @@
+{
+  "wave": 262,
+  "title": "Antiepileptic Drug Deep Dive",
+  "aed_signals": 2896,
+  "aed_pct_f": 47.8,
+  "classes": {
+    "Na channel": {
+      "n": 804,
+      "pct_f": 45.3,
+      "n_drugs": 6
+    },
+    "GABA": {
+      "n": 1190,
+      "pct_f": 47.2,
+      "n_drugs": 7
+    },
+    "SV2A": {
+      "n": 285,
+      "pct_f": 44.6,
+      "n_drugs": 2
+    },
+    "Ca channel": {
+      "n": 8,
+      "pct_f": 25.0,
+      "n_drugs": 1
+    },
+    "Mixed/Other": {
+      "n": 609,
+      "pct_f": 53.9,
+      "n_drugs": 6
+    }
+  }
+}

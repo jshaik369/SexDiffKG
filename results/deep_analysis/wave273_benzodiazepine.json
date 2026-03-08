@@ -1,0 +1,23 @@
+{
+  "wave": 273,
+  "title": "Benzodiazepine & Anxiolytic Deep Dive",
+  "bz_signals": 2640,
+  "bz_pct_f": 57.6,
+  "classes": {
+    "Benzodiazepine": {
+      "n": 1455,
+      "pct_f": 64.3,
+      "n_drugs": 11
+    },
+    "Z-drug": {
+      "n": 318,
+      "pct_f": 58.5,
+      "n_drugs": 4
+    },
+    "Non-benzo anxiolytic": {
+      "n": 867,
+      "pct_f": 46.0,
+      "n_drugs": 4
+    }
+  }
+}

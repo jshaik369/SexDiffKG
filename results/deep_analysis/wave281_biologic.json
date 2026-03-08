@@ -1,0 +1,48 @@
+{
+  "wave": 281,
+  "title": "Biologic Drug Deep Dive (non-oncology)",
+  "bio_signals": 6416,
+  "bio_pct_f": 46.5,
+  "classes": {
+    "Anti-TNF": {
+      "n": 2382,
+      "pct_f": 45.0,
+      "n_drugs": 4
+    },
+    "Anti-IL": {
+      "n": 1721,
+      "pct_f": 49.2,
+      "n_drugs": 10
+    },
+    "Anti-CD20": {
+      "n": 1032,
+      "pct_f": 58.4,
+      "n_drugs": 4
+    },
+    "Anti-IgE": {
+      "n": 306,
+      "pct_f": 27.8,
+      "n_drugs": 1
+    },
+    "Anti-integrin": {
+      "n": 374,
+      "pct_f": 52.1,
+      "n_drugs": 2
+    },
+    "Anti-BLyS": {
+      "n": 22,
+      "pct_f": 9.1,
+      "n_drugs": 1
+    },
+    "Anti-IL5": {
+      "n": 290,
+      "pct_f": 46.2,
+      "n_drugs": 3
+    },
+    "Anti-IL4R": {
+      "n": 289,
+      "pct_f": 17.0,
+      "n_drugs": 1
+    }
+  }
+}

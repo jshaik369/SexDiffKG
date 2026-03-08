@@ -1,0 +1,26 @@
+{
+  "wave": 234,
+  "title": "Signal Entropy \u2014 Information-Theoretic Analysis",
+  "drugs_10plus": 1090,
+  "mean_drug_entropy": 0.7977,
+  "low_entropy": {
+    "n": 121,
+    "pct_f": 32.4
+  },
+  "mid_entropy": {
+    "n": 445,
+    "pct_f": 51.1
+  },
+  "high_entropy": {
+    "n": 524,
+    "pct_f": 51.0
+  },
+  "n_signals_vs_entropy": {
+    "rho": 0.241,
+    "p": 6.300293052338304e-16
+  },
+  "ae_entropy": {
+    "n_aes": 1668,
+    "mean_entropy": 0.7708
+  }
+}

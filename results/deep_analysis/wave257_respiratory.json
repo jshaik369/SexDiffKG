@@ -1,0 +1,41 @@
+{
+  "wave": 257,
+  "title": "Respiratory AE Deep Dive",
+  "resp_signals": 3709,
+  "resp_pct_f": 57.1,
+  "non_resp_pct_f": 53.6,
+  "categories": {
+    "ILD/Pneumonitis": {
+      "n": 348,
+      "pct_f": 60.3
+    },
+    "Dyspnea": {
+      "n": 670,
+      "pct_f": 50.6
+    },
+    "Cough": {
+      "n": 387,
+      "pct_f": 41.3
+    },
+    "Bronchospasm": {
+      "n": 608,
+      "pct_f": 46.1
+    },
+    "Pneumonia": {
+      "n": 793,
+      "pct_f": 65.6
+    },
+    "Pleural": {
+      "n": 159,
+      "pct_f": 58.5
+    },
+    "Respiratory failure": {
+      "n": 500,
+      "pct_f": 72.4
+    },
+    "Epistaxis/Haemoptysis": {
+      "n": 244,
+      "pct_f": 62.3
+    }
+  }
+}

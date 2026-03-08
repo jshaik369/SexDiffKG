@@ -1,0 +1,33 @@
+{
+  "wave": 278,
+  "title": "Osteoporosis Drug Deep Dive",
+  "bone_signals": 1157,
+  "bone_pct_f": 29.6,
+  "classes": {
+    "Bisphosphonate": {
+      "n": 783,
+      "pct_f": 34.4,
+      "n_drugs": 5
+    },
+    "RANKL inhibitor": {
+      "n": 234,
+      "pct_f": 23.1,
+      "n_drugs": 1
+    },
+    "PTH analog": {
+      "n": 115,
+      "pct_f": 14.8,
+      "n_drugs": 2
+    },
+    "SERM": {
+      "n": 12,
+      "pct_f": 8.3,
+      "n_drugs": 1
+    },
+    "Other bone": {
+      "n": 13,
+      "pct_f": 7.7,
+      "n_drugs": 2
+    }
+  }
+}

@@ -1,0 +1,105 @@
+{
+  "wave": 228,
+  "title": "Drug-Drug AE Concordance",
+  "drug_pairs": 1225,
+  "mean_concordance": 66.8,
+  "median_concordance": 65.7,
+  "concordance_vs_pf_diff": {
+    "rho": -0.156,
+    "p": 4.2918792219901905e-08
+  },
+  "most_concordant": [
+    {
+      "drug1": "TOCILIZUMAB",
+      "drug2": "HYDROXYCHLOROQUINE",
+      "shared_aes": 240,
+      "concordance": 98.8,
+      "pf1": 49.4,
+      "pf2": 51.9,
+      "pf_diff": 2.5
+    },
+    {
+      "drug1": "ETANERCEPT",
+      "drug2": "LEFLUNOMIDE",
+      "shared_aes": 173,
+      "concordance": 98.3,
+      "pf1": 42.6,
+      "pf2": 41.9,
+      "pf_diff": 0.7
+    },
+    {
+      "drug1": "TOCILIZUMAB",
+      "drug2": "ABATACEPT",
+      "shared_aes": 215,
+      "concordance": 98.1,
+      "pf1": 49.4,
+      "pf2": 45.1,
+      "pf_diff": 4.4
+    },
+    {
+      "drug1": "ADALIMUMAB",
+      "drug2": "ABATACEPT",
+      "shared_aes": 121,
+      "concordance": 97.5,
+      "pf1": 38.2,
+      "pf2": 45.1,
+      "pf_diff": 6.9
+    },
+    {
+      "drug1": "ADALIMUMAB",
+      "drug2": "INFLIXIMAB",
+      "shared_aes": 232,
+      "concordance": 97.4,
+      "pf1": 38.2,
+      "pf2": 50.4,
+      "pf_diff": 12.2
+    }
+  ],
+  "most_discordant": [
+    {
+      "drug1": "TACROLIMUS",
+      "drug2": "LEFLUNOMIDE",
+      "shared_aes": 74,
+      "concordance": 24.3,
+      "pf1": 75.9,
+      "pf2": 41.9,
+      "pf_diff": 34.0
+    },
+    {
+      "drug1": "TACROLIMUS",
+      "drug2": "TOCILIZUMAB",
+      "shared_aes": 99,
+      "concordance": 28.3,
+      "pf1": 75.9,
+      "pf2": 49.4,
+      "pf_diff": 26.5
+    },
+    {
+      "drug1": "HYDROXYCHLOROQUINE",
+      "drug2": "VALPROIC ACID",
+      "shared_aes": 65,
+      "concordance": 29.2,
+      "pf1": 51.9,
+      "pf2": 49.3,
+      "pf_diff": 2.6
+    },
+    {
+      "drug1": "MYCOPHENOLIC ACID",
+      "drug2": "ARIPIPRAZOLE",
+      "shared_aes": 57,
+      "concordance": 29.8,
+      "pf1": 76.3,
+      "pf2": 47.4,
+      "pf_diff": 29.0
+    },
+    {
+      "drug1": "TOCILIZUMAB",
+      "drug2": "VALPROIC ACID",
+      "shared_aes": 72,
+      "concordance": 30.6,
+      "pf1": 49.4,
+      "pf2": 49.3,
+      "pf_diff": 0.1
+    }
+  ]
+}

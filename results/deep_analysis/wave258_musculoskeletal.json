@@ -1,0 +1,33 @@
+{
+  "wave": 258,
+  "title": "Musculoskeletal AE Deep Dive",
+  "msk_signals": 3646,
+  "msk_pct_f": 49.8,
+  "non_msk_pct_f": 53.9,
+  "categories": {
+    "Myalgia/Myopathy": {
+      "n": 787,
+      "pct_f": 68.5
+    },
+    "Arthralgia/Arthritis": {
+      "n": 989,
+      "pct_f": 52.2
+    },
+    "Tendon": {
+      "n": 67,
+      "pct_f": 26.9
+    },
+    "Bone": {
+      "n": 973,
+      "pct_f": 38.0
+    },
+    "Spasm/Cramp": {
+      "n": 432,
+      "pct_f": 49.5
+    },
+    "Back/Spine": {
+      "n": 398,
+      "pct_f": 40.2
+    }
+  }
+}

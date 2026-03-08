@@ -1,0 +1,61 @@
+{
+  "wave": 253,
+  "title": "Gastrointestinal AE Deep Dive",
+  "gi_signals": 4466,
+  "gi_aes": 169,
+  "gi_pct_f": 58.0,
+  "non_gi_pct_f": 53.6,
+  "delta_pp": 4.4,
+  "categories": {
+    "Nausea/Vomiting": {
+      "n": 809,
+      "pct_f": 45.9,
+      "n_aes": 7
+    },
+    "Diarrhea": {
+      "n": 322,
+      "pct_f": 66.1,
+      "n_aes": 3
+    },
+    "Constipation": {
+      "n": 332,
+      "pct_f": 64.8,
+      "n_aes": 6
+    },
+    "GI bleeding": {
+      "n": 313,
+      "pct_f": 78.0,
+      "n_aes": 7
+    },
+    "Pancreatitis": {
+      "n": 325,
+      "pct_f": 67.4,
+      "n_aes": 27
+    },
+    "Hepatic/Biliary": {
+      "n": 143,
+      "pct_f": 46.9,
+      "n_aes": 14
+    },
+    "Inflammatory": {
+      "n": 736,
+      "pct_f": 60.1,
+      "n_aes": 47
+    },
+    "Dyspepsia": {
+      "n": 872,
+      "pct_f": 57.0,
+      "n_aes": 52
+    },
+    "Oral": {
+      "n": 418,
+      "pct_f": 47.1,
+      "n_aes": 4
+    },
+    "Dysphagia": {
+      "n": 196,
+      "pct_f": 63.8,
+      "n_aes": 2
+    }
+  }
+}

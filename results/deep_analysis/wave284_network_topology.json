@@ -1,0 +1,13 @@
+{
+  "wave": 284,
+  "title": "Drug-AE Network Topology",
+  "n_drugs": 2178,
+  "n_aes": 5069,
+  "n_signals": 96281,
+  "drug_degree_corr_r": 0.1321,
+  "ae_degree_corr_r": 0.0796,
+  "drug_max_degree": 926,
+  "ae_max_degree": 501,
+  "drug_median_degree": 10,
+  "ae_median_degree": 4
+}

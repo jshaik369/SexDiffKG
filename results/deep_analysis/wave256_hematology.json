@@ -1,0 +1,41 @@
+{
+  "wave": 256,
+  "title": "Hematological AE Deep Dive",
+  "heme_signals": 2665,
+  "heme_pct_f": 63.2,
+  "non_heme_pct_f": 53.5,
+  "categories": {
+    "Neutropenia": {
+      "n": 511,
+      "pct_f": 62.4
+    },
+    "Thrombocytopenia": {
+      "n": 377,
+      "pct_f": 72.7
+    },
+    "Anemia": {
+      "n": 710,
+      "pct_f": 59.0
+    },
+    "Pancytopenia": {
+      "n": 309,
+      "pct_f": 67.6
+    },
+    "Lymphopenia": {
+      "n": 115,
+      "pct_f": 20.0
+    },
+    "Coagulopathy": {
+      "n": 211,
+      "pct_f": 78.2
+    },
+    "Eosinophilia": {
+      "n": 267,
+      "pct_f": 60.7
+    },
+    "Leukocytosis": {
+      "n": 165,
+      "pct_f": 69.1
+    }
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "wave": 230,
+  "title": "Session 28 Summary \u2014 Waves 221-230",
+  "total_jsons": 99,
+  "total_figures_png": 378,
+  "total_figures_pdf": 378,
+  "session_waves": [
+    {
+      "wave": 221,
+      "description": "Drug Type \u2014 Biologics vs Small Molecules (Bio 45.2%F vs SM 49.3%F)"
+    },
+    {
+      "wave": 222,
+      "description": "ROR Magnitude Asymmetry (50.4% both elevated, 14.9% F-only, 12.5% M-only)"
+    },
+    {
+      "wave": 223,
+      "description": "Multi-Target Polypharmacy (promiscuous 59.6%F vs selective 46.5%F, +13.1pp)"
+    },
+    {
+      "wave": 224,
+      "description": "Drug-Level Sex Bias Spectrum (Q1=30%, Q2=50%, Q3=68.3%)"
+    },
+    {
+      "wave": 225,
+      "description": "Body System Atlas (Renal 69.0%F, Ocular 32.4%F, Cardiovascular 64.3%F)"
+    },
+    {
+      "wave": 226,
+      "description": "Top Drug Profiles (Risperidone 92.9%F, Oxycodone 85.0%F, Prednisone 70.2%F)"
+    },
+    {
+      "wave": 227,
+      "description": "Signal Confidence Gradient"
+    },
+    {
+      "wave": 228,
+      "description": "Drug-Drug AE Concordance"
+    },
+    {
+      "wave": 229,
+      "description": "Opioid Deep Dive"
+    },
+    {
+      "wave": 230,
+      "description": "Session 28 Summary"
+    }
+  ],
+  "cumulative_stats": {
+    "total_waves": 230,
+    "total_sessions": 28
+  }
+}

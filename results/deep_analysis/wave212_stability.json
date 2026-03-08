@@ -1,0 +1,72 @@
+{
+  "wave": 212,
+  "title": "Signal Stability Across Reporting Thresholds",
+  "threshold_analysis": [
+    {
+      "min_reports": 5,
+      "n_signals": 96281,
+      "pct_female": 53.8,
+      "mean_abs_logr": 0.9868
+    },
+    {
+      "min_reports": 10,
+      "n_signals": 96281,
+      "pct_female": 53.8,
+      "mean_abs_logr": 0.9868
+    },
+    {
+      "min_reports": 25,
+      "n_signals": 39280,
+      "pct_female": 57.1,
+      "mean_abs_logr": 0.9449
+    },
+    {
+      "min_reports": 50,
+      "n_signals": 18771,
+      "pct_female": 59.6,
+      "mean_abs_logr": 0.9158
+    },
+    {
+      "min_reports": 100,
+      "n_signals": 8487,
+      "pct_female": 62.2,
+      "mean_abs_logr": 0.8818
+    },
+    {
+      "min_reports": 200,
+      "n_signals": 3475,
+      "pct_female": 66.6,
+      "mean_abs_logr": 0.8467
+    },
+    {
+      "min_reports": 500,
+      "n_signals": 916,
+      "pct_female": 67.0,
+      "mean_abs_logr": 0.7911
+    }
+  ],
+  "tier_correlations": [
+    {
+      "tier1": "Low (5-24)",
+      "tier2": "Med (25-99)",
+      "n_drugs": 809,
+      "rho": 0.802,
+      "p": 1.3171696751775468e-182
+    },
+    {
+      "tier1": "Low (5-24)",
+      "tier2": "High (100+)",
+      "n_drugs": 327,
+      "rho": 0.646,
+      "p": 4.412244682835952e-40
+    },
+    {
+      "tier1": "Med (25-99)",
+      "tier2": "High (100+)",
+      "n_drugs": 325,
+      "rho": 0.765,
+      "p": 1.2083974042337521e-63
+    }
+  ],
+  "drugs_with_multi_tier": 811
+}

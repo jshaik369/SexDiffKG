@@ -1,0 +1,1098 @@
+{
+  "wave": 226,
+  "title": "Top Drug Deep Profiles",
+  "top_20_drugs": [
+    {
+      "drug": "PREDNISONE",
+      "n_signals": 926,
+      "pct_female": 70.2,
+      "n_female": 650,
+      "n_male": 276,
+      "mean_logr": 0.5557,
+      "top_female_aes": [
+        {
+          "ae": "Eosinophilic bronchitis",
+          "ror_f": 462.87
+        },
+        {
+          "ae": "Pemphigus",
+          "ror_f": 446.34
+        },
+        {
+          "ae": "Duodenal ulcer perforation",
+          "ror_f": 283.76
+        },
+        {
+          "ae": "Prosthetic valve endocarditis",
+          "ror_f": 224.17
+        },
+        {
+          "ae": "Smooth muscle cell neoplasm",
+          "ror_f": 219.46
+        }
+      ],
+      "top_male_aes": [
+        {
+          "ae": "Malacoplakia",
+          "ror_m": 413.07
+        },
+        {
+          "ae": "Philadelphia positive chronic myeloid leukaemia",
+          "ror_m": 225.02
+        },
+        {
+          "ae": "Steroid dependence",
+          "ror_m": 177.42
+        },
+        {
+          "ae": "Mite allergy",
+          "ror_m": 158.08
+        },
+        {
+          "ae": "Airway remodelling",
+          "ror_m": 155.03
+        }
+      ]
+    },
+    {
+      "drug": "METHOTREXATE",
+      "n_signals": 892,
+      "pct_female": 48.5,
+      "n_female": 433,
+      "n_male": 459,
+      "mean_logr": 0.0815,
+      "top_female_aes": [
+        {
+          "ae": "Foetal methotrexate syndrome",
+          "ror_f": 2792.96
+        },
+        {
+          "ae": "Pemphigus",
+          "ror_f": 258.34
+        },
+        {
+          "ae": "Rheumatoid factor positive",
+          "ror_f": 231.12
+        },
+        {
+          "ae": "Swollen joint count increased",
+          "ror_f": 197.06
+        },
+        {
+          "ae": "Epstein Barr virus positive mucocutaneous ulcer",
+          "ror_f": 166.43
+        }
+      ],
+      "top_male_aes": [
+        {
+          "ae": "Tender joint count increased",
+          "ror_m": 197.1
+        },
+        {
+          "ae": "Mucocutaneous ulceration",
+          "ror_m": 147.51
+        },
+        {
+          "ae": "Drug clearance decreased",
+          "ror_m": 82.81
+        },
+        {
+          "ae": "Bronchiolitis obliterans syndrome",
+          "ror_m": 80.92
+        },
+        {
+          "ae": "Lennox-Gastaut syndrome",
+          "ror_m": 80.58
+        }
+      ]
+    },
+    {
+      "drug": "ADALIMUMAB",
+      "n_signals": 807,
+      "pct_female": 38.2,
+      "n_female": 308,
+      "n_male": 499,
+      "mean_logr": -0.1268,
+      "top_female_aes": [
+        {
+          "ae": "Red blood cell sedimentation rate",
+          "ror_f": 107.59
+        },
+        {
+          "ae": "Anti-cyclic citrullinated peptide antibody positive",
+          "ror_f": 93.99
+        },
+        {
+          "ae": "Paternal drugs affecting foetus",
+          "ror_f": 93.63
+        },
+        {
+          "ae": "Pemphigus",
+          "ror_f": 87.41
+        },
+        {
+          "ae": "Rheumatoid factor positive",
+          "ror_f": 77.55
+        }
+      ],
+      "top_male_aes": [
+        {
+          "ae": "Delayed delivery",
+          "ror_m": 163.27
+        },
+        {
+          "ae": "Intestinal fibrosis",
+          "ror_m": 116.19
+        },
+        {
+          "ae": "Intestinal scarring",
+          "ror_m": 80.13
+        },
+        {
+          "ae": "Postoperative adhesion",
+          "ror_m": 65.84
+        },
+        {
+          "ae": "Ileocaecal resection",
+          "ror_m": 51.84
+        }
+      ]
+    },
+    {
+      "drug": "RITUXIMAB",
+      "n_signals": 755,
+      "pct_female": 66.6,
+      "n_female": 503,
+      "n_male": 252,
+      "mean_logr": 0.5724,
+      "top_female_aes": [
+        {
+          "ae": "Pemphigus",
+          "ror_f": 457.8
+        },
+        {
+          "ae": "Red blood cell sedimentation rate",
+          "ror_f": 406.7
+        },
+        {
+          "ae": "Anti-cyclic citrullinated peptide antibody positive",
+          "ror_f": 390.17
+        },
+        {
+          "ae": "Granuloma skin",
+          "ror_f": 299.85
+        },
+        {
+          "ae": "Rheumatoid factor positive",
+          "ror_f": 263.71
+        }
+      ],
+      "top_male_aes": [
+        {
+          "ae": "B-cell lymphoma refractory",
+          "ror_m": 392.8
+        },
+        {
+          "ae": "Encephalitis cytomegalovirus",
+          "ror_m": 117.26
+        },
+        {
+          "ae": "B-lymphocyte abnormalities",
+          "ror_m": 70.12
+        },
+        {
+          "ae": "Intestinal sepsis",
+          "ror_m": 69.7
+        },
+        {
+          "ae": "Immunoglobulin G4 related disease",
+          "ror_m": 45.83
+        }
+      ]
+    },
+    {
+      "drug": "INFLIXIMAB",
+      "n_signals": 623,
+      "pct_female": 50.4,
+      "n_female": 314,
+      "n_male": 309,
+      "mean_logr": 0.2247,
+      "top_female_aes": [
+        {
+          "ae": "Anti-cyclic citrullinated peptide antibody positive",
+          "ror_f": 340.43
+        },
+        {
+          "ae": "Granuloma skin",
+          "ror_f": 263.35
+        },
+        {
+          "ae": "Rheumatoid factor positive",
+          "ror_f": 218.24
+        },
+        {
+          "ae": "Hand deformity",
+          "ror_f": 138.81
+        },
+        {
+          "ae": "Helicobacter infection",
+          "ror_f": 120.9
+        }
+      ],
+      "top_male_aes": [
+        {
+          "ae": "Rheumatoid factor negative",
+          "ror_m": 678.24
+        },
+        {
+          "ae": "Red blood cell sedimentation rate abnormal",
+          "ror_m": 107.01
+        },
+        {
+          "ae": "Mycobacterium marinum infection",
+          "ror_m": 99.81
+        },
+        {
+          "ae": "Intestinal sepsis",
+          "ror_m": 72.26
+        },
+        {
+          "ae": "Proctocolectomy",
+          "ror_m": 69.1
+        }
+      ]
+    },
+    {
+      "drug": "ETANERCEPT",
+      "n_signals": 618,
+      "pct_female": 42.6,
+      "n_female": 263,
+      "n_male": 355,
+      "mean_logr": -0.0645,
+      "top_female_aes": [
+        {
+          "ae": "Rheumatoid factor positive",
+          "ror_f": 94.12
+        },
+        {
+          "ae": "Granuloma skin",
+          "ror_f": 64.69
+        },
+        {
+          "ae": "Muscle injury",
+          "ror_f": 44.06
+        },
+        {
+          "ae": "X-ray abnormal",
+          "ror_f": 40.07
+        },
+        {
+          "ae": "Folliculitis",
+          "ror_f": 38.53
+        }
+      ],
+      "top_male_aes": [
+        {
+          "ae": "Injection site recall reaction",
+          "ror_m": 2273.55
+        },
+        {
+          "ae": "Chondrolysis",
+          "ror_m": 310.01
+        },
+        {
+          "ae": "Rheumatoid factor negative",
+          "ror_m": 305.8
+        },
+        {
+          "ae": "Felty's syndrome",
+          "ror_m": 67.55
+        },
+        {
+          "ae": "Wrist deformity",
+          "ror_m": 50.82
+        }
+      ]
+    },
+    {
+      "drug": "TACROLIMUS",
+      "n_signals": 572,
+      "pct_female": 75.9,
+      "n_female": 434,
+      "n_male": 138,
+      "mean_logr": 0.4634,
+      "top_female_aes": [
+        {
+          "ae": "Post transplant distal limb syndrome",
+          "ror_f": 5200.95
+        },
+        {
+          "ae": "Adenovirus interstitial nephritis",
+          "ror_f": 4006.82
+        },
+        {
+          "ae": "Rhodococcus infection",
+          "ror_f": 1336.02
+        },
+        {
+          "ae": "Calcineurin inhibitor induced pain syndrome",
+          "ror_f": 1335.81
+        },
+        {
+          "ae": "Malacoplakia gastrointestinal",
+          "ror_f": 1335.61
+        }
+      ],
+      "top_male_aes": [
+        {
+          "ae": "Malacoplakia",
+          "ror_m": 1505.67
+        },
+        {
+          "ae": "Intestine transplant rejection",
+          "ror_m": 961.23
+        },
+        {
+          "ae": "Dermatophytosis",
+          "ror_m": 160.37
+        },
+        {
+          "ae": "Histology abnormal",
+          "ror_m": 152.92
+        },
+        {
+          "ae": "Penicillium infection",
+          "ror_m": 128.03
+        }
+      ]
+    },
+    {
+      "drug": "PREDNISOLONE",
+      "n_signals": 542,
+      "pct_female": 82.5,
+      "n_female": 447,
+      "n_male": 95,
+      "mean_logr": 0.6072,
+      "top_female_aes": [
+        {
+          "ae": "Trichophytosis",
+          "ror_f": 190.55
+        },
+        {
+          "ae": "Alveolar proteinosis",
+          "ror_f": 161.34
+        },
+        {
+          "ae": "Cytomegalovirus enteritis",
+          "ror_f": 135.07
+        },
+        {
+          "ae": "Mycobacterium kansasii infection",
+          "ror_f": 115.0
+        },
+        {
+          "ae": "Mycobacterium chelonae infection",
+          "ror_f": 110.71
+        }
+      ],
+      "top_male_aes": [
+        {
+          "ae": "Parvovirus infection",
+          "ror_m": 54.54
+        },
+        {
+          "ae": "Transplant dysfunction",
+          "ror_m": 39.55
+        },
+        {
+          "ae": "Toxoplasmosis",
+          "ror_m": 28.96
+        },
+        {
+          "ae": "Scleritis",
+          "ror_m": 21.25
+        },
+        {
+          "ae": "Microangiopathic haemolytic anaemia",
+          "ror_m": 20.64
+        }
+      ]
+    },
+    {
+      "drug": "DEXAMETHASONE",
+      "n_signals": 537,
+      "pct_female": 80.3,
+      "n_female": 431,
+      "n_male": 106,
+      "mean_logr": 0.5446,
+      "top_female_aes": [
+        {
+          "ae": "Plasma cell myeloma refractory",
+          "ror_f": 203.11
+        },
+        {
+          "ae": "Heart block congenital",
+          "ror_f": 150.22
+        },
+        {
+          "ae": "Plasma cell leukaemia",
+          "ror_f": 118.99
+        },
+        {
+          "ae": "Refractory cancer",
+          "ror_f": 94.0
+        },
+        {
+          "ae": "Refractory cytopenia with multilineage dysplasia",
+          "ror_f": 84.91
+        }
+      ],
+      "top_male_aes": [
+        {
+          "ae": "Disseminated aspergillosis",
+          "ror_m": 100.18
+        },
+        {
+          "ae": "Choroiditis",
+          "ror_m": 78.56
+        },
+        {
+          "ae": "Complication of device insertion",
+          "ror_m": 69.38
+        },
+        {
+          "ae": "H1N1 influenza",
+          "ror_m": 16.59
+        },
+        {
+          "ae": "Atypical haemolytic uraemic syndrome",
+          "ror_m": 14.85
+        }
+      ]
+    },
+    {
+      "drug": "METHYLPREDNISOLONE",
+      "n_signals": 521,
+      "pct_female": 77.2,
+      "n_female": 402,
+      "n_male": 119,
+      "mean_logr": 0.7814,
+      "top_female_aes": [
+        {
+          "ae": "Central nervous system viral infection",
+          "ror_f": 204.25
+        },
+        {
+          "ae": "Pulmonary mucormycosis",
+          "ror_f": 165.91
+        },
+        {
+          "ae": "Meningitis fungal",
+          "ror_f": 144.89
+        },
+        {
+          "ae": "Disseminated aspergillosis",
+          "ror_f": 119.88
+        },
+        {
+          "ae": "Delayed graft function",
+          "ror_f": 111.8
+        }
+      ],
+      "top_male_aes": [
+        {
+          "ae": "Herpes simplex hepatitis",
+          "ror_m": 119.53
+        },
+        {
+          "ae": "Smooth muscle cell neoplasm",
+          "ror_m": 74.13
+        },
+        {
+          "ae": "Parvovirus B19 infection",
+          "ror_m": 60.71
+        },
+        {
+          "ae": "Parvovirus infection",
+          "ror_m": 53.33
+        },
+        {
+          "ae": "Renal graft infection",
+          "ror_m": 47.4
+        }
+      ]
+    },
+    {
+      "drug": "RISPERIDONE",
+      "n_signals": 518,
+      "pct_female": 92.9,
+      "n_female": 481,
+      "n_male": 37,
+      "mean_logr": 0.9402,
+      "top_female_aes": [
+        {
+          "ae": "Blood prolactin abnormal",
+          "ror_f": 994.36
+        },
+        {
+          "ae": "Anosognosia",
+          "ror_f": 969.91
+        },
+        {
+          "ae": "Negative symptoms in schizophrenia",
+          "ror_f": 573.9
+        },
+        {
+          "ae": "Disturbance in social behaviour",
+          "ror_f": 323.74
+        },
+        {
+          "ae": "Rabbit syndrome",
+          "ror_f": 247.17
+        }
+      ],
+      "top_male_aes": [
+        {
+          "ae": "Galactorrhoea",
+          "ror_m": 3169.11
+        },
+        {
+          "ae": "Abnormal weight gain",
+          "ror_m": 1727.67
+        },
+        {
+          "ae": "Gynaecomastia",
+          "ror_m": 1218.75
+        },
+        {
+          "ae": "Hyperprolactinaemia",
+          "ror_m": 1195.58
+        },
+        {
+          "ae": "Breast discharge",
+          "ror_m": 286.2
+        }
+      ]
+    },
+    {
+      "drug": "TOCILIZUMAB",
+      "n_signals": 508,
+      "pct_female": 49.4,
+      "n_female": 251,
+      "n_male": 257,
+      "mean_logr": 0.0924,
+      "top_female_aes": [
+        {
+          "ae": "Rheumatoid factor positive",
+          "ror_f": 452.82
+        },
+        {
+          "ae": "Granuloma skin",
+          "ror_f": 354.07
+        },
+        {
+          "ae": "Synovitis",
+          "ror_f": 212.51
+        },
+        {
+          "ae": "Hand deformity",
+          "ror_f": 205.05
+        },
+        {
+          "ae": "Folliculitis",
+          "ror_f": 174.86
+        }
+      ],
+      "top_male_aes": [
+        {
+          "ae": "Rheumatoid factor negative",
+          "ror_m": 1799.87
+        },
+        {
+          "ae": "Red blood cell sedimentation rate abnormal",
+          "ror_m": 387.68
+        },
+        {
+          "ae": "Bone erosion",
+          "ror_m": 212.98
+        },
+        {
+          "ae": "Intestinal sepsis",
+          "ror_m": 191.58
+        },
+        {
+          "ae": "Bone cyst",
+          "ror_m": 141.46
+        }
+      ]
+    },
+    {
+      "drug": "MYCOPHENOLIC ACID",
+      "n_signals": 507,
+      "pct_female": 76.3,
+      "n_female": 387,
+      "n_male": 120,
+      "mean_logr": 0.7114,
+      "top_female_aes": [
+        {
+          "ae": "Cerebral nocardiosis",
+          "ror_f": 404.43
+        },
+        {
+          "ae": "Anti-erythropoietin antibody negative",
+          "ror_f": 338.9
+        },
+        {
+          "ae": "Smooth muscle cell neoplasm",
+          "ror_f": 330.54
+        },
+        {
+          "ae": "Epidermodysplasia verruciformis",
+          "ror_f": 320.56
+        },
+        {
+          "ae": "Adenoviral hepatitis",
+          "ror_f": 283.06
+        }
+      ],
+      "top_male_aes": [
+        {
+          "ae": "Malacoplakia",
+          "ror_m": 453.79
+        },
+        {
+          "ae": "Vaccine induced antibody absent",
+          "ror_m": 288.38
+        },
+        {
+          "ae": "Mycobacterium haemophilum infection",
+          "ror_m": 205.33
+        },
+        {
+          "ae": "Angiosarcoma metastatic",
+          "ror_m": 160.25
+        },
+        {
+          "ae": "Alternaria infection",
+          "ror_m": 152.75
+        }
+      ]
+    },
+    {
+      "drug": "PANTOPRAZOLE",
+      "n_signals": 501,
+      "pct_female": 60.3,
+      "n_female": 302,
+      "n_male": 199,
+      "mean_logr": 0.3582,
+      "top_female_aes": [
+        {
+          "ae": "Chronic kidney disease",
+          "ror_f": 207.15
+        },
+        {
+          "ae": "Renal hypertension",
+          "ror_f": 133.25
+        },
+        {
+          "ae": "Renal injury",
+          "ror_f": 121.42
+        },
+        {
+          "ae": "Diabetic nephropathy",
+          "ror_f": 81.98
+        },
+        {
+          "ae": "Bronchopulmonary aspergillosis allergic",
+          "ror_f": 70.43
+        }
+      ],
+      "top_male_aes": [
+        {
+          "ae": "Device dependence",
+          "ror_m": 176.6
+        },
+        {
+          "ae": "Bronchial wall thickening",
+          "ror_m": 85.76
+        },
+        {
+          "ae": "Reversible airways obstruction",
+          "ror_m": 79.03
+        },
+        {
+          "ae": "Mite allergy",
+          "ror_m": 64.17
+        },
+        {
+          "ae": "Bronchial secretion retention",
+          "ror_m": 61.41
+        }
+      ]
+    },
+    {
+      "drug": "CYCLOPHOSPHAMIDE",
+      "n_signals": 498,
+      "pct_female": 64.7,
+      "n_female": 322,
+      "n_male": 176,
+      "mean_logr": 0.2688,
+      "top_female_aes": [
+        {
+          "ae": "Gastrosplenic fistula",
+          "ror_f": 1178.6
+        },
+        {
+          "ae": "Mantle cell lymphoma recurrent",
+          "ror_f": 190.56
+        },
+        {
+          "ae": "Refractory cytopenia with multilineage dysplasia",
+          "ror_f": 186.62
+        },
+        {
+          "ae": "Retinitis viral",
+          "ror_f": 175.41
+        },
+        {
+          "ae": "Disseminated mucormycosis",
+          "ror_f": 155.14
+        }
+      ],
+      "top_male_aes": [
+        {
+          "ae": "Calcineurin inhibitor induced pain syndrome",
+          "ror_m": 203.43
+        },
+        {
+          "ae": "Carbohydrate antigen 15-3 increased",
+          "ror_m": 170.29
+        },
+        {
+          "ae": "Encephalitis cytomegalovirus",
+          "ror_m": 127.55
+        },
+        {
+          "ae": "Sweat gland tumour",
+          "ror_m": 114.52
+        },
+        {
+          "ae": "Human herpesvirus 6 encephalitis",
+          "ror_m": 52.7
+        }
+      ]
+    },
+    {
+      "drug": "OXYCODONE",
+      "n_signals": 492,
+      "pct_female": 85.0,
+      "n_female": 418,
+      "n_male": 74,
+      "mean_logr": 1.0913,
+      "top_female_aes": [
+        {
+          "ae": "Polysubstance dependence",
+          "ror_f": 377.28
+        },
+        {
+          "ae": "Learning disability",
+          "ror_f": 227.73
+        },
+        {
+          "ae": "Self esteem inflated",
+          "ror_f": 151.64
+        },
+        {
+          "ae": "Developmental delay",
+          "ror_f": 89.54
+        },
+        {
+          "ae": "Child neglect",
+          "ror_f": 86.85
+        }
+      ],
+      "top_male_aes": [
+        {
+          "ae": "Psychological trauma",
+          "ror_m": 36.86
+        },
+        {
+          "ae": "Pain",
+          "ror_m": 25.37
+        },
+        {
+          "ae": "Catarrh",
+          "ror_m": 19.81
+        },
+        {
+          "ae": "Steroid dependence",
+          "ror_m": 18.55
+        },
+        {
+          "ae": "Impaired driving ability",
+          "ror_m": 15.34
+        }
+      ]
+    },
+    {
+      "drug": "PARACETAMOL",
+      "n_signals": 487,
+      "pct_female": 56.9,
+      "n_female": 277,
+      "n_male": 210,
+      "mean_logr": 0.3364,
+      "top_female_aes": [
+        {
+          "ae": "Prothrombin time ratio decreased",
+          "ror_f": 170.81
+        },
+        {
+          "ae": "Coagulation factor V level decreased",
+          "ror_f": 45.51
+        },
+        {
+          "ae": "Bronchopulmonary aspergillosis allergic",
+          "ror_f": 40.83
+        },
+        {
+          "ae": "Synovitis",
+          "ror_f": 40.28
+        },
+        {
+          "ae": "Hypocoagulable state",
+          "ror_f": 34.56
+        }
+      ],
+      "top_male_aes": [
+        {
+          "ae": "Pyroglutamate increased",
+          "ror_m": 1709.19
+        },
+        {
+          "ae": "Pyroglutamic acidosis",
+          "ror_m": 1204.64
+        },
+        {
+          "ae": "Ductus arteriosus stenosis foetal",
+          "ror_m": 102.34
+        },
+        {
+          "ae": "Allergy test negative",
+          "ror_m": 51.17
+        },
+        {
+          "ae": "Renal cortical necrosis",
+          "ror_m": 50.32
+        }
+      ]
+    },
+    {
+      "drug": "SECUKINUMAB",
+      "n_signals": 456,
+      "pct_female": 52.2,
+      "n_female": 238,
+      "n_male": 218,
+      "mean_logr": 0.2757,
+      "top_female_aes": [
+        {
+          "ae": "Seronegative arthritis",
+          "ror_f": 56.0
+        },
+        {
+          "ae": "Anti-cyclic citrullinated peptide antibody positive",
+          "ror_f": 52.7
+        },
+        {
+          "ae": "Folliculitis",
+          "ror_f": 47.48
+        },
+        {
+          "ae": "Helicobacter infection",
+          "ror_f": 44.55
+        },
+        {
+          "ae": "C-reactive protein abnormal",
+          "ror_f": 43.48
+        }
+      ],
+      "top_male_aes": [
+        {
+          "ae": "Device audio issue",
+          "ror_m": 59.18
+        },
+        {
+          "ae": "Self-consciousness",
+          "ror_m": 51.37
+        },
+        {
+          "ae": "Palmoplantar pustulosis",
+          "ror_m": 42.62
+        },
+        {
+          "ae": "Nail pitting",
+          "ror_m": 37.94
+        },
+        {
+          "ae": "Inflammatory pain",
+          "ror_m": 35.0
+        }
+      ]
+    },
+    {
+      "drug": "MORPHINE",
+      "n_signals": 441,
+      "pct_female": 83.4,
+      "n_female": 368,
+      "n_male": 73,
+      "mean_logr": 0.8473,
+      "top_female_aes": [
+        {
+          "ae": "Narcotic bowel syndrome",
+          "ror_f": 138.41
+        },
+        {
+          "ae": "Sedation complication",
+          "ror_f": 88.67
+        },
+        {
+          "ae": "Bronchopulmonary aspergillosis allergic",
+          "ror_f": 59.81
+        },
+        {
+          "ae": "Drug withdrawal syndrome neonatal",
+          "ror_f": 59.61
+        },
+        {
+          "ae": "Substance use disorder",
+          "ror_f": 57.1
+        }
+      ],
+      "top_male_aes": [
+        {
+          "ae": "Post-traumatic stress disorder",
+          "ror_m": 24.8
+        },
+        {
+          "ae": "Psychological trauma",
+          "ror_m": 21.05
+        },
+        {
+          "ae": "Allodynia",
+          "ror_m": 16.8
+        },
+        {
+          "ae": "Pain",
+          "ror_m": 15.9
+        },
+        {
+          "ae": "Device damage",
+          "ror_m": 13.14
+        }
+      ]
+    },
+    {
+      "drug": "ACETYLSALICYLIC ACID",
+      "n_signals": 433,
+      "pct_female": 73.0,
+      "n_female": 316,
+      "n_male": 117,
+      "mean_logr": 0.4798,
+      "top_female_aes": [
+        {
+          "ae": "Arterial intramural haematoma",
+          "ror_f": 252.93
+        },
+        {
+          "ae": "Aspirin-exacerbated respiratory disease",
+          "ror_f": 153.92
+        },
+        {
+          "ae": "Reye's syndrome",
+          "ror_f": 106.8
+        },
+        {
+          "ae": "Adjustment disorder",
+          "ror_f": 106.72
+        },
+        {
+          "ae": "Diverticulum intestinal haemorrhagic",
+          "ror_f": 81.23
+        }
+      ],
+      "top_male_aes": [
+        {
+          "ae": "Steroid dependence",
+          "ror_m": 66.26
+        },
+        {
+          "ae": "Occult blood",
+          "ror_m": 59.73
+        },
+        {
+          "ae": "Catarrh",
+          "ror_m": 47.74
+        },
+        {
+          "ae": "Periorbital haematoma",
+          "ror_m": 34.67
+        },
+        {
+          "ae": "Burns second degree",
+          "ror_m": 31.67
+        }
+      ]
+    }
+  ],
+  "shared_aes": [
+    {
+      "ae": "Adverse drug reaction",
+      "n_drugs": 20,
+      "pct_female": 100.0
+    },
+    {
+      "ae": "Liver injury",
+      "n_drugs": 18,
+      "pct_female": 100.0
+    },
+    {
+      "ae": "Blister",
+      "n_drugs": 18,
+      "pct_female": 100.0
+    },
+    {
+      "ae": "Delirium",
+      "n_drugs": 18,
+      "pct_female": 100.0
+    },
+    {
+      "ae": "Swelling",
+      "n_drugs": 18,
+      "pct_female": 88.9
+    },
+    {
+      "ae": "Gait inability",
+      "n_drugs": 18,
+      "pct_female": 100.0
+    },
+    {
+      "ae": "Therapeutic product effect decreased",
+      "n_drugs": 17,
+      "pct_female": 94.1
+    },
+    {
+      "ae": "Discomfort",
+      "n_drugs": 17,
+      "pct_female": 100.0
+    },
+    {
+      "ae": "Alopecia",
+      "n_drugs": 17,
+      "pct_female": 94.1
+    },
+    {
+      "ae": "Impaired healing",
+      "n_drugs": 17,
+      "pct_female": 88.2
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "wave": 224,
+  "title": "Drug-Level Sex Bias Spectrum",
+  "total_drugs": 2178,
+  "drugs_10plus": 1090,
+  "quartiles": {
+    "q1": 30.0,
+    "q2": 50.0,
+    "q3": 68.3
+  },
+  "bias_categories": [
+    {
+      "category": "Strong M (<30%F)",
+      "count": 279,
+      "pct": 25.6
+    },
+    {
+      "category": "Moderate M (30-45%F)",
+      "count": 177,
+      "pct": 16.2
+    },
+    {
+      "category": "Neutral (45-55%F)",
+      "count": 171,
+      "pct": 15.7
+    },
+    {
+      "category": "Moderate F (55-70%F)",
+      "count": 211,
+      "pct": 19.4
+    },
+    {
+      "category": "Strong F (>70%F)",
+      "count": 252,
+      "pct": 23.1
+    }
+  ],
+  "n_signals_vs_pct_f": {
+    "rho": 0.2,
+    "p": 2.4263280784018702e-11
+  },
+  "top100_pct_f": 57.8,
+  "bottom100_pct_f": 40.4,
+  "mean_logr": -0.0392
+}

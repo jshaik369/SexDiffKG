@@ -1,0 +1,12 @@
+{
+  "wave": 239,
+  "title": "FDA Black Box Warning Drug Analysis",
+  "bbw_drugs_found": 45,
+  "bbw_signals": 13446,
+  "bbw_pct_f": 59.7,
+  "non_bbw_pct_f": 52.8,
+  "delta_pp": 6.9,
+  "mann_whitney_p": 1.8977380269714302e-50,
+  "bbw_logr": 1.0106,
+  "non_bbw_logr": 0.9829
+}

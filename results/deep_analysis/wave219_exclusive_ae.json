@@ -1,0 +1,133 @@
+{
+  "wave": 219,
+  "title": "Female-Only and Male-Only AE Discovery",
+  "aes_5plus_drugs": 2358,
+  "female_only_100pct": 145,
+  "male_only_0pct": 168,
+  "strong_female_90plus": 221,
+  "strong_male_10minus": 245,
+  "top_female_only": [
+    {
+      "ae": "Viral load increased",
+      "n_drugs": 36,
+      "n_signals": 36,
+      "pct_female": 100.0
+    },
+    {
+      "ae": "Viral mutation identified",
+      "n_drugs": 36,
+      "n_signals": 36,
+      "pct_female": 100.0
+    },
+    {
+      "ae": "Virologic failure",
+      "n_drugs": 32,
+      "n_signals": 32,
+      "pct_female": 100.0
+    },
+    {
+      "ae": "Bone density decreased",
+      "n_drugs": 27,
+      "n_signals": 27,
+      "pct_female": 100.0
+    },
+    {
+      "ae": "Hyperuricaemia",
+      "n_drugs": 26,
+      "n_signals": 26,
+      "pct_female": 100.0
+    },
+    {
+      "ae": "Graft versus host disease in skin",
+      "n_drugs": 24,
+      "n_signals": 24,
+      "pct_female": 100.0
+    },
+    {
+      "ae": "Multiple fractures",
+      "n_drugs": 22,
+      "n_signals": 22,
+      "pct_female": 100.0
+    },
+    {
+      "ae": "Graft versus host disease in gastrointestinal tract",
+      "n_drugs": 21,
+      "n_signals": 21,
+      "pct_female": 100.0
+    },
+    {
+      "ae": "Drug tolerance",
+      "n_drugs": 20,
+      "n_signals": 20,
+      "pct_female": 100.0
+    },
+    {
+      "ae": "Acute lymphocytic leukaemia recurrent",
+      "n_drugs": 20,
+      "n_signals": 20,
+      "pct_female": 100.0
+    }
+  ],
+  "top_male_only": [
+    {
+      "ae": "Pain of skin",
+      "n_drugs": 61,
+      "n_signals": 61,
+      "pct_female": 0.0
+    },
+    {
+      "ae": "Hypopnoea",
+      "n_drugs": 35,
+      "n_signals": 35,
+      "pct_female": 0.0
+    },
+    {
+      "ae": "Central nervous system lesion",
+      "n_drugs": 35,
+      "n_signals": 35,
+      "pct_female": 0.0
+    },
+    {
+      "ae": "Gingival pain",
+      "n_drugs": 34,
+      "n_signals": 34,
+      "pct_female": 0.0
+    },
+    {
+      "ae": "Facial pain",
+      "n_drugs": 33,
+      "n_signals": 33,
+      "pct_female": 0.0
+    },
+    {
+      "ae": "Complication associated with device",
+      "n_drugs": 30,
+      "n_signals": 30,
+      "pct_female": 0.0
+    },
+    {
+      "ae": "Device breakage",
+      "n_drugs": 30,
+      "n_signals": 30,
+      "pct_female": 0.0
+    },
+    {
+      "ae": "Device dislocation",
+      "n_drugs": 29,
+      "n_signals": 29,
+      "pct_female": 0.0
+    },
+    {
+      "ae": "Sensation of foreign body",
+      "n_drugs": 28,
+      "n_signals": 28,
+      "pct_female": 0.0
+    },
+    {
+      "ae": "Catarrh",
+      "n_drugs": 28,
+      "n_signals": 28,
+      "pct_female": 0.0
+    }
+  ]
+}

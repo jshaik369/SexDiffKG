@@ -1,0 +1,73 @@
+{
+  "wave": 215,
+  "title": "Session 27 Comprehensive Summary",
+  "session": 27,
+  "waves_this_session": [
+    201,
+    202,
+    203,
+    204,
+    205,
+    206,
+    207,
+    208,
+    209,
+    210,
+    211,
+    212,
+    213,
+    214
+  ],
+  "total_wave_jsons": 84,
+  "total_figures_png": 363,
+  "key_findings": [
+    {
+      "wave": 201,
+      "title": "FDA Black Box Warning Drugs",
+      "finding": "BBW drugs 59.4%F vs non-BBW 52.6%F (p=5.6e-57). TZDs 91.7%F drive excess.",
+      "significance": "Safety-critical drugs have MORE female-biased AE profiles"
+    },
+    {
+      "wave": 202,
+      "title": "Signal Entropy",
+      "finding": "Distance from 50% perfectly predicts entropy (\u03c1=-1.000). Low-entropy drugs skew male (31.2%F).",
+      "significance": "Drugs with consistent sex direction exist and tend male-biased"
+    },
+    {
+      "wave": 206,
+      "title": "Gene-Bridged Pathway Atlas",
+      "finding": "94.7% bridge overlap. 328 pathways. STAT3/ALK signaling 81.4%F. Calcitonin receptors 13.5%F.",
+      "significance": "First Reactome pathway-level sex bias atlas via drug targets"
+    },
+    {
+      "wave": 207,
+      "title": "PPI Hub Targeting (Bridged)",
+      "finding": "Hub drugs +3.4pp more female (51.9% vs 48.5%). PPI degree\u2192%F: \u03c1=0.118 (p=0.01).",
+      "significance": "Drugs targeting network hubs show mild female bias"
+    },
+    {
+      "wave": 208,
+      "title": "Drug-AE Specificity (Gini)",
+      "finding": "Gini concentration does NOT predict sex bias (\u03c1=-0.016). Breadth does (\u03c1=0.200).",
+      "significance": "More AEs = more female-biased, but concentration irrelevant"
+    },
+    {
+      "wave": 209,
+      "title": "Drug Class Interaction",
+      "finding": "CPI\u00d7Biologic most discordant (\u03c1=-0.110). NSAID\u00d7Biologic most concordant (\u03c1=0.397).",
+      "significance": "Drug classes show consistent within-class AE sex patterns"
+    },
+    {
+      "wave": 210,
+      "title": "Named Reactome Pathway Atlas",
+      "finding": "DNA Processes 67.0%F most female category. Cytokines 30.5%F most male.",
+      "significance": "Pathway categories reveal biological sex bias patterns"
+    },
+    {
+      "wave": 212,
+      "title": "Signal Stability",
+      "finding": "Low-High confidence \u03c1=0.646 (p=4.4e-40). Female bias increases with confidence: 53.8%\u219267.0%F.",
+      "significance": "Sex differential signals are STABLE and get STRONGER with more data"
+    }
+  ]
+}

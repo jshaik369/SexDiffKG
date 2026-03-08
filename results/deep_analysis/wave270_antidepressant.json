@@ -1,0 +1,33 @@
+{
+  "wave": 270,
+  "title": "Antidepressant Deep Dive",
+  "ad_signals": 2672,
+  "ad_pct_f": 45.0,
+  "classes": {
+    "SSRI": {
+      "n": 1176,
+      "pct_f": 42.2,
+      "n_drugs": 6
+    },
+    "SNRI": {
+      "n": 533,
+      "pct_f": 39.4,
+      "n_drugs": 4
+    },
+    "TCA": {
+      "n": 340,
+      "pct_f": 47.9,
+      "n_drugs": 5
+    },
+    "Atypical": {
+      "n": 604,
+      "pct_f": 54.5,
+      "n_drugs": 6
+    },
+    "MAOI": {
+      "n": 19,
+      "pct_f": 21.1,
+      "n_drugs": 4
+    }
+  }
+}

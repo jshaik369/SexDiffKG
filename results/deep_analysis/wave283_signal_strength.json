@@ -1,0 +1,35 @@
+{
+  "wave": 283,
+  "title": "Signal Strength vs Sex Bias",
+  "quintiles": {
+    "Q1 (weak)": {
+      "n": 19257,
+      "pct_f": 51.4,
+      "median_abs_lr": 0.547
+    },
+    "Q2": {
+      "n": 19256,
+      "pct_f": 52.0,
+      "median_abs_lr": 0.661
+    },
+    "Q3": {
+      "n": 19256,
+      "pct_f": 53.3,
+      "median_abs_lr": 0.812
+    },
+    "Q4": {
+      "n": 19256,
+      "pct_f": 54.6,
+      "median_abs_lr": 1.053
+    },
+    "Q5 (strong)": {
+      "n": 19256,
+      "pct_f": 57.5,
+      "median_abs_lr": 1.654
+    }
+  },
+  "spearman_r": 0.0434,
+  "spearman_p": 2.57569766101265e-41,
+  "female_median_abs_lr": 0.8283,
+  "male_median_abs_lr": 0.7941
+}

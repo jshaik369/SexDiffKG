@@ -1,0 +1,44 @@
+{
+  "wave": 238,
+  "title": "Anti-Cancer Drug Deep Dive",
+  "onco_signals": 8607,
+  "onco_pct_f": 65.4,
+  "non_onco_pct_f": 52.6,
+  "classes": {
+    "Kinase inhibitor": {
+      "n": 1575,
+      "pct_f": 66.0,
+      "n_drugs": 20
+    },
+    "Checkpoint inhibitor": {
+      "n": 965,
+      "pct_f": 74.6,
+      "n_drugs": 8
+    },
+    "Alkylating": {
+      "n": 1712,
+      "pct_f": 70.7,
+      "n_drugs": 9
+    },
+    "Antimetabolite": {
+      "n": 2261,
+      "pct_f": 62.3,
+      "n_drugs": 8
+    },
+    "mAb (non-CPI)": {
+      "n": 1509,
+      "pct_f": 60.7,
+      "n_drugs": 8
+    },
+    "Hormone therapy": {
+      "n": 103,
+      "pct_f": 40.8,
+      "n_drugs": 9
+    },
+    "IMiD": {
+      "n": 482,
+      "pct_f": 60.8,
+      "n_drugs": 3
+    }
+  }
+}

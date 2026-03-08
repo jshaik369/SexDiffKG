@@ -1,0 +1,17 @@
+{
+  "wave": 263,
+  "title": "PPI/Acid Suppressant Deep Dive",
+  "acid_signals": 1888,
+  "classes": {
+    "PPI": {
+      "n": 1511,
+      "pct_f": 56.9,
+      "n_drugs": 6
+    },
+    "H2 blocker": {
+      "n": 377,
+      "pct_f": 83.6,
+      "n_drugs": 3
+    }
+  }
+}

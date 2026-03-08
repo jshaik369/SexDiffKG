@@ -1,0 +1,55 @@
+{
+  "wave": 249,
+  "title": "Autoimmune Drug Deep Dive",
+  "autoimmune_signals": 9996,
+  "autoimmune_drugs": 37,
+  "autoimmune_pct_f": 48.9,
+  "non_autoimmune_pct_f": 54.3,
+  "classes": {
+    "TNF inhibitor": {
+      "n": 2382,
+      "pct_f": 45.0,
+      "n_drugs": 4
+    },
+    "IL inhibitor": {
+      "n": 1942,
+      "pct_f": 45.2,
+      "n_drugs": 10
+    },
+    "JAK inhibitor": {
+      "n": 676,
+      "pct_f": 46.2,
+      "n_drugs": 5
+    },
+    "Anti-integrin": {
+      "n": 374,
+      "pct_f": 52.1,
+      "n_drugs": 2
+    },
+    "Anti-CD20": {
+      "n": 1032,
+      "pct_f": 58.4,
+      "n_drugs": 4
+    },
+    "Conventional DMARDs": {
+      "n": 2293,
+      "pct_f": 49.3,
+      "n_drugs": 5
+    },
+    "S1P modulator": {
+      "n": 242,
+      "pct_f": 14.5,
+      "n_drugs": 3
+    },
+    "Anti-BLyS": {
+      "n": 22,
+      "pct_f": 9.1,
+      "n_drugs": 1
+    },
+    "Calcineurin": {
+      "n": 1033,
+      "pct_f": 64.2,
+      "n_drugs": 3
+    }
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "wave": 272,
+  "title": "Antiretroviral Deep Dive",
+  "arv_signals": 965,
+  "arv_pct_f": 60.7,
+  "classes": {
+    "NRTI": {
+      "n": 384,
+      "pct_f": 66.7,
+      "n_drugs": 7
+    },
+    "NNRTI": {
+      "n": 150,
+      "pct_f": 62.0,
+      "n_drugs": 5
+    },
+    "PI": {
+      "n": 223,
+      "pct_f": 52.9,
+      "n_drugs": 7
+    },
+    "INSTI": {
+      "n": 198,
+      "pct_f": 55.1,
+      "n_drugs": 4
+    },
+    "Entry inhibitor": {
+      "n": 10,
+      "pct_f": 100.0,
+      "n_drugs": 2
+    }
+  }
+}
