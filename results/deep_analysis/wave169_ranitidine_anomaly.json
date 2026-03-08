@@ -1,0 +1,69 @@
+{
+  "wave": 169,
+  "title": "Ranitidine Anomaly Investigation",
+  "ranitidine": {
+    "n_signals": 324,
+    "pct_female": 93.5,
+    "mean_logr": 1.339,
+    "f_m_ratio": 1.05,
+    "cancer_signals": 48
+  },
+  "acid_drugs": [
+    {
+      "drug": "CIMETIDINE",
+      "class": "H2",
+      "n_signals": 1,
+      "pct_female": 100.0
+    },
+    {
+      "drug": "RANITIDINE",
+      "class": "H2",
+      "n_signals": 324,
+      "pct_female": 93.5
+    },
+    {
+      "drug": "ESOMEPRAZOLE",
+      "class": "PPI",
+      "n_signals": 308,
+      "pct_female": 60.4
+    },
+    {
+      "drug": "PANTOPRAZOLE",
+      "class": "PPI",
+      "n_signals": 501,
+      "pct_female": 60.3
+    },
+    {
+      "drug": "LANSOPRAZOLE",
+      "class": "PPI",
+      "n_signals": 240,
+      "pct_female": 57.5
+    },
+    {
+      "drug": "OMEPRAZOLE",
+      "class": "PPI",
+      "n_signals": 319,
+      "pct_female": 54.2
+    },
+    {
+      "drug": "DEXLANSOPRAZOLE",
+      "class": "PPI",
+      "n_signals": 78,
+      "pct_female": 51.3
+    },
+    {
+      "drug": "RABEPRAZOLE",
+      "class": "PPI",
+      "n_signals": 65,
+      "pct_female": 32.3
+    },
+    {
+      "drug": "FAMOTIDINE",
+      "class": "H2",
+      "n_signals": 52,
+      "pct_female": 21.2
+    }
+  ],
+  "h2_overall_pct_f": 83.6,
+  "ppi_overall_pct_f": 56.9
+}
