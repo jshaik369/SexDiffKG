@@ -1,0 +1,135 @@
+{
+  "wave": 165,
+  "title": "Immune Checkpoint Inhibitor Sex-Differential Profile",
+  "ici_signals": 965,
+  "ici_overall_pct_f": 74.6,
+  "all_drugs_pct_f": 53.8,
+  "excess_pp": 20.8,
+  "per_drug": [
+    {
+      "drug": "TREMELIMUMAB",
+      "target": "CTLA-4",
+      "n_signals": 21,
+      "pct_female": 85.7
+    },
+    {
+      "drug": "DURVALUMAB",
+      "target": "PD-L1",
+      "n_signals": 61,
+      "pct_female": 85.2
+    },
+    {
+      "drug": "ATEZOLIZUMAB",
+      "target": "PD-L1",
+      "n_signals": 152,
+      "pct_female": 82.9
+    },
+    {
+      "drug": "IPILIMUMAB",
+      "target": "CTLA-4",
+      "n_signals": 161,
+      "pct_female": 75.8
+    },
+    {
+      "drug": "CEMIPLIMAB",
+      "target": "PD-1",
+      "n_signals": 4,
+      "pct_female": 75.0
+    },
+    {
+      "drug": "AVELUMAB",
+      "target": "PD-L1",
+      "n_signals": 19,
+      "pct_female": 73.7
+    },
+    {
+      "drug": "PEMBROLIZUMAB",
+      "target": "PD-1",
+      "n_signals": 309,
+      "pct_female": 73.1
+    },
+    {
+      "drug": "NIVOLUMAB",
+      "target": "PD-1",
+      "n_signals": 238,
+      "pct_female": 66.8
+    }
+  ],
+  "per_target": [
+    {
+      "target": "PD-L1",
+      "n_drugs": 3,
+      "n_signals": 232,
+      "pct_female": 82.8
+    },
+    {
+      "target": "CTLA-4",
+      "n_drugs": 2,
+      "n_signals": 182,
+      "pct_female": 76.9
+    },
+    {
+      "target": "PD-1",
+      "n_drugs": 3,
+      "n_signals": 551,
+      "pct_female": 70.4
+    }
+  ],
+  "irae_profile": [
+    {
+      "irae_type": "Neurologic",
+      "n_signals": 19,
+      "pct_female": 100.0
+    },
+    {
+      "irae_type": "Pneumonitis",
+      "n_signals": 8,
+      "pct_female": 100.0
+    },
+    {
+      "irae_type": "Hepatic",
+      "n_signals": 42,
+      "pct_female": 92.9
+    },
+    {
+      "irae_type": "Cardiac",
+      "n_signals": 22,
+      "pct_female": 86.4
+    },
+    {
+      "irae_type": "Nephritis",
+      "n_signals": 27,
+      "pct_female": 85.2
+    },
+    {
+      "irae_type": "Colitis",
+      "n_signals": 15,
+      "pct_female": 80.0
+    },
+    {
+      "irae_type": "Endocrine",
+      "n_signals": 16,
+      "pct_female": 75.0
+    },
+    {
+      "irae_type": "Non-irAE",
+      "n_signals": 753,
+      "pct_female": 74.5
+    },
+    {
+      "irae_type": "Dermatologic",
+      "n_signals": 21,
+      "pct_female": 52.4
+    },
+    {
+      "irae_type": "Thyroid",
+      "n_signals": 22,
+      "pct_female": 40.9
+    },
+    {
+      "irae_type": "Arthritis/MSK",
+      "n_signals": 20,
+      "pct_female": 35.0
+    }
+  ]
+}
