@@ -17,6 +17,13 @@ Baselines (v4 RotatE v4.1): MRR 0.2018, Hits@10 36.77%, AMRI 0.9922
 
 Author: JShaik (jshaik@coevolvenetwork.com)
 """
+# --- SexDiffKG path config (auto-injected by cleanup/ismb-poster-prep) ---
+import os as _SDK_OS
+import pathlib as _SDK_PL
+SEXDIFFKG_HOME = str(_SDK_PL.Path(_SDK_OS.environ.get("SEXDIFFKG_HOME", _SDK_OS.path.expanduser("~/sexdiffkg"))).resolve())
+SEXDIFFKG_VAULT = str(_SDK_PL.Path(_SDK_OS.environ.get("SEXDIFFKG_VAULT", _SDK_OS.path.expanduser("~/AYURFEM-Vault/projects/sexdiffkg"))).resolve())
+# --- end SexDiffKG path config ---
+
 
 import gc
 import json
@@ -29,10 +36,10 @@ from datetime import datetime
 from pathlib import Path
 
 # --- Paths ---
-BASE = "/home/jshaik369/sexdiffkg"
+BASE = SEXDIFFKG_HOME
 V52_DIR = f"{BASE}/data/kg_v5.2"
 OUT_DIR = f"{BASE}/results/kg_embeddings_v5.2"
-VAULT = "/home/jshaik369/AYURFEM-Vault/projects/sexdiffkg"
+VAULT = SEXDIFFKG_VAULT
 TRIPLES_FILE = f"{V52_DIR}/triples.tsv"
 
 os.makedirs(OUT_DIR, exist_ok=True)

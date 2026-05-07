@@ -2,6 +2,13 @@
 """v5_04_train_complex.py — Train ComplEx embeddings on SexDiffKG v5
 CPU-only (GB10 GPU incompatible with complex tensor kernels).
 """
+# --- SexDiffKG path config (auto-injected by cleanup/ismb-poster-prep) ---
+import os as _SDK_OS
+import pathlib as _SDK_PL
+SEXDIFFKG_HOME = str(_SDK_PL.Path(_SDK_OS.environ.get("SEXDIFFKG_HOME", _SDK_OS.path.expanduser("~/sexdiffkg"))).resolve())
+SEXDIFFKG_VAULT = str(_SDK_PL.Path(_SDK_OS.environ.get("SEXDIFFKG_VAULT", _SDK_OS.path.expanduser("~/AYURFEM-Vault/projects/sexdiffkg"))).resolve())
+# --- end SexDiffKG path config ---
+
 import os
 import json
 import time
@@ -9,7 +16,7 @@ import torch
 import numpy as np
 from datetime import datetime
 
-base = "/home/jshaik369/sexdiffkg"
+base = SEXDIFFKG_HOME
 v5_dir = f"{base}/data/kg_v5"
 out_dir = f"{base}/results/kg_embeddings_v5"
 os.makedirs(out_dir, exist_ok=True)

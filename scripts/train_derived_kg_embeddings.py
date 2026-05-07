@@ -11,7 +11,7 @@ from datetime import datetime
 from pykeen.triples import TriplesFactory
 from pykeen.pipeline import pipeline
 
-base = "/home/jshaik369"
+base = _SDK_OS.path.expanduser("~")
 
 DERIVED_KGS = {
     'reproductkg': {

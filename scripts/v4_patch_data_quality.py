@@ -10,19 +10,26 @@ Fixes:
 
 Does NOT modify original edges.tsv or triples.tsv — those are preserved for reproducibility.
 """
+# --- SexDiffKG path config (auto-injected by cleanup/ismb-poster-prep) ---
+import os as _SDK_OS
+import pathlib as _SDK_PL
+SEXDIFFKG_HOME = str(_SDK_PL.Path(_SDK_OS.environ.get("SEXDIFFKG_HOME", _SDK_OS.path.expanduser("~/sexdiffkg"))).resolve())
+SEXDIFFKG_VAULT = str(_SDK_PL.Path(_SDK_OS.environ.get("SEXDIFFKG_VAULT", _SDK_OS.path.expanduser("~/AYURFEM-Vault/projects/sexdiffkg"))).resolve())
+# --- end SexDiffKG path config ---
+
 import os
 import sys
 import json
 import hashlib
 from datetime import datetime
 
-BASE = "/home/jshaik369/sexdiffkg"
+BASE = SEXDIFFKG_HOME
 KG_DIR = f"{BASE}/data/kg_v4"
 GT_PATHS = [
     f"{BASE}/GROUND_TRUTH.json",
     f"{BASE}/data/kg_v4/GROUND_TRUTH.json",
     f"{BASE}/results/GROUND_TRUTH.json",
-    "/home/jshaik369/AYURFEM-Vault/projects/sexdiffkg/GROUND_TRUTH.json",
+    f"{SEXDIFFKG_VAULT}/GROUND_TRUTH.json",
 ]
 
 print("=" * 70)

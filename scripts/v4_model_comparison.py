@@ -2,13 +2,20 @@
 """Comprehensive model comparison script.
 Compares ComplEx v4, DistMult v4, DistMult v4.1, RotatE v4.1 side by side.
 Run after all training completes."""
+# --- SexDiffKG path config (auto-injected by cleanup/ismb-poster-prep) ---
+import os as _SDK_OS
+import pathlib as _SDK_PL
+SEXDIFFKG_HOME = str(_SDK_PL.Path(_SDK_OS.environ.get("SEXDIFFKG_HOME", _SDK_OS.path.expanduser("~/sexdiffkg"))).resolve())
+SEXDIFFKG_VAULT = str(_SDK_PL.Path(_SDK_OS.environ.get("SEXDIFFKG_VAULT", _SDK_OS.path.expanduser("~/AYURFEM-Vault/projects/sexdiffkg"))).resolve())
+# --- end SexDiffKG path config ---
+
 
 import json
 import os
 from pathlib import Path
 from datetime import datetime
 
-BASE = Path('/home/jshaik369/sexdiffkg')
+BASE = _SDK_PL.Path(SEXDIFFKG_HOME)
 
 def load_metrics(name, path):
     """Load metrics from a JSON file."""

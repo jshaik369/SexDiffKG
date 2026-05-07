@@ -3,13 +3,20 @@
 Target-level sex-bias analysis on v4 SexDiffKG signals.
 Aggregates drug-level sex-differential signals to gene targets via ChEMBL drug-target mappings.
 """
+# --- SexDiffKG path config (auto-injected by cleanup/ismb-poster-prep) ---
+import os as _SDK_OS
+import pathlib as _SDK_PL
+SEXDIFFKG_HOME = str(_SDK_PL.Path(_SDK_OS.environ.get("SEXDIFFKG_HOME", _SDK_OS.path.expanduser("~/sexdiffkg"))).resolve())
+SEXDIFFKG_VAULT = str(_SDK_PL.Path(_SDK_OS.environ.get("SEXDIFFKG_VAULT", _SDK_OS.path.expanduser("~/AYURFEM-Vault/projects/sexdiffkg"))).resolve())
+# --- end SexDiffKG path config ---
+
 import json
 import pandas as pd
 import numpy as np
 from pathlib import Path
 from collections import defaultdict
 
-base = Path('/home/jshaik369/sexdiffkg')
+base = _SDK_PL.Path(SEXDIFFKG_HOME)
 out_dir = base / 'results' / 'analysis'
 out_dir.mkdir(parents=True, exist_ok=True)
 

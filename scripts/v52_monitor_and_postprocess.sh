@@ -1,6 +1,12 @@
+# --- SexDiffKG path config (auto-injected) ---
+SEXDIFFKG_HOME="${SEXDIFFKG_HOME:-$HOME/sexdiffkg}"
+SEXDIFFKG_VAULT="${SEXDIFFKG_VAULT:-$HOME/AYURFEM-Vault/projects/sexdiffkg}"
+export SEXDIFFKG_HOME SEXDIFFKG_VAULT
+# --- end SexDiffKG path config ---
+
 #\!/bin/bash
 # Monitor v52_fast tmux session and run post-training when done
-BASE="/home/jshaik369/sexdiffkg"
+BASE="$SEXDIFFKG_HOME"
 LOG="$BASE/results/kg_embeddings_v5.2/all_models_training.log"
 
 echo "Monitoring v5.2 training... (checking every 5 min)"

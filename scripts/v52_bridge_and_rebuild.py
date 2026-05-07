@@ -15,6 +15,13 @@ New bridge edge types:
   - same_gene: GENE:target_name → GENE:ENSG* (connects Component 1↔2)
   - encodes: GENE:ENSG* → PROTEIN:ENSP* (connects Component 2↔3)
 """
+# --- SexDiffKG path config (auto-injected by cleanup/ismb-poster-prep) ---
+import os as _SDK_OS
+import pathlib as _SDK_PL
+SEXDIFFKG_HOME = str(_SDK_PL.Path(_SDK_OS.environ.get("SEXDIFFKG_HOME", _SDK_OS.path.expanduser("~/sexdiffkg"))).resolve())
+SEXDIFFKG_VAULT = str(_SDK_PL.Path(_SDK_OS.environ.get("SEXDIFFKG_VAULT", _SDK_OS.path.expanduser("~/AYURFEM-Vault/projects/sexdiffkg"))).resolve())
+# --- end SexDiffKG path config ---
+
 import os
 import sys
 import json
@@ -26,10 +33,10 @@ import pandas as pd
 from datetime import datetime
 from collections import Counter
 
-BASE = "/home/jshaik369/sexdiffkg"
+BASE = SEXDIFFKG_HOME
 V5_DIR = f"{BASE}/data/kg_v5"
 V52_DIR = f"{BASE}/data/kg_v5.2"
-VAULT = "/home/jshaik369/AYURFEM-Vault/projects/sexdiffkg"
+VAULT = SEXDIFFKG_VAULT
 os.makedirs(V52_DIR, exist_ok=True)
 
 print("=" * 70)

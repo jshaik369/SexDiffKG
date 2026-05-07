@@ -1,6 +1,12 @@
 #!/bin/bash
+# --- SexDiffKG path config (auto-injected) ---
+SEXDIFFKG_HOME="${SEXDIFFKG_HOME:-$HOME/sexdiffkg}"
+SEXDIFFKG_VAULT="${SEXDIFFKG_VAULT:-$HOME/AYURFEM-Vault/projects/sexdiffkg}"
+export SEXDIFFKG_HOME SEXDIFFKG_VAULT
+# --- end SexDiffKG path config ---
+
 # Auto-chain: wait for DistMult v4.1, kill CPU RotatE, start GPU RotatE
-cd /home/jshaik369/sexdiffkg
+cd $SEXDIFFKG_HOME
 
 echo "$(date): Waiting for DistMult v4.1 to finish..."
 while pgrep -f "v4_06_retrain_distmult" > /dev/null 2>&1; do

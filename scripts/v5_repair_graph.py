@@ -8,13 +8,20 @@ Fixes:
 4. Extract largest connected component
 5. Output v5.1 (cleaned, connected KG)
 """
+# --- SexDiffKG path config (auto-injected by cleanup/ismb-poster-prep) ---
+import os as _SDK_OS
+import pathlib as _SDK_PL
+SEXDIFFKG_HOME = str(_SDK_PL.Path(_SDK_OS.environ.get("SEXDIFFKG_HOME", _SDK_OS.path.expanduser("~/sexdiffkg"))).resolve())
+SEXDIFFKG_VAULT = str(_SDK_PL.Path(_SDK_OS.environ.get("SEXDIFFKG_VAULT", _SDK_OS.path.expanduser("~/AYURFEM-Vault/projects/sexdiffkg"))).resolve())
+# --- end SexDiffKG path config ---
+
 import os
 import json
 import hashlib
 from datetime import datetime
 from collections import defaultdict
 
-BASE = "/home/jshaik369/sexdiffkg"
+BASE = SEXDIFFKG_HOME
 V5_DIR = f"{BASE}/data/kg_v5"
 V51_DIR = f"{BASE}/data/kg_v5.1"
 os.makedirs(V51_DIR, exist_ok=True)
@@ -399,7 +406,7 @@ with open(gt51_path, "w") as f:
 print(f"\n  Saved: {gt51_path}")
 
 # Also copy to vault
-vault_gt = "/home/jshaik369/AYURFEM-Vault/projects/sexdiffkg/GROUND_TRUTH_v5.1.json"
+vault_gt = f"{SEXDIFFKG_VAULT}/GROUND_TRUTH_v5.1.json"
 with open(vault_gt, "w") as f:
     json.dump(gt51, f, indent=2)
 print(f"  Saved: {vault_gt}")

@@ -1,11 +1,18 @@
 #!/usr/bin/env python3
 """Comprehensive v4 audit — checks all v4 data files for completeness and consistency."""
+# --- SexDiffKG path config (auto-injected by cleanup/ismb-poster-prep) ---
+import os as _SDK_OS
+import pathlib as _SDK_PL
+SEXDIFFKG_HOME = str(_SDK_PL.Path(_SDK_OS.environ.get("SEXDIFFKG_HOME", _SDK_OS.path.expanduser("~/sexdiffkg"))).resolve())
+SEXDIFFKG_VAULT = str(_SDK_PL.Path(_SDK_OS.environ.get("SEXDIFFKG_VAULT", _SDK_OS.path.expanduser("~/AYURFEM-Vault/projects/sexdiffkg"))).resolve())
+# --- end SexDiffKG path config ---
+
 import json
 import os
 import pandas as pd
 from pathlib import Path
 
-BASE = Path("/home/jshaik369/sexdiffkg")
+BASE = _SDK_PL.Path(SEXDIFFKG_HOME)
 results = {"checks": [], "passed": 0, "failed": 0, "warnings": 0}
 
 def check(name, condition, detail=""):

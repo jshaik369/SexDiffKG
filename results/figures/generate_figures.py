@@ -3,6 +3,13 @@
 Generate 4 publication-quality figures for SexDiffKG.
 Saves each as PNG (300 dpi) and PDF.
 """
+# --- SexDiffKG path config (auto-injected by cleanup/ismb-poster-prep) ---
+import os as _SDK_OS
+import pathlib as _SDK_PL
+SEXDIFFKG_HOME = str(_SDK_PL.Path(_SDK_OS.environ.get("SEXDIFFKG_HOME", _SDK_OS.path.expanduser("~/sexdiffkg"))).resolve())
+SEXDIFFKG_VAULT = str(_SDK_PL.Path(_SDK_OS.environ.get("SEXDIFFKG_VAULT", _SDK_OS.path.expanduser("~/AYURFEM-Vault/projects/sexdiffkg"))).resolve())
+# --- end SexDiffKG path config ---
+
 import json
 import os
 import numpy as np
@@ -31,7 +38,7 @@ plt.rcParams.update({
     'savefig.pad_inches': 0.15,
 })
 
-OUT = '/home/jshaik369/sexdiffkg/results/figures'
+OUT = f'{SEXDIFFKG_HOME}/results/figures'
 os.makedirs(OUT, exist_ok=True)
 
 # Colour palette
@@ -45,7 +52,7 @@ PARITY_RED = '#CC3333'
 # ══════════════════════════════════════════════════════════════════════════
 print('Generating Figure 1: Cardiac Reversal Bar Chart …')
 
-with open('/home/jshaik369/sexdiffkg/results/analysis/cardiac_reversal_analysis.json') as f:
+with open(f'{SEXDIFFKG_HOME}/results/analysis/cardiac_reversal_analysis.json') as f:
     cardiac = json.load(f)
 
 pab = cardiac['per_ae_breakdown']
@@ -95,7 +102,7 @@ print('  ✓ fig1_cardiac_reversal saved')
 # ══════════════════════════════════════════════════════════════════════════
 print('Generating Figure 2: Opioid Heatmap …')
 
-with open('/home/jshaik369/sexdiffkg/results/analysis/opioid_sex_diff_analysis.json') as f:
+with open(f'{SEXDIFFKG_HOME}/results/analysis/opioid_sex_diff_analysis.json') as f:
     opioid = json.load(f)
 
 pd_data = opioid['per_drug']
@@ -172,7 +179,7 @@ print('  ✓ fig2_opioid_heatmap saved')
 # ══════════════════════════════════════════════════════════════════════════
 print('Generating Figure 3: ATC Level 1 Forest Plot …')
 
-with open('/home/jshaik369/sexdiffkg/results/analysis/atc_soc_analysis.json') as f:
+with open(f'{SEXDIFFKG_HOME}/results/analysis/atc_soc_analysis.json') as f:
     atc_data = json.load(f)
 
 atc_l1 = atc_data['atc_level1']
@@ -248,7 +255,7 @@ print('  ✓ fig3_atc_forest saved')
 # ══════════════════════════════════════════════════════════════════════════
 print('Generating Figure 4: Global Volcano Plot …')
 
-df4 = pd.read_parquet('/home/jshaik369/sexdiffkg/results/signals_v4/sex_differential_v4.parquet')
+df4 = pd.read_parquet(f'{SEXDIFFKG_HOME}/results/signals_v4/sex_differential_v4.parquet')
 
 df4['report_volume'] = np.log10(df4['n_female'] + df4['n_male'])
 df4['abs_lr'] = df4['log_ratio'].abs()

@@ -7,13 +7,20 @@ Identify drugs with strong sex-differential signals but NO sex-stratified trials
 This is a direct policy-relevant analysis: which drugs urgently need sex-stratified trials?
 Only possible with v5.2 merged KG (VEDA-KG brings clinical trials, SexDiffKG brings safety signals).
 """
+# --- SexDiffKG path config (auto-injected by cleanup/ismb-poster-prep) ---
+import os as _SDK_OS
+import pathlib as _SDK_PL
+SEXDIFFKG_HOME = str(_SDK_PL.Path(_SDK_OS.environ.get("SEXDIFFKG_HOME", _SDK_OS.path.expanduser("~/sexdiffkg"))).resolve())
+SEXDIFFKG_VAULT = str(_SDK_PL.Path(_SDK_OS.environ.get("SEXDIFFKG_VAULT", _SDK_OS.path.expanduser("~/AYURFEM-Vault/projects/sexdiffkg"))).resolve())
+# --- end SexDiffKG path config ---
+
 import os
 import json
 import pandas as pd
 from datetime import datetime
 from collections import defaultdict
 
-BASE = "/home/jshaik369/sexdiffkg"
+BASE = SEXDIFFKG_HOME
 V52_DIR = f"{BASE}/data/kg_v5.2"
 OUT_DIR = "/tmp/sexdiffkg-deep-analysis/results"
 FIG_DIR = "/tmp/sexdiffkg-deep-analysis/figures"

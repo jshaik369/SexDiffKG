@@ -1,10 +1,16 @@
 #!/bin/bash
+# --- SexDiffKG path config (auto-injected) ---
+SEXDIFFKG_HOME="${SEXDIFFKG_HOME:-$HOME/sexdiffkg}"
+SEXDIFFKG_VAULT="${SEXDIFFKG_VAULT:-$HOME/AYURFEM-Vault/projects/sexdiffkg}"
+export SEXDIFFKG_HOME SEXDIFFKG_VAULT
+# --- end SexDiffKG path config ---
+
 # Post-RotatE completion workflow
 # Run this after both DGX and Mac Mini RotatE v4.1 training completes
 set -e
 
-DGX_METRICS=/home/jshaik369/sexdiffkg/results/kg_embeddings/rotatE_v41_cpu_metrics.json
-VAULT=/home/jshaik369/AYURFEM-Vault/projects/sexdiffkg
+DGX_METRICS=$SEXDIFFKG_HOME/results/kg_embeddings/rotatE_v41_cpu_metrics.json
+VAULT=$SEXDIFFKG_VAULT
 
 echo '=== Post-RotatE v4.1 Completion Workflow ==='
 echo "Started: $(date)"

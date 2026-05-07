@@ -3,11 +3,18 @@
 Only modifies files that would be sent externally.
 Historical vault docs are left untouched (they correctly reference v3 in context).
 """
+# --- SexDiffKG path config (auto-injected by cleanup/ismb-poster-prep) ---
+import os as _SDK_OS
+import pathlib as _SDK_PL
+SEXDIFFKG_HOME = str(_SDK_PL.Path(_SDK_OS.environ.get("SEXDIFFKG_HOME", _SDK_OS.path.expanduser("~/sexdiffkg"))).resolve())
+SEXDIFFKG_VAULT = str(_SDK_PL.Path(_SDK_OS.environ.get("SEXDIFFKG_VAULT", _SDK_OS.path.expanduser("~/AYURFEM-Vault/projects/sexdiffkg"))).resolve())
+# --- end SexDiffKG path config ---
+
 import os
 import re
 from datetime import datetime
 
-base = "/home/jshaik369/sexdiffkg"
+base = SEXDIFFKG_HOME
 
 # Files to fix (publication-critical ONLY)
 CRITICAL_FILES = [
@@ -108,7 +115,7 @@ for filepath in CRITICAL_FILES:
         print(f"  {os.path.basename(filepath)}: no changes needed")
 
 # Also fix the main repo GROUND_TRUTH.json vault copy README
-vault_readme = "/home/jshaik369/AYURFEM-Vault/projects/sexdiffkg/README.md"
+vault_readme = f"{SEXDIFFKG_VAULT}/README.md"
 if os.path.exists(vault_readme):
     with open(vault_readme) as f:
         content = f.read()

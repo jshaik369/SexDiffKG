@@ -1,12 +1,19 @@
 #!/usr/bin/env python3
 """Fix v5: deduplicate edges, verify v4 preservation, update ground truth"""
+# --- SexDiffKG path config (auto-injected by cleanup/ismb-poster-prep) ---
+import os as _SDK_OS
+import pathlib as _SDK_PL
+SEXDIFFKG_HOME = str(_SDK_PL.Path(_SDK_OS.environ.get("SEXDIFFKG_HOME", _SDK_OS.path.expanduser("~/sexdiffkg"))).resolve())
+SEXDIFFKG_VAULT = str(_SDK_PL.Path(_SDK_OS.environ.get("SEXDIFFKG_VAULT", _SDK_OS.path.expanduser("~/AYURFEM-Vault/projects/sexdiffkg"))).resolve())
+# --- end SexDiffKG path config ---
+
 import pandas as pd
 import json
 import hashlib
 import os
 from datetime import datetime
 
-base = "/home/jshaik369/sexdiffkg"
+base = SEXDIFFKG_HOME
 v4_dir = f"{base}/data/kg_v4"
 v5_dir = f"{base}/data/kg_v5"
 
@@ -122,7 +129,7 @@ with open(f"{v5_dir}/GROUND_TRUTH_v5.json", 'w') as f:
 # RAID copies
 import shutil
 shutil.copy(f"{v5_dir}/GROUND_TRUTH_v5.json", f"{base}/results/GROUND_TRUTH_v5.json")
-shutil.copy(f"{v5_dir}/GROUND_TRUTH_v5.json", "/home/jshaik369/AYURFEM-Vault/projects/sexdiffkg/GROUND_TRUTH_v5.json")
+shutil.copy(f"{v5_dir}/GROUND_TRUTH_v5.json", f"{SEXDIFFKG_VAULT}/GROUND_TRUTH_v5.json")
 
 print(f"\n=== FIX COMPLETE ===")
 print(f"Nodes: {len(v5_nodes):,}")

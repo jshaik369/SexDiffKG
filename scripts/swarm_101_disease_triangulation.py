@@ -1,5 +1,12 @@
 #!/usr/bin/env python3
 """Swarm A v2: Disease-Drug-Sex Triangulation (optimized with dict lookups)"""
+# --- SexDiffKG path config (auto-injected by cleanup/ismb-poster-prep) ---
+import os as _SDK_OS
+import pathlib as _SDK_PL
+SEXDIFFKG_HOME = str(_SDK_PL.Path(_SDK_OS.environ.get("SEXDIFFKG_HOME", _SDK_OS.path.expanduser("~/sexdiffkg"))).resolve())
+SEXDIFFKG_VAULT = str(_SDK_PL.Path(_SDK_OS.environ.get("SEXDIFFKG_VAULT", _SDK_OS.path.expanduser("~/AYURFEM-Vault/projects/sexdiffkg"))).resolve())
+# --- end SexDiffKG path config ---
+
 import pandas as pd
 import numpy as np
 import json
@@ -7,7 +14,7 @@ import os
 from datetime import datetime
 from collections import defaultdict
 
-base = "/home/jshaik369/sexdiffkg"
+base = SEXDIFFKG_HOME
 v5_dir = f"{base}/data/kg_v5"
 results_dir = f"{base}/results/analysis"
 deep_dir = "/tmp/sexdiffkg-deep-analysis"

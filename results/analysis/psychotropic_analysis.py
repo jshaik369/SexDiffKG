@@ -1,8 +1,15 @@
+# --- SexDiffKG path config (auto-injected by cleanup/ismb-poster-prep) ---
+import os as _SDK_OS
+import pathlib as _SDK_PL
+SEXDIFFKG_HOME = str(_SDK_PL.Path(_SDK_OS.environ.get("SEXDIFFKG_HOME", _SDK_OS.path.expanduser("~/sexdiffkg"))).resolve())
+SEXDIFFKG_VAULT = str(_SDK_PL.Path(_SDK_OS.environ.get("SEXDIFFKG_VAULT", _SDK_OS.path.expanduser("~/AYURFEM-Vault/projects/sexdiffkg"))).resolve())
+# --- end SexDiffKG path config ---
+
 import pandas as pd
 import json
 import numpy as np
 
-df = pd.read_parquet('/home/jshaik369/sexdiffkg/results/signals_v4/sex_differential_v4.parquet')
+df = pd.read_parquet(f'{SEXDIFFKG_HOME}/results/signals_v4/sex_differential_v4.parquet')
 df['drug_upper'] = df['drug_name'].str.upper()
 
 # Drug lists
@@ -105,6 +112,6 @@ for ae in metabolic_aes:
         print(f"  {ae}: {len(match)} signals, {f}F/{m}M ({pct:.0f}% F), logR={match['log_ratio'].mean():.3f}")
 
 # Save
-with open('/home/jshaik369/sexdiffkg/results/analysis/psychotropic_sex_diff.json', 'w') as f:
+with open(f'{SEXDIFFKG_HOME}/results/analysis/psychotropic_sex_diff.json', 'w') as f:
     json.dump(results, f, indent=2)
 print("\nSaved psychotropic_sex_diff.json")

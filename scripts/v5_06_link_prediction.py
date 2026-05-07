@@ -6,6 +6,13 @@ from the trained ComplEx v5 model.
 
 Run AFTER ComplEx v5 training completes.
 """
+# --- SexDiffKG path config (auto-injected by cleanup/ismb-poster-prep) ---
+import os as _SDK_OS
+import pathlib as _SDK_PL
+SEXDIFFKG_HOME = str(_SDK_PL.Path(_SDK_OS.environ.get("SEXDIFFKG_HOME", _SDK_OS.path.expanduser("~/sexdiffkg"))).resolve())
+SEXDIFFKG_VAULT = str(_SDK_PL.Path(_SDK_OS.environ.get("SEXDIFFKG_VAULT", _SDK_OS.path.expanduser("~/AYURFEM-Vault/projects/sexdiffkg"))).resolve())
+# --- end SexDiffKG path config ---
+
 import torch
 import json
 import os
@@ -13,7 +20,7 @@ import numpy as np
 from datetime import datetime
 from collections import defaultdict
 
-base = "/home/jshaik369/sexdiffkg"
+base = SEXDIFFKG_HOME
 emb_dir = f"{base}/results/kg_embeddings_v5"
 out_dir = f"{base}/results/link_predictions_v5"
 os.makedirs(out_dir, exist_ok=True)

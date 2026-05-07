@@ -6,6 +6,13 @@ Also checks: README.md, CITATION.cff, manuscript, ISMB abstract.
 
 Output: audit_proof_report.json with PASS/FAIL per check and exact line numbers.
 """
+# --- SexDiffKG path config (auto-injected by cleanup/ismb-poster-prep) ---
+import os as _SDK_OS
+import pathlib as _SDK_PL
+SEXDIFFKG_HOME = str(_SDK_PL.Path(_SDK_OS.environ.get("SEXDIFFKG_HOME", _SDK_OS.path.expanduser("~/sexdiffkg"))).resolve())
+SEXDIFFKG_VAULT = str(_SDK_PL.Path(_SDK_OS.environ.get("SEXDIFFKG_VAULT", _SDK_OS.path.expanduser("~/AYURFEM-Vault/projects/sexdiffkg"))).resolve())
+# --- end SexDiffKG path config ---
+
 import os
 import sys
 import json
@@ -13,8 +20,8 @@ import hashlib
 import re
 from datetime import datetime
 
-BASE = "/home/jshaik369/sexdiffkg"
-VAULT = "/home/jshaik369/AYURFEM-Vault/projects/sexdiffkg"
+BASE = SEXDIFFKG_HOME
+VAULT = SEXDIFFKG_VAULT
 
 print("=" * 70)
 print("AUDIT-PROOF NUMBER VERIFICATION")

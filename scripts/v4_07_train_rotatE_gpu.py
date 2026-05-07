@@ -3,6 +3,13 @@
 RotatE v4.1 on GPU — 200 epochs, single train() call.
 Use AFTER DistMult v4.1 finishes to reclaim GPU.
 """
+# --- SexDiffKG path config (auto-injected by cleanup/ismb-poster-prep) ---
+import os as _SDK_OS
+import pathlib as _SDK_PL
+SEXDIFFKG_HOME = str(_SDK_PL.Path(_SDK_OS.environ.get("SEXDIFFKG_HOME", _SDK_OS.path.expanduser("~/sexdiffkg"))).resolve())
+SEXDIFFKG_VAULT = str(_SDK_PL.Path(_SDK_OS.environ.get("SEXDIFFKG_VAULT", _SDK_OS.path.expanduser("~/AYURFEM-Vault/projects/sexdiffkg"))).resolve())
+# --- end SexDiffKG path config ---
+
 import json
 import time
 import torch
@@ -14,7 +21,7 @@ from pykeen.training import SLCWATrainingLoop
 from pykeen.evaluation import RankBasedEvaluator
 from pykeen.losses import NSSALoss
 
-BASE = Path("/home/jshaik369/sexdiffkg")
+BASE = _SDK_PL.Path(SEXDIFFKG_HOME)
 KG = BASE / "data" / "kg_v4"
 OUT = BASE / "results" / "kg_embeddings"
 

@@ -1,9 +1,15 @@
 #!/bin/bash
+# --- SexDiffKG path config (auto-injected) ---
+SEXDIFFKG_HOME="${SEXDIFFKG_HOME:-$HOME/sexdiffkg}"
+SEXDIFFKG_VAULT="${SEXDIFFKG_VAULT:-$HOME/AYURFEM-Vault/projects/sexdiffkg}"
+export SEXDIFFKG_HOME SEXDIFFKG_VAULT
+# --- end SexDiffKG path config ---
+
 # v5.2 Model Training Chain — runs all models sequentially
-# Launch: tmux new-session -d -s v52_chain "bash /home/jshaik369/sexdiffkg/scripts/v52_chain_all_models.sh"
+# Launch: tmux new-session -d -s v52_chain "bash $SEXDIFFKG_HOME/scripts/v52_chain_all_models.sh"
 
 set -e
-BASE="/home/jshaik369/sexdiffkg"
+BASE="$SEXDIFFKG_HOME"
 LOG_DIR="$BASE/results/kg_embeddings_v5.2"
 
 echo "=========================================="

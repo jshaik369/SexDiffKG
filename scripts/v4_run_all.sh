@@ -1,10 +1,16 @@
 #!/bin/bash
+# --- SexDiffKG path config (auto-injected) ---
+SEXDIFFKG_HOME="${SEXDIFFKG_HOME:-$HOME/sexdiffkg}"
+SEXDIFFKG_VAULT="${SEXDIFFKG_VAULT:-$HOME/AYURFEM-Vault/projects/sexdiffkg}"
+export SEXDIFFKG_HOME SEXDIFFKG_VAULT
+# --- end SexDiffKG path config ---
+
 # SexDiffKG v4 Master Pipeline — Full Rebuild
 # Runs all steps sequentially with logging
 # Launch in tmux: tmux new-session -d -s v4 './scripts/v4_run_all.sh'
 set -euo pipefail
 
-cd /home/jshaik369/sexdiffkg
+cd $SEXDIFFKG_HOME
 LOGDIR=logs
 VAULT=~/AYURFEM-Vault/projects/sexdiffkg
 mkdir -p "$LOGDIR" "$VAULT"

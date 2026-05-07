@@ -14,6 +14,13 @@ Approach:
 
 Output: JSON results + summary statistics
 """
+# --- SexDiffKG path config (auto-injected by cleanup/ismb-poster-prep) ---
+import os as _SDK_OS
+import pathlib as _SDK_PL
+SEXDIFFKG_HOME = str(_SDK_PL.Path(_SDK_OS.environ.get("SEXDIFFKG_HOME", _SDK_OS.path.expanduser("~/sexdiffkg"))).resolve())
+SEXDIFFKG_VAULT = str(_SDK_PL.Path(_SDK_OS.environ.get("SEXDIFFKG_VAULT", _SDK_OS.path.expanduser("~/AYURFEM-Vault/projects/sexdiffkg"))).resolve())
+# --- end SexDiffKG path config ---
+
 
 import json
 import time
@@ -25,10 +32,10 @@ from pathlib import Path
 
 warnings.filterwarnings('ignore')
 
-RESULTS_DIR = Path('/home/jshaik369/sexdiffkg/results/analysis')
+RESULTS_DIR = (_SDK_PL.Path(SEXDIFFKG_HOME) / "results/analysis")
 RESULTS_DIR.mkdir(parents=True, exist_ok=True)
 
-DATA_DIR = Path('/home/jshaik369/sexdiffkg/data/processed/faers_clean')
+DATA_DIR = (_SDK_PL.Path(SEXDIFFKG_HOME) / "data/processed/faers_clean")
 
 # ---- Configuration ----
 MIN_REPORTS = 3          # Minimum reports for a cell in ROR

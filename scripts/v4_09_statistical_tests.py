@@ -11,6 +11,13 @@ Comprehensive statistical testing for the SexDiffKG manuscript:
 
 Outputs: results/analysis/statistical_tests_v4.json
 """
+# --- SexDiffKG path config (auto-injected by cleanup/ismb-poster-prep) ---
+import os as _SDK_OS
+import pathlib as _SDK_PL
+SEXDIFFKG_HOME = str(_SDK_PL.Path(_SDK_OS.environ.get("SEXDIFFKG_HOME", _SDK_OS.path.expanduser("~/sexdiffkg"))).resolve())
+SEXDIFFKG_VAULT = str(_SDK_PL.Path(_SDK_OS.environ.get("SEXDIFFKG_VAULT", _SDK_OS.path.expanduser("~/AYURFEM-Vault/projects/sexdiffkg"))).resolve())
+# --- end SexDiffKG path config ---
+
 
 import json
 import os
@@ -27,7 +34,7 @@ from statsmodels.stats.multitest import multipletests
 # ---------------------------------------------------------------------------
 # Configuration
 # ---------------------------------------------------------------------------
-PROJECT = Path("/home/jshaik369/sexdiffkg")
+PROJECT = _SDK_PL.Path(SEXDIFFKG_HOME)
 SIGNALS_FILE = PROJECT / "results/signals_v4/sex_differential_v4.parquet"
 ALL_SIGNALS_FILE = PROJECT / "results/signals_v4/all_sex_comparisons_v4.parquet"
 EDGES_FILE = PROJECT / "data/kg_v4/edges.tsv"

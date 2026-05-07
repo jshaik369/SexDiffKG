@@ -1,5 +1,12 @@
 #!/usr/bin/env python3
 """RotatE v4.1 CPU — forced CPU to bypass NVRTC complex number JIT issue on GB10"""
+# --- SexDiffKG path config (auto-injected by cleanup/ismb-poster-prep) ---
+import os as _SDK_OS
+import pathlib as _SDK_PL
+SEXDIFFKG_HOME = str(_SDK_PL.Path(_SDK_OS.environ.get("SEXDIFFKG_HOME", _SDK_OS.path.expanduser("~/sexdiffkg"))).resolve())
+SEXDIFFKG_VAULT = str(_SDK_PL.Path(_SDK_OS.environ.get("SEXDIFFKG_VAULT", _SDK_OS.path.expanduser("~/AYURFEM-Vault/projects/sexdiffkg"))).resolve())
+# --- end SexDiffKG path config ---
+
 import json, time, torch, pandas as pd
 from pathlib import Path
 from pykeen.triples import TriplesFactory
@@ -8,7 +15,7 @@ from pykeen.training import SLCWATrainingLoop
 from pykeen.evaluation import RankBasedEvaluator
 from pykeen.losses import MarginRankingLoss
 
-BASE = Path('/home/jshaik369/sexdiffkg')
+BASE = _SDK_PL.Path(SEXDIFFKG_HOME)
 KG = BASE / 'data' / 'kg_v4'
 OUT = BASE / 'results' / 'kg_embeddings'
 

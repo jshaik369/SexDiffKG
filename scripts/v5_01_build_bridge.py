@@ -4,6 +4,13 @@ v5_01_build_bridge.py — Build 5 identifier bridges between SexDiffKG and VEDA-
 Bridges: Gene, Protein, Drug, AE, Pathway
 Output: data/bridge/*.tsv
 """
+# --- SexDiffKG path config (auto-injected by cleanup/ismb-poster-prep) ---
+import os as _SDK_OS
+import pathlib as _SDK_PL
+SEXDIFFKG_HOME = str(_SDK_PL.Path(_SDK_OS.environ.get("SEXDIFFKG_HOME", _SDK_OS.path.expanduser("~/sexdiffkg"))).resolve())
+SEXDIFFKG_VAULT = str(_SDK_PL.Path(_SDK_OS.environ.get("SEXDIFFKG_VAULT", _SDK_OS.path.expanduser("~/AYURFEM-Vault/projects/sexdiffkg"))).resolve())
+# --- end SexDiffKG path config ---
+
 import pandas as pd
 import numpy as np
 import os
@@ -13,8 +20,8 @@ import sqlite3
 from collections import defaultdict
 from datetime import datetime
 
-base = "/home/jshaik369/sexdiffkg"
-veda = "/home/jshaik369/veda-kg"
+base = SEXDIFFKG_HOME
+veda = _SDK_OS.path.expanduser("~/veda-kg")
 bridge_dir = f"{base}/data/bridge"
 os.makedirs(bridge_dir, exist_ok=True)
 

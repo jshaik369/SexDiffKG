@@ -11,6 +11,13 @@ Key refs applied:
 - Ruffinelli 2020: Adam + early stopping is robust default
 - Goyal 2017: batch 1024 with lr 0.001 is safe for KGs this size
 """
+# --- SexDiffKG path config (auto-injected by cleanup/ismb-poster-prep) ---
+import os as _SDK_OS
+import pathlib as _SDK_PL
+SEXDIFFKG_HOME = str(_SDK_PL.Path(_SDK_OS.environ.get("SEXDIFFKG_HOME", _SDK_OS.path.expanduser("~/sexdiffkg"))).resolve())
+SEXDIFFKG_VAULT = str(_SDK_PL.Path(_SDK_OS.environ.get("SEXDIFFKG_VAULT", _SDK_OS.path.expanduser("~/AYURFEM-Vault/projects/sexdiffkg"))).resolve())
+# --- end SexDiffKG path config ---
+
 import os
 import sys
 import json
@@ -20,10 +27,10 @@ import torch
 import numpy as np
 from datetime import datetime
 
-BASE = "/home/jshaik369/sexdiffkg"
+BASE = SEXDIFFKG_HOME
 V52_DIR = f"{BASE}/data/kg_v5.2"
 OUT_DIR = f"{BASE}/results/kg_embeddings_v5.2"
-VAULT = "/home/jshaik369/AYURFEM-Vault/projects/sexdiffkg"
+VAULT = SEXDIFFKG_VAULT
 os.makedirs(OUT_DIR, exist_ok=True)
 
 # Set CPU threads for DGX Grace (20 ARM cores)

@@ -4,6 +4,13 @@ Run AFTER ComplEx v5 finishes (they share CPU resources).
 DistMult is simpler than ComplEx — uses real embeddings, no complex tensors.
 Should train faster and serve as comparison baseline.
 """
+# --- SexDiffKG path config (auto-injected by cleanup/ismb-poster-prep) ---
+import os as _SDK_OS
+import pathlib as _SDK_PL
+SEXDIFFKG_HOME = str(_SDK_PL.Path(_SDK_OS.environ.get("SEXDIFFKG_HOME", _SDK_OS.path.expanduser("~/sexdiffkg"))).resolve())
+SEXDIFFKG_VAULT = str(_SDK_PL.Path(_SDK_OS.environ.get("SEXDIFFKG_VAULT", _SDK_OS.path.expanduser("~/AYURFEM-Vault/projects/sexdiffkg"))).resolve())
+# --- end SexDiffKG path config ---
+
 import torch
 import json
 import os
@@ -17,7 +24,7 @@ from pykeen.losses import MarginRankingLoss
 from pykeen.evaluation import RankBasedEvaluator
 from pykeen.pipeline import pipeline
 
-base = "/home/jshaik369/sexdiffkg"
+base = SEXDIFFKG_HOME
 triples_path = f"{base}/data/kg_v5/triples.tsv"
 out_dir = f"{base}/results/kg_embeddings_v5_distmult"
 os.makedirs(out_dir, exist_ok=True)

@@ -2,6 +2,13 @@
 """audit_proof_verification.py — Verify EVERY number in SexDiffKG matches ground truth.
 Checks: GROUND_TRUTH, README, manuscript, ISMB abstract, all 35 papers, vault docs.
 """
+# --- SexDiffKG path config (auto-injected by cleanup/ismb-poster-prep) ---
+import os as _SDK_OS
+import pathlib as _SDK_PL
+SEXDIFFKG_HOME = str(_SDK_PL.Path(_SDK_OS.environ.get("SEXDIFFKG_HOME", _SDK_OS.path.expanduser("~/sexdiffkg"))).resolve())
+SEXDIFFKG_VAULT = str(_SDK_PL.Path(_SDK_OS.environ.get("SEXDIFFKG_VAULT", _SDK_OS.path.expanduser("~/AYURFEM-Vault/projects/sexdiffkg"))).resolve())
+# --- end SexDiffKG path config ---
+
 import json
 import os
 import re
@@ -10,8 +17,8 @@ import pandas as pd
 from datetime import datetime
 from collections import defaultdict
 
-base = "/home/jshaik369/sexdiffkg"
-vault = "/home/jshaik369/AYURFEM-Vault/projects/sexdiffkg"
+base = SEXDIFFKG_HOME
+vault = SEXDIFFKG_VAULT
 deep = "/tmp/sexdiffkg-deep-analysis"
 
 report = {

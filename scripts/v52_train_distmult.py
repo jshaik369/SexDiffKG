@@ -10,6 +10,13 @@ Phase 2: Full training (300 epochs + early stopping patience=10)
 CRITICAL: Save model weights BEFORE evaluation extraction (crash protection).
 CPU-only (GB10 GPU incompatible).
 """
+# --- SexDiffKG path config (auto-injected by cleanup/ismb-poster-prep) ---
+import os as _SDK_OS
+import pathlib as _SDK_PL
+SEXDIFFKG_HOME = str(_SDK_PL.Path(_SDK_OS.environ.get("SEXDIFFKG_HOME", _SDK_OS.path.expanduser("~/sexdiffkg"))).resolve())
+SEXDIFFKG_VAULT = str(_SDK_PL.Path(_SDK_OS.environ.get("SEXDIFFKG_VAULT", _SDK_OS.path.expanduser("~/AYURFEM-Vault/projects/sexdiffkg"))).resolve())
+# --- end SexDiffKG path config ---
+
 import os
 import sys
 import json
@@ -20,10 +27,10 @@ import numpy as np
 from datetime import datetime
 
 # ── Paths ──────────────────────────────────────────────────────────────
-BASE = "/home/jshaik369/sexdiffkg"
+BASE = SEXDIFFKG_HOME
 V52_DIR = f"{BASE}/data/kg_v5.2"
 OUT_DIR = f"{BASE}/results/kg_embeddings_v5.2"
-VAULT = "/home/jshaik369/AYURFEM-Vault/projects/sexdiffkg"
+VAULT = SEXDIFFKG_VAULT
 os.makedirs(OUT_DIR, exist_ok=True)
 
 TRIPLES_PATH = f"{V52_DIR}/triples.tsv"

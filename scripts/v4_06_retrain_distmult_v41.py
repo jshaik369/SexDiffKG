@@ -5,6 +5,13 @@ Retrain DistMult on KG v4.1 (with real GTEx sex-DE data).
 KG v4.1: 109,867 nodes, 1,822,851 edges (289 real GTEx edges vs 105 fake in v4.0)
 Previous DistMult v4: MRR 0.09316, Hits@10 18.42%, AMRI 0.9906
 """
+# --- SexDiffKG path config (auto-injected by cleanup/ismb-poster-prep) ---
+import os as _SDK_OS
+import pathlib as _SDK_PL
+SEXDIFFKG_HOME = str(_SDK_PL.Path(_SDK_OS.environ.get("SEXDIFFKG_HOME", _SDK_OS.path.expanduser("~/sexdiffkg"))).resolve())
+SEXDIFFKG_VAULT = str(_SDK_PL.Path(_SDK_OS.environ.get("SEXDIFFKG_VAULT", _SDK_OS.path.expanduser("~/AYURFEM-Vault/projects/sexdiffkg"))).resolve())
+# --- end SexDiffKG path config ---
+
 import json
 import time
 import torch
@@ -16,7 +23,7 @@ from pykeen.training import SLCWATrainingLoop
 from pykeen.evaluation import RankBasedEvaluator
 from pykeen.losses import MarginRankingLoss
 
-BASE = Path("/home/jshaik369/sexdiffkg")
+BASE = _SDK_PL.Path(SEXDIFFKG_HOME)
 KG = BASE / "data" / "kg_v4"
 OUT = BASE / "results" / "kg_embeddings"
 

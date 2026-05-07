@@ -3,6 +3,13 @@
 Generate publication-quality Figures 5, 6, 7 for SexDiffKG manuscript.
 All figures use seaborn 'ticks' style, fontsize 12, tight_layout(), 300 dpi.
 """
+# --- SexDiffKG path config (auto-injected by cleanup/ismb-poster-prep) ---
+import os as _SDK_OS
+import pathlib as _SDK_PL
+SEXDIFFKG_HOME = str(_SDK_PL.Path(_SDK_OS.environ.get("SEXDIFFKG_HOME", _SDK_OS.path.expanduser("~/sexdiffkg"))).resolve())
+SEXDIFFKG_VAULT = str(_SDK_PL.Path(_SDK_OS.environ.get("SEXDIFFKG_VAULT", _SDK_OS.path.expanduser("~/AYURFEM-Vault/projects/sexdiffkg"))).resolve())
+# --- end SexDiffKG path config ---
+
 
 import matplotlib
 matplotlib.use('Agg')
@@ -28,7 +35,7 @@ plt.rcParams.update({
     'figure.dpi': 300,
 })
 
-OUTPUT_DIR = '/home/jshaik369/sexdiffkg/results/figures/'
+OUTPUT_DIR = f'{SEXDIFFKG_HOME}/results/figures/'
 os.makedirs(OUTPUT_DIR, exist_ok=True)
 
 # ============================================================
@@ -38,7 +45,7 @@ print("=" * 60)
 print("Generating Figure 5: Psychotropic Drug Class Sex Differences")
 print("=" * 60)
 
-with open('/home/jshaik369/sexdiffkg/results/analysis/psychotropic_sex_diff.json') as f:
+with open(f'{SEXDIFFKG_HOME}/results/analysis/psychotropic_sex_diff.json') as f:
     psych_data = json.load(f)
 
 # Define classes in display order (exclude All_Antidepressants as it's a superset)
@@ -104,7 +111,7 @@ print("=" * 60)
 print("Generating Figure 6: Temporal Evolution of Sex-Differential Signals")
 print("=" * 60)
 
-with open('/home/jshaik369/sexdiffkg/results/analysis/temporal_trend_analysis.json') as f:
+with open(f'{SEXDIFFKG_HOME}/results/analysis/temporal_trend_analysis.json') as f:
     temp_data = json.load(f)
 
 # Extract era-level data from temporal_aggregate_trends
@@ -218,12 +225,12 @@ print("=" * 60)
 
 # Load edges
 print("  Loading edges.tsv...")
-edges_df = pd.read_csv('/home/jshaik369/sexdiffkg/data/kg_v4/edges.tsv', sep='\t')
+edges_df = pd.read_csv(f'{SEXDIFFKG_HOME}/data/kg_v4/edges.tsv', sep='\t')
 print(f"  Loaded {len(edges_df):,} edges")
 
 # Load nodes for category info
 print("  Loading nodes.tsv...")
-nodes_df = pd.read_csv('/home/jshaik369/sexdiffkg/data/kg_v4/nodes.tsv', sep='\t')
+nodes_df = pd.read_csv(f'{SEXDIFFKG_HOME}/data/kg_v4/nodes.tsv', sep='\t')
 print(f"  Loaded {len(nodes_df):,} nodes")
 
 # Compute degree for each node (both subject and object count)

@@ -11,6 +11,13 @@ Implements findings from:
 Phase 1: Quick HPO search (30 trials, 50 epochs each) to find best hyperparameters
 Phase 2: Full training with best hyperparameters (500 epochs + early stopping)
 """
+# --- SexDiffKG path config (auto-injected by cleanup/ismb-poster-prep) ---
+import os as _SDK_OS
+import pathlib as _SDK_PL
+SEXDIFFKG_HOME = str(_SDK_PL.Path(_SDK_OS.environ.get("SEXDIFFKG_HOME", _SDK_OS.path.expanduser("~/sexdiffkg"))).resolve())
+SEXDIFFKG_VAULT = str(_SDK_PL.Path(_SDK_OS.environ.get("SEXDIFFKG_VAULT", _SDK_OS.path.expanduser("~/AYURFEM-Vault/projects/sexdiffkg"))).resolve())
+# --- end SexDiffKG path config ---
+
 import os
 import sys
 import json
@@ -18,7 +25,7 @@ import time
 import torch
 from datetime import datetime
 
-BASE = "/home/jshaik369/sexdiffkg"
+BASE = SEXDIFFKG_HOME
 V51_DIR = f"{BASE}/data/kg_v5.1"
 OUT_DIR = f"{BASE}/results/kg_embeddings_v5.1"
 os.makedirs(OUT_DIR, exist_ok=True)
@@ -301,7 +308,7 @@ with open(results_path, "w") as f:
 print(f"  Results saved: {results_path}")
 
 # Copy to vault
-vault_path = "/home/jshaik369/AYURFEM-Vault/projects/sexdiffkg/complex_v51_results.json"
+vault_path = f"{SEXDIFFKG_VAULT}/complex_v51_results.json"
 with open(vault_path, "w") as f:
     json.dump(final_results, f, indent=2)
 print(f"  Vault copy: {vault_path}")

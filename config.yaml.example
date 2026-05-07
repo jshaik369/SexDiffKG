@@ -1,0 +1,40 @@
+# SexDiffKG configuration template.
+# Copy to config.yaml and edit. Most users only need to set the two top-level paths.
+#
+# Paths can ALSO be set via environment variables:
+#   export SEXDIFFKG_HOME=$HOME/sexdiffkg
+#   export SEXDIFFKG_VAULT=$HOME/AYURFEM-Vault/projects/sexdiffkg
+# Env vars take precedence over this file. The auto-injected prelude in every
+# script reads the env var first, then falls back to ~/sexdiffkg.
+
+paths:
+  # Repository root. Defaults to $HOME/sexdiffkg.
+  sexdiffkg_home: ~/sexdiffkg
+
+  # Optional: companion vault used by the autopilot orchestrator. Most users
+  # don't need this.
+  sexdiffkg_vault: ~/AYURFEM-Vault/projects/sexdiffkg
+
+# FAERS data source.
+faers:
+  # Range of quarters to ingest (inclusive). Current ground truth covers 87
+  # quarters from 2004Q1 through 2025Q3.
+  quarter_start: "2004Q1"
+  quarter_end:   "2025Q3"
+
+  # Where to put downloaded raw data. Relative to sexdiffkg_home.
+  raw_dir: data/raw/faers
+
+# Knowledge graph version to use for downstream analysis.
+# v4 is the canonical version for published claims (per GROUND_TRUTH.json).
+# v5 is the merged version with VEDA-KG (see GROUND_TRUTH_v5.json).
+kg:
+  active_version: v4
+
+# Embedding training defaults.
+embeddings:
+  device: cuda             # or cpu; CPU works but is much slower
+  embedding_dim: 200
+  epochs: 100
+  batch_size: 4096
+  learning_rate: 0.001

@@ -15,6 +15,13 @@ Changes from v4.0:
 
 Author: J.Shaik (jshaik@coevolvenetwork.com)
 """
+# --- SexDiffKG path config (auto-injected by cleanup/ismb-poster-prep) ---
+import os as _SDK_OS
+import pathlib as _SDK_PL
+SEXDIFFKG_HOME = str(_SDK_PL.Path(_SDK_OS.environ.get("SEXDIFFKG_HOME", _SDK_OS.path.expanduser("~/sexdiffkg"))).resolve())
+SEXDIFFKG_VAULT = str(_SDK_PL.Path(_SDK_OS.environ.get("SEXDIFFKG_VAULT", _SDK_OS.path.expanduser("~/AYURFEM-Vault/projects/sexdiffkg"))).resolve())
+# --- end SexDiffKG path config ---
+
 
 import pandas as pd
 import numpy as np
@@ -28,7 +35,7 @@ logging.basicConfig(level=logging.INFO, format='%(asctime)s %(levelname)s %(mess
 logger = logging.getLogger(__name__)
 
 # === PATHS ===
-PROJECT = Path("/home/jshaik369/sexdiffkg")
+PROJECT = _SDK_PL.Path(SEXDIFFKG_HOME)
 KG_V4 = PROJECT / "data" / "kg_v4"
 KG_V42 = PROJECT / "data" / "kg_v42"
 MOLECULAR = PROJECT / "data" / "processed" / "molecular"
