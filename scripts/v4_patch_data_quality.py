@@ -16,13 +16,13 @@ import json
 import hashlib
 from datetime import datetime
 
-BASE = "/home/jshaik369/sexdiffkg"
+BASE = os.environ.get("SEXDIFFKG_HOME", os.path.expanduser("~/sexdiffkg"))
 KG_DIR = f"{BASE}/data/kg_v4"
 GT_PATHS = [
     f"{BASE}/GROUND_TRUTH.json",
     f"{BASE}/data/kg_v4/GROUND_TRUTH.json",
     f"{BASE}/results/GROUND_TRUTH.json",
-    "/home/jshaik369/AYURFEM-Vault/projects/sexdiffkg/GROUND_TRUTH.json",
+    os.path.join(os.environ.get("SEXDIFFKG_VAULT", os.path.expanduser("~/sexdiffkg-notes")), "GROUND_TRUTH.json"),
 ]
 
 print("=" * 70)

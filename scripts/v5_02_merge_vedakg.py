@@ -12,8 +12,8 @@ import hashlib
 from datetime import datetime
 from collections import defaultdict
 
-base = "/home/jshaik369/sexdiffkg"
-veda = "/home/jshaik369/veda-kg"
+base = os.environ.get("SEXDIFFKG_HOME", os.path.expanduser("~/sexdiffkg"))
+veda = os.environ.get("VEDAKG_HOME", os.path.expanduser("~/veda-kg"))
 bridge_dir = f"{base}/data/bridge"
 v5_dir = f"{base}/data/kg_v5"
 os.makedirs(v5_dir, exist_ok=True)

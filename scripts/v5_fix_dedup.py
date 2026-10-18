@@ -6,7 +6,7 @@ import hashlib
 import os
 from datetime import datetime
 
-base = "/home/jshaik369/sexdiffkg"
+base = os.environ.get("SEXDIFFKG_HOME", os.path.expanduser("~/sexdiffkg"))
 v4_dir = f"{base}/data/kg_v4"
 v5_dir = f"{base}/data/kg_v5"
 
@@ -122,7 +122,7 @@ with open(f"{v5_dir}/GROUND_TRUTH_v5.json", 'w') as f:
 # RAID copies
 import shutil
 shutil.copy(f"{v5_dir}/GROUND_TRUTH_v5.json", f"{base}/results/GROUND_TRUTH_v5.json")
-shutil.copy(f"{v5_dir}/GROUND_TRUTH_v5.json", "/home/jshaik369/AYURFEM-Vault/projects/sexdiffkg/GROUND_TRUTH_v5.json")
+shutil.copy(f"{v5_dir}/GROUND_TRUTH_v5.json", os.path.join(os.environ.get("SEXDIFFKG_VAULT", os.path.expanduser("~/sexdiffkg-notes")), "GROUND_TRUTH_v5.json"))
 
 print(f"\n=== FIX COMPLETE ===")
 print(f"Nodes: {len(v5_nodes):,}")

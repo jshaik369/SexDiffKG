@@ -7,7 +7,7 @@ import hashlib
 import os
 from datetime import datetime
 
-base = "/home/jshaik369/sexdiffkg"
+base = os.environ.get("SEXDIFFKG_HOME", os.path.expanduser("~/sexdiffkg"))
 v4_dir = f"{base}/data/kg_v4"
 v5_dir = f"{base}/data/kg_v5"
 results_dir = f"{base}/results/analysis"

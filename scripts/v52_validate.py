@@ -19,10 +19,10 @@ import pandas as pd
 from datetime import datetime
 from collections import deque
 
-BASE = "/home/jshaik369/sexdiffkg"
+BASE = os.environ.get("SEXDIFFKG_HOME", os.path.expanduser("~/sexdiffkg"))
 V52_DIR = f"{BASE}/data/kg_v5.2"
 V4_DIR = f"{BASE}/data/kg_v4"
-VAULT = "/home/jshaik369/AYURFEM-Vault/projects/sexdiffkg"
+VAULT = os.environ.get("SEXDIFFKG_VAULT", os.path.expanduser("~/sexdiffkg-notes"))
 
 print("=" * 70)
 print("v5.2 KG VALIDATION")

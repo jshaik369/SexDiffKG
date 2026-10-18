@@ -13,8 +13,8 @@ import sqlite3
 from collections import defaultdict
 from datetime import datetime
 
-base = "/home/jshaik369/sexdiffkg"
-veda = "/home/jshaik369/veda-kg"
+base = os.environ.get("SEXDIFFKG_HOME", os.path.expanduser("~/sexdiffkg"))
+veda = os.environ.get("VEDAKG_HOME", os.path.expanduser("~/veda-kg"))
 bridge_dir = f"{base}/data/bridge"
 os.makedirs(bridge_dir, exist_ok=True)
 

@@ -12,7 +12,14 @@
         "id": {
           "type": "string",
           "description": "Unique node identifier with category prefix",
-          "examples": ["DRUG:ASPIRIN", "GENE:BRCA1", "PROTEIN:ENSP00000350283", "AE:Headache", "PATHWAY:R-HSA-109582", "TISSUE:Liver"],
+          "examples": [
+            "DRUG:ASPIRIN",
+            "GENE:BRCA1",
+            "PROTEIN:ENSP00000350283",
+            "AE:Headache",
+            "PATHWAY:R-HSA-109582",
+            "TISSUE:Liver"
+          ],
           "prefixes": {
             "DRUG:": "Drug/active ingredient (DiAna-normalized FAERS names)",
             "GENE:": "Gene (HGNC symbol)",
@@ -29,7 +36,14 @@
         "category": {
           "type": "string",
           "description": "Entity type category",
-          "values": ["Drug", "Gene", "Protein", "AdverseEvent", "Pathway", "Tissue"],
+          "values": [
+            "Drug",
+            "Gene",
+            "Protein",
+            "AdverseEvent",
+            "Pathway",
+            "Tissue"
+          ],
           "counts": {
             "Gene": 77498,
             "Protein": 16201,
@@ -111,9 +125,18 @@
       "format": "TSV (tab-separated, no header): head, relation, tail",
       "rows": 1822851,
       "columns": {
-        "head": {"type": "string", "description": "Same as edges.tsv subject"},
-        "relation": {"type": "string", "description": "Same as edges.tsv predicate"},
-        "tail": {"type": "string", "description": "Same as edges.tsv object"}
+        "head": {
+          "type": "string",
+          "description": "Same as edges.tsv subject"
+        },
+        "relation": {
+          "type": "string",
+          "description": "Same as edges.tsv predicate"
+        },
+        "tail": {
+          "type": "string",
+          "description": "Same as edges.tsv object"
+        }
       },
       "md5": "2d4e46b1265a9a9bd44bbfc7372a9e44"
     }
@@ -167,53 +190,18 @@
       "resolution_rate": "53.9%"
     }
   },
-  "embeddings": {
-    "ComplEx_v4": {
-      "model": "ComplEx",
-      "dimension": 200,
-      "real_dimension": 400,
-      "epochs": 100,
-      "batch_size": 512,
-      "learning_rate": 0.001,
-      "random_seed": 42,
-      "train_test_split": "90/10",
-      "entities_embedded": 113012,
-      "relations_embedded": 5,
-      "metrics": {
-        "MRR": 0.2484,
-        "Hits@1": 0.1678,
-        "Hits@3": 0.2692,
-        "Hits@5": 0.3234,
-        "Hits@10": 0.4069,
-        "AMRI": 0.9902
-      },
-      "files": {
-        "model_weights": "results/kg_embeddings_v4/ComplEx/model.pt",
-        "entity_embeddings": "results/kg_embeddings_v4/ComplEx/embeddings/entity_embeddings.npz",
-        "relation_embeddings": "results/kg_embeddings_v4/ComplEx/embeddings/relation_embeddings.npz"
-      },
-      "note": "ComplEx uses complex-valued embeddings. Each 200-d embedding has 400 real parameters (200 real + 200 imaginary). Trained on 5 relations (sex_differential_expression excluded due to being added after training)."
-    }
-  },
   "signals": {
-    "total": 183544,
-    "strong": 49026,
-    "strong_female_biased": 28669,
-    "strong_male_biased": 20357,
-    "threshold": "|log(ROR_F/ROR_M)| >= 0.5, minimum 10 reports per sex",
-    "unique_drugs": 3441,
-    "unique_adverse_events": 5658,
-    "kg_edges": 96281,
-    "kg_female_higher": 51771,
-    "kg_male_higher": 44510
+    "total_comparisons": 254114,
+    "sex_differential": 96281,
+    "female_higher": 51771,
+    "male_higher": 44510,
+    "log_ratio_gte_1": 32244,
+    "log_ratio_gte_1_female": 18174,
+    "log_ratio_gte_1_male": 14070,
+    "unique_drugs": 2178,
+    "unique_adverse_events": 5069,
+    "rule": "|ln(ROR_F) - ln(ROR_M)| >= 0.5, at least 10 reports per sex. No statistical test is applied; see KNOWN_ISSUES.md.",
+    "source": "GROUND_TRUTH.json"
   },
-  "validation": {
-    "benchmarks": 40,
-    "found": 29,
-    "coverage": "72.5%",
-    "correct_direction": 24,
-    "directional_precision": "82.8%",
-    "wrong_direction": 5,
-    "not_found": 11
-  }
+  "files_note": "edges.tsv and triples.tsv are distributed as edges_deduped.tsv and triples_deduped.tsv (290,177 duplicate rows removed). nodes_patched.tsv adds 3,288 drug nodes missing from nodes.tsv."
 }
