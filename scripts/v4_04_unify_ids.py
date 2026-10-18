@@ -16,6 +16,7 @@ Changes from v4.0:
 Author: J.Shaik (jshaik@coevolvenetwork.com)
 """
 
+import os
 import pandas as pd
 import numpy as np
 import hashlib
@@ -28,7 +29,7 @@ logging.basicConfig(level=logging.INFO, format='%(asctime)s %(levelname)s %(mess
 logger = logging.getLogger(__name__)
 
 # === PATHS ===
-PROJECT = Path("/home/jshaik369/sexdiffkg")
+PROJECT = Path(os.environ.get("SEXDIFFKG_HOME", os.path.expanduser("~/sexdiffkg")))
 KG_V4 = PROJECT / "data" / "kg_v4"
 KG_V42 = PROJECT / "data" / "kg_v42"
 MOLECULAR = PROJECT / "data" / "processed" / "molecular"

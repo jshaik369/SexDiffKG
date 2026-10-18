@@ -26,10 +26,10 @@ import pandas as pd
 from datetime import datetime
 from collections import Counter
 
-BASE = "/home/jshaik369/sexdiffkg"
+BASE = os.environ.get("SEXDIFFKG_HOME", os.path.expanduser("~/sexdiffkg"))
 V5_DIR = f"{BASE}/data/kg_v5"
 V52_DIR = f"{BASE}/data/kg_v5.2"
-VAULT = "/home/jshaik369/AYURFEM-Vault/projects/sexdiffkg"
+VAULT = os.environ.get("SEXDIFFKG_VAULT", os.path.expanduser("~/sexdiffkg-notes"))
 os.makedirs(V52_DIR, exist_ok=True)
 
 print("=" * 70)

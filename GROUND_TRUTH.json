@@ -136,6 +136,7 @@
     }
   },
   "models": {
+    "_status": "Withdrawn pending re-analysis: test edges leaked from training (reverse and duplicate edges), and some values have no matching result file. See KNOWN_ISSUES.md.",
     "ComplEx_v4": {
       "status": "COMPLETE",
       "mrr": 0.2484,

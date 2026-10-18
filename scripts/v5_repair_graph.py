@@ -14,7 +14,7 @@ import hashlib
 from datetime import datetime
 from collections import defaultdict
 
-BASE = "/home/jshaik369/sexdiffkg"
+BASE = os.environ.get("SEXDIFFKG_HOME", os.path.expanduser("~/sexdiffkg"))
 V5_DIR = f"{BASE}/data/kg_v5"
 V51_DIR = f"{BASE}/data/kg_v5.1"
 os.makedirs(V51_DIR, exist_ok=True)
@@ -399,7 +399,7 @@ with open(gt51_path, "w") as f:
 print(f"\n  Saved: {gt51_path}")
 
 # Also copy to vault
-vault_gt = "/home/jshaik369/AYURFEM-Vault/projects/sexdiffkg/GROUND_TRUTH_v5.1.json"
+vault_gt = os.path.join(os.environ.get("SEXDIFFKG_VAULT", os.path.expanduser("~/sexdiffkg-notes")), "GROUND_TRUTH_v5.1.json")
 with open(vault_gt, "w") as f:
     json.dump(gt51, f, indent=2)
 print(f"  Saved: {vault_gt}")

@@ -21,12 +21,10 @@ keywords:
   - drug safety
   - adverse drug reactions
   - FAERS
-  - graph embeddings
 abstract: >-
-  SexDiffKG is a sex-differential knowledge graph integrating 14,536,008
-  deduplicated FDA FAERS reports (87 quarters, 2004Q1-2025Q3) with molecular
-  interaction networks. It contains 109,867 nodes (6 types) and 1,822,851
-  edges (6 relations), including 96,281 sex-differential drug-adverse event
-  signals. ComplEx embedding achieves MRR 0.2484 and Hits@10 40.69%.
-  Validation against 40 literature benchmarks shows 72.5% coverage and
-  82.8% directional precision.
+  SexDiffKG links 14,536,008 deduplicated FDA FAERS reports (87 quarters,
+  2004Q1-2025Q3), analysed separately for women and men, with drug-target,
+  protein-interaction, pathway and gene-expression data. Version 4 contains
+  109,867 nodes and 1,822,851 edges (1,532,674 unique). Sex-difference labels
+  use an untested log-ratio threshold and are under revision; see
+  KNOWN_ISSUES.md in the repository.
